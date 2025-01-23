@@ -9,7 +9,7 @@ parts:
       - file: some_content/text_and_code.ipynb
     - file: Rekenregels voor differentiëren
       sections:
-      - file: exercises/001.md
+      - file: Differentiaalrekening/Rekenregels voor differentiëren/De productregel.md
       - file: exercises/002.md
       - file: exercises/003.md
       - file: exercises/004.md
