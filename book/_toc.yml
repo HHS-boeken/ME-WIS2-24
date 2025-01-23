@@ -7,9 +7,11 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
-    - file: Differentiaalrekening/Rekenregels_voor_differentieren/Intro.md
+    - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections:
+      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
+      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md  
     - file: references.md
     - file: changelog.md
     - file: credits.md
