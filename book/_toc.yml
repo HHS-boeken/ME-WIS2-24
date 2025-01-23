@@ -4,10 +4,8 @@ root: intro.md
 parts:
   - caption: Differentiaalrekening
     chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-    - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
+    - file: Differentiaalrekening/Differentieren/Differentieren.md
+    - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
       sections:
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
