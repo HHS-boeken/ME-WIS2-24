@@ -7,15 +7,9 @@ parts:
     - file: some_content/overview.md
       sections:
       - file: some_content/text_and_code.ipynb
-    - file: Rekenregels voor differentiëren
+    - file: Differentiaalrekening/Rekenregels_voor_differentieren/Intro.md
       sections:
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
-      - file: exercises/002.md
-      - file: exercises/003.md
-      - file: exercises/004.md
-      - file: exercises/005.md
-      - file: exercises/006.md
-      - file: exercises/summary
     - file: references.md
     - file: changelog.md
     - file: credits.md
