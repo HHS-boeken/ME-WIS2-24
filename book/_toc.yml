@@ -11,7 +11,9 @@ parts:
       sections:
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md  
+      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md 
+    - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
+    - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
     - file: references.md
     - file: changelog.md
     - file: credits.md
