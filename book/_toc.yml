@@ -2,7 +2,10 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: Contents
+  - caption: Introductie
+  - caption: Differentiaalrekening 
+  - caption: Integraalrekening
+  - caption: Complexe getallen
     chapters:
     - file: some_content/overview.md
       sections:
