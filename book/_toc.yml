@@ -26,7 +26,7 @@ parts:
   - caption: Integraalrekening
     chapters:
     - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md      
-    sections:
+      sections:
       - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
       - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
       - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md 
