@@ -1,1 +1,1 @@
-# Intro
+# Rekenregels voor differentiëren
