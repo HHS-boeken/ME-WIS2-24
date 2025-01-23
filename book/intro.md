@@ -1,5 +1,5 @@
 (intro)=
-# Welcome to the Template Book
+# Welkom bij de cursus **ME-WIS2-24: Wiskunde 2**
 
 _This is the first page the student will see when opening the url._
 
