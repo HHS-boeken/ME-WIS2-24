@@ -1,87 +1,109 @@
 # De productregel
 
-## Opgaven
+# 4.3 Opgaven
 
-## Uitwerkingen
+## Opgave 4.1a
 
-1. Bereken de afgeleide van de volgende functie:
-   $$
-   f(x) = x^2 e^x
-   $$
+Bepaal de afgeleide van de volgende functie.
+\begin{align*}
+ f(x) = x^2 e^x
+\end{align*}
 
-2. Differentieer de volgende functie:
-   $$
-   g(x) = (x + 1) \sin x
-   $$
+## Opgave 4.1b
 
-3. Toon aan dat de afgeleide van \( h(x) = x \ln x \) gelijk is aan:
-   $$
-   h'(x) = \ln x + 1
-   $$
+Differentieer de volgende functie.
+\begin{align*}
+ g(x) = (x + 1) \cos x
+\end{align*}
 
-4. Differentieer de volgende functie:
-   $$
-   p(x) = (e^x + x^2)(\cos x)
-   $$
+## Opgave 4.1c
 
-5. Bereken de afgeleide van de volgende functie:
-   $$
-   q(x) = x^4 \ln x
-   $$
+Toon aan dat de afgeleide van \( h(x) = x \ln x \) gelijk is aan:
+\begin{align*}
+ h'(x) = \ln x + 1
+\end{align*}
 
-#### Gemiddeld niveau (6-10)
+## Opgave 4.1d
 
-6. Bereken de afgeleide van de volgende functie met de productregel:
-   $$
-   f(x) = (2x^3 + 3x) e^{4x}
-   $$
+Differentieer de volgende functie.
+\begin{align*}
+ p(x) = (e^x + x^2)(\cos x)
+\end{align*}
 
-7. Differentieer de volgende functie en schrijf het resultaat zo eenvoudig mogelijk:
-   $$
-   g(x) = (x^2 + 1)(\ln x)
-   $$
+## Opgave 4.1e
 
-8. Bereken de afgeleide van:
-   $$
-   h(x) = (x^4 - 2x^2) e^x
-   $$
+Bepaal de afgeleide van de volgende functie.
+\begin{align*}
+ q(x) = x^4 \ln x
+\end{align*}
 
-9. Toon aan dat de afgeleide van de functie \( p(x) = x^n e^x \) gegeven wordt door:
-   $$
-   p'(x) = n x^{n-1} e^x + x^n e^x
-   $$
+## Opgave 4.2a
 
-10. Bereken de afgeleide van de functie:
-    $$
-    q(x) = (\ln x + x^2)(e^x)
-    $$
+Bereken de afgeleide van de volgende functie met de productregel.
+\begin{align*}
+ f(x) = (2x^3 + 3x) e^{4x}
+\end{align*}
 
-#### Moeilijk niveau (11-15)
+## Opgave 4.2b
 
-11. Bereken de afgeleide van de volgende functie:
-    $$
-    f(x) = (x^3 + e^x)(\ln x)
-    $$
-    **Hint:** Gebruik de productregel herhaaldelijk en vereenvoudig het resultaat.
+Differentieer de volgende functie en schrijf het resultaat zo eenvoudig mogelijk.
+\begin{align*}
+ g(x) = (x^2 + 1)(\ln x)
+\end{align*}
 
-12. Bereken de afgeleide van de volgende functie, die relevant is voor trillingsanalyse:
-    $$
-    y(t) = e^{-\alpha t} \cos(\omega t)
-    $$
-    **Hint:** Differentieer tweemaal en druk het resultaat uit in termen van \( e^{-\alpha t} \) en sinus/cosinus-functies.
+## Opgave 4.2c
 
-13. Bereken de afgeleide van de volgende functie en toon aan dat het resultaat kan worden herschreven als een product:
-    $$
-    f(x) = (\ln x + e^x)(\sin x + x)
-    $$
+Bereken de afgeleide van:
+\begin{align*}
+ h(x) = (x^4 - 2x^2) e^x
+\end{align*}
 
-14. Bereken de afgeleide van de volgende functie die voorkomt in mechanische trillingen en signaalanalyse:
-    $$
-    z(t) = (t^2 + 1) e^{-t}
-    $$
-    **Hint:** Gebruik zowel de productregel als de kettingregel om tweemaal differentiëren uit te voeren.
+## Opgave 4.2d
 
-15. Differentieer de volgende functie tweemaal, zoals vereist in hogere-orde differentiaalvergelijkingen:
-    $$
-    v(t) = (e^{-t} + \ln (t+1)) (\cos \omega t)
-    $$
+Toon aan dat de afgeleide van de functie \( p(x) = x^n e^x \) wordt gegeven door:
+\begin{align*}
+ p'(x) = n x^{n-1} e^x + x^n e^x
+\end{align*}
+
+## Opgave 4.2e
+
+Bereken de afgeleide van de functie:
+\begin{align*}
+ q(x) = (\ln x + x^2)(e^x)
+\end{align*}
+
+## Opgave 4.3a
+
+Bereken de afgeleide van de volgende functie.
+\begin{align*}
+ f(x) = (x^3 + e^x)(\ln x)
+\end{align*}
+
+## Opgave 4.3b
+
+Differentieer de volgende functie, die relevant is voor trillingsanalyse.
+\begin{align*}
+ y(t) = e^{-\alpha t} \cos(\omega t)
+\end{align*}
+
+## Opgave 4.3c
+
+Bereken de afgeleide van de volgende functie.
+\begin{align*}
+ f(x) = (\ln x + e^x)(\cos x + x)
+\end{align*}
+
+## Opgave 4.3d
+
+Differentieer de volgende functie.
+\begin{align*}
+ z(t) = (t^2 + 1) e^{-t}
+\end{align*}
+
+## Opgave 4.3e
+
+Differentieer:
+\begin{align*}
+ v(t) = (e^{-t} + \ln (t+1)) (\cos \omega t)
+\end{align*}
+
