@@ -6,10 +6,10 @@ parts:
     chapters:
     - file: Algebra/Breuken/Breuken.md
       sections:
-      - file: Algebra/Breuken/Breuken vereenvoudigen.md
-      - file: Algebra/Breuken/Breuken splitsen.md
-      - file: Algebra/Breuken/Breuken optellen en aftrekken.md
-      - file: Algebra/Breuken/Breuken vermenigvuldigen en delen.md
+      - file: Algebra/Breuken/Breuken_vereenvoudigen.md
+      - file: Algebra/Breuken/Breuken_splitsen.md
+      - file: Algebra/Breuken/Breuken_optellen_en_aftrekken.md
+      - file: Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
      
   - caption: Differentiaalrekening
     chapters:
