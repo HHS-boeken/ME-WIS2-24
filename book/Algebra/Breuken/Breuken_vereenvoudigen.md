@@ -234,25 +234,28 @@ De breuk herschrijven:
 :class: important, dropdown
 
 Herleid:
+\begin{align*}
+ \dfrac{x^2-x-12}{x^2+10x+15}
+\end{align*}
 
 
 ```{dropdown} Uitwerking
 
 Herleid:
 \begin{align*}
- \dfrac{x^2-2x-8}{x^2+7x+10}
+ \dfrac{x^2-x-12}{x^2+10x+15}
 \end{align*}
 
 Ontbind de teller en de noemer in factoren:
 
 \begin{align}
- = \dfrac{(x+2)(x-4)}{(x+2)(x+5)}
+ = \dfrac{(x+3)(x-4)}{(x+3)(x+5)}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-4}{x+5} \quad \text{als } x\neq-2
+ = \dfrac{x-4}{x+5} \quad \text{als } x\neq-3
 \end{align}
 ```
 ````
