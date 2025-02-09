@@ -24,7 +24,7 @@ En teller en noemer delen door een getal betekent wel de **hele** teller en de *
 ```{admonition} Voorbeeld 1: Teller ontbinden in factoren
 :class: dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{3x^2-3xy}{x-y}
 \end{align*}
@@ -46,14 +46,14 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 1
 :class: important, dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{8x^2-16x}{4x}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{8x^2-16x}{4x}
 \end{align*}
@@ -79,14 +79,14 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 2
 :class: important, dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{a^2-b^2}{a+b}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{a^2-b^2}{a+b}
 \end{align*}
@@ -114,7 +114,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ```{admonition} Voorbeeld 2: Noemer ontbinden in factoren
 :class: dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{5x}{10x^2-25x}
 \end{align*}
@@ -135,15 +135,14 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 3
 :class: important, dropdown
 
-Herleid:
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{a-b}{b-a}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{a-b}{b-a}
 \end{align*}
@@ -169,13 +168,14 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{x-5}{x^2-25}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{x-5}{x^2-25}
 \end{align*}
@@ -199,7 +199,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ```{admonition} Voorbeeld 3: Teller en Noemer ontbinden in factoren
 :class: dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{x^2-4x+3}{2x-6}
 \end{align*}
@@ -227,7 +227,7 @@ De breuk herschrijven:
 ````{admonition} Oefening 5
 :class: important, dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{x^2-x-12}{x^2+8x+15}
 \end{align*}
@@ -235,7 +235,7 @@ Herleid:
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{x^2-x-12}{x^2+8x+15}
 \end{align*}
@@ -257,14 +257,14 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 6
 :class: important, dropdown
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{2x^2-2x-12}{3x^2+15x+18}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{2x^2-2x-12}{3x^2+15x+18}
 \end{align*}
