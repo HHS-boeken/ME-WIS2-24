@@ -217,14 +217,14 @@ Ontbind de teller en de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-1}{2}\\
+ = \dfrac{x-1}{2} \quad \text{als } x\neq 3
 \end{align}
 
 De breuk herschrijven:
 
 \begin{align}
- =& \dfrac{1}{2}(x-1) \\
- =& \dfrac{1}{2}x - \dfrac{1}{2}
+ =& \dfrac{1}{2}(x-1) \quad \text{als } x\neq 3 \\
+ =& \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
 \end{align}
 ```
 
@@ -250,7 +250,7 @@ Ontbind de teller en de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+ = \dfrac{x-4}{x+5} \quad \text{als } x\neq-2
 \end{align}
 ```
 ````
@@ -285,7 +285,7 @@ Ontbind de teller en de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{2(x-3)}{3(x+3)}
+ = \dfrac{2(x-3)}{3(x+3)} \quad \text{als } x\neq-2
 \end{align}
 ```
 ````
