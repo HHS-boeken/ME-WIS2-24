@@ -167,34 +167,27 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-Herleid:
 \begin{align*}
- \dfrac{2x^2-2x-12}{3x^2+15x+18}
+ \dfrac{x-5}{x^2-25}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
 Herleid:
 \begin{align*}
- \dfrac{2x^2-2x-12}{3x^2+15x+18}
+ \dfrac{x-5}{x^2-25}
 \end{align*}
 
 Ontbind de noemer in factoren:
 
-\begin{align}
- = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
-\end{align}
-
-Ontbind  de noemer in factoren:
-
-\begin{align}
- = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
-\end{align}
+\begin{align*}
+ \dfrac{x-5}{(x-5)(x+5)}
+\end{align*}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{2(x-3)}{3(x+3)}
+ = \dfrac{1}{x+5} \quad \text{als } x\neq 5
 \end{align}
 ```
 ````
