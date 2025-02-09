@@ -1,1 +1,1 @@
-ggk
+# Partiële integratie
