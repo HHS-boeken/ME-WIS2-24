@@ -34,26 +34,32 @@ Dit geldt ook voor verschillen:
 ```
 ````
 
-```{admonition} Voorbeeld 1: Teller ontbinden in factoren
+```{admonition} Voorbeeld 1:
 :class: dropdown
 
-Herleid:
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{3x^2-3xy}{x-y}
+ \dfrac{x^3 + 2x^2 + 5x}{x}
 \end{align*}
 
-Ontbind de teller in factoren:
+Splitsen van de breuk:
 
 \begin{align}
- =  \dfrac{3x(x-y)}{x-y}
+ &= \frac{x^3}{x} + \frac{2x^2}{x} + \frac{5x}{x}
 \end{align}
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Vereenvoudigen:
 
 \begin{align}
- = \dfrac{3x}{1} = 3x \quad \text{als } x\neq y
+ &= x^{3-1} + 2x^{2-1} + 5x^{1-1} \\
+ &= x^2 + 2x + 5
 \end{align}
 
+Gesplitste en vereenvoudigde vorm:
+
+\begin{align}
+ x^2 + 2x + 5, \quad x \neq 0
+\end{align}
 ```
 
 ````{admonition} Oefening 1
@@ -74,7 +80,7 @@ Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 Splitsen van de breuk:
 
 \begin{align}
- &= = \frac{x^3}{x^2} + \frac{2x^2}{x^2} - \frac{x}{x^2} + \frac{4}{x^2}
+ &= \frac{x^3}{x^2} + \frac{2x^2}{x^2} - \frac{x}{x^2} + \frac{4}{x^2}
 \end{align}
 
 Vereenvoudigen:
