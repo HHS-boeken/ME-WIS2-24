@@ -79,12 +79,40 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \begin{align}
  = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
 \end{align}
+```
+````
 
-De breuk herschrijven:
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{2x^2-2x-12}{3x^2+15x+18}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Herleid:
+\begin{align*}
+ \dfrac{2x^2-2x-12}{3x^2+15x+18}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
 
 \begin{align}
- =& \dfrac{1}{2}(x-1) \\
- =& \dfrac{1}{2}x - \dfrac{1}{2}
+ = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
+\end{align}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{2(x-3)}{3(x+3)}
 \end{align}
 ```
 ````
