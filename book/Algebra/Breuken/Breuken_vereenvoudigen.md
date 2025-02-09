@@ -1,4 +1,4 @@
-# Breuken vereenvoudigen
+# 1.1 Breuken vereenvoudigen
 
 
 ```{admonition} Theorie
@@ -21,8 +21,11 @@ Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschri
 
 
 ```
+### 1.1.1 Teller ontbinden in factoren
 
-### Teller en Noemer ontbinden in factoren
+### 1.1.2 Noemer ontbinden in factoren
+
+### 1.1.3 Teller en Noemer ontbinden in factoren
 
 ```{admonition} Voorbeeld 3: Teller en Noemer ontbinden in factoren
 :class: dropdown
@@ -50,11 +53,38 @@ De breuk herschrijven:
  =& \dfrac{1}{2}(x-1) \\
  =& \dfrac{1}{2}x - \dfrac{1}{2}
 \end{align}
+```
 
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Herleid:
+
+
+```{dropdown} Uitwerking
+
+Herleid:
 \begin{align*}
- &\dfrac{x^2-2x-8}{x^2+7x+10} \\
- =& \dfrac{(x+2)(x-4)}{(x+2)(x+5)}  \\
- =& \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+ \dfrac{x^2-2x-8}{x^2+7x+10}
 \end{align*}
 
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{(x+2)(x-4)}{(x+2)(x+5)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+\end{align}
+
+De breuk herschrijven:
+
+\begin{align}
+ =& \dfrac{1}{2}(x-1) \\
+ =& \dfrac{1}{2}x - \dfrac{1}{2}
+\end{align}
 ```
+````
