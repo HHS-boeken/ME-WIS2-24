@@ -40,7 +40,7 @@ Ontbind de teller en de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{3x}{1} = 3x\\
+ = \dfrac{3x}{1} = 3x \quad \text{als } x\neq y
 \end{align}
 
 ```
@@ -49,25 +49,27 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 :class: important, dropdown
 
 Herleid:
-
+\begin{align*}
+ \dfrac{8x^2-16x}{4x}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
 Herleid:
 \begin{align*}
- \dfrac{x^2-2x-8}{x^2+7x+10}
+ \dfrac{8x^2-16x}{4x}
 \end{align*}
 
 Ontbind de teller en de noemer in factoren:
 
 \begin{align}
- = \dfrac{(x+2)(x-4)}{(x+2)(x+5)}
+ = \dfrac{4x(x-4)}{4x}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+ = \dfrac{x-4}{1} \quad \text{als} x\neq-2
 \end{align}
 ```
 ````
