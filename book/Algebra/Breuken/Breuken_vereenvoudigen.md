@@ -45,6 +45,68 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ```
 
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Herleid:
+
+
+```{dropdown} Uitwerking
+
+Herleid:
+\begin{align*}
+ \dfrac{x^2-2x-8}{x^2+7x+10}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{(x+2)(x-4)}{(x+2)(x+5)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+\end{align}
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{2x^2-2x-12}{3x^2+15x+18}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Herleid:
+\begin{align*}
+ \dfrac{2x^2-2x-12}{3x^2+15x+18}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
+\end{align}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{2(x-3)}{3(x+3)}
+\end{align}
+```
+````
+
 ### 1.1.2 Noemer ontbinden in factoren
 
 ```{admonition} Voorbeeld 2: Noemer ontbinden in factoren
@@ -52,7 +114,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 Herleid:
 \begin{align*}
- \dfrac{x^2-4x+3}{2x-6}
+ \dfrac{5x}{10x^2-25x}
 \end{align*}
 
 Ontbind de teller en de noemer in factoren:
@@ -74,6 +136,67 @@ De breuk herschrijven:
  =& \dfrac{1}{2}x - \dfrac{1}{2}
 \end{align}
 ```
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Herleid:
+
+
+```{dropdown} Uitwerking
+
+Herleid:
+\begin{align*}
+ \dfrac{x^2-2x-8}{x^2+7x+10}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{(x+2)(x-4)}{(x+2)(x+5)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+\end{align}
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{2x^2-2x-12}{3x^2+15x+18}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Herleid:
+\begin{align*}
+ \dfrac{2x^2-2x-12}{3x^2+15x+18}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
+\end{align}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{2(x-3)}{3(x+3)}
+\end{align}
+```
+````
 
 ### 1.1.3 Teller en Noemer ontbinden in factoren
 
