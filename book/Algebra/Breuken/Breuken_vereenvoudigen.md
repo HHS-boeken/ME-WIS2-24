@@ -10,17 +10,6 @@ Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschri
 ```
 
 
-```{admonition} Voorbeeld 1:
-:class: dropdown
-
-
-```
-
-```{admonition} Voorbeeld 2:
-:class: dropdown
-
-
-```
 ### 1.1.1 Teller ontbinden in factoren
 
 ```{admonition} Voorbeeld 1: Teller ontbinden in factoren
@@ -31,7 +20,7 @@ Herleid:
  \dfrac{3x^2-3xy}{x-y}
 \end{align*}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind de teller in factoren:
 
 \begin{align}
  =  \dfrac{3x(x-y)}{x-y}
@@ -60,7 +49,7 @@ Herleid:
  \dfrac{8x^2-16x}{4x}
 \end{align*}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind de teller in factoren:
 
 \begin{align}
  = \dfrac{4x(x-4)}{4x}
@@ -73,7 +62,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \end{align}
 
 \begin{align}
- = x-4 \quad \text{als} x\neq 0
+ = x-4 \quad \text{als } x\neq 0
 \end{align}
 ```
 ````
@@ -83,32 +72,30 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 Herleid:
 \begin{align*}
- \dfrac{2x^2-2x-12}{3x^2+15x+18}
+ \dfrac{a^2-b^2}{a+b}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
 Herleid:
 \begin{align*}
- \dfrac{2x^2-2x-12}{3x^2+15x+18}
+ \dfrac{a^2-b^2}{a+b}
 \end{align*}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind de teller in factoren:
 
 \begin{align}
- = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
-\end{align}
-
-Ontbind de teller en de noemer in factoren:
-
-\begin{align}
- = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
+ = \dfrac{(a-b)(a+b)}{(a+b)}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{2(x-3)}{3(x+3)}
+ = \dfrac{(a-b)}{1}
+\end{align}
+
+\begin{align}
+ = a-b \quad \text{als } a\neq -b
 \end{align}
 ```
 ````
@@ -123,7 +110,7 @@ Herleid:
  \dfrac{5x}{10x^2-25x}
 \end{align*}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind de noemer in factoren:
 
 \begin{align}
  = \dfrac{(x-1)(x-3)}{2(x-3)}  \\
@@ -142,34 +129,42 @@ De breuk herschrijven:
  =& \dfrac{1}{2}x - \dfrac{1}{2}
 \end{align}
 ```
-````{admonition} Oefening 1
+
+````{admonition} Oefening 3
 :class: important, dropdown
 
 Herleid:
-
+Herleid:
+\begin{align*}
+ \dfrac{a-b}{b-a}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
 Herleid:
 \begin{align*}
- \dfrac{x^2-2x-8}{x^2+7x+10}
+ \dfrac{a-b}{b-a}
 \end{align*}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind de noemer in factoren:
 
 \begin{align}
- = \dfrac{(x+2)(x-4)}{(x+2)(x+5)}
+ = \dfrac{(a-b)}{-(a-b)}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+ = \dfrac{1}{-1}
+\end{align}
+
+\begin{align}
+ = -1 \quad \text{als } a\neq b
 \end{align}
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 4
 :class: important, dropdown
 
 Herleid:
@@ -184,13 +179,13 @@ Herleid:
  \dfrac{2x^2-2x-12}{3x^2+15x+18}
 \end{align*}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind de noemer in factoren:
 
 \begin{align}
  = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
 \end{align}
 
-Ontbind de teller en de noemer in factoren:
+Ontbind  de noemer in factoren:
 
 \begin{align}
  = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
@@ -234,12 +229,12 @@ De breuk herschrijven:
 \end{align}
 ```
 
-````{admonition} Oefening 1
+````{admonition} Oefening 5
 :class: important, dropdown
 
 Herleid:
 \begin{align*}
- \dfrac{x^2-x-12}{x^2+10x+15}
+ \dfrac{x^2-x-12}{x^2+8x+15}
 \end{align*}
 
 
@@ -264,7 +259,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 6
 :class: important, dropdown
 
 Herleid:
