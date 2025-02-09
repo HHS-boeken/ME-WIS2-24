@@ -13,7 +13,8 @@ Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschri
 We mogen de teller en de noemer van een breuk door hetzelfde getal **delen**, maar we mogen er niet  een getal van aftrekken(of bij optellen).
 
 We spreken daarom ook van **wegdelen** en niet van wegstrepen!!
-En teller en noemer delen door een getal betekent wel de *hele* teller en de **hele** noemer erdoor delen. Daarom kunnen we de teller en de noemer het beste eerst ontbinden in faxtoren en vervolgens delen door de gemeenschappelijke factor.
+
+En teller en noemer delen door een getal betekent wel de **hele** teller en de **hele** noemer erdoor delen. Daarom kunnen we de teller en de noemer het beste eerst ontbinden in faxtoren en vervolgens delen door de gemeenschappelijke factor.
 ```
 ````
 
