@@ -23,7 +23,57 @@ Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschri
 ```
 ### 1.1.1 Teller ontbinden in factoren
 
+```{admonition} Voorbeeld 1: Teller ontbinden in factoren
+:class: dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{3x^2-3xy}{x-y}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ =  \dfrac{3x(x-y)}{x-y}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{3x}{1} = 3x\\
+\end{align}
+
+```
+
 ### 1.1.2 Noemer ontbinden in factoren
+
+```{admonition} Voorbeeld 2: Noemer ontbinden in factoren
+:class: dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{x^2-4x+3}{2x-6}
+\end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{(x-1)(x-3)}{2(x-3)}  \\
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{x-1}{2}\\
+\end{align}
+
+De breuk herschrijven:
+
+\begin{align}
+ =& \dfrac{1}{2}(x-1) \\
+ =& \dfrac{1}{2}x - \dfrac{1}{2}
+\end{align}
+```
 
 ### 1.1.3 Teller en Noemer ontbinden in factoren
 
