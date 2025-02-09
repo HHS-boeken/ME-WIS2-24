@@ -1,27 +1,29 @@
-# Breuken vereenvoudigen
+# Opgaven
 
-## Opgave 1a
+## Breuken vereenvoudigen
+
+### Opgave 1a
 
 Herleid.
 \begin{align*}
  \dfrac{15a^2b^5c}{25ab^3d^2}
 \end{align*}
 
-## Opgave 1b
+### Opgave 1b
 
 Herleid.
 \begin{align*}
  \dfrac{a^2+6a+8}{a^2+a-12}
 \end{align*}
 
-## Opgave 1c
+### Opgave 1c
 
 Herleid.
 \begin{align*}
  \dfrac{a^2+b^2}{a+b}
 \end{align*}
 
-## Opgave 1d
+### Opgave 1d
 
 Bepaal analytisch de algemene oplossing van de volgende differentiaalvergelijking.
 \begin{align*}
