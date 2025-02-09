@@ -2,6 +2,15 @@ format: jb-book
 root: intro.md
 
 parts:
+  - caption: Algebra
+    chapters:
+    - file: Algebra/Breuken/Breuken.md
+      sections:
+      - file: Algebra/Breuken/Breuken vereenvoudigen.md
+      - file: Algebra/Breuken/Breuken splitsen.md
+      - file: Algebra/Breuken/Breuken optellen en aftrekken.md
+      - file: Algebra/Breuken/Breuken vermenigvuldigen en delen.md
+     
   - caption: Differentiaalrekening
     chapters:
     - file: Differentiaalrekening/Differentieren/Differentieren.md
