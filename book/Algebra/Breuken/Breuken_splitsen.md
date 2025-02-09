@@ -33,3 +33,93 @@ Dit geldt ook voor verschillen:
 1. Limieten en reeksontwikkeling: In limietberekeningen kunnen gesplitste breuken eenvoudiger uit te rekenen zijn.
 ```
 ````
+
+```{admonition} Voorbeeld 1: Teller ontbinden in factoren
+:class: dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{3x^2-3xy}{x-y}
+\end{align*}
+
+Ontbind de teller in factoren:
+
+\begin{align}
+ =  \dfrac{3x(x-y)}{x-y}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{3x}{1} = 3x \quad \text{als } x\neq y
+\end{align}
+
+```
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Herleid:
+\begin{align*}
+ \dfrac{8x^2-16x}{4x}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Herleid:
+\begin{align*}
+ \dfrac{8x^2-16x}{4x}
+\end{align*}
+
+Ontbind de teller in factoren:
+
+\begin{align}
+ = \dfrac{4x(2x-4)}{4x}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{2x-4}{1}
+\end{align}
+
+\begin{align}
+ = x-4 \quad \text{als } x\neq 0
+\end{align}
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+\begin{align}
+ \dfrac{x^2y + xy^2 - y^3}{xy}
+\end{align}
+
+```{dropdown} Uitwerking
+
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+\begin{align}
+ \dfrac{x^2y + xy^2 - y^3}{xy}
+\end{align}
+
+Splitsen van de breuk:
+
+\begin{align}
+ &= \frac{x^2y}{xy} + \frac{xy^2}{xy} - \frac{y^3}{xy}
+\end{align}
+
+Vereenvoudigen:
+
+\begin{align}
+ &= x + y - \frac{y^2}{x}
+\end{align}
+
+Gesplitste en vereenvoudigde vorm:
+
+\begin{align}
+x + y - \frac{y^2}{x}, \quad x \neq 0, y \neq 0
+\end{align}
+```
+````
