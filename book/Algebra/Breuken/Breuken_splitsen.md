@@ -59,32 +59,34 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Oefening 1
 :class: important, dropdown
 
-Herleid:
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{8x^2-16x}{4x}
+ \dfrac{x^3 + 2x^2 - x + 4}{x^2}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Herleid:
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{8x^2-16x}{4x}
+ \dfrac{x^3 + 2x^2 - x + 4}{x^2}
 \end{align*}
 
-Ontbind de teller in factoren:
+Splitsen van de breuk:
 
 \begin{align}
- = \dfrac{4x(2x-4)}{4x}
+ &= = \frac{x^3}{x^2} + \frac{2x^2}{x^2} - \frac{x}{x^2} + \frac{4}{x^2}
 \end{align}
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Vereenvoudigen:
 
 \begin{align}
- = \dfrac{2x-4}{1}
+ &= x + 2 - \frac{1}{x} + \frac{4}{x^2}
 \end{align}
 
+Gesplitste en vereenvoudigde vorm:
+
 \begin{align}
- = x-4 \quad \text{als } x\neq 0
+ & x + 2 - \frac{1}{x} + \frac{4}{x^2}
 \end{align}
 ```
 ````
@@ -93,16 +95,16 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 :class: important, dropdown
 
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align}
+\begin{align*}
  \dfrac{x^2y + xy^2 - y^3}{xy}
-\end{align}
+\end{align*}
 
 ```{dropdown} Uitwerking
 
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align}
+\begin{align*}
  \dfrac{x^2y + xy^2 - y^3}{xy}
-\end{align}
+\end{align*}
 
 Splitsen van de breuk:
 
