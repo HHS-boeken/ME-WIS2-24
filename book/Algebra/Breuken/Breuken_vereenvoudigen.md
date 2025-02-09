@@ -25,14 +25,34 @@ Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschri
 ```{admonition} Voorbeeld 3: Teller en Noemer ontbinden in factoren
 :class: dropdown
 
-\begin{align*}
- &\dfrac{x^2-4x+3}{2x-6} \\
- =& \dfrac{(x-1)(x-3)}{2(x-3)}  \\
- =& \dfrac{x-1}{2}\\
+Herleid:
+\begin{align}
+ \dfrac{x^2-4x+3}{2x-6}
+\end{align}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{(x-1)(x-3)}{2(x-3)}  \\
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ & \dfrac{x-1}{2}\\
+\end{align}
+
+De breuk herschrijven:
+
+\begin{align}
  =& \dfrac{1}{2}(x-1) \\
  =& \dfrac{1}{2}x - \dfrac{1}{2}
 \end{align*}
 
-
+\begin{align*}
+ &\dfrac{x^2-2x-8}{x^2+7x+10} \\
+ =& \dfrac{(x+2)(x-4)}{(x+2)(x+5)}  \\
+ =& \dfrac{x-4}{x+5} \quad \text{als} x\neq-2
+\end{align*}
 
 ```
