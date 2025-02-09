@@ -1,1 +1,1 @@
-# Breuken en variabelen vrijmaken
+# 1.6 Breuken en variabelen vrijmaken
