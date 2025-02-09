@@ -52,13 +52,13 @@ Herleid:
 Ontbind de teller in factoren:
 
 \begin{align}
- = \dfrac{4x(x-4)}{4x}
+ = \dfrac{4x(2x-4)}{4x}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-4}{1}
+ = \dfrac{2x-4}{1}
 \end{align}
 
 \begin{align}
@@ -112,21 +112,14 @@ Herleid:
 
 Ontbind de noemer in factoren:
 
-\begin{align}
- = \dfrac{(x-1)(x-3)}{2(x-3)}  \\
-\end{align}
+\begin{align*}
+ \dfrac{5x}{5x(2x-5)}
+\end{align*}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-1}{2}\\
-\end{align}
-
-De breuk herschrijven:
-
-\begin{align}
- =& \dfrac{1}{2}(x-1) \\
- =& \dfrac{1}{2}x - \dfrac{1}{2}
+ = \dfrac{1}{2x-5} \text{als } x\neq 0
 \end{align}
 ```
 
