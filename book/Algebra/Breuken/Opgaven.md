@@ -69,3 +69,10 @@ Los de volgende differentiaalvergelijking met aanvullende voorwaarden exact op.
 \begin{align*}
  3\dfrac{d^2y}{dx^2} + 6\dfrac{dy}{dx} + 15y = 5e^x \qquad \text{ met } y(0)=2, y'(0)=4
 \end{align*}
+
+
+# Breuken splitsen
+
+# Breuken optellen en aftrekken
+
+# Breuken vermenigvuldigen en delen
