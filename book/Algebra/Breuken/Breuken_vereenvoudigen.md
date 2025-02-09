@@ -69,7 +69,11 @@ Ontbind de teller en de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-4}{1} \quad \text{als} x\neq-2
+ = \dfrac{x-4}{1}
+\end{align}
+
+\begin{align}
+ = x-4 \quad \text{als} x\neq 0
 \end{align}
 ```
 ````
@@ -219,13 +223,13 @@ Ontbind de teller en de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{x-1}{2} \quad \text{als } x\neq 3
+ = \dfrac{x-1}{2}
 \end{align}
 
 De breuk herschrijven:
 
 \begin{align}
- =& \dfrac{1}{2}(x-1) \quad \text{als } x\neq 3 \\
+ =& \dfrac{1}{2}(x-1) \\
  =& \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
 \end{align}
 ```
@@ -243,7 +247,7 @@ Herleid:
 
 Herleid:
 \begin{align*}
- \dfrac{x^2-x-12}{x^2+10x+15}
+ \dfrac{x^2-x-12}{x^2+8x+15}
 \end{align*}
 
 Ontbind de teller en de noemer in factoren:
