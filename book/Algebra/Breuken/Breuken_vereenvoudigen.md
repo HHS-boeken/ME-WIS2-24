@@ -8,12 +8,12 @@ In de algebra werken we vaak met breuken waarin variabelen voorkomen. Dit noemen
 
 Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschrijven in een zo eenvoudig mogelijke vorm door gemeenschappelijke factoren uit de teller en noemer te delen. Dit gebeurt zonder de waarde van de breuk te veranderen, op voorwaarde dat we rekening houden met restricties voor de variabelen (waarden waarvoor de breuk ongedefinieerd is).
 
-```{warning}
-:class: tip, dropdown open
+```{admonition} Wegdelen vs. Wegstrepen
+:class: warning
 We mogen de teller en de noemer van een breuk door hetzelfde getal **delen**, maar we mogen er niet  een getal van aftrekken(of bij optellen).
 
 We spreken daarom ook van **wegdelen** en niet van wegstrepen!!
-En teller en noemer 
+En teller en noemer delen door een getal betekent wel de *hele* teller en de **hele** noemer erdoor delen. Daarom kunnen we de teller en de noemer het beste eerst ontbinden in faxtoren en vervolgens delen door de gemeenschappelijke factor.
 ```
 ````
 
@@ -127,7 +127,7 @@ Ontbind de noemer in factoren:
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 \begin{align}
- = \dfrac{1}{2x-5} \text{als } x\neq 0
+ = \dfrac{1}{2x-5} \quad \text{als } x\neq 0
 \end{align}
 ```
 
