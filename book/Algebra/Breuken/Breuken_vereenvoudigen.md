@@ -1,13 +1,21 @@
 # 1.1 Breuken vereenvoudigen
 
 
-```{admonition} Theorie
+````{admonition} Theorie
 :class: tip, dropdown open
 
 In de algebra werken we vaak met breuken waarin variabelen voorkomen. Dit noemen we algebraïsche breuken. Net zoals bij numerieke breuken kunnen we algebraïsche breuken optellen, aftrekken, vermenigvuldigen, delen en vereenvoudigen.
 
 Het vereenvoudigen van een algebraïsche breuk betekent dat we de breuk herschrijven in een zo eenvoudig mogelijke vorm door gemeenschappelijke factoren uit de teller en noemer te delen. Dit gebeurt zonder de waarde van de breuk te veranderen, op voorwaarde dat we rekening houden met restricties voor de variabelen (waarden waarvoor de breuk ongedefinieerd is).
+
+```{warning}
+:class: tip, dropdown open
+We mogen de teller en de noemer van een breuk door hetzelfde getal **delen**, maar we mogen er niet  een getal van aftrekken(of bij optellen).
+
+We spreken daarom ook van **wegdelen** en niet van wegstrepen!!
+En teller en noemer 
 ```
+````
 
 
 ### 1.1.1 Teller ontbinden in factoren
