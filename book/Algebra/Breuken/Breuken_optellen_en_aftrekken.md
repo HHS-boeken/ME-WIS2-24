@@ -40,6 +40,8 @@ Wanneer de noemers verschillend zijn, moeten we eerst de \textbf{kleinste gemene
 \end{align*}
 ````
 
+## Optellen en aftrekken met gemeenschappelijke noemers
+
 Voorbeeld 3: Optellen met verschillende noemers
 \begin{align*}
 \frac{x}{4} + \frac{2}{6}
@@ -78,6 +80,8 @@ De kgv van 5 en 7 is 35.
 
 Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene veelvoud (kgv)}, net zoals bij getallen.
 
+## Optellen en aftrekken met verschillende noemers
+
 ```{admonition} Voorbeeld 5: Algebraïsche noemers
 :class: dropdown
 
@@ -85,21 +89,21 @@ Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene v
 \frac{3}{x} + \frac{2}{x + 1}
 \end{align*}
 
-\textbf{Stap 1: Bepaal de kleinste gemene noemer} \\
+Bepaal de kleinste gemene noemer \\
 De kleinste gemene noemer is \( x(x + 1) \).
 
-\textbf{Stap 2: Herschrijf de breuken}
+Herschrijf de breuken
 \begin{align*}
 \frac{3}{x} &= \frac{3(x + 1)}{x(x + 1)}, \\
 \frac{2}{x + 1} &= \frac{2x}{x(x + 1)}
 \end{align*}
 
-\textbf{Stap 3: Optellen van de breuken}
+Optellen van de breuken
 \begin{align*}
 \frac{3(x + 1)}{x(x + 1)} + \frac{2x}{x(x + 1)}
 \end{align*}
 
-Vereenvoudigen
+Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
 \frac{3x + 3 + 2x}{x(x + 1)} &= \frac{5x + 3}{x(x + 1)}
 \end{align*}
@@ -126,9 +130,9 @@ Aftrekken van de breuken:
 \frac{5(x + 2)}{(x - 2)(x + 2)} - \frac{3(x - 2)}{(x - 2)(x + 2)}
 \end{align*}
 
-Uitwerken van de tellers:
+Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-\frac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
+& \frac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
 &= \frac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
 &= \frac{2x + 16}{(x - 2)(x + 2)}
 \end{align*}
