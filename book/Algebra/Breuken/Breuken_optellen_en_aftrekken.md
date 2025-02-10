@@ -99,7 +99,7 @@ De kleinste gemene noemer is \( x(x + 1) \).
 \frac{3(x + 1)}{x(x + 1)} + \frac{2x}{x(x + 1)}
 \end{align*}
 
-\textbf{Stap 4: Vereenvoudigen}
+Vereenvoudigen
 \begin{align*}
 \frac{3x + 3 + 2x}{x(x + 1)} &= \frac{5x + 3}{x(x + 1)}
 \end{align*}
@@ -112,23 +112,24 @@ De kleinste gemene noemer is \( x(x + 1) \).
 \frac{5}{x - 2} - \frac{3}{x + 2}
 \end{align*}
 
-\textbf{Stap 1: Bepaal de kleinste gemene noemer} \\
+Stap 1: Bepaal de kleinste gemene noemer \\
 De kgv van \( (x - 2) \) en \( (x + 2) \) is \( (x - 2)(x + 2) \).
 
-\textbf{Stap 2: Herschrijf de breuken}
+Herschrijf de breuken:
 \begin{align*}
 \frac{5}{x - 2} &= \frac{5(x + 2)}{(x - 2)(x + 2)}, \\
 \frac{3}{x + 2} &= \frac{3(x - 2)}{(x - 2)(x + 2)}
 \end{align*}
 
-\textbf{Stap 3: Aftrekken van de breuken}
+Aftrekken van de breuken:
 \begin{align*}
 \frac{5(x + 2)}{(x - 2)(x + 2)} - \frac{3(x - 2)}{(x - 2)(x + 2)}
 \end{align*}
 
-\textbf{Stap 4: Uitwerken van de tellers}
+Uitwerken van de tellers:
 \begin{align*}
-\frac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} &= \frac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
+\frac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
+&= \frac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
 &= \frac{2x + 16}{(x - 2)(x + 2)}
 \end{align*}
 ```
