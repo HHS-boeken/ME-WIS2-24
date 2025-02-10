@@ -89,8 +89,8 @@ Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene v
 \frac{3}{x} + \frac{2}{x + 1}
 \end{align*}
 
-Bepaal de kleinste gemene noemer \\
-De kleinste gemene noemer is \( x(x + 1) \).
+Bepaal de kleinste gemene noemer:
+De kleinste gemene noemer is $x(x + 1)$.
 
 Herschrijf de breuken
 \begin{align*}
@@ -105,7 +105,8 @@ Optellen van de breuken
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-\frac{3x + 3 + 2x}{x(x + 1)} &= \frac{5x + 3}{x(x + 1)}
+& \frac{3x + 3 + 2x}{x(x + 1)}\\
+&= \frac{5x + 3}{x(x + 1)}
 \end{align*}
 ```
 
@@ -116,8 +117,8 @@ Uitwerken van de tellers en vereenvoudigen:
 \frac{5}{x - 2} - \frac{3}{x + 2}
 \end{align*}
 
-Stap 1: Bepaal de kleinste gemene noemer \\
-De kgv van \( (x - 2) \) en \( (x + 2) \) is \( (x - 2)(x + 2) \).
+Bepaal de kleinste gemene noemer:
+De kgv van $(x - 2)$ en $(x + 2)$ is $(x - 2)(x + 2)$.
 
 Herschrijf de breuken:
 \begin{align*}
