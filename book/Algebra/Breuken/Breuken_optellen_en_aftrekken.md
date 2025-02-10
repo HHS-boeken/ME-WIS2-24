@@ -40,7 +40,10 @@ Wanneer de noemers verschillend zijn, moeten we eerst de \textbf{kleinste gemene
 \end{align*}
 ````
 
-## Optellen en aftrekken met gemeenschappelijke noemers
+## 1.3.1 Optellen en aftrekken met gemeenschappelijke noemers
+
+```{admonition} Voorbeeld 5: Aftrekken met verschillende noemers
+:class: dropdown
 
 Voorbeeld 3: Optellen met verschillende noemers
 \begin{align*}
@@ -58,8 +61,12 @@ De kgv van 4 en 6 is 12.
 \begin{align*}
 \frac{3x}{12} + \frac{4}{12} &= \frac{3x + 4}{12}
 \end{align*}
+```
 
-Voorbeeld 4: Aftrekken met verschillende noemers
+```{admonition} Voorbeeld 5: Aftrekken met verschillende noemers
+:class: dropdown
+
+Voorbeeld 4: 
 \begin{align*}
 \frac{x}{5} - \frac{3}{7}
 \end{align*}
@@ -75,12 +82,13 @@ De kgv van 5 en 7 is 35.
 \begin{align*}
 \frac{7x}{35} - \frac{15}{35} &= \frac{7x - 15}{35}
 \end{align*}
+```
 
 4. Optellen en aftrekken met algebraïsche noemers
 
 Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene veelvoud (kgv)}, net zoals bij getallen.
 
-## Optellen en aftrekken met verschillende noemers
+## 1.3.2 Optellen en aftrekken met verschillende noemers
 
 ```{admonition} Voorbeeld 5: Algebraïsche noemers
 :class: dropdown
