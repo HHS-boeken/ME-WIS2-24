@@ -52,12 +52,12 @@ Voorbeeld 3: Optellen met verschillende noemers
 \textbf{Stap 1: Bepaal de kleinste gemene noemer (kgv)} \\
 De kgv van 4 en 6 is 12.
 
-\textbf{Stap 2: Herschrijf de breuken met 12 als noemer}
+Herschrijf de breuken met 12 als noemer
 \begin{align*}
 \frac{x}{4} &= \frac{3x}{12}, \quad \frac{2}{6} = \frac{4}{12}
 \end{align*}
 
-\textbf{Stap 3: Optellen van de breuken}
+Optellen van de breuken
 \begin{align*}
 \frac{3x}{12} + \frac{4}{12} &= \frac{3x + 4}{12}
 \end{align*}
