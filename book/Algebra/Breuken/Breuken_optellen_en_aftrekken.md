@@ -49,7 +49,8 @@ Voorbeeld 3: Optellen met verschillende noemers
 \begin{align*}
 \frac{x}{4} + \frac{2}{6}
 \end{align*}
-\textbf{Stap 1: Bepaal de kleinste gemene noemer (kgv)} \\
+
+Bepaal de kleinste gemene noemer (kgv)} \\
 De kgv van 4 en 6 is 12.
 
 Herschrijf de breuken met 12 als noemer
@@ -70,15 +71,16 @@ Voorbeeld 4:
 \begin{align*}
 \frac{x}{5} - \frac{3}{7}
 \end{align*}
-\textbf{Stap 1: Bepaal de kleinste gemene noemer (kgv)} \\
+
+Bepaal de kleinste gemene noemer (kgv)} \\
 De kgv van 5 en 7 is 35.
 
-\textbf{Stap 2: Herschrijf de breuken met 35 als noemer}
+Herschrijf de breuken met 35 als noemer:
 \begin{align*}
 \frac{x}{5} &= \frac{7x}{35}, \quad \frac{3}{7} = \frac{15}{35}
 \end{align*}
 
-\textbf{Stap 3: Aftrekken van de breuken}
+Aftrekken van de breuken:
 \begin{align*}
 \frac{7x}{35} - \frac{15}{35} &= \frac{7x - 15}{35}
 \end{align*}
