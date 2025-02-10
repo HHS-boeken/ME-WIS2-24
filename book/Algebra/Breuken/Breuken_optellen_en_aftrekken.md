@@ -1,9 +1,11 @@
 # 1.3 Breuken optellen en aftrekken
 
+````{admonition} Theorie
+:class: tip, dropdown open
 
 Breuken zijn een fundamenteel onderdeel van algebra en worden veel gebruikt in wiskunde en techniek. Bij het optellen en aftrekken van breuken met variabelen is het belangrijk om de regels van breukrekenen correct toe te passen. Dit vereist onder andere het bepalen van een gemeenschappelijke noemer en het correct verwerken van algebraïsche termen.
 
-Basisregel voor optellen en aftrekken van breuken}
+Basisregel voor optellen en aftrekken van breuken
 
 Bij het optellen en aftrekken van breuken geldt de volgende algemene regel:
 
@@ -12,18 +14,18 @@ Bij het optellen en aftrekken van breuken geldt de volgende algemene regel:
 \frac{a}{c} - \frac{b}{c} &= \frac{a - b}{c}, \quad \text{mits } c \neq 0.
 \end{align*}
 
-Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, moet er eerst een \textbf{gemeenschappelijke noemer} worden gevonden.
+Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, moet er eerst een **gemeenschappelijke noemer** worden gevonden.
 
 2. Optellen en aftrekken met dezelfde noemer
 
 Als de breuken dezelfde noemer hebben, dan kunnen de tellers direct bij elkaar opgeteld of van elkaar afgetrokken worden.
 
-\subsection*{Voorbeeld 1: Eenvoudige som}
+Voorbeeld 1: Eenvoudige som
 \begin{align*}
 \frac{x}{5} + \frac{3}{5} &= \frac{x + 3}{5}
 \end{align*}
 
-\subsection*{Voorbeeld 2: Aftrekken van breuken}
+Voorbeeld 2: Aftrekken van breuken
 \begin{align*}
 \frac{7x}{9} - \frac{2x}{9} &= \frac{(7x - 2x)}{9} = \frac{5x}{9}
 \end{align*}
@@ -36,6 +38,7 @@ Wanneer de noemers verschillend zijn, moeten we eerst de \textbf{kleinste gemene
 \frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
 \frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
 \end{align*}
+````
 
 Voorbeeld 3: Optellen met verschillende noemers
 \begin{align*}
@@ -75,7 +78,9 @@ De kgv van 5 en 7 is 35.
 
 Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene veelvoud (kgv)}, net zoals bij getallen.
 
-Voorbeeld 5: Algebraïsche noemers
+```{admonition} Voorbeeld 5: Algebraïsche noemers
+:class: dropdown
+
 \begin{align*}
 \frac{3}{x} + \frac{2}{x + 1}
 \end{align*}
@@ -98,8 +103,11 @@ De kleinste gemene noemer is \( x(x + 1) \).
 \begin{align*}
 \frac{3x + 3 + 2x}{x(x + 1)} &= \frac{5x + 3}{x(x + 1)}
 \end{align*}
+```
 
-\subsection*{Voorbeeld 6: Aftrekken van algebraïsche breuken}
+```{admonition} Voorbeeld 6: Aftrekken van algebraïsche breuken
+:class: dropdown
+
 \begin{align*}
 \frac{5}{x - 2} - \frac{3}{x + 2}
 \end{align*}
@@ -123,6 +131,7 @@ De kgv van \( (x - 2) \) en \( (x + 2) \) is \( (x - 2)(x + 2) \).
 \frac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} &= \frac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
 &= \frac{2x + 16}{(x - 2)(x + 2)}
 \end{align*}
+```
 
 \section*{5. Samenvatting}
 \begin{itemize}
