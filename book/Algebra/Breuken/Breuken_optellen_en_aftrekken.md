@@ -90,6 +90,34 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 ```
 ````
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
 
 ```{admonition} Voorbeeld 2: Aftrekken met gelijknamige noemers
 :class: dropdown
@@ -144,7 +172,63 @@ Aftrekken van de breuken:
 \frac{7x}{35} - \frac{15}{35} &= \frac{7x - 15}{35}
 \end{align*}
 ```
+````{admonition} Oefening 3
+:class: important, dropdown
 
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
+
+````{admonition} Oefening 4
+:class: important, dropdown
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
 
 
 ## 1.3.2 Optellen en aftrekken met verschillende noemers
@@ -177,6 +261,64 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 ```
 
+````{admonition} Oefening 5
+:class: important, dropdown
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
+
+````{admonition} Oefening 6
+:class: important, dropdown
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
+
 ```{admonition} Voorbeeld 4: Aftrekken met verschillende noemers
 :class: dropdown
 
@@ -205,6 +347,62 @@ Uitwerken van de tellers en vereenvoudigen:
 &= \frac{2x + 16}{(x - 2)(x + 2)}
 \end{align*}
 ```
+````{admonition} Oefening 7
+:class: important, dropdown
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
+````{admonition} Oefening 8
+:class: important, dropdown
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
+```
+````
 
 \section*{5. Samenvatting}
 \begin{itemize}
