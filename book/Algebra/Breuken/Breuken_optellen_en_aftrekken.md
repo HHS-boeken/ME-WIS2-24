@@ -217,7 +217,6 @@ Uitwerken van de tellers en vereenvoudigen:
 ```
 ````
 
-
 ## 1.3.2 Optellen en aftrekken met verschillende noemers
 
 ```{admonition} Voorbeeld 3: Optellen met verschillende noemers
