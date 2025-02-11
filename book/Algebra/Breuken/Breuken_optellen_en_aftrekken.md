@@ -139,26 +139,25 @@ Aftrekken van de breuken:
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align}
- &= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1}
+ &= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1} \\
  &= \frac{-x + 4}{x^2 + 2x + 1}
 \end{align}
 
 **Voorbeeld 5b:**
 \begin{align*}
-\frac{2x^2}{x^2-3x} + \frac{x^2+5x}{x^2 - 3x}
+\frac{x^2 + 2x}{x^2 - 4} - \frac{x + 1}{x^2 - 4}
 \end{align*}
 
-Optellen van de breuken:
-\begin{align*}
-& = \frac{2x^2+(x^2+5x)}{x^2 - 3x}
-\end{align*}
+Aftrekken van de breuken:
+\begin{align}
+\frac{(x^2 + 2x) - (x + 1)}{x^2 - 4}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
-& = \frac{3x^2+5x}{x^2 - 3x} \\
-& = \frac{x(3x+5)}{x(x - 3)} \\
-& = \frac{(3x+5)}{(x - 3)} \\
-\end{align*}
+\begin{align}
+ &= \frac{x^2 + 2x - x - 1}{x^2 - 4} \\
+ &= \frac{x^2 + x - 1}{x^2 - 4}
+\end{align}
 ```
 
 ````{admonition} Oefening 3
