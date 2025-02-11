@@ -6,6 +6,7 @@
 Breuken zijn een fundamenteel onderdeel van algebra en worden veel gebruikt in wiskunde en techniek. Bij het vermenigvuldigen van breuken met variabelen is het belangrijk om de regels van breukrekenen correct toe te passen. Dit vereist onder andere het **vermenigvuldigen van tellers en noemers** en het **vereenvoudigen van de breuk**.
 
 **Basisregel voor vermenigvuldigen van breuken**
+
 Bij het vermenigvuldigen van breuken geldt de volgende algemene regel:
 
 \begin{align*}

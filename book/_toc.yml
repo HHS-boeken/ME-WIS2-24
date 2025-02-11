@@ -13,6 +13,7 @@ parts:
       - file: Algebra/Breuken/Breuken_omschrijven.md
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
       - file: Algebra/Breuken/Opgaven.md
+      - file: Algebra/Breuken/Uitwerkingen.md
      
   - caption: Differentiaalrekening
     chapters:
