@@ -10,8 +10,8 @@ Basisregel voor optellen en aftrekken van breuken
 Bij het optellen en aftrekken van breuken geldt de volgende algemene regel:
 
 \begin{align*}
-\frac{a}{c} + \frac{b}{c} &= \frac{a + b}{c}, \quad \text{mits } c \neq 0, \\
-\frac{a}{c} - \frac{b}{c} &= \frac{a - b}{c}, \quad \text{mits } c \neq 0.
+ \frac{a}{c} + \frac{b}{c} &= \frac{a + b}{c}, \quad \text{mits } c \neq 0, \\
+ \frac{a}{c} - \frac{b}{c} &= \frac{a - b}{c}, \quad \text{mits } c \neq 0.
 \end{align*}
 
 Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, moet er eerst een ***gemeenschappelijke noemer*** worden gevonden.
@@ -19,8 +19,8 @@ Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, 
 Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Dit doen we door de ***kleinste gemene noemer (kgv)*** te bepalen. Dit is het kleinste getal (of uitdrukking) dat door beide noemers deelbaar is. In de praktijk werkt het ook om de teller en de noemer van de ene breuk te vermenigvuldigen met de noemer van de andere breuk.
 
 \begin{align*}
-\frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{d \cdot c} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
-\frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{d \cdot c} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
+ \frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{d \cdot c} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
+ \frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{d \cdot c} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
 \end{align*}
 ````
 
@@ -31,34 +31,34 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 
 **Voorbeeld 1a:**
 \begin{align*}
-\dfrac{3+2x}{x+1} + \frac{2}{x + 1}
+ \dfrac{3+2x}{x+1} + \dfrac{2}{x + 1}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align*}
-&= \dfrac{(3+2x)+2}{x+1}
+ &= \dfrac{(3+2x)+2}{x+1}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-&= \dfrac{2x+5}{x+1}
+ &= \dfrac{2x+5}{x+1}
 \end{align*}
 
 **Voorbeeld 1b:**
 \begin{align*}
-\dfrac{2x^2}{x^2-3x} + \dfrac{x^2+5x}{x^2 - 3x}
+ \dfrac{2x^2}{x^2-3x} + \dfrac{x^2+5x}{x^2 - 3x}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align*}
-& = \dfrac{2x^2+(x^2+5x)}{x^2 - 3x}
+ & = \dfrac{2x^2+(x^2+5x)}{x^2 - 3x}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-& = \dfrac{3x^2+5x}{x^2 - 3x} \\
-& = \dfrac{x(3x+5)}{x(x - 3)} \\
-& = \dfrac{(3x+5)}{(x - 3)} \\
+ & = \dfrac{3x^2+5x}{x^2 - 3x} \\
+ & = \dfrac{x(3x+5)}{x(x - 3)} \\
+ & = \dfrac{(3x+5)}{(x - 3)} \\
 \end{align*}
 ```
 
@@ -67,14 +67,14 @@ Uitwerken van de tellers en vereenvoudigen:
 
 Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
-\dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
 Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
-\dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
 \end{align*}
 
 Optellen van de breuken:
@@ -84,9 +84,9 @@ Optellen van de breuken:
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-& = \dfrac{2x^2+2}{2x^3 - 2}\\
-& = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
-& = \dfrac{x^2+1}{x^3 - 1}
+ & = \dfrac{2x^2+2}{2x^3 - 2}\\
+ & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+ & = \dfrac{x^2+1}{x^3 - 1}
 \end{align*}
 ```
 ````
