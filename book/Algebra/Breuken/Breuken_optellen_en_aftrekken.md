@@ -434,8 +434,9 @@ Aftrekken van de breuken:
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-&= \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + 2)}{(x + 1)(x + 4)} \\
-&= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - 2)}{(x + 1)(x + 4)} \\
+&= \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)} \\
+&= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x)}{(x + 1)(x + 4)} \\
+&= \dfrac{x^3 + 3x^2 + 3x + 12}{(x + 1)(x + 4)} \\
 &= \dfrac{x^2(x + 3) + 2(x + 3)}{(x + 1)(x + 4)}
 \end{align*}
 ```
