@@ -34,7 +34,7 @@ Dit geldt ook voor verschillen:
 ```
 ````
 
-```{admonition} Voorbeeld 1:
+```{admonition} Voorbeeld 1: Breuken splitsen
 :class: dropdown
 
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
