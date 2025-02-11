@@ -344,7 +344,7 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 
 Bepaal de kleinste gemene noemer:
-De kgv van $(x - 2)$ en $(x + 2)$ is $(x - 2)(x + 2)$.
+De kleinste gemene noemer is $(x - 2)(x + 2)$.
 
 Herschrijf de breuken:
 \begin{align*}
@@ -381,7 +381,7 @@ Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \end{align*}
 
 Bepaal de kleinste gemene noemer:
-De kgv van $(x - 2)$ en $(x + 2)$ is $(x + 2)(x + 3)$.
+De kleinste gemene noemer is $(x + 2)(x + 3)$.
 
 Herschrijf de breuken:
 \begin{align*}
@@ -397,7 +397,7 @@ Aftrekken van de breuken:
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
 &= \dfrac{(x^2 + 5x + 3x + 15)- (x^2 -x + 2x -2)}{(x + 2)(x + 3)} \\
-&= \dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
+&= \dfrac{x^2 + 5x + 3x + 15- x^2 +x - 2x +2}{(x + 2)(x + 3)} \\
 &= \dfrac{7x + 17}{(x + 2)(x + 3)}
 \end{align*}
 ```
@@ -406,28 +406,37 @@ Uitwerken van de tellers en vereenvoudigen:
 ````{admonition} Oefening 8
 :class: important, dropdown
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x^2 + 3}{x + 1} - \frac{x}{x + 4}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x^2 + 3}{x + 1} - \frac{x}{x + 4}
 \end{align*}
 
-Optellen van de breuken:
+Bepaal de kleinste gemene noemer:
+De kleinste gemene noemer is $(x + 1)(x + 4)$.
+
+Herschrijf de breuken:
 \begin{align*}
-& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+ \dfrac{x^2 + 3}{x + 1} = \dfrac{(x^2 + 3)(x + 4)}{(x + 1)(x + 4)} \\
+ \dfrac{x}{x + 4} = \dfrac{x(x + 1)}{(x + 1)(x + 4)}
+\end{align*}
+
+Aftrekken van de breuken:
+\begin{align*}
+ &= \dfrac{(x^2 + 3)(x + 4) - x(x + 1)}{(x + 1)(x + 4)}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
- & = \dfrac{2x^2+2}{2x^3 - 2}\\
- & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
- & = \dfrac{x^2+1}{x^3 - 1}
+&= \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + 2)}{(x + 1)(x + 4)} \\
+&= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - 2)}{(x + 1)(x + 4)} \\
+&= \dfrac{x^2(x + 3) + 2(x + 3)}{(x + 1)(x + 4)}
 \end{align*}
 ```
 ````
