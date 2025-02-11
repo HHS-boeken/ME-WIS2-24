@@ -16,6 +16,17 @@ Bij het optellen en aftrekken van breuken geldt de volgende algemene regel:
 
 Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, moet er eerst een **gemeenschappelijke noemer** worden gevonden.
 
+Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Dit doen we door de ***kleinste gemene noemer (kgv)*** te bepalen. Dit is het kleinste getal (of uitdrukking) dat door beide noemers deelbaar is. In de praktijk werkt het ook om de teller en de noemer van de ene breuk te vermenigvuldigen met de noemer van de andere breuk.
+
+\begin{align*}
+\frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
+\frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
+\end{align*}
+````
+
+## 1.3.1 Optellen en aftrekken met gemeenschappelijke noemers
+
+
 2. Optellen en aftrekken met dezelfde noemer
 
 Als de breuken dezelfde noemer hebben, dan kunnen de tellers direct bij elkaar opgeteld of van elkaar afgetrokken worden.
@@ -32,15 +43,6 @@ Voorbeeld 2: Aftrekken van breuken
 
 3. Optellen en aftrekken met verschillende noemers
 
-Wanneer de noemers verschillend zijn, moeten we eerst de \textbf{kleinste gemene noemer (kgv)} bepalen. Dit is het kleinste getal (of uitdrukking) dat door beide noemers deelbaar is.
-
-\begin{align*}
-\frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
-\frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
-\end{align*}
-````
-
-## 1.3.1 Optellen en aftrekken met gemeenschappelijke noemers
 
 ```{admonition} Voorbeeld 5: Aftrekken met verschillende noemers
 :class: dropdown
