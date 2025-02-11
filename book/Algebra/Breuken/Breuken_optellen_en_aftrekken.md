@@ -114,12 +114,8 @@ Optellen van de tellers:
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
  &= \frac{x(2x^2 - 5x + 3)}{x(x - 1)} \\
- &= \frac{(2x - 3)(x - 1)}{x - 1}
-\end{align*}
-
-Schrappen van \( (x - 1) \):
-\begin{align*}
- &= 2x - 3, \quad x \neq 0, x \neq 1
+ &= \frac{(2x - 3)(x - 1)}{x - 1} \\
+ &= 2x - 3  \quad als x \neq 0, x \neq 1
 \end{align*}
 ```
 ````
@@ -158,51 +154,30 @@ Uitwerken van de tellers en vereenvoudigen:
 & = \frac{x(3x+5)}{x(x - 3)} \\
 & = \frac{(3x+5)}{(x - 3)} \\
 \end{align*}
-
-Voorbeeld 4: 
-\begin{align*}
-\frac{x}{5} - \frac{3}{7}
-\end{align*}
-
-Bepaal de kleinste gemene noemer (kgv)} \\
-De kgv van 5 en 7 is 35.
-
-Herschrijf de breuken met 35 als noemer:
-\begin{align*}
-\frac{x}{5} &= \frac{7x}{35}, \quad \frac{3}{7} = \frac{15}{35}
-\end{align*}
-
-Aftrekken van de breuken:
-\begin{align*}
-\frac{7x}{35} - \frac{15}{35} &= \frac{7x - 15}{35}
-\end{align*}
 ```
+
 ````{admonition} Oefening 3
 :class: important, dropdown
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+rek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \frac{x^2 + 3x + 2}{x^2 - 4} - \frac{x^2 + x}{x^2 - 4}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \frac{x^2 + 3x + 2}{x^2 - 4} - \frac{x^2 + x}{x^2 - 4}
 \end{align*}
 
-Optellen van de breuken:
+Aftrekken van de tellers:
 \begin{align*}
-& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+ &= \frac{2x + 2}{x^2 - 4} \\
+ &= \frac{2(x + 1)}{(x - 2)(x + 2)}
 \end{align*}
 
-Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
- & = \dfrac{2x^2+2}{2x^3 - 2}\\
- & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
- & = \dfrac{x^2+1}{x^3 - 1}
-\end{align*}
+Restricties: \( x \neq \pm 2 \).
 ```
 ````
 
