@@ -14,13 +14,13 @@ Bij het optellen en aftrekken van breuken geldt de volgende algemene regel:
 \frac{a}{c} - \frac{b}{c} &= \frac{a - b}{c}, \quad \text{mits } c \neq 0.
 \end{align*}
 
-Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, moet er eerst een **gemeenschappelijke noemer** worden gevonden.
+Deze regel geldt alleen als de noemers gelijk zijn. Als de noemers verschillen, moet er eerst een ***gemeenschappelijke noemer*** worden gevonden.
 
 Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Dit doen we door de ***kleinste gemene noemer (kgv)*** te bepalen. Dit is het kleinste getal (of uitdrukking) dat door beide noemers deelbaar is. In de praktijk werkt het ook om de teller en de noemer van de ene breuk te vermenigvuldigen met de noemer van de andere breuk.
 
 \begin{align*}
-\frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
-\frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{c \cdot d} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
+\frac{a}{c} + \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} + \frac{b \cdot c}{d \cdot c} = \frac{a \cdot d + b \cdot c}{c \cdot d}, \\
+\frac{a}{c} - \frac{b}{d} &= \frac{a \cdot d}{c \cdot d} - \frac{b \cdot c}{d \cdot c} = \frac{a \cdot d - b \cdot c}{c \cdot d}.
 \end{align*}
 ````
 
@@ -29,7 +29,7 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 ```{admonition} Voorbeeld 5: Optellen met gelijknamige noemers
 :class: dropdown
 
-Voorbeeld 5a:
+**Voorbeeld 5a:**
 \begin{align*}
 \frac{3+2x}{x+1} + \frac{2}{x + 1}
 \end{align*}
@@ -44,26 +44,58 @@ Uitwerken van de tellers en vereenvoudigen:
 &= \frac{2x+5}{x+1}
 \end{align*}
 
-Voorbeeld 5b:
+**Voorbeeld 5b:**
 \begin{align*}
-\frac{2x^2}{x^2+3x} + \frac{x^2+5x}{x^2 + 3x}
+\frac{2x^2}{x^2-3x} + \frac{x^2+5x}{x^2 - 3x}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align*}
-& = \frac{2x^2+(x^2+5x)}{x^2 + 3x}
+& = \frac{2x^2+(x^2+5x)}{x^2 - 3x}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-& = \frac{3x^2+5x}{x^2 + 3x} \\
-& = \frac{x(3x+5)}{x(x + 3)} \\
-& = \frac{(3x+5)}{(x + 3)} \\
+& = \frac{3x^2+5x}{x^2 - 3x} \\
+& = \frac{x(3x+5)}{x(x - 3)} \\
+& = \frac{(3x+5)}{(x - 3)} \\
 \end{align*}
 ```
 
 ```{admonition} Voorbeeld 5: Aftrekken met gelijknamige noemers
 :class: dropdown
+
+**Voorbeeld 5a:**
+\begin{align*}
+\frac{3+2x}{x+1} + \frac{2}{x + 1}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+&= \frac{(3+2x)+2}{x+1}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+&= \frac{2x+5}{x+1}
+\end{align*}
+
+**Voorbeeld 5b:**
+\begin{align*}
+\frac{2x^2}{x^2-3x} + \frac{x^2+5x}{x^2 - 3x}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+& = \frac{2x^2+(x^2+5x)}{x^2 - 3x}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+& = \frac{3x^2+5x}{x^2 - 3x} \\
+& = \frac{x(3x+5)}{x(x - 3)} \\
+& = \frac{(3x+5)}{(x - 3)} \\
+\end{align*}
 
 Voorbeeld 4: 
 \begin{align*}
@@ -90,7 +122,7 @@ Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene v
 
 ## 1.3.2 Optellen en aftrekken met verschillende noemers
 
-```{admonition} Voorbeeld 5: Algebraïsche noemers
+```{admonition} Voorbeeld 5: Optellen met verschillende noemers
 :class: dropdown
 
 \begin{align*}
@@ -118,7 +150,7 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 ```
 
-```{admonition} Voorbeeld 6: Aftrekken van algebraïsche breuken
+```{admonition} Voorbeeld 6: Aftrekken met verschillende noemers
 :class: dropdown
 
 \begin{align*}
