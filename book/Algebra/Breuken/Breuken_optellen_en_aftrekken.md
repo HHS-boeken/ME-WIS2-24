@@ -26,10 +26,10 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 
 ## 1.3.1 Optellen en aftrekken met gelijknamige noemers
 
-```{admonition} Voorbeeld 5: Optellen met gelijknamige noemers
+```{admonition} Voorbeeld 1: Optellen met gelijknamige noemers
 :class: dropdown
 
-**Voorbeeld 5a:**
+**Voorbeeld 1a:**
 \begin{align*}
 \frac{3+2x}{x+1} + \frac{2}{x + 1}
 \end{align*}
@@ -44,7 +44,7 @@ Uitwerken van de tellers en vereenvoudigen:
 &= \frac{2x+5}{x+1}
 \end{align*}
 
-**Voorbeeld 5b:**
+**Voorbeeld 1b:**
 \begin{align*}
 \frac{2x^2}{x^2-3x} + \frac{x^2+5x}{x^2 - 3x}
 \end{align*}
@@ -62,10 +62,45 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 ```
 
-```{admonition} Voorbeeld 5: Aftrekken met gelijknamige noemers
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^3 + 2x^2 - x + 4}{x^2}
+\end{align*}
+
+```{dropdown} Uitwerking
+
+Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+\begin{align*}
+ \dfrac{x^3 + 2x^2 - x + 4}{x^2}
+\end{align*}
+
+Splitsen van de breuk:
+
+\begin{align}
+ &= \frac{x^3}{x^2} + \frac{2x^2}{x^2} - \frac{x}{x^2} + \frac{4}{x^2}
+\end{align}
+
+Vereenvoudigen:
+
+\begin{align}
+ &= x + 2 - \frac{1}{x} + \frac{4}{x^2}
+\end{align}
+
+Gesplitste en vereenvoudigde vorm:
+
+\begin{align}
+ & x + 2 - \frac{1}{x} + \frac{4}{x^2}
+\end{align}
+```
+````
+
+```{admonition} Voorbeeld 2: Aftrekken met gelijknamige noemers
 :class: dropdown
 
-**Voorbeeld 5a:**
+**Voorbeeld 2a:**
 \begin{align*}
 \frac{3+2x}{x+1} + \frac{2}{x + 1}
 \end{align*}
@@ -116,13 +151,11 @@ Aftrekken van de breuken:
 \end{align*}
 ```
 
-4. Optellen en aftrekken met algebraïsche noemers
 
-Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene veelvoud (kgv)}, net zoals bij getallen.
 
 ## 1.3.2 Optellen en aftrekken met verschillende noemers
 
-```{admonition} Voorbeeld 5: Optellen met verschillende noemers
+```{admonition} Voorbeeld 3: Optellen met verschillende noemers
 :class: dropdown
 
 \begin{align*}
@@ -150,7 +183,7 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 ```
 
-```{admonition} Voorbeeld 6: Aftrekken met verschillende noemers
+```{admonition} Voorbeeld 4: Aftrekken met verschillende noemers
 :class: dropdown
 
 \begin{align*}
@@ -219,3 +252,7 @@ Voorbeeld 2: Aftrekken van breuken
 
 3. Optellen en aftrekken met verschillende noemers
 2. Optellen en aftrekken met dezelfde noemer
+
+4. Optellen en aftrekken met algebraïsche noemers
+
+Wanneer de noemers algebraïsch zijn, gebruiken we het \textbf{kleinste gemene veelvoud (kgv)}, net zoals bij getallen.
