@@ -80,16 +80,16 @@ Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \end{align*}
 
 Optellen van de breuken:
-\begin{align*}
+\begin{align}
 & = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
-\end{align*}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
+\begin{align}
  & = \dfrac{2x^2+2}{2x^3 - 2}\\
  & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
  & = \dfrac{x^2+1}{x^3 - 1}
-\end{align*}
+\end{align}
 ```
 ````
 
@@ -109,16 +109,17 @@ Tel de volgende breuk op en vereenvoudig:
 \end{align*}
 
 Optellen van de breuken:
-\begin{align*}
- &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x}
-\end{align*}
+\begin{align}
+ &= \frac{(x^3 - 3x^2 + 2x) + (x^3 - 2x^2 + x) }{x^2 - x}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
+\begin{align}
+ &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x}
  &= \frac{x(2x^2 - 5x + 3)}{x(x - 1)} \\
  &= \frac{(2x - 3)(x - 1)}{x - 1} \\
- &= 2x - 3  \quad als x \neq 0, x \neq 1
-\end{align*}
+ &= 2x - 3
+\end{align}
 ```
 ````
 
