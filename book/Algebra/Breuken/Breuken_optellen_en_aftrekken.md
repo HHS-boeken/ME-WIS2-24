@@ -36,14 +36,14 @@ Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \end{align*}
 
 Optellen van de breuken:
-\begin{align*}
+\begin{align}
  &= \dfrac{(3+2x)+2}{x+1}
-\end{align*}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
+\begin{align}
  &= \dfrac{2x+5}{x+1}
-\end{align*}
+\end{align}
 
 **Voorbeeld 1b:**
 Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
@@ -52,16 +52,16 @@ Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \end{align*}
 
 Optellen van de breuken:
-\begin{align*}
+\begin{align}
  & = \dfrac{2x^2+(x^2+5x)}{x^2 - 3x}
-\end{align*}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
+\begin{align}
  & = \dfrac{3x^2+5x}{x^2 - 3x} \\
  & = \dfrac{x(3x+5)}{x(x - 3)} \\
  & = \dfrac{(3x+5)}{(x - 3)} \\
-\end{align*}
+\end{align}
 ```
 
 ````{admonition} Oefening 1
@@ -115,7 +115,8 @@ Optellen van de breuken:
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align}
- &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x}
+ &= \frac{x^3 - 3x^2 + 2x + x^3 - 2x^2 + x }{x^2 - x} \\
+ &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x} \\
  &= \frac{x(2x^2 - 5x + 3)}{x(x - 1)} \\
  &= \frac{(2x - 3)(x - 1)}{x - 1} \\
  &= 2x - 3
@@ -239,7 +240,7 @@ Optellen van de breuken
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align}
-& \frac{3x + 3 + 2x}{x(x + 1)}\\
+&= \frac{3x + 3 + 2x}{x(x + 1)}\\
 &= \frac{5x + 3}{x(x + 1)}
 \end{align}
 ```
@@ -342,7 +343,7 @@ Aftrekken van de breuken:
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align}
-& \dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
+&= \dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
 &= \dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
 &= \dfrac{2x + 16}{(x - 2)(x + 2)}
 \end{align}
