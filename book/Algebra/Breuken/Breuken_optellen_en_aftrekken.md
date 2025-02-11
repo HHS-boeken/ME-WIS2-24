@@ -233,7 +233,7 @@ Herschrijf de breuken
 
 Optellen van de breuken
 \begin{align}
-\frac{3(x + 1)+2x}{x(x + 1)}
+&= \frac{3(x + 1)+2x}{x(x + 1)}
 \end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
@@ -300,8 +300,8 @@ De kleinste gemene noemer is $(x + 4)(x + 6)$.
 
 Herschrijf de breuken
 \begin{align}
- &= \dfrac{x + 2}{x + 4} = \dfrac{(x + 2)(x + 6)}{(x + 4)(x + 6)}, \\
- &= \dfrac{x}{x + 6} = \dfrac{x(x + 4)}{(x + 4)(x + 6)}
+ \dfrac{x + 2}{x + 4} = \dfrac{(x + 2)(x + 6)}{(x + 4)(x + 6)}, \\
+ \dfrac{x}{x + 6} = \dfrac{x(x + 4)}{(x + 4)(x + 6)}
 \end{align}
 
 Optellen van de breuken
@@ -336,7 +336,7 @@ Herschrijf de breuken:
 
 Aftrekken van de breuken:
 \begin{align}
- \dfrac{5(x + 2)-3(x - 2)}{(x - 2)(x + 2)}
+ &= \dfrac{5(x + 2)-3(x - 2)}{(x - 2)(x + 2)}
 \end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
@@ -373,7 +373,7 @@ Herschrijf de breuken:
 
 Aftrekken van de breuken:
 \begin{align}
- \dfrac{(x + 5)(x + 3) - (x - 1)(x + 2)}{(x + 2)(x + 3)}
+ &= \dfrac{(x + 5)(x + 3) - (x - 1)(x + 2)}{(x + 2)(x + 3)}
 \end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
