@@ -143,14 +143,14 @@ Uitwerken van de tellers en vereenvoudigen:
  &= \frac{-x + 4}{x^2 + 2x + 1}
 \end{align}
 
-**Voorbeeld 5b:**
+**Voorbeeld 2b:**
 \begin{align*}
 \frac{x^2 + 2x}{x^2 - 4} - \frac{x + 1}{x^2 - 4}
 \end{align*}
 
 Aftrekken van de breuken:
 \begin{align}
-\frac{(x^2 + 2x) - (x + 1)}{x^2 - 4}
+ &= \frac{(x^2 + 2x) - (x + 1)}{x^2 - 4}
 \end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
@@ -163,7 +163,7 @@ Uitwerken van de tellers en vereenvoudigen:
 ````{admonition} Oefening 3
 :class: important, dropdown
 
-rek de volgende breuk af en vereenvoudig zo ver mogelijk:
+Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
  \frac{x^2 + 3x + 2}{x^2 - 4} - \frac{x^2 + x}{x^2 - 4}
 \end{align*}
@@ -178,6 +178,10 @@ Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 Aftrekken van de breuken:
 \begin{align}
  &= \frac{(x^2 + 3x + 2)-(x^2 + x)}{x^2 - 4} \\
+\end{align}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align}
  &= \frac{x^2 + 3x + 2-x^2 - x}{x^2 - 4} \\
  &= \frac{2x + 2}{x^2 - 4} \\
  &= \frac{2(x + 1)}{(x - 2)(x + 2)}
@@ -188,29 +192,28 @@ Aftrekken van de breuken:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+\frac{2x^2 + 3x - 1}{x^2 - x} - \frac{x - 2}{x^2 - x}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
-\begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
-\end{align*}
+Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
+\begin{align}
+\frac{2x^2 + 3x - 1}{x^2 - x} - \frac{x - 2}{x^2 - x}
+\end{align}
 
-Optellen van de breuken:
-\begin{align*}
-& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
-\end{align*}
+Aftrekken van de breuken:
+\begin{align}
+\frac{(2x^2 + 3x - 1) - (x - 2)}{x^2 - x}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
- & = \dfrac{2x^2+2}{2x^3 - 2}\\
- & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
- & = \dfrac{x^2+1}{x^3 - 1}
-\end{align*}
+\begin{align}
+ &= \frac{2x^2 + 3x - 1 - x + 2}{x^2 - x} \\
+ &= \frac{2x^2 + 2x + 1}{x^2 - x}
+\end{align}
 ```
 ````
 
