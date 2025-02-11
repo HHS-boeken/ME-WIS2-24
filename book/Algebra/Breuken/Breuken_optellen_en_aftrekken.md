@@ -90,31 +90,36 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 ```
 ````
+
 ````{admonition} Oefening 2
 :class: important, dropdown
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+Tel de volgende breuk op en vereenvoudig:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \frac{x^3 - 3x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + x}{x^2 - x}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
+Tel de volgende breuk op en vereenvoudig:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \frac{x^3 - 3x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + x}{x^2 - x}
 \end{align*}
 
-Optellen van de breuken:
+Optellen van de tellers:
 \begin{align*}
-& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+ &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
- & = \dfrac{2x^2+2}{2x^3 - 2}\\
- & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
- & = \dfrac{x^2+1}{x^3 - 1}
+ &= \frac{x(2x^2 - 5x + 3)}{x(x - 1)} \\
+ &= \frac{(2x - 3)(x - 1)}{x - 1}
+\end{align*}
+
+Schrappen van \( (x - 1) \):
+\begin{align*}
+ &= 2x - 3, \quad x \neq 0, x \neq 1
 \end{align*}
 ```
 ````
@@ -435,9 +440,9 @@ Aftrekken van de breuken:
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
 &= \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)} \\
-&= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x)}{(x + 1)(x + 4)} \\
-&= \dfrac{x^3 + 3x^2 + 3x + 12}{(x + 1)(x + 4)} \\
-&= \dfrac{x^2(x + 3) + 2(x + 3)}{(x + 1)(x + 4)}
+&= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x}{(x + 1)(x + 4)} \\
+&= \dfrac{x^3 + 3x^2 + 2x + 12}{(x + 1)(x + 4)} \\
+&= \dfrac{x^2(x + 3) + 2(x + )}{(x + 1)(x + 4)}
 \end{align*}
 ```
 ````
