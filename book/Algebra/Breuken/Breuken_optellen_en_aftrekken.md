@@ -31,69 +31,63 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 
 **Voorbeeld 1a:**
 \begin{align*}
-\frac{3+2x}{x+1} + \frac{2}{x + 1}
+\dfrac{3+2x}{x+1} + \frac{2}{x + 1}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align*}
-&= \frac{(3+2x)+2}{x+1}
+&= \dfrac{(3+2x)+2}{x+1}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-&= \frac{2x+5}{x+1}
+&= \dfrac{2x+5}{x+1}
 \end{align*}
 
 **Voorbeeld 1b:**
 \begin{align*}
-\frac{2x^2}{x^2-3x} + \frac{x^2+5x}{x^2 - 3x}
+\dfrac{2x^2}{x^2-3x} + \dfrac{x^2+5x}{x^2 - 3x}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align*}
-& = \frac{2x^2+(x^2+5x)}{x^2 - 3x}
+& = \dfrac{2x^2+(x^2+5x)}{x^2 - 3x}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-& = \frac{3x^2+5x}{x^2 - 3x} \\
-& = \frac{x(3x+5)}{x(x - 3)} \\
-& = \frac{(3x+5)}{(x - 3)} \\
+& = \dfrac{3x^2+5x}{x^2 - 3x} \\
+& = \dfrac{x(3x+5)}{x(x - 3)} \\
+& = \dfrac{(3x+5)}{(x - 3)} \\
 \end{align*}
 ```
 
 ````{admonition} Oefening 1
 :class: important, dropdown
 
-Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^3 + 2x^2 - x + 4}{x^2}
+\dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
-Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^3 + 2x^2 - x + 4}{x^2}
+\dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
 \end{align*}
 
-Splitsen van de breuk:
+Optellen van de breuken:
+\begin{align*}
+& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+\end{align*}
 
-\begin{align}
- &= \frac{x^3}{x^2} + \frac{2x^2}{x^2} - \frac{x}{x^2} + \frac{4}{x^2}
-\end{align}
-
-Vereenvoudigen:
-
-\begin{align}
- &= x + 2 - \frac{1}{x} + \frac{4}{x^2}
-\end{align}
-
-Gesplitste en vereenvoudigde vorm:
-
-\begin{align}
- & x + 2 - \frac{1}{x} + \frac{4}{x^2}
-\end{align}
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+& = \dfrac{2x^2+2}{2x^3 - 2}\\
+& = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
+& = \dfrac{x^2+1}{x^3 - 1}
+\end{align*}
 ```
 ````
 
