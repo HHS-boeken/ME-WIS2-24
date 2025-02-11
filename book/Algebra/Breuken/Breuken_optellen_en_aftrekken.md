@@ -26,34 +26,17 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 
 ## 1.3.1 Optellen en aftrekken met gelijknamige noemers
 
-
-2. Optellen en aftrekken met dezelfde noemer
-
-Als de breuken dezelfde noemer hebben, dan kunnen de tellers direct bij elkaar opgeteld of van elkaar afgetrokken worden.
-
-Voorbeeld 1: Eenvoudige som
-\begin{align*}
-\frac{x}{5} + \frac{3}{5} &= \frac{x + 3}{5}
-\end{align*}
-
-Voorbeeld 2: Aftrekken van breuken
-\begin{align*}
-\frac{7x}{9} - \frac{2x}{9} &= \frac{(7x - 2x)}{9} = \frac{5x}{9}
-\end{align*}
-
-3. Optellen en aftrekken met verschillende noemers
-
-
 ```{admonition} Voorbeeld 5: Optellen met gelijknamige noemers
 :class: dropdown
 
+Voorbeeld 5a:
 \begin{align*}
 \frac{3+2x}{x+1} + \frac{2}{x + 1}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align*}
-&= \frac{3+2x+2}{x+1}
+&= \frac{(3+2x)+2}{x+1}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
@@ -61,24 +44,21 @@ Uitwerken van de tellers en vereenvoudigen:
 &= \frac{2x+5}{x+1}
 \end{align*}
 
-
-
-Voorbeeld 3: Optellen met verschillende noemers
+Voorbeeld 5b:
 \begin{align*}
-\frac{x}{4} + \frac{2}{6}
+\frac{2x^2}{x^2+3x} + \frac{x^2+5x}{x^2 + 3x}
 \end{align*}
 
-Bepaal de kleinste gemene noemer (kgv)} \\
-De kgv van 4 en 6 is 12.
-
-Herschrijf de breuken met 12 als noemer
+Optellen van de breuken:
 \begin{align*}
-\frac{x}{4} &= \frac{3x}{12}, \quad \frac{2}{6} = \frac{4}{12}
+& = \frac{2x^2+(x^2+5x)}{x^2 + 3x}
 \end{align*}
 
-Optellen van de breuken
+Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-\frac{3x}{12} + \frac{4}{12} &= \frac{3x + 4}{12}
+& = \frac{3x^2+5x}{x^2 + 3x} \\
+& = \frac{x(3x+5)}{x(x + 3)} \\
+& = \frac{(3x+5)}{(x + 3)} \\
 \end{align*}
 ```
 
@@ -175,3 +155,35 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{itemize}
 
 
+Voorbeeld 3: Optellen met verschillende noemers
+\begin{align*}
+\frac{x}{4} + \frac{2}{6}
+\end{align*}
+
+Bepaal de kleinste gemene noemer (kgv)} \\
+De kgv van 4 en 6 is 12.
+
+Herschrijf de breuken met 12 als noemer
+\begin{align*}
+\frac{x}{4} &= \frac{3x}{12}, \quad \frac{2}{6} = \frac{4}{12}
+\end{align*}
+
+Optellen van de breuken
+\begin{align*}
+\frac{3x}{12} + \frac{4}{12} &= \frac{3x + 4}{12}
+\end{align*}
+
+Als de breuken dezelfde noemer hebben, dan kunnen de tellers direct bij elkaar opgeteld of van elkaar afgetrokken worden.
+
+Voorbeeld 1: Eenvoudige som
+\begin{align*}
+\frac{x}{5} + \frac{3}{5} &= \frac{x + 3}{5}
+\end{align*}
+
+Voorbeeld 2: Aftrekken van breuken
+\begin{align*}
+\frac{7x}{9} - \frac{2x}{9} &= \frac{(7x - 2x)}{9} = \frac{5x}{9}
+\end{align*}
+
+3. Optellen en aftrekken met verschillende noemers
+2. Optellen en aftrekken met dezelfde noemer
