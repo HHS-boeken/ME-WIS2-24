@@ -129,18 +129,19 @@ Uitwerken van de tellers en vereenvoudigen:
 
 **Voorbeeld 2a:**
 \begin{align*}
-\frac{3+2x}{x+1} + \frac{2}{x + 1}
+ \frac{x + 3}{x^2 + 2x + 1} - \frac{2x - 1}{x^2 + 2x + 1}
 \end{align*}
 
-Optellen van de breuken:
-\begin{align*}
-&= \frac{(3+2x)+2}{x+1}
-\end{align*}
+Aftrekken van de breuken:
+\begin{align}
+ &= \frac{(x + 3) - (2x - 1)}{x^2 + 2x + 1}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
-&= \frac{2x+5}{x+1}
-\end{align*}
+\begin{align}
+ &= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1}
+ &= \frac{-x + 4}{x^2 + 2x + 1}
+\end{align}
 
 **Voorbeeld 5b:**
 \begin{align*}
