@@ -30,6 +30,7 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 :class: dropdown
 
 **Voorbeeld 1a:**
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
  \dfrac{3+2x}{x+1} + \dfrac{2}{x + 1}
 \end{align*}
@@ -45,6 +46,7 @@ Uitwerken van de tellers en vereenvoudigen:
 \end{align*}
 
 **Voorbeeld 1b:**
+Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
  \dfrac{2x^2}{x^2-3x} + \dfrac{x^2+5x}{x^2 - 3x}
 \end{align*}
@@ -106,7 +108,7 @@ Tel de volgende breuk op en vereenvoudig:
  \frac{x^3 - 3x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + x}{x^2 - x}
 \end{align*}
 
-Optellen van de tellers:
+Optellen van de breuken:
 \begin{align*}
  &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x}
 \end{align*}
@@ -171,7 +173,7 @@ Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
  \frac{x^2 + 3x + 2}{x^2 - 4} - \frac{x^2 + x}{x^2 - 4}
 \end{align*}
 
-Aftrekken van de tellers:
+Aftrekken van de breuken:
 \begin{align*}
  &= \frac{2x + 2}{x^2 - 4} \\
  &= \frac{2(x + 1)}{(x - 2)(x + 2)}
@@ -224,21 +226,21 @@ Bepaal de kleinste gemene noemer:
 De kleinste gemene noemer is $x(x + 1)$.
 
 Herschrijf de breuken
-\begin{align*}
+\begin{align}
 \frac{3}{x} &= \frac{3(x + 1)}{x(x + 1)}, \\
 \frac{2}{x + 1} &= \frac{2x}{x(x + 1)}
-\end{align*}
+\end{align}
 
 Optellen van de breuken
-\begin{align*}
-\frac{3(x + 1)}{x(x + 1)} + \frac{2x}{x(x + 1)}
-\end{align*}
+\begin{align}
+\frac{3(x + 1)+2x}{x(x + 1)}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
+\begin{align}
 & \frac{3x + 3 + 2x}{x(x + 1)}\\
 &= \frac{5x + 3}{x(x + 1)}
-\end{align*}
+\end{align}
 ```
 
 ````{admonition} Oefening 5
@@ -260,21 +262,21 @@ Bepaal de kleinste gemene noemer:
 De kleinste gemene noemer is $(x + 3)(x + 5)$.
 
 Herschrijf de breuken
-\begin{align*}
+\begin{align}
  \dfrac{x}{x + 3} &= \dfrac{x(x + 5)}{(x + 3)(x + 5)}, \\
  \dfrac{2}{x + 5} &= \dfrac{2(x + 3)}{(x + 3)(x + 5)}
-\end{align*}
+\end{align}
 
 Optellen van de breuken
-\begin{align*}
+\begin{align}
  &= \dfrac{x(x + 5) + 2(x + 3)}{(x + 3)(x + 5)}
-\end{align*}
+\end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
-\begin{align*}
+\begin{align}
 & = \dfrac{x^2 + 5x + 2x + 6}{(x + 3)(x + 5)} \\
 & = \dfrac{x^2 + 7x + 6}{(x + 3)(x + 5)}
-\end{align*}
+\end{align}
 ```
 ````
 
@@ -297,10 +299,10 @@ Bepaal de kleinste gemene noemer:
 De kleinste gemene noemer is $(x + 4)(x + 6)$.
 
 Herschrijf de breuken
-\begin{align*}
+\begin{align}
  &= \dfrac{x + 2}{x + 4} = \dfrac{(x + 2)(x + 6)}{(x + 4)(x + 6)}, \\
  &= \dfrac{x}{x + 6} = \dfrac{x(x + 4)}{(x + 4)(x + 6)}
-\end{align*}
+\end{align}
 
 Optellen van de breuken
 \begin{align}
@@ -334,7 +336,7 @@ Herschrijf de breuken:
 
 Aftrekken van de breuken:
 \begin{align}
- \dfrac{5(x + 2)}{(x - 2)(x + 2)} - \dfrac{3(x - 2)}{(x - 2)(x + 2)}
+ \dfrac{5(x + 2)-3(x - 2)}{(x - 2)(x + 2)}
 \end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
@@ -417,7 +419,7 @@ Uitwerken van de tellers en vereenvoudigen:
 &= \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)} \\
 &= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x}{(x + 1)(x + 4)} \\
 &= \dfrac{x^3 + 3x^2 + 2x + 12}{(x + 1)(x + 4)} \\
-&= \dfrac{x^2(x + 3) + 2(x + )}{(x + 1)(x + 4)}
+&= \dfrac{x^2(x + 3) + 2(x + 6)}{(x + 1)(x + 4)}
 \end{align}
 ```
 ````
