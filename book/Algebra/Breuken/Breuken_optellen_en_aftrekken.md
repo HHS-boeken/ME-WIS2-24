@@ -329,8 +329,9 @@ Optellen van de breuken
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-& = \dfrac{x^2 + 5x + 2x + 6}{(x + 3)(x + 5)} \\
-& = \dfrac{2(x^2 + 6x + 6)}{(x + 4)(x + 6)}
+ & = \dfrac{x^2 + 6x + 2x + 12 + x^2 + 4x}{(x + 4)(x + 6)}\\
+ & = \dfrac{2x^2 + 12x + 12}{(x + 4)(x + 6)}\\
+ & = \dfrac{2(x^2 + 6x + 6)}{(x + 4)(x + 6)}
 \end{align*}
 ```
 ````
@@ -369,35 +370,35 @@ Uitwerken van de tellers en vereenvoudigen:
 
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x + 5}{x + 2} - \dfrac{x - 1}{x + 3}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 \begin{align*}
-\dfrac{5}{x - 2} - \dfrac{3}{x + 2}
+ \dfrac{x + 5}{x + 2} - \dfrac{x - 1}{x + 3}
 \end{align*}
 
 Bepaal de kleinste gemene noemer:
-De kgv van $(x - 2)$ en $(x + 2)$ is $(x - 2)(x + 2)$.
+De kgv van $(x - 2)$ en $(x + 2)$ is $(x + 2)(x + 3)$.
 
 Herschrijf de breuken:
 \begin{align*}
-\dfrac{5}{x - 2} = \dfrac{5(x + 2)}{(x - 2)(x + 2)}, \\
-\dfrac{3}{x + 2} = \dfrac{3(x - 2)}{(x - 2)(x + 2)}
+ \dfrac{x + 5}{x + 2} &= \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}, \\
+ \dfrac{x - 1}{x + 3} &= \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
 \end{align*}
 
 Aftrekken van de breuken:
 \begin{align*}
-\dfrac{5(x + 2)}{(x - 2)(x + 2)} - \dfrac{3(x - 2)}{(x - 2)(x + 2)}
+ \dfrac{(x + 5)(x + 3) - (x - 1)(x + 2)}{(x + 2)(x + 3)}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
-& \dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
+&= \dfrac{(x^2 + 5x + 3x + 15)- (x^2 -x + 2x -2)}{(x + 2)(x + 3)} \\
 &= \dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
-&= \dfrac{2x + 16}{(x - 2)(x + 2)}
+&= \dfrac{7x + 17}{(x + 2)(x + 3)}
 \end{align*}
 ```
 ````
