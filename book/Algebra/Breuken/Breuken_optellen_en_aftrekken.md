@@ -24,7 +24,7 @@ Wanneer de noemers verschillend zijn, moeten we deze eerst gelijknamig maken. Di
 \end{align*}
 ````
 
-## 1.3.1 Optellen en aftrekken met gemeenschappelijke noemers
+## 1.3.1 Optellen en aftrekken met gelijknamige noemers
 
 
 2. Optellen en aftrekken met dezelfde noemer
@@ -44,8 +44,24 @@ Voorbeeld 2: Aftrekken van breuken
 3. Optellen en aftrekken met verschillende noemers
 
 
-```{admonition} Voorbeeld 5: Aftrekken met verschillende noemers
+```{admonition} Voorbeeld 5: Optellen met gelijknamige noemers
 :class: dropdown
+
+\begin{align*}
+\frac{3+2x}{x+1} + \frac{2}{x + 1}
+\end{align*}
+
+Optellen van de breuken:
+\begin{align*}
+&= \frac{3+2x+2}{x+1}
+\end{align*}
+
+Uitwerken van de tellers en vereenvoudigen:
+\begin{align*}
+&= \frac{2x+5}{x+1}
+\end{align*}
+
+
 
 Voorbeeld 3: Optellen met verschillende noemers
 \begin{align*}
@@ -66,7 +82,7 @@ Optellen van de breuken
 \end{align*}
 ```
 
-```{admonition} Voorbeeld 5: Aftrekken met verschillende noemers
+```{admonition} Voorbeeld 5: Aftrekken met gelijknamige noemers
 :class: dropdown
 
 Voorbeeld 4: 
