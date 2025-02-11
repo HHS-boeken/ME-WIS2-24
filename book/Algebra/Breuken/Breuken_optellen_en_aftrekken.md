@@ -266,26 +266,33 @@ Uitwerken van de tellers en vereenvoudigen:
 
 Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x}{x + 3} + \dfrac{2}{x + 5}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
 Tel de volgende breuk op en vereenvoudig zo ver mogelijk:
 \begin{align*}
- \dfrac{x^2}{2x^3 - 2} + \dfrac{x^2+2}{2x^3 - 2}
+ \dfrac{x}{x + 3} + \dfrac{2}{x + 5}
 \end{align*}
 
-Optellen van de breuken:
+Bepaal de kleinste gemene noemer:
+De kleinste gemene noemer is $(x + 3)(x + 5)$.
+
+Herschrijf de breuken
 \begin{align*}
-& = \dfrac{x^2+(x^2+2)}{2x^3 - 2}
+ \dfrac{x}{x + 3} &= \dfrac{x(x + 5)}{(x + 3)(x + 5)}, \\
+ \dfrac{2}{x + 5} &= \dfrac{2(x + 3)}{(x + 3)(x + 5)}
+\end{align*}
+
+Optellen van de breuken
+\begin{align*}
+ &= \dfrac{x(x + 5) + 2(x + 3)}{(x + 3)(x + 5)}
 \end{align*}
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align*}
- & = \dfrac{2x^2+2}{2x^3 - 2}\\
- & = \dfrac{2(x^2+1)}{2(x^3 - 1)}\\
- & = \dfrac{x^2+1}{x^3 - 1}
+& = \frac{x^2 + 7x + 6}{(x + 3)(x + 5)}
 \end{align*}
 ```
 ````
