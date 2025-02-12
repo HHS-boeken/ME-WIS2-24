@@ -14,18 +14,7 @@ parts:
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
       - file: Algebra/Breuken/Opgaven.md
       - file: Algebra/Breuken/Uitwerkingen.md
-
-  - caption: Functies
-    chapters:
-    - file: Functies/Lineaire_functies/Lineaire_functies.md
-    - file: Functies/Kwadratische_functies/Kwadratische_functies.md
-    - file: Functies/Gebroken_functies/Gebroken_functies.md
-    - file: Functies/Machtsfuncties/Machtsfuncties.md
-    - file: Functies/Wortelfuncties/Wortelfuncties.md
-    - file: Functies/Goniometrische_functies/Goniometrische_functies.md
-    - file: Functies/Exponentiele_functies/Exponentiele_functies.md
-    - file: Functies/Logaritmische_functies/Logaritmische_functies.md
- 
+     
   - caption: Differentiaalrekening
     chapters:
     - file: Differentiaalrekening/Differentieren/Differentieren.md
