@@ -5,7 +5,7 @@
 ### Opgave 1.1a
 
 ````{admonition} Antwoord
-:class: note, dropdown
+:class:  dropdown
 
 ```{dropdown} Uitwerking
 
