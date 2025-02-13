@@ -5,6 +5,11 @@
 ````{admonition} Antwoord
 :class:  dropdown
 
+De vereenvoudige breuk is:
+\begin{align*}
+ = \dfrac{2(x-3)}{3(x+3)} \quad \text{als } x\neq-2
+\end{align*}
+
 ```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -38,6 +43,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Antwoord
 :class:  dropdown
 
+De vereenvoudige breuk is:
+
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{a^2+6a+8}{a^2+a-12}
@@ -69,6 +76,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Antwoord
 :class:  dropdown
 
+De vereenvoudige breuk is:
+
 ```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -94,6 +103,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ````{admonition} Antwoord
 :class: dropdown
+
+De vereenvoudige breuk is:
 
 ```{dropdown} Uitwerking
 
@@ -133,6 +144,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Antwoord
 :class:  dropdown
 
+De vereenvoudige breuk is:
+
 ```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -168,6 +181,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Antwoord
 :class:  dropdown
 
+De vereenvoudige breuk is:
+
 ```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -181,6 +196,8 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 
 ````{admonition} Antwoord
 :class:  dropdown
+
+De vereenvoudige breuk is:
 
 ```{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -215,6 +232,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````{admonition} Antwoord
 :class:  dropdown
 
+De vereenvoudige breuk is:
+
 ```{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -247,6 +266,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ````{admonition} Antwoord
 :class:  dropdown
+
+De vereenvoudige breuk is:
 
 ```{dropdown} Uitwerking
 
@@ -281,6 +302,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ````{admonition} Antwoord
 :class:  dropdown
+
+De vereenvoudige breuk is:
 
 ```{dropdown} Uitwerking
 
