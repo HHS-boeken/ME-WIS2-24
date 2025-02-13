@@ -38,7 +38,7 @@ parts:
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
 
   - caption: Integreren
-      chapters:
+    chapters:
     - file: Integraalrekening/Integreren/Integeren.md
 
   - caption: Integratietechnieken
