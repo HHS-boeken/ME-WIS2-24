@@ -233,6 +233,9 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 :class:  dropdown
 
 De vereenvoudige breuk is:
+\begin{align}
+= \dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2 \neq 0, a \neq 0
+\end{align}
 
 ```{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -242,17 +245,7 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 
 Ontbind de teller en de noemer in factoren:
 \begin{align}
-= \dfrac{x^4 + 6x^2y^2 + 9y^4}{ax^2 + 3ay^2}
-\end{align}
-
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
-\begin{align}
 = \dfrac{(x^2 + 3y^2)(x^2 + 3y^2)}{a(x^2 + 3y^2)}
-\end{align}
-
-Ontbind de teller en de noemer nog een keer in factoren:
-\begin{align}
-= \dfrac{(x^2 + 3y^2)^2}{a(x^2 + 3y^2)}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -268,6 +261,9 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 :class:  dropdown
 
 De vereenvoudige breuk is:
+\begin{align*}
+= \dfrac{2(x + 4)}{x - 4} \quad \text{als } x \neq 4
+\end{align*}
 
 ```{dropdown} Uitwerking
 
@@ -277,11 +273,6 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \end{align*}
 
 Ontbind de teller en de noemer in factoren:
-\begin{align}
-= \dfrac{2x^2 - 32}{x^2 - 8x + 16}
-\end{align}
-
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \begin{align}
 = \dfrac{2(x^2 - 16)}{(x - 4)(x - 4)}
 \end{align}
@@ -311,5 +302,26 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \begin{align*}
  \dfrac{q^2-8q+12}{3q^2+6q-24}
 \end{align*}
+
+Ontbind de teller en de noemer in factoren:
+\begin{align}
+= \dfrac{q^2 - 8q + 12}{3q^2 + 6q - 24}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+\begin{align}
+= \dfrac{(q - 6)(q - 2)}{3(q^2 + 2q - 8)}
+\end{align}
+
+Ontbind de teller en de noemer nog een keer in factoren:
+\begin{align}
+= \dfrac{(q - 6)(q - 2)}{3(q - 2)(q + 4)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+\begin{align}
+= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2, q \neq -4
+\end{align}
+
 ```
 ````
