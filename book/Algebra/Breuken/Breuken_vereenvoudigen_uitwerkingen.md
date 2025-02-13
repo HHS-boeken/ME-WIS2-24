@@ -336,11 +336,18 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 :class:  dropdown
 
 $$
-\begin{align*}
+\begin{aligned}
  &= \dfrac{q^2-8q+12}{3q^2+6q-24} \\
- &= e
-\end{align*}
+ &= 
+\end{aligned}
 $$
 ```
 
 ````
+
+$$
+\begin{aligned}
+\nabla \times \vec{e}+\frac{\partial \vec{b}}{\partial t}&=0 \\
+\nabla \times \vec{h}-\vec{j}&=\vec{s}\_{e}
+\end{aligned}
+$$
