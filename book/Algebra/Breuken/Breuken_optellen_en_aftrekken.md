@@ -98,19 +98,19 @@ Uitwerken van de tellers en vereenvoudigen:
 
 Tel de volgende breuk op en vereenvoudig:
 \begin{align*}
- \frac{x^3 - 3x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + x}{x^2 - x}
+ \frac{x^3 - 4x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + 3x}{x^2 - x}
 \end{align*}
 
 ```{dropdown} Uitwerking
 
 Tel de volgende breuk op en vereenvoudig:
 \begin{align*}
- \frac{x^3 - 3x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + x}{x^2 - x}
+ \frac{x^3 - 4x^2 + 2x}{x^2 - x} + \frac{x^3 - 2x^2 + 3x}{x^2 - x}
 \end{align*}
 
 Optellen van de breuken:
 \begin{align}
- &= \frac{(x^3 - 3x^2 + 2x) + (x^3 - 2x^2 + x) }{x^2 - x}
+ &= \frac{(x^3 - 4x^2 + 2x) + (x^3 - 2x^2 + 3x) }{x^2 - x}
 \end{align}
 
 Uitwerken van de tellers en vereenvoudigen:
