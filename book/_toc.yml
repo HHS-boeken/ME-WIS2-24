@@ -3,7 +3,7 @@ root: intro.md
 
 parts:
   - caption: Algebra
-    chapters: 
+    chapters:
     - file: Algebra/Breuken/Breuken.md
       sections:
       - file: Algebra/Breuken/Breuken_vereenvoudigen.md
@@ -26,28 +26,29 @@ parts:
     - file: Functies/Exponentiele_functies/Exponentiele_functies.md
     - file: Functies/Logaritmische_functies/Logaritmische_functies.md
 
-  - caption: Calculas
+  - caption: Differentiëren
     chapters:
     - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
   #  - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
     - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
     - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
-    - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md 
+    - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
   #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
-   
-  - caption: Integraalrekening
+
+  - caption: Integreren
+  - caption: Integratietechnieken
     chapters:
-    - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md      
-      sections:
-      - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
-      - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
-      - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md 
+    #- file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
+    #  sections:
+    - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
+    - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
+    - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
 
   - caption: Overig
-    chapters:  
+    chapters:
     - file: references.md
     - file: changelog.md
     - file: credits.md
-    
+
