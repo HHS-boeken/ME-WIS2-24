@@ -16,10 +16,11 @@ parts:
       - file: Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
       - file: Algebra/Breuken/Breuken_optellen_en_aftrekken_uitwerkingen.md
       - file: Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
+      - file: Algebra/Breuken/Breuken_vermenigvuldigen_en_delen_opgaven.md
       - file: Algebra/Breuken/Breuken_omschrijven.md
+      - file: Algebra/Breuken/Breuken_omschrijven_opgaven.md
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
-      - file: Algebra/Breuken/Opgaven.md
-      - file: Algebra/Breuken/Uitwerkingen.md
+      - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
 
   - caption: Functies
     chapters:
