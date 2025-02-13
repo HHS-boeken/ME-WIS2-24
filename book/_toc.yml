@@ -3,7 +3,7 @@ root: intro.md
 
 parts:
   - caption: Algebra
-    chapters:
+    chapters: Bree
     - file: Algebra/Breuken/Breuken.md
       sections:
       - file: Algebra/Breuken/Breuken_vereenvoudigen.md
