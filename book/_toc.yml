@@ -28,7 +28,7 @@ parts:
 
   - caption: Differentiëren
     chapters:
-    - file: Differentiaalrekening/Differentieren/Differentieren.md
+  #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
   #  - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
     - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
