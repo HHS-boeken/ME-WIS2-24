@@ -115,11 +115,11 @@ Optellen van de breuken:
 
 Uitwerken van de tellers en vereenvoudigen:
 \begin{align}
- &= \frac{x^3 - 3x^2 + 2x + x^3 - 2x^2 + x }{x^2 - x} \\
- &= \frac{2x^3 - 5x^2 + 3x}{x^2 - x} \\
- &= \frac{x(2x^2 - 5x + 3)}{x(x - 1)} \\
- &= \frac{(2x - 3)(x - 1)}{x - 1} \\
- &= 2x - 3
+ &= \frac{x^3 - 4x^2 + 2x + x^3 - 2x^2 + 3x }{x^2 - x} \\
+ &= \frac{2x^3 - 6x^2 + 5x}{x^2 - x} \\
+ &= \frac{x(2x^2 - 6x + 5)}{x(x - 1)} \\
+ &= \frac{(2x - 5)(x - 1)}{x - 1} \\
+ &= 2x - 5
 \end{align}
 ```
 ````
