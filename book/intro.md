@@ -1,6 +1,4 @@
 (intro)=
-# Welkom bij de cursus **ME-WIS2-24: Wiskunde 2**
+# Welkom bij de cursus <br> **ME-WIS2-24: Wiskunde 2**
 
-_This is the first page the student will see when opening the url._
-
-This book can be used as a template for other books. It includes a starter package of the software developed by the TeachBooks initiative and some exercises to get you going!
+Dit is de `2024-2025`-versie van het lerboek voor Ga naar /ME-WIS2-24 om de meest recente versie van dit boek te bekijken, of pas het jaartal in /ME-WIS2-24/2024 aan naar het jaar waarin je de cursus hebt gevolgd.
