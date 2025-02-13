@@ -36,7 +36,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ### Opgave 1.1b
 
 ````{admonition} Antwoord
-:class: note, dropdown
+:class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -67,7 +67,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ### Opgave 1.1c
 
 ````{admonition} Antwoord
-:class: note, dropdown
+:class:  dropdown
 
 ```{dropdown} Uitwerking
 
@@ -93,7 +93,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ### Opgave 1.1d
 
 ````{admonition} Antwoord
-:class: note, dropdown
+:class: dropdown
 
 ```{dropdown} Uitwerking
 
@@ -131,7 +131,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ### Opgave 1.1e
 
 ````{admonition} Antwoord
-:class: note, dropdown
+:class:  dropdown
 
 ```{dropdown} Uitwerking
 
@@ -165,10 +165,17 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ### Opgave 1.1f
 
+````{admonition} Antwoord
+:class:  dropdown
+
+```{dropdown} Uitwerking
+
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{a^2+b}{a^2-b}
 \end{align*}
+```
+````
 
 ### Opgave 1.1g
 
@@ -272,7 +279,14 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ### Opgave 1.1j
 
+````{admonition} Antwoord
+:class:  dropdown
+
+```{dropdown} Uitwerking
+
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{q^2-8q+12}{3q^2+6q-24}
 \end{align*}
+```
+````
