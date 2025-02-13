@@ -13,6 +13,8 @@ parts:
       - file: Algebra/Breuken/Breuken_splitsen_opgaven.md
       - file: Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
       - file: Algebra/Breuken/Breuken_optellen_en_aftrekken.md
+      - file: Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
+      - file: Algebra/Breuken/Breuken_optellen_en_aftrekken_uitwerkingen.md
       - file: Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
       - file: Algebra/Breuken/Breuken_omschrijven.md
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
