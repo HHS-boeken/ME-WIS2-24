@@ -6,6 +6,7 @@
 :class:  dropdown
 
 De vereenvoudige breuk is:
+
 $$
 \begin{align*}
  \dfrac{3ab^2c}{5d^2} \quad \text{als } a \neq 0, b \neq 0
@@ -16,6 +17,7 @@ $$
 :class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+
 $$
 \begin{aligned}
  \dfrac{15a^2b^5c}{25ab^3d^2}
@@ -23,6 +25,7 @@ $$
 $$
 
 Ontbind de teller en de noemer in factoren:
+
 $$
 \begin{align}
 = \dfrac{5 \cdot 3 \cdot a^2 \cdot b^5 \cdot c}{5 \cdot 5 \cdot a \cdot b^3 \cdot d^2}
