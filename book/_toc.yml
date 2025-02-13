@@ -21,7 +21,7 @@ parts:
     - file: Functies/Kwadratische_functies/Kwadratische_functies.md
     - file: Functies/Gebroken_functies/Gebroken_functies.md
     - file: Functies/Machtsfuncties/Machtsfuncties.md
-    - file: Functies/Wortelfuncties/Wortelfuncties.md
+    - file: Functies/Wortelfuncties/Wortel_functies.md
     - file: Functies/Goniometrische_functies/Goniometrische_functies.md
     - file: Functies/Exponentiele_functies/Exponentiele_functies.md
     - file: Functies/Logaritmische_functies/Logaritmische_functies.md
