@@ -1,1 +1,1 @@
-# Eponentiële functies
+# Machtsfuncties

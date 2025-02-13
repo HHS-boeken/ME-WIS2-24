@@ -1,1 +1,1 @@
-# Eponentiële functies
+# Wortelfuncties

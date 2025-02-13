@@ -1,1 +1,1 @@
-# Eponentiële functies
+# Gebroken functies
