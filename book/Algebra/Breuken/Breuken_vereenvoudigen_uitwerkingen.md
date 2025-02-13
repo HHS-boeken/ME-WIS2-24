@@ -314,9 +314,11 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \end{align}
 
 Ontbind de teller en de noemer nog een keer in factoren:
+$$
 \begin{align}
 = \dfrac{(q - 6)(q - 2)}{3(q - 2)(q + 4)}
 \end{align}
+$$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \begin{align}
@@ -325,3 +327,9 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ```
 ````
+$$
+\begin{align*}
+ &= \dfrac{q^2-8q+12}{3q^2+6q-24} \\
+ &= e
+\end{align*}
+$$
