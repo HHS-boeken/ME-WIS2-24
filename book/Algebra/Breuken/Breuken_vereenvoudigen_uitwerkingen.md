@@ -11,6 +11,25 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \begin{align*}
  \dfrac{15a^2b^5c}{25ab^3d^2}
 \end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
+\end{align}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{2(x-3)}{3(x+3)} \quad \text{als } x\neq-2
+\end{align}
+
 ```
 ````
 
@@ -30,6 +49,18 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \begin{align*}
  \dfrac{a^2+6a+8}{a^2+a-12}
 \end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ = \dfrac{(a+4)(a+2)}{(a+4)(a-3)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4
+\end{align}
 ```
 ````
 
@@ -44,6 +75,18 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \begin{align*}
  \dfrac{a^2+b^2}{a+b}
 \end{align*}
+
+Ontbind de teller in factoren:
+
+\begin{align}
+ = \dfrac{(a-b)(a+b)}{(a+b)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ = \dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4
+\end{align}
 ```
 ````
 
@@ -58,6 +101,30 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \begin{align*}
  \dfrac{14x^4y - 28x^3y^2}{21x^2y^2 - 42xy^3}
 \end{align*}
+
+Ontbind de teller en de noemer in factoren:
+
+\begin{align}
+ =  \dfrac{14x^3y(x-2y)}{21xy^2(x-2y)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ &= \dfrac{14x^3y}{21xy^2} \\
+\end{align}
+
+Ontbind de teller en de noemer nog een keer in factoren:
+
+\begin{align}
+ =  \dfrac{7xy(2x^2)}{7xy(3y)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+\begin{align}
+ =  \dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0
+\end{align}
 ```
 ````
 
@@ -72,6 +139,27 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 \begin{align*}
  \dfrac{p^2x-p^2y}{p^3x^2 - p^3y^2}
 \end{align*}
+
+Ontbind de teller en de noemer in factoren:
+\begin{align}
+= \dfrac{p^2(x - y)}{p^3(x^2 - y^2)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+\begin{align}
+= \dfrac{p^2(x - y)}{p^3(x - y)(x + y)}
+\end{align}
+
+Ontbind de teller en de noemer nog een keer in factoren:
+\begin{align}
+= \dfrac{p^2}{p^3(x + y)}
+\end{align}
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+\begin{align}
+= \dfrac{1}{p(x + y)} \quad \text{als } x\neq y, p\neq0
+\end{align}
+
 ```
 ````
 
