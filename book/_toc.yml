@@ -39,7 +39,7 @@ parts:
 
   - caption: Integreren
     chapters:
-    - file: Integraalrekening/Integreren/Integeren.md
+    - file: Integraalrekening/Integreren/Integreren.md
 
   - caption: Integratietechnieken
     chapters:
