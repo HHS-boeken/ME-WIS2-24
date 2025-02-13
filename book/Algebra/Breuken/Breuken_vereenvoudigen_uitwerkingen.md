@@ -327,9 +327,15 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ```
 ````
+
+
+```{tip}
+:class:  dropdown
+
 $$
 \begin{align*}
  &= \dfrac{q^2-8q+12}{3q^2+6q-24} \\
  &= e
 \end{align*}
 $$
+```
