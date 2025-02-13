@@ -1,1 +1,1 @@
-# Eponentiële functies
+# Logaritmische functies
