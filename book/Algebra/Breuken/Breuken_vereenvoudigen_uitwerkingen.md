@@ -329,7 +329,10 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ````
 
 
-```{tip}
+````{admonition} Antwoord
+:class:  dropdown
+
+```{admonition} Uitwerking
 :class:  dropdown
 
 $$
@@ -339,3 +342,5 @@ $$
 \end{align*}
 $$
 ```
+
+````
