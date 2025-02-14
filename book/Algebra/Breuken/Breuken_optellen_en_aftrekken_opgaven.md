@@ -1,8 +1,8 @@
 # 1.3 Opgaven
 
----
+<hr style="border:2px solid #9EA700">
 
-### Opgave 1.3a
+### <span style="color:#223343"> Opgave 1.3a</span>
 
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
 
@@ -12,7 +12,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3b
 
@@ -24,7 +24,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3c
 
@@ -36,7 +36,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3d
 
@@ -48,7 +48,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3e
 
@@ -60,7 +60,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3f
 
@@ -72,7 +72,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3g
 
@@ -84,7 +84,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3h
 
@@ -96,7 +96,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3i
 
@@ -108,7 +108,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.3j
 

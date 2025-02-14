@@ -1,6 +1,6 @@
 # 1.5 Opgaven
 
----
+<hr style="border:2px solid #9EA700">
 
 ### Opgave 1.5a
 
@@ -12,7 +12,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5b
 
@@ -24,7 +24,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5c
 
@@ -36,7 +36,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5d
 
@@ -48,8 +48,7 @@ $$
 \end{align*}
 $$
 
----
-
+<hr style="border:1px solid #9EA700">
 ### Opgave 1.5e
 
 Schrijf als één enkele breuk:
@@ -60,7 +59,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5f
 
@@ -72,7 +71,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5g
 
@@ -84,7 +83,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5h
 
@@ -96,7 +95,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5i
 
@@ -108,7 +107,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5j
 
@@ -120,7 +119,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5k
 
@@ -132,8 +131,7 @@ $$
 \end{align*}
 $$
 
----
-
+<hr style="border:1px solid #9EA700">
 ### Opgave 1.5l
 
 Schrijf in de vorm $\dfrac{m}{x-p} = q$:
@@ -144,7 +142,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5m
 
@@ -168,7 +166,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5o
 
@@ -180,7 +178,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5p
 
@@ -192,7 +190,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5q
 
@@ -204,7 +202,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5r
 
@@ -216,7 +214,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5s
 
@@ -228,7 +226,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5t
 
@@ -239,5 +237,3 @@ $$
  \dfrac{7x - 1}{3x + 2}
 \end{align*}
 $$
-
----

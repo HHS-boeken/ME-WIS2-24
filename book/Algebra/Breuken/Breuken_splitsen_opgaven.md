@@ -1,6 +1,6 @@
 # 1.2 Opgaven
 
----
+<hr style="border:2px solid #9EA700">
 
 ### Opgave 1.2a
 
@@ -12,7 +12,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2b
 
@@ -24,7 +24,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2c
 
@@ -36,7 +36,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2d
 
@@ -48,7 +48,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2e
 
@@ -60,7 +60,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2f
 
@@ -72,7 +72,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2g
 
@@ -84,7 +84,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2h
 
@@ -96,7 +96,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2i
 
@@ -108,7 +108,7 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2j
 
