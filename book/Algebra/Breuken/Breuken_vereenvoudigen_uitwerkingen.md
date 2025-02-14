@@ -1,5 +1,7 @@
 # 1.1 Uitwerkingen
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.1a
 
 ````{admonition} Antwoord
@@ -41,6 +43,7 @@ $$
 $$
 ```
 ````
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1b
 
@@ -83,6 +86,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1c
 
@@ -171,6 +176,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.1e
 
 ````{admonition} Antwoord
@@ -220,6 +227,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1f
 
@@ -291,6 +300,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.1h
 
 ````{admonition} Antwoord
@@ -332,6 +343,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1i
 
@@ -382,6 +395,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1j
 

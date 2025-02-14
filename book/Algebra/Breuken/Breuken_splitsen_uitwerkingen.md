@@ -1,5 +1,7 @@
 # 1.2 Uitwerkingen
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.2a
 
 ````{admonition} Antwoord
@@ -12,7 +14,6 @@ $$
  & x + 4 + \frac{1}{x}
 \end{align}
 $$
-
 
 ```{admonition} Uitwerking
 :class:  dropdown
@@ -42,6 +43,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2b
 
@@ -127,6 +130,7 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2d
 
@@ -170,6 +174,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.2e
 
 ````{admonition} Antwoord
@@ -211,6 +217,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2f
 
@@ -254,6 +262,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.2g
 
 ````{admonition} Antwoord
@@ -295,6 +305,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2h
 
@@ -338,6 +350,7 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2i
 
@@ -381,6 +394,7 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2j
 

@@ -64,7 +64,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5b
 
@@ -126,7 +126,8 @@ $$
 $$
 ```
 ````
----
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5c
 
@@ -189,7 +190,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5d
 
@@ -252,7 +253,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5e
 
@@ -315,7 +316,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5f
 
@@ -378,7 +379,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5g
 
@@ -441,7 +442,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5h
 
@@ -504,7 +505,7 @@ $$
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5i
 
