@@ -1,5 +1,7 @@
 # 1.5 Opgaven
 
+---
+
 ### Opgave 1.5a
 
 Schrijf als één enkele breuk:
