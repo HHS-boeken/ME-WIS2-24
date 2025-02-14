@@ -1,5 +1,7 @@
 # 1.3 Opgaven
 
+---
+
 ### Opgave 1.3a
 
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
@@ -9,6 +11,8 @@ $$
  \dfrac{x}{x - 3} + \dfrac{4}{x + 1}
 \end{align*}
 $$
+
+---
 
 ### Opgave 1.3b
 
@@ -20,6 +24,8 @@ $$
 \end{align*}
 $$
 
+---
+
 ### Opgave 1.3c
 
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
@@ -29,6 +35,8 @@ $$
  \dfrac{5}{x^2 + x} + \dfrac{x}{x - 2}
 \end{align*}
 $$
+
+---
 
 ### Opgave 1.3d
 
@@ -40,6 +48,8 @@ $$
 \end{align*}
 $$
 
+---
+
 ### Opgave 1.3e
 
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
@@ -49,6 +59,8 @@ $$
  \dfrac{2x}{x + 5} + \dfrac{3}{x + 7}
 \end{align*}
 $$
+
+---
 
 ### Opgave 1.3f
 
@@ -60,6 +72,8 @@ $$
 \end{align*}
 $$
 
+---
+
 ### Opgave 1.3g
 
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
@@ -69,6 +83,8 @@ $$
  \dfrac{3}{x + 2} + \dfrac{5}{x + 4}
 \end{align*}
 $$
+
+---
 
 ### Opgave 1.3h
 
@@ -80,6 +96,8 @@ $$
 \end{align*}
 $$
 
+---
+
 ### Opgave 1.3i
 
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
@@ -90,6 +108,8 @@ $$
 \end{align*}
 $$
 
+---
+
 ### Opgave 1.3j
 
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
@@ -99,4 +119,3 @@ $$
  \dfrac{2}{x + 1} - \dfrac{x}{x - 3}
 \end{align*}
 $$
-
