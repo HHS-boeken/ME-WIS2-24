@@ -22,6 +22,7 @@ parts:
       - file: Algebra/Breuken/Breuken_omschrijven_uitwerkingen.md
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
+      - file: Algebra/Breuken/Staartdelingen_met_variabelen.md
 
   - caption: Functies
     chapters:
