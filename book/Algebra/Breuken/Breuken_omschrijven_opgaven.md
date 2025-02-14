@@ -117,3 +117,125 @@ $$
  \dfrac{-4}{2x+2} + 7
 \end{align*}
 $$
+
+---
+
+### Opgave 1.5a
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{3x + 5}{x - 2}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5b
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{5x - 7}{2x + 4}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5c
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{7x + 9}{3x - 1}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5d
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{6x - 2}{x + 5}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5e
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{8x + 3}{4x + 7}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5f
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{10x - 6}{5x + 8}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5g
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{9x + 4}{3x - 2}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5h
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{2x - 8}{x + 6}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5i
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{4x + 11}{2x - 5}
+\end{align*}
+$$
+
+---
+
+### Opgave 1.5j
+
+Schrijf in de vorm m/x - p = q:
+
+$$
+\begin{align*}
+ \dfrac{7x - 1}{3x + 2}
+\end{align*}
+$$
+
+---
