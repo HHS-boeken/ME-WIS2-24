@@ -49,6 +49,7 @@ $$
 $$
 
 <hr style="border:1px solid #9EA700">
+
 ### Opgave 1.5e
 
 Schrijf als één enkele breuk:
@@ -132,6 +133,7 @@ $$
 $$
 
 <hr style="border:1px solid #9EA700">
+
 ### Opgave 1.5l
 
 Schrijf in de vorm $\dfrac{m}{x-p} = q$:
@@ -210,7 +212,7 @@ Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
- \dfrac{2x - 8}{x + 6}
+ \dfrac{3x - 8}{2x + 6}
 \end{align*}
 $$
 
@@ -222,7 +224,7 @@ Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
- \dfrac{4x + 11}{2x - 5}
+ \dfrac{4x + 11}{7x - 5}
 \end{align*}
 $$
 
