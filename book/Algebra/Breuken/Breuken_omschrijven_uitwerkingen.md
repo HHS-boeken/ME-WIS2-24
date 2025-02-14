@@ -772,7 +772,7 @@ De vorm wordt:
 
 $$
 \begin{align*}
- \dfrac{7}{3} + \dfrac{10}{3(x - \frac{1}{3})}
+ \dfrac{7}{3} + \dfrac{34}{9(x - \frac{1}{3})}
 \end{align*}
 $$
 
@@ -840,6 +840,67 @@ De vorm wordt:
 
 $$
 \begin{align*}
+6 - \dfrac{32}{x + 5}
+\end{align*}
+$$
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
+
+$$
+\begin{align*}
+ \dfrac{6x - 2}{x + 5}
+\end{align*}
+$$
+
+Voeg de factor $(x+5)$ toe aan de teller en corrigeer de teller:
+
+$$
+\begin{align}
+ = \dfrac{6(x+5) - 30 - 2}{x + 5}
+\end{align}
+$$
+
+Vereenvoudig de teller:
+
+$$
+\begin{align}
+ = \dfrac{6(x+5) - 32}{x + 5}
+\end{align}
+$$
+
+Splits de breuk:
+
+$$
+\begin{align}
+ = \dfrac{6(x+5)}{x+5} - \dfrac{32}{x+5}
+\end{align}
+$$
+
+Vereenvoudig de breuk:
+
+$$
+\begin{align}
+ = 6 - \dfrac{32}{x + 5}
+\end{align}
+$$
+```
+````
+
+
+<hr style="border:2px solid #9EA700">
+
+### Opgave 1.5o
+
+````{admonition} Antwoord
+:class: dropdown
+
+De vorm wordt:
+
+$$
+\begin{align*}
 2 - \dfrac{11}{4x + 7}
 \end{align*}
 $$
@@ -891,7 +952,7 @@ $$
 
 <hr style="border:2px solid #9EA700">
 
-### Opgave 1.5o
+### Opgave 1.5p
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -944,66 +1005,6 @@ Vereenvoudig de breuk:
 $$
 \begin{align}
  = 2 - \dfrac{22}{5x + 8}
-\end{align}
-$$
-```
-````
-
-<hr style="border:2px solid #9EA700">
-
-### Opgave 1.5p
-
-````{admonition} Antwoord
-:class: dropdown
-
-De vorm wordt:
-
-$$
-\begin{align*}
-3 + \dfrac{10}{3x - 2}
-\end{align*}
-$$
-
-```{admonition} Uitwerking
-:class: dropdown
-
-Schrijf in de vorm $\dfrac{m}{x - p} = q$:
-
-$$
-\begin{align*}
- \dfrac{9x + 4}{3x - 2}
-\end{align*}
-$$
-
-Voeg de factor $(3x - 2)$ toe aan de teller en corrigeer de teller:
-
-$$
-\begin{align}
- = \dfrac{3(3x - 2) - 6 + 4}{3x - 2}
-\end{align}
-$$
-
-Vereenvoudig de teller:
-
-$$
-\begin{align}
- = \dfrac{3(3x - 2) + 10}{3x - 2}
-\end{align}
-$$
-
-Splits de breuk:
-
-$$
-\begin{align}
- = \dfrac{3(3x - 2)}{3x - 2} + \dfrac{10}{3x - 2}
-\end{align}
-$$
-
-Vereenvoudig de breuk:
-
-$$
-\begin{align}
- = 3 + \dfrac{10}{3x - 2}
 \end{align}
 $$
 ```
@@ -1068,6 +1069,10 @@ $$
 $$
 ```
 ````
+
+<hr style="border:2px solid #9EA700">
+
+
 
 <hr style="border:2px solid #9EA700">
 
@@ -1149,7 +1154,7 @@ De vorm wordt:
 
 $$
 \begin{align*}
-\frac{4}{7} + \frac{51}{7(7x - 5)}
+\frac{4}{7} + \frac{97}{7(7x - 5)}
 \end{align*}
 $$
 
@@ -1209,14 +1214,14 @@ De vorm wordt:
 
 $$
 \begin{align*}
-\frac{7}{3} - \frac{5}{3(3x + 2)}
+\frac{7}{3} - \frac{17}{3(3x + 2)}
 \end{align*}
 $$
 
 ```{admonition} Uitwerking
 :class: dropdown
 
-Schrijf in de vorm $\\dfrac{m}{x - p} = q$:
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
 \begin{align*}
