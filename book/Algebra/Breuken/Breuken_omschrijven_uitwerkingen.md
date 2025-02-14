@@ -567,7 +567,7 @@ $$
 ```
 ````
 
-<hr style="border:2px solid blue">
+<hr style="border:2px solid #9EA700">
 
 ### Opgave 1.5j
 
