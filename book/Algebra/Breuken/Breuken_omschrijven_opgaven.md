@@ -120,9 +120,9 @@ $$
 
 ---
 
-### Opgave 1.5a
+### Opgave 1.5k
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -132,9 +132,9 @@ $$
 
 ---
 
-### Opgave 1.5b
+### Opgave 1.5l
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -144,7 +144,7 @@ $$
 
 ---
 
-### Opgave 1.5c
+### Opgave 1.5m
 
 Schrijf in de vorm m/x - p = q:
 
@@ -156,9 +156,9 @@ $$
 
 ---
 
-### Opgave 1.5d
+### Opgave 1.5n
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -168,9 +168,9 @@ $$
 
 ---
 
-### Opgave 1.5e
+### Opgave 1.5o
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -180,9 +180,9 @@ $$
 
 ---
 
-### Opgave 1.5f
+### Opgave 1.5p
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -192,9 +192,9 @@ $$
 
 ---
 
-### Opgave 1.5g
+### Opgave 1.5q
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -204,9 +204,9 @@ $$
 
 ---
 
-### Opgave 1.5h
+### Opgave 1.5r
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -216,9 +216,9 @@ $$
 
 ---
 
-### Opgave 1.5i
+### Opgave 1.5s
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
@@ -228,9 +228,9 @@ $$
 
 ---
 
-### Opgave 1.5j
+### Opgave 1.5t
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
 \begin{align*}
