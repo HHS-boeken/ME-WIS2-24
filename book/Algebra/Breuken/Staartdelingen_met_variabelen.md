@@ -32,7 +32,7 @@ Een staartdeling bij een algebraïsche uitdrukking bestaat uit de volgende stapp
 ````
 
 
-```{admonition} Voorbeeld 1: Teller ontbinden in factoren
+```{admonition} Voorbeeld 1: Staartdeling met variabelen
 :class: dropdown
 
 
