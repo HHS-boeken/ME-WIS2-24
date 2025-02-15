@@ -249,7 +249,6 @@ $$
 &\quad \quad \quad   \quad - 4x^2 \quad \quad \quad -16\\
 &----------- \quad -\\
 &\quad \quad \quad   \quad \quad \quad \quad -25x -36\\
-
 \end{align*}
 $$
 
