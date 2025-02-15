@@ -68,6 +68,7 @@ $$
 $$
 
 Deel $8x$ door $2x$:
+
 $$
 \frac{8x}{2x} = 4
 $$
@@ -99,12 +100,14 @@ $$
 :class: important, dropdown
 
 Berekenen door middel van een staartdeling:
+
 $$
 \frac{x^2 + 9x - 4}{x + 2}
 $$
 
 ```{dropdown} Uitwerking
 Berekenen door middel van een staartdeling:
+
 $$
 \frac{x^2 + 6x - 4}{x + 2}
 $$
@@ -135,6 +138,7 @@ $$
 $$
 
 Deel $4x$ door $x$:
+
 $$
 \frac{4x}{x} = 4
 $$
@@ -167,6 +171,7 @@ $$
 :class: important, dropdown
 
 Berekenen door middel van een staartdeling:
+
 $$
 \frac{x^4 + 6x^3 - x+6}{x^2 + 4}
 $$
@@ -174,6 +179,7 @@ $$
 ```{dropdown} Uitwerking
 
 Berekenen door middel van een staartdeling:
+
 $$
 \frac{x^4 + 6x^3 - x+6}{x^2 + 4}
 $$
@@ -204,6 +210,7 @@ $$
 $$
 
 Deel $6x^3$ door $x^2$:
+
 $$
 \frac{6x^3}{x^2} = 6x
 $$
@@ -223,6 +230,7 @@ $$
 $$
 
 Deel $4x^2$ door $x^2$:
+
 $$
 \frac{-4x^2}{x^2} = -4
 $$
