@@ -102,7 +102,7 @@ $$
 Berekenen door middel van een staartdeling:
 
 $$
-\frac{x^2 + 9x - 4}{x + 2}
+\frac{x^2 + 6x - 4}{x + 2}
 $$
 
 ```{dropdown} Uitwerking
