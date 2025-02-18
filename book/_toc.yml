@@ -24,7 +24,8 @@ parts:
       - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
       - file: Algebra/Breuken/Staartdelingen_met_variabelen.md
       - file: Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
-
+      - file: Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
+  
   - caption: Functies
     chapters:
     - file: Functies/Lineaire_functies/Lineaire_functies.md
