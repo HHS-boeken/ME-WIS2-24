@@ -88,7 +88,7 @@ De vereenvoudigde breuk is:
 
 $$
 \begin{align*}
-2x + \dfrac{1}{2x + 1} + 2
+2x + \frac{1}{2} + \dfrac{9}{2(2x + 1)}
 \end{align*}
 $$
 
@@ -128,13 +128,27 @@ $$
 
 Deel $x$ door $2x$:
 
-Omdat $x$ geen gehele deling geeft met $2x$, stoppen we de deling en noteren de rest als een breuk.
-
-De rest is $x + 5$, dus de uiteindelijke uitkomst is:
+$$
+\frac{x}{2x} = \frac{1}{2}
+$$
 
 $$
 \begin{align*}
-2x + \dfrac{x + 5}{2x + 1}
+ 2x + 1 \quad / &4x^2 + 3x + 5 | \quad 2x + \frac{1}{2}\\
+&4x^2 + 2x \\
+&------ \quad -\\
+&\quad \quad \quad x + 5 \\
+&\quad \quad \quad x + \frac{1}{2} \\
+&------ \quad -\\
+&\quad \quad \quad \quad \quad  \frac{9}{2} \\
+\end{align*}
+$$
+
+Noteer de rest als een breuk. De rest is $\frac{9}{2}$, dus de uiteindelijke uitkomst is:
+
+$$
+\begin{align*}
+2x + \frac{1}{2} + \dfrac{9}{2(2x + 1)}
 \end{align*}
 $$
 ```
@@ -149,7 +163,7 @@ De vereenvoudigde breuk is:
 
 $$
 \begin{align*}
-2x + 1
+2x + \frac{1}{2} + \dfrac{3}{4x + 2}
 \end{align*}
 $$
 
@@ -193,11 +207,25 @@ $$
 \frac{2x}{4x} = \frac{1}{2}
 $$
 
-Omdat de rest nul wordt na verdere deling, krijgen we:
+Dus,
 
 $$
 \begin{align*}
-2x + 1
+ 4x + 2 \quad / &8x^2 + 6x + 4 | \quad 2x + \frac{1}{2}\\
+&8x^2 + 4x \\
+&------ \quad -\\
+&\quad \quad \quad 2x + 4 \\
+&\quad \quad \quad 2x + 1 \\
+&------ \quad -\\
+&\quad \quad \quad \quad \quad 3
+\end{align*}
+$$
+
+Noteer de rest als een breuk. De rest is $3$, dus de uiteindelijke uitkomst is:
+
+$$
+\begin{align*}
+2x + \frac{1}{2} + \dfrac{3}{4x + 2}
 \end{align*}
 $$
 ```
