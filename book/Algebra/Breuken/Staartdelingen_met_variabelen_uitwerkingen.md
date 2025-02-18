@@ -7,7 +7,7 @@
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -86,7 +86,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -163,7 +163,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -242,7 +242,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -321,7 +321,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -400,7 +400,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -479,7 +479,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -581,7 +581,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -661,7 +661,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
@@ -763,7 +763,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De vereenvoudigde breuk is:
+De uitkomst is:
 
 $$
 \begin{align*}
