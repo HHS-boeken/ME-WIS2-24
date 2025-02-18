@@ -79,6 +79,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.7b
 
 ````{admonition} Antwoord
@@ -153,6 +155,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7c
 
@@ -231,6 +235,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.7d
 
 ````{admonition} Antwoord
@@ -307,6 +313,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7e
 
@@ -385,6 +393,8 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 1.7f
 
 ````{admonition} Antwoord
@@ -462,6 +472,7 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7g
 
@@ -563,6 +574,7 @@ $$
 ```
 ````
 
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7h
 
@@ -641,6 +653,8 @@ $$
 
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7i
 
@@ -741,6 +755,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7j
 
