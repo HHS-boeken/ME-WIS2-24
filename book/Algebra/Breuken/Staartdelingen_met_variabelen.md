@@ -46,7 +46,7 @@ Zet de staartdeling op:
 
 $$
 \begin{align*}
- 2x + 1 \quad / 6x^2 + 11x + 3 \\
+ 2x + 1 \quad / 6x^2 + 11x + 3 \backslash
 \end{align*}
 $$
 
@@ -60,7 +60,7 @@ Dus,
 
 $$
 \begin{align*}
- 2x + 1 \quad / &6x^2 + 11x + 3 | \quad 3x\\
+ 2x + 1 \quad / &6x^2 + 11x + 3 \backslash \quad 3x\\
 &6x^2 + 3x \\
 &------ \quad -\\
 &\quad \quad \quad   8x + 3
@@ -77,7 +77,7 @@ Dus,
 
 $$
 \begin{align*}
- 2x + 1 \quad / &6x^2 + 11x + 3 | \quad 3x + 4\\
+ 2x + 1 \quad / &6x^2 + 11x + 3 \backslash \quad 3x + 4\\
 &6x^2 + 3x \\
 &------ \quad -\\
 &\quad \quad \quad   8x + 3\\
@@ -116,7 +116,7 @@ Zet de staartdeling op:
 
 $$
 \begin{align*}
- x + 2 \quad / x^2 + 6x - 4 |
+ x + 2 \quad / x^2 + 6x - 4 \backslash
 \end{align*}
 $$
 
@@ -130,7 +130,7 @@ Dus,
 
 $$
 \begin{align*}
- x + 2 \quad / &x^2 + 6x - 4 | \quad x\\
+ x + 2 \quad / &x^2 + 6x - 4 \backslash \quad x\\
 &x^2 + 2x \\
 &------ \quad -\\
 &\quad \quad \quad   4x - 4
@@ -147,7 +147,7 @@ Dus,
 
 $$
 \begin{align*}
- x + 2 \quad / &x^2 + 6x - 4 | \quad x + 4\\
+ x + 2 \quad / &x^2 + 6x - 4 \backslash \quad x + 4\\
 &x^2 + 2x \\
 &------ \quad -\\
 &\quad \quad \quad   4x - 4\\
@@ -188,7 +188,7 @@ Zet de staartdeling op:
 
 $$
 \begin{align*}
- x^2 + 4 \quad / x^4 + 6x^3 - \quad \quad x+6 |
+ x^2 + 4 \quad / x^4 + 6x^3 - \quad \quad x+6 \backslash
 \end{align*}
 $$
 
@@ -202,7 +202,7 @@ Dus,
 
 $$
 \begin{align*}
- x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 | \quad x^2\\
+ x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2\\
 &x^2 + \quad \quad \quad 4x^2 \\
 &------ \quad -\\
 &\quad \quad \quad   6x^3 - 4x^2-x+6
@@ -219,7 +219,7 @@ Dus,
 
 $$
 \begin{align*}
- x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 | \quad x^2 + 6x\\
+ x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2 + 6x\\
 &x^2 + \quad \quad \quad 4x^2 \\
 &----------- \quad -\\
 &\quad \quad \quad   6x^3 - 4x^2-x+6 \\
@@ -239,7 +239,7 @@ $$
 
 $$
 \begin{align*}
- x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 | \quad x^2 + 6x - 4\\
+ x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2 + 6x - 4\\
 &x^2 + \quad \quad \quad 4x^2 \\
 &----------- \quad -\\
 &\quad \quad \quad   6x^3 - 4x^2-x+6 \\
