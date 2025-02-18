@@ -46,7 +46,7 @@ Zet de staartdeling op:
 
 $$
 \begin{align*}
- 2x + 1 \quad / 6x^2 + 11x + 3 |
+ 2x + 1 \quad / 6x^2 + 11x + 3 \\
 \end{align*}
 $$
 
