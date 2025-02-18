@@ -6,7 +6,7 @@
 #### **Wat is een staartdeling?**
 Een staartdeling is een methode om een deling uit te voeren waarbij je stapsgewijs deelt, vermenigvuldigt en aftrekt. Deze methode wordt gebruikt bij **lange delingen**, zowel met getallen als met algebraïsche uitdrukkingen.
 
-Bij algebraïsche delingen, zoals het delen van een **veelterm** door een **binomiaal** (bijvoorbeeld $\frac{6x^2 + 11x + 3}{2x + 1}$ ), gebruiken we een staartdeling om termen systematisch te elimineren.
+Bij algebraïsche delingen, zoals het delen van een **veelterm** door een **binomiaal** (bijvoorbeeld $\dfrac{6x^2 + 11x + 3}{2x + 1}$ ), gebruiken we een staartdeling om termen systematisch te elimineren.
 
 ---
 
@@ -102,7 +102,7 @@ $$
 Berekenen door middel van een staartdeling:
 
 $$
-\frac{x^2 + 9x - 4}{x + 2}
+\frac{x^2 + 6x - 4}{x + 2}
 $$
 
 ```{dropdown} Uitwerking
