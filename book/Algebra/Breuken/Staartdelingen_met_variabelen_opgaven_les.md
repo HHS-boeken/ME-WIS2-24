@@ -37,5 +37,15 @@ $$
 Berekenen door middel van een staartdeling:
 
 $$
-\frac{6x^2 + 4x - 5}{x + 3}
+\frac{24x^3 + 30x^2 + 12x + 5}{8x + 4}
+$$
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 5
+
+Berekenen door middel van een staartdeling:
+
+$$
+\frac{18x^3 + 21x^2 + 9x + 7}{6x^2 + 3x}
 $$
