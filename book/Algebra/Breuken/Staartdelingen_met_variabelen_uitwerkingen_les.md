@@ -79,7 +79,7 @@ $$
 ```
 ````
 
-<hr style="border:2px solid #9EA700">
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 2
 
@@ -158,7 +158,7 @@ $$
 ```
 ````
 
-<hr style="border:2px solid #9EA700">
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 3
 
@@ -238,6 +238,7 @@ $$
 $$
 ```
 ````
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 4
 
@@ -341,6 +342,8 @@ $$
 $$
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 5
 
