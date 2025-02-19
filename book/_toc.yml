@@ -60,9 +60,13 @@ parts:
     - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
     - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
 
+  - caption: Opgaven en Uitwerkingen lessen
+    chapters:
+    - file: Staartdelingen_met_variabelen_opgaven_les.md
+    - file: Staartdelingen_met_variabelen_uitwerkingen_les.md
+
   - caption: Overig
     chapters:
     - file: references.md
     - file: changelog.md
     - file: credits.md
-
