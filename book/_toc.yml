@@ -62,8 +62,8 @@ parts:
 
   - caption: Opgaven en Uitwerkingen lessen
     chapters:
-    - file: Staartdelingen_met_variabelen_opgaven_les.md
-    - file: Staartdelingen_met_variabelen_uitwerkingen_les.md
+    - file: Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
+    - file: Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
 
   - caption: Overig
     chapters:
