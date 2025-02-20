@@ -32,7 +32,7 @@ parts:
     - file: Functies/Kwadratische_functies/Kwadratische_functies.md
     - file: Functies/Gebroken_functies/Gebroken_functies.md
     - file: Functies/Gebroken_functies/boek2.ipynb
-    - file: Functies/Gebroken_functies/t2.ipynb
+    - file: Functies/Gebroken_functies/t3.ipynb
     - file: Functies/Machtsfuncties/Machtsfuncties.md
     - file: Functies/Wortel_functies/Wortel_functies.md
     - file: Functies/Goniometrische_functies/Goniometrische_functies.md
