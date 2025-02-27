@@ -39,6 +39,10 @@ parts:
     - file: Functies/Exponentiele_functies/Exponentiele_functies.md
     - file: Functies/Logaritmische_functies/Logaritmische_functies.md
 
+  - caption: Limieten
+    chapters:
+    - file: Limieten/Limieten_naar_oneindig_en_asymptoten.md
+
   - caption: Differentiëren
     chapters:
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
