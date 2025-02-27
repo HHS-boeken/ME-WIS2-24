@@ -1,1 +1,1 @@
-# 6. Eponentiële functies
+# 6. Exponentiële functies
