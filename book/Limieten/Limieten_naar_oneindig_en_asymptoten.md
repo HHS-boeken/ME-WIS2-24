@@ -109,24 +109,24 @@ Drie verschillende situaties
 
 ## De graad van de tellen en de noemer zijn gelijk
 
-```{admonition} Voorbeeld 1:
+:::{admonition} Voorbeeld 1:
 :class: dropdown
 
 Bereken de limiet
 
-$$
+
 \begin{align}
 \lim_{x\to\infty} \dfrac{4x+3}{5x-4}
 \end{align}
-$$
+
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x$:
 
-$$
+
 \begin{align}
  &= \lim_{x\to\infty} \dfrac{4+\dfrac{3}{x}}{5-\dfrac{4}{x}} \\
 \end{align}
-$$
+
 
 Maak gebruik van de standaardlimiet,
 $
@@ -135,19 +135,17 @@ $
 \end{aligned}
 $, dit geeft:
 
-$$
+
 \begin{align}
  &= \dfrac{4+0}{5-0} \\
  &= \dfrac{4}{5}
 \end{align}
-$$
-
 
 
 
 <iframe scrolling="no" title="boek limiet" src="https://www.geogebra.org/material/iframe/id/e3bc9ay9/width/1440/height/812/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="600px" height="800px" style="border:0px;"> </iframe>
 
-```
+:::
 
 ````{admonition} Oefening 1
 :class: important, dropdown
