@@ -1,5 +1,8 @@
 # limiet $x \rightarrow  \pm\infty$, horizontale asymptoot
 
+````{admonition} Theorie
+:class: tip, dropdown open
+
 Dat $f(x)=\dfrac{1}{x}$ nadert tot $0$ als $x$ heel groot wordt gekozen noteren we als:
 
 $$
@@ -102,8 +105,13 @@ $
 $.
 
 Drie verschillende situaties 
+````
+
 
 ## De graad van de tellen en de noemer zijn gelijk
+
+
+
 ```{admonition} Voorbeeld 1: 
 :class: dropdown
 Bereken
@@ -136,8 +144,9 @@ $$
 
 ```
 
-```{admonition} Oefening 1: 
-:class: dropdown
+````{admonition} Oefening 1
+:class: important, dropdown
+
 Bereken
 
 $$
@@ -145,6 +154,9 @@ $$
 \lim_{x\to\infty} \dfrac{3x^2+7}{7x^2-12x}
 \end{align}
 $$
+
+```{admonition} Oefening 1
+:class: important, dropdown
 
 Maak gebruik van de standaardlimiet
 $
@@ -163,8 +175,8 @@ $$
  &= \dfrac{3}{7}
 \end{align}
 $$
-
 ```
+````
 
 
 
