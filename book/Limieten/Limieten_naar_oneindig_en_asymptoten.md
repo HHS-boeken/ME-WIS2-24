@@ -132,7 +132,7 @@ $$
 \end{align}
 $$
 
-<iframe scrolling="no" title="boek limiet" src="https://www.geogebra.org/material/iframe/id/e3bc9ay9/width/1440/height/812/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1440px" height="812px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="boek limiet" src="https://www.geogebra.org/material/iframe/id/e3bc9ay9/width/1440/height/812/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="600px" height="800px" style="border:0px;"> </iframe>
 
 ```
 
