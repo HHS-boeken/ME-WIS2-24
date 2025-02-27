@@ -28,14 +28,14 @@ parts:
   
   - caption: Functies
     chapters:
-    - file: Functies/Lineaire_functies/Lineaire_functies.md
-    - file: Functies/Kwadratische_functies/Kwadratische_functies.md
-    - file: Functies/Gebroken_functies/Gebroken_functies.md
-    - file: Functies/Machtsfuncties/Machtsfuncties.md
-    - file: Functies/Wortel_functies/Wortel_functies.md
-    - file: Functies/Goniometrische_functies/Goniometrische_functies.md
-    - file: Functies/Exponentiele_functies/Exponentiele_functies.md
-    - file: Functies/Logaritmische_functies/Logaritmische_functies.md
+    - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
+    - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
+    - file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
+    - file: 2_Functies/H4_Wortel_functies/Wortel_functies.md
+    - file: 2_Functies/H5_Goniometrische_functies/Goniometrische_functies.md
+    - file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
+    - file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
+    - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
 
   - caption: Differentiëren
     chapters:
