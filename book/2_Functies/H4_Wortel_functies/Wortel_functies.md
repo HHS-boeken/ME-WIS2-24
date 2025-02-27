@@ -1,4 +1,4 @@
-# W4. ortelfuncties
+# 4. Wortelfuncties
 
 # **De Wortelfunctie**
 
