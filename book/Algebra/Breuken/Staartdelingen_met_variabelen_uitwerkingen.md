@@ -772,7 +772,7 @@ $$
 $$
 
 ```{admonition} Uitwerking
-:class: dropdown solution
+:class: solution dropdown
 
 Berekenen door middel van een staartdeling:
 
