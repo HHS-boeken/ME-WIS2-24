@@ -107,12 +107,9 @@ $.
 Drie verschillende situaties 
 ````
 
-
 ## De graad van de tellen en de noemer zijn gelijk
 
-
-
-```{admonition} Voorbeeld 1: 
+```{admonition} Voorbeeld 1:
 :class: dropdown
 Bereken
 
@@ -155,7 +152,7 @@ $$
 \end{align}
 $$
 
-```{admonition} Oefening 1
+```{admonition} Uitwerking
 :class: important, dropdown
 
 Maak gebruik van de standaardlimiet
@@ -178,16 +175,57 @@ $$
 ```
 ````
 
+````{admonition} Oefening 1
+:class: important, dropdown
 
+Bereken
+
+$$
+\begin{align}
+\lim_{x\to\infty} \dfrac{3x^2+7}{7x^2-12x}
+\end{align}
+$$
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Maak gebruik van de standaardlimiet
+$
+\begin{aligned}
+\lim_{x\to\infty} \dfrac{a}{x} =0
+\end{aligned}
+$.
+
+Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^2$:
+
+$$
+\begin{align}
+ &= \lim_{x\to\infty} \dfrac{3x^2+7}{7x^2-12x}\\
+ &= \lim_{x\to\infty} \dfrac{3+\dfrac{7}{x^2}}{7-\dfrac{12}{x}} \\
+ &= \dfrac{3+0}{7-0} \\
+ &= \dfrac{3}{7}
+\end{align}
+$$
+```
+````
 
 ## De graad van de teller is kleiner dan de graad van de noemer
-```{admonition} Voorbeeld 2: 
+
+```{admonition} Voorbeeld 2:
 :class: dropdown
 
 ```
 
 ## De graad van de teller is groter dan de graad van de noemer
-```{admonition} Voorbeeld 3: 
+
+```{admonition} Voorbeeld 3:
 :class: dropdown
 
 ```
+
+\begin{align}
+ &= \lim_{x\to\infty} \dfrac{3x^2+7}{7x^2-12x}\\
+ &= \lim_{x\to\infty} \dfrac{3+\dfrac{7}{x^2}}{7-\dfrac{12}{x}} \\
+ &= \dfrac{3+0}{7-0} \\
+ &= \dfrac{3}{7}
+\end{align}
