@@ -291,6 +291,9 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 ## 1.1.4 Opgaven
 
+````{admonition} Oefening 4
+:class: important, dropdown
+
 <hr style="border:2px solid #9EA700">
 
 ### Opgave 1.1a
@@ -410,3 +413,5 @@ $$
  \dfrac{q^2-8q+12}{3q^2+6q-24}
 \end{align*}
 $$
+
+````
