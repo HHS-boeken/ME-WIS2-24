@@ -1,4 +1,4 @@
-# limiet $x \rightarrow  \pm\infty$, horizontale asymptoot
+# limiet $x \rightarrow  \pm\infty$, horizontale asymptoot TEST
 
 ````{admonition} Theorie
 :class: tip, dropdown open
