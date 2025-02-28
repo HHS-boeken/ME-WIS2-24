@@ -1,4 +1,4 @@
-# limiet $x \rightarrow  \pm\infty$, horizontale asymptoot TEST
+# 1.1 limiet $x \rightarrow  \pm\infty$, horizontale asymptoot
 
 ````{admonition} Theorie
 :class: tip, dropdown open
@@ -151,6 +151,10 @@ Bereken de limiet
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+Bereken de limiet
+\begin{align}
+    \lim_{x \to \infty} \dfrac{3x^2 + 7}{7x^2 - 12x}
+\end{align}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^2$:
 
@@ -182,6 +186,11 @@ Bereken de limiet
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+
+Bereken de limiet
+\begin{align}
+    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+\end{align}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
 
@@ -217,9 +226,3 @@ $, dit geeft:
 
 ```
 
-\begin{align}
- &= \lim_{x\to\infty} \dfrac{3x^2+7}{7x^2-12x}\\
- &= \lim_{x\to\infty} \dfrac{3+\dfrac{7}{x^2}}{7-\dfrac{12}{x}} \\
- &= \dfrac{3+0}{7-0} \\
- &= \dfrac{3}{7}
-\end{align}
