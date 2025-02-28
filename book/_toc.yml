@@ -6,25 +6,25 @@ parts:
     chapters:
     - file: Algebra/Breuken/Breuken.md
       sections:
-      - file: Algebra/Breuken/Breuken_vereenvoudigen.md
-      - file: Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
-      - file: Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
-      - file: Algebra/Breuken/Breuken_splitsen.md
-      - file: Algebra/Breuken/Breuken_splitsen_opgaven.md
-      - file: Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
-      - file: Algebra/Breuken/Breuken_optellen_en_aftrekken.md
-      - file: Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
-      - file: Algebra/Breuken/Breuken_optellen_en_aftrekken_uitwerkingen.md
-      - file: Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
-      - file: Algebra/Breuken/Breuken_vermenigvuldigen_en_delen_opgaven.md
-      - file: Algebra/Breuken/Breuken_omschrijven.md
-      - file: Algebra/Breuken/Breuken_omschrijven_opgaven.md
-      - file: Algebra/Breuken/Breuken_omschrijven_uitwerkingen.md
-      - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
-      - file: Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
-      - file: Algebra/Breuken/Staartdelingen_met_variabelen.md
-      - file: Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
-      - file: Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
+      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen.md
+      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
+      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
+      - file: 1_Algebra/Breuken/Breuken_splitsen.md
+      - file: 1_Algebra/Breuken/Breuken_splitsen_opgaven.md
+      - file: 1_Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
+      - file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken.md
+      - file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
+      - file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_uitwerkingen.md
+      - file: 1_Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
+      - file: 1_Algebra/Breuken/Breuken_vermenigvuldigen_en_delen_opgaven.md
+      - file: 1_Algebra/Breuken/Breuken_omschrijven.md
+      - file: 1_Algebra/Breuken/Breuken_omschrijven_opgaven.md
+      - file: 1_Algebra/Breuken/Breuken_omschrijven_uitwerkingen.md
+      - file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
+      - file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
+      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen.md
+      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
+      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
   
   - caption: Functies
     chapters:
@@ -39,7 +39,7 @@ parts:
 
   - caption: Limieten
     chapters:
-    - file: Limieten/Limieten_naar_oneindig_en_asymptoten.md
+    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
 
   - caption: Differentiëren
     chapters:
