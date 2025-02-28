@@ -4,7 +4,7 @@ root: intro.md
 parts:
   - caption: Algebra
     chapters:
-    - file: Algebra/Breuken/Breuken.md
+    - file: 1_Algebra/Breuken/Breuken.md
       sections:
       - file: 1_Algebra/Breuken/Breuken_vereenvoudigen.md
       - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
