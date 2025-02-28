@@ -37,6 +37,10 @@ parts:
     - file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
     - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
 
+  - caption: Limieten
+    chapters:
+    - file: Limieten/Limieten_naar_oneindig_en_asymptoten.md
+
   - caption: Differentiëren
     chapters:
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
