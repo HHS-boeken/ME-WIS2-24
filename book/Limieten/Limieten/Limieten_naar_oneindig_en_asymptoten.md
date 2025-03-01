@@ -319,5 +319,100 @@ $, dit geeft:
 ```{admonition} Voorbeeld 3:
 :class: dropdown
 
+Bereken de limiet
+
+\begin{align}
+    \lim_{x \to \infty} \dfrac{ 3x^2 - 6x }{ 4x - 8 }
+\end{align}
+
+Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x$:
+
+\begin{align}
+    &= \lim_{x \to \infty} \dfrac{ \dfrac{11}{x^2} + \dfrac{2}{x^3}}{ 2 - \dfrac{1}{x^3}} \\
+\end{align}
+
+Maak gebruik van de standaardlimiet,
+$
+\begin{aligned}
+    \lim_{x \to \infty} \dfrac{a}{x} = 0
+\end{aligned}
+$, dit geeft:
+
+\begin{align}
+    &= \dfrac{0 + 0}{2 - 0} \\
+    &= \dfrac{0}{2}=0
+\end{align}
 ```
+
+````{admonition} Oefening 3
+:class: important, dropdown
+
+Bereken de limiet
+\begin{align}
+    \lim_{x \to \infty} \dfrac{1}{x^3 - 4x + 1}
+\end{align}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de limiet
+\begin{align}
+    \lim_{x \to \infty} \dfrac{1}{x^3 - 4x + 1}
+\end{align}
+
+Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
+
+\begin{align}
+    &= \lim_{x \to \infty} \dfrac{ \dfrac{1}{x^3} }{ 1 - \dfrac{4}{x^2} + \dfrac{1}{x^3} }\\
+\end{align}
+
+Maak gebruik van de standaardlimiet,
+$
+\begin{aligned}
+\lim_{x \to \infty} \dfrac{a}{x} =0
+\end{aligned}
+$, dit geeft:
+
+\begin{align}
+    &= \dfrac{0}{1 - 0 + 0} \\
+    &= \dfrac{0}{1} = 0
+\end{align}
+```
+````
+
+````{admonition} Oefening 4
+:class: important, dropdown
+
+Bereken de limiet
+\begin{align}
+    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+\end{align}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de limiet
+\begin{align}
+    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+\end{align}
+
+Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
+
+\begin{align}
+    &= \lim_{x \to \infty} \dfrac{ 2 + \dfrac{5}{x^3} }{ 1 - \dfrac{1}{x} + \dfrac{1}{x^2} + \dfrac{6}{x^3} }\\
+\end{align}
+
+Maak gebruik van de standaardlimiet,
+$
+\begin{aligned}
+\lim_{x \to \infty} \dfrac{a}{x} =0
+\end{aligned}
+$, dit geeft:
+
+\begin{align}
+    &= \dfrac{2 +  0}{1 - 0 + 0 + 0} \\
+    &= \dfrac{2}{1} = 2
+\end{align}
+```
+````
 
