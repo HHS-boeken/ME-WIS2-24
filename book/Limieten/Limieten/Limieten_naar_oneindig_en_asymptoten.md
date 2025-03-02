@@ -416,3 +416,9 @@ $, dit geeft:
 ```
 ````
 
+ ````{toggle}
+ ```{eval-rst}
+ .. literalinclude:: ../sinewave.py
+    :language: python
+ ```
+ ````
