@@ -321,30 +321,30 @@ $, dit geeft:
 
 Bereken de limiet
 
-\begin{align}
-    \lim_{x \to \infty} \dfrac{ 3x^2 - 6x }{ 4x - 8 }
-\end{align}
+\begin{align*}
+    \lim_{x \to -\infty} \dfrac{ 3x^2 - 6x }{ 4x - 8 }
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x$:
 
-\begin{align}
-    &= \lim_{x \to \infty} \dfrac{ \dfrac{11}{x^2} + \dfrac{2}{x^3}}{ 2 - \dfrac{1}{x^3}} \\
-\end{align}
+\begin{align*}
+    &= \lim_{x \to -\infty} \dfrac{ 3x - 6 }{ 4 - \dfrac{8}{x}} \\
+\end{align*}
 
 Maak gebruik van de standaardlimiet,
 $
 \begin{aligned}
-    \lim_{x \to \infty} \dfrac{a}{x} = 0
+    \lim_{x \to -\infty} \dfrac{a}{x} = 0
 \end{aligned}
 $, dit geeft:
 
 \begin{align}
-    &= \dfrac{0 + 0}{2 - 0} \\
-    &= \dfrac{0}{2}=0
+    &= \dfrac{ -\infty - 6 }{ 4 - 0 } \\
+    &= -\infty
 \end{align}
 ```
 
-````{admonition} Oefening 3
+````{admonition} Oefening 5
 :class: important, dropdown
 
 Bereken de limiet
@@ -380,7 +380,7 @@ $, dit geeft:
 ```
 ````
 
-````{admonition} Oefening 4
+````{admonition} Oefening 6
 :class: important, dropdown
 
 Bereken de limiet
