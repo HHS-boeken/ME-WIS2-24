@@ -1,4 +1,4 @@
-# 1.1 limiet $x \rightarrow  \pm\infty$, horizontale asymptoot
+# 1.1 limiet $\lim_{x\to\infty}  f(x)=L$, horizontale asymptoot
 
 ````{admonition} Theorie
 :class: tip, dropdown open
