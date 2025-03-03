@@ -349,7 +349,7 @@ $, dit geeft:
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{1}{2x^4 - 4x + 1}
+    \lim_{x \to \infty} \dfrac{2x^4 - x^3 - 10}{10x^3 + 8x^2}
 \end{align}
 
 ```{admonition} Uitwerking
@@ -357,13 +357,13 @@ Bereken de limiet
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{1}{x^3 - 4x + 1}
+      \lim_{x \to \infty} \dfrac{2x^4 - x^3 - 10}{10x^3 + 8x^2}
 \end{align}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
 
 \begin{align}
-    &= \lim_{x \to \infty} \dfrac{ \dfrac{1}{x^3} }{ 1 - \dfrac{4}{x^2} + \dfrac{1}{x^3} }\\
+    &= \lim_{x \to \infty} \dfrac{ 2x - 1 - \dfrac{10}{x^3} }{ 10 + \dfrac{8}{x} }\\
 \end{align}
 
 Maak gebruik van de standaardlimiet,
@@ -374,8 +374,8 @@ $
 $, dit geeft:
 
 \begin{align}
-    &= \dfrac{0}{1 - 0 + 0} \\
-    &= \dfrac{0}{1} = 0
+    &= \dfrac{-\infty - 1 - 0}{ 10 + 0} \\
+    &= - \infty
 \end{align}
 ```
 ````
