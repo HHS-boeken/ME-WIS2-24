@@ -348,28 +348,28 @@ $, dit geeft:
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
-    \lim_{x \to \infty} \dfrac{2x^4 - x^3 - 10}{10x^3 + 8x^2}
-\end{align}
+\begin{align*}
+    \lim_{x \to -\infty} \dfrac{2x^4 - x^3 - 10}{10x^3 + 8x^2}
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
-      \lim_{x \to \infty} \dfrac{2x^4 - x^3 - 10}{10x^3 + 8x^2}
-\end{align}
+\begin{align*}
+      \lim_{x \to -\infty} \dfrac{2x^4 - x^3 - 10}{10x^3 + 8x^2}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
 
 \begin{align}
-    &= \lim_{x \to \infty} \dfrac{ 2x - 1 - \dfrac{10}{x^3} }{ 10 + \dfrac{8}{x} }\\
+    &= \lim_{x \to -\infty} \dfrac{ 2x - 1 - \dfrac{10}{x^3} }{ 10 + \dfrac{8}{x} }\\
 \end{align}
 
 Maak gebruik van de standaardlimiet,
 $
 \begin{aligned}
-\lim_{x \to \infty} \dfrac{a}{x} =0
+\lim_{x \to -\infty} \dfrac{a}{x} =0
 \end{aligned}
 $, dit geeft:
 
