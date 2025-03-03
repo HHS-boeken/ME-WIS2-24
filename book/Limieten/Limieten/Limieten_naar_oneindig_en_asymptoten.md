@@ -1,4 +1,4 @@
-# 1.1 Eindige limiet, $\lim_{x\to\infty}  f(x)=L$ , horizontale asymptoot
+# 1.1 Eindige limiet, $\lim_{x\to\infty}  f(x)=L$ ,  horizontale asymptoot
 
 ````{admonition} Theorie
 :class: tip, dropdown open
