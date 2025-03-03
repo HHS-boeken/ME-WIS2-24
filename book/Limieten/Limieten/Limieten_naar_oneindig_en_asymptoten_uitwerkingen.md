@@ -32,9 +32,9 @@ $$
 $$
 
 Maak gebruik van de standaardlimiet,
-$$
+$
 \lim_{x \to -\infty} \dfrac{a}{x^n} = 0
-$$
+$
 Dit geeft:
 
 $$
@@ -80,9 +80,9 @@ $$
 $$
 
 Maak gebruik van de standaardlimiet,
-$$
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0
-$$
+$
 Dit geeft:
 
 $$
@@ -128,9 +128,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -176,9 +176,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to -\infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -222,9 +222,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -270,9 +270,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to -\infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -327,9 +327,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$
@@ -384,9 +384,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to -\infty} \dfrac{a}{x^n} = 0  
-$$  
+$ 
 Dit geeft:  
 
 $$  
@@ -433,9 +433,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -482,9 +482,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -531,9 +531,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to -\infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
@@ -579,9 +579,9 @@ $$
 $$  
 
 Gebruik de standaardlimiet,  
-$$  
+$
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
+$
 Dit geeft:  
 
 $$  
