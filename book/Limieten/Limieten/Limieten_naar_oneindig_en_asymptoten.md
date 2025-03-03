@@ -385,7 +385,7 @@ $, dit geeft:
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+    \lim_{x \to -\infty} \dfrac{-4x^3 + 7x }{2x^2 - 3x - 8 }
 \end{align}
 
 ```{admonition} Uitwerking
@@ -393,25 +393,25 @@ Bereken de limiet
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+    \lim_{x \to -\infty} \dfrac{-4x^3 + 7x }{2x^2 - 3x - 8 }
 \end{align}
 
-Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
+Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^2$:
 
 \begin{align}
-    &= \lim_{x \to \infty} \dfrac{ 2 + \dfrac{5}{x^3} }{ 1 - \dfrac{1}{x} + \dfrac{1}{x^2} + \dfrac{6}{x^3} }\\
+    &= \lim_{x \to -\infty} \dfrac{ -4x + \dfrac{7}{x} }{ 2 - \dfrac{3}{x} - \dfrac{8}{x^2} }\\
 \end{align}
 
 Maak gebruik van de standaardlimiet,
 $
 \begin{aligned}
-\lim_{x \to \infty} \dfrac{a}{x} =0
+\lim_{x \to -\infty} \dfrac{a}{x} =0
 \end{aligned}
 $, dit geeft:
 
 \begin{align}
-    &= \dfrac{2 +  0}{1 - 0 + 0 + 0} \\
-    &= \dfrac{2}{1} = 2
+    &= \dfrac{ \infty +  0}{2 - 0 - 0 } \\
+    &= \infty
 \end{align}
 ```
 ````
