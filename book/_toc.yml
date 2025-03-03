@@ -73,6 +73,8 @@ parts:
     chapters:
     - file: Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
     - file: Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
+    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven_les.md
+    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen_les.md
 
   - caption: Overig
     chapters:
