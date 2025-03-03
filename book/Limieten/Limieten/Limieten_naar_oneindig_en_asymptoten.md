@@ -96,15 +96,6 @@ $
 \end{aligned}
 $.
 
-
-
-$
-\begin{aligned}
-\lim_{x\to\infty} \dfrac{a}{x} =0
-\end{aligned}
-$.
-
-Drie verschillende situaties 
 ````
 
 ## De graad van de tellen en de noemer zijn gelijk
