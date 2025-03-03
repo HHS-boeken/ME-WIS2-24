@@ -384,17 +384,17 @@ $, dit geeft:
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to -\infty} \dfrac{-4x^3 + 7x }{2x^2 - 3x - 8 }
-\end{align}
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to -\infty} \dfrac{-4x^3 + 7x }{2x^2 - 3x - 8 }
-\end{align}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^2$:
 
