@@ -32,7 +32,7 @@ $
 $ 
 betekent:
 
-$f(x)$ kan onbeperkt tot $L$ naderen door $x$ maar groot genoeg te nemen.<br>
+$f(x)$ kan onbeperkt tot $L$ naderen door $x$ maar klein genoeg te nemen.<br>
 
 <br>
 <br>
@@ -72,6 +72,9 @@ $
 \lim_{x\to\infty} \dfrac{a}{x^6} = \lim_{x\to\infty} ( a\cdot\dfrac{1}{x}\cdot\dfrac{1}{x}\cdot\dfrac{1}{x} \cdot\dfrac{1}{x}\cdot\dfrac{1}{x}\cdot\dfrac{1}{x} ) =a \cdot 0\cdot 0\cdot 0\cdot 0\cdot 0\cdot 0=0
 \end{aligned}
 $ en
+
+<br>
+<br>
 
 Bij het berekenen van limieten van het quotiënt van twee veeltermfuncties deel je de teller en de noemer door de hoogste macht $x$ van de noemer. Afhankelijk van de graad van de veeltermfuncties zijn drie situaties te onderscheiden:
 
