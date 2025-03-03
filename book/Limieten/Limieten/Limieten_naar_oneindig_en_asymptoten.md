@@ -103,17 +103,12 @@ $.
 ```{admonition} Horizontale asymptoot
 :class: warning
 
-De lijn $y = b$ is een **horizontale asymptoot** van de grafiek van de functie f(x) als;
-$
+De lijn $y = b$ is een **horizontale asymptoot** van de grafiek van de functie $f(x)$ als;
+$$
 \begin{aligned}
-\lim_{x\to\infty}  f(x)= b 
+\lim_{x\to\infty} f(x) = b \quad \text{of} \quad \lim_{x\to-\infty} f(x) = b
 \end{aligned}
-$ of
-$
-\begin{aligned}
-\lim_{x\to -\infty}  f(x)= b 
-\end{aligned}
-$ 
+$$
 ```
 
 ````
