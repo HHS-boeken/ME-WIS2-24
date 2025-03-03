@@ -297,7 +297,7 @@ Bereken de limiet
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^5$:
 
 \begin{align}
-    &= \lim_{x \to -\infty} \dfrac{ \dfrac{1}{x} + \dfrac{50}{x^4} }{ \dfrac{2}{x^5} + 1 }\\
+    &= \lim_{x \to -\infty} \dfrac{ \dfrac{1}{x} + \dfrac{50}{x^4} }{ \dfrac{2}{x^4} + 1 }\\
 \end{align}
 
 Maak gebruik van de standaardlimiet,
@@ -349,7 +349,7 @@ $, dit geeft:
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{1}{x^3 - 4x + 1}
+    \lim_{x \to \infty} \dfrac{1}{2x^4 - 4x + 1}
 \end{align}
 
 ```{admonition} Uitwerking
