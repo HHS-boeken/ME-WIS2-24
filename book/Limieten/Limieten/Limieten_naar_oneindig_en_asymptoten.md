@@ -104,10 +104,11 @@ $.
 :class: warning
 
 De lijn $y = b$ is een **horizontale asymptoot** van de grafiek van de functie $f(x)$ als;
+
 $$
-\begin{aligned}
+\begin{align*}
 \lim_{x\to\infty} f(x) = b \quad \text{of} \quad \lim_{x\to-\infty} f(x) = b
-\end{aligned}
+\end{align*}
 $$
 ```
 
