@@ -114,9 +114,9 @@ Drie verschillende situaties
 
 Bereken de limiet
 
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{4x + 3}{5x - 4}
-\end{align}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x$:
 
@@ -144,17 +144,17 @@ $, dit geeft:
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{3x^2 + 7}{7x^2 - 12x}
-\end{align}
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{3x^2 + 7}{7x^2 - 12x}
-\end{align}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^2$:
 
@@ -180,17 +180,17 @@ $, dit geeft:
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
-\end{align}
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
-\end{align}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
 
@@ -219,9 +219,9 @@ $, dit geeft:
 
 Bereken de limiet
 
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{11x + 2}{2x^3 - 1}
-\end{align}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
 
@@ -246,17 +246,17 @@ $, dit geeft:
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{1}{x^3 - 4x + 1}
-\end{align}
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Bereken de limiet
-\begin{align}
+\begin{align*}
     \lim_{x \to \infty} \dfrac{1}{x^3 - 4x + 1}
-\end{align}
+\end{align*}
 
 Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
 
@@ -283,7 +283,7 @@ $, dit geeft:
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+    \lim_{x \to -\infty} \dfrac{x^4 - 50x}{2x + x^5}
 \end{align}
 
 ```{admonition} Uitwerking
@@ -291,25 +291,25 @@ Bereken de limiet
 
 Bereken de limiet
 \begin{align}
-    \lim_{x \to \infty} \dfrac{2x^3 + 5}{x^3 - x^2 + x + 6}
+    \lim_{x \to -\infty} \dfrac{x^4 - 50x}{2x + x^5}
 \end{align}
 
-Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^3$:
+Deel de teller en de noemer door de hoogste macht $x$ van de noemer, dus $x^5$:
 
 \begin{align}
-    &= \lim_{x \to \infty} \dfrac{ 2 + \dfrac{5}{x^3} }{ 1 - \dfrac{1}{x} + \dfrac{1}{x^2} + \dfrac{6}{x^3} }\\
+    &= \lim_{x \to -\infty} \dfrac{ \dfrac{1}{x} + \dfrac{50}{x^4} }{ \dfrac{2}{x^5} + 1 }\\
 \end{align}
 
 Maak gebruik van de standaardlimiet,
 $
 \begin{aligned}
-\lim_{x \to \infty} \dfrac{a}{x} =0
+\lim_{x \to -\infty} \dfrac{a}{x} =0
 \end{aligned}
 $, dit geeft:
 
 \begin{align}
-    &= \dfrac{2 +  0}{1 - 0 + 0 + 0} \\
-    &= \dfrac{2}{1} = 2
+    &= \dfrac{0 +  0}{  0 + 1} \\
+    &= \dfrac{0}{1} = 0
 \end{align}
 ```
 ````
