@@ -16,6 +16,9 @@ Dit wordt uitgesproken als: $\quad$ *de limiet van $\dfrac{1}{x}$ voor $x$ naar 
 <br>
 <br>
 
+```{admonition} Limiet
+:class: warning
+
 $
 \begin{aligned}
 \lim_{x\to\infty}  f(x)=L
@@ -32,7 +35,8 @@ $
 $ 
 betekent:
 
-$f(x)$ kan onbeperkt tot $L$ naderen door $x$ maar klein genoeg te nemen.<br>
+$f(x)$ kan onbeperkt tot $L$ naderen door $x$ maar klein genoeg te nemen.
+```
 
 <br>
 <br>
