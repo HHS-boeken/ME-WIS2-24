@@ -7,7 +7,7 @@
 
 $$
 \begin{align*}
-\lim_{x \to -\infty} \dfrac{4x^3 + x}{7x^5 - 9x^2 + 2} =0
+    \lim_{x \to -\infty} \dfrac{4x^3 + x}{7x^5 - 9x^2 + 2} =0
 \end{align*}
 $$
 
@@ -18,7 +18,7 @@ Bereken de limiet
 
 $$
 \begin{align*}
-\lim_{x \to -\infty} \dfrac{4x^3 + x}{7x^5 - 9x^2 + 2}
+    \lim_{x \to -\infty} \dfrac{4x^3 + x}{7x^5 - 9x^2 + 2}
 \end{align*}
 $$
 
@@ -26,8 +26,8 @@ Deel de teller en de noemer door de hoogste macht van de noemer, dus $x^5$:
 
 $$
 \begin{align}
-&= \lim_{x \to -\infty} \dfrac{\dfrac{4x^3}{x^5} + \dfrac{x}{x^5}}{\dfrac{7x^5}{x^5} - \dfrac{9x^2}{x^5} + \dfrac{2}{x^5}}  \\
-&= \lim_{x \to -\infty} \dfrac{\dfrac{4}{x^2} + \dfrac{1}{x^4}}{7 - \dfrac{9}{x^3} + \dfrac{2}{x^5}}
+    &= \lim_{x \to -\infty} \dfrac{\dfrac{4x^3}{x^5} + \dfrac{x}{x^5}}{\dfrac{7x^5}{x^5} - \dfrac{9x^2}{x^5} + \dfrac{2}{x^5}}  \\
+    &= \lim_{x \to -\infty} \dfrac{\dfrac{4}{x^2} + \dfrac{1}{x^4}}{7 - \dfrac{9}{x^3} + \dfrac{2}{x^5}}
 \end{align}
 $$
 
@@ -35,14 +35,14 @@ Maak gebruik van de standaardlimiet,
 $$
 \lim_{x \to -\infty} \dfrac{a}{x^n} = 0
 $$
-Dit geeft:  
+Dit geeft:
 
-$$  
-\begin{align}  
-&= \dfrac{0 + 0}{7 - 0 + 0}  \\  
-&= \dfrac{0}{7} = 0  
-\end{align}  
-$$  
+$$
+\begin{align}
+    &= \dfrac{0 + 0}{7 - 0 + 0}  \\
+    &= \dfrac{0}{7} = 0
+\end{align}
+$$
 ```
 ````
 
@@ -53,44 +53,44 @@ $$
 ````{admonition} Antwoord
 :class:  dropdown
 
-$$  
-\begin{align*}  
-\lim_{x \to \infty} \dfrac{x^3 + 5x}{x^2 - 2x + 1} = \infty  
-\end{align*}  
-$$  
+$$
+\begin{align*}
+    \lim_{x \to \infty} \dfrac{x^3 + 5x}{x^2 - 2x + 1} = \infty  
+\end{align*}
+$$
 
 ```{admonition} Uitwerking
 :class:  dropdown
 
-Bereken de limiet  
+Bereken de limiet
 
-$$  
-\begin{align*}  
-\lim_{x \to \infty} \dfrac{x^3 + 5x}{x^2 - 2x + 1}  
-\end{align*}  
-$$  
+$$
+\begin{align*}
+    \lim_{x \to \infty} \dfrac{x^3 + 5x}{x^2 - 2x + 1}
+\end{align*}
+$$
 
-Deel de teller en de noemer door de hoogste macht van de noemer, dus $x^2$:  
+Deel de teller en de noemer door de hoogste macht van de noemer, dus $x^2$:
 
-$$  
-\begin{align}  
-&= \lim_{x \to \infty} \dfrac{\dfrac{x^3}{x^2} + \dfrac{5x}{x^2}}{\dfrac{x^2}{x^2} - \dfrac{2x}{x^2} + \dfrac{1}{x^2}}  \\  
-&= \lim_{x \to \infty} \dfrac{x + \dfrac{5}{x}}{ 1 - \dfrac{2}{x} + \dfrac{1}{x^2}}  
-\end{align}  
-$$  
+$$
+\begin{align}
+    &= \lim_{x \to \infty} \dfrac{\dfrac{x^3}{x^2} + \dfrac{5x}{x^2}}{\dfrac{x^2}{x^2} - \dfrac{2x}{x^2} + \dfrac{1}{x^2}}  \\
+    &= \lim_{x \to \infty} \dfrac{x + \dfrac{5}{x}}{ 1 - \dfrac{2}{x} + \dfrac{1}{x^2}}
+\end{align}
+$$
 
-Maak gebruik van de standaardlimiet,  
-$$  
-\lim_{x \to \infty} \dfrac{a}{x^n} = 0  
-$$  
-Dit geeft:  
+Maak gebruik van de standaardlimiet,
+$$
+\lim_{x \to \infty} \dfrac{a}{x^n} = 0
+$$
+Dit geeft:
 
-$$  
-\begin{align}  
-&= \dfrac{\infty   + 0}{1 - 0 + 0}  \\  
-&= \infty  
-\end{align}  
-$$  
+$$
+\begin{align}
+    &= \dfrac{\infty   + 0}{1 - 0 + 0}  \\
+    &= \infty
+\end{align}
+$$
 ```
 ````
 
@@ -103,7 +103,7 @@ $$
 
 $$  
 \begin{align*}  
-\lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5} = 4
+    \lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5} = 4
 \end{align*}  
 $$  
 
@@ -114,16 +114,16 @@ Bereken de limiet
 
 $$  
 \begin{align*}  
-\lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5}  
+    \lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5}  
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^3 \):  
+Deel de teller en de noemer door de hoogste macht $x^3$ van de noemer:  
 
 $$  
 \begin{align}  
-&= \lim_{x \to \infty} \dfrac{\dfrac{4x^3}{x^3} + \dfrac{x}{x^3} + \dfrac{9}{x^3}}{\dfrac{x^3}{x^3} - \dfrac{2x}{x^3} + \dfrac{5}{x^3}}  \\  
-&= \lim_{x \to \infty} \dfrac{4 + \dfrac{1}{x^2} + \dfrac{9}{x^3}}{1 - \dfrac{2}{x^2} + \dfrac{5}{x^3}}  
+    &= \lim_{x \to \infty} \dfrac{\dfrac{4x^3}{x^3} + \dfrac{x}{x^3} + \dfrac{9}{x^3}}{\dfrac{x^3}{x^3} - \dfrac{2x}{x^3} + \dfrac{5}{x^3}}  \\  
+    &= \lim_{x \to \infty} \dfrac{4 + \dfrac{1}{x^2} + \dfrac{9}{x^3}}{1 - \dfrac{2}{x^2} + \dfrac{5}{x^3}}  
 \end{align}  
 $$  
 
@@ -135,8 +135,8 @@ Dit geeft:
 
 $$  
 \begin{align}  
-&= \dfrac{4 + 0 + 0}{1 - 0 + 0}  \\  
-&= \dfrac{4}{1} = 4  
+    &= \dfrac{4 + 0 + 0}{1 - 0 + 0}  \\  
+    &= \dfrac{4}{1} = 4  
 \end{align}  
 $$  
 ```
@@ -212,7 +212,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^3 \) in de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^3$ in de noemer:  
 
 $$  
 \begin{align}  
@@ -260,7 +260,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^2 \) in de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^2$ in de noemer:  
 
 $$  
 \begin{align}  
@@ -374,7 +374,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^5 \) van de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^5$ van de noemer:  
 
 $$  
 \begin{align}  
@@ -423,7 +423,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^2 \):  
+Deel de teller en de noemer door de hoogste macht $x^2$ van de noemer:  
 
 $$  
 \begin{align}  
@@ -472,7 +472,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^2 \) in de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^2$ in de noemer:  
 
 $$  
 \begin{align}  
@@ -521,7 +521,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^6 \) in de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^6$ in de noemer:  
 
 $$  
 \begin{align}  
@@ -569,7 +569,7 @@ $$
 \end{align*}  
 $$  
 
-Deel de teller en de noemer door de hoogste macht \( x^4 \) in de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^4$ in de noemer:  
 
 $$  
 \begin{align}  
