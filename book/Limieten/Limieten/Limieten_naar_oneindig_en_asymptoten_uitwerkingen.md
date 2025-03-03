@@ -101,44 +101,44 @@ $$
 ````{admonition} Antwoord
 :class:  dropdown
 
-$$  
-\begin{align*}  
+$$
+\begin{align*}
     \lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5} = 4
-\end{align*}  
-$$  
+\end{align*}
+$$
 
 ```{admonition} Uitwerking
 :class:  dropdown
 
-Bereken de limiet  
+Bereken de limiet
 
-$$  
-\begin{align*}  
-    \lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5}  
-\end{align*}  
-$$  
+$$
+\begin{align*}
+    \lim_{x \to \infty} \dfrac{4x^3 + x + 9}{x^3 - 2x + 5}
+\end{align*}
+$$
 
-Deel de teller en de noemer door de hoogste macht $x^3$ van de noemer:  
+Deel de teller en de noemer door de hoogste macht $x^3$ van de noemer:
 
-$$  
-\begin{align}  
-    &= \lim_{x \to \infty} \dfrac{\dfrac{4x^3}{x^3} + \dfrac{x}{x^3} + \dfrac{9}{x^3}}{\dfrac{x^3}{x^3} - \dfrac{2x}{x^3} + \dfrac{5}{x^3}}  \\  
+$$
+\begin{align}
+    &= \lim_{x \to \infty} \dfrac{\dfrac{4x^3}{x^3} + \dfrac{x}{x^3} + \dfrac{9}{x^3}}{\dfrac{x^3}{x^3} - \dfrac{2x}{x^3} + \dfrac{5}{x^3}}  \\
     &= \lim_{x \to \infty} \dfrac{4 + \dfrac{1}{x^2} + \dfrac{9}{x^3}}{1 - \dfrac{2}{x^2} + \dfrac{5}{x^3}}  
-\end{align}  
-$$  
+\end{align}
+$$
 
-Gebruik de standaardlimiet,  
+Gebruik de standaardlimiet,
 $
-\lim_{x \to \infty} \dfrac{a}{x^n} = 0  
+\lim_{x \to \infty} \dfrac{a}{x^n} = 0
 $
-Dit geeft:  
+Dit geeft:
 
-$$  
-\begin{align}  
-    &= \dfrac{4 + 0 + 0}{1 - 0 + 0}  \\  
-    &= \dfrac{4}{1} = 4  
-\end{align}  
-$$  
+$$
+\begin{align}
+    &= \dfrac{4 + 0 + 0}{1 - 0 + 0}  \\
+    &= \dfrac{4}{1} = 4
+\end{align}
+$$
 ```
 ````
 
@@ -221,7 +221,7 @@ $$
 \end{align}  
 $$  
 
-Gebruik de standaardlimiet,  
+Gebruik de standaardlimiet,
 $
 \lim_{x \to \infty} \dfrac{a}{x^n} = 0  
 $
