@@ -19,7 +19,7 @@ En teller en noemer delen door een getal betekent wel de **hele** teller en de *
 ````
 
 
-### 1.1.1 Teller ontbinden in factoren
+## 1.1.1 Teller ontbinden in factoren
 
 ```{admonition} Voorbeeld 1: Teller ontbinden in factoren
 :class: dropdown
@@ -109,7 +109,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ```
 ````
 
-### 1.1.2 Noemer ontbinden in factoren
+## 1.1.2 Noemer ontbinden in factoren
 
 ```{admonition} Voorbeeld 2: Noemer ontbinden in factoren
 :class: dropdown
@@ -194,7 +194,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ```
 ````
 
-### 1.1.3 Teller en Noemer ontbinden in factoren
+## 1.1.3 Teller en Noemer ontbinden in factoren
 
 ```{admonition} Voorbeeld 3: Teller en Noemer ontbinden in factoren
 :class: dropdown
