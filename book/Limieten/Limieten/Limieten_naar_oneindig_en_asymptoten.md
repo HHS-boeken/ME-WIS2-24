@@ -13,9 +13,6 @@ $$
 
 Dit wordt uitgesproken als: $\quad$ *de limiet van $\dfrac{1}{x}$ voor $x$ naar oneindig is nul.*
 
-<br>
-<br>
-
 ```{admonition} Limiet
 :class: warning
 
@@ -102,6 +99,22 @@ $
  \dfrac{x^3-6x^2-2}{x^2+9x-4}
 \end{aligned}
 $.
+
+```{admonition} Horizontale asymptoot
+:class: warning
+
+De lijn $y = b$ is een **horizontale asymptoot** van de grafiek van de functie f(x) als;
+$
+\begin{aligned}
+\lim_{x\to\infty}  f(x)= b 
+\end{aligned}
+$ of
+$
+\begin{aligned}
+\lim_{x\to -\infty}  f(x)= b 
+\end{aligned}
+$ 
+```
 
 ````
 
