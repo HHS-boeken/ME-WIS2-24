@@ -52,7 +52,7 @@ ax.legend()
 ax.grid()
 
 # Weergeven
-ax.show()
+#ax.show()
 
 #fig.savefig("test.png")
 glue("voorbeeld1", fig, display=False)
