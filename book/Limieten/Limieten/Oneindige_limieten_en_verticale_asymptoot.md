@@ -59,5 +59,7 @@ glue("voorbeeld1", fig, display=False)
 
 ```
 
+mmmm
+
 ```{glue:} voorbeeld1
 ```
