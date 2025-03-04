@@ -1,11 +1,12 @@
-# 1.1 Eindige limiet, $\lim_{x\to \pm \infty}  f(x)=L$ ,  horizontale asymptoot T
-
-
 ---
+file_format: mystnb
 kernelspec:
   name: python3
   display_name: 'Python 3'
 ---
+# 1.1 Eindige limiet, $\lim_{x\to \pm \infty}  f(x)=L$ ,  horizontale asymptoot T
+
+
 
 ```{code-cell}
 import numpy as np 
