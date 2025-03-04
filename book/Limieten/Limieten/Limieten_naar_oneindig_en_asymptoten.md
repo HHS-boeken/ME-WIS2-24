@@ -1,12 +1,13 @@
 # 1.1 Eindige limiet, $\lim_{x\to \pm \infty}  f(x)=L$ ,  horizontale asymptoot T
 
+
 ---
 kernelspec:
   name: python3
   display_name: 'Python 3'
 ---
 
-```{code-cell} python3
+```{code-cell}
 import numpy as np 
 import matplotlib.pyplot as plt 
 from myst_nb import glue
