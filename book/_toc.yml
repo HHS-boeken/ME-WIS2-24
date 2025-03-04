@@ -44,6 +44,7 @@ parts:
       - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
       - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
       - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
+      - file: Limieten/Limieten/Oneindig_limieten_en_verticale_asymptoot.md
    # - file: Limieten/Limieten/test1.ipynb
 
   - caption: Differentiëren
