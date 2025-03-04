@@ -6,7 +6,7 @@ kernelspec:
 
 # 1.1 Eindige limiet, $\lim_{x\to \pm \infty}  f(x)=L$ ,  horizontale asymptoot T
 
-```{code-cell} ipython3
+```{code-cell} python3
 import numpy as np 
 import matplotlib.pyplot as plt 
 from myst_nb import glue
