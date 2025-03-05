@@ -22,7 +22,7 @@ from myst_nb import glue
 
 # Functie definitie
 def f(x):
-    return (4*x - 3) / (5*x - 4)
+    return (4*x  - 3) / (5*x - 4)
 
 # Domein splitsen rond de verticale asymptoot x = 4/5
 x1 = np.linspace(-2, 0.79, 400)  # Linker tak (voor x < 4/5)
@@ -59,7 +59,38 @@ glue("voorbeeld1", fig, display=False)
 
 ```
 
-mmmm
+````{admonition} Theorie
+:class: tip, dropdown open
+
+```{admonition} Horizontale en Verticale asymptoot
+:class: warning
+
+De lijn $y = b$ is een **horizontale asymptoot** van de grafiek van de functie $f(x)$ als;
+
+$$
+\begin{align*}
+\lim_{x\to\infty} f(x) = b \quad \text{of} \quad \lim_{x\to-\infty} f(x) = b
+\end{align*}
+$$
+
+
+
+````
+
+```{admonition} Voorbeeld 1:
+:class: dropdown
+```
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+```
+````
 
 ```{glue:} voorbeeld1
 ```
