@@ -44,10 +44,12 @@ parts:
       - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
       - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
       - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
+
       - file: Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
       - file: Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot_opgaven.md
       - file: Limieten/Limieten/Combinaties_van_limieten.md
    # - file: Limieten/Limieten/test1.ipynb
+
 
   - caption: Differentiëren
     chapters:
@@ -72,9 +74,15 @@ parts:
     - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
     - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
 
+  - caption: Opgaven en Uitwerkingen lessen
+    chapters:
+    - file: Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
+    - file: Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
+    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven_les.md
+    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen_les.md
+
   - caption: Overig
     chapters:
     - file: references.md
     - file: changelog.md
     - file: credits.md
-

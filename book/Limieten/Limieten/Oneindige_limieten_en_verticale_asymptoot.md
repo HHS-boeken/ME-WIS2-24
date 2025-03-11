@@ -22,7 +22,10 @@ from myst_nb import glue
 
 # Functie definitie
 def f(x):
+
     return (4*x  - 3) / (5*x - 4)
+    return (4*x - 3) / (5*x - 4)
+
 
 # Domein splitsen rond de verticale asymptoot x = 4/5
 x1 = np.linspace(-2, 0.79, 400)  # Linker tak (voor x < 4/5)
@@ -59,6 +62,7 @@ glue("voorbeeld1", fig, display=False)
 
 ```
 
+
 ````{admonition} Theorie
 :class: tip, dropdown open
 
@@ -91,6 +95,10 @@ $$
 
 ```
 ````
+
+```{glue:} voorbeeld1
+```
+
 
 ```{glue:} voorbeeld1
 ```
