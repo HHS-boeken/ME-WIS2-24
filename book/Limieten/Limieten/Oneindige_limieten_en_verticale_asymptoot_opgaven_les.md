@@ -71,3 +71,99 @@ $$
 $$  
 
 <hr style="border:1px solid #9EA700">
+
+## Opgave 6
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to 5} \frac{ 3x - 2 }{  x - 5 }  
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 7
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to 2 } \frac{ x^2 - 4 }{  x^2 - x+6 }  
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 8
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to \infty } e^x
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 9
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to \infty } 6^{-x}
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 10
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \downarrow 0 } \ln(x)
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 11
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to \infty  } \ln(x)
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 12
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to -\infty } e^x
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 13
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to \infty } (x^4 \cdot 2^{-x})
+\end{align*}  
+$$  
+
+<hr style="border:1px solid #9EA700">
