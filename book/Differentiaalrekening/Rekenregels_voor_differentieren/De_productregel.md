@@ -30,22 +30,22 @@ Bereken de afgeleide van:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   u &= (x^2-4) \\
   v &= (x^3+7x-5)
-\end{align*}
+\end{align}
 
 Differentier de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   \dfrac{du}{dx} &= 2x^2 \\
   \dfrac{dv}{dx} &= 3x^2+7
-\end{align*}
+\end{align}
 
 Toepassen van de productregel:
-\begin{align*}
+\begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
    &= 2x^2 \cdot (x^3+7x-5) + (x^2-4) \cdot (3x^2+7)
-\end{align*}
+\end{align}
 ```
 
 ````{admonition} Oefening 1
@@ -65,24 +65,24 @@ Bereken de afgeleide van:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   u &= e^x \\
   v &= (2x^3+x^2+3x)
-\end{align*}
+\end{align}
 
 Differentier de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   \dfrac{du}{dx} &= e^x \\
   \dfrac{dv}{dx} &= 6x^2+2x+3
-\end{align*}
+\end{align}
 
 Toepassen van de productregel:
-\begin{align*}
+\begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
    &= e^x \cdot (2x^3+x^2+3x) + e^x \cdot (6x^2+2x+3) \\
    &= e^x \left( (2x^3 + x^2 + 3x) + (6x^2 + 2x + 3) \right) \\
    &= e^x (2x^3 + 7x^2 + 5x + 3 )
-\end{align*}
+\end{align}
 
 ```
 ````
@@ -104,23 +104,23 @@ Bereken de afgeleide van:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   u &= \ln(x) \\
   v &= \cos(x)
-\end{align*}
+\end{align}
 
 Differentier de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   \dfrac{du}{dx} &= \dfrac{1}{x} \\
   \dfrac{dv}{dx} &= -\sin(x)
-\end{align*}
+\end{align}
 
 Toepassen van de productregel:
-\begin{align*}
+\begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
    &= \dfrac{1}{x} \cdot \cos(x) + \ln(x) \cdot -\sin(x) \\
    &= \dfrac{\cos(x)}{x} - \ln(x)\sin(x)
-\end{align*}
+\end{align}
 
 ```
 ````
@@ -136,21 +136,97 @@ Bereken de afgeleide van:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   u &= \sin(7x) \\
   v &= (3x-1)^4
-\end{align*}
+\end{align}
 
 Differentier de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   \dfrac{du}{dx} &= 7\cos(7x) \\
   \dfrac{dv}{dx} &= 4(3x-1)^3 \cdot 3 \\
   &=12(3x-1)^3
-\end{align*}
+\end{align}
 
 Toepassen van de productregel:
 \begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= 2x^2 \cdot (x^3+7x-5) + (x^2-4) \cdot (3x^2+7)
+   &= 7\cos(7x) \cdot (3x-1)^4 + \sin(7x) \cdot 12(3x-1)^3
 \end{align*}
 ```
+
+````{admonition} Oefening 3
+:class: important, dropdown
+
+Bereken de afgeleide van:
+\begin{align*}
+  f(x) = \ln(x)\cos(x)
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de afgeleide van:
+\begin{align*}
+  f(x) = \ln(x)\cos(x)
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align}
+  u &= \ln(x) \\
+  v &= \cos(x)
+\end{align}
+
+Differentier de functies $u(x)$ en $v(x)$:
+\begin{align}
+  \dfrac{du}{dx} &= \dfrac{1}{x} \\
+  \dfrac{dv}{dx} &= -\sin(x)
+\end{align}
+
+Toepassen van de productregel:
+\begin{align}
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+   &= \dfrac{1}{x} \cdot \cos(x) + \ln(x) \cdot -\sin(x) \\
+   &= \dfrac{\cos(x)}{x} - \ln(x)\sin(x)
+\end{align}
+
+```
+````
+
+````{admonition} Oefening 4
+:class: important, dropdown
+
+Bereken de afgeleide van:
+\begin{align*}
+  f(x) = \ln(x)\cos(x)
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de afgeleide van:
+\begin{align*}
+  f(x) = \ln(x)\cos(x)
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align}
+  u &= \ln(x) \\
+  v &= \cos(x)
+\end{align}
+
+Differentier de functies $u(x)$ en $v(x)$:
+\begin{align}
+  \dfrac{du}{dx} &= \dfrac{1}{x} \\
+  \dfrac{dv}{dx} &= -\sin(x)
+\end{align}
+
+Toepassen van de productregel:
+\begin{align}
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+   &= \dfrac{1}{x} \cdot \cos(x) + \ln(x) \cdot -\sin(x) \\
+   &= \dfrac{\cos(x)}{x} - \ln(x)\sin(x)
+\end{align}
+
+```
+````
