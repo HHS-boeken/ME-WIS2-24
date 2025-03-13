@@ -201,8 +201,8 @@ Differentier de functies $u(x)$ en $v(x)$:
 Toepassen van de productregel:
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= \dfrac{1}{x} \cdot \cos(x) + \ln(x) \cdot -\sin(x) \\
-   &= \dfrac{\cos(x)}{x} - \ln(x)\sin(x)
+   &= 20e^{-4x} \cdot 4^{2x} + -5e^{-4x} \cdot 4^{2x} \cdot \ln(4) \cdot 2 \\
+   &= -5e^{-4x} \cdot 4^{2x}  ( -4 + 2 \ln(4))
 \end{align}
 
 ```
@@ -213,7 +213,7 @@ Toepassen van de productregel:
 
 Bereken de afgeleide van:
 \begin{align*}
-  f(x) = \ln(x)\cos(x)
+  f(x) =  \log(4x-3) \sqrt{x^2-6}
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -221,19 +221,22 @@ Bereken de afgeleide van:
 
 Bereken de afgeleide van:
 \begin{align*}
-  f(x) = \ln(x)\cos(x)
+  f(x) = \log(4x-3) \sqrt{x^2-6}
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
-  u &= \ln(x) \\
-  v &= \cos(x)
+  u &= \log(4x-3) \\
+  v &= \sqrt{x^2-6} \\
+  &=  (x^2-6)^{\frac{1}{2}}
 \end{align}
 
 Differentier de functies $u(x)$ en $v(x)$:
 \begin{align}
-  \dfrac{du}{dx} &= \dfrac{1}{x} \\
-  \dfrac{dv}{dx} &= -\sin(x)
+  \dfrac{du}{dx} &= \dfrac{1}{(4x-3) \ln(10)} \cdot 4 \\
+  &= \dfrac{4}{(4x-3) \ln(10)} \\
+  \dfrac{dv}{dx} &= \dfrac{1}{2}(x^2 -6)^{-\frac{1}{2}} \cdot 2x \\
+  &= \dfrac{x}{ \sqrt{x^2-6} }
 \end{align}
 
 Toepassen van de productregel:
