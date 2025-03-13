@@ -66,7 +66,7 @@ Bereken de limiet
 
 $$  
 \begin{align*}  
-\lim_{x \uparrow 1} \frac{ x^2 + 5x - 4 }{  x^2 - 8x +7 }  
+\lim_{x \uparrow 1} \frac{ x^2 - 5x + 4 }{  x^2 - 8x +7 }  
 \end{align*}  
 $$  
 
@@ -90,7 +90,7 @@ Bereken de limiet
 
 $$  
 \begin{align*}  
-\lim_{x \to 2 } \frac{ x^2 - 4 }{  x^2 - x+6 }  
+\lim_{x \to 2 } \frac{ x^2 - 4 }{  x^2 - x-6 }  
 \end{align*}  
 $$  
 
