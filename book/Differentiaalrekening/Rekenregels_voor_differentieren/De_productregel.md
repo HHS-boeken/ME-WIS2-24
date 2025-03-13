@@ -17,6 +17,20 @@ De afgeleide van $f(x)$ wordt dan gegeven door:
 
 Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze vermenigvuldigt met de tweede functie, en daarna de eerste functie vermenigvuldigt met de afgeleide van de tweede functie.
 
+````{admonition} Standaard afgeleiden
+:class: warning
+
+| Functie \( f(x) \) | Afgeleide \( \dfrac{df(x)}{dx} \) |
+|--------------------|-------------------|
+| \( c \) (constante) | \( 0 \) |
+| \( x^n \) | \( n x^{n-1} \) |
+| \( e^x \) | \( e^x \) |
+| \( a^x \) | \( a^x \ln a \) |
+| \( \ln x \) | \( \frac{1}{x} \) |
+| \( \log_a x \) | \( \frac{1}{x \ln a} \) |
+| \( \sin x \) | \( \cos x \) |
+| \( \cos x \) | \( -\sin x \) |
+
 ````
 
 ## De productregel
@@ -160,7 +174,7 @@ Toepassen van de productregel:
 
 Bereken de afgeleide van:
 \begin{align*}
-  f(x) = \ln(x)\cos(x)
+  f(x) = -5e^{-4x}4^{2x}
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -168,19 +182,20 @@ Bereken de afgeleide van:
 
 Bereken de afgeleide van:
 \begin{align*}
-  f(x) = \ln(x)\cos(x)
+  f(x) = -5e^{-4x}4^{2x}
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
-  u &= \ln(x) \\
-  v &= \cos(x)
+  u &= -5e^{-4x} \\
+  v &= 4^{2x}
 \end{align}
 
 Differentier de functies $u(x)$ en $v(x)$:
 \begin{align}
-  \dfrac{du}{dx} &= \dfrac{1}{x} \\
-  \dfrac{dv}{dx} &= -\sin(x)
+  \dfrac{du}{dx} &= -5e^{-4x} \cdot -4 \\
+  &= 20e^{-4x} \\
+  \dfrac{dv}{dx} &= 4^{2x} \cdot \ln(4) \cdot 2
 \end{align}
 
 Toepassen van de productregel:
