@@ -242,8 +242,8 @@ Differentier de functies $u(x)$ en $v(x)$:
 Toepassen van de productregel:
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= \dfrac{1}{x} \cdot \cos(x) + \ln(x) \cdot -\sin(x) \\
-   &= \dfrac{\cos(x)}{x} - \ln(x)\sin(x)
+  &= \dfrac{4}{(4x-3) \ln(10)} \cdot \sqrt{x^2-6} + \log(4x-3) \cdot \dfrac{x}{ \sqrt{x^2-6} } \\
+  &= \dfrac{4\sqrt{x^2-6}}{(4x-3) \ln(10)}  + \dfrac{x\log(4x-3)}{ \sqrt{x^2-6} } \\
 \end{align}
 
 ```
