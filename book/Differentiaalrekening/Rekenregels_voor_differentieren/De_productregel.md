@@ -15,12 +15,11 @@ De afgeleide van $f(x)$ wordt dan gegeven door:
   \dfrac{df(x)}{dx} = \dfrac{du(x)}{dx} \cdot v(x) + u(x) \cdot \dfrac{dv(x)}{dx}
 \end{align*}
 
-
 Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze vermenigvuldigt met de tweede functie, en daarna de eerste functie vermenigvuldigt met de afgeleide van de tweede functie.
 
----
-
 ````
+
+## De productregel
 
 ```{admonition} Voorbeeld 1: productregel
 :class: dropdown
@@ -87,6 +86,7 @@ Toepassen van de productregel:
 
 ```
 ````
+
 ````{admonition} Oefening 2
 :class: important, dropdown
 
@@ -125,10 +125,39 @@ Toepassen van de productregel:
 ```
 ````
 
+## De productregel + kettingregel
 
-# 4.3 Opgaven
+```{admonition} Voorbeeld 2: productregel + kettingregel
+:class: dropdown
 
-## Opgave 4.1a
+Bereken de afgeleide van:
+\begin{align*}
+  f(x) = \sin(7x)(3x-1)^4
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align*}
+  u &= \sin(7x) \\
+  v &= (3x-1)^4
+\end{align*}
+
+Differentier de functies $u(x)$ en $v(x)$:
+\begin{align*}
+  \dfrac{du}{dx} &= 7\cos(7x) \\
+  \dfrac{dv}{dx} &= 4(3x-1)^3 \cdot 3 \\
+  &=12(3x-1)^3
+\end{align*}
+
+Toepassen van de productregel:
+\begin{align*}
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+   &= 2x^2 \cdot (x^3+7x-5) + (x^2-4) \cdot (3x^2+7)
+\end{align*}
+```
+
+## 4.3 Opgaven
+
+### Opgave 4.1a
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
@@ -142,63 +171,63 @@ Differentieer de volgende functie.
  g(x) = (x + 1) \cos x
 \end{align*}
 
-## Opgave 4.1c
+### Opgave 4.1c
 
 Toon aan dat de afgeleide van \( h(x) = x \ln x \) gelijk is aan:
 \begin{align*}
  h'(x) = \ln x + 1
 \end{align*}
 
-## Opgave 4.1d
+### Opgave 4.1d
 
 Differentieer de volgende functie.
 \begin{align*}
  p(x) = (e^x + x^2)(\cos x)
 \end{align*}
 
-## Opgave 4.1e
+### Opgave 4.1e
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
  q(x) = x^4 \ln x
 \end{align*}
 
-## Opgave 4.2a
+### Opgave 4.2a
 
 Bereken de afgeleide van de volgende functie met de productregel.
 \begin{align*}
  f(x) = (2x^3 + 3x) e^{4x}
 \end{align*}
 
-## Opgave 4.2b
+### Opgave 4.2b
 
 Differentieer de volgende functie en schrijf het resultaat zo eenvoudig mogelijk.
 \begin{align*}
  g(x) = (x^2 + 1)(\ln x)
 \end{align*}
 
-## Opgave 4.2c
+### Opgave 4.2c
 
 Bereken de afgeleide van:
 \begin{align*}
  h(x) = (x^4 - 2x^2) e^x
 \end{align*}
 
-## Opgave 4.2d
+### Opgave 4.2d
 
 Toon aan dat de afgeleide van de functie \( p(x) = x^n e^x \) wordt gegeven door:
 \begin{align*}
  p'(x) = n x^{n-1} e^x + x^n e^x
 \end{align*}
 
-## Opgave 4.2e
+### Opgave 4.2e
 
 Bereken de afgeleide van de functie:
 \begin{align*}
  q(x) = (\ln x + x^2)(e^x)
 \end{align*}
 
-## Opgave 4.3a
+### Opgave 4.3a
 
 Bereken de afgeleide van de volgende functie.
 \begin{align*}
@@ -233,7 +262,7 @@ Differentieer:
  v(t) = (e^{-t} + \ln (t+1)) (\cos \omega t)
 \end{align*}
 
-# Uitwerkingen
+## Uitwerkingen
 
 ## Opgave 4.1a
 
