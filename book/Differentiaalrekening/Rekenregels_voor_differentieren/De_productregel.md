@@ -20,16 +20,16 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 ````{admonition} Standaard afgeleiden
 :class: warning
 
-| Functie \( f(x) \) | Afgeleide \( \dfrac{df(x)}{dx} \) |
+| Functie $f(x)$ | Afgeleide $\dfrac{df(x)}{dx}$ |
 |--------------------|-------------------|
-| \( c \) (constante) | \( 0 \) |
-| \( x^n \) | \( n x^{n-1} \) |
-| \( e^x \) | \( e^x \) |
-| \( a^x \) | \( a^x \ln a \) |
-| \( \ln x \) | \( \frac{1}{x} \) |
-| \( \log_a x \) | \( \frac{1}{x \ln a} \) |
-| \( \sin x \) | \( \cos x \) |
-| \( \cos x \) | \( -\sin x \) |
+| \( c \) (constante) | $0$ |
+| $x^n$ | $n x^{n-1}$ |
+| $e^x$ | $e^x$ |
+| $a^x$ | $a^x \ln a$ |
+| $\ln x$ | $\frac{1}{x}$ |
+| $\log_a$  | $\frac{1}{x \ln a}$ |
+| $\sin x$ | $\cos x$ |
+| $\cos x$ | $-\sin x$ |
 
 ````
 
@@ -243,7 +243,7 @@ Toepassen van de productregel:
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= \dfrac{4}{(4x-3) \ln(10)} \cdot \sqrt{x^2-6} + \log(4x-3) \cdot \dfrac{x}{ \sqrt{x^2-6} } \\
-  &= \dfrac{4\sqrt{x^2-6}}{(4x-3) \ln(10)}  + \dfrac{x\log(4x-3)}{ \sqrt{x^2-6} } \\
+  &= \dfrac{4\sqrt{x^2-6}}{(4x-3) \ln(10)}  + \dfrac{x\log(4x-3)}{ \sqrt{x^2-6} }
 \end{align}
 
 ```
