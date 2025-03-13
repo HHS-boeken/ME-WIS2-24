@@ -12,7 +12,7 @@ De **quotiëntregel** is een afgeleide regel die wordt gebruikt bij het differen
 De afgeleide van $f(x)$ wordt dan gegeven door:
 
 \begin{align*}
-    \dfrac{df(x)}{dx} = \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2}
+    \dfrac{df(x)}{dx} = \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} 
 \end{align*}
 
 Dit betekent dat je eerst de noemer neemt deze vermenigvuldigt met afgeleide van de teller, daarna de teller vermenigvuldigt met de afgeleide van de noemer, en vervolgens het verschil deelt door het kwadraat van de noemer.
@@ -30,5 +30,5 @@ Noemer $\cdot$ Afgeleide van de Teller - Teller $\cdot$ Afgeleide van de Noemer 
 
 ```{admonition} Voorbeeld 1: productregel
 :class: dropdown
-
+dd
 ```
