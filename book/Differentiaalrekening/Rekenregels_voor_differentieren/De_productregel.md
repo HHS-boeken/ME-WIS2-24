@@ -27,7 +27,7 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 | $e^x$ | $e^x$ |
 | $a^x$ | $a^x \ln a$ |
 | $\ln x$ | $\frac{1}{x}$ |
-| $\log_a$  | $\frac{1}{x \ln a}$ |
+| $^a \log x$  | $\frac{1}{x \ln a}$ |
 | $\sin x$ | $\cos x$ |
 | $\cos x$ | $-\sin x$ |
 
