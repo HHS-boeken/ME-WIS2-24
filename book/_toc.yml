@@ -55,6 +55,9 @@ parts:
     chapters:
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
+  #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
+  #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
+    
     - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections: 
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
@@ -64,15 +67,12 @@ parts:
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
     
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
-  #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
-  #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
+  
 
   - caption: Integreren
-  #  chapters:
-  3  - file: Integraalrekening/Integreren/Integreren.md
-
-  #- caption: Integratietechnieken
     chapters:
+  #  - file: Integraalrekening/Integreren/Integreren.md
+  
     - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
     - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
