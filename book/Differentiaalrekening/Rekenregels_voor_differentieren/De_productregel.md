@@ -1,4 +1,4 @@
-# De productregel
+# 2. De productregel
 
 ````{admonition} Theorie
 :class: tip, dropdown open
