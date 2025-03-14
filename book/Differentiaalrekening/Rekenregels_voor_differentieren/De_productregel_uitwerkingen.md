@@ -1,5 +1,5 @@
 
-## 2. Uitwerkingen
+## 1.2 Uitwerkingen
 
 ## Opgave 4.1a
 
