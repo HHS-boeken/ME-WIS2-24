@@ -1,4 +1,4 @@
-# 2. De productregel
+# 1.2 De productregel
 
 ````{admonition} Theorie
 :class: tip, dropdown open
@@ -33,7 +33,7 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 
 ````
 
-## De productregel
+## 1.2.1 De productregel
 
 ```{admonition} Voorbeeld 1: productregel
 :class: dropdown
@@ -139,7 +139,7 @@ Toepassen van de productregel:
 ```
 ````
 
-## De productregel + kettingregel
+## 1.2.2 De productregel + kettingregel
 
 ```{admonition} Voorbeeld 2: productregel + kettingregel
 :class: dropdown

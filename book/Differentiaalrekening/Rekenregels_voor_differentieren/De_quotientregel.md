@@ -1,4 +1,4 @@
-# 3. De quotiëntregel
+# 1.3 De quotiëntregel
 
 ````{admonition} Theorie
 :class: tip, dropdown open

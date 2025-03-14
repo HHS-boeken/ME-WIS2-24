@@ -1,1 +1,1 @@
-# 1. De kettingregel
+# 1.1 De kettingregel
