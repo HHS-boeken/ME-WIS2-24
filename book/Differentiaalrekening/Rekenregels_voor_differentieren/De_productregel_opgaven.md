@@ -1,35 +1,35 @@
 
 ## 1.2 Opgaven
 
-### Opgave 4.1a
+### Opgave 1.2.1a
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
  f(x) = x^2 e^x
 \end{align*}
 
-## Opgave 4.1b
+### Opgave 1.2.1b
 
 Differentieer de volgende functie.
 \begin{align*}
  g(x) = (x + 1) \cos x
 \end{align*}
 
-### Opgave 4.1c
+### Opgave 1.2.1c
 
 Toon aan dat de afgeleide van \( h(x) = x \ln x \) gelijk is aan:
 \begin{align*}
  h'(x) = \ln x + 1
 \end{align*}
 
-### Opgave 4.1d
+### Opgave 1.2.1d
 
 Differentieer de volgende functie.
 \begin{align*}
  p(x) = (e^x + x^2)(\cos x)
 \end{align*}
 
-### Opgave 4.1e
+### Opgave 1.2.1e
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}

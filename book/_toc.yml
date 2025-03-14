@@ -68,13 +68,13 @@ parts:
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
 
   - caption: Integreren
-    chapters:
-    - file: Integraalrekening/Integreren/Integreren.md
+  #  chapters:
+  3  - file: Integraalrekening/Integreren/Integreren.md
 
-  - caption: Integratietechnieken
+  #- caption: Integratietechnieken
     chapters:
-    #- file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
-    #  sections:
+    - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
+      sections:
     - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
     - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
     - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
