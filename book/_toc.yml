@@ -51,7 +51,7 @@ parts:
    # - file: Limieten/Limieten/test1.ipynb
 
 
-  #- caption: Differentiëren
+  - caption: Differentiëren
     #chapters:
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
@@ -69,7 +69,7 @@ parts:
       #- file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
   
 
-  #- caption: Integreren
+  - caption: Integreren
   #  chapters:
   #  - file: Integraalrekening/Integreren/Integreren.md
 
