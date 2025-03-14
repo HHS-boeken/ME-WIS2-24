@@ -51,33 +51,33 @@ parts:
    # - file: Limieten/Limieten/test1.ipynb
 
 
-  - caption: Differentiëren
-    chapters:
+  #- caption: Differentiëren
+    #chapters:
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
   #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
     
-    - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
-      sections: 
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
+    #- file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
+      #sections:
+      #- file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
 
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
+      #- file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
+      #- file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
+      #- file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
     
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
+      #- file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
   
 
-  - caption: Integreren
-    chapters:
+  #- caption: Integreren
+  #  chapters:
   #  - file: Integraalrekening/Integreren/Integreren.md
-  
-    - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
-      sections:
-    - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
-    - file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
-    - file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
+
+    #- file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
+    #  sections:
+    #- file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
+    #- file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
+    #- file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
 
   - caption: Opgaven en Uitwerkingen lessen
     chapters:
