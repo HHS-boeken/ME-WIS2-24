@@ -49,7 +49,7 @@ Kies de functies $u(x)$ en $v(x)$:
   v &= (x^3+7x-5)
 \end{align}
 
-Differentier de functies $u(x)$ en $v(x)$:
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= 2x^2 \\
   \dfrac{dv}{dx} &= 3x^2+7
@@ -84,7 +84,7 @@ Kies de functies $u(x)$ en $v(x)$:
   v &= (2x^3+x^2+3x)
 \end{align}
 
-Differentier de functies $u(x)$ en $v(x)$:
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= e^x \\
   \dfrac{dv}{dx} &= 6x^2+2x+3
@@ -123,7 +123,7 @@ Kies de functies $u(x)$ en $v(x)$:
   v &= \cos(x)
 \end{align}
 
-Differentier de functies $u(x)$ en $v(x)$:
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= \dfrac{1}{x} \\
   \dfrac{dv}{dx} &= -\sin(x)
@@ -155,7 +155,7 @@ Kies de functies $u(x)$ en $v(x)$:
   v &= (3x-1)^4
 \end{align}
 
-Differentier de functies $u(x)$ en $v(x)$:
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= 7\cos(7x) \\
   \dfrac{dv}{dx} &= 4(3x-1)^3 \cdot 3 \\
@@ -191,7 +191,7 @@ Kies de functies $u(x)$ en $v(x)$:
   v &= 4^{2x}
 \end{align}
 
-Differentier de functies $u(x)$ en $v(x)$:
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= -5e^{-4x} \cdot -4 \\
   &= 20e^{-4x} \\
@@ -231,7 +231,7 @@ Kies de functies $u(x)$ en $v(x)$:
   &=  (x^2-6)^{\frac{1}{2}}
 \end{align}
 
-Differentier de functies $u(x)$ en $v(x)$:
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= \dfrac{1}{(4x-3) \ln(10)} \cdot 4 \\
   &= \dfrac{4}{(4x-3) \ln(10)} \\
