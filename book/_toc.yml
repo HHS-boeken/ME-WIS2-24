@@ -28,13 +28,13 @@ parts:
   
   - caption: Functies
     chapters:
-    - file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
-    - file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
-    - file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
-    - file: 2_Functies/H4_Wortel_functies/Wortel_functies.md
-    - file: 2_Functies/H5_Goniometrische_functies/Goniometrische_functies.md
-    - file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
-    - file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
+    #- file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
+    #- file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
+    #- file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
+    #- file: 2_Functies/H4_Wortel_functies/Wortel_functies.md
+    #- file: 2_Functies/H5_Goniometrische_functies/Goniometrische_functies.md
+    #- file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
+    #- file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
     - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
 
   - caption: Limieten
