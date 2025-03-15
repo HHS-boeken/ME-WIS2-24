@@ -38,7 +38,7 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 ```{admonition} Voorbeeld 1: productregel
 :class: dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = (x^2-4)(x^3+7x-5)
 \end{align*}
@@ -65,7 +65,7 @@ Toepassen van de productregel:
 ````{admonition} Oefening 1
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = e^x(2x^3+x^2+3x)
 \end{align*}
@@ -73,7 +73,7 @@ Bereken de afgeleide van:
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = e^x(2x^3+x^2+3x)
 \end{align*}
@@ -104,7 +104,7 @@ Toepassen van de productregel:
 ````{admonition} Oefening 2
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = \ln(x)\cos(x)
 \end{align*}
@@ -112,7 +112,7 @@ Bereken de afgeleide van:
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = \ln(x)\cos(x)
 \end{align*}
@@ -144,7 +144,7 @@ Toepassen van de productregel:
 ```{admonition} Voorbeeld 2: productregel + kettingregel
 :class: dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = \sin(7x)(3x-1)^4
 \end{align*}
@@ -172,7 +172,7 @@ Toepassen van de productregel:
 ````{admonition} Oefening 3
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = -5e^{-4x}4^{2x}
 \end{align*}
@@ -180,7 +180,7 @@ Bereken de afgeleide van:
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = -5e^{-4x}4^{2x}
 \end{align*}
@@ -211,7 +211,7 @@ Toepassen van de productregel:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) =  \log(4x-3) \sqrt{x^2-6}
 \end{align*}
@@ -219,7 +219,7 @@ Bereken de afgeleide van:
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bereken de afgeleide van:
+Bereken de afgeleide van de volgende functie:
 \begin{align*}
   f(x) = \log(4x-3) \sqrt{x^2-6}
 \end{align*}
