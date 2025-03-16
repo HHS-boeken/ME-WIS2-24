@@ -78,28 +78,28 @@ Bereken de afgeleide van de volgende functie.
  f(x) = (x^3 + e^x)(\ln x)
 \end{align*}
 
-## Opgave 1.2.1l
+### Opgave 1.2.1l
 
 Differentieer de volgende functie, die relevant is voor trillingsanalyse.
 \begin{align*}
  y(t) = e^{-\alpha t} \cos(\omega t)
 \end{align*}
 
-## Opgave 1.2.1m
+### Opgave 1.2.1m
 
 Bereken de afgeleide van de volgende functie.
 \begin{align*}
  f(x) = (\ln x + e^x)(\cos x + x)
 \end{align*}
 
-## Opgave 1.2.1n
+### Opgave 1.2.1n
 
 Differentieer de volgende functie.
 \begin{align*}
  z(t) = (t^2 + 1) e^{-t}
 \end{align*}
 
-## Opgave 1.2.1o
+### Opgave 1.2.1o
 
 Differentieer:
 \begin{align*}
