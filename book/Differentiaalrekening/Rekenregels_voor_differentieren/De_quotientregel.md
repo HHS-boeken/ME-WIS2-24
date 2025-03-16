@@ -50,7 +50,7 @@ Differentieer de functies $u(x)$ en $v(x)$:
 
 Toepassen van de quotiëntregel:
 \begin{align}
-  \dfrac{df(x)}{dx} = \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ (x + 1) \cdot 2x - x^2 \cdot  1 }{ (x + 1)^2} \\
   &= \frac{ 2x^2 + 2x - x^2 }{ (x + 1)^2} \\
   &= \frac{ x^2 + 2x }{ (x + 1)^2} \\
@@ -88,7 +88,7 @@ Differentieer de functies $u(x)$ en $v(x)$:
 
 Toepassen van de quotiëntregel:
 \begin{align}
-  \dfrac{df(x)}{dx} = \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ (x^2 + 5) \cdot e^x - e^x \cdot  2x }{ (x^2 + 5)^2} \\
   &= \frac{  e^x(x^2 - 2x + 5) }{ (x^2 + 5)^2}
 \end{align}
@@ -127,7 +127,7 @@ Differentieer de functies $u(x)$ en $v(x)$:
 
 Toepassen van de quotiëntregel:
 \begin{align}
-  \dfrac{df(x)}{dx} = \frac{ v \dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2}
+  \dfrac{df(x)}{dx} &= \frac{ v \dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ (5 - \cos(x)) \cdot \dfrac{1}{x} - \ln(x) \cdot \sin(x) }{ (5 - \cos(x))^2} \\
   &= \frac{ \dfrac{ 5 - \cos(x) }{x} - \sin(x) \ln(x) }{ (5 - \cos(x))^2} \\
 \end{align}
@@ -169,7 +169,7 @@ Differentieer de functies $u(x)$ en $v(x)$:
 
 Toepassen van de quotiëntregel:
 \begin{align}
-  \dfrac{df(x)}{dx} = \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ (\ln(5x+1)) \cdot 2 \sin(x)\cos(x)  - \sin^2(x) \cdot  \dfrac{5}{5x+1} }{ (\ln(5x+1))^2} \\
   &= \frac{ 2 \sin(x)\cos(x)(\ln(5x+1)) - \dfrac{5\sin^2(x)}{5x+1} }{ \ln^2(5x+1)} \\
 \end{align}
@@ -209,14 +209,13 @@ Differentieer de functies $u(x)$ en $v(x)$:
 
 Toepassen van de quotiëntregel:
 \begin{align}
-  \dfrac{df(x)}{dx} = \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ \sqrt{x^2+5} \cdot 2xe^{x^2} -  e^{x^2} \cdot  \dfrac{x}{ \sqrt{ (x^2+5) } }  }{ (\sqrt{x^2+5} )^2} \\
   &= \frac{ e^{x^2}( 2x\sqrt{x^2+5} - \dfrac{x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
   &= \frac{ e^{x^2}(  \dfrac{2x(x^2+5)-x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
   &= \frac{ e^{x^2}(  \dfrac{2x^3 +9x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
   &= \frac{ e^{x^2}(  2x^3 +9x )}{ (x^2+5)^{\frac{3}{2}} }  \\
 \end{align}
-
 
 ```
 ````
