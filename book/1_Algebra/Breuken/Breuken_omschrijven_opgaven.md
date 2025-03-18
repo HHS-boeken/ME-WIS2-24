@@ -124,7 +124,7 @@ $$
 
 ### Opgave 1.5k
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -136,7 +136,7 @@ $$
 
 ### Opgave 1.5l
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -148,7 +148,7 @@ $$
 
 ### Opgave 1.5m
 
-Schrijf in de vorm m/x - p = q:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -156,11 +156,11 @@ $$
 \end{align*}
 $$
 
----
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.5n
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -172,7 +172,7 @@ $$
 
 ### Opgave 1.5o
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -184,7 +184,7 @@ $$
 
 ### Opgave 1.5p
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -196,7 +196,7 @@ $$
 
 ### Opgave 1.5q
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -208,7 +208,7 @@ $$
 
 ### Opgave 1.5r
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
@@ -232,7 +232,7 @@ $$
 
 ### Opgave 1.5t
 
-Schrijf in de vorm $\dfrac{m}{x-p} = q$:
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
 \begin{align*}
