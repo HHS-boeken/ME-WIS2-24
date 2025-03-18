@@ -50,6 +50,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 ```{admonition} Uitwerking
+:class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -83,6 +84,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 ```{admonition} Uitwerking
+:class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -139,6 +141,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 ```{admonition} Uitwerking
+:class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -172,6 +175,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 ```{admonition} Uitwerking
+:class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -232,6 +236,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 
 
 ```{admonition} Uitwerking
+:class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -261,6 +266,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 ```{admonition} Uitwerking
+:class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
