@@ -7,18 +7,9 @@
 :class:  dropdown
 
 $$
-\begin{align}
-  &= \dfrac{4\sqrt{x^2-6}}{(4x-3) \ln(10)}  + \dfrac{x\log(4x-3)}{ \sqrt{x^2-6} }
-\end{align}
-$$
-
-```{admonition} Uitwerking
-:class:  dropdown
-
-$$
-\begin{align}
-  &= 2x e^x + x^2 e^x
-\end{align}
+\begin{align*}
+  \dfrac{df}{dx} &= 2x e^x + x^2 e^x
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -58,9 +49,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  &= \cos x - (x+1) \sin x
-\end{align}
+\begin{align*}
+  \dfrac{dg}{dx}&= \cos x - (x+1) \sin x
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -110,10 +101,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  &= (e^x + x^2)(-\sin x) + (\cos x)(e^x + 2x) \\
-  &= - (e^x + x^2) \sin x + (e^x + 2x) \cos x
-\end{align}
+\begin{align*}
+  \dfrac{dp}{dx} &= - (e^x + x^2) \sin x + (e^x + 2x) \cos x
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -154,9 +144,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  &= 4x^3 \ln x + x^3
-\end{align}
+\begin{align*}
+  \dfrac{dq}{dx} &= 4x^3 \ln x + x^3
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -197,12 +187,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) \\
-  &= (6x^2 + 3)e^{4x} + 4(2x^3 + 3x)e^{4x} \\
-  &= (6x^2 + 3 + 8x^3 + 12x)e^{4x} \\
-  &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
-\end{align}
+\begin{align*}
+  \dfrac{df}{dx} &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -245,9 +232,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  &= \dfrac{2x \ln x + x^2 + 1}{x}
-\end{align}
+\begin{align*}
+  \dfrac{dg}{dx} &= 2x \ln x + \dfrac{x^2 + 1}{x}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -288,11 +275,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  &= (4x^3 - 4x)e^x + (x^4 - 2x^2)e^x \\
-  &= (4x^3 - 4x + x^4 - 2x^2)e^x \\
-  &= (x^4 + 4x^3 - 2x^2 - 4x)e^x
-\end{align}
+\begin{align*}
+  \dfrac{dh}{dx} &= (x^4 + 4x^3 - 2x^2 - 4x)e^x
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -343,9 +328,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  q'(x) &= e^x\left(\frac{1}{x} + \ln x + 2x + x^2\right)
-\end{align}
+\begin{align*}
+  \dfrac{dq}{dx} &= e^x\left(\frac{1}{x} + \ln x + 2x + x^2\right)
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -382,12 +367,13 @@ Toepassen van de productregel:
 
 ### Opgave 1.2.1k
 
+````{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align}
+\begin{align*}
   f'(x) &= \left(3x^2 + e^x\right) \ln x + \frac{x^3 + e^x}{x}
-\end{align}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -422,14 +408,6 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1b
-
-````{admonition} Antwoord
-:class:  dropdown
-
-````
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.2.1l
 
@@ -437,10 +415,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  y'(t) &= -\alpha e^{-\alpha t} \cos(\omega t) - \omega e^{-\alpha t} \sin(\omega t) \\
-  &= e^{-\alpha t} (-\alpha \cos(\omega t) - \omega \sin(\omega t))
-\end{align}
+\begin{align*}
+  \dfrac{dy}{dt} &= e^{-\alpha t} (-\alpha \cos(\omega t) - \omega \sin(\omega t))
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -484,10 +461,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  f'(x) &= (\frac{1}{x} + e^x)(\cos x + x) + (\ln x + e^x)(- \sin x + 1) \\
-  &= (\frac{1}{x} + e^x)(\cos x + x) + (\ln x + e^x)(1 - \sin x)
-\end{align}
+\begin{align*}
+  \dfrac{df}{dx} &= (\frac{1}{x} + e^x)(\cos x + x) + (\ln x + e^x)(1 - \sin x)
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -528,11 +504,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  z'(t) &= (2t e^{-t}) + (t^2 + 1)(-e^{-t}) \\
-  &= (2t e^{-t} - (t^2 + 1) e^{-t}) \\
-  &= (2t - t^2 - 1)e^{-t}
-\end{align}
+\begin{align*}
+  \dfrac{dz}{dt} &= (2t - t^2 - 1)e^{-t}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -575,10 +549,9 @@ Toepassen van de productregel:
 :class:  dropdown
 
 $$
-\begin{align}
-  v'(t) &= (-e^{-t} + \frac{1}{t+1}) \cos (\omega t) + (e^{-t} + \ln (t+1)) (-\omega \sin (\omega t)) \\
-  &= \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
-\end{align}
+\begin{align*}
+  \dfrac{dv}{dt} &= \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
