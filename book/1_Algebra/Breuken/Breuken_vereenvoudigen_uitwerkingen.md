@@ -19,9 +19,9 @@ $$
 :class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
-\begin{aligned}
+\begin{align*}
  \dfrac{15a^2b^5c}{25ab^3d^2}
-\end{aligned}
+\end{align*}
 
 Ontbind de teller en de noemer in factoren:
 \begin{align}
@@ -45,18 +45,18 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 De vereenvoudige breuk is:
 
 $$
-\begin{aligned}
+\begin{align*}
  \dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4
-\end{aligned}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
 :class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
-\begin{aligned}
+\begin{align*}
  \dfrac{a^2+6a+8}{a^2+a-12}
-\end{aligned}
+\end{align*}
 
 Ontbind de teller en de noemer in factoren:
 \begin{align}
@@ -80,18 +80,18 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeenschappelijke factor is tussen de teller en de noemer die weggedeelt kan worden. Zowel de teller als de noemer kunnen niet verder ontbonden worden. Dit is de meest vereenvoudigde vorm van de uitdrukking.
 
 $$
-\begin{aligned}
+\begin{align*}
  \dfrac{a^2+b^2}{a+b}
-\end{aligned}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
 :class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
-\begin{aligned}
+\begin{align*}
  \dfrac{a^2+b^2}{a+b}
-\end{aligned}
+\end{align*}
 
 In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeenschappelijke factor is tussen de teller en de noemer die weggedeelt kan worden. Zowel de teller als de noemer kunnen niet verder ontbonden worden. Dit is de meest vereenvoudigde vorm van de uitdrukking.
 
@@ -106,9 +106,9 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 De vereenvoudige breuk is:
 
 $$
-\begin{aligned}
+\begin{align*}
  \dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0
-\end{aligned}
+\end{align*}
 $$
 
 ```{admonition} Uitwerking
@@ -160,9 +160,9 @@ $$
 :class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
-\begin{aligned}
+\begin{align*}
  \dfrac{p^2x-p^2y}{p^3x^2 - p^3y^2}
-\end{aligned}
+\end{align*}
 
 Ontbind de teller en de noemer in factoren:
 \begin{align}
@@ -295,9 +295,9 @@ $$
 :class:  dropdown
 
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
-\begin{align}
+\begin{align*}
  \dfrac{2x^2-32}{x^2-8x+16}
-\end{align}
+\end{align*}
 
 Ontbind de teller en de noemer in factoren:
 \begin{align}
