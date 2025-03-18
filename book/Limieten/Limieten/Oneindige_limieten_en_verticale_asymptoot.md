@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 1.2 Oneindige limieten, $\lim_{x\to a }  f(x)= \pm \infty$ ,  verticale asymptoot
+# 3.2 Oneindige limieten, $\lim_{x\to a }  f(x)= \pm \infty$ ,  verticale asymptoot
 
 ```{code-cell} ipython3
 :tags: ["remove-output","remove-input"]

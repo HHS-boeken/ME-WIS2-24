@@ -1,6 +1,6 @@
-# 1.2 Opgaven
+# 3.2 Opgaven
 
-## Opgave 1.2a
+## Opgave 3.2a
 
 Bereken de limiet:
 
@@ -12,7 +12,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2b
+## Opgave 3.2b
 
 Bereken de limiet:
 
@@ -24,7 +24,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2c
+## Opgave 3.2c
 
 Bereken de limiet:
 
@@ -36,7 +36,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2d
+## Opgave 3.2d
 
 Bereken de limiet:
 
@@ -48,7 +48,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2e
+## Opgave 3.2e
 
 Bereken de limiet:
 
@@ -60,7 +60,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2f
+## Opgave 3.2f
 
 Bereken de limiet:
 
@@ -72,7 +72,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2g
+## Opgave 3.2g
 
 Bereken de limiet:
 
@@ -84,7 +84,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2h
+## Opgave 3.2h
 
 Bereken de limiet:
 
@@ -96,7 +96,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2i
+## Opgave 3.2i
 
 Bereken de limiet:
 
@@ -108,7 +108,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 1.2j
+## Opgave 3.2j
 
 Bereken de limiet:
 
