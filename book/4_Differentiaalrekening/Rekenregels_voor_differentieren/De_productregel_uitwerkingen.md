@@ -16,6 +16,7 @@ $$
 :class:  dropdown
 
 Bereken de afgeleide van de volgende functie:
+$$
 \begin{align*}
   f(x) = x^2 e^x
 \end{align*}
@@ -37,7 +38,7 @@ Toepassen van de productregel:
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= 2x e^x + x^2 e^x
 \end{align}
-
+$$
 ```
 ````
 
