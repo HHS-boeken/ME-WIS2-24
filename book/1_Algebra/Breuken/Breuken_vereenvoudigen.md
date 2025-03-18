@@ -1,6 +1,5 @@
 # 1.1 Breuken vereenvoudigen
 
-
 ````{admonition} Theorie
 :class: tip, dropdown open
 
@@ -17,7 +16,6 @@ We spreken daarom ook van **wegdelen** en niet van wegstrepen!!
 En teller en noemer delen door een getal betekent wel de **hele** teller en de **hele** noemer erdoor delen. Daarom kunnen we de teller en de noemer het beste eerst ontbinden in faxtoren en vervolgens delen door de gemeenschappelijke factor.
 ```
 ````
-
 
 ## 1.1.1 Teller ontbinden in factoren
 
@@ -51,7 +49,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{8x^2-16x}{4x}
 \end{align*}
 
-```{dropdown} Uitwerking
+```{admonition} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -84,7 +82,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{a^2-b^2}{a+b}
 \end{align*}
 
-```{dropdown} Uitwerking
+```{admonition} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -140,7 +138,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{a-b}{b-a}
 \end{align*}
 
-```{dropdown} Uitwerking
+```{admonition} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -173,7 +171,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{x-5}{x^2-25}
 \end{align*}
 
-```{dropdown} Uitwerking
+```{admonition} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -233,7 +231,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 
-```{dropdown} Uitwerking
+```{admonition} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -262,7 +260,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{2x^2-2x-12}{3x^2+15x+18}
 \end{align*}
 
-```{dropdown} Uitwerking
+```{admonition} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
