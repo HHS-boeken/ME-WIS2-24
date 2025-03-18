@@ -53,42 +53,42 @@ Bepaal de afgeleide van de volgende functie.
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ e^{x^2}  }{ x + 1 }
+    f(x) = \dfrac{ e^{x^2}  }{ x + 1 }
 \end{align*}
 
 ### Opgave 1.3.2b
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ \ln{x^2 + 1 }  }{ x^3 }
+    g(x) = \dfrac{ \ln{x^2 + 1 }  }{ x^3 }
 \end{align*}
 
 ### Opgave 1.3.2c
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ sin(x^2)  }{ e^x }
+    h(x) = \dfrac{ sin(x^2)  }{ e^x }
 \end{align*}
 
 ### Opgave 1.3.2d
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ x^2 + 3  }{ \sqrt{x^2 + 1} }
+    i(x) = \dfrac{ x^2 + 3  }{ \sqrt{x^2 + 1} }
 \end{align*}
 
 ### Opgave 1.3.2e
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ e^{x} + x^3  }{ \cos(x) }
+    j(x) = \dfrac{ e^{x} + x^3  }{ \cos(x) }
 \end{align*}
 
 ### Opgave 1.3.2f
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ x + e^{\sin(x)} }{ x^2 - 4 }
+    k(x) = \dfrac{ x + e^{\sin(x)} }{ x^2 - 4 }
 \end{align*}
 
 ### Opgave 1.3.2g
@@ -102,12 +102,12 @@ Bepaal de afgeleide van de volgende functie.
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ \sqrt{x^3 + 2}  }{ x^4 }
+    m(x) = \dfrac{ \sqrt{x^3 + 2}  }{ x^4 }
 \end{align*}
 
 ### Opgave 1.3.2i
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    l(x) = \dfrac{ \sin^2(x)  }{ \ln(x+1)}
+    n(x) = \dfrac{ \sin^2(x)  }{ \ln(x+1)}
 \end{align*}
