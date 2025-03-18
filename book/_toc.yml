@@ -62,6 +62,7 @@ parts:
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
     
       - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
+      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
 
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
