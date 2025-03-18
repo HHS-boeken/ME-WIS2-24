@@ -16,6 +16,7 @@ $$
 :class:  dropdown
 
 Bereken de afgeleide van de volgende functie:
+
 $$
 \begin{align*}
   f(x) = x^2 e^x
@@ -23,6 +24,7 @@ $$
 $$
 
 Kies de functies $u(x)$ en $v(x)$:
+
 $$
 \begin{align}
   u &= x^2 \\
@@ -31,6 +33,7 @@ $$
 $$
 
 Differentieer de functies $u(x)$ en $v(x)$:
+
 $$
 \begin{align}
   \dfrac{du}{dx} &= 2x \\
@@ -39,6 +42,7 @@ $$
 $$
 
 Toepassen van de productregel:
+
 $$
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
