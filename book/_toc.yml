@@ -25,7 +25,7 @@ parts:
       - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen.md
       - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
       - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
-  
+
   - caption: Functies
     chapters:
     #- file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
@@ -39,36 +39,34 @@ parts:
 
   - caption: Limieten
     chapters:
-    - file: Limieten/Limieten/Limieten.md
+    - file: 3_Limieten/Limieten/Limieten.md
       sections:
-      - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
-      - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
-      - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
+      - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
+      - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
+      - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
 
-      - file: Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
-      - file: Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot_opgaven.md
-      - file: Limieten/Limieten/Combinaties_van_limieten.md
+      - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
+      - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot_opgaven.md
+      - file: 3_Limieten/Limieten/Combinaties_van_limieten.md
    # - file: Limieten/Limieten/test1.ipynb
-
 
   - caption: Differentiëren
     chapters:
-    - file: Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
+    - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections:
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
 
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
-    
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
-      - file: Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
+
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
 
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
   #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
-  
 
   #- caption: Integreren
   #  chapters:
@@ -84,8 +82,8 @@ parts:
     chapters:
     - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
     - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
-    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven_les.md
-    - file: Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen_les.md
+    - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven_les.md
+    - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen_les.md
 
   - caption: Overig
     chapters:
