@@ -1,6 +1,6 @@
 # 1.1 Uitwerkingen
 
-<hr style="border:1px solid #9EA700">
+<hr style="border:2px solid #9EA700">
 
 ### Opgave 1.1a
 
