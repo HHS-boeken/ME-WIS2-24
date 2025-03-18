@@ -1,4 +1,4 @@
-# 1.3 De quotiëntregel
+# 4.3 De quotiëntregel
 
 ````{admonition} Theorie
 :class: tip, dropdown open
@@ -26,7 +26,7 @@ Noemer $\cdot$ Afgeleide van de Teller - Teller $\cdot$ Afgeleide van de Noemer 
 
 ````
 
-## 1.3.1 De quotiëntregel
+## 4.3.1 De quotiëntregel
 
 ```{admonition} Voorbeeld 1: quotiëntregel
 :class: dropdown
@@ -136,7 +136,7 @@ Toepassen van de quotiëntregel:
 ```
 ````
 
-## 1.3.2 De quotiëntregel + kettingregel
+## 4.3.2 De quotiëntregel + kettingregel
 
 ````{admonition} Oefening 3
 :class: important, dropdown

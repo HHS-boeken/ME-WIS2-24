@@ -1,7 +1,7 @@
 
-## 1.2 Uitwerkingen
+## 4.2 Uitwerkingen
 
-### Opgave 1.2.1a
+### Opgave 4.2.1a
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -43,7 +43,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1b
+### Opgave 4.2.1b
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -86,7 +86,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1c
+### Opgave 4.2.1c
 
 ````{admonition} Antwoord
 
@@ -95,7 +95,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1d
+### Opgave 4.2.1d
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -138,7 +138,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1e
+### Opgave 4.2.1e
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -181,7 +181,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1f
+### Opgave 4.2.1f
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -226,7 +226,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1g
+### Opgave 4.2.1g
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -269,7 +269,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1h
+### Opgave 4.2.1h
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -313,7 +313,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1i
+### Opgave 4.2.1i
 
 ````{admonition} Antwoord
 
@@ -322,7 +322,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1j
+### Opgave 4.2.1j
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -365,7 +365,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1k
+### Opgave 4.2.1k
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -409,7 +409,7 @@ Toepassen van de productregel:
 <hr style="border:1px solid #9EA700">
 
 
-### Opgave 1.2.1l
+### Opgave 4.2.1l
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -455,7 +455,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1m
+### Opgave 4.2.1m
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -498,7 +498,7 @@ Toepassen van de productregel:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 1.2.1n
+### Opgave 4.2.1n
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -543,7 +543,7 @@ Toepassen van de productregel:
 <hr style="border:1px solid #9EA700">
 
 
-### Opgave 1.2.1o
+### Opgave 4.2.1o
 
 ````{admonition} Antwoord
 :class:  dropdown
