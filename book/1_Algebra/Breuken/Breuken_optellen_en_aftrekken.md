@@ -171,9 +171,9 @@ Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 ```{dropdown} Uitwerking
 
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
-\begin{align}
+\begin{align*}
  \frac{x^2 + 3x + 2}{x^2 - 4} - \frac{x^2 + x}{x^2 - 4}
-\end{align}
+\end{align*}
 
 Aftrekken van de breuken:
 \begin{align}
@@ -200,9 +200,9 @@ Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 ```{dropdown} Uitwerking
 
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
-\begin{align}
+\begin{align*}
 \frac{2x^2 + 3x - 1}{x^2 - x} - \frac{x - 2}{x^2 - x}
-\end{align}
+\end{align*}
 
 Aftrekken van de breuken:
 \begin{align}
