@@ -341,13 +341,13 @@ Bereken de afgeleide van de volgende functie:
   q(x) = (\ln x + x^2)e^x
 \end{align*}
 
-Kies de functies \( u(x) \) en \( v(x) \):
+Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
   u &= \ln x + x^2 \\
   v &= e^x
 \end{align}
 
-Differentieer de functies \( u(x) \) en \( v(x) \):
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= \dfrac{1}{x} + 2x \\
   \dfrac{dv}{dx} &= e^x
@@ -384,13 +384,13 @@ Bereken de afgeleide van de volgende functie:
   f(x) = (x^3 + e^x)(\ln x)
 \end{align*}
 
-Kies de functies \( u(x) \) en \( v(x) \):
+Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
   u &= x^3 + e^x \\
   v &= \ln x
 \end{align}
 
-Differentieer de functies \( u(x) \) en \( v(x) \):
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= 3x^2 + e^x \\
   \dfrac{dv}{dx} &= \dfrac{1}{x}
@@ -428,13 +428,13 @@ Bereken de afgeleide van de volgende functie:
   y(t) = e^{-\alpha t} \cos(\omega t)
 \end{align*}
 
-Kies de functies \( u(t) \) en \( v(t) \):
+Kies de functies $u(t)$ en $v(t)$:
 \begin{align}
   u &= e^{-\alpha t} \\
   v &= \cos(\omega t)
 \end{align}
 
-Differentieer de functies \( u(t) \) en \( v(t) \):
+Differentieer de functies $u(t)$ en $v(t)$:
 \begin{align}
   \dfrac{du}{dt} &= -\alpha e^{-\alpha t} \\
   \dfrac{dv}{dt} &= -\omega \sin(\omega t)
@@ -474,13 +474,13 @@ Bereken de afgeleide van de volgende functie:
   f(x) = (\ln x + e^x)(\cos x + x)
 \end{align*}
 
-Kies de functies \( u(x) \) en \( v(x) \):
+Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
   u &= \ln x + e^x \\
   v &= \cos x + x
 \end{align}
 
-Differentieer de functies \( u(x) \) en \( v(x) \):
+Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= \frac{1}{x} + e^x \\
   \dfrac{dv}{dx} &= -\sin x + 1
@@ -517,13 +517,13 @@ Bereken de afgeleide van de volgende functie:
   z(t) = (t^2 + 1) e^{-t}
 \end{align*}
 
-Kies de functies \( u(t) \) en \( v(t) \):
+Kies de functies $u(t)$ en $v(t)$:
 \begin{align}
   u &= t^2 + 1 \\
   v &= e^{-t}
 \end{align}
 
-Differentieer de functies \( u(t) \) en \( v(t) \):
+Differentieer de functies $u(t)$ en $v(t)$:
 \begin{align}
   \dfrac{du}{dt} &= 2t \\
   \dfrac{dv}{dt} &= -e^{-t}
@@ -562,13 +562,13 @@ Bereken de afgeleide van de volgende functie:
   v(t) = (e^{-t} + \ln (t+1)) \cos (\omega t)
 \end{align*}
 
-Kies de functies \( u(t) \) en \( v(t) \):
+Kies de functies $u(t)$ en $v(t)$:
 \begin{align}
   u &= e^{-t} + \ln (t+1) \\
   v &= \cos (\omega t)
 \end{align}
 
-Differentieer de functies \( u(t) \) en \( v(t) \):
+Differentieer de functies $u(t)$ en $v(t)$:
 \begin{align}
   \dfrac{du}{dt} &= -e^{-t} + \frac{1}{t+1} \\
   \dfrac{dv}{dt} &= -\omega \sin (\omega t)
