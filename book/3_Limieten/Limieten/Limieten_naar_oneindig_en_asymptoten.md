@@ -9,7 +9,7 @@ kernelspec:
   language: python
   name: python3
 ---
-# 1.1 Eindige limiet, $\lim_{x\to \pm \infty}  f(x)=L$ ,  horizontale asymptoot T
+# 3.1 Eindige limiet, $\lim_{x\to \pm \infty}  f(x)=L$ ,  horizontale asymptoot T
 
 
 

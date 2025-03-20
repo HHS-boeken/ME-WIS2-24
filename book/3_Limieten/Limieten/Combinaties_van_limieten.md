@@ -1,4 +1,4 @@
-# 1.4 Combinaties van limieten
+# 3.3 Combinaties van limieten
 
 ````{admonition} Theorie
 :class: tip, dropdown open
