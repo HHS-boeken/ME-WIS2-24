@@ -175,7 +175,7 @@ $$
 
 ````
 
-## De graad van de tellen en de noemer zijn gelijk
+## 3.1.1 De graad van de tellen en de noemer zijn gelijk
 
 ```{admonition} Voorbeeld 1:
 :class: dropdown
@@ -280,7 +280,7 @@ $, dit geeft:
 ```
 ````
 
-## De graad van de teller is kleiner dan de graad van de noemer
+## 3.1.2 De graad van de teller is kleiner dan de graad van de noemer
 
 ```{admonition} Voorbeeld 2:
 :class: dropdown
@@ -382,7 +382,7 @@ $, dit geeft:
 ```
 ````
 
-## De graad van de teller is groter dan de graad van de noemer
+## 3.1.3 De graad van de teller is groter dan de graad van de noemer
 
 ```{admonition} Voorbeeld 3:
 :class: dropdown
