@@ -38,7 +38,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ```
 ````
 
-<hr style="border:1px solid #9EA700">
+---
 
 ### Opgave 2 (3 punten)
 ````{admonition} Antwoord
@@ -85,8 +85,7 @@ Uitwerken van de teller en vereenvoudigen:
 ```
 ````
 
-<hr style="border:1px solid #9EA700">
-
+---
 
 ### Opgave 3 (4 punten)
 
@@ -136,15 +135,19 @@ Vereenvoudig de breuk:
 \begin{align*}
     = \frac{3}{2} - \frac{17}{2(x + 3)} \quad \text{(1p)}
 \end{align*}
-
 ```
 ````
 
-<hr style="border:2px solid #9EA700">
+---
 
 ### Opgave 4 (3 punten)
 
+
+---
+
 ### Opgave 5 (3 punten)
+
+---
 
 ### Opgave 6 (2 punten)
 
@@ -193,4 +196,18 @@ $$
 ```  
 ````  
 
-<hr style="border:1px solid #9EA700">
+---
+
+### Opgave 7 (2 punten)
+
+---
+
+### Opgave 8 (4 punten)
+
+---
+
+### Opgave 9 (4 punten)
+
+---
+
+### Opgave 10 (4 punten)
