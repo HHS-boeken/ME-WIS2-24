@@ -104,7 +104,7 @@ $$
 ```{admonition} Uitwerking
 :class: dropdown
 
-Schrijf in de vorm $\dfrac{m}{x - p} = q$:
+Schrijf in de vorm $\dfrac{m}{x - p} + q$:
 
 $$
 \begin{align*}
@@ -144,3 +144,53 @@ Vereenvoudig de breuk:
 
 ### Opgave 4 (3 punten)
 
+### Opgave 5 (3 punten)
+
+### Opgave 6 (2 punten)
+
+````{admonition} Antwoord
+:class: dropdown
+
+$$  
+\begin{align*}  
+\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4} = -\dfrac{7}{3}
+\end{align*}  
+$$  
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4}  
+\end{align*}  
+$$  
+
+Deel de teller en de noemer door de hoogste macht $x^5$ van de noemer:  
+
+$$  
+\begin{align*}  
+&= \lim_{x \to -\infty} \dfrac{\dfrac{-7x^5}{x^5} + \dfrac{2x^3}{x^5} - \dfrac{x}{x^5}}{\dfrac{3x^5}{x^5} + \dfrac{x^2}{x^5} + \dfrac{4}{x^5}}  \\  
+&= \lim_{x \to -\infty} \dfrac{-7 + \dfrac{2}{x^2} - \dfrac{1}{x^4}}{3 + \dfrac{1}{x^3} + \dfrac{4}{x^5}} \quad \text{(1p)}
+\end{align*}  
+$$  
+
+Gebruik de standaardlimiet,  
+$
+\lim_{x \to -\infty} \dfrac{a}{x^n} = 0  
+$ 
+Dit geeft:  
+
+$$  
+\begin{align*}  
+&= \dfrac{-7 + 0 - 0}{3 + 0 + 0}  \\  
+&= \dfrac{-7}{3} \quad \text{(1p)}
+\end{align*}  
+$$  
+
+```  
+````  
+
+<hr style="border:1px solid #9EA700">
