@@ -1,4 +1,4 @@
-## 2425 - Voorbeeld Toets1: Uitwerkingen
+## Voorbeeld Toets1: Uitwerkingen
 
 ### Opgave 1 (3 punten)
 ````{admonition} Antwoord

@@ -1,4 +1,4 @@
-## 2425 - Voorbeeld Toets2: Opgaven
+## Voorbeeld Toets2: Opgaven
 
 ### Opgave 1 (3 punten)  
 Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
