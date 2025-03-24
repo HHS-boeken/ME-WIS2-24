@@ -1,4 +1,4 @@
-## Opgaven
+## 2425 - Voorbeeld Toets1: Opgaven
 
 ### Opgave 1 (3 punten)
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -105,9 +105,11 @@ Bereken de afgeleide van de volgende functie.
 
 $$
 \begin{align*}
- f(x) = 2^2x \cdot ^3 \log(2x + 1)  
+ f(x) = 2^{2x} \cdot ^3 \log(2x + 1)  
 \end{align*}
 $$
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 10 (4 punten)
 

@@ -93,6 +93,7 @@ parts:
   - caption: Voorbeeld Toets
     chapters:
     - file: VT/VT1_opgaven.md
+    - file: VT/VT2_opgaven.md
 
   - caption: Overig
     chapters:
