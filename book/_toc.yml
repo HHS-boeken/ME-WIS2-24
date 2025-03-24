@@ -91,7 +91,9 @@ parts:
 
 
   - caption: Voorbeeld Toets
+    chapters:
 
+    
   - caption: Overig
     chapters:
     - file: references.md
