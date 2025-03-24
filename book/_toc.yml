@@ -92,8 +92,8 @@ parts:
 
   - caption: Voorbeeld Toets
     chapters:
+    - file: VT1_opgaven.md
 
-    
   - caption: Overig
     chapters:
     - file: references.md
