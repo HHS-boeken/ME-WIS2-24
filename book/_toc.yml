@@ -90,6 +90,8 @@ parts:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen_les.md
 
 
+  - caption: Voorbeeld Toets
+
   - caption: Overig
     chapters:
     - file: references.md
