@@ -204,10 +204,91 @@ $$
 
 ### Opgave 8 (4 punten)
 
+````{admonition} Antwoord
+:class:  dropdown
+
+$$
+\begin{align*}
+  \dfrac{df}{dx} &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+\end{align*}
+$$
+
+```{admonition} Uitwerking
+:class:  dropdown
+
+Bereken de afgeleide van de volgende functie:
+\begin{align*}
+  f(x) = (2x^3 + 3x) e^{4x}
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align}
+  u &= 2x^3 + 3x \\
+  v &= e^{4x}
+\end{align}
+
+Differentieer de functies $u(x)$ en $v(x)$:
+\begin{align}
+  \dfrac{du}{dx} &= 6x^2 + 3 \\
+  \dfrac{dv}{dx} &= 4e^{4x}
+\end{align}
+
+Toepassen van de productregel:
+\begin{align}
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) \\
+  &= (6x^2 + 3)e^{4x} + 4(2x^3 + 3x)e^{4x} \\
+  &= (6x^2 + 3 + 8x^3 + 12x)e^{4x} \\
+  &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+\end{align}
+
+```
+````
+
 ---
 
 ### Opgave 9 (4 punten)
 
+````{admonition} Antwoord
+:class:  dropdown
+
+$$
+\begin{align*}
+  \dfrac{df}{dx} &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+\end{align*}
+$$
+
+```{admonition} Uitwerking
+:class:  dropdown
+
+Bereken de afgeleide van de volgende functie:
+\begin{align*}
+  f(x) = 2^{2x} \cdot ^3 \log(2x + 1)
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align}
+  u &= 2^{2x} \\
+  v &= ^3 \log(2x + 1)
+\end{align}
+
+Differentieer de functies $u(x)$ en $v(x)$:
+\begin{align}
+  \dfrac{du}{dx} &=  2^{2x} \cdot \ln(2) \cdot 2\\
+  \dfrac{dv}{dx} &= \dfrac{1}{ \ln(3) \cdot (2x+1)} \cdot 2
+\end{align}
+
+Toepassen van de productregel:
+\begin{align}
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) \\
+  &= (6x^2 + 3)e^{4x} + 4(2x^3 + 3x)e^{4x} \\
+  &= (6x^2 + 3 + 8x^3 + 12x)e^{4x} \\
+  &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+\end{align}
+
+```
+````
 ---
 
 ### Opgave 10 (4 punten)
