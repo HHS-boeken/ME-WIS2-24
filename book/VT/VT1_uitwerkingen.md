@@ -264,7 +264,7 @@ Vind de snijpunten van deze twee hyperbollen:
 Gelijkstellen aan elkaar geeft:
 \begin{align*}
 f(x) &= g(x) \\
-\dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} {\color{blue}   \text{(1p)}}
+\dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Uitwerken geeft:
@@ -378,25 +378,25 @@ Bereken de afgeleide van de volgende functie:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align}
+\begin{align*}
   u &= 2x^3 + 3x \\
   v &= e^{4x}
-\end{align}
+\end{align*}
 
 Differentieer de functies $u(x)$ en $v(x)$:
-\begin{align}
-  \dfrac{du}{dx} &= 6x^2 + 3 \\
-  \dfrac{dv}{dx} &= 4e^{4x}
-\end{align}
+\begin{align*}
+  \dfrac{du}{dx} &= 6x^2 + 3  {\color{blue} \quad  \text{(1p)}} \\
+  \dfrac{dv}{dx} &= 4e^{4x}  {\color{blue} \quad  \text{(1p)}}
+\end{align*}
 
 Toepassen van de productregel:
-\begin{align}
+\begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) \\
+  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) {\color{blue} \quad  \text{(1p)}}\\
   &= (6x^2 + 3)e^{4x} + 4(2x^3 + 3x)e^{4x} \\
   &= (6x^2 + 3 + 8x^3 + 12x)e^{4x} \\
-  &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
-\end{align}
+  &= (8x^3 + 6x^2 + 12x + 3)e^{4x} {\color{blue} \quad  \text{(1p)}}
+\end{align*}
 
 ```
 ````
@@ -410,7 +410,7 @@ Toepassen van de productregel:
 
 $$
 \begin{align*}
-  \dfrac{df}{dx} &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+  \dfrac{df}{dx} &= ( 2 \cdot 2^{2x}) ( \ln(2)(^3 \log(2x + 1)) + \dfrac{1 }{ \ln(3) \cdot (2x+1)} )
 \end{align*}
 $$
 
@@ -423,28 +423,66 @@ Bereken de afgeleide van de volgende functie:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align}
+\begin{align*}
   u &= 2^{2x} \\
   v &= ^3 \log(2x + 1)
-\end{align}
+\end{align*}
 
 Differentieer de functies $u(x)$ en $v(x)$:
-\begin{align}
-  \dfrac{du}{dx} &=  2^{2x} \cdot \ln(2) \cdot 2\\
-  \dfrac{dv}{dx} &= \dfrac{1}{ \ln(3) \cdot (2x+1)} \cdot 2
-\end{align}
+\begin{align*}
+  \dfrac{du}{dx} &=  2^{2x} \cdot \ln(2) \cdot 2 {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &= \dfrac{1}{ \ln(3) \cdot (2x+1)} \cdot 2 {\color{blue} \quad  \text{(1p)}}
+\end{align*}
 
 Toepassen van de productregel:
-\begin{align}
+\begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) \\
-  &= (6x^2 + 3)e^{4x} + 4(2x^3 + 3x)e^{4x} \\
-  &= (6x^2 + 3 + 8x^3 + 12x)e^{4x} \\
-  &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
-\end{align}
+  &= (2^{2x} \cdot \ln(2) \cdot 2)(^3 \log(2x + 1)) + (2^{2x})(\dfrac{1}{ \ln(3) \cdot (2x+1)} \cdot 2) {\color{blue} \quad  \text{(1p)}} \\
+  &= ( 2 \cdot 2^{2x} \cdot \ln(2))(^3 \log(2x + 1)) + \dfrac{2 \cdot 2^{2x} }{ \ln(3) \cdot (2x+1)}  \\
+  &= ( 2 \cdot 2^{2x}) ( \ln(2)(^3 \log(2x + 1)) + \dfrac{1 }{ \ln(3) \cdot (2x+1)} )  {\color{blue} \quad  \text{(1p)}}
+\end{align*}
 
 ```
 ````
 ---
 
 ### Opgave 10 (4 punten)
+
+````{admonition} Antwoord
+:class:  dropdown
+
+$$
+\begin{align*}
+  \dfrac{df}{dx} &= \frac{ 2 \sin(x)\cos(x)(\ln(3x+5)) - \dfrac{3\sin^2(x)}{3x+5} }{ \ln^2(3x+5)} 
+\end{align*}
+$$
+
+```{admonition} Uitwerking
+:class:  dropdown
+
+Bereken de afgeleide van de volgende functie:
+\begin{align*}
+  f(x) =  \dfrac{ \sin^2(x) }{ \ln(3x+5)}
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align*}
+  u &=  \sin^2(x) \\
+  v &=  \ln(3x+5) \\
+\end{align*}
+
+Differentieer de functies $u(x)$ en $v(x)$:
+\begin{align*}
+  \dfrac{du}{dx} &= 2 \sin(x)\cos(x) {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &= \dfrac{1}{3x+5} \cdot 3  {\color{blue} \quad  \text{(1p)}}\\
+                &= \dfrac{3}{3x+5} \\
+\end{align*}
+
+Toepassen van de quotiëntregel:
+\begin{align*}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+  &= \frac{ (\ln(3x+5)) \cdot 2 \sin(x)\cos(x)  - \sin^2(x) \cdot  \dfrac{3}{3x+5} }{ (\ln(3x+5))^2} {\color{blue} \quad  \text{(1p)}}\\
+  &= \frac{ 2 \sin(x)\cos(x)(\ln(3x+5)) - \dfrac{3\sin^2(x)}{3x+5} }{ \ln^2(3x+5)} {\color{blue} \quad  \text{(1p)}}
+\end{align*}
+```
+````

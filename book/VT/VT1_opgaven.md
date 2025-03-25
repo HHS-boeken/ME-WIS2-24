@@ -89,5 +89,5 @@ Bereken de afgeleide van de volgende functie.
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
- l(x) = \dfrac{ 4^x + x^4  }{ ^2 \log(x^2 + 1) }
+    l(x) = \dfrac{ \sin^2(x)  }{  \ln(3x + 5) }
 \end{align*}
