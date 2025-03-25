@@ -353,8 +353,66 @@ $$
 
 ---
 
-### Opgave 7 (2 punten)
+### Opgave 7 (3 punten)
 
+````{admonition} Antwoord
+:class: dropdown
+
+$$  
+\begin{align*}  
+\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4} = -\dfrac{7}{3}
+\end{align*}  
+$$  
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+  \lim_{x \uparrow -3} \frac{x^2 - 9  }{ x^2 + 5x+6 }
+\end{align*}  
+$$  
+
+Invullen van $-3$ in de teller en noemer geeft:  
+
+$$  
+\begin{align*}
+%&= \dfrac{x^2 - 9  }{ x^2 + 5x+6 } \\
+&= \dfrac{ (-3)^2 - 9  }{ (-3)^2 + 5 \cdot (-3)+6 } \\
+&= \dfrac{0}{0} = ?
+\end{align*}  
+$$  
+
+Dit is onbepaald, probeer de teller en de noemer te ontbinden in factoren:
+
+$$  
+\begin{align*}  
+& \lim_{x \uparrow -3}\dfrac{x^2 - 9  }{ x^2 + 5x+6 } \\
+& \lim_{x \uparrow -3}\dfrac{ (x - 3)(x + 3)  }{ (x + 3)(x + 2 ) } {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$  
+
+Wegdelen van de gemeenschappelijke factor geeft:
+$$  
+\begin{align*}  
+& \lim_{x \uparrow -3}\dfrac{ (x - 3)  }{ (x + 2 ) } {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$  
+
+
+Invullen geeft:  
+
+$$  
+\begin{align*}  
+&= \dfrac{-3 - 3}{ -3 + 2}  \\  
+&= \dfrac{-6}{-1} = 6 {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$  
+
+```  
+````  
 ---
 
 ### Opgave 8 (4 punten)
