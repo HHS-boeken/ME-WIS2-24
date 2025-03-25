@@ -140,12 +140,168 @@ Vereenvoudig de breuk:
 
 ---
 
-### Opgave 4 (3 punten)
+### Opgave 4 (4 punten)
+
+````{admonition} Antwoord
+:class: dropdown
+
+De uitkomst is:
+
+
+$$
+\begin{align*}
+x^2+6x-4 + \dfrac{-25x -36}{x^2+4}
+\end{align*}
+$$
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Berekenen door middel van een staartdeling:
+
+$$
+\frac{x^4 + 6x^3 - x+6}{x^2 + 4}
+$$
+
+Zet de staartdeling op:
+
+$$
+\begin{align*}
+ x^2 + 4 \quad / x^4 + 6x^3 - \quad \quad x+6 \backslash
+\end{align*}
+$$
+
+Deel de eerste term $x^4$ door $x^2$ dit geeft:
+
+$$
+\frac{x^4}{x^2} = x^2
+$$
+
+Dus,
+
+$$
+\begin{align*}
+ x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2\\
+&x^2 + \quad \quad \quad 4x^2 \\
+&------ \quad -\\
+&\quad \quad \quad   6x^3 - 4x^2-x+6 \quad \text{(1p)}
+\end{align*}
+$$
+
+Deel $6x^3$ door $x^2$:
+
+$$
+\frac{6x^3}{x^2} = 6x
+$$
+
+Dus,
+
+$$
+\begin{align*}
+ x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2 + 6x\\
+&x^2 + \quad \quad \quad 4x^2 \\
+&----------- \quad -\\
+&\quad \quad \quad   6x^3 - 4x^2-x+6 \\
+&\quad \quad \quad   6x^3 \quad \quad \quad + 24x \\
+&----------- \quad -\\
+&\quad \quad \quad   \quad - 4x^2-25x + 6 \quad \text{(1p)}
+\end{align*}
+$$
+
+Deel $4x^2$ door $x^2$:
+
+$$
+\frac{-4x^2}{x^2} = -4
+$$
+
+---
+
+$$
+\begin{align*}
+ x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2 + 6x - 4\\
+&x^2 + \quad \quad \quad 4x^2 \\
+&----------- \quad -\\
+&\quad \quad \quad   6x^3 - 4x^2-x+6 \\
+&\quad \quad \quad   6x^3 \quad \quad \quad + 24x \\
+&----------- \quad -\\
+&\quad \quad \quad   \quad - 4x^2-25x + 6 \\
+&\quad \quad \quad   \quad - 4x^2 \quad \quad \quad -16\\
+&----------- \quad -\\
+&\quad \quad \quad   \quad \quad \quad \quad -25x -36 \quad \text{(1p)}
+\end{align*}
+$$
+
+Noteer de rest als een breuk De rest is $-25x -36$, dus de uiteindelijke uitkomst is:
+
+$$
+\begin{align*}
+x^2+6x-4 + \dfrac{-25x -36}{x^2+4} \quad \text{(1p)}
+\end{align*}
+$$
+```
+````
 
 
 ---
 
-### Opgave 5 (3 punten)
+### Opgave 5 (5 punten)
+
+````{admonition} Antwoord
+:class: dropdown
+
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Vind de snijpunten van deze twee hyperbollen:
+\begin{align*}
+  f(x) &= \dfrac{x - 1}{x + 2}
+\end{align*}
+\begin{align*}
+  g(x) &= \dfrac{2x + 3}{x - 1}
+\end{align*}
+
+Gelijkstellen aan elkaar geeft:
+\begin{align*}
+f(x) &= g(x) \\
+\dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} {\color{blue}   \text{(1p)}}
+\end{align*}
+
+Uitwerken geeft:
+\begin{align*}
+\dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} \\
+(x - 1)(x - 1) &= (x + 2)( 2x + 3 ) {\color{blue}   \text{(1p)}}\\
+x^2 -x -x + 1 &= 2x^2 + 3x + 4x + 6 \\
+x^2 -2x + 1 &= 2x^2 + 7x + 6 \\
+x^2 + 9x - 5 &= 0 {\color{blue}   \text{(1p)}}
+\end{align*}
+
+Bereken de discriminant:
+\begin{align*}
+D &= \sqrt{b^2 - 4 a c} \\
+D &= \sqrt{9^2 - 4 \cdot 1  \cdot -5} \\
+D &= \sqrt{ 36 + 20 } \\
+D &= \sqrt{ 56 }
+\end{align*}
+
+Bereken $x_1$ en $x_2$:\begin{align*}
+x_{1,2} &= \dfrac{-b \pm \sqrt{D}}{2a} \\
+x_{1,2} &= \dfrac{-9 \pm \sqrt{56}}{2 \cdot 1} \\
+x_{1,2} &= \dfrac{-9 \pm 2\sqrt{14}}{2}
+\end{align*}
+
+Dus,
+\begin{align*}
+x_{1} &= -\dfrac{9}{2} - \sqrt{14} \approx -8.24 {\color{blue}   \text{(1p)}}
+\end{align*}
+
+en,
+\begin{align*}
+x_{2} &= -\dfrac{9}{2} +  \sqrt{14} \approx -0.76 {\color{blue}   \text{(1p)}}
+\end{align*}
+
+```
+````
 
 ---
 

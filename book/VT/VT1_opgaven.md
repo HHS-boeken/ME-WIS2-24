@@ -27,7 +27,7 @@ Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 ---
 
-### Opgave 4 (3 punten)
+### Opgave 4 (4 punten)
 
 Berekenen door middel van een staartdeling:
 \begin{align*}
