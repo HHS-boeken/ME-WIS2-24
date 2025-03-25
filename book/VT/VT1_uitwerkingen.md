@@ -23,17 +23,17 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 
 Ontbind de teller en de noemer in factoren:
 \begin{align*}
-    = \dfrac{2(x^2 - 16)}{(x - 4)(x - 4)} \quad \text{(1p)}
+    = \dfrac{2(x^2 - 16)}{(x - 4)(x - 4)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Ontbind de teller nog een keer in factoren:
 \begin{align*}
-    = \dfrac{2(x - 4)(x + 4)}{(x - 4)(x - 4)} \quad \text{(1p)}
+    = \dfrac{2(x - 4)(x + 4)}{(x - 4)(x - 4)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \begin{align*}
-= \dfrac{2(x + 4)}{x - 4} \quad \text{als } x \neq 4 \quad \text{(1p)}
+= \dfrac{2(x + 4)}{x - 4} \quad \text{als } x \neq 4 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 ```
 ````
@@ -69,18 +69,18 @@ Bepaal de kleinste gemene noemer: <br>De kleinste gemene noemer is \( (2x-3) \).
 
 Herschrijf de breuk:
 \begin{align*}
-    = \dfrac{5}{2x-3} - \dfrac{6(2x-3)}{(2x-3)} \quad \text{(1p)}
+    = \dfrac{5}{2x-3} - \dfrac{6(2x-3)}{(2x-3)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Samen nemen van de breuken geeft:
 \begin{align*}
-    = \dfrac{5 - 6(2x-3)}{2x-3} \quad \text{(1p)}
+    = \dfrac{5 - 6(2x-3)}{2x-3} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Uitwerken van de teller en vereenvoudigen:
 \begin{align*}
     &= \dfrac{5 - 12x + 18}{2x - 3} \\
-    &= \dfrac{-12x + 23}{2x - 3}  \quad \text{(1p)}
+    &= \dfrac{-12x + 23}{2x - 3}  {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 ```
 ````
@@ -113,7 +113,7 @@ $$
 
 Factoriseer de noemer:
 \begin{align*}
-    = \dfrac{3x - 8}{2(x + 3)} \quad \text{(1p)}
+    = \dfrac{3x - 8}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Voeg de factor $(x + 3)$ toe aan de teller en corrigeer de teller:
@@ -123,17 +123,17 @@ Voeg de factor $(x + 3)$ toe aan de teller en corrigeer de teller:
 
 Vereenvoudig de teller:
 \begin{align*}
-    = \dfrac{3(x+3) - 17}{2(x + 3)} \quad \text{(1p)}
+    = \dfrac{3(x+3) - 17}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Splits de breuk:
 \begin{align*}
-    = \dfrac{3(x+3)}{2(x + 3)} - \dfrac{17}{2(x + 3)} \quad \text{(1p)}
+    = \dfrac{3(x+3)}{2(x + 3)} - \dfrac{17}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Vereenvoudig de breuk:
 \begin{align*}
-    = \frac{3}{2} - \frac{17}{2(x + 3)} \quad \text{(1p)}
+    = \frac{3}{2} - \frac{17}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 ```
 ````
@@ -184,7 +184,7 @@ $$
  x^2 + 4 \quad / &x^4 + 6x^3 - \quad \quad x+6 \backslash \quad x^2\\
 &x^2 + \quad \quad \quad 4x^2 \\
 &------ \quad -\\
-&\quad \quad \quad   6x^3 - 4x^2-x+6 \quad \text{(1p)}
+&\quad \quad \quad   6x^3 - 4x^2-x+6 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
@@ -204,7 +204,7 @@ $$
 &\quad \quad \quad   6x^3 - 4x^2-x+6 \\
 &\quad \quad \quad   6x^3 \quad \quad \quad + 24x \\
 &----------- \quad -\\
-&\quad \quad \quad   \quad - 4x^2-25x + 6 \quad \text{(1p)}
+&\quad \quad \quad   \quad - 4x^2-25x + 6 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
@@ -227,7 +227,7 @@ $$
 &\quad \quad \quad   \quad - 4x^2-25x + 6 \\
 &\quad \quad \quad   \quad - 4x^2 \quad \quad \quad -16\\
 &----------- \quad -\\
-&\quad \quad \quad   \quad \quad \quad \quad -25x -36 \quad \text{(1p)}
+&\quad \quad \quad   \quad \quad \quad \quad -25x -36 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
@@ -235,12 +235,11 @@ Noteer de rest als een breuk De rest is $-25x -36$, dus de uiteindelijke uitkoms
 
 $$
 \begin{align*}
-x^2+6x-4 + \dfrac{-25x -36}{x^2+4} \quad \text{(1p)}
+x^2+6x-4 + \dfrac{-25x -36}{x^2+4} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 ```
 ````
-
 
 ---
 
@@ -332,7 +331,7 @@ Deel de teller en de noemer door de hoogste macht $x^5$ van de noemer:
 $$  
 \begin{align*}  
 &= \lim_{x \to -\infty} \dfrac{\dfrac{-7x^5}{x^5} + \dfrac{2x^3}{x^5} - \dfrac{x}{x^5}}{\dfrac{3x^5}{x^5} + \dfrac{x^2}{x^5} + \dfrac{4}{x^5}}  \\  
-&= \lim_{x \to -\infty} \dfrac{-7 + \dfrac{2}{x^2} - \dfrac{1}{x^4}}{3 + \dfrac{1}{x^3} + \dfrac{4}{x^5}} \quad \text{(1p)}
+&= \lim_{x \to -\infty} \dfrac{-7 + \dfrac{2}{x^2} - \dfrac{1}{x^4}}{3 + \dfrac{1}{x^3} + \dfrac{4}{x^5}} {\color{blue} \quad  \text{(1p)}}
 \end{align*}  
 $$  
 
@@ -345,7 +344,7 @@ Dit geeft:
 $$  
 \begin{align*}  
 &= \dfrac{-7 + 0 - 0}{3 + 0 + 0}  \\  
-&= \dfrac{-7}{3} \quad \text{(1p)}
+&= \dfrac{-7}{3} {\color{blue} \quad  \text{(1p)}}
 \end{align*}  
 $$  
 
