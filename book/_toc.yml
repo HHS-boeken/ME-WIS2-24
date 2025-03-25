@@ -95,6 +95,7 @@ parts:
     - file: VT/VT1_opgaven.md
     - file: VT/VT1_uitwerkingen.md
     - file: VT/VT2_opgaven.md
+    - file: VT/VT2_uitwerkingen.md
     - file: VT/VT3_opgaven.md
 
   - caption: Overig
