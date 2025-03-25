@@ -152,7 +152,7 @@ De uitkomst is:
 
 $$
 \begin{align*}
-x^2+6x-4 + \dfrac{-25x -36}{x^2+4}
+x^2+6x-4 + \dfrac{-25x + 22}{x^2+4}
 \end{align*}
 $$
 
@@ -271,10 +271,10 @@ f(x) &= g(x) \\
 Uitwerken geeft:
 \begin{align*}
 \dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} \\
-(x - 1)(x - 1) &= (x + 2)( 2x + 3 ) {\color{blue}   \text{(1p)}}\\
+(x - 1)(x - 1) &= (x + 2)( 2x + 3 ) {\color{blue} \quad  \text{(1p)}}\\
 x^2 -x -x + 1 &= 2x^2 + 3x + 4x + 6 \\
 x^2 -2x + 1 &= 2x^2 + 7x + 6 \\
-x^2 + 9x - 5 &= 0 {\color{blue}   \text{(1p)}}
+x^2 + 9x - 5 &= 0 {\color{blue}  \quad \text{(1p)}}
 \end{align*}
 
 Bereken de discriminant:
@@ -285,7 +285,8 @@ D &= \sqrt{ 81 - 20 } \\
 D &= \sqrt{ 61 }
 \end{align*}
 
-Bereken $x_1$ en $x_2$:\begin{align*}
+Bereken $x_1$ en $x_2$:
+\begin{align*}
 x_{1,2} &= \dfrac{-b \pm \sqrt{D}}{2a} \\
 x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2 \cdot 1} \\
 x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2}
@@ -293,12 +294,12 @@ x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2}
 
 Dus,
 \begin{align*}
-x_{1} &= -\dfrac{9}{2} - \dfrac{1}{2} \sqrt{61} \approx -8.41 {\color{blue}   \text{(1p)}}
+x_{1} &= -\dfrac{9}{2} - \dfrac{1}{2} \sqrt{61} \approx -8.41 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 en,
 \begin{align*}
-x_{2} &= -\dfrac{9}{2} +  \dfrac{1}{2}\sqrt{61} \approx -0.59 {\color{blue}   \text{(1p)}}
+x_{2} &= -\dfrac{9}{2} +  \dfrac{1}{2}\sqrt{61} \approx -0.59 {\color{blue}  \quad  \text{(1p)}}
 \end{align*}
 
 ```
@@ -362,7 +363,7 @@ $$
 
 $$  
 \begin{align*}  
-\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4} = -\dfrac{7}{3}
+\lim_{x \uparrow -3} \frac{x^2 - 9  }{ x^2 + 5x+6 } = 6
 \end{align*}  
 $$  
 
@@ -389,25 +390,26 @@ $$
 
 Dit is onbepaald, probeer de teller en de noemer te ontbinden in factoren:
 
-$$  
-\begin{align*}  
+$$
+\begin{align*}
 & \lim_{x \uparrow -3}\dfrac{x^2 - 9  }{ x^2 + 5x+6 } \\
 & \lim_{x \uparrow -3}\dfrac{ (x - 3)(x + 3)  }{ (x + 3)(x + 2 ) } {\color{blue} \quad  \text{(1p)}}
-\end{align*}  
-$$  
+\end{align*}
+$$
 
 Wegdelen van de gemeenschappelijke factor geeft:
-$$  
-\begin{align*}  
+
+$$
+\begin{align*}
 & \lim_{x \uparrow -3}\dfrac{ (x - 3)  }{ (x + 2 ) } {\color{blue} \quad  \text{(1p)}}
-\end{align*}  
-$$  
+\end{align*}
+$$
 
 
-Invullen geeft:  
+Invullen geeft:
 
-$$  
-\begin{align*}  
+$$
+\begin{align*}
 &= \dfrac{-3 - 3}{ -3 + 2}  \\  
 &= \dfrac{-6}{-1} = 6 {\color{blue} \quad  \text{(1p)}}
 \end{align*}  
