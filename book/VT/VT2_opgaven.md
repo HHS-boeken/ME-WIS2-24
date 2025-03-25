@@ -89,5 +89,5 @@ $$
 Bepaal de afgeleide van de volgende functie:
 
 $$
-l(x) = \dfrac{e^x + x^3}{^3 \cos(4x)}
+l(x) = \dfrac{e^x + x^3}{ \cos(4x)}
 $$
