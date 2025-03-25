@@ -4,7 +4,7 @@
 Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
-\dfrac{3x^2 - 27}{x^2 - 6x + 9}
+\dfrac{q^2 - 8q + 12 }{3q^2 + 6q - 24}
 $$
 
 ---
@@ -13,7 +13,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\dfrac{4}{x - 5} + 3
+\dfrac{4}{x - 5} + x
 $$
 
 ---
@@ -22,7 +22,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\dfrac{4x + 5}{x + 2}
+\dfrac{7x - 1 }{3x + 2}
 $$
 
 ---
@@ -31,7 +31,7 @@ $$
 Bereken door middel van een staartdeling:
 
 $$
-\frac{x^4 - 2x^3 + 3x^2 - x + 4}{x^2 - 1}
+\frac{8x^2 + 6x + 4}{4x + 2}
 $$
 
 ---
@@ -53,7 +53,7 @@ $$
 Bereken de limiet:  
 
 $$
-\lim_{x \to -\infty} \frac{5x^4 - x^2 + 3}{-2x^4 + 6x - 1}
+\lim_{x \to -\infty} \frac{5x^4 - x^2 + 3}{-2x^3 + 6x - 1}
 $$
 
 ---
@@ -71,7 +71,7 @@ $$
 Bereken de afgeleide van de volgende functie:
 
 $$
-f(x) = (x^3 - 2x) e^{3x}
+f(x) = -2e^{-3x} 4^{2x}
 $$
 
 ---
