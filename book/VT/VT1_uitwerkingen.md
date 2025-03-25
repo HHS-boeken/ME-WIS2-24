@@ -229,15 +229,15 @@ $$
 &\quad \quad \quad   \quad - 4x^2-25x + 6 \\
 &\quad \quad \quad   \quad - 4x^2 \quad \quad \quad -16\\
 &----------- \quad -\\
-&\quad \quad \quad   \quad \quad \quad \quad -25x -36 {\color{blue} \quad  \text{(1p)}}
+&\quad \quad \quad   \quad \quad \quad \quad -25x +22 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
-Noteer de rest als een breuk De rest is $-25x -36$, dus de uiteindelijke uitkomst is:
+Noteer de rest als een breuk De rest is $-25x +22$, dus de uiteindelijke uitkomst is:
 
 $$
 \begin{align*}
-x^2+6x-4 + \dfrac{-25x -36}{x^2+4} {\color{blue} \quad  \text{(1p)}}
+x^2+6x-4 + \dfrac{-25x +22}{x^2+4} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 ```
@@ -280,25 +280,25 @@ x^2 + 9x - 5 &= 0 {\color{blue}   \text{(1p)}}
 Bereken de discriminant:
 \begin{align*}
 D &= \sqrt{b^2 - 4 a c} \\
-D &= \sqrt{9^2 - 4 \cdot 1  \cdot -5} \\
-D &= \sqrt{ 36 + 20 } \\
-D &= \sqrt{ 56 }
+D &= \sqrt{9^2 - 4 \cdot 1  \cdot + 5} \\
+D &= \sqrt{ 81 - 20 } \\
+D &= \sqrt{ 61 }
 \end{align*}
 
 Bereken $x_1$ en $x_2$:\begin{align*}
 x_{1,2} &= \dfrac{-b \pm \sqrt{D}}{2a} \\
-x_{1,2} &= \dfrac{-9 \pm \sqrt{56}}{2 \cdot 1} \\
-x_{1,2} &= \dfrac{-9 \pm 2\sqrt{14}}{2}
+x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2 \cdot 1} \\
+x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2}
 \end{align*}
 
 Dus,
 \begin{align*}
-x_{1} &= -\dfrac{9}{2} - \sqrt{14} \approx -8.24 {\color{blue}   \text{(1p)}}
+x_{1} &= -\dfrac{9}{2} - \dfrac{1}{2} \sqrt{61} \approx -8.41 {\color{blue}   \text{(1p)}}
 \end{align*}
 
 en,
 \begin{align*}
-x_{2} &= -\dfrac{9}{2} +  \sqrt{14} \approx -0.76 {\color{blue}   \text{(1p)}}
+x_{2} &= -\dfrac{9}{2} +  \dfrac{1}{2}\sqrt{61} \approx -0.59 {\color{blue}   \text{(1p)}}
 \end{align*}
 
 ```
