@@ -1,6 +1,7 @@
 ## Voorbeeld Toets1: Uitwerkingen
 
 ### Opgave 1 (3 punten)
+
 ````{admonition} Antwoord
 :class:  dropdown
 
@@ -41,6 +42,7 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 ---
 
 ### Opgave 2 (3 punten)
+
 ````{admonition} Antwoord
 :class: dropdown
 

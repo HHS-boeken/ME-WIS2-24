@@ -4,7 +4,7 @@
 Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
-\dfrac{4x^2 - 36}{x^2 - 12x + 36}
+\dfrac{4x^2 - 36}{x^2 - 9x + 18}
 $$
 
 ---
