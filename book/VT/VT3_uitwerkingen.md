@@ -253,6 +253,16 @@ $$
 
 ### Opgave 5 (3 punten)
 
+Vind de snijpunten van deze twee hyperbolen:
+
+$$
+f(x) = \dfrac{2 - x }{x - 1 }
+$$
+
+$$
+g(x) = \dfrac{ x -3 }{ 4- x }
+$$
+
 ---
 
 ### Opgave 6 (3 punten)
@@ -358,3 +368,8 @@ Bepaal de afgeleide van de volgende functie.
 
 
 ### Opgave 10 (4 punten)
+Bepaal de afgeleide van de volgende functie:
+
+$$
+l(x) = \dfrac{2^x + x^2}{^4 \log(x^2 + 4)}
+$$

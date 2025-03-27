@@ -41,11 +41,11 @@ Bereken door middel van een staartdeling:
 Vind de snijpunten van deze twee hyperbolen:
 
 $$
-f(x) = \dfrac{x }{x }
+f(x) = \dfrac{2 - x }{x - 1 }
 $$
 
 $$
-g(x) = \dfrac{3x }{x }
+g(x) = \dfrac{ x -3 }{ 4- x }
 $$
 
 ---
@@ -63,9 +63,7 @@ Bereken de limiet:
 
 Bereken de limiet:
 
-$$
-\lim_{x \uparrow -1} \frac{x^2 - 1}{x^2 + 2x + 1}
-$$
+
 
 ---
 
