@@ -1,38 +1,34 @@
 ## Voorbeeld Toets3: Opgaven
 
 ### Opgave 1 (3 punten)
-Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
-
-$$
-\dfrac{4x^2 - 36}{x^2 - 9x + 18}
-$$
+Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+\begin{align*}
+ \dfrac{x^4+6x^2y^2+9y^4}{ax^2 + 3ay^2}
+\end{align*}
 
 ---
 
 ### Opgave 2 (3 punten)
 Schrijf als één enkele breuk:
-
-$$
-\dfrac{3}{x + 4} - 2
-$$
+\begin{align*}
+    \dfrac{6}{2x+4} - 5
+\end{align*}
 
 ---
 
 ### Opgave 3 (4 punten)
-Schrijf in de vorm $\dfrac{m}{x - p} + q$:
-
-$$
-\dfrac{2x + 7}{x - 3}
-$$
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
+\begin{align*}
+ \dfrac{3x + 5}{x - 2}
+\end{align*}
 
 ---
 
 ### Opgave 4 (4 punten)
 Bereken door middel van een staartdeling:
-
-$$
-\frac{x^4 + 2x^3 - x^2 + x - 5}{x^2 + x}
-$$
+\begin{align*}
+\frac{24x^3 + 30x^2 + 12x + 5}{8x + 4}
+\end{align*}
 
 ---
 
@@ -40,21 +36,20 @@ $$
 Vind de snijpunten van deze twee hyperbolen:
 
 $$
-f(x) = \dfrac{x - 4}{x + 1}
+f(x) = \dfrac{x }{x }
 $$
 
 $$
-g(x) = \dfrac{3x + 2}{x - 2}
+g(x) = \dfrac{3x }{x }
 $$
 
 ---
 
 ### Opgave 6 (2 punten)
 Bereken de limiet:
-
-$$
-\lim_{x \to -\infty} \frac{-4x^6 + x^3 + 2}{2x^6 + 3x^2 - 5}
-$$
+\begin{align*}
+    \lim_{x \to -\infty} \dfrac{4x^3 + x}{7x^5 - 9x^2 + 2}
+\end{align*}
 
 ---
 
@@ -69,19 +64,19 @@ $$
 
 ### Opgave 8 (4 punten)
 Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) = (x^2 - 5x + 1) e^{2x}
-$$
+\begin{align*}
+  f(x) = (x^3 + e^x)(\ln x)
+\end{align*}
 
 ---
 
 ### Opgave 9 (4 punten)
-Bereken de afgeleide van de volgende functie:
+Bepaal de afgeleide van de volgende functie.
+\begin{align*}
+    n(x) = (2x + 1) \sin(x^2)
+\end{align*}
 
-$$
-f(x) = 4^{x} \cdot ^2 \log(x + 3)
-$$
+
 
 ---
 
