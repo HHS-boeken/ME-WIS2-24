@@ -58,11 +58,11 @@ $$
 
 ---
 
-### Opgave 7 (3 punten)  
+### Opgave 7 (2 punten)  
 Bereken de limiet:
 
 $$
-\lim_{x \uparrow -2} \frac{x^2 - 4}{x^2 + 3x + 2}
+  \lim_{x \uparrow -1} \frac{6 - x  }{ (x+1)^2 }
 $$
 
 ---
@@ -85,7 +85,7 @@ $$
 
 ---
 
-### Opgave 10 (4 punten)  
+### Opgave 10 (3 punten)  
 Bepaal de afgeleide van de volgende functie:
 
 $$

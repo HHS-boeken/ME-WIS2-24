@@ -18,7 +18,7 @@ Schrijf als één enkele breuk:
 
 ---
 
-### Opgave 3 (3 punten)
+### Opgave 3 (4 punten)
 
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 \begin{align*}

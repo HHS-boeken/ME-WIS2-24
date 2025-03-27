@@ -23,17 +23,17 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 
 Ontbind de teller en de noemer in factoren:
 \begin{align*}
-= \dfrac{(q - 6)(q - 2)}{3(q^2 + 2q - 8)}
+= \dfrac{(q - 6)(q - 2)}{3(q^2 + 2q - 8)}  {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Ontbind de teller en de noemer nog een keer in factoren:
 \begin{align*}
-= \dfrac{(q - 6)(q - 2)}{3(q - 2)(q + 4)}
+= \dfrac{(q - 6)(q - 2)}{3(q - 2)(q + 4)}  {\color{blue} \quad  \text{(1p)}} 
 \end{align*}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \begin{align*}
-= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2
+= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 ```
 ````
@@ -49,7 +49,7 @@ De samengevoegde en vereenvoudigde breuk is:
 
 $$
 \begin{align*}
-\dfrac{-12x + 23}{2x - 3}
+\dfrac{-x^2 + 5x + 4}{x - 5} 
 \end{align*}
 $$
 
@@ -88,7 +88,7 @@ Uitwerken van de teller en vereenvoudigen:
 
 ---
 
-### Opgave 3 (4 punten)
+### Opgave 3 (3 punten)
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -97,7 +97,7 @@ De vorm wordt:
 
 $$
 \begin{align*}
-\frac{3}{2} - \frac{17}{2(x + 3)}
+\frac{7}{3} - \frac{17}{3(3x + 2)}
 \end{align*}
 $$
 
@@ -112,36 +112,43 @@ $$
 \end{align*}
 $$
 
-Factoriseer de noemer:
-\begin{align*}
-    = \dfrac{3x - 8}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
-\end{align*}
+Voeg de factor $(3x + 2)$ toe aan de teller en corrigeer de teller:
 
-Voeg de factor $(x + 3)$ toe aan de teller en corrigeer de teller:
+$$
 \begin{align*}
-    = \dfrac{3(x+3) - 9 - 8}{2(x + 3)}
+ = \dfrac{\frac{7}{3} (3x + 2) - \frac{14}{3} - 1}{3x + 2}
 \end{align*}
+$$
 
 Vereenvoudig de teller:
+
+$$
 \begin{align*}
-    = \dfrac{3(x+3) - 17}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
+ = \dfrac{\frac{7}{3}(3x + 2) - \frac{17}{3}}{3x + 2} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
+$$
 
 Splits de breuk:
+
+$$
 \begin{align*}
-    = \dfrac{3(x+3)}{2(x + 3)} - \dfrac{17}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
+ = \dfrac{\frac{7}{3}(3x + 2)}{3x + 2} - \dfrac{\frac{17}{3}}{3x + 2} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
+$$
 
 Vereenvoudig de breuk:
+
+$$
 \begin{align*}
-    = \frac{3}{2} - \frac{17}{2(x + 3)} {\color{blue} \quad  \text{(1p)}}
+ = \frac{7}{3} - \frac{17}{3(3x + 2)} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
+$$
 ```
 ````
 
 ---
 
-### Opgave 4 (4 punten)
+### Opgave 4 (3 punten)
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -184,7 +191,7 @@ $$
  4x + 2 \quad / &8x^2 + 6x + 4 \backslash \quad 2x\\
 &8x^2 + 4x \\
 &------ \quad -\\
-&\quad \quad \quad 2x + 4
+&\quad \quad \quad 2x + 4 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
@@ -204,7 +211,7 @@ $$
 &\quad \quad \quad 2x + 4 \\
 &\quad \quad \quad 2x + 1 \\
 &------ \quad -\\
-&\quad \quad \quad \quad \quad 3
+&\quad \quad \quad \quad \quad 3 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
@@ -212,7 +219,7 @@ Noteer de rest als een breuk. De rest is $3$, dus de uiteindelijke uitkomst is:
 
 $$
 \begin{align*}
-2x + \frac{1}{2} + \dfrac{3}{4x + 2}
+2x + \frac{1}{2} + \dfrac{3}{4x + 2} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 ```
@@ -225,6 +232,14 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
+\begin{align*}
+x_{1} &= \dfrac{17}{2} - \dfrac{1}{2} \sqrt{357} \approx -0.95 {\color{blue} \quad  \text{(1p)}}
+\end{align*}
+
+en,
+\begin{align*}
+x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{357} \approx 17.95 {\color{blue}  \quad  \text{(1p)}}
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: dropdown
@@ -255,26 +270,26 @@ x^2 - 17x - 17 &= 0 {\color{blue}  \quad \text{(1p)}}
 Bereken de discriminant:
 \begin{align*}
 D &= \sqrt{b^2 - 4 a c} \\
-D &= \sqrt{9^2 - 4 \cdot 1  \cdot + 5} \\
-D &= \sqrt{ 81 - 20 } \\
-D &= \sqrt{ 61 }
+D &= \sqrt{17^2 - 4 \cdot 1  \cdot - 17} \\
+D &= \sqrt{ 289 + 68 } \\
+D &= \sqrt{ 357 }
 \end{align*}
 
 Bereken $x_1$ en $x_2$:
 \begin{align*}
 x_{1,2} &= \dfrac{-b \pm \sqrt{D}}{2a} \\
-x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2 \cdot 1} \\
-x_{1,2} &= \dfrac{-9 \pm \sqrt{61}}{2}
+x_{1,2} &= \dfrac{17 \pm \sqrt{357}}{2 \cdot 1} \\
+x_{1,2} &= \dfrac{17 \pm \sqrt{357}}{2}
 \end{align*}
 
 Dus,
 \begin{align*}
-x_{1} &= -\dfrac{9}{2} - \dfrac{1}{2} \sqrt{61} \approx -8.41 {\color{blue} \quad  \text{(1p)}}
+x_{1} &= \dfrac{17}{2} - \dfrac{1}{2} \sqrt{357} \approx -0.95 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 en,
 \begin{align*}
-x_{2} &= -\dfrac{9}{2} +  \dfrac{1}{2}\sqrt{61} \approx -0.59 {\color{blue}  \quad  \text{(1p)}}
+x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{357} \approx 17.95 {\color{blue}  \quad  \text{(1p)}}
 \end{align*}
 
 ```
@@ -289,7 +304,7 @@ x_{2} &= -\dfrac{9}{2} +  \dfrac{1}{2}\sqrt{61} \approx -0.59 {\color{blue}  \qu
 
 $$  
 \begin{align*}  
-\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4} = -\dfrac{7}{3}
+\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4} = -\infty
 \end{align*}  
 $$  
 
@@ -308,8 +323,8 @@ Deel de teller en de noemer door de hoogste macht $x^5$ van de noemer:
 
 $$  
 \begin{align*}  
-&= \lim_{x \to -\infty} \dfrac{\dfrac{-7x^5}{x^5} + \dfrac{2x^3}{x^5} - \dfrac{x}{x^5}}{\dfrac{3x^5}{x^5} + \dfrac{x^2}{x^5} + \dfrac{4}{x^5}}  \\  
-&= \lim_{x \to -\infty} \dfrac{-7 + \dfrac{2}{x^2} - \dfrac{1}{x^4}}{3 + \dfrac{1}{x^3} + \dfrac{4}{x^5}} {\color{blue} \quad  \text{(1p)}}
+&= \lim_{x \to -\infty} \dfrac{\dfrac{5x^4}{x^3} - \dfrac{x^2}{x^3} +\dfrac{3}{x^3} }{\dfrac{-2x^3}{x^3} + \dfrac{6x}{x^3} - \dfrac{1}{x^3}}  \\  
+&= \lim_{x \to -\infty} \dfrac{5x - \dfrac{1}{x} + \dfrac{3}{x^3}}{ -2 + \dfrac{6}{x^2} - \dfrac{1}{x^3}} {\color{blue} \quad  \text{(1p)}}
 \end{align*}  
 $$  
 
@@ -321,8 +336,8 @@ Dit geeft:
 
 $$  
 \begin{align*}  
-&= \dfrac{-7 + 0 - 0}{3 + 0 + 0}  \\  
-&= \dfrac{-7}{3} {\color{blue} \quad  \text{(1p)}}
+&= \dfrac{-\infty + 0 - 0}{-2 + 0 + 0}  \\  
+&= -\infty {\color{blue} \quad  \text{(1p)}}
 \end{align*}  
 $$  
 
@@ -331,14 +346,14 @@ $$
 
 ---
 
-### Opgave 7 (3 punten)
+### Opgave 7 (2 punten)
 
 ````{admonition} Antwoord
 :class: dropdown
 
 $$  
 \begin{align*}  
-\lim_{x \uparrow -3} \frac{x^2 - 9  }{ x^2 + 5x+6 } = 6
+  \lim_{x \uparrow -1} \frac{6 - x  }{ (x+1)^2 } = \infty
 \end{align*}  
 $$  
 
@@ -349,49 +364,40 @@ Bereken de limiet
 
 $$  
 \begin{align*}  
-  \lim_{x \uparrow -3} \frac{x^2 - 9  }{ x^2 + 5x+6 }
+  \lim_{x \uparrow -1} \frac{6 - x  }{ (x+1)^2 }
 \end{align*}  
 $$  
 
-Invullen van $-3$ in de teller en noemer geeft:  
+Invullen van $-1$ in de teller en noemer geeft:  
 
 $$  
 \begin{align*}
-%&= \dfrac{x^2 - 9  }{ x^2 + 5x+6 } \\
-&= \dfrac{ (-3)^2 - 9  }{ (-3)^2 + 5 \cdot (-3)+6 } \\
-&= \dfrac{0}{0} = ?
+&= \dfrac{ 6 - (-1)  }{ (-1 + 1)^2 } \\
+&= \dfrac{7}{0} = ?
 \end{align*}  
 $$  
 
-Dit is onbepaald, probeer de teller en de noemer te ontbinden in factoren:
+Delen door 0 kan niet, dus $x=-1$ is een verticale assymptoot.
+
+x nadert van links naar $-1$, dit geeft;
 
 $$
 \begin{align*}
-& \lim_{x \uparrow -3}\dfrac{x^2 - 9  }{ x^2 + 5x+6 } \\
-& \lim_{x \uparrow -3}\dfrac{ (x - 3)(x + 3)  }{ (x + 3)(x + 2 ) } {\color{blue} \quad  \text{(1p)}}
+&  \lim_{x \uparrow -1} \frac{6 - x  }{ (x+1)^2 } \\
+&=  \dfrac{+}{+} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 $$
 
-Wegdelen van de gemeenschappelijke factor geeft:
+Dus dit betekent: 
 
-$$
-\begin{align*}
-& \lim_{x \uparrow -3}\dfrac{ (x - 3)  }{ (x + 2 ) } {\color{blue} \quad  \text{(1p)}}
-\end{align*}
-$$
-
-
-Invullen geeft:
-
-$$
-\begin{align*}
-&= \dfrac{-3 - 3}{ -3 + 2}  \\  
-&= \dfrac{-6}{-1} = 6 {\color{blue} \quad  \text{(1p)}}
-\end{align*}  
 $$  
-
+\begin{align*}  
+  \lim_{x \uparrow -1} \frac{6 - x  }{ (x+1)^2 } = \infty  {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$
 ```  
 ````  
+
 ---
 
 ### Opgave 8 (4 punten)
@@ -401,7 +407,7 @@ $$
 
 $$
 \begin{align*}
-  \dfrac{df}{dx} &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
+  \dfrac{df}{dx} &= (3-2\ln(4))(2e^{-3x} 4^{2x})
 \end{align*}
 $$
 
@@ -410,28 +416,29 @@ $$
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
-  f(x) = (2x^3 + 3x) e^{4x}
+  f(x) = -2e^{-3x} 4^{2x}
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align*}
-  u &= 2x^3 + 3x \\
-  v &= e^{4x}
+  u &= -2e^{-3x} \\
+  v &= 4^{2x}
 \end{align*}
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align*}
-  \dfrac{du}{dx} &= 6x^2 + 3  {\color{blue} \quad  \text{(1p)}} \\
-  \dfrac{dv}{dx} &= 4e^{4x}  {\color{blue} \quad  \text{(1p)}}
+  \dfrac{du}{dx} &= -2e^{-3x} \cdot -3 \\
+  \dfrac{du}{dx} &= 6e^{-3x} {\color{blue} \quad  \text{(1p)}} \\
+  \dfrac{dv}{dx} &= 4^{2x} \cdot \ln(4) \cdot 2 \\
+  \dfrac{dv}{dx} &= 2 \ln(4) 4^{2x} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Toepassen van de productregel:
 \begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-  &= (6x^2 + 3)e^{4x} + (2x^3 + 3x)(4e^{4x}) {\color{blue} \quad  \text{(1p)}}\\
-  &= (6x^2 + 3)e^{4x} + 4(2x^3 + 3x)e^{4x} \\
-  &= (6x^2 + 3 + 8x^3 + 12x)e^{4x} \\
-  &= (8x^3 + 6x^2 + 12x + 3)e^{4x} {\color{blue} \quad  \text{(1p)}}
+  &= 6e^{-3x} 4^{2x} + (-2e^{-3x})(2 \ln(4) 4^{2x}) {\color{blue} \quad  \text{(1p)}}\\
+  &= 3(2e^{-3x} 4^{2x})  -2\ln(4)(2e^{-3x} 4^{2x})\\
+  &= (3-2\ln(4))(2e^{-3x} 4^{2x})  {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 ```
@@ -446,7 +453,7 @@ Toepassen van de productregel:
 
 $$
 \begin{align*}
-  \dfrac{df}{dx} &= ( 2 \cdot 2^{2x}) ( \ln(2)(^3 \log(2x + 1)) + \dfrac{1 }{ \ln(3) \cdot (2x+1)} )
+  \dfrac{df}{dx} &= 3^{x}( \ln(3) (^2 \log(x^2 + 1)) + (\dfrac{2x}{ \ln(2) \cdot (x^2+1)}) ) 
 \end{align*}
 $$
 
@@ -455,41 +462,41 @@ $$
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
-  f(x) = 2^{2x} \cdot ^3 \log(2x + 1)
+  f(x) = 3^{x} \cdot ^2 \log(x^2 + 1)
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align*}
-  u &= 2^{2x} \\
-  v &= ^3 \log(2x + 1)
+  u &= 3^{x} \\
+  v &= ^2 \log(x^2 + 1)
 \end{align*}
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align*}
-  \dfrac{du}{dx} &=  2^{2x} \cdot \ln(2) \cdot 2 {\color{blue} \quad  \text{(1p)}}\\
-  \dfrac{dv}{dx} &= \dfrac{1}{ \ln(3) \cdot (2x+1)} \cdot 2 {\color{blue} \quad  \text{(1p)}}
+  \dfrac{du}{dx} &=  3^{x} \cdot \ln(3)  {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &= \dfrac{1}{ \ln(2) \cdot (x^2+1)} \cdot 2x {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Toepassen van de productregel:
 \begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-  &= (2^{2x} \cdot \ln(2) \cdot 2)(^3 \log(2x + 1)) + (2^{2x})(\dfrac{1}{ \ln(3) \cdot (2x+1)} \cdot 2) {\color{blue} \quad  \text{(1p)}} \\
-  &= ( 2 \cdot 2^{2x} \cdot \ln(2))(^3 \log(2x + 1)) + \dfrac{2 \cdot 2^{2x} }{ \ln(3) \cdot (2x+1)}  \\
-  &= ( 2 \cdot 2^{2x}) ( \ln(2)(^3 \log(2x + 1)) + \dfrac{1 }{ \ln(3) \cdot (2x+1)} )  {\color{blue} \quad  \text{(1p)}}
+  &= (3^{x} \cdot \ln(3) )(^2 \log(x^2 + 1)) + (3^{x})(\dfrac{1}{ \ln(2) \cdot (x^2+1)} \cdot 2x) {\color{blue} \quad  \text{(1p)}} \\
+  &= (3^{x} \cdot \ln(3) )(^2 \log(x^2 + 1)) + (3^{x})(\dfrac{2x}{ \ln(2) \cdot (x^2+1)} )  \\
+  &= 3^{x}( \ln(3) (^2 \log(x^2 + 1)) + (\dfrac{2x}{ \ln(2) \cdot (x^2+1)}) )  {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 ```
 ````
 ---
 
-### Opgave 10 (4 punten)
+### Opgave 10 (3 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
 
 $$
 \begin{align*}
-  \dfrac{df}{dx} &= \frac{ 2 \sin(x)\cos(x)(\ln(3x+5)) - \dfrac{3\sin^2(x)}{3x+5} }{ \ln^2(3x+5)} 
+  \dfrac{df}{dx} &= \frac{ \cos(4x) (e^x + 3x^2)  - (e^x + x^3) \cdot (-4\sin(4x)) }{ ( \cos(4x) )^2} 
 \end{align*}
 $$
 
@@ -498,27 +505,25 @@ $$
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
-  f(x) =  \dfrac{ \sin^2(x) }{ \ln(3x+5)}
+  f(x) =  \dfrac{e^x + x^3}{ \cos(4x)}
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align*}
-  u &=  \sin^2(x) \\
-  v &=  \ln(3x+5) \\
+  u &=  e^x + x^3\\
+  v &=  \cos(4x) \\
 \end{align*}
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align*}
-  \dfrac{du}{dx} &= 2 \sin(x)\cos(x) {\color{blue} \quad  \text{(1p)}}\\
-  \dfrac{dv}{dx} &= \dfrac{1}{3x+5} \cdot 3  {\color{blue} \quad  \text{(1p)}}\\
-                &= \dfrac{3}{3x+5} \\
+  \dfrac{du}{dx} &= e^x + 3x^2 {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &= -4\sin(4x) {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 
 Toepassen van de quotiëntregel:
 \begin{align*}
   \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
-  &= \frac{ (\ln(3x+5)) \cdot 2 \sin(x)\cos(x)  - \sin^2(x) \cdot  \dfrac{3}{3x+5} }{ (\ln(3x+5))^2} {\color{blue} \quad  \text{(1p)}}\\
-  &= \frac{ 2 \sin(x)\cos(x)(\ln(3x+5)) - \dfrac{3\sin^2(x)}{3x+5} }{ \ln^2(3x+5)} {\color{blue} \quad  \text{(1p)}}
+  &= \frac{ \cos(4x) (e^x + 3x^2)  - (e^x + x^3) \cdot (-4\sin(4x)) }{ ( \cos(4x) )^2} {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 ```
 ````
