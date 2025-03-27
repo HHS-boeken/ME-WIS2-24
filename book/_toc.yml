@@ -90,14 +90,15 @@ parts:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen_les.md
 
 
-  - caption: Voorbeeld Toets
+  - caption: Voorbeeld Toets - T1
     chapters:
     - file: VT/VT1_opgaven.md
     - file: VT/VT1_uitwerkingen.md
     - file: VT/VT2_opgaven.md
     - file: VT/VT2_uitwerkingen.md
-    #- file: VT/VT3_opgaven.md
-
+    - file: VT/VT3_opgaven.md
+    - file: VT/VT3_uitwerkingen.md
+  
   - caption: Overig
     chapters:
     - file: references.md

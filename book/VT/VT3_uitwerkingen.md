@@ -23,18 +23,18 @@ Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaard
 
 Ontbind de teller en de noemer in factoren:
 \begin{align*}
-= \dfrac{(x^2 + 3y^2)(x^2 + 3y^2)}{a(x^2 + 3y^2)}
+= \dfrac{(x^2 + 3y^2)(x^2 + 3y^2)}{a(x^2 + 3y^2)}  {\color{blue} \quad  \text{(2p)}}\\
 \end{align*}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 \begin{align*}
-= \dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2 \neq 0
+= \dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2 \neq 0  {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 ```
 ````
 ---
 
-### Opgave 2 (3 punten)
+### Opgave 2 (4 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -57,29 +57,29 @@ Schrijf als één enkele breuk:
 \end{align*}
 
 Zet de constante in een breuk:
-\begin{align}
+\begin{align*}
     = \dfrac{6}{2x+4} - \dfrac{5}{1}
-\end{align}
+\end{align*}
 
 Bepaal de kleinste gemene noemer: <br>De kleinste gemene noemer is $(2x+4)$.
 
 Herschrijf de breuk:
-\begin{align}
-    = \dfrac{6}{2x+4} - \dfrac{5(2x+4)}{(2x+4)}
-\end{align}
+\begin{align*}
+    = \dfrac{6}{2x+4} - \dfrac{5(2x+4)}{(2x+4)}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 
 Samen nemen van de breuken geeft:
-\begin{align}
-    = \dfrac{6- 5(2x+4)}{2x+4}
-\end{align}
+\begin{align*}
+    = \dfrac{6- 5(2x+4)}{2x+4}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 
 Uitwerken van de teller en vereenvoudigen:
-\begin{align}
+\begin{align*}
     &= \dfrac{6 -10x -20}{2x +4} \\
-    &= \dfrac{-10x -14}{2x +4} \\
+    &= \dfrac{-10x -14}{2x +4}  {\color{blue} \quad  \text{(1p)}}\\\\
     &= \dfrac{2(-5x -7)}{2(x +2)} \\
-    &= \dfrac{-5x -7}{x +2} \\
-\end{align}
+    &= \dfrac{-5x -7}{x +2}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 ```
 ````
 
@@ -113,40 +113,40 @@ $$
 Voeg de factor $(x-2)$ toe aan de teller en corrigeer de teller voor het toevoegen:
 
 $$
-\begin{align}
+\begin{align*}
  = \dfrac{3(x-2) +6 + 5}{x - 2}
-\end{align}
+\end{align*}
 $$
 
 Vereenvoudig de teller:
 
 $$
-\begin{align}
- = \dfrac{3(x-2) +11}{x - 2}
-\end{align}
+\begin{align*}
+ = \dfrac{3(x-2) +11}{x - 2}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 $$
 
 Splits de breuk:
 
 $$
-\begin{align}
- = \dfrac{3(x-2)}{x - 2} + \dfrac{11}{x - 2}
-\end{align}
+\begin{align*}
+ = \dfrac{3(x-2)}{x - 2} + \dfrac{11}{x - 2}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 $$
 
 Vereenvoudig de breuk:
 
 $$
-\begin{align}
- = 3 + \dfrac{11}{x - 2}
-\end{align}
+\begin{align*}
+ = 3 + \dfrac{11}{x - 2}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 $$
 ```
 ````
 
 ---
 
-### Opgave 4 (3 punten)
+### Opgave 4 (4 punten)
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -189,7 +189,7 @@ $$
  8x + 4 \quad / &24x^3 + 30x^2 + 12x + 5 \backslash \quad 3x^2\\
 &24x^3 + 12x^2 \\
 &------ \quad -\\
-&\quad \quad \quad 18x^2 + 12x + 5
+&\quad \quad \quad 18x^2 + 12x + 5  {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 $$
 
@@ -210,7 +210,7 @@ $$
 &\quad \quad \quad 18x^2 + 12x + 5 \\
 &\quad \quad \quad 18x^2 + 9x  \\
 &---------- \quad -\\
-&\quad \quad \quad \quad \quad \quad \quad 3x + 5 \\
+&\quad \quad \quad \quad \quad \quad \quad 3x + 5  {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 $$
 
@@ -234,7 +234,7 @@ $$
 &\quad \quad \quad \quad \quad \quad \quad 3x + 5 \\
 &\quad \quad \quad \quad \quad \quad \quad 3x + \frac{12}{8} \\
 &---------- \quad -\\
-&\quad \quad \quad \quad \quad \quad \quad \quad  -\frac{28}{8} 
+&\quad \quad \quad \quad \quad \quad \quad \quad  -\frac{28}{8}  {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 $$
 
@@ -243,7 +243,7 @@ Noteer de rest als een breuk. De rest is $\frac{7}{2}$, dus de uiteindelijke uit
 $$
 \begin{align*}
 & 3x^2 + \frac{9}{4}x + \frac{3}{8}+ \dfrac{7}{2(8x + 4)} \\
-& 3x^2 + \frac{9}{4}x + \frac{3}{8}+ \dfrac{7}{8(2x + 1)} \\
+& 3x^2 + \frac{9}{4}x + \frac{3}{8}+ \dfrac{7}{8(2x + 1)}  {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 $$
 ```
@@ -307,7 +307,7 @@ $$
 
 ---
 
-### Opgave 8 (4 punten)
+### Opgave 8 (3 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -327,29 +327,27 @@ Bereken de afgeleide van de volgende functie:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align}
+\begin{align*}
   u &= x^3 + e^x \\
   v &= \ln x
-\end{align}
+\end{align*}
 
 Differentieer de functies $u(x)$ en $v(x)$:
-\begin{align}
-  \dfrac{du}{dx} &= 3x^2 + e^x \\
-  \dfrac{dv}{dx} &= \dfrac{1}{x}
-\end{align}
+\begin{align*}
+  \dfrac{du}{dx} &= 3x^2 + e^x  {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &= \dfrac{1}{x}  {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 
 Toepassen van de productregel:
-\begin{align}
+\begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-  &= (3x^2 + e^x) \ln x + (x^3 + e^x) \cdot \dfrac{1}{x} \\
-  &= (3x^2 + e^x) \ln x + \frac{x^3 + e^x}{x}
-\end{align}
+  &= (3x^2 + e^x) \ln x + (x^3 + e^x) \cdot \dfrac{1}{x}  \\
+  &= (3x^2 + e^x) \ln x + \frac{x^3 + e^x}{x} {\color{blue} \quad  \text{(1p)}}\\
+\end{align*}
 
 ```
 ````
-
 ---
-
 
 ### Opgave 9 (4 punten)
 
