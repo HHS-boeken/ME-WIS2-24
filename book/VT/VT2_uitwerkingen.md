@@ -231,25 +231,25 @@ $$
 
 Vind de snijpunten van deze twee hyperbollen:
 \begin{align*}
-  f(x) &= \dfrac{x - 1}{x + 2}
+  f(x) &= \dfrac{x + 3}{x - 4}
 \end{align*}
 \begin{align*}
-  g(x) &= \dfrac{2x + 3}{x - 1}
+  g(x) &= \dfrac{2x - 5}{x + 1}
 \end{align*}
 
 Gelijkstellen aan elkaar geeft:
 \begin{align*}
 f(x) &= g(x) \\
-\dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} {\color{blue} \quad  \text{(1p)}}
+\dfrac{x + 3}{x - 4} &= \dfrac{2x - 5}{x + 1} {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 Uitwerken geeft:
 \begin{align*}
-\dfrac{x - 1}{x + 2} &= \dfrac{2x + 3}{x - 1} \\
-(x - 1)(x - 1) &= (x + 2)( 2x + 3 ) {\color{blue} \quad  \text{(1p)}}\\
-x^2 -x -x + 1 &= 2x^2 + 3x + 4x + 6 \\
-x^2 -2x + 1 &= 2x^2 + 7x + 6 \\
-x^2 + 9x - 5 &= 0 {\color{blue}  \quad \text{(1p)}}
+\dfrac{x + 3}{x - 4} &= \dfrac{2x - 5}{x + 1} \\
+(x + 3)(x + 1) &= (x - 4)( 2x - 5 ) {\color{blue} \quad  \text{(1p)}}\\
+x^2 +3x +x + 3 &= 2x^2 - 8x - 5x + 20 \\
+x^2 + 4x + 3 &= 2x^2  -13x + 20 \\
+x^2 - 17x - 17 &= 0 {\color{blue}  \quad \text{(1p)}}
 \end{align*}
 
 Bereken de discriminant:
