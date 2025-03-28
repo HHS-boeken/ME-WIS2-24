@@ -36,7 +36,7 @@ Bereken door middel van een staartdeling:
 
 ---
 
-### Opgave 5 (5 punten)
+### Opgave 5 (4 punten)
 
 Vind de snijpunten van deze twee hyperbolen:
 

@@ -251,9 +251,20 @@ $$
 
 ---
 
-### Opgave 5 (3 punten)
+### Opgave 5 (4 punten)
 
-Vind de snijpunten van deze twee hyperbolen:
+````{admonition} Antwoord
+:class: dropdown
+
+De snijpunt(en) van deze twee hyperbolen zijn:
+\begin{align*}
+x = \dfrac{5}{2}
+\end{align*}
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Vind de snijpunt(en) van deze twee hyperbolen:
 
 $$
 f(x) = \dfrac{2 - x }{x - 1 }
@@ -262,6 +273,30 @@ $$
 $$
 g(x) = \dfrac{ x -3 }{ 4- x }
 $$
+
+Gelijkstellen aan elkaar geeft:
+\begin{align*}
+f(x) &= g(x) \\
+\dfrac{2 - x}{x - 1} &= \dfrac{x - 3}{ 4 - x } {\color{blue} \quad  \text{(1p)}}
+\end{align*}
+
+Uitwerken geeft:
+\begin{align*}
+\dfrac{2 - x}{x - 1} &= \dfrac{x - 3}{ 4 - x }  \\
+(2 - x)(4 - x) &= (x - 1)( x - 3 ) {\color{blue} \quad  \text{(1p)}}\\
+x^2 - 2x - 4x + 8 &= x^2 - x - 3x + 3 \\
+x^2 - 6x + 8 &= x^2  -4x + 3 \\
+-2x + 5 &= 0 {\color{blue}  \quad \text{(1p)}}
+\end{align*}
+
+Bereken $x$ :
+\begin{align*}
+-2x + 5 &= 0 \\
+-2x &= -5 \dfrac{17 \pm \sqrt{357}}{2 \cdot 1} \\
+x &= \dfrac{-5}{-2} = \dfrac{5}{2}
+\end{align*}
+```
+````
 
 ---
 
