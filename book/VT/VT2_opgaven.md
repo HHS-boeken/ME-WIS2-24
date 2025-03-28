@@ -13,7 +13,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\dfrac{4}{x - 5} + x
+\dfrac{4}{x - 5} - x
 $$
 
 ---

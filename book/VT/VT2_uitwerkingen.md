@@ -58,12 +58,12 @@ $$
 
 Schrijf als één enkele breuk:
 \begin{align*}
-    \dfrac{4}{x-5} + x
+    \dfrac{4}{x-5} - x
 \end{align*}
 
 Zet de constante in een breuk:
 \begin{align*}
-    = \dfrac{4}{x-5} + \dfrac{x}{1}
+    = \dfrac{4}{x-5} - \dfrac{x}{1}
 \end{align*}
 
 Bepaal de kleinste gemene noemer: <br>De kleinste gemene noemer is \( (x-5) \).
