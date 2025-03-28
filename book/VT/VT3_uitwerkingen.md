@@ -394,11 +394,50 @@ Toepassen van de productregel:
 ````
 ---
 
-### Opgave 9 (4 punten)
+### Opgave 9 (3 punten)
+
+````{admonition} Antwoord
+:class:  dropdown
+
+$$
+\begin{align*}
+  \dfrac{df}{dx} &= 3^{x}( \ln(3) (^2 \log(x^2 + 1)) + (\dfrac{2x}{ \ln(2) \cdot (x^2+1)}) ) 
+\end{align*}
+$$
+
+```{admonition} Uitwerking
+:class:  dropdown
+
+Bereken de afgeleide van de volgende functie:
+\begin{align*}
+  f(x) = (2x + 1) \sin(x^2)
+\end{align*}
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align*}
+  u &= 2x+1 \\
+  v &= \sin(x^2)
+\end{align*}
+
+Differentieer de functies $u(x)$ en $v(x)$:
+\begin{align*}
+  \dfrac{du}{dx} &=  2 {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &=  \cos(x^2)  \cdot 2x {\color{blue} \quad  \text{(1p)}}
+\end{align*}
+
+Toepassen van de productregel:
+\begin{align*}
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+  &= ( 2 )( 2x\cos(x^2)) + ( (2x+1) \cdot \sin(x^2)) {\color{blue} \quad  \text{(1p)}} \\
+  &=  4x\cos(x^2) + ( (2x+1) \cdot \sin(x^2))  \\
+\end{align*}
+
+```
+````
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    n(x) = (2x + 1) \sin(x^2)
+    n(x) = 
 \end{align*}
 
 

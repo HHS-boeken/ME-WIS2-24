@@ -76,7 +76,7 @@ Bereken de afgeleide van de volgende functie:
 
 ---
 
-### Opgave 9 (4 punten)
+### Opgave 9 (3 punten)
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
