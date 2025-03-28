@@ -234,7 +234,7 @@ $$
 &\quad \quad \quad \quad \quad \quad \quad 3x + 5 \\
 &\quad \quad \quad \quad \quad \quad \quad 3x + \frac{12}{8} \\
 &---------- \quad -\\
-&\quad \quad \quad \quad \quad \quad \quad \quad  -\frac{28}{8}  {\color{blue} \quad  \text{(1p)}}\\
+&\quad \quad \quad \quad \quad \quad \quad \quad  \frac{28}{8}  {\color{blue} \quad  \text{(1p)}}\\
 \end{align*}
 $$
 
