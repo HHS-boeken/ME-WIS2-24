@@ -80,7 +80,7 @@ Bereken de afgeleide van de volgende functie:
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
-    n(x) = (2x + 1) \sin(x^2)
+    f(x) = (2x + 1) \sin(x^2)
 \end{align*}
 
 

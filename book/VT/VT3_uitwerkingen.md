@@ -401,7 +401,7 @@ Toepassen van de productregel:
 
 $$
 \begin{align*}
-  \dfrac{df}{dx} &= 3^{x}( \ln(3) (^2 \log(x^2 + 1)) + (\dfrac{2x}{ \ln(2) \cdot (x^2+1)}) ) 
+  \dfrac{df}{dx} &= 4x\cos(x^2) + \sin(x^2)(2x+1) 
 \end{align*}
 $$
 
@@ -429,17 +429,13 @@ Toepassen van de productregel:
 \begin{align*}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= ( 2 )( 2x\cos(x^2)) + ( (2x+1) \cdot \sin(x^2)) {\color{blue} \quad  \text{(1p)}} \\
-  &=  4x\cos(x^2) + ( (2x+1) \cdot \sin(x^2))  \\
+  &=  4x\cos(x^2) + \sin(x^2)(2x+1)  \\
 \end{align*}
 
 ```
 ````
 
-Bepaal de afgeleide van de volgende functie.
-\begin{align*}
-    n(x) = 
-\end{align*}
-
+---
 
 ### Opgave 10 (4 punten)
 Bepaal de afgeleide van de volgende functie:
