@@ -350,6 +350,68 @@ $$
 
 ### Opgave 7 (3 punten)
 
+Bereken de limiet:
+
+````{admonition} Antwoord
+:class: dropdown
+
+$$  
+\begin{align*}  
+    \lim_{x \to \infty} \frac{ e^x + x^3  }{ \ln(x^3+1) + x^2 } = \infty 
+\end{align*}  
+$$  
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Bereken de limiet  
+
+$$  
+\begin{align*}  
+  \lim_{x \to \infty} \frac{ e^x + x^3  }{ \ln(x^3+1) + x^2 }
+\end{align*}  
+$$  
+
+Invullen van $\infty$ in de teller en noemer geeft:  
+
+$$  
+\begin{align*}
+&= \frac{ e^{\infty} + \infty^3  }{ \ln(\infty^3+1) + \infty^2 } \\
+&= \dfrac{\infty + \infty} {\infty + \infty} \\
+&= \dfrac{\infty}{\infty} = ? {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$  
+
+Dit is onbepaald, dus kijken naar dominantie:
+
+Voor de teller geldt, exponentiele functie is dominant over machtsfunctie, dus e^x.
+
+Voor de noemer geldt, machtsfunctie is dominant over logaritmische functies, dus x^2.
+
+
+Dit geeft;
+
+$$  
+\begin{align*}
+&  \lim_{x \to \infty} \frac{ e^x  }{ x^2 } \\
+&= \dfrac{\infty}{\infty} = ? {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$  
+
+Dit is onbepaald, dus kijken naar dominantie:
+
+Voor de gehele breuk geldt, exponentiele functie is dominant over machtsfunctie, dus e^x.
+
+Dus dit betekent: 
+
+$$  
+\begin{align*}  
+   \lim_{x \to \infty} \frac{ e^x + x^3  }{ \ln(x^3+1) + x^2 } = \infty  {\color{blue} \quad  \text{(1p)}}
+\end{align*}  
+$$
+```  
+````  
+
 ---
 
 ### Opgave 8 (3 punten)
