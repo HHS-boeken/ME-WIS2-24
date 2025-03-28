@@ -292,7 +292,7 @@ x^2 - 6x + 8 &= x^2  -4x + 3 \\
 Bereken $x$ :
 \begin{align*}
 -2x + 5 &= 0 \\
--2x &= -5 \dfrac{17 \pm \sqrt{357}}{2 \cdot 1} \\
+-2x &= -5 \\
 x &= \dfrac{-5}{-2} = \dfrac{5}{2}
 \end{align*}
 ```
