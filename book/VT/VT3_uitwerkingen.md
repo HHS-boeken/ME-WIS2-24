@@ -350,8 +350,6 @@ $$
 
 ### Opgave 7 (3 punten)
 
-Bereken de limiet:
-
 ````{admonition} Antwoord
 :class: dropdown
 

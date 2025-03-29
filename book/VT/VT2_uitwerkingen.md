@@ -264,32 +264,32 @@ Uitwerken geeft:
 (x + 3)(x + 1) &= (x - 4)( 2x - 5 ) {\color{blue} \quad  \text{(1p)}}\\
 x^2 +3x +x + 3 &= 2x^2 - 8x - 5x + 20 \\
 x^2 + 4x + 3 &= 2x^2  -13x + 20 \\
-x^2 - 17x - 17 &= 0 {\color{blue}  \quad \text{(1p)}}
+x^2 - 17x + 17 &= 0 {\color{blue}  \quad \text{(1p)}}
 \end{align*}
 
 Bereken de discriminant:
 \begin{align*}
 D &= \sqrt{b^2 - 4 a c} \\
-D &= \sqrt{17^2 - 4 \cdot 1  \cdot - 17} \\
-D &= \sqrt{ 289 + 68 } \\
-D &= \sqrt{ 357 }
+D &= \sqrt{17^2 - 4 \cdot 1  \cdot +  17} \\
+D &= \sqrt{ 289 - 68 } \\
+D &= \sqrt{ 221 }
 \end{align*}
 
 Bereken $x_1$ en $x_2$:
 \begin{align*}
 x_{1,2} &= \dfrac{-b \pm \sqrt{D}}{2a} \\
-x_{1,2} &= \dfrac{17 \pm \sqrt{357}}{2 \cdot 1} \\
-x_{1,2} &= \dfrac{17 \pm \sqrt{357}}{2}
+x_{1,2} &= \dfrac{17 \pm \sqrt{221}}{2 \cdot 1} \\
+x_{1,2} &= \dfrac{17 \pm \sqrt{221}}{2}
 \end{align*}
 
 Dus,
 \begin{align*}
-x_{1} &= \dfrac{17}{2} - \dfrac{1}{2} \sqrt{357} \approx -0.95 {\color{blue} \quad  \text{(1p)}}
+x_{1} &= \dfrac{17}{2} - \dfrac{1}{2} \sqrt{221} \approx -0.95 {\color{blue} \quad  \text{(1p)}}
 \end{align*}
 
 en,
 \begin{align*}
-x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{357} \approx 17.95 {\color{blue}  \quad  \text{(1p)}}
+x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{221} \approx 17.95 {\color{blue}  \quad  \text{(1p)}}
 \end{align*}
 
 ```
