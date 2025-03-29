@@ -351,7 +351,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-$$  
+$$ 
 \begin{align*}  
   \lim_{x \uparrow -1} \frac{6 - x  }{ (x+1)^2 } = \infty
 \end{align*}  
