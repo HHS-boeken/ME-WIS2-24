@@ -64,7 +64,7 @@ Bereken de limiet:
 Bereken de limiet:
 
 $$
-  \lim_{x \to \infty}} \frac{ e^x + x^3  }{ \ln(x^3+1) + x^2 }
+  \lim_{x \to \infty} \frac{ e^x + x^3  }{ \ln(x^3+1) + x^2 }
 $$
 
 ---
