@@ -304,7 +304,7 @@ x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{221} \approx 17.95 {\color{blue}  \q
 
 $$  
 \begin{align*}  
-\lim_{x \to -\infty} \dfrac{-7x^5 + 2x^3 - x}{3x^5 + x^2 + 4} = -\infty
+\lim_{x \to -\infty} \frac{5x^4 - x^2 + 3}{-2x^3 + 6x - 1} = -\infty
 \end{align*}  
 $$  
 
