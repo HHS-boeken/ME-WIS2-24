@@ -248,15 +248,15 @@ $$
 &\quad \quad \quad   \quad - 4x^2-25x + 6 \\
 &\quad \quad \quad   \quad - 4x^2 \quad \quad \quad -16\\
 &----------- \quad -\\
-&\quad \quad \quad   \quad \quad \quad \quad -25x -36\\
+&\quad \quad \quad   \quad \quad \quad \quad -25x +22\\
 \end{align*}
 $$
 
-Noteer de rest als een breuk De rest is $-25x -36$, dus de uiteindelijke uitkomst is:
+Noteer de rest als een breuk De rest is $-25x +22$, dus de uiteindelijke uitkomst is:
 
 $$
 \begin{align*}
-x^2+6x-4 + \dfrac{-25x -36}{x^2+4}
+x^2+6x-4 + \dfrac{-25x +22}{x^2+4}
 \end{align*}
 $$
 ```
