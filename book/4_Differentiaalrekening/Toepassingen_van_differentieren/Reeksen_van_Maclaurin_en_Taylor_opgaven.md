@@ -148,3 +148,30 @@ Bepaal de 3e orde Taylor-reeks rond $x= 3$ van
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
+
+### Opgave 5.3.2h
+
+Bepaal de 3e orde Taylor-reeks rond $x= 2$ van
+\begin{align*}
+    f(x) = x \cdot e^x
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 5.3.2i
+
+Bepaal de 3e orde Taylor-reeks rond $x= 2$ van
+\begin{align*}
+    f(x) = x^2 \cdot \ln(x)
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 5.3.2j
+
+Bepaal de 3e orde Taylor-reeks rond $x= 3$ van
+\begin{align*}
+    f(x) = \dfrac{1}{x+2}
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
