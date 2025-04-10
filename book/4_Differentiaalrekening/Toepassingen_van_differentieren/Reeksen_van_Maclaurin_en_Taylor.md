@@ -147,7 +147,7 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 
 ## 5.3.2 Reeksen Taylor
 
-```{admonition} Voorbeeld 1: Taylor
+```{admonition} Voorbeeld 2: Taylor
 :class: dropdown
 
 Bepaal de 3e orde Taylor-reeks rond $x=5$ van
@@ -185,7 +185,7 @@ Invullen van de waaardes in de Taylor-reeks rond $x=5$ geeft:
 
 ```
 
-````{admonition} Oefening 1
+````{admonition} Oefening 3
 :class: important, dropdown
 
 Bepaal de 3e orde Taylor-reeks rond $x=2$ van
@@ -232,7 +232,7 @@ Invullen van de waaardes in de Taylor-reeks rond $x=2$ geeft:
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 4
 :class: important, dropdown
 
 Bepaal de 4e orde Maclaurin-reeks van
@@ -280,12 +280,12 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
   f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 
 \end{align}
 
-<div align="left">
+
 
 \begin{align}
   f(x) &\approx 3 + 3x + \dfrac{-9}{2!}x^2 + \dfrac{-33}{3!}x^3 + \dfrac{-21}{4!}x^4 \\
   f(x) &\approx 3 + 3x + \dfrac{-9}{2}x^2 + \dfrac{-33}{6}x^3 + \dfrac{-21}{24}x^4 \\
-  f(x) &\approx 3 + 3x - \dfrac{9}{2}x^2 - \dfrac{11}{2}x^3 - \dfrac{7}{8}x^4 
+  f(x) &\approx 3 + 3x - \dfrac{9}{2}x^2 - \dfrac{11}{2}x^3 - \dfrac{7}{8}x^4
 \end{align}
 
 </div>
