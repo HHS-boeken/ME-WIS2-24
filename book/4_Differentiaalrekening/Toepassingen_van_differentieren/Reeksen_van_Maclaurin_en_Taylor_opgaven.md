@@ -124,9 +124,27 @@ Bepaal de 3e orde Taylor-reeks rond $x= 1$ van
 
 ### Opgave 5.3.2e
 
-Bepaal de 3e orde Taylor-reeks rond $x= 1$ van
+Bepaal de 3e orde Taylor-reeks rond $x= 2$ van
 \begin{align*}
-    f(x) = \dfrac{1}{x^2+1}
+    f(x) = \dfrac{x^2+1}{x}
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 5.3.2f
+
+Bepaal de 3e orde Taylor-reeks rond $x= \dfrac{\pi}{2}$ van
+\begin{align*}
+    f(x) = x \cdot \sin(x)
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 5.3.2g
+
+Bepaal de 3e orde Taylor-reeks rond $x= 3$ van
+\begin{align*}
+    f(x) = \dfrac{x}{x+1}
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
