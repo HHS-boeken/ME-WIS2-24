@@ -1,7 +1,7 @@
 # 5.3 Reeksen van Maclaurin en Taylor
 
 
-# 5.3.1 Reeksen van Maclaurin
+## 5.3.1 Reeksen van Maclaurin
 
 ```{admonition} Voorbeeld 1: Maclaurin
 :class: dropdown
@@ -146,7 +146,7 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ```
 ````
 
-# 5.3.2 Reeksen Taylor
+## 5.3.2 Reeksen Taylor
 
 ```{admonition} Voorbeeld 1: Taylor
 :class: dropdown
