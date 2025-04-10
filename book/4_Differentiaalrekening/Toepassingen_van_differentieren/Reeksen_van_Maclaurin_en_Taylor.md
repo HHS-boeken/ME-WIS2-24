@@ -280,8 +280,12 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
   f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 
 \end{align}
 
+<div align="left">
+
 \begin{align}
   f(x) &\approx 3 + 3x + \dfrac{-9}{2!}x^2 + \dfrac{-33}{3!}x^3 + \dfrac{-21}{4!}x^4 \\
   f(x) &\approx 3 + 3x + \dfrac{-9}{2}x^2 + \dfrac{-33}{6}x^3 + \dfrac{-21}{24}x^4 \\
   f(x) &\approx 3 + 3x - \dfrac{9}{2}x^2 - \dfrac{11}{2}x^3 - \dfrac{7}{8}x^4 
 \end{align}
+
+</div>
