@@ -3,31 +3,44 @@
 
 # 5.3.1 Reeksen van Maclaurin
 
-```{admonition} Voorbeeld 1: productregel
+```{admonition} Voorbeeld 1: Maclaurin
 :class: dropdown
 
-Bereken de afgeleide van de volgende functie:
+Bepaal de 4e orde Maclaurin-reeks van
 \begin{align*}
-  f(x) = (x^2-4)(x^3+7x-5)
+    f(x) = e^{3x}
 \end{align*}
 
-Kies de functies $u(x)$ en $v(x)$:
+Bereken de afgeleide van $f(x)$  tot de 4e orde:
 \begin{align}
-  u &= (x^2-4) \\
-  v &= (x^3+7x-5)
+  f(x) &= e^{3x} \\
+  f'(x) &= 3e^{3x} \\
+  f''(x) &= 9e^{3x} \\
+  f'''(x) &= 27e^{3x} \\
+  f''''(x) &= 81e^{3x}
 \end{align}
 
-Differentieer de functies $u(x)$ en $v(x)$:
+Evalueer de afgeleide bij $x= 0$:
 \begin{align}
-  \dfrac{du}{dx} &= 2x^2 \\
-  \dfrac{dv}{dx} &= 3x^2+7
+  f(0) &= 1 \\
+  f'(0) &=  3 \\
+  f''(0) &= 9 \\
+  f'''(0) &= 27 \\
+  f''''(0) &= 81
 \end{align}
 
-Toepassen van de productregel:
+Invullen van de waaardes in de Maclaurin-reeks geeft:
+
 \begin{align}
-  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= 2x^2 \cdot (x^3+7x-5) + (x^2-4) \cdot (3x^2+7)
+  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 \\
 \end{align}
+
+\begin{align}
+  f(x) &\approx   1 + 3x + \dfrac{9}{2!}x^2 + \dfrac{27}{3!}x^3 +  \dfrac{81}{4!}x^4    \\
+  f(x) &\approx   1 + 3x + \dfrac{9}{2}x^2 + \dfrac{27}{6}x^3 +  \dfrac{81}{24}x^4    \\
+  f(x) &\approx   1 + 3x + \dfrac{9}{2}x^2 + \dfrac{9}{2}x^3 +  \dfrac{27}{8}x^4    \\
+\end{align}
+
 ```
 
 ````{admonition} Oefening 1
@@ -65,14 +78,14 @@ Evalueer de afgeleide bij $x= 0$:
 Invullen van de waaardes in de Maclaurin-reeks geeft:
 
 \begin{align}
-  f(x) &\approx =  f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 \\
+  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 \\
 \end{align}
 
 \begin{align}
-  f(x) &\approx =  2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2!}x^2 + \dfrac{\dfrac{500}{27}}{3!}x^3  \\
-  f(x) &\approx =  2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2}x^2 + \dfrac{\dfrac{500}{27}}{6}x^3  \\
-  f(x) &\approx =  2\ln(3) + \dfrac{10}{3}x + \dfrac{-50}{18}x^2 + \dfrac{500}{162}x^3  \\
-  f(x) &\approx =  2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{500}{162}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2!}x^2 + \dfrac{\dfrac{500}{27}}{3!}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2}x^2 + \dfrac{\dfrac{500}{27}}{6}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-50}{18}x^2 + \dfrac{500}{162}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
 \end{align}
 ```
 ````
@@ -112,31 +125,30 @@ Evalueer de afgeleide bij $x= 0$:
   f'(0) &= 3e^0 \cos(2 \cdot 0) - 6e^0 \sin(2 \cdot 0) \\
   f'(0) &=  3 \\
   f''(0) &= -9e^0 \cos(2 \cdot 0) - 12e^0 \sin(2 \cdot 0) \\
-  f''(0) &= -9
+  f''(0) &= -9 \\
   f'''(0) &= -33e^0 \cos(2 \cdot 0) + 6e^0 \sin(2 \cdot 0) \\
-  f'''(0) &= -33
-  f''''(0) &= -21e^0 \cos(2 \cdot 0) + 72e^0 \sin(2 \cdot 0)
+  f'''(0) &= -33 \\
+  f''''(0) &= -21e^0 \cos(2 \cdot 0) + 72e^0 \sin(2 \cdot 0) \\
   f''''(0) &= -21
 \end{align}
 
 Invullen van de waaardes in de Maclaurin-reeks geeft:
 
 \begin{align}
-  f(x) &\approx =  f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 \\
+  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 
 \end{align}
 
 \begin{align}
-  f(x) &\approx =  3 + 3x + \dfrac{-9}{2!}x^2 + \dfrac{-33}{3!}x^3 + \dfrac{-21}{4!}x^4 \\
-  f(x) &\approx =  3 + 3x + \dfrac{-9}{2}x^2 + \dfrac{-33}{6}x^3 + \dfrac{-21}{24}x^4 \\
-  f(x) &\approx =  3 + 3x - \dfrac{9}{2}x^2 - \dfrac{11}{2}x^3 - \dfrac{7}{8}x^4 \\
+  f(x) &\approx 3 + 3x + \dfrac{-9}{2!}x^2 + \dfrac{-33}{3!}x^3 + \dfrac{-21}{4!}x^4 \\
+  f(x) &\approx 3 + 3x + \dfrac{-9}{2}x^2 + \dfrac{-33}{6}x^3 + \dfrac{-21}{24}x^4 \\
+  f(x) &\approx 3 + 3x - \dfrac{9}{2}x^2 - \dfrac{11}{2}x^3 - \dfrac{7}{8}x^4 
 \end{align}
 ```
 ````
 
-
 # 5.3.2 Reeksen Taylor
 
-```{admonition} Voorbeeld 1: productregel
+```{admonition} Voorbeeld 1: Taylor
 :class: dropdown
 
 Bereken de afgeleide van de volgende functie:
