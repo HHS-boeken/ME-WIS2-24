@@ -235,57 +235,47 @@ Invullen van de waaardes in de Taylor-reeks rond $x=2$ geeft:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-Bepaal de 4e orde Maclaurin-reeks van
+Bepaal de 3e orde Taylor-reeks rond $x=1$ van
 \begin{align*}
-    f(x) = 3e^x \cos(2x)
+    f(x) = \dfrac{x}{e^x}
 \end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bepaal de 4e orde Maclaurin-reeks van
+Bepaal de 3e orde Taylor-reeks rond $x=1$ van
 \begin{align*}
-    f(x) = 3e^x \cos(2x)
+    f(x) = \dfrac{x}{e^x}
 \end{align*}
 
-Bereken de afgeleide van $f(x)$  tot de 4e orde:
+Bereken de afgeleide van $f(x)$  tot de 3e orde:
 \begin{align}
-  f(x) &= 3e^x \cos(2x) \\
-  f'(x) &= 3e^x \cos(2x) - 6e^x \sin(2x) \\
-  f''(x) &= 3e^x \cos(2x) - 6e^x \sin(2x) - 6e^x \sin(2x) - 12e^x \cos(2x)  \\
-  f''(x) &= -9e^x \cos(2x) - 12e^x \sin(2x) \\
-  f'''(x) &= -9e^x \cos(2x) + 18e^x \sin(2x) - 12e^x \sin(2x) - 24e^x \cos(2x)  \\
-  f'''(x) &= -33e^x \cos(2x) + 6e^x \sin(2x) \\
-  f''''(x) &= -33e^x \cos(2x) + 66e^x \sin(2x) + 6e^x \sin(2x) +  12e^x \cos(2x) \\
-  f''''(x) &= -21e^x \cos(2x) + 72e^x \sin(2x)
+  f(x) &= \dfrac{x}{e^x} \\
+  f'(x) &= \dfrac{e^x - xe^x}{(e^x)^2} \\
+  f'(x) &= \dfrac{1 - x}{e^x} \\
+  f''(x) &= \dfrac{e^x \cdot (-1) - (1-x)e^x}{(e^x)^2} \\
+  f''(x) &= \dfrac{x-2}{e^x}
+  f'''(x) &= \dfrac{e^x - (x-2)e^x}{(e^x)^2}
+  f'''(x) &= \dfrac{-x+3}{e^x}
 \end{align}
 
-Evalueer de afgeleide bij $x= 0$:
+Evalueer de afgeleide bij $x= 2$:
 \begin{align}
-  f(0) &= 3e^0 \cos(2\cdot 0) \\
-  f(0) &= 3\\
-  f'(0) &= 3e^0 \cos(2 \cdot 0) - 6e^0 \sin(2 \cdot 0) \\
-  f'(0) &=  3 \\
-  f''(0) &= -9e^0 \cos(2 \cdot 0) - 12e^0 \sin(2 \cdot 0) \\
-  f''(0) &= -9 \\
-  f'''(0) &= -33e^0 \cos(2 \cdot 0) + 6e^0 \sin(2 \cdot 0) \\
-  f'''(0) &= -33 \\
-  f''''(0) &= -21e^0 \cos(2 \cdot 0) + 72e^0 \sin(2 \cdot 0) \\
-  f''''(0) &= -21
+  f(1) &= \dfrac{1}{e} \\
+  f'(1) &=  0 \\
+  f''(1) &= -\dfrac{1}{e}\\
+  f'''(1) &= \dfrac{2}{e}
 \end{align}
 
-Invullen van de waaardes in de Maclaurin-reeks geeft:
+Invullen van de waaardes in de Taylor-reeks rond $x=1$ geeft:
 
 \begin{align}
-  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 
+  f(x) &\approx   f(1) + f'(1)(x-1) + \dfrac{f''(1)}{2!}(x-1)^2 + \dfrac{f'''(1)}{3!}(x-1)^3 + \dfrac{f''''(2)}{4!}(x-1)^4 \\
 \end{align}
-
-
 
 \begin{align}
-  f(x) &\approx 3 + 3x + \dfrac{-9}{2!}x^2 + \dfrac{-33}{3!}x^3 + \dfrac{-21}{4!}x^4 \\
-  f(x) &\approx 3 + 3x + \dfrac{-9}{2}x^2 + \dfrac{-33}{6}x^3 + \dfrac{-21}{24}x^4 \\
-  f(x) &\approx 3 + 3x - \dfrac{9}{2}x^2 - \dfrac{11}{2}x^3 - \dfrac{7}{8}x^4
+  f(x) &\approx   e^9 + 4e^9(x-2) + \dfrac{18e^9}{2!}(x-2)^2 + \dfrac{88e^9}{3!}(x-2)^3   \\
+  f(x) &\approx   e^9 + 4e^9(x-2) + \dfrac{18e^9}{2}(x-2)^2 + \dfrac{88e^9}{6}(x-2)^3   \\
+  f(x) &\approx   e^9 + 4e^9(x-2) + 9e^9(x-2)^2 + \dfrac{44e^9}{3}(x-2)^3   \\
+  f(x) &\approx   e^9(1 + 4(x-2) + 9(x-2)^2 + \dfrac{44}{3}(x-2)^3)   \\
 \end{align}
-
-</div>
