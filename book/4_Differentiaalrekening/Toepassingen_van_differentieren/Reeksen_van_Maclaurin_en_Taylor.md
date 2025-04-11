@@ -274,8 +274,7 @@ Invullen van de waaardes in de Taylor-reeks rond $x=1$ geeft:
 \end{align}
 
 \begin{align}
-  f(x) &\approx   e^9 + 4e^9(x-2) + \dfrac{18e^9}{2!}(x-2)^2 + \dfrac{88e^9}{3!}(x-2)^3   \\
-  f(x) &\approx   e^9 + 4e^9(x-2) + \dfrac{18e^9}{2}(x-2)^2 + \dfrac{88e^9}{6}(x-2)^3   \\
-  f(x) &\approx   e^9 + 4e^9(x-2) + 9e^9(x-2)^2 + \dfrac{44e^9}{3}(x-2)^3   \\
-  f(x) &\approx   e^9(1 + 4(x-2) + 9(x-2)^2 + \dfrac{44}{3}(x-2)^3)   \\
+  f(x) &\approx   \dfrac{1}{e} + 0(x-1) + \dfrac{-\dfrac{1}{e}}{2!}(x-1)^2 + \dfrac{\dfrac{2}{e}}{3!}(x-1)^3   \\
+  f(x) &\approx   \dfrac{1}{e} + 0(x-1) + \dfrac{-\dfrac{1}{e}}{2}(x-1)^2 + \dfrac{\dfrac{2}{e}}{6}(x-1)^3   \\
+  f(x) &\approx   \dfrac{1}{e} - \dfrac{1}{2e}(x-1)^2 + \dfrac{1}{3e}(x-1)^3   \\
 \end{align}
