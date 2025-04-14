@@ -268,9 +268,9 @@ In de originele functie staat $(x^2)$ dus:
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align*}
-    &\int \sin(x^3) \cdot x^2  \, dx
+    &\int \sin(x^3) \cdot x^2  \, dx \\
     &= \int \sin(u) \, \dfrac{1}{3}du \\
-    &= \dfrac{1}{3} \int \sin(u) \, du \\
+    &= \dfrac{1}{3} \int \sin(u) \, du 
 \end{align*}
 
 Integreren geeft:
@@ -333,7 +333,7 @@ Integreren geeft:
 
 Terugsubstitueren geeft:
 \begin{align*}
-    &= &= \dfrac{1}{2} ((x^2 + 5)\ln(x^2 + 5) - (x^2 + 5)) + C
+    &= \dfrac{1}{2} ((x^2 + 5)\ln(x^2 + 5) - (x^2 + 5)) + C
 \end{align*}
 
 ```
