@@ -153,29 +153,30 @@ Bereken de onbepaalde integraal:
 
 Kies de functie $u(x)$:
 \begin{align*}
-    u(x) = 3x^2
+    u(x) = x^2 + 1
 \end{align*}
 
 Differentieer de functie $u(x)$ en bepaal $du$:
 \begin{align*}
-    \dfrac{du}{dx} &= 6x \\
-    du &= 6x \, dx
+    \dfrac{du}{dx} &= 2x \\
+    du &= 2x \, dx
 \end{align*}
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align*}
-   &\int e^{3x^2} \cdot  6x \, dx \\
-    &= \int e^{u} \, du \\
+    &\int 3 \cdot (x^2+1)^5 \cdot  2x \, dx \\
+    &= \int 3 \cdot u^5 \, du \\
 \end{align*}
 
 Integreren geeft:
 \begin{align*}
-    &= e^u + C \\
+    &= \dfrac{3}{6} u^6 + C \\
+    &= \dfrac{1}{2} u^6 + C 
 \end{align*}
 
 Terugsubstitueren geeft:
 \begin{align*}
-    &= e^{3x^2} + C
+    &= \dfrac{1}{2} (x^2+1)^6 + C 
 \end{align*}
 
 ```
