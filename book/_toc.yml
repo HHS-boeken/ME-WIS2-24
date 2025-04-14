@@ -80,7 +80,7 @@ parts:
 
   - caption: Integreren
     chapters:
-    - file: Integraalrekening/Integreren/Integreren.md
+    #- file: Integraalrekening/Integreren/Integreren.md
 
     - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
