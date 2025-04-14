@@ -82,9 +82,9 @@ parts:
     chapters:
     #- file: Integraalrekening/Integreren/Integreren.md
 
-    - file: Integraalrekening/Integratietechnieken/Integratietechnieken.md
+    - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
-      - file: Integraalrekening/Integratietechnieken/De_substitutiemethode.md
+      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode.md
     #- file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
     #- file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
 
