@@ -207,7 +207,7 @@ Differentieer de functie $u(x)$ en bepaal $du$:
     du &= (2x+2) \, dx 
 \end{align*}
 
-In de originele fucntie staat $(x+1)$ dus:
+In de originele functie staat $(x+1)$ dus:
 \begin{align*}
     \dfrac{1}{2}du &= (x+1) \, dx 
 \end{align*}
@@ -240,7 +240,7 @@ Terugsubstitueren geeft:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-    \int 6x \cdot e^{3x^2} \, dx
+    \int x^2 \cdot \sin(x^3) \, dx
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -248,24 +248,29 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-    \int 6x \cdot e^{3x^2} \, dx
+    \int x^2 \cdot \sin(x^3) \, dx
 \end{align*}
 
 Kies de functie $u(x)$:
 \begin{align*}
-    u(x) = 3x^2
+    u(x) = x^3
 \end{align*}
 
 Differentieer de functie $u(x)$ en bepaal $du$:
 \begin{align*}
-    \dfrac{du}{dx} &= 6x \\
-    du &= 6x \, dx
+    \dfrac{du}{dx} &= 3x^2 \\
+    du &= 3x^2 \, dx
+\end{align*}
+
+In de originele functie staat $(x^2)$ dus:
+\begin{align*}
+    \dfrac{1}{3}du &= x^2 \, dx
 \end{align*}
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align*}
-   &\int e^{3x^2} \cdot  6x \, dx \\
-    &= \int e^{u} \, du \\
+    &= \int u^2 \, \dfrac{1}{2}du \\
+    &= \dfrac{1}{2} \int u^2 \, du \\
 \end{align*}
 
 Integreren geeft:
