@@ -1,4 +1,4 @@
-# De substitutiemethode bij integreren
+# 6.1 De substitutiemethode bij integreren
 
 ````{admonition} Theorie
 :class: tip, dropdown open
@@ -35,16 +35,16 @@ en die is vaak veel makkelijker op te lossen.
 ```{admonition} Stappenplan substitutiemethode
 :class: warning
 
-1. **Kies een substitutie** \( u = g(x) \), waarbij een deel van de oorspronkelijke integraal wordt vervangen.
-1. **Bereken de afgeleide** \( \frac{du}{dx} = g'(x) \) en herschrijf \( dx \) in termen van \( du \).
-1. **Vervang alles** in de oorspronkelijke integraal door \( u \) en \( du \).
-1. **Los de nieuwe integraal op** in termen van \( u \).
-1. **Substitueer terug** naar de oorspronkelijke variabele \( x \).
+1. **Kies een substitutie** $u = g(x)$, waarbij een deel van de oorspronkelijke integraal wordt vervangen.
+1. **Bereken de afgeleide** $\frac{du}{dx} = g'(x)$ en herschrijf $dx$ in termen van $du$.
+1. **Vervang alles** in de oorspronkelijke integraal door $u$ en $du$.
+1. **Los de nieuwe integraal op** in termen van $u$.
+1. **Substitueer terug** naar de oorspronkelijke variabele $x$.
 
 ```
 ````
 
-## 4.2.1 De substitutiemethode
+## 6.1.1 De substitutiemethode
 
 ````{admonition} Voorbeeld 1: substitutiemethode
 :class: dropdown
@@ -61,7 +61,7 @@ Kies de functie $u(x)$:
     u(x) = x^2
 \end{align*}
 
-Differentieer de functie $u(x)$:
+Differentieer de functie $u(x)$ en bepaal $du$:
 
 \begin{align*}
     \dfrac{du}{dx} &= 2x \\
@@ -87,4 +87,96 @@ Terugsubstitueren geeft:
     &= \sin(x^2) + C
 \end{align*}
 
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int 6x \cdot e^{3x^2} \, dx
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int 6x \cdot e^{3x^2} \, dx
+\end{align*}
+
+Kies de functie $u(x)$:
+\begin{align*}
+    u(x) = 3x^2
+\end{align*}
+
+Differentieer de functie $u(x)$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 6x \\
+    du &= 6x \, dx
+\end{align*}
+
+Herschrijf de integraal door substitutie van $u$ en $du$:
+\begin{align*}
+   &\int e^{3x^2} \cdot  6x \, dx \\
+    &= \int e^{u} \, du \\
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= e^u + C \\
+\end{align*}
+
+Terugsubstitueren geeft:
+\begin{align*}
+    &= e^{3x^2} + C
+\end{align*}
+
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int 6x \cdot (x^2+1)^5 \, dx
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int 6x \cdot (x^2+1)^5 \, dx
+\end{align*}
+
+Kies de functie $u(x)$:
+\begin{align*}
+    u(x) = 3x^2
+\end{align*}
+
+Differentieer de functie $u(x)$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 6x \\
+    du &= 6x \, dx
+\end{align*}
+
+Herschrijf de integraal door substitutie van $u$ en $du$:
+\begin{align*}
+   &\int e^{3x^2} \cdot  6x \, dx \\
+    &= \int e^{u} \, du \\
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= e^u + C \\
+\end{align*}
+
+Terugsubstitueren geeft:
+\begin{align*}
+    &= e^{3x^2} + C
+\end{align*}
+
+```
 ````
