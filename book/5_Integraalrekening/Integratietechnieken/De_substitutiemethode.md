@@ -185,7 +185,6 @@ Terugsubstitueren geeft:
 ## 6.1.2 De substitutiemethode met aanpassing coëfficiënten
 
 ````{admonition} Voorbeeld 2: substitutiemethode met aanpassing coëfficiënten
-
 :class: dropdown
 
 Bereken de onbepaalde integraal:
@@ -269,18 +268,20 @@ In de originele functie staat $(x^2)$ dus:
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align*}
-    &= \int u^2 \, \dfrac{1}{2}du \\
-    &= \dfrac{1}{2} \int u^2 \, du \\
+    &\int \sin(x^3) \cdot x^2  \, dx
+    &= \int \sin(u) \, \dfrac{1}{3}du \\
+    &= \dfrac{1}{3} \int \sin(u) \, du \\
 \end{align*}
 
 Integreren geeft:
 \begin{align*}
-    &= e^u + C \\
+    &= \dfrac{1}{3} \cdot -\cos(u) + C \\
+     &= -\dfrac{1}{3} \cos(u) + C \\
 \end{align*}
 
 Terugsubstitueren geeft:
 \begin{align*}
-    &= e^{3x^2} + C
+    &= -\dfrac{1}{3} \cos(x^3) + C \\
 \end{align*}
 
 ```
@@ -291,7 +292,7 @@ Terugsubstitueren geeft:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-    \int 6x \cdot (x^2+1)^5 \, dx
+    \int x \ln(x^2+5) \, dx
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -299,12 +300,12 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-    \int 6x \cdot (x^2+1)^5 \, dx
+    \int x \ln(x^2+5) \, dx
 \end{align*}
 
 Kies de functie $u(x)$:
 \begin{align*}
-    u(x) = x^2 + 1
+    u(x) = x^2 + 5
 \end{align*}
 
 Differentieer de functie $u(x)$ en bepaal $du$:
@@ -313,21 +314,26 @@ Differentieer de functie $u(x)$ en bepaal $du$:
     du &= 2x \, dx
 \end{align*}
 
+In de originele functie staat $(x)$ dus:
+\begin{align*}
+    \dfrac{1}{2}du &= x \, dx
+\end{align*}
+
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align*}
-    &\int 3 \cdot (x^2+1)^5 \cdot  2x \, dx \\
-    &= \int 3 \cdot u^5 \, du \\
+    &\int \ln(x^2+5) \cdot  x \, dx \\
+    &= \int \ln(u) \, \dfrac{1}{2}du \\
+     &= \dfrac{1}{2} \int \ln(u) \, du \\
 \end{align*}
 
 Integreren geeft:
 \begin{align*}
-    &= \dfrac{3}{6} u^6 + C \\
-    &= \dfrac{1}{2} u^6 + C 
+    &= \dfrac{1}{2} \cdot (u\ln(u) - u) + C
 \end{align*}
 
 Terugsubstitueren geeft:
 \begin{align*}
-    &= \dfrac{1}{2} (x^2+1)^6 + C 
+    &= &= \dfrac{1}{2} ((x^2 + 5)\ln(x^2 + 5) - (x^2 + 5)) + C
 \end{align*}
 
 ```
