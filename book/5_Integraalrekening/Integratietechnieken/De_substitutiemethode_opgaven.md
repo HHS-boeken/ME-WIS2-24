@@ -6,7 +6,7 @@
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-    \int \sqrt{5 + x^2} \cdot 2x , dx
+    \int \sqrt{5 + x^2} \cdot 2x \, dx
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -15,7 +15,7 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-   \int \ln(x^2 + 4) \cdot 2x , dx ]
+   \int \ln(x^2 + 4) \cdot 2x \, dx
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -24,7 +24,7 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-   \int \ln(x^2 + 4) \cdot 2x , dx ]
+   \int \ln(x^2 + 4) \cdot 2x \, dx
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
