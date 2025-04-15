@@ -77,7 +77,7 @@ Evalueer de afgeleide bij $x= 0$:
 Invullen van de waaardes in de Maclaurin-reeks geeft:
 
 \begin{align}
-  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 + \dfrac{f''''(0)}{4!}x^4 \\
+  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 \\
 \end{align}
 
 \begin{align}
@@ -254,8 +254,8 @@ Bereken de afgeleide van $f(x)$  tot de 3e orde:
   f'(x) &= \dfrac{e^x - xe^x}{(e^x)^2} \\
   f'(x) &= \dfrac{1 - x}{e^x} \\
   f''(x) &= \dfrac{e^x \cdot (-1) - (1-x)e^x}{(e^x)^2} \\
-  f''(x) &= \dfrac{x-2}{e^x}
-  f'''(x) &= \dfrac{e^x - (x-2)e^x}{(e^x)^2}
+  f''(x) &= \dfrac{x-2}{e^x} \\
+  f'''(x) &= \dfrac{e^x - (x-2)e^x}{(e^x)^2} \\
   f'''(x) &= \dfrac{-x+3}{e^x}
 \end{align}
 
