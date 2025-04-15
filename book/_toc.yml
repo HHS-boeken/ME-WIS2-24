@@ -99,6 +99,7 @@ parts:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven_les.md
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen_les.md
 
+    - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven_les.md
 
   - caption: Voorbeeld Toets - T1
     chapters:
