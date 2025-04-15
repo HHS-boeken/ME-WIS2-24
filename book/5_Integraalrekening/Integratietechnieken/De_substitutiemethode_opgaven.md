@@ -15,7 +15,7 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-   \int \ln(x^2 + 4) \cdot 2x \, dx
+   \int 2x\ln(x^2 + 4) \, dx
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -28,3 +28,25 @@ Bereken de onbepaalde integraal:
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1d
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int 2xe^{x^2} \, dx
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1e
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int 9x^2\cos(x^3 + 9) \, dx
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+
+
+
