@@ -85,6 +85,7 @@ parts:
     - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
       - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode.md
+      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven.md
     #- file: Integraalrekening/Integratietechnieken/Partiele_integratie.md
     #- file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
 

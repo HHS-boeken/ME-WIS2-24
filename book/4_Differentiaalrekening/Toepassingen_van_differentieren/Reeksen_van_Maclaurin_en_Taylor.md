@@ -174,7 +174,7 @@ Evalueer de afgeleide bij $x= 5$:
 Invullen van de waaardes in de Taylor-reeks rond $x=5$ geeft:
 
 \begin{align}
-  f(x) &\approx   f(5) + f'(5)(x-5) + \dfrac{f''(5)}{2!}(x-5)^2 + \dfrac{f'''(5)}{3!}(x-5)^3 + \dfrac{f''''(5)}{4!}(x-5)^4
+  f(x) &\approx   f(5) + f'(5)(x-5) + \dfrac{f''(5)}{2!}(x-5)^2 + \dfrac{f'''(5)}{3!}(x-5)^3
 \end{align}
 
 \begin{align}
@@ -220,7 +220,7 @@ Evalueer de afgeleide bij $x= 2$:
 Invullen van de waaardes in de Taylor-reeks rond $x=2$ geeft:
 
 \begin{align}
-  f(x) &\approx   f(2) + f'(2)(x-2) + \dfrac{f''(2)}{2!}(x-2)^2 + \dfrac{f'''(2)}{3!}(x-2)^3 + \dfrac{f''''(2)}{4!}(x-2)^4 \\
+  f(x) &\approx   f(2) + f'(2)(x-2) + \dfrac{f''(2)}{2!}(x-2)^2 + \dfrac{f'''(2)}{3!}(x-2)^3 \\
 \end{align}
 
 \begin{align}
@@ -270,7 +270,7 @@ Evalueer de afgeleide bij $x= 2$:
 Invullen van de waaardes in de Taylor-reeks rond $x=1$ geeft:
 
 \begin{align}
-  f(x) &\approx   f(1) + f'(1)(x-1) + \dfrac{f''(1)}{2!}(x-1)^2 + \dfrac{f'''(1)}{3!}(x-1)^3 + \dfrac{f''''(2)}{4!}(x-1)^4 \\
+  f(x) &\approx   f(1) + f'(1)(x-1) + \dfrac{f''(1)}{2!}(x-1)^2 + \dfrac{f'''(1)}{3!}(x-1)^3 \\
 \end{align}
 
 \begin{align}
