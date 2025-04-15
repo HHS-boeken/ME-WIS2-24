@@ -42,7 +42,7 @@ Bereken de onbepaalde integraal:
 
 Primitiveer:
 \begin{align*}
-   f(x)= 9x^2\cos(x^3 + 9)
+   e(x)= 9x^2\cos(x^3 + 9)
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -51,12 +51,12 @@ Primitiveer:
 
 Primitiveer:
 \begin{align*}
-   g(x)= 6(3x-4)^3
+   f(x)= 6(3x-4)^3
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6.1.1G
+### Opgave 6.1.1g
 
 Primitiveer:
 \begin{align*}
@@ -65,6 +65,15 @@ Primitiveer:
 
 <hr style="border:1px solid #9EA700">
 
+
+### Opgave 6.1.1h
+
+Primitiveer:
+\begin{align*}
+   h(x)= 12xe^{2x^2} \, dx
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
 
 
 
