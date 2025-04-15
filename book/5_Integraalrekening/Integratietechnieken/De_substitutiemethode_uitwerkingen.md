@@ -1,4 +1,4 @@
-# 6.1 Uitwerkingen Les
+# 6.1 Uitwerkingen
 
 <hr style="border:2px solid #9EA700">
 
