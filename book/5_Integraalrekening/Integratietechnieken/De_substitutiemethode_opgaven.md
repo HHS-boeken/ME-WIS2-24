@@ -24,7 +24,7 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-   \int \ln(x^2 + 4) \cdot 2x \, dx
+   \int \sin(x^2 + 2) \cdot 2x \, dx
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
