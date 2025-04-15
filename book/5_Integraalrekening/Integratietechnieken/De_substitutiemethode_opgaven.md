@@ -15,7 +15,7 @@ Bereken de onbepaalde integraal:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-   \int 2x\ln(x^2 + 4) \, dx
+   \int 2x\ln(x^2 + 4)
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -40,12 +40,31 @@ Bereken de onbepaalde integraal:
 
 ### Opgave 6.1.1e
 
-Bereken de onbepaalde integraal:
+Primitiveer:
 \begin{align*}
-   \int 9x^2\cos(x^3 + 9) \, dx
+   f(x)= 9x^2\cos(x^3 + 9)
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1f
+
+Primitiveer:
+\begin{align*}
+   g(x)= 6(3x-4)^3
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1G
+
+Primitiveer:
+\begin{align*}
+   g(x)= \dfrac{3\ln(x)}{x}
+\end{align*}
+
+<hr style="border:1px solid #9EA700">
+
 
 
 
