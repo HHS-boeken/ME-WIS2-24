@@ -326,7 +326,6 @@ Dus,
     &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
 \end{align*}
 
-
 ```
 ````
 
@@ -338,6 +337,85 @@ Dus,
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+Primitiveer:
+\begin{align*}
+    f(x) = x^2 \ln^2(x)
+\end{align*}
+
+Dus, 
+\begin{align*}
+    F(x) &=  \int x^2 \ln^2(x) \, dx
+\end{align*}
+
+Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \ln^2(x) \\
+    dv &= x^2 \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2 \ln(x) \cdot \dfrac{1}{x} \\
+    du &= 2 \ln(x) \cdot \dfrac{1}{x} \, dx
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= x^2 \, dx  \\
+    \dfrac{dv}{dx} &= x^2 \\
+    v &= \dfrac{1}{3}x^3
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \int \dfrac{1}{3}x^3 2 \ln(x) \cdot \dfrac{1}{x} \, dx\\
+     &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} \int x^3  \ln(x) \cdot \dfrac{1}{x} \, dx\\
+     &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} \int x^2  \ln(x) \, dx\\
+\end{align*}
+
+De integraal $\int x^2  \ln(x) \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
+\begin{align*}
+   \int x^2  \ln(x) \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \ln(x) \\
+    dv &= x^2 \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{x} \\
+    du &= \dfrac{1}{x} \, dx
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= x^2 \, dx  \\
+    \dfrac{dv}{dx} &= x^2 \\
+    v &= \dfrac{1}{3}x^3
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \ln(x) \cdot \dfrac{1}{3}x^3 - \int \dfrac{1}{3}x^3 \dfrac{1}{x} \, dx\\
+    &= \ln(x) \cdot \dfrac{1}{3}x^3 - \dfrac{1}{3} \int x^2 \, dx\\
+    &= \ln(x) \cdot \dfrac{1}{3}x^3 - \dfrac{1}{3} \cdot \dfrac{1}{3} x^3 + C \\
+    &= \ln(x) \cdot \dfrac{1}{3}x^3 -  \dfrac{1}{9} x^3 + C
+\end{align*}
+
+Dus, 
+\begin{align*}
+    F(x) &=  \int x^2 \ln^2(x) \, dx \\
+    &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} \int x^2  \ln(x) \, dx\\
+    &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} (\ln(x) \cdot \dfrac{1}{3}x^3 -  \dfrac{1}{9} x^3 + C) \\
+    &= \dfrac{1}{3}x^3\ln^2(x) - \dfrac{2}{9}x^3\ln(x)  +  \dfrac{2}{27} x^3 + C \\
+\end{align*}
 
 ```
 ````
