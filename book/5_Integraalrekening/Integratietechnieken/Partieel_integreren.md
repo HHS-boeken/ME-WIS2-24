@@ -1,4 +1,4 @@
-# Partieel integreren
+# 6.2 Partieel integreren
 
 ````{admonition} Theorie
 :class: tip, dropdown open
@@ -156,17 +156,15 @@ Toepassen van de regel voor partieel integreren geeft:
 ````{admonition} Voorbeeld 2: Herhaald partieel integreren
 :class: dropdown
 
-B
+
 
 ````
 
 ````{admonition} Oefening 3
 :class: important, dropdown
 
-Bereken de onbepaalde integraal:
-\begin{align*}
-    \int x^2 \cdot \sin(x^3) \, dx
-\end{align*}
+
+
 
 ```{admonition} Uitwerking
 :class: important, dropdown
@@ -178,10 +176,7 @@ Bereken de onbepaalde integraal:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-Bereken de onbepaalde integraal:
-\begin{align*}
-    \int x \ln(x^2+5) \, dx
-\end{align*}
+
 
 ```{admonition} Uitwerking
 :class: important, dropdown
