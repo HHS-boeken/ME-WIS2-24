@@ -15,11 +15,10 @@ Partiële integratie gebruik je bij het berekenen van integralen van een **produ
 >$\int x e^x$
 >```
 
-<pre>
-$$
-\int x^2 dx = \frac{1}{3}x^3 + C
-$$
-</pre>
+<div style="background:#f5f5f5; padding:1em; font-family:monospace;">
+  $$\int x^2 dx = \frac{1}{3}x^3 + C$$
+</div>
+
 
 
 De techniek is nuttig als:
