@@ -12,7 +12,7 @@ Partiële integratie gebruik je bij het berekenen van integralen van een **produ
 ```
 
 ```
-$\int x e^x$
+$$\int x e^x$$
 ```
 De techniek is nuttig als:
 - De afgeleide van één van de factoren **eenvoudiger** is dan het origineel.
