@@ -1,10 +1,7 @@
 # 6.2 Partieel integreren
 
-````{admonition} Theorie
+````{admonition} Theorie: Partieel Integreren
 :class: tip, dropdown open
-
-
-# Theorie: Partieel Integreren
 
 ## 🧠 Wanneer gebruik je partieel integreren?
 
@@ -76,8 +73,6 @@ Je kiest bij voorkeur als `u` degene die het eerst in deze lijst voorkomt.
 - Bij producten zoals `x ln(x)` kun je géén substitutie gebruiken, dan is partieel integreren de manier.
 - In sommige gevallen kom je na twee stappen terug bij de oorspronkelijke integraal. Dan moet je **algebraïsch oplossen** (bijv. bij `∫ e^x cos(x) dx`).
 
-
-```
 ````
 
 ## 6.2.1 Partieel integreren
