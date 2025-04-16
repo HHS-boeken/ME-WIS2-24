@@ -156,6 +156,85 @@ Toepassen van de regel voor partieel integreren geeft:
 ````{admonition} Voorbeeld 2: Herhaald partieel integreren
 :class: dropdown
 
+Bereken de primitieve van:
+\begin{align*}
+    f(x) = x^2e^x
+\end{align*}
+
+Dus, 
+\begin{align*}
+    F(x) &=  \int x^2e^x \, dx
+\end{align*}
+
+Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= x^2 \\
+    dv &= e^x \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2x \\
+    du &= 2x \, dx
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= e^x \, dx  \\
+    \dfrac{dv}{dx} &= e^x \\
+    v &= e^x
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= x^2 \cdot e^x - \int e^x 2x \, dx\\
+    &= x^2 \cdot e^x - \int 2xe^x \, dx
+\end{align*}
+
+De integraal $\int 2xe^x \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
+\begin{align*}
+   \int 2xe^x \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= 2x \\
+    dv &= e^x \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2 \\
+    du &= 2 \, dx
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= e^x \, dx  \\
+    \dfrac{dv}{dx} &= e^x \\
+    v &= e^x
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+   \int 2xe^x \, dx &= 2x \cdot e^x - \int e^x 2 \, dx\\
+    &= 2x \cdot e^x - 2 \int e^x  \, dx\\
+    &= 2x \cdot e^x - 2e^x + C
+\end{align*}
+
+Dus, 
+\begin{align*}
+    F(x) &=  \int x^2e^x \, dx \\
+    &= x^2 \cdot e^x - \int 2xe^x \, dx \\
+    &= x^2 \cdot e^x - (2x \cdot e^x - 2e^x + C) \\
+    &= x^2 \cdot e^x - 2x \cdot e^x + 2e^x + C \\
+    &= (x^2 - 2x + 2)e^x + C \\
+\end{align*}
+
 
 
 ````
@@ -168,6 +247,84 @@ Toepassen van de regel voor partieel integreren geeft:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) = \dfrac{1}{4}x^2cos(x)
+\end{align*}
+
+Dus, 
+\begin{align*}
+    F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx
+\end{align*}
+
+Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \dfrac{1}{4}x^2 \\
+    dv &= \cos(x) \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{2}x \\
+    du &= \dfrac{1}{2}x \, dx
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= \cos(x) \, dx  \\
+    \dfrac{dv}{dx} &= \cos(x) \\
+    v &= sin(x)
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int sin(x) \dfrac{1}{2}x \, dx\\
+     &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
+\end{align*}
+
+De integraal $\int \dfrac{1}{2}x \sin(x) \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
+\begin{align*}
+   \int \dfrac{1}{2}x \sin(x) \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \dfrac{1}{2}x \\
+    dv &= \sin(x) \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{2} \\
+    du &= \dfrac{1}{2} \, dx
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= \sin(x) \, dx  \\
+    \dfrac{dv}{dx} &= \sin(x) \\
+    v &= -\cos(x)
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \dfrac{1}{2}x \cdot -\cos(x) - \int -\cos(x) \dfrac{1}{2} \, dx\\
+    &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \int \cos(x)  \, dx\\
+    &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C
+\end{align*}
+
+Dus, 
+\begin{align*}
+    F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx \\
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) - (-\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C) \\
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
+\end{align*}
 
 
 ```
