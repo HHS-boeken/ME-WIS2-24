@@ -4,6 +4,78 @@
 :class: tip, dropdown open
 
 
+# Theorie: Partieel Integreren
+
+## 🧠 Wanneer gebruik je partieel integreren?
+
+Partiële integratie gebruik je bij het berekenen van integralen van een **product** van twee functies, bijvoorbeeld:
+
+```
+∫ x e^x dx,    ∫ x sin(x) dx,    ∫ ln(x) dx
+```
+
+De techniek is nuttig als:
+- De afgeleide van één van de factoren **eenvoudiger** is dan het origineel.
+- Of als één van de factoren **niet direct integreerbaar** is (zoals `ln(x)`).
+
+---
+
+## 📐 Formule van partiële integratie
+
+De formule is gebaseerd op de productregel uit de differentiaalrekening:
+
+```
+d/dx [u(x) · v(x)] = u'(x)v(x) + u(x)v'(x)
+```
+
+Daaruit volgt de formule voor integreren per partie:
+
+```
+∫ u dv = uv - ∫ v du
+```
+
+waarbij:
+- `u` = een functie die je **differentieert** (wordt eenvoudiger),
+- `dv` = de rest (de functie die je **integreert**).
+
+---
+
+## 🔢 Stappenplan
+
+1. **Kies** `u` en `dv` in de integraal `∫ u dv`.
+   - Tip: gebruik de LIATE-regel als hulpmiddel (zie hieronder).
+2. **Bereken** `du` (de afgeleide van `u`) en `v` (de primitieve van `dv`).
+3. **Pas de formule toe**:
+   ```
+   ∫ u dv = uv - ∫ v du
+   ```
+4. **Herhaal indien nodig** (als de nieuwe integraal nog niet oplosbaar is).
+5. **Voeg de constante `C`** toe.
+
+---
+
+## 🧭 Hulpmiddel: LIATE-regel (keuzehulp voor `u`)
+
+Een veelgebruikte volgorde voor het kiezen van `u` (de functie die je differentieert) is:
+
+**L I A T E**
+1. **L**ogarithmic: `ln(x), log(x), ...`
+2. **I**nverse trig: `arctan(x), arcsin(x), ...`
+3. **A**lgebraic: `x, x², ...`
+4. **T**rigonometric: `sin(x), cos(x), ...`
+5. **E**xponential: `e^x, a^x, ...`
+
+Je kiest bij voorkeur als `u` degene die het eerst in deze lijst voorkomt.
+
+---
+
+## ⚠️ Belangrijke opmerkingen
+
+- Als de integraal na toepassen van de formule **lastiger** wordt, kies dan andere `u` en `dv`.
+- Soms moet je **herhaald** partieel integreren (bijv. bij `x² e^x`).
+- Bij producten zoals `x ln(x)` kun je géén substitutie gebruiken, dan is partieel integreren de manier.
+- In sommige gevallen kom je na twee stappen terug bij de oorspronkelijke integraal. Dan moet je **algebraïsch oplossen** (bijv. bij `∫ e^x cos(x) dx`).
+
 
 ```
 ````
