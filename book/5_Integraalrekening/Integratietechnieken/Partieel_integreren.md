@@ -60,7 +60,7 @@ Bereken de onbepaalde integraal:
 Bereken de onbepaalde integraal:
 \begin{align*}
     \int x \cdot e^{2x} \, dx
-\end{align*}n*}
+\end{align*}
 
 Kies de functie $u$ en $dv$:
 \begin{align*}
