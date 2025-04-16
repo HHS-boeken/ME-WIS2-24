@@ -14,6 +14,14 @@ Partiële integratie gebruik je bij het berekenen van integralen van een **produ
 >```
 >$\int x e^x$
 >```
+
+<pre>
+$$
+\int x^2 dx = \frac{1}{3}x^3 + C
+$$
+</pre>
+
+
 De techniek is nuttig als:
 - De afgeleide van één van de factoren **eenvoudiger** is dan het origineel.
 - Of als één van de factoren **niet direct integreerbaar** is (zoals `ln(x)`).
