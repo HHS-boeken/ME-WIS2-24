@@ -242,7 +242,10 @@ Dus,
 ````{admonition} Oefening 3
 :class: important, dropdown
 
-
+Primitiveer:
+\begin{align*}
+    f(x) = \dfrac{1}{4}x^2\cos(x)
+\end{align*}
 
 
 ```{admonition} Uitwerking
@@ -250,7 +253,7 @@ Dus,
 
 Primitiveer:
 \begin{align*}
-    f(x) = \dfrac{1}{4}x^2cos(x)
+    f(x) = \dfrac{1}{4}x^2\cos(x)
 \end{align*}
 
 Dus, 
@@ -276,13 +279,13 @@ Bepaal de functie $v$:
 \begin{align*}
     dv &= \cos(x) \, dx  \\
     \dfrac{dv}{dx} &= \cos(x) \\
-    v &= sin(x)
+    v &= \sin(x)
 \end{align*}
 
 Toepassen van de regel voor partieel integreren geeft:
 \begin{align*}
    \int u \, dv &= uv - \int v \, du \\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int sin(x) \dfrac{1}{2}x \, dx\\
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int \sin(x) \dfrac{1}{2}x \, dx\\
      &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
 \end{align*}
 
@@ -332,7 +335,10 @@ Dus,
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-
+Primitiveer:
+\begin{align*}
+    f(x) = x^2 \ln^2(x)
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
