@@ -251,38 +251,38 @@ Bereken de onbepaalde integraal:
 \end{align*}
 
 Kies de functie $u(x)$:
-\begin{align*}
+\begin{align}
     u(x) = x^3
-\end{align*}
+\end{align}
 
 Differentieer de functie $u(x)$ en bepaal $du$:
-\begin{align*}
+\begin{align}
     \dfrac{du}{dx} &= 3x^2 \\
     du &= 3x^2 \, dx
-\end{align*}
+\end{align}
 
 In de originele functie staat $(x^2)$ dus:
-\begin{align*}
+\begin{align}
     \dfrac{1}{3}du &= x^2 \, dx
-\end{align*}
+\end{align}
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
-\begin{align*}
+\begin{align}
     &\int \sin(x^3) \cdot x^2  \, dx \\
     &= \int \sin(u) \, \dfrac{1}{3}du \\
     &= \dfrac{1}{3} \int \sin(u) \, du 
-\end{align*}
+\end{align}
 
 Integreren geeft:
-\begin{align*}
+\begin{align}
     &= \dfrac{1}{3} \cdot -\cos(u) + C \\
      &= -\dfrac{1}{3} \cos(u) + C \\
-\end{align*}
+\end{align}
 
 Terugsubstitueren geeft:
-\begin{align*}
+\begin{align}
     &= -\dfrac{1}{3} \cos(x^3) + C \\
-\end{align*}
+\end{align}
 
 ```
 ````
@@ -304,37 +304,37 @@ Bereken de onbepaalde integraal:
 \end{align*}
 
 Kies de functie $u(x)$:
-\begin{align*}
+\begin{align}
     u(x) = x^2 + 5
-\end{align*}
+\end{align}
 
 Differentieer de functie $u(x)$ en bepaal $du$:
-\begin{align*}
+\begin{align}
     \dfrac{du}{dx} &= 2x \\
     du &= 2x \, dx
-\end{align*}
+\end{align}
 
 In de originele functie staat $(x)$ dus:
-\begin{align*}
+\begin{align}
     \dfrac{1}{2}du &= x \, dx
-\end{align*}
+\end{align}
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
-\begin{align*}
+\begin{align}
     &\int \ln(x^2+5) \cdot  x \, dx \\
     &= \int \ln(u) \, \dfrac{1}{2}du \\
      &= \dfrac{1}{2} \int \ln(u) \, du \\
-\end{align*}
+\end{align}
 
 Integreren geeft:
-\begin{align*}
+\begin{align}
     &= \dfrac{1}{2} \cdot (u\ln(u) - u) + C
-\end{align*}
+\end{align}
 
 Terugsubstitueren geeft:
-\begin{align*}
+\begin{align}
     &= \dfrac{1}{2} ((x^2 + 5)\ln(x^2 + 5) - (x^2 + 5)) + C
-\end{align*}
+\end{align}
 
 ```
 ````

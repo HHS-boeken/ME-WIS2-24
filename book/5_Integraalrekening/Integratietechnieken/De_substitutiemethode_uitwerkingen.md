@@ -8,7 +8,7 @@
 :class: important, dropdown
 
 \begin{align*}
-     &= \dfrac{2}{3} \cdot \sqrt{1+y^2}(1+y^2) + C
+     \int \sqrt{5 + x^2} \cdot 2x \, dx &= \dfrac{2}{3} \cdot \sqrt{5+x^2}(5+x^2) + C
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -43,7 +43,7 @@ Integreren geeft:
     &= \dfrac{2}{3} \cdot u^{\frac{3}{2}} + C
 \end{align*}
 
-Terugsubstitueren geeft:
+Terug substitueren geeft:
 \begin{align*}
     &= \dfrac{2}{3} \cdot (5+x^2)^{\frac{3}{2}} + C \\
     &= \dfrac{2}{3} \cdot \sqrt{5+x^2}(5+x^2) + C
@@ -59,7 +59,7 @@ Terugsubstitueren geeft:
 :class: important, dropdown
 
 \begin{align*}
-     &= \dfrac{2}{3} \cdot \sqrt{1+y^2}(1+y^2) + C
+     \int \ln(x^2 + 4) \cdot 2x \, dx &= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -83,7 +83,7 @@ Differentieer de functie $u$ en bepaal $du$:
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align*}
-    &  \int \ln(x^2 + 4) \cdot 2x \, dx
+    &  \int \ln(x^2 + 4) \cdot 2x \, dx \\
     &=  \int \ln(u)  \, du
 \end{align*}
 
@@ -92,7 +92,7 @@ Integreren geeft:
     &= u \ln(u) - u + C
 \end{align*}
 
-Terugsubstitueren geeft:
+Terug substitueren geeft:
 \begin{align*}
     &= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
 \end{align*}
@@ -100,3 +100,288 @@ Terugsubstitueren geeft:
 ````
 
 <hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1c
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+\begin{align*}
+     \int \sin(x^2 + 2) \cdot 2x \, dx &= -\cos(x^2 + 2) + C
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int \sin(x^2 + 2) \cdot 2x \, dx
+\end{align*}
+
+Kies de functie $u$:
+\begin{align*}
+    u = x^2 + 2
+\end{align*}
+
+Differentieer de functie $u$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2x \\
+    du &= 2x \, dx
+\end{align*}
+
+Herschrijf de integraal door substitutie van $u$ en $du$:
+\begin{align*}
+    &  \int \sin(x^2 + 2) \cdot 2x \, dx \\
+    &=  \int \sin(u)  \, du
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= -\cos(u) + C
+\end{align*}
+
+Terug substitueren geeft:
+\begin{align*}
+    &= -\cos(x^2 + 2) + C
+\end{align*}
+```
+````
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1d
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+\begin{align*}
+     \int 2xe^{x^2} \, dx &= e^{x^2} + C
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int 2xe^{x^2} \, dx
+\end{align*}
+
+Kies de functie $u$:
+\begin{align*}
+    u = x^2
+\end{align*}
+
+Differentieer de functie $u$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2x \\
+    du &= 2x \, dx
+\end{align*}
+
+Herschrijf de integraal door substitutie van $u$ en $du$:
+\begin{align*}
+    &  \int 2x e^{x^2} \, dx \\
+    &=  \int e^u \, du
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= e^u + C
+\end{align*}
+
+Terug substitueren geeft:
+\begin{align*}
+    &= e^{x^2} + C
+\end{align*}
+```
+````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1e
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+\begin{align*}
+     \int 9x^2\cos(x^3 + 9) \, dx &= 3 \sin(x^3 + 9) + C
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int 9x^2\cos(x^3 + 9) \, dx
+\end{align*}
+
+Kies de functie $u$:
+\begin{align*}
+    u = x^3 + 9
+\end{align*}
+
+Differentieer de functie $u$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 3x^2 \\
+    du &= 3x^2 \, dx
+\end{align*}
+
+Herschrijf de integraal door substitutie van $u$ en $du$:
+\begin{align*}
+    \int 9x^2 \cos(x^3 + 9) \, dx &= \int 3 \cdot (3x^2 \cos(u)) \, dx \\
+    &= 3 \int \cos(u) \cdot 3x^2 \, dx \\
+    &= 3 \int \cos(u) \, du
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= 3 \sin(u) + C
+\end{align*}
+
+Terug substitueren geeft:
+\begin{align*}
+    &= 3 \sin(x^3 + 9) + C
+\end{align*}
+```
+````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1f
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+\begin{align*}
+     \int 6(3x - 4)^3 \, dx &= \dfrac{(3x - 4)^4}{2} + C
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int 6(3x - 4)^3 \, dx
+\end{align*}
+
+Kies de functie $u$:
+\begin{align*}
+    u = 3x - 4
+\end{align*}
+
+Differentieer de functie $u$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 3 \\
+    du &= 3 \, dx \Rightarrow dx = \dfrac{du}{3}
+\end{align*}
+
+Herschrijf de integraal door substitutie van $u$ en $dx$:
+\begin{align*}
+    \int 6(3x - 4)^3 \, dx &= \int 6u^3 \cdot \dfrac{du}{3} \\
+    &= 2 \int u^3 \, du
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= 2 \cdot \dfrac{u^4}{4} + C = \dfrac{u^4}{2} + C
+\end{align*}
+
+Terug substitueren geeft:
+\begin{align*}
+    &= \dfrac{(3x - 4)^4}{2} + C
+\end{align*}
+```
+````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1g
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+\begin{align*}
+     \int \dfrac{3\ln(x)}{x} \, dx &= \dfrac{3}{2} \ln^2(x) + C
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int \dfrac{3\ln(x)}{x} \, dx
+\end{align*}
+
+Factoriseer de constante:
+\begin{align*}
+   &= 3 \int \dfrac{\ln(x)}{x} \, dx
+\end{align*}
+
+Kies de functie $u$:
+\begin{align*}
+    u = \ln(x)
+\end{align*}
+
+Differentieer de functie $u$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{x} \\
+    du &= \dfrac{1}{x} \, dx \Rightarrow dx = x \, du
+\end{align*}
+
+Gebruik in plaats daarvan een bekende standaardintegraal:
+\begin{align*}
+    \int \dfrac{\ln(x)}{x} \, dx = \dfrac{1}{2} \ln^2(x) + C
+\end{align*}
+
+Dus:
+\begin{align*}
+    \int \dfrac{3\ln(x)}{x} \, dx &= 3 \cdot \dfrac{1}{2} \ln^2(x) + C = \dfrac{3}{2} \ln^2(x) + C
+\end{align*}
+```
+````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6.1.1h
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+\begin{align*}
+     \int 12x e^{2x^2} \, dx &= 3e^{2x^2} + C
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+   \int 12x e^{2x^2} \, dx
+\end{align*}
+
+Kies de functie $u$:
+\begin{align*}
+    u = 2x^2
+\end{align*}
+
+Differentieer de functie $u$ en bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 4x \\
+    du &= 4x \, dx \Rightarrow dx = \dfrac{du}{4x}
+\end{align*}
+
+Herschrijf de integraal met substitutie:
+\begin{align*}
+    \int 12x e^{2x^2} \, dx &= \int 3 \cdot 4x e^{u} \cdot \dfrac{du}{4x} \\
+    &= 3 \int e^u \, du
+\end{align*}
+
+Integreren geeft:
+\begin{align*}
+    &= 3e^u + C
+\end{align*}
+
+Terug substitueren geeft:
+\begin{align*}
+    &= 3e^{2x^2} + C
+\end{align*}
+```
+````
