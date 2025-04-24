@@ -270,12 +270,13 @@ Kies de functie $u$:
 Differentieer de functie $u$ en bepaal $du$:
 \begin{align*}
     \dfrac{du}{dx} &= 3 \\
-    du &= 3 \, dx \Rightarrow dx = \dfrac{du}{3}
+    du &= 3 \, dx
 \end{align*}
 
 Herschrijf de integraal door substitutie van $u$ en $dx$:
 \begin{align*}
-    \int 6(3x - 4)^3 \, dx &= \int 6u^3 \cdot \dfrac{du}{3} \\
+    \int 6(3x - 4)^3 \, dx &= \int 2 \cdot 3(3x - 4)^3 \, dx \\
+    &= 2 \int \cdot (3x - 4)^3 \cdot 3\, dx \\
     &= 2 \int u^3 \, du
 \end{align*}
 
@@ -310,11 +311,6 @@ Bereken de onbepaalde integraal:
    \int \dfrac{3\ln(x)}{x} \, dx
 \end{align*}
 
-Factoriseer de constante:
-\begin{align*}
-   &= 3 \int \dfrac{\ln(x)}{x} \, dx
-\end{align*}
-
 Kies de functie $u$:
 \begin{align*}
     u = \ln(x)
@@ -323,17 +319,25 @@ Kies de functie $u$:
 Differentieer de functie $u$ en bepaal $du$:
 \begin{align*}
     \dfrac{du}{dx} &= \dfrac{1}{x} \\
-    du &= \dfrac{1}{x} \, dx \Rightarrow dx = x \, du
+    du &= \dfrac{1}{x} du
 \end{align*}
 
-Gebruik in plaats daarvan een bekende standaardintegraal:
+
+Herschrijf de integraal met substitutie:
 \begin{align*}
-    \int \dfrac{\ln(x)}{x} \, dx = \dfrac{1}{2} \ln^2(x) + C
+    \int \dfrac{3\ln(x)}{x} \, dx &= \int 3 \cdot \dfrac{\ln(x)}{x} \, dx \\
+     &= \int 3 \cdot \ln(x) \cdot \dfrac{1}{x} \, dx \\
+     &= 3 \int u \, du
 \end{align*}
 
-Dus:
+Integreren geeft:
 \begin{align*}
-    \int \dfrac{3\ln(x)}{x} \, dx &= 3 \cdot \dfrac{1}{2} \ln^2(x) + C = \dfrac{3}{2} \ln^2(x) + C
+    &= 3 \cdot \dfrac{1}{2}u^2 + C
+\end{align*}
+
+Terug substitueren geeft:
+\begin{align*}
+   &=  \dfrac{3}{2} \ln^2(x) + C
 \end{align*}
 ```
 ````
@@ -365,12 +369,13 @@ Kies de functie $u$:
 Differentieer de functie $u$ en bepaal $du$:
 \begin{align*}
     \dfrac{du}{dx} &= 4x \\
-    du &= 4x \, dx \Rightarrow dx = \dfrac{du}{4x}
+    du &= 4x \, dx
 \end{align*}
 
 Herschrijf de integraal met substitutie:
 \begin{align*}
-    \int 12x e^{2x^2} \, dx &= \int 3 \cdot 4x e^{u} \cdot \dfrac{du}{4x} \\
+    \int 12x e^{2x^2} \, dx &= \int 3 \cdot 4xe^{2x^2} \, dx\\
+    &= \int 3 \cdot e^{2x^2} \cdot 4x \,  dx \\
     &= 3 \int e^u \, du
 \end{align*}
 
