@@ -90,8 +90,8 @@ parts:
 
       - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren.md
       - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_opgaven.md
-
-    #- file: Integraalrekening/Integratietechnieken/Breukensplitsen.md
+      
+      - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen.md
 
   - caption: Opgaven en Uitwerkingen lessen
     chapters:
