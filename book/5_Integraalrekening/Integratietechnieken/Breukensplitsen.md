@@ -233,3 +233,535 @@ Toepassen van de regel voor partieel integreren geeft:
 \end{align*}
 ```
 ````
+
+## 6.3.1 Noemer is lineair
+
+## 6.3.2 Noemer is kwadratisch ($b^2-4ac > 0$)
+
+````{admonition} Voorbeeld 1: 
+:class: dropdown
+
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{2x-1}{x^2+4x+3} \, dx
+\end{align*}
+
+De teller ontbinden in factoren:
+\begin{align*}
+    \int \dfrac{2x-1}{(x+1)(x+3)} \, dx
+\end{align*}
+\dfrac{2x-1}{(x+1)(x+3)} 
+    
+Toepassen van de regel voor breukensplitsen geeft:
+\begin{align*}
+    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ x + 3 } \\
+    &= \dfrac{ A(x + 3) }{ (x + 1) (x + 3) } + \dfrac{ B(x + 1) }{ (x + 1 ) (x + 3) } \\
+    &= \dfrac{ A(x + 3) + B(x + 1) }{ (x + 1) (x + 3) } \\
+    &= \dfrac{ Ax + 3A + Bx + 1B }{ (x + 1) (x + 3) } \\
+    &= \dfrac{ (A + B)x + 3A + 1B }{ (x + 1) (x + 3) } \\
+\end{align*}
+
+Gelijk stellen aan elkaar geeft:
+\begin{align}
+    \dfrac{2x-1}{(x+1)(x+3)} = \dfrac{ (A + B)x + 3A + 1B }{ (x + 1) (x + 3) } 
+\end{align}
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+\begin{align}
+   2x-1 = (A + B)x + 3A + 1B
+\end{align}
+
+Hieruit volgt:
+\begin{align*}
+   A+B &= 2 \\
+   3A + B &= -1
+\end{align*}
+
+Oplossen en substitueren geeft:
+\begin{align*}
+   A &= 2 -B \\
+   3(2-B) + B &= -1 \\
+   6-3B +B &= -1 \\
+   6-2B &= -1 \\
+   -2B &=-7 \\
+   B &= \dfrac{7}{2}
+\end{align*}
+
+B invullen geeft:
+\begin{align*}
+   A &= 2 -B \\
+   A &= 2 - \dfrac{7}{2} \\
+   A &= -\dfrac{3}{2}
+\end{align*}
+
+A en B invullen in de integraal en oplossen geeft:
+\begin{align*}
+   \int \dfrac{2x-1}{x^2+4x+3} \, dx & = \int \dfrac{2x-1}{(x+1)(x+3)} \, dx\\
+   &= \int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ x + 3 } \, dx\\
+   &= \int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ x + 3 } \, dx\\
+   &= \int \dfrac{ -\frac{3}{2} }{ x + 1 } \, dx + \int \dfrac{ \frac{7}{2} }{ x + 3 } \, dx\\
+   &= -\frac{3}{2} \int \dfrac{ 1 }{ x + 1 } \, dx + \frac{7}{2} \int \dfrac{ 1 }{ x + 3 } \, dx\\
+    &= -\frac{3}{2} \ln(x + 1 ) + \frac{7}{2} \ln( x + 3 ) + C\\
+\end{align*}
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+
+
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+
+```
+````
+
+## 6.3.3 Noemer is kwadratisch ($b^2-4ac = 0$)
+
+````{admonition} Voorbeeld 1: Partieel integreren
+:class: dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int (2x+3)\cos(x) \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= 2x+3 \\
+    dv &= \cos(x) \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2 \\
+    du &= 2 \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= \cos(x) \, dx  \\
+    \dfrac{dv}{dx} &= \cos(x) \\
+    v &= \sin(x)
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= (2x+3) \cdot \sin(x) - \int \sin(x) 2 \, dx\\
+    &= (2x+3) \cdot \sin(x) - 2 \int \sin(x) \, dx\\
+    &= (2x+3) \cdot \sin(x) + 2 \cos(x) + C
+\end{align*}
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= x \\
+    dv &= e^{2x} \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 1 \\
+    du &=  \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= e^{2x} \, dx  \\
+    \dfrac{dv}{dx} &= e^{2x} \\
+    v &= \dfrac{1}{2}e^{2x}
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \int \dfrac{1}{2}e^{2x} \, dx\\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \int e^{2x} \, dx\\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \cdot  \dfrac{1}{2}e^{2x} + C \\
+    &= \dfrac{1}{2}xe^{2x} - \dfrac{1}{4}e^{2x} + C \\
+\end{align*}
+
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+Dus,
+\begin{align*}
+    F(x) &=  \int (x^3\ln(x) + 3) \, dx \\
+    F(x) &= \int (x^3\ln(x)) \, dx + \int  (3) \, dx \\
+    F(x) &= \int (x^3\ln(x)) \, dx + 3x + C
+\end{align*}
+
+Voor het eerste gedeelte gebruik partieel integreren.
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \ln(x) \\
+    dv &= x^3 \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{x} \\
+    du &=  \dfrac{1}{x} \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= x^3 \, dx  \\
+    \dfrac{dv}{dx} &= x^3 \\
+    v &= \dfrac{1}{4}x^4
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^4 \dfrac{1}{x} \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^3 \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \int x^3 \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \cdot \dfrac{1}{4} x^4 + C \\
+    &= \dfrac{1}{4}x^4\ln(x) - \dfrac{1}{16} x^4 + C \\
+\end{align*}
+```
+````
+
+## 6.3.4 Noemer is kwadratisch ($b^2-4ac < 0$)
+
+````{admonition} Voorbeeld 1: Partieel integreren
+:class: dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int (2x+3)\cos(x) \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= 2x+3 \\
+    dv &= \cos(x) \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2 \\
+    du &= 2 \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= \cos(x) \, dx  \\
+    \dfrac{dv}{dx} &= \cos(x) \\
+    v &= \sin(x)
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= (2x+3) \cdot \sin(x) - \int \sin(x) 2 \, dx\\
+    &= (2x+3) \cdot \sin(x) - 2 \int \sin(x) \, dx\\
+    &= (2x+3) \cdot \sin(x) + 2 \cos(x) + C
+\end{align*}
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= x \\
+    dv &= e^{2x} \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 1 \\
+    du &=  \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= e^{2x} \, dx  \\
+    \dfrac{dv}{dx} &= e^{2x} \\
+    v &= \dfrac{1}{2}e^{2x}
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \int \dfrac{1}{2}e^{2x} \, dx\\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \int e^{2x} \, dx\\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \cdot  \dfrac{1}{2}e^{2x} + C \\
+    &= \dfrac{1}{2}xe^{2x} - \dfrac{1}{4}e^{2x} + C \\
+\end{align*}
+
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+Dus,
+\begin{align*}
+    F(x) &=  \int (x^3\ln(x) + 3) \, dx \\
+    F(x) &= \int (x^3\ln(x)) \, dx + \int  (3) \, dx \\
+    F(x) &= \int (x^3\ln(x)) \, dx + 3x + C
+\end{align*}
+
+Voor het eerste gedeelte gebruik partieel integreren.
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \ln(x) \\
+    dv &= x^3 \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{x} \\
+    du &=  \dfrac{1}{x} \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= x^3 \, dx  \\
+    \dfrac{dv}{dx} &= x^3 \\
+    v &= \dfrac{1}{4}x^4
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^4 \dfrac{1}{x} \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^3 \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \int x^3 \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \cdot \dfrac{1}{4} x^4 + C \\
+    &= \dfrac{1}{4}x^4\ln(x) - \dfrac{1}{16} x^4 + C \\
+\end{align*}
+```
+````
+
+## 6.3.5 Teller > Noemer 
+
+````{admonition} Voorbeeld 1: Partieel integreren
+:class: dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int (2x+3)\cos(x) \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= 2x+3 \\
+    dv &= \cos(x) \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 2 \\
+    du &= 2 \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= \cos(x) \, dx  \\
+    \dfrac{dv}{dx} &= \cos(x) \\
+    v &= \sin(x)
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= (2x+3) \cdot \sin(x) - \int \sin(x) 2 \, dx\\
+    &= (2x+3) \cdot \sin(x) - 2 \int \sin(x) \, dx\\
+    &= (2x+3) \cdot \sin(x) + 2 \cos(x) + C
+\end{align*}
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x \cdot e^{2x} \, dx
+\end{align*}
+
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= x \\
+    dv &= e^{2x} \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= 1 \\
+    du &=  \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= e^{2x} \, dx  \\
+    \dfrac{dv}{dx} &= e^{2x} \\
+    v &= \dfrac{1}{2}e^{2x}
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \int \dfrac{1}{2}e^{2x} \, dx\\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \int e^{2x} \, dx\\
+    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \cdot  \dfrac{1}{2}e^{2x} + C \\
+    &= \dfrac{1}{2}xe^{2x} - \dfrac{1}{4}e^{2x} + C \\
+\end{align*}
+
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Primitiveer:
+\begin{align*}
+    f(x) =  x^3\ln(x) + 3
+\end{align*}
+
+Dus,
+\begin{align*}
+    F(x) &=  \int (x^3\ln(x) + 3) \, dx \\
+    F(x) &= \int (x^3\ln(x)) \, dx + \int  (3) \, dx \\
+    F(x) &= \int (x^3\ln(x)) \, dx + 3x + C
+\end{align*}
+
+Voor het eerste gedeelte gebruik partieel integreren.
+Kies de functie $u$ en $dv$:
+\begin{align*}
+    u &= \ln(x) \\
+    dv &= x^3 \, dx
+\end{align*}
+
+Bepaal $du$:
+\begin{align*}
+    \dfrac{du}{dx} &= \dfrac{1}{x} \\
+    du &=  \dfrac{1}{x} \, dx \\
+\end{align*}
+
+Bepaal de functie $v$:
+\begin{align*}
+    dv &= x^3 \, dx  \\
+    \dfrac{dv}{dx} &= x^3 \\
+    v &= \dfrac{1}{4}x^4
+\end{align*}
+
+Toepassen van de regel voor partieel integreren geeft:
+\begin{align*}
+   \int u \, dv &= uv - \int v \, du \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^4 \dfrac{1}{x} \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^3 \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \int x^3 \, dx \\
+    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \cdot \dfrac{1}{4} x^4 + C \\
+    &= \dfrac{1}{4}x^4\ln(x) - \dfrac{1}{16} x^4 + C \\
+\end{align*}
+```
+````
