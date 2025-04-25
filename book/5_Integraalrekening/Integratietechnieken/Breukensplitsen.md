@@ -578,6 +578,29 @@ x
 ````{admonition} Voorbeeld 1: 
 :class: dropdown
 
+$$
+\begin{align*}
+ x^2 + 2x + 1 \quad / &x^4 \quad \quad \quad  + 1 \backslash \quad x^2 - 2x + 3\\
+&18x^4 + 2x^3 + 2x \\
+&--------- \quad -\\
+&\quad \quad \quad -2x^2 + 9x + 7\\
+&\quad \quad \quad 12x^2 + 6x \\
+&--------- \quad -\\
+&\quad \quad \quad \quad \quad \quad  3x + 7 \\
+&\quad \quad \quad \quad \quad \quad  3x + \frac{3}{2} \\
+&--------- \quad -\\
+&\quad \quad \quad \quad \quad \quad \quad \quad  \frac{11}{2} \\
+\end{align*}
+$$
+
+De rest is $\frac{11}{2}$, dus de uiteindelijke uitkomst is:
+
+$$
+\begin{align*}
+& 3x^2 + 2x + \frac{1}{2} + \dfrac{11}{2(6x + 3)} = \\
+& 3x^2 + 2x + \frac{1}{2} + \dfrac{11}{6(2x + 1)}
+\end{align*}
+$$
 
 ````
 
