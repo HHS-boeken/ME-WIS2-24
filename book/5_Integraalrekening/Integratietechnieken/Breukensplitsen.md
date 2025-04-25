@@ -413,60 +413,66 @@ A en B invullen in de integraal en oplossen geeft:
 ````{admonition} Oefening 1
 :class: important, dropdown
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{3x - 14}{x^2 - 8x + 16} \, dx   &= 3 \ln|x - 4 | + \frac{2}{ x - 4}  + C\\
+\end{align*}
 
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int \dfrac{2x + 5}{x^2 + 2x + 1} \, dx
+    \int \dfrac{3x - 14}{x^2 - 8x + 16} \, dx
 \end{align*}
 
 De teller ontbinden in factoren:
 \begin{align}
-    \int \dfrac{2x + 5}{(x + 1)(x + 1)} \, dx
+    \int \dfrac{3x - 14 }{(x - 4)(x - 4)} \, dx
 \end{align}
 
 Toepassen van de regel voor breukensplitsen geeft:
 \begin{align}
-    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \\
-    &= \dfrac{ A(x + 1) }{ (x + 1) (x + 1) } + \dfrac{ B }{ (x + 1 )^2 } \\
-    &= \dfrac{ A(x + 1) + B }{ (x + 1)^2 } \\
-    &= \dfrac{ Ax + A + B  }{ (x + 1)^2 } \\
-    &= \dfrac{ Ax + A + B }{ (x + 1)^2 } \\
+    &= \dfrac{ A }{ x - 4 } + \dfrac{ B }{ (x - 4)^2 } \\
+    &= \dfrac{ A(x - 4) }{ (x - 4) (x - 4) } + \dfrac{ B }{ (x - 4 )^2 } \\
+    &= \dfrac{ A(x - 4) + B }{ (x - 4)^2 } \\
+    &= \dfrac{ Ax - 4A + B  }{ (x - 4)^2 } \\
+    &= \dfrac{ Ax - 4A + B }{ (x - 4)^2 } \\
 \end{align}
 
 Gelijk stellen aan elkaar geeft:
 \begin{align}
-    \dfrac{2x + 5}{(x+1)^2} = \dfrac{ Ax + A + B }{ (x + 1)^2 } 
+    \dfrac{3x - 14}{(x - 4)^2} = \dfrac{ Ax - 4A + B }{ (x - 4)^2 } 
 \end{align}
 
 Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
 \begin{align}
-   2x  + 5 = Ax + A + B
+   3x  - 14 = Ax - 4A + B
 \end{align}
 
 Hieruit volgt:
 \begin{align}
-   A &= 2 \\
-   A + B &= 5
+   A &= 3 \\
+   -4A + B &= -14
 \end{align}
 
 Oplossen en substitueren geeft:
 \begin{align}
-   A &= 2\\
-   2 + B &= 5 \\
-   B &= 3
+   A &= 3\\
+   -4 \cdot 3 + B &= -14 \\
+   -12 + B &= -14 \\
+   B &= -2
 \end{align}
 
 A en B invullen in de integraal en oplossen geeft:
 \begin{align}
-   \int \dfrac{2x + 5}{x^2 + 2x + 1} \, dx & = \int \dfrac{2x + 5}{(x+1)(x+1)} \, dx\\
-   &= \int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \, dx\\
-   &= \int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ (x + 1)^2 } \, dx\\
-   &= \int \dfrac{ 2 }{ x + 1 } \, dx + \int \dfrac{ 3 }{ (x + 1)^2 } \, dx\\
-   &= 2 \int \dfrac{ 1 }{ x + 1 } \, dx + 3 \int \dfrac{ 1 }{ (x + 1)^2 } \, dx\\
-   &= 2 \ln|x + 1 | - \frac{3}{ x + 1}  + C\\
+   \int \dfrac{3x - 14}{x^2 - 8x + 16} \, dx & = \int \dfrac{3x - 14}{(x - 4)(x - 4)} \, dx\\
+   &= \int \dfrac{ A }{ x - 4 } + \dfrac{ B }{ (x - 4)^2 } \, dx\\
+   &= \int \dfrac{ A }{ x - 4 } \, dx + \int \dfrac{ B }{ (x - 4)^2 } \, dx\\
+   &= \int \dfrac{ 3 }{ x - 4 } \, dx + \int \dfrac{ -2 }{ (x - 4)^2 } \, dx\\
+   &= 3 \int \dfrac{ 1 }{ x - 4 } \, dx - 2 \int \dfrac{ 1 }{ (x - 4)^2 } \, dx\\
+   &= 3 \ln|x - 4 | + \frac{2}{ x - 4}  + C\\
 \end{align}
 ```
 ````
