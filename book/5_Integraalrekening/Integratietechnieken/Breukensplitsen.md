@@ -410,7 +410,7 @@ A en B invullen in de integraal en oplossen geeft:
 ````
 
 
-````{admonition} Oefening 1
+````{admonition} Oefening 3
 :class: important, dropdown
 
 Bepaal de onbepaalde integraal:
@@ -477,15 +477,65 @@ A en B invullen in de integraal en oplossen geeft:
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 4
 :class: important, dropdown
 
 
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{2x - 1}{x^2 + 4x + 4 } \, dx
+\end{align*}
 
-x
+De teller ontbinden in factoren:
+\begin{align}
+    \int \dfrac{2x - 1 }{(x + 2)(x + 2)} \, dx
+\end{align}
+
+Toepassen van de regel voor breukensplitsen geeft:
+\begin{align}
+    &= \dfrac{ A }{ x + 2 } + \dfrac{ B }{ (x + 2)^2 } \\
+    &= \dfrac{ A(x + 2) }{ (x + 2) (x + 2) } + \dfrac{ B }{ (x + 2 )^2 } \\
+    &= \dfrac{ A(x + 2) + B }{ (x + 2)^2 } \\
+    &= \dfrac{ Ax + 2A + B  }{ (x + 2)^2 } \\
+    &= \dfrac{ Ax + 2A + B }{ (x + 2)^2 } \\
+\end{align}
+
+Gelijk stellen aan elkaar geeft:
+\begin{align}
+    \dfrac{2x - 1 }{(x + 2)^2} = \dfrac{ Ax + 2A + B }{ (x + 2)^2 } 
+\end{align}
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+\begin{align}
+   2x  - 1 = Ax + 2A + B
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+   A &= 2 \\
+   2A + B &= -1
+\end{align}
+
+Oplossen en substitueren geeft:
+\begin{align}
+   A &= 2\\
+   2 \cdot 2 + B &= -1 \\
+   4 + B &= -1 \\
+   B &= -5
+\end{align}
+
+A en B invullen in de integraal en oplossen geeft:
+\begin{align}
+   \int \dfrac{2x - 1}{x^2 + 4x + 4} \, dx & = \int \dfrac{2x - 1}{(x + 2)(x + 2)} \, dx\\
+   &= \int \dfrac{ A }{ x + 2 } + \dfrac{ B }{ (x + 2)^2 } \, dx\\
+   &= \int \dfrac{ A }{ x + 2 } \, dx + \int \dfrac{ B }{ (x + 2)^2 } \, dx\\
+   &= \int \dfrac{ 2 }{ x + 2 } \, dx + \int \dfrac{ -5 }{ (x + 2)^2 } \, dx\\
+   &= 2 \int \dfrac{ 1 }{ x + 2 } \, dx - 5 \int \dfrac{ 1 }{ (x + 2)^2 } \, dx\\
+   &= 2 \ln|x + 2 | + \frac{5}{ x + 2}  + C\\
+\end{align}
 ```
 ````
 
