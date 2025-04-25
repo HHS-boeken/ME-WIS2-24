@@ -10,50 +10,68 @@
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bepaal de onbepaalde integraal:  
+### Opgave 1  
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{7x+1}{x^2-4} \, dx
+\end{align*}
+
+De teller ontbinden in factoren:
 \begin{align}
-\int \frac{7x + 1}{x^2 - 4} \, dx
+    \int \dfrac{7x+1}{(x-2)(x+2)} \, dx
 \end{align}
 
-De noemer ontbinden in factoren:  
+Toepassen van de regel voor breukensplitsen geeft:
 \begin{align}
-\int \frac{7x + 1}{(x - 2)(x + 2)} \, dx
+    &= \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 2 } \\
+    &= \dfrac{ A(x + 2) }{ (x - 2 ) (x + 2) } + \dfrac{ B(x - 2) }{ (x - 2 ) (x + 2) } \\
+    &= \dfrac{ A(x + 2) + B(x - 2) }{ (x - 2) (x + 2) } \\
+    &= \dfrac{ Ax + 2A + Bx - 2B }{ (x - 2) (x + 2) } \\
+    &= \dfrac{ (A + B)x + 2A - 2B }{ (x - 2) (x + 2) } \\
 \end{align}
 
-Toepassen van de regel voor breukensplitsen geeft:  
+Gelijk stellen aan elkaar geeft:
 \begin{align}
-= \frac{A}{x - 2} + \frac{B}{x + 2}
-\end{align}
-\begin{align}
-= \frac{A(x + 2) + B(x - 2)}{(x - 2)(x + 2)}
-\end{align}
-\begin{align}
-= \frac{(A + B)x + (2A - 2B)}{(x - 2)(x + 2)}
+    \dfrac{7x + 1}{(x-2)(x+2)} = \dfrac{ (A + B)x + 2A - 2B }{ (x - 2) (x + 2) } 
 \end{align}
 
-Gelijkstellen van tellers:  
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
 \begin{align}
-7x + 1 = (A + B)x + (2A - 2B)
+   7x+1 = (A + B)x + 2A - 2B
 \end{align}
 
-Stelsel opstellen:  
+Hieruit volgt:
 \begin{align}
-A + B = 7 \\
-2A - 2B = 1
+   A+B &= 7 \\
+   2A - 2B &= 1
 \end{align}
 
-Oplossen:  
+Oplossen en substitueren geeft:
 \begin{align}
-A = 4, \quad B = 3
+   A &= 7 - B \\
+   2(7-B) - 2B &= 1 \\
+   14 - 2B - 2B &= 1 \\
+   -4B &= -13 \\
+   B &= \dfrac{13}{4}
 \end{align}
 
-Substitueren:  
+B invullen geeft:
 \begin{align}
-\int \frac{7x + 1}{x^2 - 4} \, dx = \int \frac{4}{x - 2} \, dx + \int \frac{3}{x + 2} \, dx
+   A &= 7 - \dfrac{13}{4} \\
+   A &= \dfrac{28}{4} - \dfrac{13}{4} \\
+   A &= \dfrac{15}{4}
 \end{align}
+
+A en B invullen in de integraal en oplossen geeft:
 \begin{align}
-= 4 \ln|x - 2| + 3 \ln|x + 2| + C
+   \int \dfrac{7x+1}{x^2-4} \, dx & = \int \dfrac{7x+1}{(x-2)(x+2)} \, dx\\
+   &= \int \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 2 } \, dx\\
+   &= \int \dfrac{ A }{ x - 2 } \, dx + \int \dfrac{ B }{ x + 2 } \, dx\\
+   &= \int \dfrac{ 15/4 }{ x - 2 } \, dx + \int \dfrac{ 13/4 }{ x + 2 } \, dx\\
+   &= \dfrac{15}{4} \int \dfrac{ 1 }{ x - 2 } \, dx + \dfrac{13}{4} \int \dfrac{ 1 }{ x + 2 } \, dx\\
+   &= \dfrac{15}{4} \ln|x - 2 | + \dfrac{13}{4} \ln| x + 2| + C\\
 \end{align}
+
 ```
 ````
 
