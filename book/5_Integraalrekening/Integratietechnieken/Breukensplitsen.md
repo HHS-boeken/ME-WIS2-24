@@ -353,11 +353,62 @@ A en B invullen in de integraal en oplossen geeft:
 
 ## 6.3.3 Noemer is kwadratisch ($b^2-4ac = 0$)
 
-````{admonition} Voorbeeld 1: Partieel integreren
+````{admonition} Voorbeeld 1: 
 :class: dropdown
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{2x + 5}{x^2 + 2x + 1} \, dx
+\end{align*}
 
+De teller ontbinden in factoren:
+\begin{align*}
+    \int \dfrac{2x + 5}{(x + 1)(x + 1)} \, dx
+\end{align*}
+
+Toepassen van de regel voor breukensplitsen geeft:
+\begin{align*}
+    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \\
+    &= \dfrac{ A(x + 1) }{ (x + 1) (x + 1) } + \dfrac{ B }{ (x + 1 )^2 } \\
+    &= \dfrac{ A(x + 1) + B }{ (x + 1)^2 } \\
+    &= \dfrac{ Ax + A + B  }{ (x + 1)^2 } \\
+    &= \dfrac{ Ax + A + B }{ (x + 1)^2 } \\
+\end{align*}
+
+Gelijk stellen aan elkaar geeft:
+\begin{align}
+    \dfrac{2x + 5}{(x+1)^2} = \dfrac{ Ax + A + B }{ (x + 1)^2 } 
+\end{align}
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+\begin{align}
+   2x  + 5 = Ax + A + B
+\end{align}
+
+Hieruit volgt:
+\begin{align*}
+   A &= 2 \\
+   A + B &= 5
+\end{align*}
+
+Oplossen en substitueren geeft:
+\begin{align*}
+   A &= 2\\
+   2 + B &= 5 \\
+   B &= 3
+\end{align*}
+
+A en B invullen in de integraal en oplossen geeft:
+\begin{align*}
+   \int \dfrac{2x-1}{x^2+4x+3} \, dx & = \int \dfrac{2x-1}{(x+1)(x+3)} \, dx\\
+   &= \int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \, dx\\
+   &= \int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ (x + 1)^2 } \, dx\\
+   &= \int \dfrac{ -\frac{3}{2} }{ x + 1 } \, dx + \int \dfrac{ \frac{7}{2} }{ x + 3 } \, dx\\
+   &= -\frac{3}{2} \int \dfrac{ 1 }{ x + 1 } \, dx + \frac{7}{2} \int \dfrac{ 1 }{ x + 3 } \, dx\\
+   &= -\frac{3}{2} \ln|x + 1 | + \frac{7}{2} \ln| x + 3 | + C\\
+\end{align*}
 ````
+
 
 ````{admonition} Oefening 1
 :class: important, dropdown
