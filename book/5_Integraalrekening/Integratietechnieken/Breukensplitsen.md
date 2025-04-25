@@ -353,7 +353,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 ## 6.3.3 Noemer is kwadratisch ($b^2-4ac = 0$)
 
-````{admonition} Voorbeeld 1: 
+````{admonition} Voorbeeld 2: 
 :class: dropdown
 
 Bepaal de onbepaalde integraal:
@@ -480,7 +480,10 @@ A en B invullen in de integraal en oplossen geeft:
 ````{admonition} Oefening 4
 :class: important, dropdown
 
-
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{2x - 1}{x^2 + 4x + 4 } \, dx &= 2 \ln|x + 2 | + \frac{5}{ x + 2}  + C\\
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
