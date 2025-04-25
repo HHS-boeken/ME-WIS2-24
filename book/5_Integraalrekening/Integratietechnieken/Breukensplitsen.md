@@ -1,6 +1,6 @@
 # 6.3 Breukensplitsen
 
-````{admonition} Theorie: Partieel Integreren
+````{admonition} Theorie: Breukensplitsen
 :class: tip, dropdown open
 
 # 🧠 Wanneer gebruik je breuksplitsen?
@@ -200,7 +200,7 @@ A en B invullen in de integraal en oplossen geeft:
    &= \int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ x + 3 } \, dx\\
    &= \int \dfrac{ -\frac{3}{2} }{ x + 1 } \, dx + \int \dfrac{ \frac{7}{2} }{ x + 3 } \, dx\\
    &= -\frac{3}{2} \int \dfrac{ 1 }{ x + 1 } \, dx + \frac{7}{2} \int \dfrac{ 1 }{ x + 3 } \, dx\\
-    &= -\frac{3}{2} \ln|x + 1 | + \frac{7}{2} \ln| x + 3 | + C\\
+   &= -\frac{3}{2} \ln|x + 1 | + \frac{7}{2} \ln| x + 3 | + C\\
 \end{align*}
 ````
 
@@ -209,7 +209,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-     \int \dfrac{9x+7}{x^2+x-6} \, dx = &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
+     \int \dfrac{9x+7}{x^2+x-6} \, dx &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -273,7 +273,7 @@ A en B invullen in de integraal en oplossen geeft:
    &= \int \dfrac{ A }{ x + 3 } \, dx + \int \dfrac{ B }{ x - 2 } \, dx\\
    &= \int \dfrac{ 4 }{ x + 3 } \, dx + \int \dfrac{ 5 }{ x - 2 } \, dx\\
    &= 4 \int \dfrac{ 1 }{ x + 3 } \, dx + 5 \int \dfrac{ 1 }{ x - 2 } \, dx\\
-    &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
+   &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
 \end{align}
 ```
 ````
@@ -283,7 +283,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-     \int \dfrac{-6x+14}{x^2+2x-3} \, dx = &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
+     \int \dfrac{-6x+14}{x^2+2x-3} \, dx &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\\\
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -346,7 +346,7 @@ A en B invullen in de integraal en oplossen geeft:
    &= \int \dfrac{ A }{ x + 3 } \, dx + \int \dfrac{ B }{ x - 1 } \, dx\\
    &= \int \dfrac{ -8 }{ x + 3 } \, dx + \int \dfrac{ 2 }{ x - 1 } \, dx\\
    &= -8 \int \dfrac{ 1 }{ x + 3 } \, dx + 2 \int \dfrac{ 1 }{ x - 1 } \, dx\\
-    &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\
+   &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\
 \end{align}
 ```
 ````
