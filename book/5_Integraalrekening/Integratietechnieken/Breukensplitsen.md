@@ -584,7 +584,7 @@ Slaan we dit jaar `2024-2025` over.
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int \int \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
+    \int  \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
 \end{align*}
 
 De teller is groter dan de noemer, dus staartdeling maken.
@@ -666,6 +666,10 @@ A en B invullen in de integraal en oplossen geeft:
 ````{admonition} Oefening 7
 :class: important, dropdown
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx &= \dfrac{1}{3}x^3 - 2x^2 + 13x + \frac{1}{2}  \ln|x + 1 | - 40\frac{1}{2}  \ln|x + 3 |  + C\\
+\end{align*}
 
 
 ```{admonition} Uitwerking
@@ -673,9 +677,10 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx
+    \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx
 \end{align*}
 
+De teller is groter dan de noemer, dus staartdeling maken.
 
 \begin{align}
  x^2 + 4x + 3 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad  \backslash \quad x^2 - 4x + 13\\
