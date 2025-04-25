@@ -200,7 +200,7 @@ A en B invullen in de integraal en oplossen geeft:
    &= \int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ x + 3 } \, dx\\
    &= \int \dfrac{ -\frac{3}{2} }{ x + 1 } \, dx + \int \dfrac{ \frac{7}{2} }{ x + 3 } \, dx\\
    &= -\frac{3}{2} \int \dfrac{ 1 }{ x + 1 } \, dx + \frac{7}{2} \int \dfrac{ 1 }{ x + 3 } \, dx\\
-    &= -\frac{3}{2} \ln(x + 1 ) + \frac{7}{2} \ln( x + 3 ) + C\\
+    &= -\frac{3}{2} \ln|x + 1 | + \frac{7}{2} \ln| x + 3 | + C\\
 \end{align*}
 ````
 
