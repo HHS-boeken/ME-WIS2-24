@@ -582,29 +582,90 @@ Slaan we dit jaar `2024-2025` over.
 ````{admonition} Voorbeeld 4: 
 :class: dropdown
 
-$$
+Bepaal de onbepaalde integraal:
 \begin{align*}
- x^2 + 2x + 1 \quad / &x^4 \quad \quad \quad  + 1 \backslash \quad x^2 - 2x + 3\\
-&18x^4 + 2x^3 + 2x \\
-&--------- \quad -\\
-&\quad \quad \quad -2x^2 + 9x + 7\\
-&\quad \quad \quad 12x^2 + 6x \\
-&--------- \quad -\\
-&\quad \quad \quad \quad \quad \quad  3x + 7 \\
-&\quad \quad \quad \quad \quad \quad  3x + \frac{3}{2} \\
-&--------- \quad -\\
-&\quad \quad \quad \quad \quad \quad \quad \quad  \frac{11}{2} \\
+    \int \int \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
 \end{align*}
-$$
-
-De rest is $\frac{11}{2}$, dus de uiteindelijke uitkomst is:
 
 $$
 \begin{align*}
-& 3x^2 + 2x + \frac{1}{2} + \dfrac{11}{2(6x + 3)} = \\
-& 3x^2 + 2x + \frac{1}{2} + \dfrac{11}{6(2x + 1)}
+ x^2 + 2x + 1 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad + 1 \backslash \quad x^2 - 2x + 3\\
+&x^4 + 2x^3 + x^2 \\
+&------------- \quad -\\
+&\quad \quad -2x^3 - x^2 + 2x + 1\\
+&\quad \quad -2x^3 - 4x^2 - 2x \\
+&------------- \quad -\\
+&\quad \quad \quad \quad \quad \quad  3x^2 + 2x + 1 \\
+&\quad \quad \quad \quad \quad \quad  3x^2 + 6x + 3 \\
+&------------- \quad -\\
+&\quad \quad \quad \quad \quad \quad \quad \quad  -4x - 2 \\
 \end{align*}
 $$
+
+De rest is $-4x-2$, dus de uiteindelijke uitkomst is:
+\begin{align*}
+& x^2 - 2x + 3 + \dfrac{-4x-2}{x^2+2x+1} = \\
+& x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \\
+\end{align*}
+
+Dit geeft:
+
+$$
+\begin{align*}
+ \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &=  \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
+\end{align*}
+$$
+
+
+
+De teller ontbinden in factoren:
+\begin{align}
+    \int \dfrac{4x + 2}{(x + 1)(x + 1)} \, dx
+\end{align}
+
+Toepassen van de regel voor breukensplitsen geeft:
+\begin{align}
+    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \\
+    &= \dfrac{ A(x + 1) }{ (x + 1) (x + 1) } + \dfrac{ B }{ (x + 1 )^2 } \\
+    &= \dfrac{ A(x + 1) + B }{ (x + 1)^2 } \\
+    &= \dfrac{ Ax + A + B  }{ (x + 1)^2 } \\
+    &= \dfrac{ Ax + A + B }{ (x + 1)^2 } \\
+\end{align}
+
+Gelijk stellen aan elkaar geeft:
+\begin{align}
+    \dfrac{4x + 2}{(x+1)^2} = \dfrac{ Ax + A + B }{ (x + 1)^2 } 
+\end{align}
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+\begin{align}
+   4x  + 2 = Ax + A + B
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+   A &= 4 \\
+   A + B &= 2
+\end{align}
+
+Oplossen en substitueren geeft:
+\begin{align}
+   A &= 4\\
+   4 + B &= 2 \\
+   B &= -2
+\end{align}
+
+A en B invullen in de integraal en oplossen geeft:
+\begin{align}
+   \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &= \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
+   &= \int x^2 - 2x + 3 - \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx - \int \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ (x + 1)^2 } \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ 4 }{ x + 1 } \, dx + \int \dfrac{ 2 }{ (x + 1)^2 } \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx - 4 \int \dfrac{ 1 }{ x + 1 } \, dx - 2 \int \dfrac{ 1 }{ (x + 1)^2 } \, dx\\
+   &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
+\end{align}
 
 ````
 
@@ -615,8 +676,89 @@ $$
 
 ```{admonition} Uitwerking
 :class: important, dropdown
-x
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx
+\end{align*}
 
+$$
+\begin{align*}
+ x^2 + 4x + 3 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad + 1 \backslash \quad x^2 - 4x + 13\\
+&x^4 + 2x^3 + x^2 \\
+&------------- \quad -\\
+&\quad \quad -2x^3 - x^2 + 2x + 1\\
+&\quad \quad -2x^3 - 4x^2 - 2x \\
+&------------- \quad -\\
+&\quad \quad \quad \quad \quad \quad  3x^2 + 2x + 1 \\
+&\quad \quad \quad \quad \quad \quad  3x^2 + 6x + 3 \\
+&------------- \quad -\\
+&\quad \quad \quad \quad \quad \quad \quad \quad  -4x - 2 \\
+\end{align*}
+$$
+
+De rest is $-4x-2$, dus de uiteindelijke uitkomst is:
+\begin{align*}
+& x^2 - 2x + 3 + \dfrac{-4x-2}{x^2+2x+1} = \\
+& x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \\
+\end{align*}
+
+Dit geeft:
+
+$$
+\begin{align*}
+ \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &=  \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
+\end{align*}
+$$
+
+
+De teller ontbinden in factoren:
+\begin{align}
+    \int \dfrac{4x + 2}{(x + 1)(x + 1)} \, dx
+\end{align}
+
+Toepassen van de regel voor breukensplitsen geeft:
+\begin{align}
+    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \\
+    &= \dfrac{ A(x + 1) }{ (x + 1) (x + 1) } + \dfrac{ B }{ (x + 1 )^2 } \\
+    &= \dfrac{ A(x + 1) + B }{ (x + 1)^2 } \\
+    &= \dfrac{ Ax + A + B  }{ (x + 1)^2 } \\
+    &= \dfrac{ Ax + A + B }{ (x + 1)^2 } \\
+\end{align}
+
+Gelijk stellen aan elkaar geeft:
+\begin{align}
+    \dfrac{4x + 2}{(x+1)^2} = \dfrac{ Ax + A + B }{ (x + 1)^2 } 
+\end{align}
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+\begin{align}
+   4x  + 2 = Ax + A + B
+\end{align}
+
+Hieruit volgt:
+\begin{align}
+   A &= 4 \\
+   A + B &= 2
+\end{align}
+
+Oplossen en substitueren geeft:
+\begin{align}
+   A &= 4\\
+   4 + B &= 2 \\
+   B &= -2
+\end{align}
+
+A en B invullen in de integraal en oplossen geeft:
+\begin{align}
+   \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &= \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
+   &= \int x^2 - 2x + 3 - \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx - \int \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ (x + 1)^2 } \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ 4 }{ x + 1 } \, dx + \int \dfrac{ 2 }{ (x + 1)^2 } \, dx\\
+   &= \int (x^2 - 2x + 3) \, dx - 4 \int \dfrac{ 1 }{ x + 1 } \, dx - 2 \int \dfrac{ 1 }{ (x + 1)^2 } \, dx\\
+   &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
+\end{align}
 ```
 ````
 
