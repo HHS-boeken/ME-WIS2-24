@@ -551,7 +551,7 @@ Slaan we dit jaar `2024-2025` over.
 
 ````
 
-````{admonition} Oefening 7
+````{admonition} Oefening 5
 :class: important, dropdown
 
 Slaan we dit jaar (2024-2025) over.
@@ -564,7 +564,7 @@ Slaan we dit jaar `2024-2025` over.
 ```
 ````
 
-````{admonition} Oefening 8
+````{admonition} Oefening 6
 :class: important, dropdown
 
 Slaan we dit jaar `2024-2025` over.
@@ -579,7 +579,7 @@ Slaan we dit jaar `2024-2025` over.
 
 ## 6.3.5 Teller > Noemer 
 
-````{admonition} Voorbeeld 1: 
+````{admonition} Voorbeeld 5: 
 :class: dropdown
 
 $$
@@ -608,7 +608,7 @@ $$
 
 ````
 
-````{admonition} Oefening 1
+````{admonition} Oefening 7
 :class: important, dropdown
 
 
@@ -620,7 +620,7 @@ x
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 8
 :class: important, dropdown
 
 
