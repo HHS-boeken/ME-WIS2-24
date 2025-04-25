@@ -209,7 +209,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-     \int \dfrac{9x+7}{x^2+x-6} \, dx &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
+     \int \dfrac{9x+7}{x^2+x-6} \, dx
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -283,7 +283,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bereken de onbepaalde integraal:
 \begin{align*}
-     \int \dfrac{-6x+14}{x^2+2x-3} \, dx &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\\\
+     \int \dfrac{-6x+14}{x^2+2x-3} \, dx
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -415,7 +415,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int \dfrac{3x - 14}{x^2 - 8x + 16} \, dx   &= 3 \ln|x - 4 | + \frac{2}{ x - 4}  + C\\
+    \int \dfrac{3x - 14}{x^2 - 8x + 16} \, dx
 \end{align*}
 
 
@@ -482,7 +482,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int \dfrac{2x - 1}{x^2 + 4x + 4 } \, dx &= 2 \ln|x + 2 | + \frac{5}{ x + 2}  + C\\
+    \int \dfrac{2x - 1}{x^2 + 4x + 4 } \, dx
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -668,7 +668,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx &= \dfrac{1}{3}x^3 - 2x^2 + 13x + \frac{1}{2}  \ln|x + 1 | - 40\frac{1}{2}  \ln|x + 3 |  + C\\
+    \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx
 \end{align*}
 
 
