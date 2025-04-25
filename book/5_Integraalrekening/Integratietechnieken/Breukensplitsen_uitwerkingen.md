@@ -7,6 +7,11 @@
 ````{admonition} Antwoord
 :class: important, dropdown
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{7x+1}{x^2-4} \, dx &= \dfrac{15}{4} \ln|x - 2 | + \dfrac{13}{4} \ln| x + 2| + C\\
+\end{align*}
+
 ```{admonition} Uitwerking
 :class: important, dropdown
 
@@ -81,6 +86,11 @@ A en B invullen in de integraal en oplossen geeft:
 ````{admonition} Antwoord
 :class: important, dropdown
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{5x - 2}{x^2 + x - 12} \, dx &= \dfrac{13}{7} \ln|x - 3 | + \dfrac{22}{7} \ln| x + 4| + C\\
+\end{align*}
+
 ```{admonition} Uitwerking
 :class: important, dropdown
 
@@ -154,6 +164,11 @@ A en B invullen in de integraal en oplossen geeft:
 ````{admonition} Antwoord
 :class: important, dropdown
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{8x + 11}{x^2 - 5x + 6} \, dx &= -27 \ln|x - 2 | + 35 \ln| x - 3| + C\\
+\end{align*}
+
 ```{admonition} Uitwerking
 :class: important, dropdown
 
@@ -224,6 +239,11 @@ A en B invullen in de integraal en oplossen geeft:
 
 ````{admonition} Antwoord
 :class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{6x + 13}{x^2 + 2x - 15} \, dx &= \dfrac{17}{8} \ln|x + 5 | + \dfrac{31}{8} \ln| x - 3| + C\\
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
@@ -297,6 +317,11 @@ A en B invullen in de integraal en oplossen geeft:
 
 ````{admonition} Antwoord
 :class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int \dfrac{10x + 19}{x^2 + 3x - 10} \, dx &= \dfrac{31}{7} \ln|x + 5 | + \dfrac{39}{7} \ln| x - 2| + C\\
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
