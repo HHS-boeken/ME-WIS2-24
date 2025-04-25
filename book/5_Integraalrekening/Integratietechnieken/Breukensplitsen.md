@@ -150,8 +150,7 @@ De teller ontbinden in factoren:
 \begin{align*}
     \int \dfrac{2x-1}{(x+1)(x+3)} \, dx
 \end{align*}
-\dfrac{2x-1}{(x+1)(x+3)} 
-    
+
 Toepassen van de regel voor breukensplitsen geeft:
 \begin{align*}
     &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ x + 3 } \\
@@ -216,9 +215,65 @@ Bereken de onbepaalde integraal:
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Bereken de onbepaalde integraal:
+Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int x \cdot e^{2x} \, dx
+    \int \dfrac{9x+7}{x^2+x-6} \, dx
+\end{align*}
+
+De teller ontbinden in factoren:
+\begin{align}
+    \int \dfrac{9x+7}{(x+3)(x-2)} \, dx
+\end{align}
+    
+Toepassen van de regel voor breukensplitsen geeft:
+\begin{align}
+    &= \dfrac{ A }{ x + 3 } + \dfrac{ B }{ x - 2 } \\
+    &= \dfrac{ A(x - 2) }{ (x + 3 ) (x - 2) } + \dfrac{ B(x + 3) }{ (x + 3 ) (x - 2) } \\
+    &= \dfrac{ A(x - 2) + B(x + 3) }{ (x + 3) (x - 2) } \\
+    &= \dfrac{ Ax - 2A + Bx + 3B }{ (x + 3) (x - 2) } \\
+    &= \dfrac{ (A + B)x -2A + 3B }{ (x + 3) (x - 2) } \\
+\end{align}
+
+Gelijk stellen aan elkaar geeft:
+\begin{align}
+    \dfrac{9x + 7}{(x+3)(x-2)} = \dfrac{ (A + B)x - 2A + 3B }{ (x + 3) (x - 2) } 
+\end{align}
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+\begin{align}
+   9x+7 = (A + B)x - 2A + 3B
+\end{align}
+
+Hieruit volgt:
+\begin{align*}
+   A+B &= 9 \\
+   -2A + 3B &= 7
+\end{align*}
+
+Oplossen en substitueren geeft:
+\begin{align*}
+   A &= 9 - B \\
+   -2(9-B) + 3B &= 7 \\
+   -18 + 2B + 3B &= 7 \\
+   5B &= 25 \\
+   B &= 5
+\end{align*}
+
+B invullen geeft:
+\begin{align*}
+   A &= 9 - B \\
+   A &= 9 - 5 \\
+   A &= 4
+\end{align*}
+
+A en B invullen in de integraal en oplossen geeft:
+\begin{align*}
+   \int \dfrac{2x-1}{x^2+4x+3} \, dx & = \int \dfrac{2x-1}{(x+1)(x+3)} \, dx\\
+   &= \int \dfrac{ A }{ x + 3 } + \dfrac{ B }{ x - 2 } \, dx\\
+   &= \int \dfrac{ A }{ x + 3 } \, dx + \int \dfrac{ B }{ x - 2 } \, dx\\
+   &= \int \dfrac{ 4 }{ x + 3 } \, dx + \int \dfrac{ 5 }{ x - 2 } \, dx\\
+   &= 4 \int \dfrac{ 1 }{ x + 3 } \, dx + 5 \int \dfrac{ 1 }{ x - 2 } \, dx\\
+    &= 4 \ln|x + 3 | + 5 \ln| x - 2| + C\\
 \end{align*}
 
 
