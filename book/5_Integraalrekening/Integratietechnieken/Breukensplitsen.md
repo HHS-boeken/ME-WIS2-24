@@ -587,8 +587,9 @@ Bepaal de onbepaalde integraal:
     \int \int \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
 \end{align*}
 
-$$
-\begin{align*}
+De teller is groter dan de noemer, dus staartdeling maken.
+
+\begin{align}
  x^2 + 2x + 1 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad + 1 \backslash \quad x^2 - 2x + 3\\
 &x^4 + 2x^3 + x^2 \\
 &------------- \quad -\\
@@ -599,24 +600,18 @@ $$
 &\quad \quad \quad \quad \quad \quad  3x^2 + 6x + 3 \\
 &------------- \quad -\\
 &\quad \quad \quad \quad \quad \quad \quad \quad  -4x - 2 \\
-\end{align*}
-$$
+\end{align}
 
 De rest is $-4x-2$, dus de uiteindelijke uitkomst is:
-\begin{align*}
+\begin{align}
 & x^2 - 2x + 3 + \dfrac{-4x-2}{x^2+2x+1} = \\
 & x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \\
-\end{align*}
+\end{align}
 
 Dit geeft:
-
-$$
-\begin{align*}
+\begin{align}
  \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &=  \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
-\end{align*}
-$$
-
-
+\end{align}
 
 De teller ontbinden in factoren:
 \begin{align}
@@ -666,7 +661,6 @@ A en B invullen in de integraal en oplossen geeft:
    &= \int (x^2 - 2x + 3) \, dx - 4 \int \dfrac{ 1 }{ x + 1 } \, dx - 2 \int \dfrac{ 1 }{ (x + 1)^2 } \, dx\\
    &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
 \end{align}
-
 ````
 
 ````{admonition} Oefening 7
@@ -676,88 +670,93 @@ A en B invullen in de integraal en oplossen geeft:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+
 Bepaal de onbepaalde integraal:
 \begin{align*}
     \int \int \dfrac{x^4 }{x^2 + 4x + 3}  \, dx
 \end{align*}
 
-$$
-\begin{align*}
- x^2 + 4x + 3 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad + 1 \backslash \quad x^2 - 4x + 13\\
-&x^4 + 2x^3 + x^2 \\
-&------------- \quad -\\
-&\quad \quad -2x^3 - x^2 + 2x + 1\\
-&\quad \quad -2x^3 - 4x^2 - 2x \\
-&------------- \quad -\\
-&\quad \quad \quad \quad \quad \quad  3x^2 + 2x + 1 \\
-&\quad \quad \quad \quad \quad \quad  3x^2 + 6x + 3 \\
-&------------- \quad -\\
-&\quad \quad \quad \quad \quad \quad \quad \quad  -4x - 2 \\
-\end{align*}
-$$
 
-De rest is $-4x-2$, dus de uiteindelijke uitkomst is:
-\begin{align*}
-& x^2 - 2x + 3 + \dfrac{-4x-2}{x^2+2x+1} = \\
-& x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \\
-\end{align*}
+\begin{align}
+ x^2 + 4x + 3 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad  \backslash \quad x^2 - 4x + 13\\
+&x^4 + 4x^3 + 3x^2 \\
+&------------- \quad -\\
+&\quad \quad -4x^3 - 3x^2 \\
+&\quad \quad -4x^3 - 16x^2 - 12x \\
+&------------- \quad -\\
+&\quad \quad \quad \quad \quad \quad  13x^2 + 12x \\
+&\quad \quad \quad \quad \quad \quad  13x^2 + 52x + 39 \\
+&------------- \quad -\\
+&\quad \quad \quad \quad \quad \quad \quad \quad  -40x - 39 \\
+\end{align}
+
+De rest is $-40x-39$, dus de uiteindelijke uitkomst is:
+\begin{align}
+& x^2 - 4x + 13 + \dfrac{-40x-39}{x^2 + 4x + 3} = \\
+& x^2 - 4x + 13 - \dfrac{40x + 39 }{x^2 + 4x + 3} \\
+\end{align}
 
 Dit geeft:
-
-$$
-\begin{align*}
- \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &=  \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
-\end{align*}
-$$
-
+\begin{align}
+ \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &=  \int x^2 - 4x + 13 - \dfrac{40x + 39 }{x^2 + 4x + 3}  \, dx \\
+\end{align}
 
 De teller ontbinden in factoren:
 \begin{align}
-    \int \dfrac{4x + 2}{(x + 1)(x + 1)} \, dx
+    \int \dfrac{40x + 39 }{x^2 + 4x + 3}  \, dx
 \end{align}
 
 Toepassen van de regel voor breukensplitsen geeft:
 \begin{align}
-    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \\
-    &= \dfrac{ A(x + 1) }{ (x + 1) (x + 1) } + \dfrac{ B }{ (x + 1 )^2 } \\
-    &= \dfrac{ A(x + 1) + B }{ (x + 1)^2 } \\
-    &= \dfrac{ Ax + A + B  }{ (x + 1)^2 } \\
-    &= \dfrac{ Ax + A + B }{ (x + 1)^2 } \\
+    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 3) } \\
+    &= \dfrac{ A(x + 3) }{ (x + 1) (x + 3) } + \dfrac{ B(x + 1) }{(x + 1) (x + 3 ) } \\
+    &= \dfrac{ A(x + 3) + B(x + 1) }{ (x + 1)(x + 3) } \\
+    &= \dfrac{ Ax + 3A + Bx + B  }{ (x + 1)(x + 3) } \\
+    &= \dfrac{ (A + B)x + 3A + B }{ (x + 1)(x + 3) } \\
 \end{align}
 
 Gelijk stellen aan elkaar geeft:
 \begin{align}
-    \dfrac{4x + 2}{(x+1)^2} = \dfrac{ Ax + A + B }{ (x + 1)^2 } 
+    \dfrac{40x + 39}{(x + 1)(x + 3)} = \dfrac{ (A+B)x + 3A + B }{ (x + 1)(x + 3) } 
 \end{align}
 
 Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
 \begin{align}
-   4x  + 2 = Ax + A + B
+   40x  + 39 = (A + B)x + 3A + B
 \end{align}
 
 Hieruit volgt:
 \begin{align}
-   A &= 4 \\
-   A + B &= 2
+   A + B &= 40 \\
+   3A + B &= 39
 \end{align}
 
 Oplossen en substitueren geeft:
 \begin{align}
-   A &= 4\\
-   4 + B &= 2 \\
-   B &= -2
+   A &= 40 - B\\
+   3 (40 - B) + B &= 39 \\
+   120 - 3B + B &= 39
+   -2B &= -81
+    B &= 40\dfrac{1}{2}
 \end{align}
+
+B invullen geeft:
+\begin{align*}
+   A &= 40 - B \\
+   A &= 40 - 40\dfrac{1}{2} \\
+   A &= -\dfrac{1}{2}
+\end{align*}
 
 A en B invullen in de integraal en oplossen geeft:
 \begin{align}
-   \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &= \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
-   &= \int x^2 - 2x + 3 - \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
-   &= \int (x^2 - 2x + 3) \, dx - \int \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
-   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \, dx\\
-   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } \, dx + \int \dfrac{ B }{ (x + 1)^2 } \, dx\\
-   &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ 4 }{ x + 1 } \, dx + \int \dfrac{ 2 }{ (x + 1)^2 } \, dx\\
-   &= \int (x^2 - 2x + 3) \, dx - 4 \int \dfrac{ 1 }{ x + 1 } \, dx - 2 \int \dfrac{ 1 }{ (x + 1)^2 } \, dx\\
-   &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
+   \int \dfrac{x^4 }{x^2 + 4x + 3} \, dx &= \int x^2 - 4x + 13 - \dfrac{40x + 39}{x^2 + 4x + 3} \, dx \\
+   &= \int x^2 - 4x + 13 - \dfrac{40x + 39}{(x+1)(x+3)} \, dx\\
+   &= \int (x^2 - 4x + 13) \, dx - \int \dfrac{40x + 39}{(x+1)(x+3)} \, dx\\
+   &= \int (x^2 - 4x + 13) \, dx -\int \dfrac{ A }{ (x + 1) } + \dfrac{ B }{ (x + 3) } \, dx\\
+   &= \int (x^2 - 4x + 13) \, dx -\int \dfrac{ A }{ (x + 1) } \, dx - \int \dfrac{ B }{ (x + 3) } \, dx\\
+   &= \int (x^2 - 4x + 13) \, dx -\int \dfrac{ -\frac{1}{2} }{ x + 1 } \, dx - \int \dfrac{ 40\dfrac{1}{2} }{ (x + 3) } \, dx\\
+   &= \int (x^2 - 4x + 13) \, dx + \frac{1}{2} \int \dfrac{ 1 }{ x + 1 } \, dx - 40\dfrac{1}{2} \int \dfrac{ 1 }{ (x + 3) } \, dx\\
+   &= \dfrac{1}{3}x^3 - 2x^2 + 13x + \frac{1}{2}  \ln|x + 1 | - 40\frac{1}{2}  \ln|x + 3 |  + C\\
 \end{align}
 ```
 ````
