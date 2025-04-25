@@ -544,7 +544,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 ## 6.3.4 Noemer is kwadratisch ($b^2-4ac < 0$)
 
-````{admonition} Voorbeeld 4: 
+````{admonition} Voorbeeld 3: 
 :class: dropdown
 
 Slaan we dit jaar `2024-2025` over.
@@ -554,7 +554,7 @@ Slaan we dit jaar `2024-2025` over.
 ````{admonition} Oefening 5
 :class: important, dropdown
 
-Slaan we dit jaar (2024-2025) over.
+Slaan we dit jaar `2024-2025` over.
 
 ```{admonition} Uitwerking
 :class: important, dropdown
@@ -579,7 +579,7 @@ Slaan we dit jaar `2024-2025` over.
 
 ## 6.3.5 Teller > Noemer 
 
-````{admonition} Voorbeeld 5: 
+````{admonition} Voorbeeld 4: 
 :class: dropdown
 
 $$
