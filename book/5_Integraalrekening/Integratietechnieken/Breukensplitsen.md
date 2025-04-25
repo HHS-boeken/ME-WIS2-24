@@ -547,17 +547,19 @@ A en B invullen in de integraal en oplossen geeft:
 ````{admonition} Voorbeeld 4: 
 :class: dropdown
 
+Slaan we dit jaar `2024-2025` over.
 
 ````
 
 ````{admonition} Oefening 7
 :class: important, dropdown
 
+Slaan we dit jaar (2024-2025) over.
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-x
+Slaan we dit jaar `2024-2025` over.
 
 ```
 ````
@@ -565,11 +567,13 @@ x
 ````{admonition} Oefening 8
 :class: important, dropdown
 
+Slaan we dit jaar `2024-2025` over.
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-x
+Slaan we dit jaar `2024-2025` over.
+
 ```
 ````
 
