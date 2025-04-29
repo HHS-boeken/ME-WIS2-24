@@ -99,7 +99,7 @@ Bereken de onbepaalde integraal:
 :class:  dropdown
 
 \begin{align*}
-    f(x) = \dfrac{1}{4}x^2\cos(x)  &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
+    F(x) &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
 \end{align*}
 
 ```{admonition} Uitwerking
@@ -192,7 +192,9 @@ Dus,
 ````{admonition} Antwoord
 :class:  dropdown
 
-\int  \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
+\begin{align*}
+ \int \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
+\end{align*}
 
 ```{admonition} Uitwerking
 :class:  dropdown
