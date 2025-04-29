@@ -53,11 +53,24 @@ Bereken de limiet:
 
 ### Opgave 3
 
-Bereken de limiet
+````{admonition} Antwoord
+:class:  dropdown
 
 \begin{align*}
-    \lim_{x \to 0} \frac{\sin(x)-x}{x^3}
+    \lim_{x \to 0} \frac{\sin(x)-x}{x^3} = -\dfrac{1}{6}
 \end{align*}
+
+```{admonition} Uitwerking
+:class:  dropdown
+
+\begin{align*}
+    &\lim_{x \to 0} \frac{\sin(x)-x}{x^3} = \dfrac{0}{0} = ? \text{gebruik L'Hopital} \\
+    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \text{gebruik L'Hopital} \\
+    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \text{gebruik L'Hopital} \\
+    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}
+\end{align*}
+```
+````
 
 ---
 
