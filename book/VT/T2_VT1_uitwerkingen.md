@@ -77,19 +77,108 @@ Toepassen van de quotiëntregel:
 
 ### Opgave 6
 
+````{admonition} Antwoord
+:class:  dropdown 
+
+Bepaal de 3e orde Maclaurin-reeks van
+\begin{align*}
+    f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
     f(x) = 2\ln(5x+3)
 \end{align*}
 
+Bereken de afgeleide van $f(x)$  tot de 3e orde:
+\begin{align}
+  f(x) &= 2\ln(5x+3) \\
+  f'(x) &= \dfrac{10}{5x+3} \\
+  f''(x) &= -\dfrac{50}{(5x+3)^2} \\
+  f'''(x) &= \dfrac{500}{(5x+3)^3}
+\end{align}
+
+Evalueer de afgeleide bij $x= 0$:
+\begin{align}
+  f(0) &= 2\ln(3) \\
+  f'(0) &=  \dfrac{10}{3} \\
+  f''(0) &= -\dfrac{50}{9} \\
+  f'''(0) &= \dfrac{500}{27}
+\end{align}
+
+Invullen van de waaardes in de Maclaurin-reeks geeft:
+
+\begin{align}
+  f(x) &\approx   f(0) + f'(0)x + \dfrac{f''(0)}{2!}x^2 + \dfrac{f'''(0)}{3!}x^3 \\
+\end{align}
+
+\begin{align}
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2!}x^2 + \dfrac{\dfrac{500}{27}}{3!}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2}x^2 + \dfrac{\dfrac{500}{27}}{6}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-50}{18}x^2 + \dfrac{500}{162}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
+\end{align}
+```
+````
+
 ---
 
 ### Opgave 7
+
+````{admonition} Antwoord
+:class:  dropdown 
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x^2 \cdot \sin(x^3) \, dx &= -\dfrac{1}{3} \cos(x^3) + C \\
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
 
 Bereken de onbepaalde integraal:
 \begin{align*}
     \int x^2 \cdot \sin(x^3) \, dx
 \end{align*}
+
+Kies de functie $u(x)$:
+\begin{align}
+    u(x) = x^3
+\end{align}
+
+Differentieer de functie $u(x)$ en bepaal $du$:
+\begin{align}
+    \dfrac{du}{dx} &= 3x^2 \\
+    du &= 3x^2 \, dx
+\end{align}
+
+In de originele functie staat $(x^2)$ dus:
+\begin{align}
+    \dfrac{1}{3}du &= x^2 \, dx
+\end{align}
+
+Herschrijf de integraal door substitutie van $u$ en $du$:
+\begin{align}
+    &\int \sin(x^3) \cdot x^2  \, dx \\
+    &= \int \sin(u) \, \dfrac{1}{3}du \\
+    &= \dfrac{1}{3} \int \sin(u) \, du 
+\end{align}
+
+Integreren geeft:
+\begin{align}
+    &= \dfrac{1}{3} \cdot -\cos(u) + C \\
+     &= -\dfrac{1}{3} \cos(u) + C \\
+\end{align}
+
+Terugsubstitueren geeft:
+\begin{align}
+    &= -\dfrac{1}{3} \cos(x^3) + C \\
+\end{align}
+```
+````
 
 ---
 
