@@ -43,12 +43,48 @@ Vereenvoudig de breuk:
 
 ### Opgave 2
 
+
+````{admonition} Antwoord
+:class:  dropdown
+
+```{admonition} Uitwerking
+:class:  dropdown
+
 Bereken de limiet:
 
 \begin{align*}
 \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x }
 \end{align*}
 
+Invullen van $x=3$ geeft:
+\begin{align}
+\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = \dfrac{3-9}{12 - 4 \cdot 3} = \dfrac{-6}{0}
+\end{align}
+
+De noemer wordt 0 de teller −6, dus hebben te maken met een oneindige limiet (mogelijk $\pm \infty$).
+
+Onderzoek het teken van voor de teller en de noemer als $x$ van onder naar boven 3 nadert:
+stel $x = 2,9$;
+
+teller: 
+\begin{align}
+x - 9 = 2.9 - 9 = -6,1
+\end{align}
+
+Noemer:
+\begin{align}
+12 - 4x = 12 - 4 \cdot 2.9 =  11,6
+\end{align}
+
+Dus, 
+\begin{align}
+    \frac{ x-9  }{ 12 - 4x } = \dfrac{-6,1}{ 11,6} = \dfrac{-}{+} = -
+\end{align}
+
+Dit geeft:
+\begin{align}
+\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty
+\end{align}
 ---
 
 ### Opgave 3
@@ -63,12 +99,18 @@ Bereken de limiet:
 ```{admonition} Uitwerking
 :class:  dropdown
 
+Bereken de limiet:
 \begin{align*}
-    &\lim_{x \to 0} \frac{\sin(x)-x}{x^3} = \dfrac{0}{0} = ? \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}
+    \lim_{x \to 0} \frac{\sin(x)-x}{x^3}
 \end{align*}
+
+Invullen van $x=0$ geeft:
+\begin{align}
+    &\lim_{x \to 0} \frac{\sin(x)-x}{x^3} = \dfrac{0}{0} = ? \quad \text{gebruik L'Hopital} \\
+    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital} \\
+    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital} \\
+    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}
+\end{align}
 ```
 ````
 
@@ -92,24 +134,24 @@ Bereken de afgeleide van de volgende functie:
 \end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   u &=  \sin^2(x) \\
   v &=  \ln(3x+5) \\
-\end{align*}
+\end{align}
 
 Differentieer de functies $u(x)$ en $v(x)$:
-\begin{align*}
+\begin{align}
   \dfrac{du}{dx} &= 2 \sin(x)\cos(x) {\color{blue} \quad  \text{(1p)}}\\
   \dfrac{dv}{dx} &= \dfrac{1}{3x+5} \cdot 3  {\color{blue} \quad  \text{(1p)}}\\
                 &= \dfrac{3}{3x+5} \\
-\end{align*}
+\end{align}
 
 Toepassen van de quotiëntregel:
-\begin{align*}
+\begin{align}
   \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ (\ln(3x+5)) \cdot 2 \sin(x)\cos(x)  - \sin^2(x) \cdot  \dfrac{3}{3x+5} }{ (\ln(3x+5))^2} {\color{blue} \quad  \text{(1p)}}\\
   &= \frac{ 2 \sin(x)\cos(x)(\ln(3x+5)) - \dfrac{3\sin^2(x)}{3x+5} }{ \ln^2(3x+5)} {\color{blue} \quad  \text{(1p)}}
-\end{align*}
+\end{align}
 ```
 ````
 
@@ -244,77 +286,77 @@ Primitiveer:
 \end{align*}
 
 Dus, 
-\begin{align*}
+\begin{align}
     F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx
-\end{align*}
+\end{align}
 
 Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
 
 Kies de functie $u$ en $dv$:
-\begin{align*}
+\begin{align}
     u &= \dfrac{1}{4}x^2 \\
     dv &= \cos(x) \, dx
-\end{align*}
+\end{align}
 
 Bepaal $du$:
-\begin{align*}
+\begin{align}
     \dfrac{du}{dx} &= \dfrac{1}{2}x \\
     du &= \dfrac{1}{2}x \, dx
-\end{align*}
+\end{align}
 
 Bepaal de functie $v$:
-\begin{align*}
+\begin{align}
     dv &= \cos(x) \, dx  \\
     \dfrac{dv}{dx} &= \cos(x) \\
     v &= \sin(x)
-\end{align*}
+\end{align}
 
 Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
+\begin{align}
    \int u \, dv &= uv - \int v \, du \\
     &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int \sin(x) \dfrac{1}{2}x \, dx\\
      &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
-\end{align*}
+\end{align}
 
 De integraal $\int \dfrac{1}{2}x \sin(x) \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
-\begin{align*}
+\begin{align}
    \int \dfrac{1}{2}x \sin(x) \, dx
-\end{align*}
+\end{align}
 
 Kies de functie $u$ en $dv$:
-\begin{align*}
+\begin{align}
     u &= \dfrac{1}{2}x \\
     dv &= \sin(x) \, dx
-\end{align*}
+\end{align}
 
 Bepaal $du$:
-\begin{align*}
+\begin{align}
     \dfrac{du}{dx} &= \dfrac{1}{2} \\
     du &= \dfrac{1}{2} \, dx
-\end{align*}
+\end{align}
 
 Bepaal de functie $v$:
-\begin{align*}
+\begin{align}
     dv &= \sin(x) \, dx  \\
     \dfrac{dv}{dx} &= \sin(x) \\
     v &= -\cos(x)
-\end{align*}
+\end{align}
 
 Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
+\begin{align}
    \int u \, dv &= uv - \int v \, du \\
     &= \dfrac{1}{2}x \cdot -\cos(x) - \int -\cos(x) \dfrac{1}{2} \, dx\\
     &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \int \cos(x)  \, dx\\
     &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C
-\end{align*}
+\end{align}
 
-Dus, 
-\begin{align*}
+Dus,
+\begin{align}
     F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx \\
     &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
     &= \dfrac{1}{4}x^2 \cdot \sin(x) - (-\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C) \\
     &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
-\end{align*}
+\end{align}
 ```
 ````
 
