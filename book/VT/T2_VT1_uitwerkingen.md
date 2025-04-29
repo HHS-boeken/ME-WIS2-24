@@ -2,12 +2,43 @@
 
 ### Opgave 1
 
-Schrijf in de vorm $\dfrac{m}{x-p} + q$:
+````{admonition} Antwoord
+:class: dropdown
 
+De vorm wordt:
+\begin{align*}
+\frac{7}{3} - \frac{17}{3(3x + 2)}
+\end{align*}
+
+```{admonition} Uitwerking
+:class: dropdown
+
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 \begin{align*}
  \dfrac{7x - 1}{3x + 2}
 \end{align*}
 
+Voeg de factor $(3x + 2)$ toe aan de teller en corrigeer de teller:
+\begin{align}
+ = \dfrac{\frac{7}{3} (3x + 2) - \frac{14}{3} - 1}{3x + 2}
+\end{align}
+
+Vereenvoudig de teller:
+\begin{align}
+ = \dfrac{\frac{7}{3}(3x + 2) - \frac{17}{3}}{3x + 2}
+\end{align}
+
+Splits de breuk:
+\begin{align}
+ = \dfrac{\frac{7}{3}(3x + 2)}{3x + 2} - \dfrac{\frac{17}{3}}{3x + 2}
+\end{align}
+
+Vereenvoudig de breuk:
+\begin{align}
+ = \frac{7}{3} - \frac{17}{3(3x + 2)}
+\end{align}
+```
+````
 ---
 
 ### Opgave 2
