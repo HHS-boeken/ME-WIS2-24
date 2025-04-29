@@ -121,6 +121,7 @@ parts:
   - caption: Voorbeeld Toets - T2
     chapters:
     - file: VT/T2_VT1_opgaven.md
+    - file: VT/T2_VT1_uitwerkingen.md
 
 
   - caption: Overig
