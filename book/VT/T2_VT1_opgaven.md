@@ -2,6 +2,12 @@
 
 ### Opgave 1
 
+Schrijf in de vorm $\dfrac{m}{x-p} + q$:
+
+\begin{align*}
+ \dfrac{7x - 1}{3x + 2}
+\end{align*}
+
 ---
 
 ### Opgave 2
@@ -74,4 +80,5 @@ Bepaal de onbepaalde integraal:
 ---
 
 ### Opgave 10
+
 
