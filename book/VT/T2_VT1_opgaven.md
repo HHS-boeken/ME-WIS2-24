@@ -6,9 +6,21 @@
 
 ### Opgave 2
 
+Bereken de limiet:
+
+\begin{align*}
+\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x }
+\end{align*}
+
 ---
 
 ### Opgave 3
+
+Bereken de limiet
+
+\begin{align*}
+    \lim_{x \to 0} \frac{\sin(x)-x}{x^3}
+\end{align*}
 
 ---
 
