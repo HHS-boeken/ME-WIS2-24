@@ -116,7 +116,12 @@ parts:
     - file: VT/VT2_uitwerkingen.md
     - file: VT/VT3_opgaven.md
     - file: VT/VT3_uitwerkingen.md
-  
+
+  - caption: Voorbeeld Toets - T2
+    chapters:
+    - file: VT/VT2_opgaven.md
+
+
   - caption: Overig
     chapters:
     - file: references.md
