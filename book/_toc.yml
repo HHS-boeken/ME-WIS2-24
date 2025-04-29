@@ -107,6 +107,7 @@ parts:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen_les.md
 
     - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven_les.md
+    - file: VT/VT2_1_opgaven.md
 
   - caption: Voorbeeld Toets - T1
     chapters:
@@ -119,7 +120,7 @@ parts:
 
   - caption: Voorbeeld Toets - T2
     chapters:
-    - file: VT/VT2_1_opgaven.md
+    - file: VT/T2_VT1_opgaven.md
 
 
   - caption: Overig

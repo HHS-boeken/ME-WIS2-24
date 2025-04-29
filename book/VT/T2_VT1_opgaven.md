@@ -1,0 +1,65 @@
+## Voorbeeld Toets1 - T2: Opgaven
+
+### Opgave 1
+
+---
+
+### Opgave 2
+
+---
+
+### Opgave 3
+
+---
+
+### Opgave 4
+
+Bepaal de afgeleide van de volgende functie.
+\begin{align*}
+    l(x) = \dfrac{ \sin^2(x)  }{  \ln(3x + 5) }
+\end{align*}
+
+---
+
+### Opgave 5
+
+---
+
+### Opgave 6
+
+Bepaal de 3e orde Maclaurin-reeks van
+\begin{align*}
+    f(x) = 2\ln(5x+3)
+\end{align*}
+
+---
+
+### Opgave 7
+
+Bereken de onbepaalde integraal:
+\begin{align*}
+    \int x^2 \cdot \sin(x^3) \, dx
+\end{align*}
+
+---
+
+### Opgave 8
+
+Primitiveer:
+\begin{align*}
+    f(x) = \dfrac{1}{4}x^2\cos(x)
+\end{align*}
+
+---
+
+### Opgave 9
+
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int  \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
+\end{align*}
+
+---
+
+### Opgave 10
+
