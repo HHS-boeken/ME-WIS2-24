@@ -7,7 +7,7 @@
 Bereken de limiet:
 
 \begin{align*}
-    \lim_{x \to 0} \frac{e^x - 1 -x}{^2}
+    \lim_{x \to 0} \frac{e^x - 1 -x}{x^2}
 \end{align*}
 
 ---
@@ -68,6 +68,16 @@ Bepaal de integraal:
 
 \begin{align*}
     \int (4x+6)\ln(x^2+3) \, dx
+\end{align*}
+
+---
+
+### Opgave 8
+
+Bepaal de integraal:
+
+\begin{align*}
+    \int e^{2x}\sin(x) \, dx
 \end{align*}
 
 ---

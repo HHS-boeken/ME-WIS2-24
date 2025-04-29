@@ -119,7 +119,7 @@ parts:
 
   - caption: Voorbeeld Toets - T2
     chapters:
-    - file: VT/VT2_opgaven.md
+    - file: VT/VT2_1_opgaven.md
 
 
   - caption: Overig
