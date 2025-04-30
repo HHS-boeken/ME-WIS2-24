@@ -43,9 +43,12 @@ Vereenvoudig de breuk:
 
 ### Opgave 2 (3 punten)
 
-
 ````{admonition} Antwoord
 :class:  dropdown
+
+\begin{align}
+    \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty
+\end{align}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
@@ -53,12 +56,12 @@ Vereenvoudig de breuk:
 Bereken de limiet:
 
 \begin{align*}
-\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x }
+    \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x }
 \end{align*}
 
 Invullen van $x=3$ geeft:
 \begin{align}
-\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = \dfrac{3-9}{12 - 4 \cdot 3} = \dfrac{-6}{0} {\color{blue} \quad  \text{(1p)}}\\
+    \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = \dfrac{3-9}{12 - 4 \cdot 3} = \dfrac{-6}{0} {\color{blue} \quad  \text{(1p)}}\\
 \end{align}
 
 De noemer wordt 0 de teller −6, dus hebben te maken met een oneindige limiet (mogelijk $\pm \infty$). 
@@ -68,12 +71,12 @@ stel $x = 2,9$;
 
 teller: 
 \begin{align}
-x - 9 = 2.9 - 9 = -6,1
+    x - 9 = 2.9 - 9 = -6,1
 \end{align}
 
 Noemer:
 \begin{align}
-12 - 4x = 12 - 4 \cdot 2.9 =  11,6
+    12 - 4x = 12 - 4 \cdot 2.9 =  11,6
 \end{align}
 
 Dus, 
@@ -83,7 +86,7 @@ Dus,
 
 Dit geeft:
 \begin{align}
-\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty  {\color{blue} \quad  \text{(1p)}}
+    \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
