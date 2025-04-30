@@ -41,6 +41,11 @@ Bepaal de afgeleide van de volgende functie.
 
 ### Opgave 5
 
+Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+\begin{align*}
+    f(x) = \dfrac{10 \ln(x)}{x}
+\end{align*}
+
 ---
 
 ### Opgave 6

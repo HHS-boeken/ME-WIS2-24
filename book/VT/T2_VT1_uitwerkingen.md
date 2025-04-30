@@ -1,6 +1,6 @@
 ## Voorbeeld Toets1 - T2: Uitwerkingen
 
-### Opgave 1
+### Opgave 1 (3 punten)
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -13,7 +13,7 @@ De vorm wordt:
 ```{admonition} Uitwerking
 :class: dropdown
 
-Schrijf in de vorm $\dfrac{m}{x - p} = q$:
+Schrijf in de vorm $\dfrac{m}{x - p} + q$:
 \begin{align*}
  \dfrac{7x - 1}{3x + 2}
 \end{align*}
@@ -25,17 +25,17 @@ Voeg de factor $(3x + 2)$ toe aan de teller en corrigeer de teller:
 
 Vereenvoudig de teller:
 \begin{align}
- = \dfrac{\frac{7}{3}(3x + 2) - \frac{17}{3}}{3x + 2}
+ = \dfrac{\frac{7}{3}(3x + 2) - \frac{17}{3}}{3x + 2}  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Splits de breuk:
 \begin{align}
- = \dfrac{\frac{7}{3}(3x + 2)}{3x + 2} - \dfrac{\frac{17}{3}}{3x + 2}
+ = \dfrac{\frac{7}{3}(3x + 2)}{3x + 2} - \dfrac{\frac{17}{3}}{3x + 2}  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Vereenvoudig de breuk:
 \begin{align}
- = \frac{7}{3} - \frac{17}{3(3x + 2)}
+ = \frac{7}{3} - \frac{17}{3(3x + 2)}  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
@@ -85,6 +85,9 @@ Dit geeft:
 \begin{align}
 \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty
 \end{align}
+```
+````
+
 ---
 
 ### Opgave 3
@@ -116,7 +119,7 @@ Invullen van $x=0$ geeft:
 
 ---
 
-### Opgave 4
+### Opgave 4 (4 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -159,9 +162,55 @@ Toepassen van de quotiëntregel:
 
 ### Opgave 5
 
+````{admonition} Antwoord
+:class:  dropdown
+
+Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+\begin{align*}
+    f(x) = \dfrac{10 \ln(x)}{x}
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+\begin{align*}
+    f(x) = \dfrac{10 \ln(x)}{x}
+\end{align*}
+
+Bereken de eerste afgeleide:
+
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align}
+  u &= e^{x^2} \\
+  v &=  \sqrt{x^2+5} \\
+\end{align}
+
+Differentieer de functies $u(x)$ en $v(x)$:
+\begin{align}
+  \dfrac{du}{dx} &= e^{x^2} \cdot 2x \\
+  \dfrac{du}{dx} &= 2xe^{x^2} \\
+  \dfrac{dv}{dx} &=  \frac{1}{2}(x^2+5)^{-\frac{1}{2}} \cdot 2x \\
+  \dfrac{dv}{dx} &=  \dfrac{x}{ \sqrt{ (x^2+5) } } \\
+\end{align}
+
+Toepassen van de quotiëntregel:
+\begin{align}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+  &= \frac{ \sqrt{x^2+5} \cdot 2xe^{x^2} -  e^{x^2} \cdot  \dfrac{x}{ \sqrt{ (x^2+5) } }  }{ (\sqrt{x^2+5} )^2} \\
+  &= \frac{ e^{x^2}( 2x\sqrt{x^2+5} - \dfrac{x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
+  &= \frac{ e^{x^2}(  \dfrac{2x(x^2+5)-x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
+  &= \frac{ e^{x^2}(  \dfrac{2x^3 +9x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
+  &= \frac{ e^{x^2}(  2x^3 +9x )}{ (x^2+5)^{\frac{3}{2}} }  \\
+\end{align}
+
+
+
+```
+````
 ---
 
-### Opgave 6
+### Opgave 6 ( 6 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown 
@@ -182,9 +231,9 @@ Bepaal de 3e orde Maclaurin-reeks van
 Bereken de afgeleide van $f(x)$  tot de 3e orde:
 \begin{align}
   f(x) &= 2\ln(5x+3) \\
-  f'(x) &= \dfrac{10}{5x+3} \\
-  f''(x) &= -\dfrac{50}{(5x+3)^2} \\
-  f'''(x) &= \dfrac{500}{(5x+3)^3}
+  f'(x) &= \dfrac{10}{5x+3}  {\color{blue} \quad  \text{(1p)}}\\
+  f''(x) &= -\dfrac{50}{(5x+3)^2}  {\color{blue} \quad  \text{(1p)}}\\
+  f'''(x) &= \dfrac{500}{(5x+3)^3}  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Evalueer de afgeleide bij $x= 0$:
@@ -192,7 +241,7 @@ Evalueer de afgeleide bij $x= 0$:
   f(0) &= 2\ln(3) \\
   f'(0) &=  \dfrac{10}{3} \\
   f''(0) &= -\dfrac{50}{9} \\
-  f'''(0) &= \dfrac{500}{27}
+  f'''(0) &= \dfrac{500}{27}  {\color{blue} \quad  \text{(2p) voor alle 4, 1 fout 1p, 2 of meer fout 0p}}\\
 \end{align}
 
 Invullen van de waaardes in de Maclaurin-reeks geeft:
@@ -205,14 +254,14 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
   f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2!}x^2 + \dfrac{\dfrac{500}{27}}{3!}x^3  \\
   f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-\dfrac{50}{9} }{2}x^2 + \dfrac{\dfrac{500}{27}}{6}x^3  \\
   f(x) &\approx   2\ln(3) + \dfrac{10}{3}x + \dfrac{-50}{18}x^2 + \dfrac{500}{162}x^3  \\
-  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
+  f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3   {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
 
 ---
 
-### Opgave 7
+### Opgave 7 (4 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown 
@@ -243,32 +292,32 @@ Differentieer de functie $u(x)$ en bepaal $du$:
 
 In de originele functie staat $(x^2)$ dus:
 \begin{align}
-    \dfrac{1}{3}du &= x^2 \, dx
+    \dfrac{1}{3}du &= x^2 \, dx  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
 \begin{align}
     &\int \sin(x^3) \cdot x^2  \, dx \\
     &= \int \sin(u) \, \dfrac{1}{3}du \\
-    &= \dfrac{1}{3} \int \sin(u) \, du 
+    &= \dfrac{1}{3} \int \sin(u) \, du  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Integreren geeft:
 \begin{align}
     &= \dfrac{1}{3} \cdot -\cos(u) + C \\
-     &= -\dfrac{1}{3} \cos(u) + C \\
+     &= -\dfrac{1}{3} \cos(u) + C  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Terugsubstitueren geeft:
 \begin{align}
-    &= -\dfrac{1}{3} \cos(x^3) + C \\
+    &= -\dfrac{1}{3} \cos(x^3) + C  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
 
 ---
 
-### Opgave 8
+### Opgave 8 (8 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -301,20 +350,20 @@ Kies de functie $u$ en $dv$:
 Bepaal $du$:
 \begin{align}
     \dfrac{du}{dx} &= \dfrac{1}{2}x \\
-    du &= \dfrac{1}{2}x \, dx
+    du &= \dfrac{1}{2}x \, dx  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Bepaal de functie $v$:
 \begin{align}
     dv &= \cos(x) \, dx  \\
     \dfrac{dv}{dx} &= \cos(x) \\
-    v &= \sin(x)
+    v &= \sin(x) {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Toepassen van de regel voor partieel integreren geeft:
 \begin{align}
    \int u \, dv &= uv - \int v \, du \\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int \sin(x) \dfrac{1}{2}x \, dx\\
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int \sin(x) \dfrac{1}{2}x \, dx {\color{blue} \quad  \text{(1p)}}\\
      &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
 \end{align}
 
@@ -332,22 +381,22 @@ Kies de functie $u$ en $dv$:
 Bepaal $du$:
 \begin{align}
     \dfrac{du}{dx} &= \dfrac{1}{2} \\
-    du &= \dfrac{1}{2} \, dx
+    du &= \dfrac{1}{2} \, dx  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Bepaal de functie $v$:
 \begin{align}
     dv &= \sin(x) \, dx  \\
     \dfrac{dv}{dx} &= \sin(x) \\
-    v &= -\cos(x)
+    v &= -\cos(x)  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Toepassen van de regel voor partieel integreren geeft:
 \begin{align}
    \int u \, dv &= uv - \int v \, du \\
-    &= \dfrac{1}{2}x \cdot -\cos(x) - \int -\cos(x) \dfrac{1}{2} \, dx\\
+    &= \dfrac{1}{2}x \cdot -\cos(x) - \int -\cos(x) \dfrac{1}{2} \, dx {\color{blue} \quad  \text{(1p)}}\\
     &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \int \cos(x)  \, dx\\
-    &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C
+    &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Dus,
@@ -355,14 +404,14 @@ Dus,
     F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx \\
     &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
     &= \dfrac{1}{4}x^2 \cdot \sin(x) - (-\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C) \\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
+    &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
 
 ---
 
-### Opgave 9
+### Opgave 9 (7 punten)
 
 
 ````{admonition} Antwoord
@@ -383,7 +432,7 @@ Bepaal de onbepaalde integraal:
 
 De teller ontbinden in factoren:
 \begin{align}
-    \int \dfrac{-6x+14}{(x+3)(x-1)} \, dx
+    \int \dfrac{-6x+14}{(x+3)(x-1)} \, dx  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Toepassen van de regel voor breukensplitsen geeft:
@@ -407,8 +456,8 @@ Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
 
 Hieruit volgt:
 \begin{align}
-   A+B &= -6 \\
-   -A + 3B &= 14
+   A+B &= -6  {\color{blue} \quad  \text{(1p)}}\\
+   -A + 3B &= 14  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Oplossen en substitueren geeft:
@@ -417,23 +466,23 @@ Oplossen en substitueren geeft:
    -1(-6-B) + 3B &= 14 \\
    6 + B + 3B &= 14 \\
    4B &= 8 \\
-   B &= 2
+   B &= 2  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 B invullen geeft:
 \begin{align}
    A &= -6 - 2 \\
-   A &= -8
+   A &= -8  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 A en B invullen in de integraal en oplossen geeft:
 \begin{align}
    \int \dfrac{-6x+14}{x^2+2x-3} \, dx & = \int \dfrac{-6x+14}{(x + 3)(x - 1)} \, dx\\
-   &= \int \dfrac{ A }{ x + 3 } + \dfrac{ B }{ x - 1 } \, dx\\
+   &= \int \dfrac{ A }{ x + 3 } + \dfrac{ B }{ x - 1 } \, dx  {\color{blue} \quad  \text{(1p)}}\\
    &= \int \dfrac{ A }{ x + 3 } \, dx + \int \dfrac{ B }{ x - 1 } \, dx\\
    &= \int \dfrac{ -8 }{ x + 3 } \, dx + \int \dfrac{ 2 }{ x - 1 } \, dx\\
    &= -8 \int \dfrac{ 1 }{ x + 3 } \, dx + 2 \int \dfrac{ 1 }{ x - 1 } \, dx\\
-   &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\
+   &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
