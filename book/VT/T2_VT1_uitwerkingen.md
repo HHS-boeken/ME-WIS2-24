@@ -41,7 +41,7 @@ Vereenvoudig de breuk:
 ````
 ---
 
-### Opgave 2
+### Opgave 2 (3 punten)
 
 
 ````{admonition} Antwoord
@@ -58,10 +58,10 @@ Bereken de limiet:
 
 Invullen van $x=3$ geeft:
 \begin{align}
-\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = \dfrac{3-9}{12 - 4 \cdot 3} = \dfrac{-6}{0}
+\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = \dfrac{3-9}{12 - 4 \cdot 3} = \dfrac{-6}{0} {\color{blue} \quad  \text{(1p)}}\\
 \end{align}
 
-De noemer wordt 0 de teller −6, dus hebben te maken met een oneindige limiet (mogelijk $\pm \infty$).
+De noemer wordt 0 de teller −6, dus hebben te maken met een oneindige limiet (mogelijk $\pm \infty$). 
 
 Onderzoek het teken van voor de teller en de noemer als $x$ van onder naar boven 3 nadert:
 stel $x = 2,9$;
@@ -78,19 +78,19 @@ Noemer:
 
 Dus, 
 \begin{align}
-    \frac{ x-9  }{ 12 - 4x } = \dfrac{-6,1}{ 11,6} = \dfrac{-}{+} = -
+    \frac{ x-9  }{ 12 - 4x } = \dfrac{-6,1}{ 11,6} = \dfrac{-}{+} = -  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Dit geeft:
 \begin{align}
-\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty
+\lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
 
 ---
 
-### Opgave 3
+### Opgave 3 (3 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -110,9 +110,9 @@ Bereken de limiet:
 Invullen van $x=0$ geeft:
 \begin{align}
     &\lim_{x \to 0} \frac{\sin(x)-x}{x^3} = \dfrac{0}{0} = ? \quad \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}
+    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital}  {\color{blue} \quad  \text{(1p)}}\\
+    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital}  {\color{blue} \quad  \text{(1p)}}\\
+    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}  {\color{blue} \quad  \text{(1p)}}\\
 \end{align}
 ```
 ````
@@ -189,19 +189,19 @@ Kies de functies $u(x)$ en $v(x)$:
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
   \dfrac{du}{dx} &= e^{x^2} \cdot 2x \\
-  \dfrac{du}{dx} &= 2xe^{x^2} \\
+  \dfrac{du}{dx} &= 2xe^{x^2}  {\color{blue} \quad  \text{(1p)}}\\
   \dfrac{dv}{dx} &=  \frac{1}{2}(x^2+5)^{-\frac{1}{2}} \cdot 2x \\
-  \dfrac{dv}{dx} &=  \dfrac{x}{ \sqrt{ (x^2+5) } } \\
+  \dfrac{dv}{dx} &=  \dfrac{x}{ \sqrt{ (x^2+5) } }  {\color{blue} \quad  \text{(1p)}}\\
 \end{align}
 
 Toepassen van de quotiëntregel:
 \begin{align}
   \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
-  &= \frac{ \sqrt{x^2+5} \cdot 2xe^{x^2} -  e^{x^2} \cdot  \dfrac{x}{ \sqrt{ (x^2+5) } }  }{ (\sqrt{x^2+5} )^2} \\
+  &= \frac{ \sqrt{x^2+5} \cdot 2xe^{x^2} -  e^{x^2} \cdot  \dfrac{x}{ \sqrt{ (x^2+5) } }  }{ (\sqrt{x^2+5} )^2}  {\color{blue} \quad  \text{(1p)}}\\
   &= \frac{ e^{x^2}( 2x\sqrt{x^2+5} - \dfrac{x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
   &= \frac{ e^{x^2}(  \dfrac{2x(x^2+5)-x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
   &= \frac{ e^{x^2}(  \dfrac{2x^3 +9x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
-  &= \frac{ e^{x^2}(  2x^3 +9x )}{ (x^2+5)^{\frac{3}{2}} }  \\
+  &= \frac{ e^{x^2}(  2x^3 +9x )}{ (x^2+5)^{\frac{3}{2}} }   {\color{blue} \quad  \text{(1p)}}\\
 \end{align}
 
 
