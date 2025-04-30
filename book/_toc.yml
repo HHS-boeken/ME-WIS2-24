@@ -68,6 +68,7 @@ parts:
       #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/De_quotientregel.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_opgaven.md
+      
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_opgaven.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_uitwerkingen.md
