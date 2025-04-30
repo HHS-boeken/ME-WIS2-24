@@ -232,19 +232,20 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
+De x-coördinaat van de snijpunten van deze twee hyperbolen zijn:
 \begin{align*}
-x_{1} &= \dfrac{17}{2} - \dfrac{1}{2} \sqrt{357} \approx -0.95 {\color{blue} \quad  \text{(1p)}}
+x_{1} &= \dfrac{17}{2} - \dfrac{1}{2} \sqrt{357} \approx -0.95
 \end{align*}
 
 en,
 \begin{align*}
-x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{357} \approx 17.95 {\color{blue}  \quad  \text{(1p)}}
+x_{2} &= \dfrac{17}{2} +  \dfrac{1}{2}\sqrt{357} \approx 17.95
 \end{align*}
 
 ```{admonition} Uitwerking
 :class: dropdown
 
-Vind de snijpunten van deze twee hyperbollen:
+Vind de x-coördinaat van den snijpunten van deze twee hyperbollen:
 \begin{align*}
   f(x) &= \dfrac{x + 3}{x - 4}
 \end{align*}

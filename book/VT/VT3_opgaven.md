@@ -38,7 +38,7 @@ Bereken door middel van een staartdeling:
 
 ### Opgave 5 (4 punten)
 
-Vind de snijpunten van deze twee hyperbolen:
+Vind de x-coördinaat van de snijpunten van deze twee hyperbolen:
 
 $$
 f(x) = \dfrac{2 - x }{x - 1 }

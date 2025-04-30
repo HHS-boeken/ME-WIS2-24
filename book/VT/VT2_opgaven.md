@@ -37,7 +37,7 @@ $$
 ---
 
 ### Opgave 5 (5 punten)  
-Vind de snijpunten van deze twee hyperbolen:
+Vind de x-coördinaat van de snijpunten van deze twee hyperbolen:
 
 $$
 f(x) = \dfrac{x + 3}{x - 4}

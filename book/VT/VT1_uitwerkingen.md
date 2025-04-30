@@ -250,11 +250,19 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
+De x-coördinaat van de snijpunten van deze twee hyperbolen zijn:
+\begin{align*}
+x_{1} &= -\dfrac{9}{2} - \dfrac{1}{2} \sqrt{61} \approx -8.41
+\end{align*}
+
+\begin{align*}
+x_{2} &= -\dfrac{9}{2} +  \dfrac{1}{2}\sqrt{61} \approx -0.59
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: dropdown
 
-Vind de snijpunten van deze twee hyperbollen:
+Vind de x-coördinaat van de snijpunten van deze twee hyperbollen:
 \begin{align*}
   f(x) &= \dfrac{x - 1}{x + 2}
 \end{align*}

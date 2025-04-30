@@ -256,7 +256,7 @@ $$
 ````{admonition} Antwoord
 :class: dropdown
 
-De snijpunt(en) van deze twee hyperbolen zijn:
+De x-coördinaat van het snijpunt van deze twee hyperbolen is:
 \begin{align*}
 x = \dfrac{5}{2}
 \end{align*}
@@ -264,7 +264,7 @@ x = \dfrac{5}{2}
 ```{admonition} Uitwerking
 :class: dropdown
 
-Vind de snijpunt(en) van deze twee hyperbolen:
+Vind de x-coördinaat van de snijpunt(en) van deze twee hyperbolen:
 
 $$
 f(x) = \dfrac{2 - x }{x - 1 }
