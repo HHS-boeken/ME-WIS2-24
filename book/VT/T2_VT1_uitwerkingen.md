@@ -113,9 +113,9 @@ Bereken de limiet:
 Invullen van $x=0$ geeft:
 \begin{align}
     &\lim_{x \to 0} \frac{\sin(x)-x}{x^3} = \dfrac{0}{0} = ? \quad \text{gebruik L'Hopital} \\
-    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital}  {\color{blue} \quad  \text{(1p)}}\\
-    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital}  {\color{blue} \quad  \text{(1p)}}\\
-    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}  {\color{blue} \quad  \text{(1p)}}\\
+    &\lim_{x \to 0} \frac{\cos(x)-1}{3x^2} = \dfrac{1-1}{0} = \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital} \quad {\color{blue} \text{(1p)}}\\
+    &\lim_{x \to 0} \frac{-sin(x)}{6x} =  \dfrac{0}{0} =  ? \quad \text{gebruik L'Hopital}  \quad {\color{blue} \text{(1p)}}\\
+    &\lim_{x \to 0} \frac{-\cos(x)}{6} = \dfrac{-1}{6} =  -\dfrac{1}{6}  \quad {\color{blue} \text{(1p)}}\\
 \end{align}
 ```
 ````
@@ -163,12 +163,12 @@ Toepassen van de quotiëntregel:
 
 ---
 
-### Opgave 5
+### Opgave 5 (10 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
 
-Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+Bereken het buigpunt van de grafiek van $f$.
 \begin{align*}
     f(x) = \dfrac{10 \ln(x)}{x}
 \end{align*}
@@ -176,7 +176,7 @@ Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafie
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Stel langs algebraïsche weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+Bereken het buigpunt van de grafiek van $f$.
 \begin{align*}
     f(x) = \dfrac{10 \ln(x)}{x}
 \end{align*}
@@ -185,29 +185,70 @@ Bereken de eerste afgeleide:
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
-  u &= e^{x^2} \\
-  v &=  \sqrt{x^2+5} \\
+  u &= 10 \ln(x) \\
+  v &=  x \\
 \end{align}
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
-  \dfrac{du}{dx} &= e^{x^2} \cdot 2x \\
-  \dfrac{du}{dx} &= 2xe^{x^2}  {\color{blue} \quad  \text{(1p)}}\\
-  \dfrac{dv}{dx} &=  \frac{1}{2}(x^2+5)^{-\frac{1}{2}} \cdot 2x \\
-  \dfrac{dv}{dx} &=  \dfrac{x}{ \sqrt{ (x^2+5) } }  {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{du}{dx} &= \dfrac{10}{x} {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &=  1 {\color{blue} \quad  \text{(1p)}}\\
 \end{align}
 
 Toepassen van de quotiëntregel:
 \begin{align}
   \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
-  &= \frac{ \sqrt{x^2+5} \cdot 2xe^{x^2} -  e^{x^2} \cdot  \dfrac{x}{ \sqrt{ (x^2+5) } }  }{ (\sqrt{x^2+5} )^2}  {\color{blue} \quad  \text{(1p)}}\\
-  &= \frac{ e^{x^2}( 2x\sqrt{x^2+5} - \dfrac{x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
-  &= \frac{ e^{x^2}(  \dfrac{2x(x^2+5)-x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
-  &= \frac{ e^{x^2}(  \dfrac{2x^3 +9x}{ \sqrt{ (x^2+5)}} )}{ x^2+5 }  \\
-  &= \frac{ e^{x^2}(  2x^3 +9x )}{ (x^2+5)^{\frac{3}{2}} }   {\color{blue} \quad  \text{(1p)}}\\
+  &= \frac{ x \cdot \dfrac{10}{x} -  10 \ln(x) \cdot 1 } { x^2}  {\color{blue} \quad  \text{(1p)}}\\
+  &= \frac{ 10 -  10 \ln(x) } { x^2}  
 \end{align}
 
+Bereken de tweede afgeleide:
 
+Kies de functies $u(x)$ en $v(x)$:
+\begin{align}
+  u &= 10- 10 \ln(x) \\
+  v &=  x^2 \\
+\end{align}
+
+Differentieer de functies $u(x)$ en $v(x)$:
+\begin{align}
+  \dfrac{du}{dx} &= -\dfrac{10}{x} {\color{blue} \quad  \text{(1p)}}\\
+  \dfrac{dv}{dx} &=  2x {\color{blue} \quad  \text{(1p)}}\\
+\end{align}
+
+Toepassen van de quotiëntregel:
+\begin{align}
+  \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+  &= \frac{ x^2 \cdot -\dfrac{10}{x} -  (10 -10 \ln(x) \cdot 2x) } { (x^2)^2 }  {\color{blue} \quad  \text{(1p)}}\\
+  &= \frac{ -10x -  (10 -10 \ln(x) \cdot 2x) } { (x^2)^2 }  \\
+  &= \frac{ -10x -  (20x -20x \ln(x) ) } { (x^2)^2 }  \\
+  &= \frac{ -10x -  20x + 20x \ln(x)  } { (x^2)^2 }  \\
+  &= \frac{ - 30x + 20x \ln(x)  } { (x^2)^2 }  \\
+  &= \frac{ - 30 + 20 \ln(x)  } { x^3 }  {\color{blue} \quad  \text{(1p)}}\\
+\end{align}
+
+Bereken x-coördinaat van het Buigpunt:
+\begin{align}
+  \dfrac{d^2f(x)}{dx^2} &= 0 {\color{blue} \quad  \text{(1p)}}\\
+   0 &= \frac{ - 30 + 20 \ln(x)  } { x^3 } 
+\end{align}
+
+Dus, 
+\begin{align}
+   0 &= - 30 + 20 \ln(x) \\
+   30 &= 20 \ln(x) \\
+   \dfrac{3}{2} &= \ln(x) \\
+   x &= e^{\frac{3}{2}} {\color{blue} \quad  \text{(1p)}}
+\end{align}
+
+Bereken y-coördinaat van het Buigpunt:
+\begin{align}
+    f(x) &= \dfrac{10 \ln(x)}{x} \\
+    f(e^{\frac{3}{2}}) &= \dfrac{10 \ln(e^{\frac{3}{2}})}{e^{\frac{3}{2}}} \\
+    f(e^{\frac{3}{2}}) &= 3.35 {\color{blue} \quad  \text{(1p)}}\\
+\end{align}
+
+Dus buigpunt is (4.48 ; 3.35).
 
 ```
 ````
