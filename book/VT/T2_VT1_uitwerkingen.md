@@ -173,7 +173,7 @@ Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafie
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+Stel langs algebraïsche weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
 \begin{align*}
     f(x) = \dfrac{10 \ln(x)}{x}
 \end{align*}
@@ -489,7 +489,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 ---
 
-### Opgave 10
+### Opgave 10 (11 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -512,19 +512,19 @@ De teller is groter dan de noemer, dus staartdeling maken.
  x^2 + 2x + 1 \quad / &x^4 \quad \quad \quad \quad \quad \quad \quad \quad + 1 \backslash \quad x^2 - 2x + 3\\
 &x^4 + 2x^3 + x^2 \\
 &------------- \quad -\\
-&\quad \quad -2x^3 - x^2 + 2x + 1\\
+&\quad \quad -2x^3 - x^2 + 2x + 1 {\color{blue} \quad  \text{(1p)}} \\
 &\quad \quad -2x^3 - 4x^2 - 2x \\
 &------------- \quad -\\
-&\quad \quad \quad \quad \quad \quad  3x^2 + 2x + 1 \\
+&\quad \quad \quad \quad \quad \quad  3x^2 + 2x + 1 {\color{blue} \quad  \text{(1p)}} \\
 &\quad \quad \quad \quad \quad \quad  3x^2 + 6x + 3 \\
 &------------- \quad -\\
-&\quad \quad \quad \quad \quad \quad \quad \quad  -4x - 2 \\
+&\quad \quad \quad \quad \quad \quad \quad \quad  -4x - 2 {\color{blue} \quad  \text{(1p)}} \\
 \end{align}
 
 De rest is $-4x-2$, dus de uiteindelijke uitkomst is:
 \begin{align}
 & x^2 - 2x + 3 + \dfrac{-4x-2}{x^2+2x+1} = \\
-& x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \\
+& x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Dit geeft:
@@ -534,12 +534,12 @@ Dit geeft:
 
 De teller ontbinden in factoren:
 \begin{align}
-    \int \dfrac{4x + 2}{(x + 1)(x + 1)} \, dx
+    \int \dfrac{4x + 2}{(x + 1)(x + 1)} \, dx {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Toepassen van de regel voor breukensplitsen geeft:
 \begin{align}
-    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \\
+    &= \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } {\color{blue} \quad  \text{(1p)}} \\
     &= \dfrac{ A(x + 1) }{ (x + 1) (x + 1) } + \dfrac{ B }{ (x + 1 )^2 } \\
     &= \dfrac{ A(x + 1) + B }{ (x + 1)^2 } \\
     &= \dfrac{ Ax + A + B  }{ (x + 1)^2 } \\
@@ -558,27 +558,27 @@ Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
 
 Hieruit volgt:
 \begin{align}
-   A &= 4 \\
-   A + B &= 2
+   A &= 4 {\color{blue} \quad  \text{(1p)}} \\
+   A + B &= {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Oplossen en substitueren geeft:
 \begin{align}
    A &= 4\\
    4 + B &= 2 \\
-   B &= -2
+   B &= -2 {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 A en B invullen in de integraal en oplossen geeft:
 \begin{align}
-   \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &= \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx \\
+   \int \dfrac{x^4 + 1}{x^2 + 2x + 1} \, dx &= \int x^2 - 2x + 3 - \dfrac{4x+2}{x^2+2x+1} \, dx {\color{blue} \quad  \text{(1p)}}\\
    &= \int x^2 - 2x + 3 - \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
    &= \int (x^2 - 2x + 3) \, dx - \int \dfrac{4x + 2}{(x+1)(x+1)} \, dx\\
    &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } + \dfrac{ B }{ (x + 1)^2 } \, dx\\
    &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ A }{ x + 1 } \, dx - \int \dfrac{ B }{ (x + 1)^2 } \, dx\\
    &= \int (x^2 - 2x + 3) \, dx -\int \dfrac{ 4 }{ x + 1 } \, dx - \int \dfrac{ -2 }{ (x + 1)^2 } \, dx\\
    &= \int (x^2 - 2x + 3) \, dx - 4 \int \dfrac{ 1 }{ x + 1 } \, dx + 2 \int \dfrac{ 1 }{ (x + 1)^2 } \, dx\\
-   &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
+   &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C {\color{blue} \quad  \text{(1p)}}
 \end{align}
 ```
 ````
