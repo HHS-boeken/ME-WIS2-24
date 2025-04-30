@@ -5,7 +5,6 @@
 ````{admonition} Antwoord
 :class: dropdown
 
-De vorm wordt:
 \begin{align*}
 \frac{7}{3} - \frac{17}{3(3x + 2)}
 \end{align*}
@@ -168,10 +167,7 @@ Toepassen van de quotiëntregel:
 ````{admonition} Antwoord
 :class:  dropdown
 
-Bereken het buigpunt van de grafiek van $f$.
-\begin{align*}
-    f(x) = \dfrac{10 \ln(x)}{x}
-\end{align*}
+Het buigpunt is (4.48 ; 3.35).
 
 ```{admonition} Uitwerking
 :class: important, dropdown
@@ -259,7 +255,6 @@ Dus buigpunt is (4.48 ; 3.35).
 ````{admonition} Antwoord
 :class:  dropdown 
 
-Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
     f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
 \end{align*}
@@ -310,7 +305,6 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ````{admonition} Antwoord
 :class:  dropdown 
 
-Bereken de onbepaalde integraal:
 \begin{align*}
     \int x^2 \cdot \sin(x^3) \, dx &= -\dfrac{1}{3} \cos(x^3) + C \\
 \end{align*}
@@ -461,7 +455,6 @@ Dus,
 ````{admonition} Antwoord
 :class:  dropdown
 
-Bepaal de onbepaalde integraal:
 \begin{align*}
     \int \dfrac{-6x+14}{x^2+2x-3}  \, dx &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\
 \end{align*}
