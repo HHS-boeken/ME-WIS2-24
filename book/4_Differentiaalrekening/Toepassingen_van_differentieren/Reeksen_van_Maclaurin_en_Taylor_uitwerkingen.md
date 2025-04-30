@@ -294,7 +294,7 @@ We nemen de termen tot en met \( x^4 \), want dat levert een Maclaurin-reeks **t
 
 ### Opgave 5.3.1g
 
-````{admonition}
+````{admonition} Antwoord
 :class:  dropdown
 
 \begin{align}
