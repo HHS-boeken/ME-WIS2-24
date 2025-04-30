@@ -11,7 +11,7 @@ De vorm wordt:
 \end{align*}
 
 ```{admonition} Uitwerking
-:class: dropdown
+:class: important, dropdown
 
 Schrijf in de vorm $\dfrac{m}{x - p} + q$:
 \begin{align*}
@@ -48,7 +48,7 @@ Vereenvoudig de breuk:
 :class:  dropdown
 
 ```{admonition} Uitwerking
-:class:  dropdown
+:class: important, dropdown
 
 Bereken de limiet:
 
@@ -100,7 +100,7 @@ Dit geeft:
 \end{align*}
 
 ```{admonition} Uitwerking
-:class:  dropdown
+:class: important, dropdown
 
 Bereken de limiet:
 \begin{align*}
@@ -129,7 +129,7 @@ Invullen van $x=0$ geeft:
 \end{align*}
 
 ```{admonition} Uitwerking
-:class:  dropdown
+:class: important, dropdown
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -499,7 +499,7 @@ A en B invullen in de integraal en oplossen geeft:
 \end{align*}
 
 ```{admonition} Uitwerking
-:class:  dropdown
+:class: important, dropdown
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
