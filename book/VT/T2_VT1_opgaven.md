@@ -41,7 +41,7 @@ Bepaal de afgeleide van de volgende functie.
 
 ### Opgave 5
 
-Stel langs algebra"ische weg de formule op van de buigraaklijn $k$ van de grafiek van $f$.
+Bereken het buigpunt van de grafiek van $f$.
 \begin{align*}
     f(x) = \dfrac{10 \ln(x)}{x}
 \end{align*}
@@ -86,4 +86,8 @@ Bepaal de onbepaalde integraal:
 
 ### Opgave 10
 
+Bepaal de onbepaalde integraal:
+\begin{align*}
+    \int  \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
+\end{align*}
 
