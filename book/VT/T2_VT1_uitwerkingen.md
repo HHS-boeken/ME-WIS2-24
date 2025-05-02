@@ -75,12 +75,12 @@ teller:
 
 Noemer:
 \begin{align}
-    12 - 4x = 12 - 4 \cdot 2.9 =  11,6
+    12 - 4x = 12 - 4 \cdot 2.9 =  0.4
 \end{align}
 
 Dus, 
 \begin{align}
-    \frac{ x-9  }{ 12 - 4x } = \dfrac{-6,1}{ 11,6} = \dfrac{-}{+} = -  {\color{blue} \quad  \text{(1p)}}
+    \frac{ x-9  }{ 12 - 4x } = \dfrac{-6.1}{ 0.4} = \dfrac{-}{+} = -  {\color{blue} \quad  \text{(1p)}}
 \end{align}
 
 Dit geeft:

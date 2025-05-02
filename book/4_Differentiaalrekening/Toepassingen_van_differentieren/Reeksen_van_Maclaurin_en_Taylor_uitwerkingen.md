@@ -436,3 +436,49 @@ Invullen van de waardes in de Maclaurin-reeks geeft:
 ````
 
 
+### Opgave 5.3.2b
+
+````{admonition} Antwoord
+:class: important, dropdown
+
+Bepaal de 3e orde Taylor-reeks rond $x=1$ van
+\begin{align*}
+    f(x) = \ln(x)
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de 3e orde Taylor-reeks rond $x=1$ van
+\begin{align*}
+    f(x) = \ln(x)
+\end{align*}
+
+Bereken de afgeleide van $f(x)$ tot de 3e orde:
+\begin{align}
+  f(x) &= \ln(x) \\
+  f'(x) &= \dfrac{1}{x} \\
+  f''(x) &= -\dfrac{1}{x^2} \\
+  f'''(x) &= \dfrac{2}{x^3}
+\end{align}
+
+Evalueer de afgeleide bij $x=1$:
+\begin{align}
+  f(1) &= \ln(1) = 0 \\
+  f'(1) &= 1 \\
+  f''(1) &= -1 \\
+  f'''(1) &= 2
+\end{align}
+
+Invullen van de waardes in de Taylor-reeks rond $x=1$ geeft:
+
+\begin{align}
+  f(x) &\approx f(1) + f'(1)(x-1) + \dfrac{f''(1)}{2!}(x-1)^2 + \dfrac{f'''(1)}{3!}(x-1)^3 \\
+\end{align}
+
+\begin{align}
+  f(x) &\approx 0 + 1(x-1) + \dfrac{-1}{2}(x-1)^2 + \dfrac{2}{6}(x-1)^3 \\
+  f(x) &\approx (x-1) - \dfrac{1}{2}(x-1)^2 + \dfrac{1}{3}(x-1)^3 \\
+\end{align}
+```
+````
