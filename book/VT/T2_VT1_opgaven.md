@@ -79,7 +79,7 @@ Primitiveer:
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
-    \int  \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx
+    \int  \dfrac{-6x + 14}{x^2 + 2x - 3}  \, dx
 \end{align*}
 
 ---
