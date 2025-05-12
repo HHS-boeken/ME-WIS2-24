@@ -100,7 +100,7 @@ parts:
     chapters:
     #- file: Integraalrekening/Integreren/Integreren.md
 
-    - file: 6_Complexe_getallen/Integratietechnieken/Integratietechnieken.md
+    - file: 6_Complexe_getallen/H6_Complexe_getallen.md
       sections:
       - file: 6_Complexe_getallen/H6.1_Inleiding.md
       - file: 6_Complexe_getallen/H6.2_Rekenen_met_complexe_getallen.md
