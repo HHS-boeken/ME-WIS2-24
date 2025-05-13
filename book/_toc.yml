@@ -100,13 +100,13 @@ parts:
     chapters:
 
     - file: 6_Complexe_getallen/H6_Complexe_getallen.md
-    - file: 6_Complexe_getallen/H6.1_Inleiding.md
-    - file: 6_Complexe_getallen/H6.2_Rekenen_met_complexe_getallen.md
-    - file: 6_Complexe_getallen/H6.3_Complexe_getallen_in_goniometrische_vorm.md
-    - file: 6_Complexe_getallen/H6.4_Rekenen_met_complexe_getallen_in_goniometrische_vorm.md
-    - file: 6_Complexe_getallen/H6.5_Complexe_getallen_in_exponentiele_vorm.md
-    - file: 6_Complexe_getallen/H6.6_Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
-    - file: 6_Complexe_getallen/H6.7_Complexe_getallen_en_vergelijkingen.md
+    - file: 6_Complexe_getallen/H6_1_Inleiding.md
+    - file: 6_Complexe_getallen/H6_2_Rekenen_met_complexe_getallen.md
+    - file: 6_Complexe_getallen/H6_3_Complexe_getallen_in_goniometrische_vorm.md
+    - file: 6_Complexe_getallen/H6_4_Rekenen_met_complexe_getallen_in_goniometrische_vorm.md
+    - file: 6_Complexe_getallen/H6_5_Complexe_getallen_in_exponentiele_vorm.md
+    - file: 6_Complexe_getallen/H6_6_Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
+    - file: 6_Complexe_getallen/H6_7_Complexe_getallen_en_vergelijkingen.md
 
   - caption: Opgaven en Uitwerkingen lessen
     chapters:
