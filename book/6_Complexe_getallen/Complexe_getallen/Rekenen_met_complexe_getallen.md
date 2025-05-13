@@ -6,7 +6,9 @@
 :class: dropdown
 
 Gegeven:
+
 $z_1 = 2 + 6i$ en $z_2 = 3 + 4i$
+
 Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 
 \begin{align*}
@@ -20,14 +22,18 @@ Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 :class: important, dropdown
 
 Gegeven:
+
 $z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
+
 Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Gegeven:
+
 $z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
+
 Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 
 \begin{align*}
