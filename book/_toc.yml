@@ -97,7 +97,7 @@ parts:
   - caption: Complexe getalllen
     chapters:
 
-    - file: 6_Complexe_getallen/Complexe_getallen/H6_Complexe_getallen.md
+    - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen.md
       sections:
       #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding_opgaven.md
