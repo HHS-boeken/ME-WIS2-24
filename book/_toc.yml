@@ -81,8 +81,6 @@ parts:
 
   - caption: Integreren
     chapters:
-    #- file: Integraalrekening/Integreren/Integreren.md
-
     - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
       - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode.md
@@ -100,14 +98,32 @@ parts:
     chapters:
 
     - file: 6_Complexe_getallen/Complexe_getallen/H6_Complexe_getallen.md
-     # sections:
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_1_Inleiding.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_2_Rekenen_met_complexe_getallen.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_3_Complexe_getallen_in_goniometrische_vorm.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_4_Rekenen_met_complexe_getallen_in_goniometrische_vorm.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_5_Complexe_getallen_in_exponentiele_vorm.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_6_Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/H6_7_Complexe_getallen_en_vergelijkingen.md
+      sections:
+      #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding_uitwerkingen.md
+      
+      - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_uitwerkingen.md
+      
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm_uitwerkingen.md
+      
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm_uitwerkingen.md
+      
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm_uitwerkingen.md
+      
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_uitwerkingen.md
+      
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen.md
 
   - caption: Opgaven en Uitwerkingen lessen
     chapters:
