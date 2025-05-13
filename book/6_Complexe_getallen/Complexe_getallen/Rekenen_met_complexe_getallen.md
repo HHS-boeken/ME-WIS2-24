@@ -55,7 +55,9 @@ Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 :class: important, dropdown
 
 Gegeven:
+
 $z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
 Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 
 \begin{align*}
