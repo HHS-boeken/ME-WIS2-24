@@ -266,17 +266,37 @@ Bereken $\dfrac{z_1}{z_2}$  en schrijf in de vorm $a + bi$:
                 &= \dfrac{3 - 6i - 21i + 42i^2}{1 + 7i - 7i - 49i^2} \\
                 &= \dfrac{3 - 27i - 42}{1 + 49} \\
                 &= \dfrac{-39 - 27i}{50} \\
-                &= \dfrac{-39 }{50} -  \dfrac{27 }{50}i
+                &= -\dfrac{39 }{50} -  \dfrac{27 }{50}i
 \end{align*}
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 8
 :class: important, dropdown
+
+Gegeven:
+
+$z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
+Bereken $\dfrac{z_1}{z_2}$ en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+Gegeven:
+
+$z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
+Bereken $\dfrac{z_1}{z_2}$  en schrijf in de vorm $a + bi$:
+
+\begin{align*}
+   \dfrac{z_1}{z_2}  &= \dfrac{-3 - 9i}{1 + 2i} \\
+                &= \dfrac{-3 - 9i}{1 + 2i} \cdot \dfrac{1 - 2i}{1 - 2i} \\\\
+                &= \dfrac{-3 - 9i + 6i + 18i^2}{1 + 2i -2i - 4i^2} \\
+                &= \dfrac{-3 - 3i - 18 }{1 + 4} \\
+                &= \dfrac{-21 - 3i }{5} \\
+                &= -\dfrac{ 21 }{5}  - \dfrac{3}{5}i
+\end{align*}
 
 ```
 ````
