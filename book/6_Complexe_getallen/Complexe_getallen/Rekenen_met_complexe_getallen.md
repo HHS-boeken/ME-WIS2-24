@@ -223,20 +223,51 @@ Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 ## 7.2.4 Delen van complexe getallen
 
 
-````{admonition} Voorbeeld 1:
+````{admonition} Voorbeeld 4:
 :class: dropdown
 
-Bereken de onbepaalde integraal:
+Gegeven:
+
+$z_1 = 2 + 6i$ en $z_2 = 3 + 4i$
+
+Bereken $\dfrac{z_1}{z_2}$ en schrijf in de vorm $a + bi$:
+
+\begin{align*}
+    \dfrac{z_1}{z_2}  &= \dfrac{2 + 6i}{3 + 4i} \\
+                &= \dfrac{2 + 6i}{3 + 4i} \cdot \dfrac{3 - 4i}{3 - 4i} \\
+                &= \dfrac{6 + 18i - 8i - 24i^2}{9 - 12i + 12i -16i^2} \\
+                &= \dfrac{6 + 10i + 24 }{9 + 16} \\
+                &= \dfrac{30 + 10i }{25} \\
+                &= \dfrac{30}{25} + \dfrac{10 }{25}i \\
+                &= \dfrac{6}{5} + \dfrac{2 }{5}i
+\end{align*}
 
 ````
 
-````{admonition} Oefening 1
+````{admonition} Oefening 7
 :class: important, dropdown
+
+$z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
+
+Bereken $\dfrac{z_1}{z_2}$  en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+Gegeven:
 
+$z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
+
+Bereken $\dfrac{z_1}{z_2}$  en schrijf in de vorm $a + bi$:
+
+\begin{align*}
+    \dfrac{z_1}{z_2}    &= \dfrac{3 - 6i}{1 + 7i} \\
+                &= \dfrac{3 - 6i}{1 + 7i} \cdot \dfrac{1 - 7i}{1 - 7i} \\
+                &= \dfrac{3 - 6i - 21i + 42i^2}{1 + 7i - 7i - 49i^2} \\
+                &= \dfrac{3 - 27i - 42}{1 + 49} \\
+                &= \dfrac{-39 - 27i}{50} \\
+                &= \dfrac{-39 }{50} -  \dfrac{27 }{50}i
+\end{align*}
 ```
 ````
 
