@@ -48,7 +48,9 @@ Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 :class: important, dropdown
 
 Gegeven:
+
 $z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
 Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
@@ -69,7 +71,6 @@ Bereken $z_1 + z_2$ en schrijf in de vorm $a + bi$:
 ````
 
 ## 7.2.2 Aftrekken van complexe getallen
-
 
 ````{admonition} Voorbeeld 2:
 :class: dropdown
@@ -117,7 +118,9 @@ Bereken $z_1 - z_2$ en schrijf in de vorm $a + bi$:
 :class: important, dropdown
 
 Gegeven:
+
 $z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
 Bereken $z_1 - z_2$ en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
@@ -140,30 +143,80 @@ Bereken $z_1 - z_2$ en schrijf in de vorm $a + bi$:
 ## 7.2.3 Vermenigvuldigen van complexe getallen
 
 
-````{admonition} Voorbeeld 1:
+````{admonition} Voorbeeld 3:
 :class: dropdown
 
-Bereken de onbepaalde integraal:
+Gegeven:
+
+$z_1 = 2 + 6i$ en $z_2 = 3 + 4i$
+
+Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
+
+\begin{align*}
+    z_1 \cdot z_2   &= (2 + 6i) \cdot (3 + 4i) \\
+                &= 2 \cddot 3 + 6i \cdot 3 + 2 \cdot 4i + 6i \cdot 4i \\
+                &= 6 + 18i + 8i + 24i^2 \\
+                &= 6 + 26i + 24 \cdot (-1) \\
+                &= 6 + 26i - 24 \\
+                &= -18 + 26i
+\end{align*}
 
 ````
 
-````{admonition} Oefening 1
+````{admonition} Oefening 5
 :class: important, dropdown
+
+$z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
+
+Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+Gegeven:
+
+$z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
+
+Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
+
+\begin{align*}
+    z_1 \cdot z_2   &= (3 - 6i) \cdot (1 + 7i) \\
+                &= 3 \cdot 1 - 6i \cdot 1 + 3 \cdot 7i - 6i \cdot 7i \\
+                &= 3 - 6i + 21i - 42i^2 \\
+                &= 3 + 15i - 42 \cdot (-1) \\
+                &= 3 + 15i + 42 \\
+                &= 45 + 15i
+\end{align*}
 
 ```
 ````
 
-````{admonition} Oefening 2
+````{admonition} Oefening 6
 :class: important, dropdown
+
+Gegeven:
+
+$z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
+Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+Gegeven:
 
+$z_1 = -3 - 9i$ en $z_2 = 1 + 2i$
+
+Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
+
+\begin{align*}
+    z_1 \cdot z_2   &= (-3 - 9i) \cdot (1 + 2i) \\
+                &= -3 \cdot 1 -9i \cdot 1 -3 \cdot 2i -9i \cdot 2i \\
+                &= -3 -9i -6i -18i^2 \\
+                &= -3 - 15i - 18 \cdot (-1) \\
+                &= -3 -15i + 18 \cdot \\
+                &= 15 - 15i
+\end{align*}
 ```
 ````
 
