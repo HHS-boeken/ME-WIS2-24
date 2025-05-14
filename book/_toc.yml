@@ -104,7 +104,7 @@ parts:
       #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding_uitwerkingen.md
       
       - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen.md
-      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_opgaven.md
+      - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_uitwerkingen.md
       
       - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm.md
