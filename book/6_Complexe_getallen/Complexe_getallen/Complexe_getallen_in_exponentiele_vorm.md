@@ -7,12 +7,11 @@ Een complex getal $z$ kan worden geschreven in \textit{algebraïsche vorm / cart
 \end{align*}
 met $a$ het reële deel en $b$ het imaginaire deel.
 
-
 In \textit{goniometrische vorm of poolvorm} wordt hetzelfde getal geschreven als:
 \begin{align*}
-z = r(\cos \theta + i \sin \theta)
-\]
+    z = r(\cos \theta + i \sin \theta)
 \end{align*}
+
 \begin{itemize}
     \item \( r = |z| = \sqrt{a^2 + b^2} \) de modulus,
     \item \( \theta = \arg(z) \) het argument (de hoek met de positieve reële as, in radialen).
@@ -21,37 +20,42 @@ z = r(\cos \theta + i \sin \theta)
 \subsection*{Euler’s formule}
 
 De Eulerformule legt het verband tussen de goniometrische en exponentiële vormen van een complex getal:
-\[
-e^{i\theta} = \cos \theta + i \sin \theta
-\]
+
+\begin{align*}
+    e^{i\theta} = \cos \theta + i \sin \theta
+\end{align*}
 
 Hiermee kunnen we een complex getal ook schrijven als:
-\[
-z = r e^{i\theta}
-\]
+\begin{align*}
+    z = r e^{i\theta}
+\end{align*}
 Deze vorm heet de \textbf{exponentiële vorm} van een complex getal.
 
-\subsection*{Voordelen van de exponentiële vorm}
+---
+**Voordelen van de exponentiële vorm**
 
 De exponentiële vorm is vooral handig bij vermenigvuldigen, delen, machtsverheffen en worteltrekken van complexe getallen.
 
-\paragraph{Vermenigvuldigen}
+\begin{align*}
+z_1 = r_1 e^{i\theta_1}  \quad z_2 = r_2 e^{i\theta_2} 
+\end{align*}
+
+**Vermenigvuldigen**
 \[
-z_1 = r_1 e^{i\theta_1}, \quad z_2 = r_2 e^{i\theta_2} 
 \Rightarrow z_1 \cdot z_2 = r_1 r_2 e^{i(\theta_1 + \theta_2)}
 \]
 
-\paragraph{Delen}
+**Delen**
 \[
 \frac{z_1}{z_2} = \frac{r_1}{r_2} e^{i(\theta_1 - \theta_2)}
 \]
 
-\paragraph{Macht van een complex getal (De Moivre)}
+**Macht van een complex getal (De Moivre)**
 \[
 z^n = (r e^{i\theta})^n = r^n e^{in\theta}
 \]
 
-\paragraph{Wortel (n-de machtswortel)}
+**Wortel (n-de machtswortel)**
 \[
 \sqrt[n]{z} = \sqrt[n]{r} \cdot e^{i\left(\frac{\theta + 2k\pi}{n}\right)} \quad \text{voor } k = 0, 1, \dots, n-1
 \]
