@@ -77,18 +77,18 @@ Schrijf in exponentiële vorm
 
 De modulus is:
 \begin{align*}
-    r = |z| = sqrt{1^2 + 1^2} = sqrt{2}
+    r = |z| = \sqrt{1^2 + 1^2} = \sqrt{2}
 \end{align*}
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) = tan^{-1} (\dfrac{1}{2}) = \dfrac{\pi}{4}
+    \phi = arg(z) = \tan^{-1} (\dfrac{1}{2}) = \dfrac{\pi}{4}
 \end{align*}
 
 Schrijf $z=1+i$ in exponentiële vorm:
 \begin{align*}
     z &= r \cdot e^{\phi i} \\
-    z &= sqrt{2} e^{\dfrac{\pi}{4} i}
+    z &= \sqrt{2} e^{\frac{\pi}{4} i}
 \end{align*}
 ````
 
