@@ -16,8 +16,8 @@ In **goniometrische vorm of poolvorm** wordt hetzelfde getal geschreven als:
 \end{align*}
 
 \begin{align*}
-    r = |z| = \sqrt{a^2 + b^2} \text{de modulus}
-    \theta = \arg(z) \text{het argument (de hoek met de positieve reële as, in radialen)}
+    r = |z| = \sqrt{a^2 + b^2} \text{de modulus} \\
+    \theta = \arg(z) \text{het argument (de hoek met de positieve reële as, in radialen)} \\
 \end{align*}
 
 **Euler’s formule**
@@ -68,9 +68,28 @@ De exponentiële vorm is vooral handig bij vermenigvuldigen, delen, machtsverhef
 
 ## 7.5.1
 
-````{admonition} Voorbeeld 1: 
+````{admonition} Voorbeeld 1:
 :class: dropdown
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = 1 + i
+\end{align*}
 
+De modulus is:
+\begin{align*}
+    r = |z| = sqrt{1^2 + 1^2} = sqrt{2}
+\end{align*}
+
+Het argument is:
+\begin{align*}
+    \phi = arg(z) = tan^{-1} (\dfrac{1}{2}) = \dfrac{\pi}{4}
+\end{align*}
+
+Schrijf $z=1+i$ in exponentiële vorm:
+\begin{align*}
+    z &= r \cdot e^{\phi i} \\
+    z &= sqrt{2} e^{\dfrac{\pi}{4} i}
+\end{align*}
 ````
 
 ````{admonition} Oefening 1
