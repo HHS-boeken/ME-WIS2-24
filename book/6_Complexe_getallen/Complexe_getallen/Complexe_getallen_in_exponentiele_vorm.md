@@ -45,7 +45,7 @@ De exponentiële vorm is vooral handig bij vermenigvuldigen, delen, machtsverhef
 
 **Vermenigvuldigen:**
 \begin{align*}
-    \Rightarrow z_1 \cdot z_2 = r_1 r_2 e^{i(\theta_1 + \theta_2)}
+    z_1 \cdot z_2 = r_1 r_2 e^{i(\theta_1 + \theta_2)}
 \end{align*}
 
 **Delen:**
@@ -60,8 +60,33 @@ De exponentiële vorm is vooral handig bij vermenigvuldigen, delen, machtsverhef
 
 **Wortel (n-de machtswortel):**
 \begin{align*}
-    \sqrt[n]{z} = \sqrt[n]{r} \cdot e^{i\left(\frac{\theta + 2k\pi}{n}\right)} \quad \text{voor } k = 0, 1, \dots, n-1
+    \sqrt[n]{z} = \sqrt[n]{r} \cdot e^{i\left(\frac{\theta + 2k\pi}{n}\right)} \quad \text{voor} \quad k = 0, 1, \dots, n-1
 \end{align*}
+
+```
+````
+
+## 7.5.1
+
+````{admonition} Voorbeeld 1: 
+:class: dropdown
+
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+```{admonition} Uitwerking
+:class: important, dropdown
 
 ```
 ````
