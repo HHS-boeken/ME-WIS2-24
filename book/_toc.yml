@@ -153,6 +153,10 @@ parts:
     - file: VT/T2_VT1_opgaven.md
     - file: VT/T2_VT1_uitwerkingen.md
 
+  - caption: Voorbeeld Toets - T3
+    chapters:
+    - file: VT/T3_VT1_opgaven.md
+    - file: VT/T3_VT1_uitwerkingen.md
 
   - caption: Overig
     chapters:
