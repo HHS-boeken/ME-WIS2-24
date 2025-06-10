@@ -182,3 +182,47 @@ Schrijf in exponentiële vorm:
 \end{align*}
 ```
 ````
+
+````{admonition} Oefening 3
+:class: important, dropdown
+
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = \sqrt{3}- i
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = \sqrt{3}- i
+\end{align*}
+
+De modulus is:
+\begin{align*}
+    r = |z| &= \sqrt{ ( \sqrt{3})^2 + (1)^2}  \\
+    &= \sqrt{ 3 + 1  } \\
+    &= \sqrt{4}  \\
+    &= 2
+\end{align*}
+
+Het argument is:
+\begin{align*}
+    \phi = arg(z) &= \tan^{-1} (\dfrac{ -1 }{ \sqrt{3} }) \\
+    &= -\dfrac{ \pi}{6}
+\end{align*}
+
+Omdat $z$ in het vierde kwadrant ligt:
+\begin{align*}
+    \phi    &= - \dfrac{\pi}{6} \\
+\end{align*}
+
+Schrijf in exponentiële vorm:
+\begin{align*}
+    z &= r \cdot e^{\phi i} \\
+    z &= 2 \cdot e^{\frac{-\pi}{6} i} \\
+    z &= 2e^{\frac{-\pi}{6} i} 
+\end{align*}
+```
+````
