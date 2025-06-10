@@ -18,7 +18,7 @@ met:
 
 **Poolvorm (goniometrische vorm)**
 
-Een complex getal kan ook worden uitgedrukt in termen van een modulus en een hoek. Dat noemen we de \textbf{poolvorm} of \textbf{goniometrische vorm}:
+Een complex getal kan ook worden uitgedrukt in termen van een modulus en een hoek. Dat noemen we de **poolvorm** of **goniometrische vorm**:
 
 \begin{align*}
     z = r \left( \cos \theta + i \sin \theta \right)
@@ -44,15 +44,12 @@ Let op: de uitkomst van de tangens is afhankelijk van het kwadrant waarin  $z$ l
 **Overgang naar poolvorm**
 
 Om $z = a + bi$ om te zetten naar de poolvorm:
-\begin{enumerate}
-    \item Bereken $r = \sqrt{a^2 + b^2}$
-    \item Bepaal de hoek $\theta = \arg(z)$, eventueel als negatieve of positieve waarde
-    \item Vul in: $z = r(\cos \theta + i \sin \theta)$
-\end{enumerate}
 
-\subsection*{Vermenigvuldigen en delen in poolvorm}
+1. Bereken $r = \sqrt{a^2 + b^2}$
+1. Bepaal de hoek $\theta = \arg(z)$, eventueel als negatieve of positieve waarde
+1. Vul in: $z = r(\cos \theta + i \sin \theta)$
 
-Als \( z_1 = r_1(\cos \theta_1 + i \sin \theta_1) \) en \( z_2 = r_2(\cos \theta_2 + i \sin \theta_2) \), dan geldt:
+Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i \sin \theta_2)$, dan geldt:
 
 **Vermenigvuldigen**
 
@@ -74,23 +71,26 @@ Als \( z_1 = r_1(\cos \theta_1 + i \sin \theta_1) \) en \( z_2 = r_2(\cos \theta
 :class: dropdown
 Schrijf in exponentiële vorm
 \begin{align*}
-    z = 1 + i
+    z = 1 + \sqrt{3}i
 \end{align*}
 
 De modulus is:
 \begin{align*}
-    r = |z| = \sqrt{1^2 + 1^2} = \sqrt{2}
+    r = |z| &= \sqrt{ (1)^2 + (\sqrt{3})^2} \\
+    &= \sqrt{4} \\
+    &= 2
 \end{align*}
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) = \tan^{-1} (\dfrac{1}{1}) = \dfrac{\pi}{4}
+    \phi = arg(z) &= \tan^{-1} (\dfrac{ \sqrt{3} }{1}) \\
+    &= \dfrac{\pi}{3}
 \end{align*}
 
-Schrijf $z=1+i$ in exponentiële vorm:
+Schrijf in goniometrische vorm:
 \begin{align*}
-    z &= r \cdot e^{\phi i} \\
-    z &= \sqrt{2} e^{\frac{\pi}{4} i}
+    z &= r(\cos \theta + i \sin \theta)\\
+    z &= 2(\cos \left(\dfrac{\pi}{3} \right)  + i \sin(\dfrac{\pi}{3}) )
 \end{align*}
 ````
 
