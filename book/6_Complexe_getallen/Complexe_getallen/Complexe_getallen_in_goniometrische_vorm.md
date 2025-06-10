@@ -1,5 +1,8 @@
 # 7.3 Complexe getallen in goniometrische vorm (poolvorm)
 
+````{admonition} Theorie
+:class: tip, dropdown open
+
 Een complex getal $z$ wordt meestal geschreven als:
 
 \begin{align*}
@@ -7,11 +10,11 @@ Een complex getal $z$ wordt meestal geschreven als:
 \end{align*}
 
 met:
-\begin{itemize}
-    \item \( a \in \mathbb{R} \): het reële deel,
-    \item \( b \in \mathbb{R} \): het imaginaire deel,
-    \item \( i \): de imaginaire eenheid, met \( i^2 = -1 \).
-\end{itemize}
+\begin{align*}
+    a &=\text{ het reële deel} \\
+    b &=\text{ het imaginaire deel} \\
+    i &=\text{ de imaginaire eenheid, met }  i^2 = -1
+\end{align*}
 
 **Poolvorm (goniometrische vorm)**
 
@@ -22,10 +25,10 @@ Een complex getal kan ook worden uitgedrukt in termen van een modulus en een hoe
 \end{align*}
 
 met:
-\begin{itemize}
-    \item \( r = |z| = \sqrt{a^2 + b^2} \): de modulus van \( z \),
-    \item \( \theta = \arg(z) \): het argument (de hoek die \( z \) maakt met de positieve reële as, in radialen).
-\end{itemize}
+\begin{align*}
+    r &= |z| = \sqrt{a^2 + b^2} \quad \text{ de modulus van  $z$ } \\
+    \theta &= \arg(z) \quad \text{het argument (de hoek die $z$ maakt met de positieve reële as, in radialen) }
+\end{align*}
 
 **Modulus en argument berekenen**
 
@@ -38,28 +41,61 @@ Voor een complex getal $z = a + bi$ geldt:
 
 Let op: de uitkomst van de tangens is afhankelijk van het kwadrant waarin  $z$ ligt. Gebruik daarom een schets voor de juiste hoek.
 
-\subsection*{Overgang naar poolvorm}
+**Overgang naar poolvorm**
 
-Om \( z = a + bi \) om te zetten naar de poolvorm:
+Om $z = a + bi$ om te zetten naar de poolvorm:
 \begin{enumerate}
-    \item Bereken \( r = \sqrt{a^2 + b^2} \)
-    \item Bepaal de hoek \( \theta = \arg(z) \), eventueel als negatieve of positieve waarde
-    \item Vul in: \( z = r(\cos \theta + i \sin \theta) \)
+    \item Bereken $r = \sqrt{a^2 + b^2}$
+    \item Bepaal de hoek $\theta = \arg(z)$, eventueel als negatieve of positieve waarde
+    \item Vul in: $z = r(\cos \theta + i \sin \theta)$
 \end{enumerate}
 
 \subsection*{Vermenigvuldigen en delen in poolvorm}
 
 Als \( z_1 = r_1(\cos \theta_1 + i \sin \theta_1) \) en \( z_2 = r_2(\cos \theta_2 + i \sin \theta_2) \), dan geldt:
 
-\paragraph{Vermenigvuldigen:}
-\[
-z_1 \cdot z_2 = r_1 r_2 \left[ \cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2) \right]
-\]
+**Vermenigvuldigen**
 
-\paragraph{Delen:}
-\[
-\frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right]
-\]
+\begin{align*}
+    z_1 \cdot z_2 = r_1 r_2 \left[ \cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2) \right]
+\end{align*}
+
+**Delen**
+
+\begin{align*}
+    \frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right]
+\end{align*}
+````
+
+
+## 7.3.1 Complexe getallen in goniometrische vorm (poolvorm)
+
+````{admonition} Voorbeeld 1:
+:class: dropdown
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = 1 + i
+\end{align*}
+
+De modulus is:
+\begin{align*}
+    r = |z| = \sqrt{1^2 + 1^2} = \sqrt{2}
+\end{align*}
+
+Het argument is:
+\begin{align*}
+    \phi = arg(z) = \tan^{-1} (\dfrac{1}{1}) = \dfrac{\pi}{4}
+\end{align*}
+
+Schrijf $z=1+i$ in exponentiële vorm:
+\begin{align*}
+    z &= r \cdot e^{\phi i} \\
+    z &= \sqrt{2} e^{\frac{\pi}{4} i}
+\end{align*}
+````
+
+
+
 
 \subsection*{Voorbeeld: Zet \( z = 1 + i\sqrt{3} \) om naar de poolvorm}
 
