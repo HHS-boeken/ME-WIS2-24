@@ -66,7 +66,7 @@ De exponentiële vorm is vooral handig bij vermenigvuldigen, delen, machtsverhef
 ```
 ````
 
-## 7.5.1
+## 7.5.1 Complexe getallen in Exponentiële vorm
 
 ````{admonition} Voorbeeld 1:
 :class: dropdown
