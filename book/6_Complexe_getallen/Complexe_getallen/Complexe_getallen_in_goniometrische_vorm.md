@@ -75,23 +75,23 @@ Schrijf in exponentiële vorm
 \end{align*}
 
 De modulus is:
-\begin{align*}
+\begin{align}
     r = |z| &= \sqrt{ (1)^2 + (\sqrt{3})^2} \\
     &= \sqrt{4} \\
     &= 2
-\end{align*}
+\end{align}
 
 Het argument is:
-\begin{align*}
+\begin{align}
     \phi = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
     &= \dfrac{\pi}{3}
-\end{align*}
+\end{align}
 
 Schrijf in goniometrische vorm:
-\begin{align*}
+\begin{align}
     z &= r(\cos \theta + i \sin \theta)\\
     z &= 2 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
-\end{align*}
+\end{align}
 ````
 
 ````{admonition} Oefening 1
@@ -106,35 +106,35 @@ Schrijf in exponentiële vorm
 :class: important, dropdown
 
 Schrijf in exponentiële vorm
-\begin{align*}
+\begin{align}
     z = -\sqrt{3} + i
-\end{align*}
+\end{align}
 
 De modulus is:
-\begin{align*}
+\begin{align}
     r = |z| &= \sqrt{ (-\sqrt{3})^2 + (1)^2}  \\
     &= \sqrt{ 3 + 1  } \\
     &= \sqrt{4}  \\
     &= 2
-\end{align*}
+\end{align}
 
 Het argument is:
-\begin{align*}
+\begin{align}
     \phi = arg(z) &=  \tan^{-1} \left( \dfrac{1}{ -\sqrt{3} } \right) \\
     &= -\dfrac{ \pi}{6}
-\end{align*}
+\end{align}
 
 Omdat $z$ in het tweede kwadrant ligt:
-\begin{align*}
+\begin{align}
     \phi    &= \pi - \dfrac{\pi}{6} \\
             &= \dfrac{5\pi}{6}
-\end{align*}
+\end{align}
 
 Schrijf in goniometrische vorm:
-\begin{align*}
+\begin{align}
     z &= r(\cos \theta + i \sin \theta)\\
     z &= 2 \left( \cos \left( \dfrac{5\pi}{6} \right)  + i \sin \left( \dfrac{5\pi}{6} \right) \right)
-\end{align*}
+\end{align}
 ```
 ````
 
@@ -157,30 +157,30 @@ Schrijf in exponentiële vorm
 \end{align*}
 
 De modulus is:
-\begin{align*}
+\begin{align}
     r = |z| &= \sqrt{ (-2)^2 + (-2)^2}  \\
     &= \sqrt{ 4 + 4  } \\
     &= \sqrt{8}  \\
     &= 2\sqrt{2}
-\end{align*}
+\end{align}
 
 Het argument is:
-\begin{align*}
+\begin{align}
     \phi = arg(z) &=  \tan^{-1} \left( \dfrac{-2}{ -2 } \right) \\
     &=  \tan^{-1} (1)\\
     &= \dfrac{\pi}{4}
-\end{align*}
+\end{align}
 
 Omdat $z$ in het derde kwadrant ligt:
-\begin{align*}
+\begin{align}
     \phi    &= -\pi + \dfrac{\pi}{4} \\
             &= -\dfrac{3\pi}{4}
-\end{align*}
+\end{align}
 
 Schrijf in goniometrische vorm:
-\begin{align*}
+\begin{align}
     z &= r(\cos \theta + i \sin \theta)\\
     z &= 2\sqrt{2} \left( \cos \left( -\dfrac{3\pi}{4} \right)  + i \sin \left( -\dfrac{3\pi}{4} \right) \right)
-\end{align*}
+\end{align}
 ```
 ````

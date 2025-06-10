@@ -154,32 +154,32 @@ Schrijf in exponentiële vorm
 \end{align*}
 
 De modulus is:
-\begin{align*}
+\begin{align}
     r = |z| &= \sqrt{ (-\dfrac{\sqrt{3}}{2})^2 + (-\dfrac{1}{2})^2}  \\
     &= \sqrt{ \dfrac{3}{4} + \dfrac{1}{4}  } \\
     &= \sqrt{1}  \\
     &= 1
-\end{align*}
+\end{align}
 
 Het argument is:
-\begin{align*}
+\begin{align}
     \phi = arg(z) &= \tan^{-1} (\dfrac{ -\frac{1}{2} }{ \frac{ -\sqrt{3}}{2} }) \\
     &= \tan^{-1} ( \dfrac{1}{ \sqrt{3} } ) \\
     &= \dfrac{ \pi}{6}
-\end{align*}
+\end{align}
 
 Omdat $z$ in het derde kwadrant ligt:
-\begin{align*}
+\begin{align}
     \phi    &= -\pi + \dfrac{\pi}{6} \\
             &= - \dfrac{5\pi}{6}
-\end{align*}
+\end{align}
 
 Schrijf in exponentiële vorm:
-\begin{align*}
+\begin{align}
     z &= r \cdot e^{\phi i} \\
     z &= 1 \cdot e^{\frac{-5\pi}{6} i} \\
     z &= e^{\frac{-5\pi}{6} i} 
-\end{align*}
+\end{align}
 ```
 ````
 
