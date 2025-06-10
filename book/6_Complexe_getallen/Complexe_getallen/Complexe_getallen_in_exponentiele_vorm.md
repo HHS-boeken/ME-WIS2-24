@@ -140,28 +140,45 @@ Schrijf $z=1+i$ in exponentiële vorm:
 ````{admonition} Oefening 2
 :class: important, dropdown
 
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = -\dfrac{\sqrt{3}}{2} - \dfrac{1}{2}i
+\end{align*}
+
 ```{admonition} Uitwerking
 :class: important, dropdown
 
 Schrijf in exponentiële vorm
 \begin{align*}
-    z = 1 + i
+    z = -\dfrac{\sqrt{3}}{2} - \dfrac{1}{2}i
 \end{align*}
 
 De modulus is:
 \begin{align*}
-    r = |z| = \sqrt{1^2 + 1^2} = \sqrt{2}
+    r = |z| &= \sqrt{ (-\dfrac{\sqrt{3}}{2})^2 + (-\dfrac{1}{2})^2}  \\
+    &= \sqrt{ \dfrac{3}{4} + \dfrac{1}{4}  } \\
+    &= \sqrt{1}  \\
+    &= 1
 \end{align*}
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) = \tan^{-1} (\dfrac{1}{1}) = \dfrac{\pi}{4}
+    \phi = arg(z) &= \tan^{-1} (\dfrac{ -\frac{1}{2} }{ \frac{ -\sqrt{3}}{2} }) \\
+    &= \tan^{-1} ( \dfrac{1}{ \sqrt{3} } ) \\
+    &= \dfrac{ \pi}{6}
 \end{align*}
 
-Schrijf $z=1+i$ in exponentiële vorm:
+Omdat $z$ in het derde kwadrant ligt:
+\begin{align*}
+    \phi    &= -\pi + \dfrac{\pi}{6} \\
+            &= - \dfrac{5\pi}{6}
+\end{align*}
+
+Schrijf in exponentiële vorm:
 \begin{align*}
     z &= r \cdot e^{\phi i} \\
-    z &= \sqrt{2} e^{\frac{\pi}{4} i}
+    z &= 1 \cdot e^{\frac{-5\pi}{6} i} \\
+    z &= e^{\frac{-5\pi}{6} i} 
 \end{align*}
 ```
 ````
