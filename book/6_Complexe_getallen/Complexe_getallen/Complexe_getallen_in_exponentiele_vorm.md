@@ -95,6 +95,11 @@ Schrijf $z=1+i$ in exponentiële vorm:
 ````{admonition} Oefening 1
 :class: important, dropdown
 
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = -1 + i\sqrt{3}
+\end{align*}
+
 ```{admonition} Uitwerking
 :class: important, dropdown
 
@@ -112,7 +117,7 @@ De modulus is:
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) = \tan^{-1} (\dfrac{\sqrt{3}}{-1}) \\
+    \phi = arg(z) &= \tan^{-1} (\dfrac{\sqrt{3}}{-1}) \\
     &= \tan^{-1} (-\sqrt{3}) \\
     &= -\dfrac{\pi}{3}
 \end{align*}
@@ -127,7 +132,7 @@ Omdat $z$ in het tweede kwadrant ligt:
 Schrijf $z=1+i$ in exponentiële vorm:
 \begin{align*}
     z &= r \cdot e^{\phi i} \\
-    z &= 2 e^{\frac{\pi}{4} i}
+    z &= 2 e^{\frac{2\pi}{3} i}
 \end{align*}
 ```
 ````
