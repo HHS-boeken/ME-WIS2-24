@@ -154,7 +154,7 @@ Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 
 \begin{align}
     z_1 \cdot z_2   &= (2 + 6i) \cdot (3 + 4i) \\
-                &= 2 \cddot 3 + 6i \cdot 3 + 2 \cdot 4i + 6i \cdot 4i \\
+                &= 2 \cdot 3 + 6i \cdot 3 + 2 \cdot 4i + 6i \cdot 4i \\
                 &= 6 + 18i + 8i + 24i^2 \\
                 &= 6 + 26i + 24 \cdot (-1) \\
                 &= 6 + 26i - 24 \\
