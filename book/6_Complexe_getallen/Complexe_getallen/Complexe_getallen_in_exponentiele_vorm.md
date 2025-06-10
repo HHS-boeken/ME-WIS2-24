@@ -105,21 +105,21 @@ Schrijf in exponentiële vorm
 
 De modulus is:
 \begin{align*}
-    r = |z| &= \sqrt{(-1)^2 + (\sqrt{3})^2} 
-        &= \sqrt{4} 
+    r = |z| &= \sqrt{(-1)^2 + (\sqrt{3})^2} \\
+        &= \sqrt{4} \\
         &= 2
 \end{align*}
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) = \tan^{-1} (\dfrac{\sqrt{3}}{-1}) 
-    &= \tan^{-1} (-\sqrt{3})
+    \phi = arg(z) = \tan^{-1} (\dfrac{\sqrt{3}}{-1}) \\
+    &= \tan^{-1} (-\sqrt{3}) \\
     &= -\dfrac{\pi}{3}
 \end{align*}
 
 Omdat $z$ in het tweede kwadrant ligt:
 \begin{align*}
-    \phi    &= \pi -\dfrac{\pi}{3}
+    \phi    &= \pi -\dfrac{\pi}{3} \\
             &= \dfrac{2\pi}{3}
 \end{align*}
 
