@@ -1,13 +1,11 @@
-# 7.3 Complexe getallen in goniometrische vorm
+# 7.3 Complexe getallen in goniometrische vorm (poolvorm)
 
-\section*{Complexe getallen in poolvorm (goniometrische vorm)}
+Een complex getal $z$ wordt meestal geschreven als:
 
-\subsection*{Cartesische vorm}
+\begin{align*}
+    z = a + bi
+\end{align*}
 
-Een complex getal \( z \) wordt meestal geschreven als:
-\[
-z = a + bi
-\]
 met:
 \begin{itemize}
     \item \( a \in \mathbb{R} \): het reële deel,
@@ -15,29 +13,30 @@ met:
     \item \( i \): de imaginaire eenheid, met \( i^2 = -1 \).
 \end{itemize}
 
-\subsection*{Poolvorm (goniometrische vorm)}
+**Poolvorm (goniometrische vorm)**
 
 Een complex getal kan ook worden uitgedrukt in termen van een modulus en een hoek. Dat noemen we de \textbf{poolvorm} of \textbf{goniometrische vorm}:
-\[
-z = r \left( \cos \theta + i \sin \theta \right)
-\]
+
+\begin{align*}
+    z = r \left( \cos \theta + i \sin \theta \right)
+\end{align*}
+
 met:
 \begin{itemize}
     \item \( r = |z| = \sqrt{a^2 + b^2} \): de modulus van \( z \),
     \item \( \theta = \arg(z) \): het argument (de hoek die \( z \) maakt met de positieve reële as, in radialen).
 \end{itemize}
 
-\subsection*{Modulus en argument berekenen}
+**Modulus en argument berekenen**
 
-Voor een complex getal \( z = a + bi \) geldt:
-\[
-r = \sqrt{a^2 + b^2}
-\]
-\[
-\theta = \arctan\left( \frac{b}{a} \right)
-\]
+Voor een complex getal $z = a + bi$ geldt:
 
-Let op: de uitkomst van de tangens is afhankelijk van het kwadrant waarin \( z \) ligt. Gebruik daarom een schets of een functie als \verb|atan2(b, a)| voor de juiste hoek.
+\begin{align*}
+    r &= \sqrt{a^2 + b^2} \\
+    \theta &= \arctan\left( \frac{b}{a} \right)
+\end{align*}
+
+Let op: de uitkomst van de tangens is afhankelijk van het kwadrant waarin  $z$ ligt. Gebruik daarom een schets voor de juiste hoek.
 
 \subsection*{Overgang naar poolvorm}
 
