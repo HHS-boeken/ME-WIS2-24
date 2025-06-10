@@ -83,25 +83,104 @@ De modulus is:
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) &= \tan^{-1} (\dfrac{ \sqrt{3} }{1}) \\
+    \phi = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
     &= \dfrac{\pi}{3}
 \end{align*}
 
 Schrijf in goniometrische vorm:
 \begin{align*}
     z &= r(\cos \theta + i \sin \theta)\\
-    z &= 2(\cos \left(\dfrac{\pi}{3} \right)  + i \sin(\dfrac{\pi}{3}) )
+    z &= 2 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
 \end{align*}
 ````
+````{admonition} Oefening 2
+:class: important, dropdown
 
-
-
-
-\subsection*{Voorbeeld: Zet \( z = 1 + i\sqrt{3} \) om naar de poolvorm}
-
+Schrijf in exponentiële vorm
 \begin{align*}
-a &= 1, \quad b = \sqrt{3} \\
-r &= \sqrt{1^2 + (\sqrt{3})^2} = \sqrt{1 + 3} = \sqrt{4} = 2 \\
-\theta &= \arctan\left( \frac{\sqrt{3}}{1} \right) = \frac{\pi}{3} \\
-z &= 2 \left( \cos\left( \frac{\pi}{3} \right) + i \sin\left( \frac{\pi}{3} \right) \right)
+    z = -\dfrac{\sqrt{3}}{2} - \dfrac{1}{2}i
 \end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = -\dfrac{\sqrt{3}}{2} - \dfrac{1}{2}i
+\end{align*}
+
+De modulus is:
+\begin{align*}
+    r = |z| &= \sqrt{ (-\dfrac{\sqrt{3}}{2})^2 + (-\dfrac{1}{2})^2}  \\
+    &= \sqrt{ \dfrac{3}{4} + \dfrac{1}{4}  } \\
+    &= \sqrt{1}  \\
+    &= 1
+\end{align*}
+
+Het argument is:
+\begin{align*}
+    \phi = arg(z) &= \tan^{-1} (\dfrac{ -\frac{1}{2} }{ \frac{ -\sqrt{3}}{2} }) \\
+    &= \tan^{-1} ( \dfrac{1}{ \sqrt{3} } ) \\
+    &= \dfrac{ \pi}{6}
+\end{align*}
+
+Omdat $z$ in het derde kwadrant ligt:
+\begin{align*}
+    \phi    &= -\pi + \dfrac{\pi}{6} \\
+            &= - \dfrac{5\pi}{6}
+\end{align*}
+
+Schrijf in exponentiële vorm:
+\begin{align*}
+    z &= r \cdot e^{\phi i} \\
+    z &= 1 \cdot e^{\frac{-5\pi}{6} i} \\
+    z &= e^{\frac{-5\pi}{6} i} 
+\end{align*}
+```
+````
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = -\dfrac{\sqrt{3}}{2} - \dfrac{1}{2}i
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+Schrijf in exponentiële vorm
+\begin{align*}
+    z = -\dfrac{\sqrt{3}}{2} - \dfrac{1}{2}i
+\end{align*}
+
+De modulus is:
+\begin{align*}
+    r = |z| &= \sqrt{ (-\dfrac{\sqrt{3}}{2})^2 + (-\dfrac{1}{2})^2}  \\
+    &= \sqrt{ \dfrac{3}{4} + \dfrac{1}{4}  } \\
+    &= \sqrt{1}  \\
+    &= 1
+\end{align*}
+
+Het argument is:
+\begin{align*}
+    \phi = arg(z) &= \tan^{-1} (\dfrac{ -\frac{1}{2} }{ \frac{ -\sqrt{3}}{2} }) \\
+    &= \tan^{-1} ( \dfrac{1}{ \sqrt{3} } ) \\
+    &= \dfrac{ \pi}{6}
+\end{align*}
+
+Omdat $z$ in het derde kwadrant ligt:
+\begin{align*}
+    \phi    &= -\pi + \dfrac{\pi}{6} \\
+            &= - \dfrac{5\pi}{6}
+\end{align*}
+
+Schrijf in exponentiële vorm:
+\begin{align*}
+    z &= r \cdot e^{\phi i} \\
+    z &= 1 \cdot e^{\frac{-5\pi}{6} i} \\
+    z &= e^{\frac{-5\pi}{6} i} 
+\end{align*}
+```
+````
