@@ -262,3 +262,67 @@ Voor $k = 2$:
 \end{align*}
 
 ````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    z^4 = -16
+\end{align*}
+
+Schrijf $8+0i$ in poolvorm:
+
+De modulus is:
+\begin{align*}
+    r = |-16| &= \sqrt{ (-16)^2 + 0^2 } \\
+    &= \sqrt{256} \\
+    &= 16
+\end{align*}
+
+Het argument is:
+\begin{align*}
+    \phi = arg( -16+0i ) &= \tan^{-1} \left( \dfrac{0}{-16} \right) \\
+     &= \pi + k \cdot 2\pi
+\end{align*}
+
+Dus:
+\begin{align*}
+    z^4 = 16 \left( \cos\left( \pi + k \cdot 2\pi \right) + i\sin\left( pi + k \cdot 2\pi \right) \right)
+\end{align*}
+
+We zoeken de vierde machtswortels, dat zijn:
+\[
+z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
+\quad \text{voor } k = 0, 1, 2, 3
+\]
+
+Omdat $\sqrt[4]{16} = 2$, wordt dit:
+\begin{align*}
+    z_k = 2 \left( \cos\left( \frac{ k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
+\end{align*}
+
+Bereken de drie wortels:
+
+Voor $k = 0$:
+\begin{align*}
+    \theta = 0 \Rightarrow z_0 &= 2\left( \cos\left( 0 \right) + i \sin\left( 0 \right) \right) \\
+    &= 2\left( 1 + i \cdot 0 \right) \\
+    &= 2
+\end{align*}
+
+Voor $k = 1$:
+\begin{align*}
+    \theta = \frac{2\pi}{3} \Rightarrow z_1 &= 2\left( \cos\left( \frac{2\pi}{3} \right) + i \sin\left( \frac{2\pi}{3} \right) \right) \\
+    &= 2\left( -\frac{1}{2} + i \cdot \frac{\sqrt{3}}{2} \right) \\
+    &= -1 + i \cdot \sqrt{3}
+\end{align*}
+
+Voor $k = 2$:
+\begin{align*}
+    \theta = \frac{4\pi}{3} \Rightarrow z_2 &= 2\left( \cos\left( \frac{4\pi}{3} \right) + i \sin\left( \frac{4\pi}{3} \right) \right) \\
+    &= 2\left( -\frac{1}{2} - i \cdot \frac{\sqrt{3}}{2} \right) \\
+    &= -1 - i \cdot \frac{\sqrt{3}}{2}
+\end{align*}
+
+````
