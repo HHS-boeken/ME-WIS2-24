@@ -4,15 +4,18 @@
 
 
 Een kwadratische vergelijking heeft de vorm:
-\[
-az^2 + bz + c = 0
-\]
+
+\begin{align*}
+    az^2 + bz + c = 0
+\end{align*}
+
 waarbij \( a, b, c \in \mathbb{R} \) (reële getallen), en \( a \ne 0 \).
 
 De oplossingen worden gegeven door de \textbf{abc-formule}:
-\[
-z = \frac{-b \pm \sqrt{D}}{2a}, \quad \text{waarbij} \quad D = b^2 - 4ac
-\]
+
+\begin{align*}
+    z = \frac{-b \pm \sqrt{D}}{2a}, \quad \text{waarbij} \quad D = b^2 - 4ac
+\end{align*}
 
 **Gevallen van de discriminant**
 
@@ -110,27 +113,110 @@ Dus als \( z = a + bi \) een oplossing is, dan is ook \( \bar{z} = a - bi \) een
 ````{admonition} Voorbeeld 1:
 :class: dropdown
 
-Schrijf in goniometrische vorm
+los op in $\mathbb{C}$:
 \begin{align*}
-    z = 1 + \sqrt{3}i
+    z^2 + 4z + 13 = 0
 \end{align*}
 
-De modulus is:
+Bereken de discriminant $D$:
 \begin{align}
-    r = |z| &= \sqrt{ (1)^2 + (\sqrt{3})^2} \\
-    &= \sqrt{4} \\
-    &= 2
+    D & = b^2 - 4ac \\
+    &= 4^2 - 4 \cdot 1 \cdot 13  \\
+    &= 16 - 52 \\
+    &= -36
 \end{align}
 
-Het argument is:
+Gebruik de ABC-formule:
 \begin{align}
-    \phi = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
-    &= \dfrac{\pi}{3}
+    z &= \dfrac{-4 \pm \sqrt{-36} }{2 \cdot 1} \\
+    z &= \dfrac{-4 \pm \sqrt{-36} }{ 2 } \\
+    z &= \dfrac{-4 \pm i\sqrt{36} }{2} \\
+    z &= \dfrac{-4 \pm 6i }{2}
 \end{align}
 
-Schrijf in goniometrische vorm:
+Dus:
 \begin{align}
-    z &= r(\cos \theta + i \sin \theta)\\
-    z &= 2 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
+    z_1 &= \dfrac{-4}{2} + \dfrac{6i }{2} = -2 + 3i \\
+    z_2 &= \dfrac{-4}{2} - \dfrac{6i }{2} = -2 - 3i
 \end{align}
+````
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    2z^2 + 3z + 5 = 0
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    2z^2 + 3z + 5 = 0
+\end{align*}
+
+Bereken de discriminant $D$:
+\begin{align}
+    D & = b^2 - 4ac \\
+    &= 3^2 - 4 \cdot 2 \cdot 5  \\
+    &= 9 - 40 \\
+    &= -31
+\end{align}
+
+Gebruik de ABC-formule:
+\begin{align}
+    z &= \dfrac{-3 \pm \sqrt{-31} }{2 \cdot 2} \\
+    z &= \dfrac{-3 \pm \sqrt{-31} }{ 4 } \\
+    z &= \dfrac{-3 \pm i\sqrt{31} }{ 4 } 
+\end{align}
+
+Dus:
+\begin{align}
+    z_1 &= -\dfrac{3}{4} + \dfrac{i\sqrt{31} }{4} \\
+    z_2 &= -\dfrac{3}{4} - \dfrac{i\sqrt{31}  }{4}
+\end{align}
+```
+````
+
+
+````{admonition} Oefening 2
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    -3z^2 + 6z - 10 = 0
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    -3z^2 + 6z - 10 = 0
+\end{align*}
+
+Bereken de discriminant $D$:
+\begin{align}
+    D & = b^2 - 4ac \\
+    &= 6^2 - 4 \cdot (-3) \cdot -10  \\
+    &= 36 - 120 \\
+    &= -84
+\end{align}
+
+Gebruik de ABC-formule:
+\begin{align}
+    z &= \dfrac{-6 \pm \sqrt{-84} }{2 \cdot -3} \\
+    z &= \dfrac{-6 \pm \sqrt{-84} }{ -6 } \\
+    z &= \dfrac{-6 \pm i\sqrt{84} }{ -6 } \\
+    z &= \dfrac{-6 \pm i2\sqrt{21} }{ -6 } 
+\end{align}
+
+Dus:
+\begin{align}
+    z_1 &= \dfrac{6}{6} + \dfrac{i2\sqrt{21} }{6} = 1 + \dfrac{i\sqrt{21} }{3}  \\
+    z_2 &= \dfrac{6}{6} - \dfrac{i2\sqrt{21}  }{6} = 1 - \dfrac{i\sqrt{21} }{3}
+\end{align}
+```
 ````
