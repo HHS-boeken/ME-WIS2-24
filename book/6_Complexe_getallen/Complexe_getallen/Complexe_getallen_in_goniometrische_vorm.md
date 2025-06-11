@@ -69,7 +69,8 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 
 ````{admonition} Voorbeeld 1:
 :class: dropdown
-Schrijf in exponentiële vorm
+
+Schrijf in goniometrische vorm
 \begin{align*}
     z = 1 + \sqrt{3}i
 \end{align*}
@@ -97,7 +98,7 @@ Schrijf in goniometrische vorm:
 ````{admonition} Oefening 1
 :class: important, dropdown
 
-Schrijf in exponentiële vorm
+Schrijf in goniometrische vorm
 \begin{align*}
     z = -\sqrt{3} + i
 \end{align*}
@@ -143,7 +144,7 @@ Schrijf in goniometrische vorm:
 ````{admonition} Oefening 2
 :class: important, dropdown
 
-Schrijf in exponentiële vorm
+Schrijf in goniometrische vorm
 \begin{align*}
     z = -2 - 2i
 \end{align*}
