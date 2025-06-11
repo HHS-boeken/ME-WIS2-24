@@ -9,7 +9,28 @@ Gegeven:
 
 $z_1 = 2 + 6i$ en $z_2 = 3 + 4i$
 
-Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
+Bereken $z_1 \cdot z_2$ en schrijf in de goniometrische vorm:
+
+De modulus is:
+\begin{align}
+    r_1 = |z_1| &= \sqrt{ (2)^2 + (6)^2} \\
+    &= \sqrt{40} \\
+    &= 2
+\end{align}
+
+Het argument is:
+\begin{align}
+    \phi = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
+    &= \dfrac{\pi}{3}
+\end{align}
+
+Schrijf in goniometrische vorm:
+\begin{align}
+    z &= r(\cos \theta + i \sin \theta)\\
+    z &= 2 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
+\end{align}
+
+
 
 \begin{align}
     z_1 \cdot z_2   &= (2 + 6i) \cdot (3 + 4i) \\

@@ -106,7 +106,7 @@ Schrijf in goniometrische vorm
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Schrijf in exponentiële vorm
+Schrijf in goniometrische vorm
 \begin{align}
     z = -\sqrt{3} + i
 \end{align}
@@ -152,7 +152,7 @@ Schrijf in goniometrische vorm
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-Schrijf in exponentiële vorm
+Schrijf in goniometrische vorm
 \begin{align*}
     z = -2 - 2i
 \end{align*}
