@@ -2,6 +2,8 @@
 
 ## 7.7.1 Kwadratische vergelijkingen met complexe oplossingen
 
+````{admonition} Theorie
+:class: tip, dropdown open
 
 Een kwadratische vergelijking heeft de vorm:
 
@@ -9,9 +11,9 @@ Een kwadratische vergelijking heeft de vorm:
     az^2 + bz + c = 0
 \end{align*}
 
-waarbij \( a, b, c \in \mathbb{R} \) (reële getallen), en \( a \ne 0 \).
+waarbij $a, b, c \in \mathbb{R}$ (reële getallen), en $a \ne 0$.
 
-De oplossingen worden gegeven door de \textbf{abc-formule}:
+De oplossingen worden gegeven door de **abc-formule**:
 
 \begin{align*}
     z = \frac{-b \pm \sqrt{D}}{2a}, \quad \text{waarbij} \quad D = b^2 - 4ac
@@ -19,48 +21,33 @@ De oplossingen worden gegeven door de \textbf{abc-formule}:
 
 **Gevallen van de discriminant**
 
-\begin{center}
-\begin{tabular}{@{}lll@{}}
-\toprule
-\textbf{Discriminant \( D \)} & \textbf{Soort oplossingen} & \textbf{Aantal oplossingen} \\
-\midrule
-\( D > 0 \) & Twee verschillende reële              & 2 \\
-\( D = 0 \) & Eén reële oplossing (dubbel)         & 1 \\
-\( D < 0 \) & Twee complexe geconjugeerde          & 2 \\
-\bottomrule
-\end{tabular}
-\end{center}
+|Discriminant $D$| Soort oplossingen | Aantal oplossingen|
+|----|-----|---|
+| $D>0$ | Twee verschillende reële oplossingen|2|
+| $D=0$ | Eén reële oplossing (dubbel)  |1|
+| $D<0$ | Twee complexe geconjugeerde oplossingen |2|
 
-\subsection*{Bij \( D < 0 \): complexe oplossingen}
-Als \( D < 0 \), dan is:
-\[
-\sqrt{D} = \sqrt{-d} = i\sqrt{d}, \quad \text{waarbij } d = -D > 0
-\]
+
+**Bij $D < 0$: complexe oplossingen**
+Als $D < 0$, dan is:
+
+\begin{align*}
+    \sqrt{D} = \sqrt{-d} = i\sqrt{d}, \quad \text{waarbij } d = -D > 0
+\end{align*}
+
 De oplossingen zijn dan:
-\[
-z = \frac{-b \pm i\sqrt{d}}{2a}
-\]
+\begin{align*}
+    z = \frac{-b \pm i\sqrt{d}}{2a}
+\end{align*}
+
 Dit levert een complex geconjugeerd paar:
-\[
-z_1 = x + iy, \quad z_2 = x - iy
-\]
+\begin{align*}
+    z_1 = x + iy, \quad z_2 = x - iy
+\end{align*}
 
-\section*{4. Voorbeeld 1}
-Los op:
-\[
-z^2 + 4z + 13 = 0
-\]
-Discriminant:
-\[
-D = 4^2 - 4 \cdot 1 \cdot 13 = 16 - 52 = -36
-\]
-Oplossingen:
-\[
-z = \frac{-4 \pm \sqrt{-36}}{2} = \frac{-4 \pm 6i}{2} = -2 \pm 3i
-\]
-\textbf{Antwoord:} \( z_1 = -2 + 3i \), \( z_2 = -2 - 3i \)
+```{admonition} Veelvoorkomende fouten
+:class: warning
 
-\section*{5. Veelvoorkomende fouten}
 \begin{enumerate}
     \item Vergeten dat \( \sqrt{-D} = i\sqrt{D} \).\\
     Bijvoorbeeld: \( \sqrt{-36} \neq -6 \), maar \( \sqrt{-36} = 6i \)
@@ -79,19 +66,7 @@ z = \frac{-4 \pm \sqrt{-36}}{2} = \frac{-4 \pm 6i}{2} = -2 \pm 3i
     \]
 \end{enumerate}
 
-\section*{6. Voorbeeld 2 (met parameter)}
-Los op:
-\[
-2z^2 + 3z + k = 0
-\]
-Geef voorwaarden voor \( k \) zodat de oplossingen complex maar niet reëel zijn.
 
-Voorwaarde: \( D < 0 \)
-\[
-D = 3^2 - 4 \cdot 2 \cdot k = 9 - 8k < 0 \Rightarrow k > \frac{9}{8}
-\]
-
-Dus: voor \( k > \frac{9}{8} \) zijn de oplossingen complex (niet-reëel).
 
 \section*{7. Belangrijk inzicht}
 Als een kwadratische vergelijking reële coëfficiënten heeft, dan zijn complexe oplossingen altijd elkaars geconjugeerden.\\
@@ -105,8 +80,8 @@ Dus als \( z = a + bi \) een oplossing is, dan is ook \( \bar{z} = a - bi \) een
     \item De oplossingen zijn dan complex geconjugeerd
     \item Controleer je antwoord door terug te substitueren
 \end{itemize}
-
-\end{document}
+```
+````
 
 
 
