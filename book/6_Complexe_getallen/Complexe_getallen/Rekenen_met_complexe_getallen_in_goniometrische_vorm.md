@@ -134,16 +134,30 @@ Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
 
 ````{admonition} Voorbeeld 3:
 :class: dropdown
-6
+
+Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+
+\begin{align*}
+    z = (1+i)^8
+\end{align*}
+
 ````
 
 ````{admonition} Oefening 5
 :class: important, dropdown
 
-Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi. Rond af op gehele getallen:
+\begin{align*}
+    z = (2+3i)^6
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi. Rond af op gehele getallen:
+\begin{align*}
+    z = (2+3i)^6
+\end{align*}
 
 ```
 ````
@@ -151,10 +165,20 @@ Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
 ````{admonition} Oefening 6
 :class: important, dropdown
 
-Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
+Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+
+\begin{align*}
+    z = (1+\sqrt{3}i)^6
+\end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
+
+Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+
+\begin{align*}
+    z = (1+\sqrt{3}i)^6
+\end{align*}
 
 ```
 ````
