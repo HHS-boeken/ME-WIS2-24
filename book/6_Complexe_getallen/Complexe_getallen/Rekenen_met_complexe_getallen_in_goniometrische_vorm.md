@@ -104,7 +104,7 @@ Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 
 ````{admonition} Voorbeeld 2:
 :class: dropdown
-
+6
 ````
 
 ````{admonition} Oefening 3
@@ -134,7 +134,7 @@ Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
 
 ````{admonition} Voorbeeld 3:
 :class: dropdown
-
+6
 ````
 
 ````{admonition} Oefening 5
