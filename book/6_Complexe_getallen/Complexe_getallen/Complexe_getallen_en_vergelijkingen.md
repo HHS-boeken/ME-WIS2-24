@@ -363,10 +363,10 @@ Schrijf $-8\sqrt{3} + 8i$ in poolvorm:
 De modulus is:
 
 \begin{align}
-r = |-8\sqrt{3} + 8i| &= \sqrt{(-8\sqrt{3})^2 + 8^2} \\
-&= \sqrt{192 + 64} \\
-&= \sqrt{256} \\
-&= 16 
+    r = |-8\sqrt{3} + 8i| &= \sqrt{(-8\sqrt{3})^2 + 8^2} \\
+    &= \sqrt{192 + 64} \\
+    &= \sqrt{256} \\
+    &= 16 
 \end{align}
 
 Het argument is:
@@ -377,8 +377,8 @@ Het argument is:
 
 Omdat het in het tweede kwaderant ligt:
 \begin{align}
-\theta &= \pi - -\dfrac{\pi}{6} \\
-&= \dfrac{5\pi}{6}
+    \theta &= \pi - -\dfrac{\pi}{6} \\
+    &= \dfrac{5\pi}{6}
 \end{align}
 
 Dus:
@@ -386,24 +386,22 @@ Dus:
     z^3 &= 16 \left( \cos\left( \frac{5\pi}{6} \right) + i \sin\left( \frac{5\pi}{6} \right) \right)
 \end{align}
 
-
 We zoeken de derde-machtswortels, dat zijn:
 \begin{align}
     z_k &= \sqrt[3]{16} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
 \end{align}
 
-Omdat $\sqrt[3]{16} &= 2\sqrt[3]{2}$, wordt dit:
+Omdat $\sqrt[3]{16} = 2\sqrt[3]{2}$, wordt dit:
 \begin{align}
     z_k &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
 \end{align}
-
 
 Schrijf de oplossingen uit:
 
 Voor $k = 0$:
 
 \begin{align}
- \theta = \frac{3\pi}{4} \Rightarrow z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \frac{5\pi}{3} \right) \right) \\
+ \theta = \frac{5\pi}{3} \Rightarrow z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \frac{5\pi}{3} \right) \right) \\
 &= 2\sqrt[3]{2} \left( \frac{1}{2} - \frac{\sqrt{3}}{2}i \right) \\
 &= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i
 \end{align}
@@ -411,7 +409,7 @@ Voor $k = 0$:
 Voor $k = 1$:
 
 \begin{align}
- \theta = \frac{3\pi}{4} \Rightarrow z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \frac{7\pi}{3} \right) \right) \\
+ \theta = \frac{7\pi}{3} \Rightarrow z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \frac{7\pi}{3} \right) \right) \\
 &= 2\sqrt[3]{2} \left( \frac{1}{2} + \frac{\sqrt{3}}{2}i \right) \\
 &= \sqrt[3]{2} + \sqrt[3]{2} \cdot \sqrt{3} \cdot i
 \end{align}
@@ -419,7 +417,7 @@ Voor $k = 1$:
 Voor $k = 2$:
 
 \begin{align}
- \theta = \frac{3\pi}{4} \Rightarrow z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
+ \theta = \frac{9\pi}{3} \Rightarrow z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
 &= 2\sqrt[3]{2} \cdot (-1 + 0i) \\
 &= -2\sqrt[3]{2}
 \end{align}
