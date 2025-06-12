@@ -299,7 +299,7 @@ z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \ri
 
 Omdat $\sqrt[4]{16} = 2$, wordt dit:
 \begin{align*}
-    z_k = 2 \left( \cos\left( \frac{ k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
+    z_k = 2 \left( \cos\left( \frac{ \pi + k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{3} \right) \right)
 \end{align*}
 
 Bereken de drie wortels:
