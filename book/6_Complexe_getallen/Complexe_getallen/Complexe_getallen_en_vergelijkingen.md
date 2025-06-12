@@ -227,7 +227,7 @@ Dus:
     z^3 = 8 \left( \cos\left( k \cdot 2\pi \right) + i\sin\left( k \cdot 2\pi \right) \right)
 \end{align}
 
-We zoeken de derde machtswortels, dat zijn:
+We zoeken de derde-machtswortels, dat zijn:
 \begin{align}
     z_k = \sqrt[3]{8} \cdot \left( \cos\left( \frac{   k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
 \quad \text{voor } k = 0, 1, 2
@@ -238,7 +238,7 @@ Omdat $\sqrt[3]{8} = 2$, wordt dit:
     z_k = 2 \left( \cos\left( \frac{ k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
 \end{align}
 
-Bereken de drie wortels:
+Schrijf de oplossingen uit:
 
 Voor $k = 0$:
 \begin{align}
@@ -299,7 +299,7 @@ Dus:
     z^4 = 16 \left( \cos\left( \pi + k \cdot 2\pi \right) + i\sin\left( pi + k \cdot 2\pi \right) \right)
 \end{align}
 
-We zoeken de vierde machtswortels, dat zijn:
+We zoeken de vierde-machtswortels, dat zijn:
 \begin{align}
     z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
     \quad \text{voor } k = 0, 1, 2, 3
@@ -310,7 +310,7 @@ Omdat $\sqrt[4]{16} = 2$, wordt dit:
     z_k = 2 \left( \cos\left( \frac{ \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
 \end{align}
 
-Bereken de drie wortels:
+Schrijf de oplossingen uit:
 
 Voor $k = 0$:
 \begin{align}
@@ -347,32 +347,44 @@ Voor $k = 3$:
 
 los op in $\mathbb{C}$:
 \begin{align*}
-    z^4 = -16
+    z^3 = -8\sqrt{3} + 8i
 \end{align*}
 
 ```{admonition} Uitwerking
 :class: important, dropdown
 
+los op in $\mathbb{C}$:
+\begin{align*}
+    z^3 = -8\sqrt{3} + 8i
+\end{align*}
 
+Schrijf $-8\sqrt{3} + 8i$ in poolvorm: 
 
-\section*{Stap 1: Zet het rechterlid om naar poolvorm}
+De modulus is:
 
 \begin{align}
-w &= -8\sqrt{3} + 8i \\
-|w| &= \sqrt{(-8\sqrt{3})^2 + 8^2} = \sqrt{192 + 64} = \sqrt{256} = 16 \\
+r = |-8\sqrt{3} + 8i| &= \sqrt{(-8\sqrt{3})^2 + 8^2} \\
+&= \sqrt{192 + 64} \\
+&= \sqrt{256} \\
+&= 16 
+\end{align}
+
+Het argument is:
+
+\begin{align}
 \tan\phi &= \frac{8}{-8\sqrt{3}} = -\frac{1}{\sqrt{3}} \\
 \phi &= \pi - \frac{\pi}{6} = \frac{5\pi}{6} \quad \text{(want $w$ ligt in kwadrant II)} \\
 w &= 16 \left( \cos\left( \frac{5\pi}{6} \right) + i \sin\left( \frac{5\pi}{6} \right) \right)
 \end{align}
 
-\section*{Stap 2: Bereken de derde-machtswortels van $w$}
+Bereken de derde-machtswortels van $w$:
 
 \begin{align}
 z_k &= \sqrt[3]{16} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
 \sqrt[3]{16} &= 2\sqrt[3]{2}
 \end{align}
 
-\section*{Stap 3: Schrijf de oplossingen uit}
+Schrijf de oplossingen uit:
 
 Voor $k = 0$:
 
