@@ -43,6 +43,7 @@ Bepaal de onbepaalde integraal:
 ---
 ### Opgave 7
 
+
 ---
 ### Opgave 8
 
@@ -52,9 +53,18 @@ Bepaal de onbepaalde integraal:
 ---
 ### Opgave 10
 
+los op in $\mathbb{C}$:
+\begin{align*}
+    2z^2 + 3z + 5 = 0
+\end{align*}
 
 ---
 ### Opgave 11
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    z^4 = -16
+\end{align*}
 
 ---
 ### Opgave 12
