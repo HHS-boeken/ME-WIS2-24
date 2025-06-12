@@ -43,7 +43,7 @@ Schrijf in goniometrische vorm:
 
 ````
 
-````{admonition} Oefening 5
+````{admonition} Oefening 1
 :class: important, dropdown
 
 $z_1 = 3 - 6i$ en $z_2 = 1 + 7i$
@@ -71,7 +71,7 @@ Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 ```
 ````
 
-````{admonition} Oefening 6
+````{admonition} Oefening 2
 :class: important, dropdown
 
 Gegeven:
@@ -99,3 +99,64 @@ Bereken $z_1 \cdot z_2$ en schrijf in de vorm $a + bi$:
 \end{align}
 ```
 ````
+
+## 7.4.2 delen van complexe getallen
+
+````{admonition} Voorbeeld 2:
+:class: dropdown
+
+````
+
+````{admonition} Oefening 3
+:class: important, dropdown
+
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+```
+````
+
+````{admonition} Oefening 4
+:class: important, dropdown
+
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+```
+````
+
+
+## 7.4.3 De stelling van De Moivre
+
+````{admonition} Voorbeeld 3:
+:class: dropdown
+
+````
+
+````{admonition} Oefening 5
+:class: important, dropdown
+
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+```
+````
+
+````{admonition} Oefening 6
+:class: important, dropdown
+
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi:
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+```
+````
+
+

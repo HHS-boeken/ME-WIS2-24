@@ -2,6 +2,12 @@
 
 ### Opgave 1
 
+Berekenen door middel van een staartdeling:
+
+\begin{align*}
+    \frac{15x^3 + 9x^2 + 12x + 6}{5x + 3}
+\end{align*}
+
 ---
 
 ### Opgave 2
