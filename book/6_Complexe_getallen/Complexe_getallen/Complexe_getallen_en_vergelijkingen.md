@@ -353,70 +353,59 @@ los op in $\mathbb{C}$:
 ```{admonition} Uitwerking
 :class: important, dropdown
 
-los op in $\mathbb{C}$:
+
+
+\section*{Stap 1: Zet het rechterlid om naar poolvorm}
+
+\begin{align}
+w &= -8\sqrt{3} + 8i \\
+|w| &= \sqrt{(-8\sqrt{3})^2 + 8^2} = \sqrt{192 + 64} = \sqrt{256} = 16 \\
+\tan\phi &= \frac{8}{-8\sqrt{3}} = -\frac{1}{\sqrt{3}} \\
+\phi &= \pi - \frac{\pi}{6} = \frac{5\pi}{6} \quad \text{(want $w$ ligt in kwadrant II)} \\
+w &= 16 \left( \cos\left( \frac{5\pi}{6} \right) + i \sin\left( \frac{5\pi}{6} \right) \right)
+\end{align}
+
+\section*{Stap 2: Bereken de derde-machtswortels van $w$}
+
+\begin{align}
+z_k &= \sqrt[3]{16} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
+\sqrt[3]{16} &= 2\sqrt[3]{2}
+\end{align}
+
+\section*{Stap 3: Schrijf de oplossingen uit}
+
+\subsection*{Voor $k = 0$:}
+
+\begin{align}
+z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \frac{5\pi}{3} \right) \right) \\
+&= 2\sqrt[3]{2} \left( \frac{1}{2} - \frac{\sqrt{3}}{2}i \right) \\
+&= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i
+\end{align}
+
+\subsection*{Voor $k = 1$:}
+
+\begin{align}
+z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \frac{7\pi}{3} \right) \right) \\
+&= 2\sqrt[3]{2} \left( \frac{1}{2} + \frac{\sqrt{3}}{2}i \right) \\
+&= \sqrt[3]{2} + \sqrt[3]{2} \cdot \sqrt{3} \cdot i
+\end{align}
+
+\subsection*{Voor $k = 2$:}
+
+\begin{align}
+z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
+&= 2\sqrt[3]{2} \cdot (-1 + 0i) \\
+&= -2\sqrt[3]{2}
+\end{align}
+
+\section*{Conclusie}
+
 \begin{align*}
-    z^4 = -16
+z_0 &= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i \\
+z_1 &= \sqrt[3]{2} + \sqrt[3]{2} \cdot \sqrt{3} \cdot i \\
+z_2 &= -2\sqrt[3]{2}
 \end{align*}
 
-Schrijf $8+0i$ in poolvorm:
 
-De modulus is:
-\begin{align}
-    r = |-16| &= \sqrt{ (-16)^2 + 0^2 } \\
-    &= \sqrt{256} \\
-    &= 16
-\end{align}
-
-Het argument is:
-\begin{align}
-    \phi = arg( -16+0i ) &= \tan^{-1} \left( \dfrac{0}{-16} \right) \\
-     &= \pi + k \cdot 2\pi
-\end{align}
-
-Dus:
-\begin{align}
-    z^4 = 16 \left( \cos\left( \pi + k \cdot 2\pi \right) + i\sin\left( pi + k \cdot 2\pi \right) \right)
-\end{align}
-
-We zoeken de vierde machtswortels, dat zijn:
-\begin{align}
-    z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
-    \quad \text{voor } k = 0, 1, 2, 3
-\end{align}
-
-Omdat $\sqrt[4]{16} = 2$, wordt dit:
-\begin{align}
-    z_k = 2 \left( \cos\left( \frac{ \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
-\end{align}
-
-Bereken de drie wortels:
-
-Voor $k = 0$:
-\begin{align}
-    \theta = \frac{\pi}{4}  \Rightarrow z_0 &= 2\left( \cos\left(  \frac{\pi}{4}  \right) + i \sin\left(  \frac{\pi}{4}  \right) \right) \\
-   &= 2\left( \frac{ \sqrt{2}}{2} + i \cdot \frac{\sqrt{2}}{2} \right) \\
-    &= \sqrt{2} + i \cdot \sqrt{2}
-\end{align}
-
-Voor $k = 1$:
-\begin{align}
-    \theta = \frac{3\pi}{4} \Rightarrow z_1 &= 2\left( \cos\left( \frac{3\pi}{4} \right) + i \sin\left( \frac{3\pi}{4} \right) \right) \\
-   &= 2\left( -\frac{ \sqrt{2}}{2} + i \cdot \frac{\sqrt{2}}{2} \right) \\
-    &= -\sqrt{2} + i \cdot \sqrt{2}
-\end{align}
-
-Voor $k = 2$:
-\begin{align}
-    \theta = \frac{5\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{5\pi}{4} \right) + i \sin\left( \frac{5\pi}{4} \right) \right) \\
-   &= 2\left( -\frac{ \sqrt{2}}{2} - i \cdot \frac{\sqrt{2}}{2} \right) \\
-    &= -\sqrt{2} - i \cdot \sqrt{2}
-\end{align}
-
-Voor $k = 3$:
-\begin{align}
-    \theta = \frac{7\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{7\pi}{4} \right) + i \sin\left( \frac{7\pi}{4} \right) \right) \\
-   &= 2\left( \frac{ \sqrt{2}}{2} - i \cdot \frac{\sqrt{2}}{2} \right) \\
-    &= \sqrt{2} - i \cdot \sqrt{2}
-\end{align}
 ```
 ````
