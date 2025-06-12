@@ -229,7 +229,7 @@ Dus:
 
 We zoeken de derde machtswortels, dat zijn:
 \begin{align*}
-z_k = \sqrt[3]{8} \cdot \left( \cos\left( \frac{   k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
+    z_k = \sqrt[3]{8} \cdot \left( \cos\left( \frac{   k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
 \quad \text{voor } k = 0, 1, 2
 \end{align*}
 
@@ -299,28 +299,35 @@ We zoeken de vierde machtswortels, dat zijn:
 
 Omdat $\sqrt[4]{16} = 2$, wordt dit:
 \begin{align*}
-    z_k = 2 \left( \cos\left( \frac{ \pi + k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{3} \right) \right)
+    z_k = 2 \left( \cos\left( \frac{ \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
 \end{align*}
 
 Bereken de drie wortels:
 
 Voor $k = 0$:
 \begin{align*}
-    \theta = 0 \Rightarrow z_0 &= 2\left( \cos\left( 0 \right) + i \sin\left( 0 \right) \right) \\
+    \theta = \frac{\pi}{4}  \Rightarrow z_0 &= 2\left( \cos\left(  \frac{\pi}{4}  \right) + i \sin\left(  \frac{\pi}{4}  \right) \right) \\
     &= 2\left( 1 + i \cdot 0 \right) \\
     &= 2
 \end{align*}
 
 Voor $k = 1$:
 \begin{align*}
-    \theta = \frac{2\pi}{3} \Rightarrow z_1 &= 2\left( \cos\left( \frac{2\pi}{3} \right) + i \sin\left( \frac{2\pi}{3} \right) \right) \\
+    \theta = \frac{3\pi}{4} \Rightarrow z_1 &= 2\left( \cos\left( \frac{3\pi}{4} \right) + i \sin\left( \frac{3\pi}{4} \right) \right) \\
     &= 2\left( -\frac{1}{2} + i \cdot \frac{\sqrt{3}}{2} \right) \\
     &= -1 + i \cdot \sqrt{3}
 \end{align*}
 
 Voor $k = 2$:
 \begin{align*}
-    \theta = \frac{4\pi}{3} \Rightarrow z_2 &= 2\left( \cos\left( \frac{4\pi}{3} \right) + i \sin\left( \frac{4\pi}{3} \right) \right) \\
+    \theta = \frac{5\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{5\pi}{4} \right) + i \sin\left( \frac{5\pi}{4} \right) \right) \\
+    &= 2\left( -\frac{1}{2} - i \cdot \frac{\sqrt{3}}{2} \right) \\
+    &= -1 - i \cdot \frac{\sqrt{3}}{2}
+\end{align*}
+
+Voor $k = 3$:
+\begin{align*}
+    \theta = \frac{7\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{7\pi}{4} \right) + i \sin\left( \frac{7\pi}{4} \right) \right) \\
     &= 2\left( -\frac{1}{2} - i \cdot \frac{\sqrt{3}}{2} \right) \\
     &= -1 - i \cdot \frac{\sqrt{3}}{2}
 \end{align*}
