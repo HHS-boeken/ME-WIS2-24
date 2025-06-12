@@ -377,7 +377,7 @@ Het argument is:
 
 Omdat het in het tweede kwaderant ligt:
 \begin{align}
-\theta &= \pi - -\dfrac{\pi}{6}
+\theta &= \pi - -\dfrac{\pi}{6} \\
 &= \dfrac{5\pi}{6}
 \end{align}
 
@@ -388,11 +388,15 @@ Dus:
 
 
 We zoeken de derde-machtswortels, dat zijn:
-
 \begin{align}
-z_k &= \sqrt[3]{16} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
-\sqrt[3]{16} &= 2\sqrt[3]{2}
+    z_k &= \sqrt[3]{16} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
 \end{align}
+
+Omdat $\sqrt[3]{16} &= 2\sqrt[3]{2}$, wordt dit:
+\begin{align}
+    z_k &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\left( \frac{5\pi + 2k\pi}{3} \right) \right), \quad k = 0, 1, 2 \\
+\end{align}
+
 
 Schrijf de oplossingen uit:
 
