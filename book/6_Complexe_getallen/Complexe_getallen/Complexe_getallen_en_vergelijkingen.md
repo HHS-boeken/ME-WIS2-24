@@ -307,29 +307,29 @@ Bereken de drie wortels:
 Voor $k = 0$:
 \begin{align*}
     \theta = \frac{\pi}{4}  \Rightarrow z_0 &= 2\left( \cos\left(  \frac{\pi}{4}  \right) + i \sin\left(  \frac{\pi}{4}  \right) \right) \\
-    &= 2\left( 1 + i \cdot 0 \right) \\
-    &= 2
+   &= 2\left( \frac{ \sqrt{2}}{2} + i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= \sqrt{2} + i \cdot \sqrt{2}
 \end{align*}
 
 Voor $k = 1$:
 \begin{align*}
     \theta = \frac{3\pi}{4} \Rightarrow z_1 &= 2\left( \cos\left( \frac{3\pi}{4} \right) + i \sin\left( \frac{3\pi}{4} \right) \right) \\
-    &= 2\left( -\frac{1}{2} + i \cdot \frac{\sqrt{3}}{2} \right) \\
-    &= -1 + i \cdot \sqrt{3}
+   &= 2\left( -\frac{ \sqrt{2}}{2} + i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= -\sqrt{2} + i \cdot \sqrt{2}
 \end{align*}
 
 Voor $k = 2$:
 \begin{align*}
     \theta = \frac{5\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{5\pi}{4} \right) + i \sin\left( \frac{5\pi}{4} \right) \right) \\
-    &= 2\left( -\frac{1}{2} - i \cdot \frac{\sqrt{3}}{2} \right) \\
-    &= -1 - i \cdot \frac{\sqrt{3}}{2}
+   &= 2\left( -\frac{ \sqrt{2}}{2} - i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= -\sqrt{2} - i \cdot \sqrt{2}
 \end{align*}
 
 Voor $k = 3$:
 \begin{align*}
     \theta = \frac{7\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{7\pi}{4} \right) + i \sin\left( \frac{7\pi}{4} \right) \right) \\
-    &= 2\left( -\frac{1}{2} - i \cdot \frac{\sqrt{3}}{2} \right) \\
-    &= -1 - i \cdot \frac{\sqrt{3}}{2}
+   &= 2\left( \frac{ \sqrt{2}}{2} - i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= \sqrt{2} - i \cdot \sqrt{2}
 \end{align*}
 
 ````
