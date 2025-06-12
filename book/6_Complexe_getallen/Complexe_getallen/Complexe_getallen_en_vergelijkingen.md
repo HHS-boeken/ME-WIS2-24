@@ -371,7 +371,7 @@ De modulus is:
 
 Het argument is:
 \begin{align}
-    \theta = arg( -8\sqrt{3} + 8i ) &= \tan^{-1} \left( \dfrac{8}{-8\sqrt{3} \right) \\
+    \theta = arg( -8\sqrt{3} + 8i ) &= \tan^{-1} \left( \dfrac{8}{-8\sqrt{3}} \right) \\
      &= -\dfrac{\pi}{6}
 \end{align}
 
