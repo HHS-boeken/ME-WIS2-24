@@ -53,6 +53,11 @@ Bepaal de onbepaalde integraal:
 ---
 ### Opgave 8
 
+Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+\begin{align*}
+    z = (1+i)^8
+\end{align*}
+
 ---
 ### Opgave 9
 
