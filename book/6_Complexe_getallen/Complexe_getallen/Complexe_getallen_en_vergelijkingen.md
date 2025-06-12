@@ -197,7 +197,7 @@ Dus:
 ```
 ````
 
-## 7.7.2 
+## 7.7.2 $z^n = c$ met 
 
 ````{admonition} Voorbeeld 2: 
 :class: dropdown
@@ -366,7 +366,7 @@ De modulus is:
     r = |-8\sqrt{3} + 8i| &= \sqrt{(-8\sqrt{3})^2 + 8^2} \\
     &= \sqrt{192 + 64} \\
     &= \sqrt{256} \\
-    &= 16 
+    &= 16
 \end{align}
 
 Het argument is:
@@ -429,7 +429,7 @@ z_0 &= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i \\
 z_1 &= \sqrt[3]{2} + \sqrt[3]{2} \cdot \sqrt{3} \cdot i \\
 z_2 &= -2\sqrt[3]{2}
 \end{align*}
-
-
 ```
 ````
+
+## 7.7.3 $z^n = c$ met 
