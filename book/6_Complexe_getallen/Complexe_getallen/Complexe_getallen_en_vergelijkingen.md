@@ -342,7 +342,7 @@ Voor $k = 3$:
 ```
 ````
 
-````{admonition} Oefening 3
+````{admonition} Oefening 4
 :class: important, dropdown
 
 los op in $\mathbb{C}$:
@@ -370,6 +370,12 @@ r = |-8\sqrt{3} + 8i| &= \sqrt{(-8\sqrt{3})^2 + 8^2} \\
 \end{align}
 
 Het argument is:
+\begin{align}
+    \theta = arg( -16+0i ) &= \tan^{-1} \left( \dfrac{0}{-16} \right) \\
+     &= \pi + k \cdot 2\pi
+\end{align}
+
+Het argument is:
 
 \begin{align}
 \tan\theta &= \frac{8}{-8\sqrt{3}} = -\frac{1}{\sqrt{3}} \\
@@ -389,7 +395,7 @@ Schrijf de oplossingen uit:
 Voor $k = 0$:
 
 \begin{align}
-z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \frac{5\pi}{3} \right) \right) \\
+ \theta = \frac{3\pi}{4} \Rightarrow z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \frac{5\pi}{3} \right) \right) \\
 &= 2\sqrt[3]{2} \left( \frac{1}{2} - \frac{\sqrt{3}}{2}i \right) \\
 &= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i
 \end{align}
@@ -397,7 +403,7 @@ z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \fra
 Voor $k = 1$:
 
 \begin{align}
-z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \frac{7\pi}{3} \right) \right) \\
+ \theta = \frac{3\pi}{4} \Rightarrow z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \frac{7\pi}{3} \right) \right) \\
 &= 2\sqrt[3]{2} \left( \frac{1}{2} + \frac{\sqrt{3}}{2}i \right) \\
 &= \sqrt[3]{2} + \sqrt[3]{2} \cdot \sqrt{3} \cdot i
 \end{align}
@@ -405,7 +411,7 @@ z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \fra
 Voor $k = 2$:
 
 \begin{align}
-z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
+ \theta = \frac{3\pi}{4} \Rightarrow z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
 &= 2\sqrt[3]{2} \cdot (-1 + 0i) \\
 &= -2\sqrt[3]{2}
 \end{align}
