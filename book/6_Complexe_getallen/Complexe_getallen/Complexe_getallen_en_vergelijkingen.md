@@ -228,10 +228,10 @@ Dus:
 \end{align*}
 
 We zoeken de derde machtswortels, dat zijn:
-\[
+\begin{align*}
 z_k = \sqrt[3]{8} \cdot \left( \cos\left( \frac{   k \cdot 2\pi}{3} \right) + i \sin\left( \frac{ k \cdot 2\pi}{3} \right) \right)
 \quad \text{voor } k = 0, 1, 2
-\]
+\end{align*}
 
 Omdat $\sqrt[3]{8} = 2$, wordt dit:
 \begin{align*}
@@ -292,10 +292,10 @@ Dus:
 \end{align*}
 
 We zoeken de vierde machtswortels, dat zijn:
-\[
-z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
-\quad \text{voor } k = 0, 1, 2, 3
-\]
+\begin{align*}
+    z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
+    \quad \text{voor } k = 0, 1, 2, 3
+\end{align*}
 
 Omdat $\sqrt[4]{16} = 2$, wordt dit:
 \begin{align*}
