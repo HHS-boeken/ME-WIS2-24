@@ -218,7 +218,7 @@ De modulus is:
 
 Het argument is:
 \begin{align}
-    \phi = arg( 8+0i ) &= \tan^{-1} \left( \dfrac{0}{8} \right) \\
+    \theta = arg( 8+0i ) &= \tan^{-1} \left( \dfrac{0}{8} \right) \\
      &= 0 + k \cdot 2\pi
 \end{align}
 
@@ -290,7 +290,7 @@ De modulus is:
 
 Het argument is:
 \begin{align}
-    \phi = arg( -16+0i ) &= \tan^{-1} \left( \dfrac{0}{-16} \right) \\
+    \theta = arg( -16+0i ) &= \tan^{-1} \left( \dfrac{0}{-16} \right) \\
      &= \pi + k \cdot 2\pi
 \end{align}
 
@@ -372,8 +372,8 @@ r = |-8\sqrt{3} + 8i| &= \sqrt{(-8\sqrt{3})^2 + 8^2} \\
 Het argument is:
 
 \begin{align}
-\tan\phi &= \frac{8}{-8\sqrt{3}} = -\frac{1}{\sqrt{3}} \\
-\phi &= \pi - \frac{\pi}{6} = \frac{5\pi}{6} \quad \text{(want $w$ ligt in kwadrant II)} \\
+\tan\theta &= \frac{8}{-8\sqrt{3}} = -\frac{1}{\sqrt{3}} \\
+\theta &= \pi - \frac{\pi}{6} = \frac{5\pi}{6} \quad \text{(want $w$ ligt in kwadrant II)} \\
 w &= 16 \left( \cos\left( \frac{5\pi}{6} \right) + i \sin\left( \frac{5\pi}{6} \right) \right)
 \end{align}
 

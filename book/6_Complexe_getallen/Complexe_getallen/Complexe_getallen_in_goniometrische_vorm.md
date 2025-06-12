@@ -84,7 +84,7 @@ De modulus is:
 
 Het argument is:
 \begin{align}
-    \phi = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
+    \theta = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
     &= \dfrac{\pi}{3}
 \end{align}
 
@@ -121,7 +121,7 @@ De modulus is:
 
 Het argument is:
 \begin{align}
-    \phi = arg(z) &=  \tan^{-1} \left( \dfrac{1}{ -\sqrt{3} } \right) \\
+    \theta = arg(z) &=  \tan^{-1} \left( \dfrac{1}{ -\sqrt{3} } \right) \\
     &= -\dfrac{ \pi}{6}
 \end{align}
 
@@ -167,7 +167,7 @@ De modulus is:
 
 Het argument is:
 \begin{align}
-    \phi = arg(z) &=  \tan^{-1} \left( \dfrac{-2}{ -2 } \right) \\
+    \theta = arg(z) &=  \tan^{-1} \left( \dfrac{-2}{ -2 } \right) \\
     &=  \tan^{-1} (1)\\
     &= \dfrac{\pi}{4}
 \end{align}
