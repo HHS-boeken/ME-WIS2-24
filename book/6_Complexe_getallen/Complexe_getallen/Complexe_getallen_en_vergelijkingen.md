@@ -374,7 +374,7 @@ z_k &= \sqrt[3]{16} \left( \cos\left( \frac{5\pi + 2k\pi}{3} \right) + i \sin\le
 
 \section*{Stap 3: Schrijf de oplossingen uit}
 
-\subsection*{Voor $k = 0$:}
+Voor $k = 0$:
 
 \begin{align}
 z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \frac{5\pi}{3} \right) \right) \\
@@ -382,7 +382,7 @@ z_0 &= 2\sqrt[3]{2} \left( \cos\left( \frac{5\pi}{3} \right) + i \sin\left( \fra
 &= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i
 \end{align}
 
-\subsection*{Voor $k = 1$:}
+Voor $k = 1$:
 
 \begin{align}
 z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \frac{7\pi}{3} \right) \right) \\
@@ -390,7 +390,7 @@ z_1 &= 2\sqrt[3]{2} \left( \cos\left( \frac{7\pi}{3} \right) + i \sin\left( \fra
 &= \sqrt[3]{2} + \sqrt[3]{2} \cdot \sqrt{3} \cdot i
 \end{align}
 
-\subsection*{Voor $k = 2$:}
+Voor $k = 2$:
 
 \begin{align}
 z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
@@ -398,7 +398,7 @@ z_2 &= 2\sqrt[3]{2} \left( \cos(3\pi) + i \sin(3\pi) \right) \\
 &= -2\sqrt[3]{2}
 \end{align}
 
-\section*{Conclusie}
+Conclusie:
 
 \begin{align*}
 z_0 &= \sqrt[3]{2} - \sqrt[3]{2} \cdot \sqrt{3} \cdot i \\
