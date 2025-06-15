@@ -274,3 +274,151 @@ A en B invullen in de integraal en oplossen geeft:
 \end{align}
 ```
 ````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 6 ( punten)
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 7 ( punten)
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 8 ( punten)
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 9 ( punten)
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 10 ( punten)
+
+````{admonition} Oefening 1
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    2z^2 + 3z + 5 = 0
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    2z^2 + 3z + 5 = 0
+\end{align*}
+
+Bereken de discriminant $D$:
+\begin{align}
+    D & = b^2 - 4ac \\
+    &= 3^2 - 4 \cdot 2 \cdot 5  \\
+    &= 9 - 40 \\
+    &= -31
+\end{align}
+
+Gebruik de ABC-formule:
+\begin{align}
+    z &= \dfrac{-3 \pm \sqrt{-31} }{2 \cdot 2} \\
+    z &= \dfrac{-3 \pm \sqrt{-31} }{ 4 } \\
+    z &= \dfrac{-3 \pm i\sqrt{31} }{ 4 } 
+\end{align}
+
+Dus:
+\begin{align}
+    z_1 &= -\dfrac{3}{4} + \dfrac{i\sqrt{31} }{4} \\
+    z_2 &= -\dfrac{3}{4} - \dfrac{i\sqrt{31}  }{4}
+\end{align}
+```
+````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 11 ( punten)
+
+````{admonition} Oefening 3
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    z^4 = -16
+\end{align*}
+
+```{admonition} Uitwerking
+:class: important, dropdown
+
+los op in $\mathbb{C}$:
+\begin{align*}
+    z^4 = -16
+\end{align*}
+
+Schrijf $8+0i$ in poolvorm:
+
+De modulus is:
+\begin{align}
+    r = |-16| &= \sqrt{ (-16)^2 + 0^2 } \\
+    &= \sqrt{256} \\
+    &= 16
+\end{align}
+
+Het argument is:
+\begin{align}
+    \theta = arg( -16+0i ) &= \tan^{-1} \left( \dfrac{0}{-16} \right) \\
+     &= \pi + k \cdot 2\pi
+\end{align}
+
+Dus:
+\begin{align}
+    z^4 = 16 \left( \cos\left( \pi + k \cdot 2\pi \right) + i\sin\left( pi + k \cdot 2\pi \right) \right)
+\end{align}
+
+We zoeken de vierde-machtswortels, dat zijn:
+\begin{align}
+    z_k = \sqrt[4]{16} \cdot \left( \cos\left( \pi\frac{  \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
+    \quad \text{voor } k = 0, 1, 2, 3
+\end{align}
+
+Omdat $\sqrt[4]{16} = 2$, wordt dit:
+\begin{align}
+    z_k = 2 \left( \cos\left( \frac{ \pi + k \cdot 2\pi}{4} \right) + i \sin\left( \frac{ \pi + k \cdot 2\pi}{4} \right) \right)
+\end{align}
+
+Schrijf de oplossingen uit:
+
+Voor $k = 0$:
+\begin{align}
+    \theta = \frac{\pi}{4}  \Rightarrow z_0 &= 2\left( \cos\left(  \frac{\pi}{4}  \right) + i \sin\left(  \frac{\pi}{4}  \right) \right) \\
+   &= 2\left( \frac{ \sqrt{2}}{2} + i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= \sqrt{2} + i \cdot \sqrt{2}
+\end{align}
+
+Voor $k = 1$:
+\begin{align}
+    \theta = \frac{3\pi}{4} \Rightarrow z_1 &= 2\left( \cos\left( \frac{3\pi}{4} \right) + i \sin\left( \frac{3\pi}{4} \right) \right) \\
+   &= 2\left( -\frac{ \sqrt{2}}{2} + i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= -\sqrt{2} + i \cdot \sqrt{2}
+\end{align}
+
+Voor $k = 2$:
+\begin{align}
+    \theta = \frac{5\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{5\pi}{4} \right) + i \sin\left( \frac{5\pi}{4} \right) \right) \\
+   &= 2\left( -\frac{ \sqrt{2}}{2} - i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= -\sqrt{2} - i \cdot \sqrt{2}
+\end{align}
+
+Voor $k = 3$:
+\begin{align}
+    \theta = \frac{7\pi}{4} \Rightarrow z_2 &= 2\left( \cos\left( \frac{7\pi}{4} \right) + i \sin\left( \frac{7\pi}{4} \right) \right) \\
+   &= 2\left( \frac{ \sqrt{2}}{2} - i \cdot \frac{\sqrt{2}}{2} \right) \\
+    &= \sqrt{2} - i \cdot \sqrt{2}
+\end{align}
+```
+````
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 12 ( punten)
+
+<hr style="border:1px solid #9EA700">
