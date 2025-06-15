@@ -157,6 +157,7 @@ parts:
     chapters:
     - file: VT/T3_VT1_opgaven.md
     - file: VT/T3_VT1_uitwerkingen.md
+    - file: VT/T3_VT2_opgaven.md
 
   - caption: Overig
     chapters:
