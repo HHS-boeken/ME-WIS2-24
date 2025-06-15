@@ -78,6 +78,10 @@ De rest is $-\frac{6}{5}$, dus de uiteindelijke uitkomst is:
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 2 ( punten)
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 3 ( punten)
 ````{admonition} Antwoord
 :class: dropdown
 
@@ -118,7 +122,7 @@ Toepassen van de quotiëntregel:
 ````
 <hr style="border:1px solid #9EA700">
 
-### Opgave  ( punten)
+### Opgave 4 ( punten)
 ````{admonition} Antwoord
 :class: important, dropdown
 
@@ -168,7 +172,7 @@ Invullen van de waaardes in de Taylor-reeks rond $x=2$ geeft:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave  ( punten)
+### Opgave 5 ( punten)
 ````{admonition} Antwoord
 :class: important, dropdown
 
