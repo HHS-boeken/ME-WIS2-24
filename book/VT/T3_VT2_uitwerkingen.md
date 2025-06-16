@@ -1,4 +1,4 @@
-## T3 - Voorbeeld Toets 1: Uitwerkingen
+## T3 - Voorbeeld Toets 2: Uitwerkingen
 
 ### Opgave 1 ( punten)
 ````{admonition} Antwoord
