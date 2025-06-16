@@ -325,10 +325,10 @@ Dus:
 Gebruik de formule van De Moivre:
 \begin{align}
     z = (\sqrt{2})^8 \left( \cos\left( 8 \cdot \dfrac{\pi}{4} \right) + i\sin\left( 8 \cdot \dfrac{\pi}{4} \right) \right)  \\
-    z =  2^4 \left( \cos\left( 2\pi \right) + i\sin\left( \2pi \right) \right)  \\
-    z =  16 \left( \cos\left( 2\pi \right) + i\sin\left( \2pi \right) \right)  \\
+    z =  2^4 \left( \cos\left( 2\pi \right) + i\sin\left( 2pi \right) \right)  \\
+    z =  16 \left( \cos\left( 2\pi \right) + i\sin\left( 2pi \right) \right)  \\
     z =  16 \left( \cos\left( 0 \right) + i\sin\left( 0 \right) \right)  \\
-    z = 16(1_0i)
+    z = 16(1+0i)
     z= 16
 \end{align}
 ```
