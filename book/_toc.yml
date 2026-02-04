@@ -50,11 +50,13 @@ parts:
       - file: 3_Limieten/Limieten/Combinaties_van_limieten.md
    # - file: Limieten/Limieten/test1.ipynb
 
-  - caption: Differentiëren
+  - caption: Differentiaalrekening
     chapters:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections:
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_uitwerkingen.md
 
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
@@ -62,12 +64,13 @@ parts:
 
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
 
     - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
       sections:
-      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/De_quotientregel.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_opgaven.md
+      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_uitwerkingen.md
       
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_opgaven.md
@@ -79,7 +82,7 @@ parts:
   #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
 
-  - caption: Integreren
+  - caption: Integraalrekening
     chapters:
     - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
@@ -94,71 +97,71 @@ parts:
       - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_opgaven.md
       - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_uitwerkingen.md
 
-  - caption: Complexe getalllen
-    chapters:
+  #- caption: Complexe getalllen
+    #chapters:
 
-    - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen.md
-      sections:
-      - file: 6_Complexe_getallen/Complexe_getallen/Inleiding.md
+    #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen.md
+      #sections:
+      #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Inleiding_uitwerkingen.md
       
-      - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen.md
-      - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_opgaven.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_uitwerkingen.md
       
-      - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_goniometrische_vorm_uitwerkingen.md
       
-      - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_goniometrische_vorm_uitwerkingen.md
       
-      - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_in_exponentiele_vorm_uitwerkingen.md
       
-      - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_uitwerkingen.md
       
-      - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen.md
+      #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen.md
 
-  - caption: Opgaven en Uitwerkingen lessen
-    chapters:
-    - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
-    - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
+  #- caption: Opgaven en Uitwerkingen lessen
+    #chapters:
+    #- file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
+    #- file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
 
-    - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven_les.md
-    - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen_les.md
+    #- file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven_les.md
+    #- file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen_les.md
 
-    - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven_les.md
-    - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen_les.md
+    #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven_les.md
+    #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen_les.md
 
-    - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven_les.md
-    - file: VT/VT2_1_opgaven.md
+    #- file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven_les.md
+    #- file: VT/VT2_1_opgaven.md
 
-  - caption: Voorbeeld Toets - T1
-    chapters:
-    - file: VT/VT1_opgaven.md
-    - file: VT/VT1_uitwerkingen.md
-    - file: VT/VT2_opgaven.md
-    - file: VT/VT2_uitwerkingen.md
-    - file: VT/VT3_opgaven.md
-    - file: VT/VT3_uitwerkingen.md
+  #- caption: Voorbeeld Toets - T1
+    #chapters:
+    #- file: VT/VT1_opgaven.md
+    #- file: VT/VT1_uitwerkingen.md
+    #- file: VT/VT2_opgaven.md
+    #- file: VT/VT2_uitwerkingen.md
+    #- file: VT/VT3_opgaven.md
+    #- file: VT/VT3_uitwerkingen.md
 
-  - caption: Voorbeeld Toets - T2
-    chapters:
-    - file: VT/T2_VT1_opgaven.md
-    - file: VT/T2_VT1_uitwerkingen.md
+  #- caption: Voorbeeld Toets - T2
+    #chapters:
+    #- file: VT/T2_VT1_opgaven.md
+    #- file: VT/T2_VT1_uitwerkingen.md
 
-  - caption: Voorbeeld Toets - T3
-    chapters:
-    - file: VT/T3_VT1_opgaven.md
-    - file: VT/T3_VT1_uitwerkingen.md
-    - file: VT/T3_VT2_opgaven.md
-    - file: VT/T3_VT2_uitwerkingen.md
+  #- caption: Voorbeeld Toets - T3
+    #chapters:
+    #- file: VT/T3_VT1_opgaven.md
+    #- file: VT/T3_VT1_uitwerkingen.md
+    #- file: VT/T3_VT2_opgaven.md
+    #- file: VT/T3_VT2_uitwerkingen.md
 
   - caption: Overig
     chapters:
