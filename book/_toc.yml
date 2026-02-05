@@ -7,27 +7,33 @@ parts:
     - file: 1_Algebra/Breuken/Breuken.md
       sections:
       - file: 1_Algebra/Breuken/Breuken_vereenvoudigen.md
-      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
-      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
-      - file: 1_Algebra/Breuken/Breuken_splitsen.md
-      - file: 1_Algebra/Breuken/Breuken_splitsen_opgaven.md
-      - file: 1_Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
-      - file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken.md
-      - file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
-      - file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_uitwerkingen.md
-      - file: 1_Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
-      - file: 1_Algebra/Breuken/Breuken_vermenigvuldigen_en_delen_opgaven.md
-      - file: 1_Algebra/Breuken/Breuken_omschrijven.md
-      - file: 1_Algebra/Breuken/Breuken_omschrijven_opgaven.md
-      - file: 1_Algebra/Breuken/Breuken_omschrijven_uitwerkingen.md
-      - file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
-      - file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
-      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen.md
-      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
-      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
+      #- file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
+      #- file: 1_Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
 
-  - caption: Functies
-    chapters:
+      #- file: 1_Algebra/Breuken/Breuken_splitsen.md
+      #- file: 1_Algebra/Breuken/Breuken_splitsen_opgaven.md
+      #- file: 1_Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
+
+      #- file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken.md
+      #- file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
+      #- file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_uitwerkingen.md
+
+      #- file: 1_Algebra/Breuken/Breuken_vermenigvuldigen_en_delen.md
+      #- file: 1_Algebra/Breuken/Breuken_vermenigvuldigen_en_delen_opgaven.md
+
+      #- file: 1_Algebra/Breuken/Breuken_omschrijven.md
+      #- file: 1_Algebra/Breuken/Breuken_omschrijven_opgaven.md
+      #- file: 1_Algebra/Breuken/Breuken_omschrijven_uitwerkingen.md
+
+      #- file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken.md
+      #- file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken_opgaven.md
+
+      #- file: 1_Algebra/Breuken/Staartdelingen_met_variabelen.md
+      #- file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
+      #- file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
+
+  #- caption: Functies
+    #chapters:
     #- file: 2_Functies/H1_Lineaire_functies/Lineaire_functies.md
     #- file: 2_Functies/H2_Kwadratische_functies/Kwadratische_functies.md
     #- file: 2_Functies/H3_Machtsfuncties/Machtsfuncties.md
@@ -35,67 +41,68 @@ parts:
     #- file: 2_Functies/H5_Goniometrische_functies/Goniometrische_functies.md
     #- file: 2_Functies/H6_Exponentiele_functies/Exponentiele_functies.md
     #- file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
-    - file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
+    #- file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
 
-  - caption: Limieten
-    chapters:
-    - file: 3_Limieten/Limieten/Limieten.md
-      sections:
-      - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
-      - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
-      - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
+  #- caption: Limieten
+    #chapters:
+  #  - file: 3_Limieten/Limieten/Limieten.md
+   #   sections:
+      #- file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten.md
+      #- file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
+      #- file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
 
-      - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
-      - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot_opgaven.md
-      - file: 3_Limieten/Limieten/Combinaties_van_limieten.md
+      #- file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
+      #- file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot_opgaven.md
+
+      #- file: 3_Limieten/Limieten/Combinaties_van_limieten.md
    # - file: Limieten/Limieten/test1.ipynb
 
-  - caption: Differentiaalrekening
+  #- caption: Differentiaalrekening
     chapters:
-    - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
-      sections:
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_uitwerkingen.md
+    #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
+    #  sections:
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_uitwerkingen.md
 
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
 
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
+      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
 
-    - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
-      sections:
-      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital.md
-      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_opgaven.md
-      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_uitwerkingen.md
-      
-      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor.md
-      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_opgaven.md
-      - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_uitwerkingen.md
-      
+    #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
+    #  sections:
+      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital.md
+      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_opgaven.md
+      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_uitwerkingen.md
+
+      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor.md
+      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_opgaven.md
+      #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_uitwerkingen.md
+
 
   #  - file: Differentiaalrekening/Differentieren/Differentieren.md
   #  - file: Differentiaalrekening/Differentieren_van_machtsfuncties/Differentieren_van_machtsfuncties.md
   #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
 
-  - caption: Integraalrekening
-    chapters:
-    - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
-      sections:
-      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode.md
-      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven.md
-      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_uitwerkingen.md
+  #- caption: Integraalrekening
+  #  chapters:
+  #  - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
+  #    sections:
+  #    - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode.md
+  #    - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven.md
+  #    - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_uitwerkingen.md
 
-      - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren.md
-      - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_opgaven.md
-      
-      - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen.md
-      - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_opgaven.md
-      - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_uitwerkingen.md
+  #    - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren.md
+  #    - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_opgaven.md
+
+  #    - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen.md
+  #    - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_opgaven.md
+  #    - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_uitwerkingen.md
 
   #- caption: Complexe getalllen
     #chapters:

@@ -4,7 +4,7 @@
 
 ### Opgave 6.1.1a
 
-````{admonition} Antwoord
+````{solution}
 :class: important, dropdown
 
 \begin{align*}
