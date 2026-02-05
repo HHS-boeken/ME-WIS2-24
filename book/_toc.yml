@@ -58,7 +58,7 @@ parts:
    # - file: Limieten/Limieten/test1.ipynb
 
   #- caption: Differentiaalrekening
-    chapters:
+    #chapters:
     #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
     #  sections:
       #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
