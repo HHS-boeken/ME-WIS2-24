@@ -19,7 +19,7 @@ En teller en noemer delen door een getal betekent wel de **hele** teller en de *
 
 ## 1.1.1 Teller ontbinden in factoren
 
-```{admonition} Voorbeeld 1: Teller ontbinden in factoren
+```{prf:example} Voorbeeld 1: Teller ontbinden in factoren
 :class: dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
