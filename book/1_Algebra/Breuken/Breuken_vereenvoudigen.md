@@ -129,7 +129,7 @@ $$
 Ontbind de noemer in factoren:
 
 $$
- \dfrac{5x}{5x(2x-5)}
+= \dfrac{5x}{5x(2x-5)}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -194,7 +194,7 @@ $$
 Ontbind de noemer in factoren:
 
 $$
-\dfrac{x-5}{(x-5)(x+5)}
+= \dfrac{x-5}{(x-5)(x+5)}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
