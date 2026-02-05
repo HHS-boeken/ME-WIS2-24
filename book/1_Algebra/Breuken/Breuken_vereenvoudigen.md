@@ -74,7 +74,7 @@ $$
 $$
 
 $$
-= x-4 \quad \text{als } x\neq 0
+= 2x-4 \quad \text{als } x\neq 0
 $$
 
 :::
@@ -167,11 +167,10 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{1}{-1}
-$$
-
-$$
-= -1 \quad \text{als } a\neq b
+\begin{align*}
+&= \dfrac{1}{-1}
+&= -1 \quad \text{als } a\neq b
+\end{align*}
 $$
 
 :::
@@ -236,11 +235,10 @@ $$
 De breuk herschrijven:
 
 $$
-=\dfrac{1}{2}(x-1)
-$$
-
-$$
-= \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
+\begin{align*}
+&=\dfrac{1}{2}(x-1) \\
+&= \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
+\end{align*}
 $$
 
 :::
