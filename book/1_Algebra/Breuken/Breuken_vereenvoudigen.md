@@ -236,8 +236,11 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 De breuk herschrijven:
 
 \[
-=& \dfrac{1}{2}(x-1)
-=& \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
+=\dfrac{1}{2}(x-1)
+\]
+
+\[
+= \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
 \]
 
 :::
