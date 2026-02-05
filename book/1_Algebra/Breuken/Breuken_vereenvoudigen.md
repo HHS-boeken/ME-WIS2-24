@@ -50,8 +50,6 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 ```{dropdown} Uitwerking
-
-
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
  \dfrac{8x^2-16x}{4x}
@@ -83,8 +81,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{a^2-b^2}{a+b}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -140,8 +137,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{a-b}{b-a}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -174,8 +170,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{x-5}{x^2-25}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -235,8 +230,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -265,8 +259,7 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{2x^2-2x-12}{3x^2+15x+18}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -274,19 +267,16 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
 \end{align*}
 
 Ontbind de teller en de noemer in factoren:
-
 \begin{align}
  = \dfrac{2(x^2-x-6)}{3(x^2+5x+6)}
 \end{align}
 
 Ontbind de teller en de noemer in factoren:
-
 \begin{align}
  = \dfrac{2(x-3)(x+2)}{3(x+3)(x+2)}
 \end{align}
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
-
 \begin{align}
  = \dfrac{2(x-3)}{3(x+3)} \quad \text{als } x\neq-2
 \end{align}
