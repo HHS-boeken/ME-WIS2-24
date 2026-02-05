@@ -70,11 +70,10 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{2x-4}{1}
-$$
-
-$$
+\begin{align*}
+= \dfrac{2x-4}{1} \\
 = 2x-4 \quad \text{als } x\neq 0
+\end{align*}
 $$
 
 :::
@@ -106,11 +105,10 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{(a-b)}{1}
-$$
-
-$$
+\begin{align*}
+= \dfrac{(a-b)}{1} \\
 = a-b \quad \text{als } a\neq -b
+\end{align*}
 $$
 
 :::
@@ -168,8 +166,8 @@ Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
 \begin{align*}
-&= \dfrac{1}{-1}
-&= -1 \quad \text{als } a\neq b
+= \dfrac{1}{-1} \\
+= -1 \quad \text{als } a\neq b
 \end{align*}
 $$
 
@@ -236,8 +234,8 @@ De breuk herschrijven:
 
 $$
 \begin{align*}
-&=\dfrac{1}{2}(x-1) \\
-&= \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
+=\dfrac{1}{2}(x-1) \\
+= \dfrac{1}{2}x - \dfrac{1}{2} \quad \text{als } x\neq 3
 \end{align*}
 $$
 
