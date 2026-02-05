@@ -7,8 +7,9 @@ parts:
     - file: 1_Algebra/Breuken/Breuken.md
       sections:
       - file: 1_Algebra/Breuken/Breuken_vereenvoudigen.md
-      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
-      - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
+        sections:
+        - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
+        - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
 
       #- file: 1_Algebra/Breuken/Breuken_splitsen.md
       #- file: 1_Algebra/Breuken/Breuken_splitsen_opgaven.md
