@@ -20,7 +20,7 @@ En teller en noemer delen door een getal betekent wel de **hele** teller en de *
 ## 1.1.1 Teller ontbinden in factoren
 
 ```{admonition} Voorbeeld 1: Teller ontbinden in factoren
-:class: important, dropdown
+:class: note, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
@@ -49,8 +49,8 @@ Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaar
  \dfrac{8x^2-16x}{4x}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: dropdown
+```{dropdown} Uitwerking
+
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 \begin{align*}
