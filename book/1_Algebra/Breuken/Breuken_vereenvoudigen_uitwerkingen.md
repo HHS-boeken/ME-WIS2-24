@@ -5,7 +5,7 @@
 ### Opgave 1.1a
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: attention, dropdown
 
 De vereenvoudige breuk is:
 
@@ -13,9 +13,7 @@ $$
 \dfrac{3ab^2c}{5d^2} \quad \text{als } a \neq 0, b \neq 0
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
