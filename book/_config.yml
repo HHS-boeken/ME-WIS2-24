@@ -29,7 +29,7 @@ sphinx:                                              # Options passed on to the 
     html_theme_options:
       icon_links:
         - name: WiskundeBaas
-          url: https://chat.openai.com/g/g-xxxxxx
+          url: https://chatgpt.com/g/g-698653cfffd88191bb7f0a7951c9d489-wiskundebaas
           icon: figures/WiskundeBaas.png
           type: url
           attributes:
