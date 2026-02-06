@@ -10,31 +10,6 @@ execute:
 
 html:
   use_multitoc_numbering    : true                  # Default value (line can be removed), sets continuous numbering across parts/chapters, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html). Same functionality per section can be defined with sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
-  extra_navbar: |
-    <a href="https://chat.openai.com/g/g-xxxxxx"
-       target="_blank"
-       rel="noopener"
-       class="gpt-button">
-       <i class="fa-solid fa-robot"></i> GPT
-    </a>
-
-  extra_head: |
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <style>
-      .gpt-button {
-        margin-left: 10px;
-        padding: 6px 10px;
-        border-radius: 6px;
-        background: #10a37f;
-        color: white !important;
-        text-decoration: none;
-        font-weight: 600;
-      }
-      .gpt-button:hover {
-        background: #0d8a6c;
-      }
-    </style>
 
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
@@ -50,6 +25,14 @@ sphinx:                                              # Options passed on to the 
     html_favicon: "figures/TB_favicon.ico"           # Replace this with your own favicon, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_baseurl:  "https://<user/org>.io/<repo>"    # Replace this with your own URL, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_theme_options:
+       icon_links:
+        - name: Custom GPT
+          url: https://chat.openai.com/g/g-xxxxxx
+          icon: fa-solid fa-robot
+          type: fontawesome
+          attributes:
+            target: _blank
+            rel: noopener
       logo:
         text:        ME-WIS2-24 Wiskunde 2           # Replace this with your own book title, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
         image_light: logo.png                        # Put your logo for the light mode here (can be the same as image_dark), configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
