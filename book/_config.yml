@@ -10,6 +10,31 @@ execute:
 
 html:
   use_multitoc_numbering    : true                  # Default value (line can be removed), sets continuous numbering across parts/chapters, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html). Same functionality per section can be defined with sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
+  extra_footer: |
+    <a href="https://chat.openai.com/g/g-xxxxxx"
+       target="_blank"
+       class="gpt-float">
+       🧮
+    </a>
+    <style>
+      .gpt-float{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 26px;
+        background: #10a37f;
+        color: white;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        box-shadow: 0 4px 10px rgba(0,0,0,.3);
+        z-index: 9999;
+      }
+    </style>
 
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
