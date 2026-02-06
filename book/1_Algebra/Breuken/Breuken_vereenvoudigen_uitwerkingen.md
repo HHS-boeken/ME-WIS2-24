@@ -68,7 +68,7 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4
+= \dfrac{(a+2)}{(a-3)} \quad \text{als } a\neq-4, a\neq3
 $$
 
 :::
@@ -142,7 +142,7 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0
+= \dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0, y\neq0
 $$
 
 :::
@@ -183,9 +183,9 @@ $$
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
-$$
 
-= \dfrac{1}{p(x + y)} \quad \text{als } x\neq y
+$$
+= \dfrac{1}{p(x + y)} \quad \text{als } x\neq y, x\neq -y, p\neq 0 
 $$
 
 :::
@@ -284,7 +284,7 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2 \neq 0
+= \dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2 \neq 0, a \neq 0
 $$
 
 :::
@@ -370,7 +370,7 @@ $$
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
-= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2
+= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2, q \neq -4
 $$
 
 :::
