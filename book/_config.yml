@@ -10,6 +10,32 @@ execute:
 
 html:
   use_multitoc_numbering    : true                  # Default value (line can be removed), sets continuous numbering across parts/chapters, configuration part of Jupyterbook v1 (https://jupyterbook.org/en/stable/customize/config.html). Same functionality per section can be defined with sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
+  extra_navbar: |
+    <a href="https://chat.openai.com/g/g-xxxxxx"
+       target="_blank"
+       rel="noopener"
+       class="gpt-button">
+       <i class="fa-solid fa-robot"></i> GPT
+    </a>
+
+  extra_head: |
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      .gpt-button {
+        margin-left: 10px;
+        padding: 6px 10px;
+        border-radius: 6px;
+        background: #10a37f;
+        color: white !important;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .gpt-button:hover {
+        background: #0d8a6c;
+      }
+    </style>
+
 
 sphinx:                                              # Options passed on to the underlying sphinx-parser
   extra_extensions:                                  # Sets a list of extensions to load by sphinx, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
@@ -44,7 +70,7 @@ sphinx:                                              # Options passed on to the 
       chtml: {
         mtextInheritFont: true,                       # To typeset text within math prettier, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
         displayAlign: "left",
-        displayIndent: "15em"
+        displayIndent: "12em"
       }
     keep_warnings: false                             # Default value (line can be removed), disables showing warnings in the book, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-keep_warnings)
     external_toc_exclude_missing: true               # Replace this with false if you want to build all files in the book, allowing you to refer to pages which are not included in the table of contents, configuration part of jupyterbook, configuration part of sphinx-external-toc (https://sphinx-external-toc.readthedocs.io/en/latest/intro.html)
