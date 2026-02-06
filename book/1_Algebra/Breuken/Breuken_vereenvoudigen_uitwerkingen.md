@@ -48,9 +48,7 @@ $$
 \dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -85,9 +83,7 @@ $$
 \dfrac{a^2+b^2}{a+b}
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -98,6 +94,8 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1d
 
@@ -110,9 +108,7 @@ $$
 \dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -159,9 +155,7 @@ $$
 \dfrac{1}{p(x + y)} \quad \text{als } x\neq y
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -202,9 +196,7 @@ $$
 \dfrac{a^2+b}{a^2-b}
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -215,6 +207,8 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 1.1g
 
@@ -227,9 +221,7 @@ $$
 x + 2y^3 \quad \text{als } x \neq 2y^3
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -264,9 +256,7 @@ $$
 \dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -301,9 +291,7 @@ $$
 \dfrac{2(x + 4)}{x - 4} \quad \text{als } x \neq 4
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
@@ -344,9 +332,7 @@ $$
 = \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2
 $$
 
-:::{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Vereenvoudig de volgende breuk zo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
