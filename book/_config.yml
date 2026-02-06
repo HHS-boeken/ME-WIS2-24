@@ -28,10 +28,10 @@ sphinx:                                              # Options passed on to the 
     html_baseurl:  "https://<user/org>.io/<repo>"    # Replace this with your own URL, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_theme_options:
       icon_links:
-        - name: Custom GPT
+        - name: WiskundeBaas
           url: https://chat.openai.com/g/g-xxxxxx
-          icon: fa-chalkboard-user
-          type: fontawesome
+          icon: figures/WiskundeBaas.png
+          type: url
           attributes:
             target: _blank
             rel: noopener
