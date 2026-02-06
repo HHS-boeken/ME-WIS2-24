@@ -25,7 +25,7 @@ sphinx:                                              # Options passed on to the 
     html_favicon: "figures/TB_favicon.ico"           # Replace this with your own favicon, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_baseurl:  "https://<user/org>.io/<repo>"    # Replace this with your own URL, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
     html_theme_options:
-       icon_links:
+      icon_links:
         - name: Custom GPT
           url: https://chat.openai.com/g/g-xxxxxx
           icon: fa-solid fa-robot
