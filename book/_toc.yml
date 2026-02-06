@@ -11,9 +11,10 @@ parts:
         - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_opgaven.md
         - file: 1_Algebra/Breuken/Breuken_vereenvoudigen_uitwerkingen.md
 
-      #- file: 1_Algebra/Breuken/Breuken_splitsen.md
-      #- file: 1_Algebra/Breuken/Breuken_splitsen_opgaven.md
-      #- file: 1_Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
+      - file: 1_Algebra/Breuken/Breuken_splitsen.md
+        sections:
+        - file: 1_Algebra/Breuken/Breuken_splitsen_opgaven.md
+        - file: 1_Algebra/Breuken/Breuken_splitsen_uitwerkingen.md
 
       #- file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken.md
       #- file: 1_Algebra/Breuken/Breuken_optellen_en_aftrekken_opgaven.md
