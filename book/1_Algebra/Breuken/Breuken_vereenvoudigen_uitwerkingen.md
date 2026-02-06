@@ -5,7 +5,7 @@
 ### Opgave 1.1a
 
 ::::{admonition} Antwoord
-:class: attention, dropdown
+:class: hint, dropdown
 
 De vereenvoudige breuk is:
 
