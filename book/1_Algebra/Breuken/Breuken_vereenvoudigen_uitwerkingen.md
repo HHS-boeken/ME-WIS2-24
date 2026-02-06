@@ -100,7 +100,7 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 ### Opgave 1.1d
 
 ::::{admonition} Antwoord
-:class: important,dropdown
+:class: important, dropdown
 
 De vereenvoudige breuk is:
 
@@ -147,7 +147,7 @@ $$
 ### Opgave 1.1e
 
 ::::{admonition} Antwoord
-:class:  important,dropdown
+:class:  important, dropdown
 
 De vereenvoudige breuk is:
 
@@ -188,7 +188,7 @@ $$
 ### Opgave 1.1f
 
 ::::{admonition} Antwoord
-:class:  important,dropdown
+:class:  important, dropdown
 
 In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeenschappelijke factor is tussen de teller en de noemer die weggedeelt kan worden. Zowel de teller als de noemer kunnen niet verder ontbonden worden. Dit is de meest vereenvoudigde vorm van de uitdrukking.
 
@@ -213,7 +213,7 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 ### Opgave 1.1g
 
 ::::{admonition} Antwoord
-:class:  important,dropdown
+:class:  important, dropdown
 
 De vereenvoudige breuk is:
 
@@ -248,7 +248,7 @@ $$
 ### Opgave 1.1h
 
 ::::{admonition} Antwoord
-:class:  important,dropdown
+:class:  important, dropdown
 
 De vereenvoudige breuk is:
 
@@ -283,7 +283,7 @@ $$
 ### Opgave 1.1i
 
 ::::{admonition} Antwoord
-:class:  important,dropdown
+:class:  important, dropdown
 
 De vereenvoudige breuk is:
 
