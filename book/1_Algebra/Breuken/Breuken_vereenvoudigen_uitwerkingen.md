@@ -5,7 +5,7 @@
 ### Opgave 1.1a
 
 ::::{admonition} Antwoord
-:class: hint, dropdown
+:class: important, dropdown
 
 De vereenvoudige breuk is:
 
@@ -40,12 +40,12 @@ $$
 ### Opgave 1.1b
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 De vereenvoudige breuk is:
 
 $$
-\dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4
+\dfrac{(a+2)}{(a-3)} \quad \text{als } x\neq-4, a\neq3
 $$
 
 :::{dropdown} Uitwerking
@@ -75,7 +75,7 @@ $$
 ### Opgave 1.1c
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeenschappelijke factor is tussen de teller en de noemer die weggedeelt kan worden. Zowel de teller als de noemer kunnen niet verder ontbonden worden. Dit is de meest vereenvoudigde vorm van de uitdrukking.
 
@@ -100,12 +100,12 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 ### Opgave 1.1d
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important,dropdown
 
 De vereenvoudige breuk is:
 
 $$
-\dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0
+\dfrac{2x^2}{3y} \quad \text{als } x\neq2y, x\neq0, y\neq0
 $$
 
 :::{dropdown} Uitwerking
@@ -147,12 +147,12 @@ $$
 ### Opgave 1.1e
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class:  important,dropdown
 
 De vereenvoudige breuk is:
 
 $$
-\dfrac{1}{p(x + y)} \quad \text{als } x\neq y
+\dfrac{1}{p(x + y)} \quad \text{als } x\neq y, x\neq -y, p\neq 0
 $$
 
 :::{dropdown} Uitwerking
@@ -188,7 +188,7 @@ $$
 ### Opgave 1.1f
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class:  important,dropdown
 
 In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeenschappelijke factor is tussen de teller en de noemer die weggedeelt kan worden. Zowel de teller als de noemer kunnen niet verder ontbonden worden. Dit is de meest vereenvoudigde vorm van de uitdrukking.
 
@@ -213,7 +213,7 @@ In dit geval kan de breuk niet verder vereenvoudigd worden, omdat er geen gemeen
 ### Opgave 1.1g
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class:  important,dropdown
 
 De vereenvoudige breuk is:
 
@@ -248,12 +248,12 @@ $$
 ### Opgave 1.1h
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class:  important,dropdown
 
 De vereenvoudige breuk is:
 
 $$
-\dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2
+\dfrac{x^2 + 3y^2}{a} \quad \text{als } x^2 + 3y^2 \neq 0, a \neq 0
 $$
 
 :::{dropdown} Uitwerking
@@ -283,7 +283,7 @@ $$
 ### Opgave 1.1i
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class:  important,dropdown
 
 De vereenvoudige breuk is:
 
@@ -324,12 +324,12 @@ $$
 ### Opgave 1.1j
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class:  important, dropdown
 
 De vereenvoudige breuk is:
 
 $$
-= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2
+= \dfrac{q - 6}{3(q + 4)} \quad \text{als } q \neq 2, q \neq -4
 $$
 
 :::{dropdown} Uitwerking
