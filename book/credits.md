@@ -3,7 +3,7 @@
 
 Je kunt naar dit boek verwijzen als:
 
-> Raoul Tjokrojoso van de Haagse Hogeschool (2025) _ME-WIS2-24 - Wiskunde 2_. [https://hhs-boeken.github.io/ME-WIS2-24](https://hhs-boeken.github.io/ME-WIS2-24/2526). Bronbestanden op {octicon}`mark-github` [HHS-boeken/ME-WIS2-24](https://github.com/HHS-boeken/ME-WIS2-24). CC BY 4.0.
+%> Raoul Tjokrojoso van de Haagse Hogeschool (2025) _ME-WIS2-24 - Wiskunde 2_. [https://hhs-boeken.github.io/ME-WIS2-24](https://hhs-boeken.github.io/ME-WIS2-24/2526). Bronbestanden op {octicon}`mark-github` [HHS-boeken/ME-WIS2-24](https://github.com/HHS-boeken/ME-WIS2-24). CC BY 4.0.
 
 Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 
@@ -12,7 +12,7 @@ Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 We verwachten dat de inhoud van dit boek aanzienlijk zal veranderen. Daarom raden we aan om direct de broncode te gebruiken met de bovenstaande referentie naar de GitHub-repository, inclusief datum en bestandsnaam. Hoewel er in de loop van de tijd inhoud wordt toegevoegd, blijven hoofdstuktitels en URL's naar verwachting redelijk stabiel. We geven echter geen garantie; als het belangrijk is om naar een specifieke locatie/commit binnen het boek te verwijzen, doe dit dan expliciet.
 
 ## Hoe het boek is gemaakt
-Deze website is geschreven in markdown- en jupyternotebook-bestanden, die worden omgezet naar html met behulp van tools van [TeachBooks](https://teachbooks.io/). De bestanden zijn opgeslagen in een [publieke GitHub-repository](https://github.com/HHS-boeken/ME-MECH1-24). De website is te bekijken op [https://hhs-boeken.github.io/ME-MECH1-24](https://hhs-boeken.github.io/ME-MECH1-24/2526).
+%Deze website is geschreven in markdown- en jupyternotebook-bestanden, die worden omgezet naar html met behulp van tools van [TeachBooks](https://teachbooks.io/). De bestanden zijn opgeslagen in een [publieke GitHub-repository](https://github.com/HHS-boeken/ME-MECH1-24). De website is te bekijken op [https://hhs-boeken.github.io/ME-MECH1-24](https://hhs-boeken.github.io/ME-MECH1-24/2526).
 
 Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachBooks handleiding](https://teachbooks.io/manual/)):
 - In de GitHub-interface: fork deze repository, schakel Github Pages in via de bron GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), schakel workflows in (Actions - I understand my workflows, go ahead and enable them) en voer de call-deploy-book workflow uit (Actions - call-deploy-book - Run workflow - Run workflow). De website wordt gepubliceerd op de URL zoals weergegeven in het workflowoverzicht wanneer de workflow is voltooid (Actions - call-deploy-book - call-deploy-book - Summary).
