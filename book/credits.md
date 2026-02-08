@@ -3,9 +3,9 @@
 
 Je kunt naar dit boek verwijzen als:
 
-:::{note}
-Raoul Tjokrojoso van de Haagse Hogeschool (2025) _ME-WIS2-24 - Wiskunde 2_. [https://hhs-boeken.github.io/ME-WIS2-24](https://hhs-boeken.github.io/ME-WIS2-24/2526). Bronbestanden op {octicon}`mark-github` [HHS-boeken/ME-WIS2-24](https://github.com/HHS-boeken/ME-WIS2-24). CC BY 4.0.
-:::
+%:::{note}
+%Raoul Tjokrojoso van de Haagse Hogeschool (2025) _ME-WIS2-24 - Wiskunde 2_. [https://hhs-boeken.github.io/ME-WIS2-24](https://hhs-boeken.github.io/ME-WIS2-24/2526). Bronbestanden op {octicon}`mark-github` [HHS-boeken/ME-WIS2-24](https://github.com/HHS-boeken/ME-WIS2-24). CC BY 4.0.
+%:::
 
 Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 
