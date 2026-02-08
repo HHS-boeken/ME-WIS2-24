@@ -178,8 +178,8 @@ parts:
     #- file: VT/T3_VT2_opgaven.md
     #- file: VT/T3_VT2_uitwerkingen.md
 
-  - caption: Overig
+  - caption: Diverse
     chapters:
-    - file: references.md
+    #- file: references.md
     - file: changelog.md
-    - file: credits.md
+    #- file: credits.md
