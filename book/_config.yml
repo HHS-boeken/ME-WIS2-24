@@ -35,12 +35,12 @@ sphinx:                                              # Options passed on to the 
     html_theme_options:
       icon_links:
         - name: WiskundeBaas
-          url: https://chatgpt.com/g/g-698653cfffd88191bb7f0a7951c9d489-wiskundebaas
-          icon: https://hhs-boeken.github.io/ME-WIS2-24/2526_draft/figures/WiskundeBaas.png
-          type: url
-          attributes:
-            target: _blank
-            rel: noopener
+          #url: https://chatgpt.com/g/g-698653cfffd88191bb7f0a7951c9d489-wiskundebaas
+          #icon: https://hhs-boeken.github.io/ME-WIS2-24/2526_draft/figures/WiskundeBaas.png
+          #type: url
+          #attributes:
+          #  target: _blank
+          #  rel: noopener
       icon_links_label: header
       logo:
         text:        ME-WIS2-24 Wiskunde 2           # Replace this with your own book title, configuration part of Sphinx (https://www.sphinx-doc.org/en/master/index.html)
