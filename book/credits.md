@@ -24,7 +24,7 @@ Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0
 (external_resources)=
 ### Externe bronnen
 
-Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gebruikt van Statica, door {cite:ts}`Statica`.
+Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. Er is gebruik gemaakt van AI voor het genereren van opgaven en uitwerkingen.
 
 (editor)=
 ## Over de auteur
