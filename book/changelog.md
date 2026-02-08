@@ -1,4 +1,5 @@
 # Changelog
 
-## `<date>` [`<release name>`](<`link to release on GitHub>`)
-- `<Added/modified/deleted>` [](`<relative link to changed file>`)
+## v2025.0.0 Start module
+
+- Eerste publicatie van het boek voor het nieuwe studiejaar

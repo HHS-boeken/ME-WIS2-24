@@ -1,36 +1,57 @@
 (credits)=
-# Credits and License
+# Credits en Licentie
 
-You can refer to this book as:
+Je kunt naar dit boek verwijzen als:
 
-> `<editors>` (`<year>`) _`<title>`_. `<url to book website>`. Source files at `<link to github repo`
+> Raoul Tjokrojoso van de Haagse Hogeschool (2025) _ME-WIS2-24 - Wiskunde 2_. [https://hhs-boeken.github.io/ME-WIS2-24](https://hhs-boeken.github.io/ME-WIS2-24/2526). Bronbestanden op {octicon}`mark-github` [HHS-boeken/ME-WIS2-24](https://github.com/HHS-boeken/ME-WIS2-24). CC BY 4.0.
 
-You can refer to individual chapters or pages within this book as:
+Je kunt naar individuele hoofdstukken of pagina's binnen dit boek verwijzen als:
 
-> `<Title of Chapter or Page>`. In `<editors>` (`<year>`) _`<title>`_. `<url to specific page on bbook website>`. Source files at `<link to specific commit / file in github repo`
+> `<Titel van Hoofdstuk of Pagina>`. in Raoul Tjokrojoso van de Haagse Hogeschool (2025) _ME-WIS2-24 - Wiskunde 2_. `<url naar specifieke pagina op de boekwebsite>`. Bronbestanden op `<link naar specifieke commit / bestand in github repo>`. CC BY 4.0.
 
-We anticipate that the content of this book will change significantly. Therefore, we recommend using the source code directly with the citation above that refers to the GitHub repository and lists the date and name of the file. Although content will be added over time, chapter titles and URL's in this book are expected to remain relatively static. However, we make no guarantee, so if it is important for you to reference a specific location/commit within the book.
+We verwachten dat de inhoud van dit boek aanzienlijk zal veranderen. Daarom raden we aan om direct de broncode te gebruiken met de bovenstaande referentie naar de GitHub-repository, inclusief datum en bestandsnaam. Hoewel er in de loop van de tijd inhoud wordt toegevoegd, blijven hoofdstuktitels en URL's naar verwachting redelijk stabiel. We geven echter geen garantie; als het belangrijk is om naar een specifieke locatie/commit binnen het boek te verwijzen, doe dit dan expliciet.
 
-## How the book is made
+## Hoe het boek is gemaakt
+Deze website is geschreven in markdown- en jupyternotebook-bestanden, die worden omgezet naar html met behulp van tools van [TeachBooks](https://teachbooks.io/). De bestanden zijn opgeslagen in een [publieke GitHub-repository](https://github.com/HHS-boeken/ME-MECH1-24). De website is te bekijken op [https://hhs-boeken.github.io/ME-MECH1-24](https://hhs-boeken.github.io/ME-MECH1-24/2526).
 
-This book is created using open source tools: it is a JupyterBook that is written using Markdown and Jupyter notebooks. Additional tooling is used from the [TeachBooks initiative](https://teachbooks.io/) to enhance the editing and reading experience. The files are stored on a [public GitHub repository](`<link to GitHub repo>`). The website can be viewed at `<link to book website url>`. View the repository README file or contact the authors for additional information.
+Om de website opnieuw te maken heb je twee opties (meer informatie in de [TeachBooks handleiding](https://teachbooks.io/manual/)):
+- In de GitHub-interface: fork deze repository, schakel Github Pages in via de bron GitHub actions (Settings - Code and automation - Pages - Build and deployment - Source - GitHub Actions), schakel workflows in (Actions - I understand my workflows, go ahead and enable them) en voer de call-deploy-book workflow uit (Actions - call-deploy-book - Run workflow - Run workflow). De website wordt gepubliceerd op de URL zoals weergegeven in het workflowoverzicht wanneer de workflow is voltooid (Actions - call-deploy-book - call-deploy-book - Summary).
+- Op je eigen computer: clone deze repository, installeer de vereiste pakketten (`pip install -r requirements.txt`) en bouw het boek (`teachbooks build book`). De website wordt lokaal opgeslagen in `book/_build/index.html`.
 
-## License
-This manual is [CC BY 4.0 licensed](https://creativecommons.org/licenses/by/4.0/) allowing you to share and adapt the material, as long as the source is named. External resources that are reused in this manual are listed below.
+## Licentie
+Dit boek is [CC BY 4.0 gelicenseerd](https://creativecommons.org/licenses/by/4.0/) waardoor je het materiaal mag delen en aanpassen, zolang de bron wordt vermeld. Externe bronnen die in dit boek worden hergebruikt, staan hieronder vermeld.
 
 (external_resources)=
-### External resources
+### Externe bronnen
 
-Parts of this book are taken from other external resources and reused in various ways. If an author is not listed on a particular page, it is by the Authors, except as follows:
-
-The following pages are included directly from an external resource and is not edited by `<Editor>`:
-- page [](). Original content licensed under CC BY 4.0 License
-
-The following pages contain content written by others, part of has been reused and/or modified by `<Editor>`
-- Page []() include text from {cite:t}`jason_moore`. Original content licensed under CC BY. 
-
+Delen van dit boek zijn afkomstig uit andere externe bronnen en op verschillende manieren hergebruikt. In het bijzonder is er materiaal gebruikt van Statica, door {cite:ts}`Statica`.
 
 (editor)=
-## About the Editors
+## Over de auteur
 
-### Acknowledgements
+%### Raoul Tjokrojoso
+
+%```{figure} figures/Tom.jpg
+%:width: 300px
+%:align: center
+%:class: dark-light
+%```
+
+%Tom is docent aan de Technische Universiteit Delft. Tom heeft een passie voor het mechanicaonderwijs en streeft ernaar een blended leerweg te faciliteren voor studenten, waarin actief leren aantrekkelijk en lonend is.
+
+%Tom is in 2020 afgestudeerd bij de Technische Universiteit Delft met onderzoek naar wiskundige optimalisatie van een constructief ontwerp. Van augustus 2020 tot augustus 2022 was Tom werkzaam bij de Hogeschool van Amsterdam als docent constructie, gespecialiseerd in constructiemechanica. Sinds september 2022 is Tom werkzaam bij de TU Delft.
+
+%Naast constructiemechanicavakken, geeft Tom vakken over optimalisatie, numerieke methodes, data-analyse en statistiek. Ook begeleidt Tom BSc- en MSc-studenten, deels onderdeel van zijn onderzoekproject over [Macaulay's methode](https://oit.tudelft.nl/Macaulays-method). Daarnaast, ben ik actief betrokken in interfacultaire samenwerkingen zoals [PRIMECH](https://www.tudelft.nl/teachingacademy/communities/primech), [TeachBooks](https://teachbooks.io/) en diverse digitale tooling voor het onderwijs zoals [ANS](https://ans.app/) en Git
+
+%- {fa}`envelope` T.R.vanWoudenberg@tudelft.nl
+%- {fa}`envelope` tomvanw@hotmail.com
+%- {fa}`phone` +31152789739
+%- {fa}`location-dot` TU Delft – Civiele Techniek & Geowetenschappen - Afdeling 3MD – Kamer 6.45
+%- <i class="fa-brands fa-github"></i> [GitHub profiel](https://github.com/Tom-van-Woudenberg)
+%- <i class="fa-brands fa-linkedin"></i> [LinkedIn profiel](https://www.linkedin.com/in/tom-van-woudenberg/)
+%- {fa}`building-columns` [TU Delft profiel](https://www.tudelft.nl/en/staff/t.r.vanwoudenberg/)
+
+### Dankwoord
+%Dank aan studentenassistent Iris Oskam voor het controleren van de antwoorden en toevoegen van uitwerkingen
+
+Daarnaast veel dank aan de diverse collega's en studentassistenten van de TU Delft van [TeachBooks](https://teachbooks.io/) voor het ontwikkelen van tools en het bieden van ondersteuning om dit boek te verbeteren.
