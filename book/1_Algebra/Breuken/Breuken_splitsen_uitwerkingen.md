@@ -10,23 +10,23 @@
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x + 4 + \frac{1}{x}
+x + 4 + \frac{1}{x}
 $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
- \dfrac{x^3 + 4x^2 + x}{x^2}
-\end{align*}
+$$
+\dfrac{x^3 + 4x^2 + x}{x^2}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{x^3}{x^2} + \frac{4x^2}{x^2} + \frac{x}{x^2}
+= \frac{x^3}{x^2} + \frac{4x^2}{x^2} + \frac{x}{x^2}
 $$
 
 Gesplitste en vereenvoudigde vorm:
 $$
- & x + 4 + \frac{1}{x}
+x + 4 + \frac{1}{x}
 $$
 :::
 ::::
@@ -41,24 +41,25 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x^2 + 3x - 2 + \frac{1}{x}
+x^2 + 3x - 2 + \frac{1}{x}
 $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
+$$
  \dfrac{x^4 + 3x^3 - 2x^2 + x}{x^2}
-\end{align*}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{x^4}{x^2} + \frac{3x^3}{x^2} + \frac{-2x^2}{x^2} + \frac{x}{x^2}
+= \frac{x^4}{x^2} + \frac{3x^3}{x^2} + \frac{-2x^2}{x^2} + \frac{x}{x^2}
 $$
 
 Vereenvoudigen:
 $$
- &= x^2 + 3x - 2 + \frac{1}{x}
+= x^2 + 3x - 2 + \frac{1}{x}
 $$
+
 :::
 ::::
 
@@ -70,24 +71,25 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & y^2 + 5y + 2
+y^2 + 5y + 2
 $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
- \dfrac{y^3 + 5y^2 + 2y}{y}
-\end{align*}
+$$
+\dfrac{y^3 + 5y^2 + 2y}{y}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{y^3}{y} + \frac{5y^2}{y} + \frac{2y}{y}
+= \frac{y^3}{y} + \frac{5y^2}{y} + \frac{2y}{y}
 $$
 
 Vereenvoudigen:
 $$
- &= y^2 + 5y + 2
+= y^2 + 5y + 2
 $$
+
 :::
 ::::
 
@@ -101,24 +103,25 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x + y - \frac{2y^2}{x}
+x + y - \frac{2y^2}{x}
 $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
+$$
  \dfrac{x^2y + xy^2 - 2y^3}{xy}
-\end{align*}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{x^2y}{xy} + \frac{xy^2}{xy} - \frac{2y^3}{xy}
+= \frac{x^2y}{xy} + \frac{xy^2}{xy} - \frac{2y^3}{xy}
 $$
 
 Vereenvoudigen:
 $$
- &= x + y - \frac{2y^2}{x}
+= x + y - \frac{2y^2}{x}
 $$
+
 :::
 ::::
 
@@ -132,24 +135,25 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & \frac{a}{b} + 2 + \frac{3b}{a}
+\frac{a}{b} + 2 + \frac{3b}{a}
 $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
- \dfrac{a^3 + 2a^2b + 3ab^2}{a^2b}
-\end{align*}
+$$
+\dfrac{a^3 + 2a^2b + 3ab^2}{a^2b}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{a^3}{a^2b} + \frac{2a^2b}{a^2b} + \frac{3ab^2}{a^2b}
+= \frac{a^3}{a^2b} + \frac{2a^2b}{a^2b} + \frac{3ab^2}{a^2b}
 $$
 
 Vereenvoudigen:
 $$
- &= \frac{a}{b} + 2 + \frac{3b}{a}
+= \frac{a}{b} + 2 + \frac{3b}{a}
 $$
+
 :::
 ::::
 
@@ -163,24 +167,25 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x^2 + 2 - \frac{1}{x} + \frac{4}{x^3}
+x^2 + 2 - \frac{1}{x} + \frac{4}{x^3}
 $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
- \dfrac{x^5 + 2x^3 - x^2 + 4}{x^3}
-\end{align*}
+$$
+\dfrac{x^5 + 2x^3 - x^2 + 4}{x^3}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{x^5}{x^3} + \frac{2x^3}{x^3} - \frac{x^2}{x^3} + \frac{4}{x^3}
+= \frac{x^5}{x^3} + \frac{2x^3}{x^3} - \frac{x^2}{x^3} + \frac{4}{x^3}
 $$
 
 Vereenvoudigen:
 $$
- &= x^2 + 2 - \frac{1}{x} + \frac{4}{x^3}
+= x^2 + 2 - \frac{1}{x} + \frac{4}{x^3}
 $$
+
 :::
 ::::
 
@@ -194,25 +199,25 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x^2 + 2y + \frac{y^2}{x}
+x^2 + 2y + \frac{y^2}{x}
 $$
 
 :::{dropdown} Uitwerking
-
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
-\begin{align*}
- \dfrac{x^3y + 2xy^2 + y^3}{xy}
-\end{align*}
+$$
+\dfrac{x^3y + 2xy^2 + y^3}{xy}
+$$
 
 Splitsen van de breuk:
 $$
- &= \frac{x^3y}{xy} + \frac{2xy^2}{xy} + \frac{y^3}{xy}
+= \frac{x^3y}{xy} + \frac{2xy^2}{xy} + \frac{y^3}{xy}
 $$
 
 Vereenvoudigen:
 $$
- &= x^2 + 2y + \frac{y^2}{x}
+= x^2 + 2y + \frac{y^2}{x}
 $$
+
 :::
 ::::
 
@@ -226,7 +231,7 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x^2 + 4 + \frac{8}{x}
+x^2 + 4 + \frac{8}{x}
 $$
 
 :::{dropdown} Uitwerking
@@ -237,13 +242,14 @@ Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 
 Splitsen van de breuk:
 $$
- &= \frac{x^3}{x} + \frac{4x}{x} + \frac{8}{x}
+= \frac{x^3}{x} + \frac{4x}{x} + \frac{8}{x}
 $$
 
 Vereenvoudigen:
 $$
- &= x^2 + 4 + \frac{8}{x}
+= x^2 + 4 + \frac{8}{x}
 $$
+
 :::
 ::::
 
@@ -257,9 +263,8 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x + 3z + \frac{5z^2}{x}
+x + 3z + \frac{5z^2}{x}
 $$
-
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
@@ -269,13 +274,14 @@ Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 
 Splitsen van de breuk:
 $$
- &= \frac{x^2z}{xz} + \frac{3xz^2}{xz} + \frac{5z^3}{xz}
+= \frac{x^2z}{xz} + \frac{3xz^2}{xz} + \frac{5z^3}{xz}
 $$
 
 Vereenvoudigen:
 $$
- &= x + 3z + \frac{5z^2}{x}
+= x + 3z + \frac{5z^2}{x}
 $$
+
 :::
 ::::
 
@@ -289,9 +295,8 @@ $$
 De gesplitste en vereenvoudigde breuk is:
 
 $$
- & x^2y + 2x + \frac{1}{y}
+x^2y + 2x + \frac{1}{y}
 $$
-
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
@@ -301,12 +306,13 @@ Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
 
 Splitsen van de breuk:
 $$
- &= \frac{x^4y^2}{x^2y} + \frac{2x^3y}{x^2y} + \frac{x^2}{x^2y}
+= \frac{x^4y^2}{x^2y} + \frac{2x^3y}{x^2y} + \frac{x^2}{x^2y}
 $$
 
 Vereenvoudigen:
 $$
- &= x^2y + 2x + \frac{1}{y}
+= x^2y + 2x + \frac{1}{y}
 $$
+
 :::
 ::::
