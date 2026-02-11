@@ -320,8 +320,11 @@ De kleinste gemene noemer is $x(x + 1)$.
 Herschrijf de breuken
 
 $$
-= \frac{3}{x}  \frac{3(x + 1)}{x(x + 1)}, \\
-= \frac{2}{x + 1}  \frac{2x}{x(x + 1)}
+\frac{3}{x}  = \frac{3(x + 1)}{x(x + 1)}
+$$
+
+$$
+\frac{2}{x + 1} = \frac{2x}{x(x + 1)}
 $$
 
 Optellen van de breuken
@@ -364,8 +367,11 @@ De kleinste gemene noemer is $(x + 3)(x + 5)$.
 Herschrijf de breuken
 
 $$
-= \dfrac{x}{x + 3}  \dfrac{x(x + 5)}{(x + 3)(x + 5)}
-= \dfrac{2}{x + 5}  \dfrac{2(x + 3)}{(x + 3)(x + 5)}
+\dfrac{x}{x + 3}  = \dfrac{x(x + 5)}{(x + 3)(x + 5)}
+$$
+
+$$
+\dfrac{2}{x + 5}  = \dfrac{2(x + 3)}{(x + 3)(x + 5)}
 $$
 
 Optellen van de breuken
@@ -410,8 +416,11 @@ De kleinste gemene noemer is $(x + 4)(x + 6)$.
 Herschrijf de breuken
 
 $$
-= \dfrac{x + 2}{x + 4} = \dfrac{(x + 2)(x + 6)}{(x + 4)(x + 6)}
-= \dfrac{x}{x + 6} = \dfrac{x(x + 4)}{(x + 4)(x + 6)}
+\dfrac{x + 2}{x + 4} = \dfrac{(x + 2)(x + 6)}{(x + 4)(x + 6)}
+$$
+
+$$
+\dfrac{x}{x + 6} = \dfrac{x(x + 4)}{(x + 4)(x + 6)}
 $$
 
 Optellen van de breuken
@@ -450,11 +459,11 @@ De kleinste gemene noemer is $(x - 2)(x + 2)$.
 Herschrijf de breuken:
 
 $$
-= \dfrac{5}{x - 2} = \dfrac{5(x + 2)}{(x - 2)(x + 2)}
+\dfrac{5}{x - 2} = \dfrac{5(x + 2)}{(x - 2)(x + 2)}
 $$
 
 $$
-= \dfrac{3}{x + 2} = \dfrac{3(x - 2)}{(x - 2)(x + 2)}
+\dfrac{3}{x + 2} = \dfrac{3(x - 2)}{(x - 2)(x + 2)}
 $$
 
 Aftrekken van de breuken:
@@ -502,11 +511,11 @@ De kleinste gemene noemer is $(x + 2)(x + 3)$.
 Herschrijf de breuken:
 
 $$
-= \dfrac{x + 5}{x + 2} = \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}
+\dfrac{x + 5}{x + 2} = \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}
 $$
 
 $$
-= \dfrac{x - 1}{x + 3} = \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
+\dfrac{x - 1}{x + 3} = \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
 $$
 
 Aftrekken van de breuken:
@@ -554,11 +563,11 @@ De kleinste gemene noemer is $(x + 1)(x + 4)$.
 Herschrijf de breuken:
 
 $$
-= \dfrac{x^2 + 3}{x + 1} = \dfrac{(x^2 + 3)(x + 4)}{(x + 1)(x + 4)}
+\dfrac{x^2 + 3}{x + 1} = \dfrac{(x^2 + 3)(x + 4)}{(x + 1)(x + 4)}
 $$
 
 $$
-=\dfrac{x}{x + 4} = \dfrac{x(x + 1)}{(x + 1)(x + 4)}
+\dfrac{x}{x + 4} = \dfrac{x(x + 1)}{(x + 1)(x + 4)}
 $$
 
 Aftrekken van de breuken:
