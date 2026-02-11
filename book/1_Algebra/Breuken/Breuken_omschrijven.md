@@ -1,26 +1,44 @@
 # 1.5 Breuken omschrijven
 
-## 1.5.1
+## 1.5.1 Schrijf als één breuk
 
-:::{admonition} Voorbeeld 1: Teller ontbinden in factoren
+:::{admonition} Voorbeeld 1: 
 :class: note, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf als één enkele breuk:
 
 $$
-\dfrac{3x^2-3xy}{x-y}
+\dfrac{3}{x+4} + 2
 $$
 
-Ontbind de teller in factoren:
+Zet de constante in een breuk:
 
 $$
-= \dfrac{3x(x-y)}{x-y}
+= \dfrac{3}{x+4} + \dfrac{2}{1}
 $$
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Bepaal de kleinste gemene noemer: <br>De kleinste gemene noemer is \( (x+4) \).
+
+Herschrijf de breuk:
 
 $$
-= \dfrac{3x}{1} = 3x \quad \text{als } x\neq y
+= \dfrac{3}{x+4} + \dfrac{2(x+4)}{(x+4)}
+$$
+
+Samen nemen van de breuken geeft:
+
+$$
+= \dfrac{3 + 2(x+4)}{x+4}
+$$
+
+Uitwerken van de teller en vereenvoudigen:
+
+$$
+= \dfrac{3 + 2x + 8}{x + 4}
+$$
+
+$$
+= \dfrac{2x + 11}{x + 4}
 $$
 
 :::
@@ -95,9 +113,9 @@ $$
 
 ::::
 
-## 1.5.2
+## 1.5.2 Schrijf in de vorm  $\dfrac{m}{x-p} + q$
 
-:::{admonition} Voorbeeld 1: Teller ontbinden in factoren
+:::{admonition} Voorbeeld 1: Schrijf in de vorm $\dfrac{m}{x-p} + q$
 :class: note, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
