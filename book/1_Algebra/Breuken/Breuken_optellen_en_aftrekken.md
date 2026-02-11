@@ -152,10 +152,29 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-= \frac{x^3 - 4x^2 + 2x + x^3 - 2x^2 + 3x }{x^2 - x} \\
-= \frac{2x^3 - 6x^2 + 5x}{x^2 - x} \\
-= \frac{x(2x^2 - 6x + 5)}{x(x - 1)} \\
-= \frac{(2x - 5)(x - 1)}{x - 1} \\
+= \frac{x^3 - 4x^2 + 2x + x^3 - 2x^2 + 3x }{x^2 - x}
+$$
+
+$$
+= \frac{2x^3 - 6x^2 + 5x}{x^2 - x}
+$$
+
+Ontbind de teller en noemer in factoren:
+
+$$
+= \frac{x(2x^2 - 6x + 5)}{x(x - 1)}
+$$
+
+Ontbind de teller in factoren:
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
+= \frac{(2x - 5)(x - 1)}{x - 1}
+$$
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
 = 2x - 5
 $$
 
@@ -180,7 +199,7 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1}
+= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1} \\
 = \frac{-x + 4}{x^2 + 2x + 1}
 $$
 
