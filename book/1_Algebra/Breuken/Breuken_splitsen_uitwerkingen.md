@@ -15,19 +15,23 @@ $$
 
 :::{dropdown} Uitwerking
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+
 $$
 \dfrac{x^3 + 4x^2 + x}{x^2}
 $$
 
 Splitsen van de breuk:
+
 $$
 = \frac{x^3}{x^2} + \frac{4x^2}{x^2} + \frac{x}{x^2}
 $$
 
 Gesplitste en vereenvoudigde vorm:
+
 $$
 x + 4 + \frac{1}{x}
 $$
+
 :::
 ::::
 
