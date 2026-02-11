@@ -450,28 +450,31 @@ De kleinste gemene noemer is $(x - 2)(x + 2)$.
 Herschrijf de breuken:
 
 $$
-= \dfrac{5}{x - 2} = \dfrac{5(x + 2)}{(x - 2)(x + 2)}, \\
+= \dfrac{5}{x - 2} = \dfrac{5(x + 2)}{(x - 2)(x + 2)}
+$$
+
+$$
 = \dfrac{3}{x + 2} = \dfrac{3(x - 2)}{(x - 2)(x + 2)}
 $$
 
 Aftrekken van de breuken:
 
 $$
-\dfrac{5(x + 2)-3(x - 2)}{(x - 2)(x + 2)}
+= \dfrac{5(x + 2)-3(x - 2)}{(x - 2)(x + 2)}
 $$
 
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-\dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)}
+= \dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)}
 $$
 
 $$
-\dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)}
+= \dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)}
 $$
 
 $$
-\dfrac{2x + 16}{(x - 2)(x + 2)}
+= \dfrac{2x + 16}{(x - 2)(x + 2)}
 $$
 
 :::
@@ -499,28 +502,31 @@ De kleinste gemene noemer is $(x + 2)(x + 3)$.
 Herschrijf de breuken:
 
 $$
-\dfrac{x + 5}{x + 2}  \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}, \\
-\dfrac{x - 1}{x + 3}  \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
+= \dfrac{x + 5}{x + 2}  \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}
+$$
+
+$$
+= \dfrac{x - 1}{x + 3}  \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
 $$
 
 Aftrekken van de breuken:
 
 $$
-\dfrac{(x + 5)(x + 3) - (x - 1)(x + 2)}{(x + 2)(x + 3)}
+= \dfrac{(x + 5)(x + 3) - (x - 1)(x + 2)}{(x + 2)(x + 3)}
 $$
 
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-\dfrac{(x^2 + 5x + 3x + 15)- (x^2 -x + 2x -2)}{(x + 2)(x + 3)}
+= \dfrac{(x^2 + 5x + 3x + 15)- (x^2 -x + 2x -2)}{(x + 2)(x + 3)}
 $$
 
 $$
-\dfrac{x^2 + 5x + 3x + 15- x^2 +x - 2x +2}{(x + 2)(x + 3)}
+= \dfrac{x^2 + 5x + 3x + 15- x^2 +x - 2x +2}{(x + 2)(x + 3)}
 $$
 
 $$
-\dfrac{7x + 17}{(x + 2)(x + 3)}
+= \dfrac{7x + 17}{(x + 2)(x + 3)}
 $$
 
 :::
@@ -548,32 +554,35 @@ De kleinste gemene noemer is $(x + 1)(x + 4)$.
 Herschrijf de breuken:
 
 $$
-\dfrac{x^2 + 3}{x + 1} = \dfrac{(x^2 + 3)(x + 4)}{(x + 1)(x + 4)} \\
-\dfrac{x}{x + 4} = \dfrac{x(x + 1)}{(x + 1)(x + 4)}
+= \dfrac{x^2 + 3}{x + 1} = \dfrac{(x^2 + 3)(x + 4)}{(x + 1)(x + 4)}
+$$
+
+$$
+=\dfrac{x}{x + 4} = \dfrac{x(x + 1)}{(x + 1)(x + 4)}
 $$
 
 Aftrekken van de breuken:
 
 $$
-\dfrac{(x^2 + 3)(x + 4) - x(x + 1)}{(x + 1)(x + 4)}
+= \dfrac{(x^2 + 3)(x + 4) - x(x + 1)}{(x + 1)(x + 4)}
 $$
 
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
- \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)}
+= \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)}
 $$
 
 $$
-\dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x}{(x + 1)(x + 4)}
+= \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x}{(x + 1)(x + 4)}
 $$
 
 $$
-\dfrac{x^3 + 3x^2 + 2x + 12}{(x + 1)(x + 4)}
+=\dfrac{x^3 + 3x^2 + 2x + 12}{(x + 1)(x + 4)}
 $$
 
 $$
- \dfrac{x^2(x + 3) + 2(x + 6)}{(x + 1)(x + 4)}
+= \dfrac{x^2(x + 3) + 2(x + 6)}{(x + 1)(x + 4)}
 $$
 
 :::
