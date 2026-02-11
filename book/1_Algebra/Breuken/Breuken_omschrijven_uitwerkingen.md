@@ -718,56 +718,38 @@ $$
 De vorm wordt:
 
 $$
-
-$$
 2 - \dfrac{11}{4x + 7}
-$$
 $$
 
 :::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{8x + 3}{4x + 7}
-$$
 $$
 
 Voeg de factor $(4x + 7)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{2(4x + 7) - 14 + 3}{4x + 7}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{2(4x + 7) - 11}{4x + 7}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{2(4x + 7)}{4x + 7} - \dfrac{11}{4x + 7}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = 2 - \dfrac{11}{4x + 7}
-$$
 $$
 :::
 ::::
@@ -782,56 +764,38 @@ $$
 De vorm wordt:
 
 $$
-
-$$
 2 - \dfrac{22}{5x + 8}
-$$
 $$
 
 :::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{10x - 6}{5x + 8}
-$$
 $$
 
 Voeg de factor $(5x + 8)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{2(5x + 8) - 16 - 6}{5x + 8}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{2(5x + 8) - 22}{5x + 8}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{2(5x + 8)}{5x + 8} - \dfrac{22}{5x + 8}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = 2 - \dfrac{22}{5x + 8}
-$$
 $$
 :::
 ::::
@@ -846,56 +810,38 @@ $$
 De vorm wordt:
 
 $$
-
-$$
 3 + \dfrac{10}{3x - 2}
-$$
 $$
 
 :::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{9x + 4}{3x - 2}
-$$
 $$
 
 Voeg de factor $(3x - 2)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{3(3x - 2) - 6 + 4}{3x - 2}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{3(3x - 2) + 10}{3x - 2}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{3(3x - 2)}{3x - 2} + \dfrac{10}{3x - 2}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = 3 + \dfrac{10}{3x - 2}
-$$
 $$
 :::
 ::::
@@ -914,65 +860,44 @@ $$
 De vorm wordt:
 
 $$
-
-$$
 \frac{3}{2} - \frac{17}{2(x + 3)}
-$$
 $$
 
 :::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{3x - 8}{2x + 6}
-$$
 $$
 
 Factoriseer de noemer:
 
 $$
-
-$$
  = \dfrac{3x - 8}{2(x + 3)}
-$$
 $$
 
 Voeg de factor $(x + 3)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{3(x+3) - 9 - 8}{2(x + 3)}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{3(x+3) - 17}{2(x + 3)}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{3(x+3)}{2(x + 3)} - \dfrac{17}{2(x + 3)}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = \frac{3}{2} - \frac{17}{2(x + 3)}
-$$
 $$
 :::
 ::::
@@ -988,10 +913,7 @@ $$
 De vorm wordt:
 
 $$
-
-$$
 \frac{4}{7} + \frac{97}{7(7x - 5)}
-$$
 $$
 
 :::{admonition} Antwoord
@@ -1000,46 +922,31 @@ $$
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{4x + 11}{7x - 5}
-$$
 $$
 
 Voeg de factor $(7x - 5)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{\frac{4}{7} (7x - 5) + \frac{20}{7} + 11}{7x - 5}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{\frac{4}{7}(7x - 5) + \dfrac{97}{7}}{7x - 5}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{\frac{4}{7}(7x - 5)}{7x - 5} + \dfrac{\dfrac{97}{7}}{7x - 5}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = \frac{4}{7} + \frac{97}{7(7x - 5)}
-$$
 $$
 :::
 ::::
@@ -1054,56 +961,39 @@ $$
 De vorm wordt:
 
 $$
-
-$$
 \frac{7}{3} - \frac{17}{3(3x + 2)}
-$$
 $$
 
 :::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{7x - 1}{3x + 2}
-$$
 $$
 
 Voeg de factor $(3x + 2)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{\frac{7}{3} (3x + 2) - \frac{14}{3} - 1}{3x + 2}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{\frac{7}{3}(3x + 2) - \frac{17}{3}}{3x + 2}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{\frac{7}{3}(3x + 2)}{3x + 2} - \dfrac{\frac{17}{3}}{3x + 2}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = \frac{7}{3} - \frac{17}{3(3x + 2)}
 $$
-$$
+
 :::
 ::::
