@@ -163,8 +163,10 @@ $$
 = \dfrac{6x \cdot x}{3(x+4)}
 $$
 
+Ontbind de teller in factoren:
+
 $$
-= \dfrac{2 \cdot 3x^2}{3(x+4)}
+= \dfrac{3 \cdot 2x^2}{3(x+4)}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -208,6 +210,8 @@ Vermenigvuldig de tellers en noemers:
 $$
 = \dfrac{8x(x-3)}{2x(x-3)(x+3)}
 $$
+
+Ontbind de teller in factoren:
 
 $$
 = \dfrac{4 \cdot 2x(x-3)}{2x(x-3)(x+3)}
