@@ -32,6 +32,8 @@ $$
 = \dfrac{8x(x-4)}{4x(x-4)(x+4)}
 $$
 
+Ontbind de teller in factoren:
+
 $$
 = \dfrac{2 \cdot 4x(x-4)}{4x(x-4)(x+4)}
 $$
@@ -77,6 +79,8 @@ $$
 = \dfrac{12x(x+5)}{6x(x+5)(x+2)}
 $$
 
+Ontbind de teller in factoren:
+
 $$
 = \dfrac{2 \cdot 6x(x+5)}{6x(x+5)(x+2)}
 $$
@@ -119,11 +123,13 @@ $$
 Vermenigvuldig de tellers en noemers:
 
 $$
-= \dfrac{4x(x-2),3(x-1)}{2x(x-1),x}
+= \dfrac{4x(x-2)3(x-1)}{2x(x-1)x}
 $$
 
+Ontbind de teller in factoren:
+
 $$
-= \dfrac{6 \cdot 2x(x-2)(x-1)}{2x(x-1),x}
+= \dfrac{6 \cdot 2x(x-2)(x-1)}{2x(x-1)x}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -166,6 +172,8 @@ Vermenigvuldig de tellers en noemers:
 $$
 = \dfrac{10x(x-5)}{5x(x-5)(x+5)}
 $$
+
+Ontbind de teller in factoren:
 
 $$
 = \dfrac{2 \cdot 5x(x-5)}{5x(x-5)(x+5)}
@@ -211,6 +219,8 @@ Vermenigvuldig de tellers en noemers:
 $$
 = \dfrac{15x(x+3)}{5x(x+3)(x+5)}
 $$
+
+Ontbind de teller in factoren:
 
 $$
 = \dfrac{3 \cdot 5x(x+3)}{5x(x+3)(x+5)}
@@ -336,11 +346,13 @@ $$
 Vermenigvuldig de tellers en noemers:
 
 $$
-= \dfrac{5x(x-3),4(x-1)}{x(x-1),2x}
+= \dfrac{5x(x-3)4(x-1)}{x(x-1)2x}
 $$
 
+Ontbind de teller in factoren:
+
 $$
-= \dfrac{10 \cdot x(x-3)(x-1)}{x(x-1),x}
+= \dfrac{10 \cdot x(x-3)(x-1)}{x(x-1)x}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -384,6 +396,8 @@ $$
 = \dfrac{18x(x+6)}{6x(x+3)(x+6)}
 $$
 
+Ontbind de teller in factoren:
+
 $$
 = \dfrac{3 \cdot 6x(x+6)}{6x(x+3)(x+6)}
 $$
@@ -426,7 +440,7 @@ $$
 Vermenigvuldig de tellers en noemers:
 
 $$
-= \dfrac{8x(x-2),5(x-1)}{4x(x-1),2x}
+= \dfrac{8x(x-2)5(x-1)}{4x(x-1)2x}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
