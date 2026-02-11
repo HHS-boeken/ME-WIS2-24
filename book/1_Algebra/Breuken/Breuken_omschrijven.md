@@ -2,7 +2,14 @@
 
 ## 1.5.1 Schrijf als één breuk
 
-:::{admonition} Voorbeeld 1: 
+::::{admonition} Theorie
+:class: tip, dropdown open
+
+LEEG
+
+::::
+
+:::{admonition} Voorbeeld 1:
 :class: note, dropdown
 
 Schrijf als één enkele breuk:
@@ -46,76 +53,115 @@ $$
 ::::{admonition} Oefening 1
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf als één enkele breuk:
 
 $$
-\dfrac{8x^2-16x}{4x}
+\dfrac{5}{x-3} - 4
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf als één enkele breuk:
 
 $$
-\dfrac{8x^2-16x}{4x}
+\dfrac{5}{x-3} - 4
 $$
 
-Ontbind de teller in factoren:
+Zet de constante in een breuk:
 
 $$
-= \dfrac{4x(2x-4)}{4x}
+= \dfrac{5}{x-3} - \dfrac{4}{1}
 $$
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Bepaal de kleinste gemene noemer: <br>De kleinste gemene noemer is ( (x-3) ).
+
+Herschrijf de breuk:
 
 $$
-\begin{align*}
-&= \dfrac{2x-4}{1} \\
-&= 2x-4 \quad \text{als } x\neq 0
-\end{align*}
+= \dfrac{5}{x-3} - \dfrac{4(x-3)}{(x-3)}
+$$
+
+Samen nemen van de breuken geeft:
+
+$$
+= \dfrac{5 - 4(x-3)}{x-3}
+$$
+
+Uitwerken van de teller en vereenvoudigen:
+
+$$
+= \dfrac{5 - 4x + 12}{x - 3}
+$$
+
+$$
+= \dfrac{-4x + 17}{x - 3}
 $$
 
 :::
-
 ::::
 
 ::::{admonition} Oefening 2
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf als één enkele breuk:
 
 $$
-\dfrac{a^2-b^2}{a+b}
+\dfrac{7}{2x+5} - 3
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf als één enkele breuk:
 
 $$
-\dfrac{a^2-b^2}{a+b}
+\dfrac{7}{2x+5} - 3
 $$
 
-Ontbind de teller in factoren:
+Zet de constante in een breuk:
 
 $$
-= \dfrac{(a-b)(a+b)}{(a+b)}
+= \dfrac{7}{2x+5} - \dfrac{3}{1}
 $$
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Bepaal de kleinste gemene noemer: <br>De kleinste gemene noemer is ( (2x+5) ).
+
+Herschrijf de breuk:
 
 $$
-\begin{align*}
-&= \dfrac{(a-b)}{1} \\
-&= a-b \quad \text{als } a\neq -b
-\end{align*}
+= \dfrac{7}{2x+5} - \dfrac{3(2x+5)}{(2x+5)}
+$$
+
+Samen nemen van de breuken geeft:
+
+$$
+= \dfrac{7 - 3(2x+5)}{2x+5}
+$$
+
+Uitwerken van de teller en vereenvoudigen:
+
+$$
+= \dfrac{7 - 6x - 15}{2x + 5}
+$$
+
+$$
+= \dfrac{-6x - 8}{2x + 5}
 $$
 
 :::
 
 ::::
 
+
+
 ## 1.5.2 Schrijf in de vorm  $\dfrac{m}{x-p} + q$
 
-:::{admonition} Voorbeeld 1: Schrijf in de vorm $\dfrac{m}{x-p} + q$
+::::{admonition} Theorie
+:class: tip, dropdown open
+
+LEEG
+
+::::
+
+
+:::{admonition} Voorbeeld 2: Schrijf in de vorm $\dfrac{m}{x-p} + q$
 :class: note, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -138,7 +184,7 @@ $$
 
 :::
 
-::::{admonition} Oefening 1
+::::{admonition} Oefening 3
 :class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
@@ -173,7 +219,7 @@ $$
 
 ::::
 
-::::{admonition} Oefening 2
+::::{admonition} Oefening 4
 :class: important, dropdown
 
 Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
