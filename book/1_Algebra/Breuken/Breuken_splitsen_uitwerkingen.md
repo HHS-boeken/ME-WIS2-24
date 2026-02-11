@@ -29,7 +29,7 @@ $$
 Gesplitste en vereenvoudigde vorm:
 
 $$
-x + 4 + \frac{1}{x}
+= x + 4 + \frac{1}{x}
 $$
 
 :::
