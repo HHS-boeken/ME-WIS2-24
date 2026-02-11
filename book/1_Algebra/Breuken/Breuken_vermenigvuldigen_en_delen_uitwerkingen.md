@@ -452,8 +452,6 @@ $$
 :::
 ::::
 
-# 1.4.2 Uitwerkingen – Breuken delen
-
 <hr style="border:2px solid #9EA700">
 
 ### Opgave 1.4k
