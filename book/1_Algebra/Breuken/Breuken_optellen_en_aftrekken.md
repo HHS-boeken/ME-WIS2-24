@@ -165,8 +165,7 @@ $$
 = \frac{x(2x^2 - 6x + 5)}{x(x - 1)}
 $$
 
-Ontbind de teller in factoren: \\
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer daarna ontbind de teller in factoren:
 
 $$
 = \frac{(2x - 5)(x - 1)}{x - 1}

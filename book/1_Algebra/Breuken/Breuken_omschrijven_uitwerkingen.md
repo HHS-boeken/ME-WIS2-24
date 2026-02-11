@@ -5,20 +5,15 @@
 ### Opgave 1.5a
 
 ::::{admonition} Antwoord
-:class:  important, dropdown
+:class:  important, important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
+\dfrac{-5x -7}{x +2}
 $$
-\dfrac{-5x -7}{x +2} \\
-$$
-$$
-
 
 :::{dropdown} Uitwerking
-
 Schrijf als één enkele breuk:
 
 $$
@@ -48,10 +43,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{6 -10x -20}{2x +4} \\
-&= \dfrac{-10x -14}{2x +4} \\
-&= \dfrac{2(-5x -7)}{2(x +2)} \\
-&= \dfrac{-5x -7}{x +2} \\
+&= \dfrac{6 -10x -20}{2x +4}
+&= \dfrac{-10x -14}{2x +4}
+&= \dfrac{2(-5x -7)}{2(x +2)}
+&= \dfrac{-5x -7}{x +2}
 $$
 
 :::
@@ -62,20 +57,15 @@ $$
 ### Opgave 1.5b
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{8x + 23}{2x + 5}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -105,9 +95,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{3 + 8x + 20}{2x + 5} \\
-&= \dfrac{8x + 23}{2x + 5} \\
+&= \dfrac{3 + 8x + 20}{2x + 5}
+&= \dfrac{8x + 23}{2x + 5}
 $$
+
 :::
 ::::
 
@@ -116,27 +107,19 @@ $$
 ### Opgave 1.5c
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{-4x + 28}{x - 5}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
-
-$$
  \dfrac{8}{x-5} - 4
-$$
 $$
 
 Zet de constante in een breuk:
@@ -162,9 +145,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{8 - 4x + 20}{x - 5} \\
-&= \dfrac{-4x + 28}{x - 5} \\
+&= \dfrac{8 - 4x + 20}{x - 5}
+&= \dfrac{-4x + 28}{x - 5}
 $$
+
 :::
 ::::
 
@@ -173,20 +157,15 @@ $$
 ### Opgave 1.5d
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{16x - 10}{2x - 1}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -216,8 +195,8 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{-2 + 16x - 8}{2x - 1} \\
-&= \dfrac{16x - 10}{2x - 1} \\
+&= \dfrac{-2 + 16x - 8}{2x - 1}
+&= \dfrac{16x - 10}{2x - 1}
 $$
 :::
 ::::
@@ -227,7 +206,7 @@ $$
 ### Opgave 1.5e
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
@@ -235,9 +214,7 @@ $$
 \dfrac{-9x + 22}{x - 2}
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -267,8 +244,8 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{4 - 9x + 18}{x - 2} \\
-&= \dfrac{-9x + 22}{x - 2} \\
+&= \dfrac{4 - 9x + 18}{x - 2}
+&= \dfrac{-9x + 22}{x - 2}
 $$
 
 :::
@@ -279,7 +256,7 @@ $$
 ### Opgave 1.5f
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
@@ -287,9 +264,7 @@ $$
 \dfrac{-12x + 23}{2x - 3}
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -319,8 +294,8 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{5 - 12x + 18}{2x - 3} \\
-&= \dfrac{-12x + 23}{2x - 3} \\
+&= \dfrac{5 - 12x + 18}{2x - 3}
+&= \dfrac{-12x + 23}{2x - 3}
 $$
 
 :::
@@ -331,26 +306,21 @@ $$
 ### Opgave 1.5g
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{3x + 11}{x + 6}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
 
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
 \dfrac{-7}{x+6} + 3
 $$
-
 
 Zet de constante in een breuk:
 
@@ -375,9 +345,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{-7 + 3x + 18}{x + 6} \\
-&= \dfrac{3x + 11}{x + 6} \\
+&= \dfrac{-7 + 3x + 18}{x + 6}
+&= \dfrac{3x + 11}{x + 6}
 $$
+
 :::
 ::::
 
@@ -386,20 +357,16 @@ $$
 ### Opgave 1.5h
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{2x + 15}{x + 7}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
 
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -429,9 +396,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{1 + 2x + 14}{x + 7} \\
-&= \dfrac{2x + 15}{x + 7} \\
+&= \dfrac{1 + 2x + 14}{x + 7}
+&= \dfrac{2x + 15}{x + 7}
 $$
+
 :::
 ::::
 
@@ -440,20 +408,15 @@ $$
 ### Opgave 1.5i
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{6x + 50}{x + 8}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -483,9 +446,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{2 + 6x + 48}{x + 8} \\
-&= \dfrac{6x + 50}{x + 8} \\
+&= \dfrac{2 + 6x + 48}{x + 8}
+&= \dfrac{6x + 50}{x + 8}
 $$
+
 :::
 ::::
 
@@ -494,20 +458,16 @@ $$
 ### Opgave 1.5j
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De samengevoegde en vereenvoudigde breuk is:
 
 $$
-
-$$
 \dfrac{14x + 10}{2x + 2}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
 
+:::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
 
 $$
@@ -537,9 +497,10 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{-4 + 14x + 14}{2x + 2} \\
-&= \dfrac{14x + 10}{2x + 2} \\
+&= \dfrac{-4 + 14x + 14}{2x + 2}
+&= \dfrac{14x + 10}{2x + 2}
 $$
+
 :::
 ::::
 
@@ -548,64 +509,47 @@ $$
 ### Opgave 1.5k
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
 $$
-
-$$
  3 + \dfrac{11}{x - 2}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
-
-$$
  \dfrac{3x + 5}{x - 2}
-$$
 $$
 
 Voeg de factor $(x-2)$ toe aan de teller en corrigeer de teller voor het toevoegen:
 
 $$
-
-$$
  = \dfrac{3(x-2) +6 + 5}{x - 2}
 $$
-$$
+
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{3(x-2) +11}{x - 2}
 $$
-$$
+
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{3(x-2)}{x - 2} + \dfrac{11}{x - 2}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = 3 + \dfrac{11}{x - 2}
 $$
-$$
+
 :::
 ::::
 
@@ -614,73 +558,52 @@ $$
 ### Opgave 1.5l
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
 $$
-
-$$
  \dfrac{5}{2} - \dfrac{17}{2(x + 2)}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
 
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{5x - 7}{2x + 4}
-$$
 $$
 
 Factoriseer de noemer:
 
 $$
-
-$$
  = \dfrac{5x - 7}{2(x+2)}
-$$
 $$
 
 Voeg de factor $(x+2)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{5(x+2) - 10 - 7}{2(x+2)}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{5(x+2) - 17}{2(x+2)}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{5(x+2)}{2(x+2)} - \dfrac{17}{2(x+2)}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = \dfrac{5}{2} - \dfrac{17}{2(x + 2)}
 $$
-$$
+
 :::
 ::::
 
@@ -689,73 +612,51 @@ $$
 ### Opgave 1.5m
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
 $$
-
-$$
  \dfrac{7}{3} + \dfrac{34}{9(x - \frac{1}{3})}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{7x + 9}{3x - 1}
-$$
 $$
 
 Factoriseer de noemer:
 
 $$
-
-$$
  = \dfrac{7x + 9}{3(x - \frac{1}{3})}
-$$
 $$
 
 Voeg de factor $(x - \frac{1}{3})$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{7(x - \frac{1}{3}) + \frac{7}{3} + 9}{3(x - \frac{1}{3})}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{7(x - \frac{1}{3}) + \frac{34}{3}}{3(x - \frac{1}{3})}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{7(x - \frac{1}{3})}{3(x - \frac{1}{3})} + \dfrac{\frac{34}{3}}{3(x - \frac{1}{3})}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = \dfrac{7}{3} + \dfrac{34}{9(x - \frac{1}{3})}
 $$
-$$
+
 :::
 ::::
 
@@ -764,64 +665,45 @@ $$
 ### Opgave 1.5n
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
 $$
-
-$$
 6 - \dfrac{32}{x + 5}
 $$
-$$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-
-$$
  \dfrac{6x - 2}{x + 5}
-$$
 $$
 
 Voeg de factor $(x+5)$ toe aan de teller en corrigeer de teller:
 
 $$
-
-$$
  = \dfrac{6(x+5) - 30 - 2}{x + 5}
-$$
 $$
 
 Vereenvoudig de teller:
 
 $$
-
-$$
  = \dfrac{6(x+5) - 32}{x + 5}
-$$
 $$
 
 Splits de breuk:
 
 $$
-
-$$
  = \dfrac{6(x+5)}{x+5} - \dfrac{32}{x+5}
-$$
 $$
 
 Vereenvoudig de breuk:
 
 $$
-
-$$
  = 6 - \dfrac{32}{x + 5}
 $$
-$$
+
 :::
 ::::
 
@@ -831,7 +713,7 @@ $$
 ### Opgave 1.5o
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
@@ -842,9 +724,7 @@ $$
 $$
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
@@ -897,7 +777,7 @@ $$
 ### Opgave 1.5p
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
@@ -908,9 +788,7 @@ $$
 $$
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
@@ -963,7 +841,7 @@ $$
 ### Opgave 1.5q
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
@@ -974,9 +852,7 @@ $$
 $$
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
@@ -1033,7 +909,7 @@ $$
 ### Opgave 1.5r
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
@@ -1044,9 +920,7 @@ $$
 $$
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
@@ -1109,7 +983,7 @@ $$
 ### Opgave 1.5s
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
@@ -1121,7 +995,7 @@ $$
 $$
 
 :::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
@@ -1175,7 +1049,7 @@ $$
 ### Opgave 1.5t
 
 ::::{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 De vorm wordt:
 
@@ -1186,9 +1060,7 @@ $$
 $$
 $$
 
-:::{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
