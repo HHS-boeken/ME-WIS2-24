@@ -589,7 +589,7 @@ $$
 Vermenigvuldig de tellers en noemers:
 
 $$
-= \dfrac{(x+5)(x+4),2x}{(x-6)(x+2)(x+5)}
+= \dfrac{(x+5)(x+4)2x}{(x-6)(x+2)(x+5)}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -736,7 +736,7 @@ $$
 Vermenigvuldig de tellers en noemers:
 
 $$
-= \dfrac{(x+3)(x+5),4x}{(x-4)(x+3)(x+5)}
+= \dfrac{(x+3)(x+5)4x}{(x-4)(x+3)(x+5)}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
@@ -883,7 +883,7 @@ $$
 Vermenigvuldig de tellers en noemers:
 
 $$
-= \dfrac{(x+2)(x+4),3x}{(x-3)(x+3)(x+2)}
+= \dfrac{(x+2)(x+4)3x}{(x-3)(x+3)(x+2)}
 $$
 
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
