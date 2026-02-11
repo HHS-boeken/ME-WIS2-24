@@ -7,9 +7,7 @@
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{x}{x - 3} + \dfrac{4}{x + 1}
-\end{align*}
+\dfrac{x}{x - 3} + \dfrac{4}{x + 1}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -19,9 +17,7 @@ $$
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
  \dfrac{6}{x^2 - 4} - \dfrac{2x}{x - 2}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -31,9 +27,7 @@ $$
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
  \dfrac{5}{x^2 + x} + \dfrac{x}{x - 2}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -43,9 +37,7 @@ $$
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
  \dfrac{x^2}{x + 2} - \dfrac{4x}{x + 5}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -55,9 +47,7 @@ $$
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{2x}{x + 5} + \dfrac{3}{x + 7}
-\end{align*}
+\dfrac{2x}{x + 5} + \dfrac{3}{x + 7}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -67,9 +57,7 @@ $$
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{x}{x + 3} - \dfrac{2}{x + 5}
-\end{align*}
+\dfrac{x}{x + 3} - \dfrac{2}{x + 5}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -79,9 +67,7 @@ $$
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{3}{x + 2} + \dfrac{5}{x + 4}
-\end{align*}
+\dfrac{3}{x + 2} + \dfrac{5}{x + 4}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -91,9 +77,7 @@ $$
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{5}{x - 2} - \dfrac{3x}{x + 4}
-\end{align*}
+\dfrac{5}{x - 2} - \dfrac{3x}{x + 4}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -103,9 +87,7 @@ $$
 Tel de volgende breuken op en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{4x}{x^2 - 1} + \dfrac{3}{x + 1}
-\end{align*}
+\dfrac{4x}{x^2 - 1} + \dfrac{3}{x + 1}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -115,7 +97,5 @@ $$
 Trek de volgende breuk af en vereenvoudig zo ver mogelijk:
 
 $$
-\begin{align*}
- \dfrac{2}{x + 1} - \dfrac{x}{x - 3}
-\end{align*}
+\dfrac{2}{x + 1} - \dfrac{x}{x - 3}
 $$
