@@ -502,11 +502,11 @@ De kleinste gemene noemer is $(x + 2)(x + 3)$.
 Herschrijf de breuken:
 
 $$
-= \dfrac{x + 5}{x + 2}  \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}
+= \dfrac{x + 5}{x + 2} = \dfrac{(x + 5)(x + 3)}{(x + 2)(x + 3)}
 $$
 
 $$
-= \dfrac{x - 1}{x + 3}  \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
+= \dfrac{x - 1}{x + 3} = \dfrac{(x - 1)(x + 2)}{(x + 2)(x + 3)}
 $$
 
 Aftrekken van de breuken:
