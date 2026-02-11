@@ -165,7 +165,7 @@ $$
 = \frac{x(2x^2 - 6x + 5)}{x(x - 1)}
 $$
 
-Ontbind de teller in factoren:
+Ontbind de teller in factoren: \\
 Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
 $$
@@ -199,7 +199,10 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1} \\
+= \frac{x + 3 - 2x + 1}{x^2 + 2x + 1}
+$$
+
+$$
 = \frac{-x + 4}{x^2 + 2x + 1}
 $$
 
@@ -218,7 +221,10 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-= \frac{x^2 + 2x - x - 1}{x^2 - 4} \\
+= \frac{x^2 + 2x - x - 1}{x^2 - 4}
+$$
+
+$$
 = \frac{x^2 + x - 1}{x^2 - 4}
 $$
 :::
@@ -250,7 +256,13 @@ Uitwerken van de tellers en vereenvoudigen:
 
 $$
 = \frac{x^2 + 3x + 2-x^2 - x}{x^2 - 4}
+$$
+
+$$
 = \frac{2x + 2}{x^2 - 4}
+$$
+
+$$
 =\frac{2(x + 1)}{(x - 2)(x + 2)}
 $$
 
@@ -284,6 +296,9 @@ Uitwerken van de tellers en vereenvoudigen:
 
 $$
 = \frac{2x^2 + 3x - 1 - x + 2}{x^2 - x}
+$$
+
+$$
 = \frac{2x^2 + 2x + 1}{x^2 - x}
 $$
 
@@ -319,6 +334,9 @@ Uitwerken van de tellers en vereenvoudigen:
 
 $$
 = \frac{3x + 3 + 2x}{x(x + 1)}
+$$
+
+$$
 = \frac{5x + 3}{x(x + 1)}
 $$
 :::
@@ -360,6 +378,9 @@ Uitwerken van de tellers en vereenvoudigen:
 
 $$
 = \dfrac{x^2 + 5x + 2x + 6}{(x + 3)(x + 5)}
+$$
+
+$$
 = \dfrac{x^2 + 7x + 6}{(x + 3)(x + 5)}
 $$
 
@@ -403,7 +424,13 @@ Uitwerken van de tellers en vereenvoudigen:
 
 $$
 = \dfrac{x^2 + 6x + 2x + 12 + x^2 + 4x}{(x + 4)(x + 6)}
+$$
+
+$$
 = \dfrac{2x^2 + 12x + 12}{(x + 4)(x + 6)}
+$$
+
+$$
 = \dfrac{2(x^2 + 6x + 6)}{(x + 4)(x + 6)}
 $$
 
@@ -436,8 +463,14 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-\dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)} \\
-\dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)} \\
+\dfrac{5x + 10 - (3x - 6)}{(x - 2)(x + 2)}
+$$
+
+$$
+\dfrac{5x + 10 - 3x + 6}{(x - 2)(x + 2)}
+$$
+
+$$
 \dfrac{2x + 16}{(x - 2)(x + 2)}
 $$
 
@@ -479,8 +512,14 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
-\dfrac{(x^2 + 5x + 3x + 15)- (x^2 -x + 2x -2)}{(x + 2)(x + 3)} \\
-\dfrac{x^2 + 5x + 3x + 15- x^2 +x - 2x +2}{(x + 2)(x + 3)} \\
+\dfrac{(x^2 + 5x + 3x + 15)- (x^2 -x + 2x -2)}{(x + 2)(x + 3)}
+$$
+
+$$
+\dfrac{x^2 + 5x + 3x + 15- x^2 +x - 2x +2}{(x + 2)(x + 3)}
+$$
+
+$$
 \dfrac{7x + 17}{(x + 2)(x + 3)}
 $$
 
@@ -522,9 +561,18 @@ $$
 Uitwerken van de tellers en vereenvoudigen:
 
 $$
- \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)} \\
- \dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x}{(x + 1)(x + 4)} \\
- \dfrac{x^3 + 3x^2 + 2x + 12}{(x + 1)(x + 4)} \\
+ \dfrac{(x^3 + 3x + 4x^2 + 12) - (x^2 + x)}{(x + 1)(x + 4)}
+$$
+
+$$
+\dfrac{x^3 + 3x + 4x^2 + 12 - x^2 - x}{(x + 1)(x + 4)}
+$$
+
+$$
+\dfrac{x^3 + 3x^2 + 2x + 12}{(x + 1)(x + 4)}
+$$
+
+$$
  \dfrac{x^2(x + 3) + 2(x + 6)}{(x + 1)(x + 4)}
 $$
 
