@@ -16,9 +16,9 @@ Bij het vermenigvuldigen van breuken geldt de volgende algemene regel:
 Deze regel geldt altijd, ongeacht of de breuken numeriek of algebraïsch zijn. Vaak is het mogelijk om de breuk na vermenigvuldiging nog verder te vereenvoudigen door **gemeenschappelijke factoren te schrappen**.
 ````
 
-## 1.4.1 Breuken. vermenigvuldigen
+## 1.4.1 Breuken vermenigvuldigen
 
-:::{admonition} Voorbeeld 1:
+:::{admonition} Voorbeeld 1: Breuken vermenigvuldigen
 :class: note, dropdown
 
 Vermenigvuldig de breuken:
@@ -142,7 +142,7 @@ $$
 
 ## 1.4.2 Breuken delen
 
-:::{admonition} Voorbeeld 2:
+:::{admonition} Voorbeeld 2: Breuken delen
 :class: note, dropdown
 
 Deel de breuken:
