@@ -103,6 +103,7 @@ $$
 :class: important, dropdown
 
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+
 $$
 \dfrac{x^2y + xy^2 - y^3}{xy}
 $$
@@ -110,6 +111,7 @@ $$
 :::{dropdown} Uitwerking
 
 Splits de volgende breuk indien mogelijk en vereenvoudig zo ver mogelijk:
+
 $$
 \dfrac{x^2y + xy^2 - y^3}{xy}
 $$
