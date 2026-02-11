@@ -43,10 +43,19 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{6 -10x -20}{2x +4}
-&= \dfrac{-10x -14}{2x +4}
-&= \dfrac{2(-5x -7)}{2(x +2)}
-&= \dfrac{-5x -7}{x +2}
+= \dfrac{6 -10x -20}{2x +4}
+$$
+
+$$
+= \dfrac{-10x -14}{2x +4}
+$$
+
+$$
+= \dfrac{2(-5x -7)}{2(x +2)}
+$$
+
+$$
+= \dfrac{-5x -7}{x +2}
 $$
 
 :::
@@ -95,8 +104,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{3 + 8x + 20}{2x + 5}
-&= \dfrac{8x + 23}{2x + 5}
+= \dfrac{3 + 8x + 20}{2x + 5}
+$$
+
+$$
+= \dfrac{8x + 23}{2x + 5}
 $$
 
 :::
@@ -145,8 +157,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{8 - 4x + 20}{x - 5}
-&= \dfrac{-4x + 28}{x - 5}
+= \dfrac{8 - 4x + 20}{x - 5}
+$$
+
+$$
+= \dfrac{-4x + 28}{x - 5}
 $$
 
 :::
@@ -195,8 +210,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{-2 + 16x - 8}{2x - 1}
-&= \dfrac{16x - 10}{2x - 1}
+= \dfrac{-2 + 16x - 8}{2x - 1}
+$$
+
+$$
+= \dfrac{16x - 10}{2x - 1}
 $$
 :::
 ::::
@@ -244,8 +262,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{4 - 9x + 18}{x - 2}
-&= \dfrac{-9x + 22}{x - 2}
+= \dfrac{4 - 9x + 18}{x - 2}
+$$
+
+$$
+= \dfrac{-9x + 22}{x - 2}
 $$
 
 :::
@@ -294,8 +315,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{5 - 12x + 18}{2x - 3}
-&= \dfrac{-12x + 23}{2x - 3}
+= \dfrac{5 - 12x + 18}{2x - 3}
+$$
+
+$$
+= \dfrac{-12x + 23}{2x - 3}
 $$
 
 :::
@@ -313,7 +337,6 @@ De samengevoegde en vereenvoudigde breuk is:
 $$
 \dfrac{3x + 11}{x + 6}
 $$
-
 
 :::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
@@ -345,8 +368,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{-7 + 3x + 18}{x + 6}
-&= \dfrac{3x + 11}{x + 6}
+= \dfrac{-7 + 3x + 18}{x + 6}
+$$
+
+$$
+= \dfrac{3x + 11}{x + 6}
 $$
 
 :::
@@ -364,7 +390,6 @@ De samengevoegde en vereenvoudigde breuk is:
 $$
 \dfrac{2x + 15}{x + 7}
 $$
-
 
 :::{dropdown} Uitwerking
 Schrijf als één enkele breuk:
@@ -396,8 +421,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{1 + 2x + 14}{x + 7}
-&= \dfrac{2x + 15}{x + 7}
+= \dfrac{1 + 2x + 14}{x + 7}
+$$
+
+$$
+= \dfrac{2x + 15}{x + 7}
 $$
 
 :::
@@ -446,8 +474,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{2 + 6x + 48}{x + 8}
-&= \dfrac{6x + 50}{x + 8}
+= \dfrac{2 + 6x + 48}{x + 8}
+$$
+
+$$
+= \dfrac{6x + 50}{x + 8}
 $$
 
 :::
@@ -497,8 +528,11 @@ $$
 Uitwerken van de teller en vereenvoudigen:
 
 $$
-&= \dfrac{-4 + 14x + 14}{2x + 2}
-&= \dfrac{14x + 10}{2x + 2}
+= \dfrac{-4 + 14x + 14}{2x + 2}
+$$
+
+$$
+= \dfrac{14x + 10}{2x + 2}
 $$
 
 :::
