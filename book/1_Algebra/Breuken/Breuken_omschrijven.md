@@ -1,13 +1,13 @@
 # 1.5 Breuken omschrijven
 
-## 1.5.1 Schrijf als één breuk
-
 ::::{admonition} Theorie
 :class: tip, dropdown open
 
 LEEG
 
 ::::
+
+## 1.5.1 Schrijf als één breuk
 
 :::{admonition} Voorbeeld 1:
 :class: note, dropdown
@@ -149,37 +149,39 @@ $$
 
 ::::
 
-
-
 ## 1.5.2 Schrijf in de vorm  $\dfrac{m}{x-p} + q$
-
-::::{admonition} Theorie
-:class: tip, dropdown open
-
-LEEG
-
-::::
-
 
 :::{admonition} Voorbeeld 2: Schrijf in de vorm $\dfrac{m}{x-p} + q$
 :class: note, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
-\dfrac{3x^2-3xy}{x-y}
+\dfrac{4x + 7}{x - 3}
 $$
 
-Ontbind de teller in factoren:
+Voeg de factor $(x-3)$ toe aan de teller en corrigeer de teller voor het toevoegen:
 
 $$
-= \dfrac{3x(x-y)}{x-y}
+= \dfrac{4(x-3) +12 + 7}{x - 3}
 $$
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Vereenvoudig de teller:
 
 $$
-= \dfrac{3x}{1} = 3x \quad \text{als } x\neq y
+= \dfrac{4(x-3) +19}{x - 3}
+$$
+
+Splits de breuk:
+
+$$
+= \dfrac{4(x-3)}{x - 3} + \dfrac{19}{x - 3}
+$$
+
+Vereenvoudig de breuk:
+
+$$
+= 4 + \dfrac{19}{x - 3}
 $$
 
 :::
@@ -187,69 +189,97 @@ $$
 ::::{admonition} Oefening 3
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-\dfrac{8x^2-16x}{4x}
+\dfrac{7x + 9}{3x - 6}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-\dfrac{8x^2-16x}{4x}
+\dfrac{7x + 9}{3x - 6}
 $$
 
-Ontbind de teller in factoren:
+Factoriseer de noemer:
 
 $$
-= \dfrac{4x(2x-4)}{4x}
+= \dfrac{7x + 9}{3(x-2)}
 $$
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Voeg de factor $(x-2)$ toe aan de teller en corrigeer de teller:
 
 $$
-\begin{align*}
-&= \dfrac{2x-4}{1} \\
-&= 2x-4 \quad \text{als } x\neq 0
-\end{align*}
+= \dfrac{7(x-2) + 14 + 9}{3(x-2)}
+$$
+
+Vereenvoudig de teller:
+
+$$
+= \dfrac{7(x-2) + 23}{3(x-2)}
+$$
+
+Splits de breuk:
+
+$$
+= \dfrac{7(x-2)}{3(x-2)} + \dfrac{23}{3(x-2)}
+$$
+
+Vereenvoudig de breuk:
+
+$$
+= \dfrac{7}{3} + \dfrac{23}{3(x - 2)}
 $$
 
 :::
-
 ::::
 
 ::::{admonition} Oefening 4
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-\dfrac{a^2-b^2}{a+b}
+\dfrac{8x - 5}{4x - 3}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Schrijf in de vorm $\dfrac{m}{x - p} = q$:
 
 $$
-\dfrac{a^2-b^2}{a+b}
+\dfrac{8x - 5}{4x - 3}
 $$
 
-Ontbind de teller in factoren:
+Factoriseer de noemer:
 
 $$
-= \dfrac{(a-b)(a+b)}{(a+b)}
+= \dfrac{8x - 5}{4(x - \frac{3}{4})}
 $$
 
-Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+Voeg de factor $(x - \frac{3}{4})$ toe aan de teller en corrigeer de teller:
 
 $$
-\begin{align*}
-&= \dfrac{(a-b)}{1} \\
-&= a-b \quad \text{als } a\neq -b
-\end{align*}
+= \dfrac{8(x - \frac{3}{4}) + 6 - 5}{4(x - \frac{3}{4})}
+$$
+
+Vereenvoudig de teller:
+
+$$
+= \dfrac{8(x - \frac{3}{4}) + 1}{4(x - \frac{3}{4})}
+$$
+
+Splits de breuk:
+
+$$
+= \dfrac{8(x - \frac{3}{4})}{4(x - \frac{3}{4})} + \dfrac{1}{4(x - \frac{3}{4})}
+$$
+
+Vereenvoudig de breuk:
+
+$$
+= 2 + \dfrac{1}{4(x - \frac{3}{4})}
 $$
 
 :::
-
 ::::
