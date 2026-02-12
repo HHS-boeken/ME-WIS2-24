@@ -60,17 +60,13 @@ $$
 x(5y - 23) = 3 - 2y
 $$
 
-## Stap 6: Deel door $(5y - 23)$
+Deel beide kanten door $(5y - 23)$:
 
 $$
-\boxed{
 x = \frac{3 - 2y}{5y - 23}
-}
 $$
 
-
-
-### Voorwaarde
+Voorwaarde:
 
 $$
 5y - 23 \neq 0
