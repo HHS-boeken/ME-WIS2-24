@@ -1,4 +1,4 @@
-# 1.5 Opgaven
+## 1.5 Opgaven
 
 <hr style="border:2px solid #9EA700">
 
@@ -7,9 +7,7 @@
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{6}{2x+4} - 5
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -19,9 +17,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{3}{2x+5} + 4
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -31,9 +27,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{8}{x-5} - 4
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -43,9 +37,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{-2}{2x-1} + 8
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -55,9 +47,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{4}{x-2} - 9
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -67,9 +57,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{5}{2x-3} - 6
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -79,9 +67,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{-7}{x+6} + 3
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -91,9 +77,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{1}{x+7} + 2
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -103,9 +87,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{2}{x+8} + 6
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -115,9 +97,7 @@ $$
 Schrijf als één enkele breuk:
 
 $$
-\begin{align*}
  \dfrac{-4}{2x+2} + 7
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -127,9 +107,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{3x + 5}{x - 2}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -139,9 +117,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{5x - 7}{2x + 4}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -151,9 +127,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{7x + 9}{3x - 1}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -163,9 +137,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{6x - 2}{x + 5}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -175,9 +147,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{8x + 3}{4x + 7}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -187,9 +157,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{10x - 6}{5x + 8}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -199,9 +167,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{9x + 4}{3x - 2}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -211,9 +177,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{3x - 8}{2x + 6}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -223,9 +187,7 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} = q$:
 
 $$
-\begin{align*}
  \dfrac{4x + 11}{7x - 5}
-\end{align*}
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -235,7 +197,5 @@ $$
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
 
 $$
-\begin{align*}
  \dfrac{7x - 1}{3x + 2}
-\end{align*}
 $$

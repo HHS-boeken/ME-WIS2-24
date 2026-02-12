@@ -16,76 +16,254 @@ Bij het vermenigvuldigen van breuken geldt de volgende algemene regel:
 Deze regel geldt altijd, ongeacht of de breuken numeriek of algebraïsch zijn. Vaak is het mogelijk om de breuk na vermenigvuldiging nog verder te vereenvoudigen door **gemeenschappelijke factoren te schrappen**.
 ````
 
----
+## 1.4.1 Breuken vermenigvuldigen
 
-## **2. Vermenigvuldigen van breuken zonder variabelen**  
-Als de breuken alleen getallen bevatten, dan vermenigvuldigen we direct de tellers en de noemers.
+:::{admonition} Voorbeeld 1: Breuken vermenigvuldigen
+:class: note, dropdown
 
-### **Voorbeeld 1: Eenvoudige vermenigvuldiging**
-\[
-\frac{2}{3} \times \frac{4}{5} = \frac{2 \times 4}{3 \times 5} = \frac{8}{15}
-\]
+Vermenigvuldig de breuken:
 
-De breuk \( \frac{8}{15} \) is al volledig vereenvoudigd.
+$$
+\dfrac{6x}{x^2 - 9} \cdot \dfrac{x - 3}{3x}
+$$
 
----
+Factoriseer alle tellers en noemers:
 
-## **3. Vermenigvuldigen van breuken met variabelen**  
-Wanneer de breuken algebraïsche expressies bevatten, passen we dezelfde regel toe. Indien mogelijk, vereenvoudigen we de breuk door gemeenschappelijke factoren te schrappen.
+$$
+= \dfrac{6x}{(x-3)(x+3)} \cdot \dfrac{x - 3}{3x}
+$$
 
-### **Voorbeeld 2: Breuken met variabelen**
-\[
-\frac{x}{4} \times \frac{3}{2x}
-\]
+Vermenigvuldig de tellers en noemers:
 
-**Stap 1: Vermenigvuldig de tellers en de noemers**
-\[
-\frac{x \cdot 3}{4 \cdot 2x} = \frac{3x}{8x}
-\]
+$$
+= \dfrac{6x(x-3)}{3x(x-3)(x+3)}
+$$
 
-**Stap 2: Vereenvoudig de breuk**
-Omdat \( x \) zowel in de teller als de noemer voorkomt, kunnen we deze schrappen:
-\[
-\frac{3}{8}, \quad x \neq 0
-\]
+Ontbind de teller in factoren:
 
-✅ **Antwoord:** \( \frac{3}{8} \)
+$$
+= \dfrac{2 \cdot 3x(x-3)}{3x(x-3)(x+3)}
+$$
 
----
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
 
-## **4. Vermenigvuldigen van breuken met ontbinding in factoren**  
-Bij complexere breuken ontbinden we eerst de teller en de noemer in factoren voordat we vermenigvuldigen.
+$$
+= \dfrac{2}{x+3}
+$$
 
-### **Voorbeeld 3: Complexere breuken**
-\[
-\frac{x^2 - 9}{2x} \times \frac{4x}{x + 3}
-\]
+:::
 
-**Stap 1: Ontbind de teller en de noemer in factoren**
-\[
-\frac{(x - 3)(x + 3)}{2x} \times \frac{4x}{x + 3}
-\]
+::::{admonition} Oefening 1
+:class: important, dropdown
 
-**Stap 2: Schrappen van gemeenschappelijke factoren**
-De factor \( x + 3 \) komt zowel in de teller als in de noemer voor en kan worden weggestreept:
-\[
-\frac{x - 3}{2} \times 4
-\]
+Vermenigvuldig de breuken:
 
-**Stap 3: Uitrekenen**
-\[
-\frac{(x - 3) \cdot 4}{2} = \frac{4(x - 3)}{2} = 2(x - 3)
-\]
+$$
+\dfrac{9x}{x^2 + 5x + 6} \cdot \dfrac{x + 2}{3x}
+$$
 
-✅ **Antwoord:** \( 2(x - 3) \)
+:::{dropdown} Uitwerking
+Vermenigvuldig de breuken:
 
----
+$$
+\dfrac{9x}{x^2 + 5x + 6} \cdot \dfrac{x + 2}{3x}
+$$
 
-## **5. Samenvatting**
-| **Situatie** | **Methode** |
-|-------------|------------|
-| **Eenvoudige breuken** | Vermenigvuldig de tellers en de noemers direct. |
-| **Breuken met variabelen** | Vermenigvuldig en vereenvoudig door gemeenschappelijke factoren te schrappen. |
-| **Complexe breuken** | Ontbind de teller en de noemer in factoren en vereenvoudig waar mogelijk. |
+Factoriseer alle tellers en noemers:
 
-Door deze regels correct toe te passen, kun je algebraïsche breuken vermenigvuldigen en vereenvoudigen op een efficiënte manier.
+$$
+= \dfrac{9x}{(x+2)(x+3)} \cdot \dfrac{x + 2}{3x}
+$$
+
+Vermenigvuldig de tellers en noemers:
+
+$$
+= \dfrac{9x(x+2)}{3x(x+2)(x+3)}
+$$
+
+Ontbind de teller in factoren:
+
+$$
+= \dfrac{3 \cdot 3x(x+2)}{3x(x+2)(x+3)}
+$$
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
+= \dfrac{3}{x+3}
+$$
+
+:::
+::::
+
+::::{admonition} Oefening 2
+:class: important, dropdown
+
+
+
+:::{dropdown} Uitwerking
+
+Vermenigvuldig de breuken:
+
+$$
+\dfrac{6x^2 - 12x}{3x^2 - 3x} \cdot \dfrac{4x - 4}{2x}
+$$
+
+Factoriseer alle tellers en noemers:
+
+$$
+= \dfrac{6x(x-2)}{3x(x-1)} \cdot \dfrac{4(x-1)}{2x}
+$$
+
+Vermenigvuldig de tellers en noemers:
+
+$$
+= \dfrac{6x(x-2) \cdot 4(x-1)}{3x(x-1) \cdot 2x}
+$$
+
+Herschrijf de volgorde en ontbind de noemer in factoren::
+
+$$
+= \dfrac{4(x-2) \cdot 6x(x-1)}{3x(x-1) \cdot 2x}
+$$
+
+$$
+= \dfrac{4(x-2) \cdot 6x(x-1)}{6x(x-1) \cdot x}
+$$
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
+= \dfrac{4(x-2)}{x}
+$$
+
+:::
+::::
+
+## 1.4.2 Breuken delen
+
+:::{admonition} Voorbeeld 2: Breuken delen
+:class: note, dropdown
+
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{6x}{x+4}}{\dfrac{3}{x}}
+$$
+
+Schrijf de deling als een vermenigvuldiging met het omgekeerde:
+
+$$
+= \dfrac{6x}{x+4} \cdot \dfrac{x}{3}
+$$
+
+Vermenigvuldig de tellers en noemers:
+
+$$
+= \dfrac{6x \cdot x}{3(x+4)}
+$$
+
+Ontbind de teller in factoren:
+
+$$
+= \dfrac{3 \cdot 2x^2}{3(x+4)}
+$$
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
+= \dfrac{2x^2}{x+4}
+$$
+:::
+
+::::{admonition} Oefening 3
+:class: important, dropdown
+
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{8x}{x^2 - 9}}{\dfrac{2x}{x-3}}
+$$
+
+
+:::{dropdown} Uitwerking
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{8x}{x^2 - 9}}{\dfrac{2x}{x-3}}
+$$
+
+Schrijf de deling als een vermenigvuldiging met het omgekeerde:
+
+$$
+= \dfrac{8x}{x^2 - 9} \cdot \dfrac{x-3}{2x}
+$$
+
+Factoriseer alle tellers en noemers:
+
+$$
+= \dfrac{8x}{(x-3)(x+3)} \cdot \dfrac{x-3}{2x}
+$$
+
+Vermenigvuldig de tellers en noemers:
+
+$$
+= \dfrac{8x(x-3)}{2x(x-3)(x+3)}
+$$
+
+Ontbind de teller in factoren:
+
+$$
+= \dfrac{4 \cdot 2x(x-3)}{2x(x-3)(x+3)}
+$$
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
+= \dfrac{4}{x+3}
+$$
+
+:::
+::::
+
+::::{admonition} Oefening 4
+:class: important, dropdown
+
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{x^2 + 7x + 12}{x^2 - x - 6}}{\dfrac{x+4}{3x}}
+$$
+
+:::{dropdown} Uitwerking
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{x^2 + 7x + 12}{x^2 - x - 6}}{\dfrac{x+4}{3x}}
+$$
+
+Schrijf de deling als een vermenigvuldiging met het omgekeerde:
+
+$$
+= \dfrac{x^2 + 7x + 12}{x^2 - x - 6} \cdot \dfrac{3x}{x+4}
+$$
+
+Factoriseer alle tellers en noemers:
+
+$$
+= \dfrac{(x+3)(x+4)}{(x-3)(x+2)} \cdot \dfrac{3x}{x+4}
+$$
+
+Vermenigvuldig de tellers en noemers:
+
+$$
+= \dfrac{(x+3)(x+4) \cdot 3x}{(x-3)(x+2)(x+4)}
+$$
+
+Wegdelen van de gemeenschappelijke factor in de teller en de noemer:
+
+$$
+= \dfrac{3x(x+3)}{(x-3)(x+2)}
+$$
+:::
+::::
