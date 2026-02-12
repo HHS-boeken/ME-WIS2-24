@@ -62,8 +62,6 @@ $$
 
 ### Opgave 7
 
-Schrijf in de vorm $\dfrac{m}{x - p} + q$:
-
 Schrijf als één enkele breuk:
 
 $$
@@ -72,8 +70,6 @@ $$
 
 ### Opgave 8
 
-Schrijf in de vorm $\dfrac{m}{x - p} + q$:
-
 Schrijf als één enkele breuk:
 
 $$
@@ -81,8 +77,6 @@ $$
 $$
 
 ### Opgave 9
-
-Schrijf in de vorm $\dfrac{m}{x - p} + q$:
 
 Schrijf als één enkele breuk:
 
@@ -117,6 +111,36 @@ Maak $x$ vrij als:
 
 $$
 y = \frac{5x + 1}{7x - 6}
+$$
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 13
+
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{10x}{x^2 - 16}}{\dfrac{5x}{x-4}}
+$$
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 14
+
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{x^2 + 5x + 6}{x^2 - 9}}{\dfrac{x+2}{4x}}
+$$
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 15
+
+Deel de breuken:
+
+$$
+\dfrac{\dfrac{12x}{x^2 + x - 12}}{\dfrac{3x}{x+4}}
 $$
 
 
