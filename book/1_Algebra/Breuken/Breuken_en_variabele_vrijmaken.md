@@ -7,24 +7,16 @@ LEEG
 
 ::::
 
-
 ## 1.6.1 Variabelen vrijmaken
 
-:::{admonition} Voorbeeld 1: Variable x vriijmaken
+:::{admonition} Voorbeeld 1: Variable x vrijmaken
 :class: note, dropdown
 
-Schrijf als één enkele breuk:
-
-# X vrijmaken – voorbeeld met plus
-
-Gegeven:
+Maak x vrij als:
 
 $$
 y = 4 + \frac{3x - 5}{5x + 2}
 $$
-
-We gaan $x$ vrijmaken.
-
 
 Breng 4 naar links:
 
