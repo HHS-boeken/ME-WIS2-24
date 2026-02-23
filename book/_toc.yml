@@ -141,7 +141,7 @@ parts:
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_opgaven.md
       #- file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_uitwerkingen.md
-      
+    
       #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen.md
 
   - caption: Opgaven en Uitwerkingen lessen
