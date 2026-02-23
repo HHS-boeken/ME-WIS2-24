@@ -37,8 +37,9 @@ parts:
         - file: 1_Algebra/Breuken/Breuken_en_variabele_vrijmaken_uitwerkingen.md
 
       - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen.md
-      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
-      - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
+        sections:
+        - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven.md
+        - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen.md
 
   #- caption: Functies
     #chapters:
