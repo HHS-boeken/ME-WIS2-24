@@ -6,7 +6,7 @@ Toevoegen:
 
 - [Opgave College lesweek1](./1_Algebra/Breuken/Week1Les2_opgaven.md)
 - [Uitwerkingen College lesweek1](./1_Algebra/Breuken/Week1Les2_uitwerkingen.md)
-- [H1.7 Staartdelingen](./1_Algebra/Breuken/Staartdelingen_met_variabelen.)
+- [H1.7 Staartdelingen](./1_Algebra/Breuken/Staartdelingen_met_variabelen.md)
 
 ## v2025.0.0 Start module
 
