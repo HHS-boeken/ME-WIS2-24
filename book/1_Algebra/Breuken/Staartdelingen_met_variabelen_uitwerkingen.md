@@ -4,8 +4,8 @@
 
 ### Opgave 1.7a
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
@@ -15,9 +15,7 @@ $$
 \end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Berekenen door middel van een staartdeling:
 
 $$
@@ -76,15 +74,15 @@ $$
 3x + 1 + \dfrac{1}{2x + 1}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7b
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
@@ -94,8 +92,7 @@ $$
 \end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
+:::{dropdown} Uitwerking
 
 Berekenen door middel van een staartdeling:
 
@@ -153,15 +150,15 @@ $$
 2x + \frac{1}{2} + \dfrac{9}{2(2x + 1)}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7c
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
@@ -171,8 +168,7 @@ $$
 \end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
+:::{dropdown} Uitwerking
 
 Berekenen door middel van een staartdeling:
 
@@ -232,15 +228,15 @@ $$
 2x + \frac{1}{2} + \dfrac{3}{4x + 2}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7d
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
@@ -250,8 +246,7 @@ $$
 \end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
+:::{dropdown} Uitwerking
 
 Berekenen door middel van een staartdeling:
 
@@ -311,15 +306,15 @@ $$
 3x + 2 + \dfrac{3}{3x + 2}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7e
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
@@ -329,8 +324,7 @@ $$
 \end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
+:::{dropdown} Uitwerking
 
 Berekenen door middel van een staartdeling:
 
@@ -390,15 +384,15 @@ $$
 2x + 1 + \dfrac{2}{5x + 1}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7f
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
@@ -408,8 +402,7 @@ $$
 \end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
+:::{dropdown} Uitwerking
 
 Berekenen door middel van een staartdeling:
 
@@ -469,27 +462,23 @@ $$
 7x - 13 + \dfrac{44}{x + 3}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7g
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
 $$
-\begin{align*}
 4x^2 + \frac{10}{3}x - \frac{2}{9} + \dfrac{4}{9(3x + 2)}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Berekenen door middel van een staartdeling:
 
 $$
@@ -571,27 +560,23 @@ $$
  4x^2 + \frac{10}{3}x - \frac{2}{9} + \dfrac{4}{9(3x + 2)}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7h
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
 $$
-\begin{align*}
  3x^2 + \frac{12}{5} - \dfrac{6}{5(5x + 3)}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Berekenen door middel van een staartdeling:
 
 $$
@@ -651,27 +636,23 @@ $$
 \end{align*}
 $$
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7i
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
 $$
-\begin{align*}
 5x^2 + \frac{14}{3}x - \frac{1}{9} + \dfrac{56}{9(3x + 2)}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Berekenen door middel van een staartdeling:
 
 $$
@@ -753,27 +734,23 @@ $$
 5x^2 + \frac{14}{3}x - \frac{1}{9} + \dfrac{56}{9(3x + 2)}
 \end{align*}
 $$
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 1.7j
 
-````{admonition} Antwoord
-:class: dropdown
+::::{admonition} Antwoord
+:class:  important, dropdown
 
 De uitkomst is:
 
 $$
-\begin{align*}
 3x^2 + 2x + \frac{1}{2} + \dfrac{11}{6(2x + 1)}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class: dropdown
-
+:::{dropdown} Uitwerking
 Berekenen door middel van een staartdeling:
 
 $$
@@ -804,7 +781,6 @@ $$
 &\quad \quad \quad 12x^2 + 9x + 7
 \end{align*}
 $$
-
 
 Deel $12x^2$ door $6x$:
 
@@ -857,5 +833,5 @@ $$
 & 3x^2 + 2x + \frac{1}{2} + \dfrac{11}{6(2x + 1)}
 \end{align*}
 $$
-```
-````
+:::
+::::
