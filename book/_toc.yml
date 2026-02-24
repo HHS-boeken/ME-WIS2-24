@@ -52,7 +52,7 @@ parts:
     #- file: 2_Functies/H7_Logaritmische_functies/Logaritmische_functies.md
     #- file: 2_Functies/H8_Gebroken_functies/Gebroken_functies.md
 
-  #- caption: Limieten
+  - caption: Limieten
     #chapters:
   #  - file: 3_Limieten/Limieten/Limieten.md
    #   sections:
@@ -66,7 +66,7 @@ parts:
       #- file: 3_Limieten/Limieten/Combinaties_van_limieten.md
    # - file: Limieten/Limieten/test1.ipynb
 
-  #- caption: Differentiaalrekening
+  - caption: Differentiaalrekening
     #chapters:
     #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
     #  sections:
@@ -98,7 +98,7 @@ parts:
   #  - file: Differentiaalrekening/Differentieren_van_exponentiele_functies/Differentieren_van_exponentiele_functies.md
   #  - file: Differentiaalrekening/Differentieren_van_logaritmische_functies/Differentieren_van_logaritmische_functies.md
 
-  #- caption: Integraalrekening
+  - caption: Integraalrekening
   #  chapters:
   #  - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
   #    sections:
@@ -113,7 +113,7 @@ parts:
   #    - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_opgaven.md
   #    - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_uitwerkingen.md
 
-  #- caption: Complexe getalllen
+  - caption: Complexe getalllen
     #chapters:
 
     #- file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen.md
