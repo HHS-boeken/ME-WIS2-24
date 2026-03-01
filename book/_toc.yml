@@ -60,9 +60,9 @@ parts:
         sections:
         - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_opgaven.md
         - file: 3_Limieten/Limieten/Limieten_naar_oneindig_en_asymptoten_uitwerkingen.md
-        
+
+      - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
         sections:
-        - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot.md
         - file: 3_Limieten/Limieten/Oneindige_limieten_en_verticale_asymptoot_opgaven.md
 
       #- file: 3_Limieten/Limieten/Combinaties_van_limieten.md
