@@ -1,5 +1,6 @@
 # 3.2 Oneindige limieten, $\lim_{x\to a }  f(x)= \pm \infty$ ,  verticale asymptoot
 
+````{admonition} Theorie
 :class: tip, dropdown open
 
 Dat $f(x)=\dfrac{1}{x}$ onbeperkt groot wordt als $x$ steeds dichter bij $0$ komt van de **rechterkant**, noteren we als:
@@ -8,16 +9,17 @@ $$
 \lim_{x\to 0^+} \dfrac{1}{x} = +\infty
 $$
 
-Dit wordt uitgesproken als:  
+Dit wordt uitgesproken als:
 *de limiet van $\dfrac{1}{x}$ voor $x$ naar nul van rechts is plus oneindig.*
 
-Als $x$ naar $0$ nadert van de **linkerkant**, dan geldt:
+
+Dat $f(x)=\dfrac{1}{x}$ onbeperkt groot wordt als $x$ steeds dichter bij $0$ komt van de **linkerkant**, noteren we als:
 
 $$
 \lim_{x\to 0^-} \dfrac{1}{x} = -\infty
 $$
 
-Dit wordt uitgesproken als:  
+Dit wordt uitgesproken als:
 *de limiet van $\dfrac{1}{x}$ voor $x$ naar nul van links is min oneindig.*
 
 ```{admonition} Oneindige limiet
@@ -92,3 +94,4 @@ $$
 \end{align*}
 $$
 ```
+````
