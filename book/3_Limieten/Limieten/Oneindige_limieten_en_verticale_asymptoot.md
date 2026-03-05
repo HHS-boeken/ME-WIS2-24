@@ -92,7 +92,8 @@ $$
 ```
 ````
 
-## 3.2.1
+## 3.2.1 Verschillende tekens links en rechts
+
 :::{admonition} Voorbeeld 1:
 :class: dropdown
 
@@ -153,3 +154,6 @@ $$
 $$
 
 :::
+
+## 3.2.2 Zelfde tekens links en rechts
+
