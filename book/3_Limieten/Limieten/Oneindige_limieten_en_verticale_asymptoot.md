@@ -127,6 +127,7 @@ x-3 < 0
 $$
 
 Dus,
+
 $$
 Negatief
 $$
@@ -137,7 +138,8 @@ $$
 2 > 0
 $$
 
-Dus, 
+Dus,
+
 $$
 positief
 $$
@@ -148,7 +150,7 @@ $$
 \dfrac{positief}{negatief} = negatief
 $$
 
-Dus, 
+Hieruit volgt:
 
 $$
 \lim_{x \uparrow 3} \dfrac{2}{x-3} = -\infty
