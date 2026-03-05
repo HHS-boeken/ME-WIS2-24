@@ -93,42 +93,57 @@ $$
 ````
 
 ## 3.2.1
+```{admonition} Voorbeeld 1:
 :class: dropdown
 
-Bereken de limieten
+Bereken de limiet
 
-\begin{align*}
-\lim_{x \to 3^-} \dfrac{2}{x-3}
-\quad \text{en} \quad
-\lim_{x \to 3^+} \dfrac{2}{x-3}
-\end{align*}
+$
+\lim_{x \uparrow 3} \dfrac{2}{x-3}
+$
 
-Voor $x \to 3^-$ geldt:  
-$x-3$ is een klein **negatief** getal.
+Kijk wanneer de noemer 0 wordt:
 
-\begin{align}
-\dfrac{2}{\text{negatief}} \rightarrow -\infty
-\end{align}
+$
+x-3 = 0 
+$
 
-Dus:
+dus 
 
-\begin{align}
-\lim_{x \to 3^-} \dfrac{2}{x-3} = -\infty
-\end{align}
+$
+x=3
+$
 
-Voor $x \to 3^+$ geldt:  
-$x-3$ is een klein **positief** getal.
+Onderzoekk het teken van de noemer:
 
-\begin{align}
-\dfrac{2}{\text{positief}} \rightarrow +\infty
-\end{align}
+Als $x \uparrow 3$  \quad x komt van links van 3
 
-Dus:
+Dan geldt:
 
-\begin{align}
-\lim_{x \to 3^+} \dfrac{2}{x-3} = +\infty
-\end{align}
+x-3 < 0
 
-Hieruit volgt dat $x=3$ een verticale asymptoot is.
+Dus, 
 
-# 
+Negatief
+
+
+Onderzoek het teken van de teller:
+
+2 > 0
+
+Dus, 
+
+positief
+
+Bepaal de limiet:
+
+$
+\dfrac{positief}{negatief} 
+$
+
+Dus, 
+
+$
+\lim_{x \uparrow 3} \dfrac{2}{x-3} = -\infty
+$
+```
