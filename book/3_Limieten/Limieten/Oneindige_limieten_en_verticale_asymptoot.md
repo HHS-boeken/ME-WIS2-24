@@ -587,3 +587,153 @@ $$
 
 ## 3.2.2 Zelfde tekens links en rechts
 
+```{admonition} Voorbeeld 1a:
+:class: dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow 2} \frac{x  + 1 }{ (x - 2)^2 }
+$$
+
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+(x-2)^2 = 0
+$$
+
+$$
+(x-2)(x-2) = 0
+$$
+
+dus 
+
+$$
+x=2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow 2 \quad x \text{ komt van rechts van } 2
+$$
+
+Dan geldt:
+
+$$
+(x-2)^2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow 2 \quad x \text{ komt van rechts van } 2
+$$
+
+Dan geldt:
+
+$$
+x+1 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{positief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \downarrow 2} \frac{x  + 1 }{ (x - 2)^2 }= +\infty
+$$
+```
+
+
+```{admonition} Voorbeeld 1b:
+:class: dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \uparrow 2} \frac{x  + 1 }{ (x - 2)^2 }
+$$
+
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+(x-2)^2 = 0
+$$
+
+$$
+(x-2)(x-2) = 0
+$$
+
+dus 
+
+$$
+x=2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \uparrow 2 \quad x \text{ komt van links van } 2
+$$
+
+Dan geldt:
+
+$$
+(x-2)^2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \uparrow 2 \quad x \text{ komt van links van } 2
+$$
+
+Dan geldt:
+
+$$
+x+1 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{positief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \uparrow 2} \frac{x  + 1 }{ (x - 2)^2 }= +\infty
+$$
+```
