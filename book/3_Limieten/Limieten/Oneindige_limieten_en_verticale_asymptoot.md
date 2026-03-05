@@ -93,7 +93,7 @@ $$
 
 ## 3.2.1 Verschillende tekens links en rechts
 
-```{admonition} Voorbeeld 1:
+```{admonition} Voorbeeld 1a:
 :class: dropdown
 
 Bereken de limiet
@@ -135,6 +135,10 @@ $$
 Onderzoek het teken van de teller:
 
 $$
+\text{Als } x \uparrow 3 \quad x \text{ komt van links van } 3
+$$
+
+$$
 2 > 0
 $$
 
@@ -158,7 +162,76 @@ $$
 
 ```
 
-````{admonition} Oefening 1:
+```{admonition} Voorbeeld 1b:
+:class: dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow 3} \dfrac{2}{x-3}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+x-3 = 0
+$$
+
+dus 
+
+$$
+x=3
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow 3 \quad x \text{ komt van rechts van } 3
+$$
+
+Dan geldt:
+
+$$
+x-3 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow 3 \quad x \text{ komt van rechts van } 3
+$$
+
+$$
+2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{positief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \downarrow 3} \dfrac{2}{x-3} = \infty
+$$
+
+```
+
+````{admonition} Oefening 1a:
 :class:  important, dropdown
 
 Bereken de limiet
@@ -237,6 +310,91 @@ Hieruit volgt:
 
 $$
 \lim_{x \uparrow -2} \dfrac{4x}{5x+10}= +\infty
+$$
+
+```
+````
+
+
+````{admonition} Oefening 1b:
+:class:  important, dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow -2} \dfrac{4x}{5x+10}
+$$
+
+```{dropdown} Uitwerking
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow -2} \dfrac{4x}{5x+10}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+5x+10 = 0
+$$
+
+$$
+5(x+2) = 0
+$$
+
+dus 
+
+$$
+x=-2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow -2 \quad x \text{ komt van rechts van } -2
+$$
+
+Dan geldt:
+
+$$
+5x+10 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow -2 \quad x \text{ komt van rechts van } -2
+$$
+
+Dan geldt:
+
+$$
+4x < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{negatief} = negatief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \uparrow -2} \dfrac{4x}{5x+10}= -\infty
 $$
 
 ```
