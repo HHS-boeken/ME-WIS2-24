@@ -155,7 +155,7 @@ $$
 ```
 
 ````{admonition} Oefening 1:
-:class: dropdown
+:class:  important, dropdown
 
 Bereken de limiet
 $$
@@ -202,6 +202,7 @@ negatief
 $$
 
 Onderzoek het teken van de teller:
+
 $$
 \text{Als } x \uparrow -2 \quad x \text{ komt van links van } -2
 $$
@@ -234,9 +235,10 @@ $$
 ````
 
 ````{admonition} Oefening 2:
-:class: dropdown
+:class:  important, dropdown
 
 Bereken de limiet
+
 $$
 \lim_{x \downarrow -3} \dfrac{x^2-4}{x^2+5x+6}
 $$
@@ -244,21 +246,25 @@ $$
 ```{dropdown} Uitwerking
 
 Bereken de limiet
+
 $$
 \lim_{x \downarrow -3} \dfrac{x^2-4}{x^2+5x+6}
 $$
 
 Vereenvoudig de breuk:
+
 $$
 \lim_{x \downarrow -3} \dfrac{(x-2)(x+2)}{(x+2)(x+3)}
 $$
 
 Geeft:
+
 $$
 \lim_{x \downarrow -3} \dfrac{(x-2)}{(x+3)}
 $$
 
 Kijk wanneer de noemer 0 wordt:
+
 $$
 x+3 = 0
 $$
@@ -270,6 +276,7 @@ x=-3
 $$
 
 Onderzoek het teken van de noemer:
+
 $$
 \text{Als } x \downarrow -3 \quad x \text{ komt van rechts van } -3
 $$
@@ -287,6 +294,7 @@ positief
 $$
 
 Onderzoek het teken van de teller:
+
 $$
 \text{Als } x \downarrow -3 \quad x \text{ komt van rechts van } -3
 $$
