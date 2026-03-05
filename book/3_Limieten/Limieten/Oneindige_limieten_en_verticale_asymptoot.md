@@ -93,57 +93,65 @@ $$
 ````
 
 ## 3.2.1
-```{admonition} Voorbeeld 1:
+:::{admonition} Voorbeeld 1:
 :class: dropdown
 
 Bereken de limiet
 
-$
+$$
 \lim_{x \uparrow 3} \dfrac{2}{x-3}
-$
+$$
 
 Kijk wanneer de noemer 0 wordt:
 
-$
+$$
 x-3 = 0 
-$
+$$
 
 dus 
 
-$
+$$
 x=3
-$
+$$
 
-Onderzoekk het teken van de noemer:
+Onderzoek het teken van de noemer:
 
-Als $x \uparrow 3$  \quad x komt van links van 3
+$$
+\text{Als } x \uparrow 3 \quad x \text{ komt van links van } 3
+$$
 
 Dan geldt:
 
+$$
 x-3 < 0
+$$
 
-Dus, 
-
+Dus,
+$$
 Negatief
-
+$$
 
 Onderzoek het teken van de teller:
 
+$$
 2 > 0
+$$
 
 Dus, 
-
+$$
 positief
+$$
 
 Bepaal de limiet:
 
-$
-\dfrac{positief}{negatief} 
-$
+$$
+\dfrac{positief}{negatief} = negatief
+$$
 
 Dus, 
 
-$
+$$
 \lim_{x \uparrow 3} \dfrac{2}{x-3} = -\infty
-$
-```
+$$
+
+:::
