@@ -97,11 +97,13 @@ $$
 :class: dropdown
 
 Bereken de limiet
+
 $$
 \lim_{x \uparrow 3} \dfrac{2}{x-3}
 $$
 
 Kijk wanneer de noemer 0 wordt:
+
 $$
 x-3 = 0 
 $$
@@ -113,6 +115,7 @@ x=3
 $$
 
 Onderzoek het teken van de noemer:
+
 $$
 \text{Als } x \uparrow 3 \quad x \text{ komt van links van } 3
 $$
@@ -130,6 +133,7 @@ negatief
 $$
 
 Onderzoek het teken van de teller:
+
 $$
 2 > 0
 $$
@@ -158,6 +162,7 @@ $$
 :class:  important, dropdown
 
 Bereken de limiet
+
 $$
 \lim_{x \uparrow -2} \dfrac{4x}{5x+10}
 $$
@@ -165,11 +170,13 @@ $$
 ```{dropdown} Uitwerking
 
 Bereken de limiet
+
 $$
 \lim_{x \uparrow -2} \dfrac{4x}{5x+10}
 $$
 
 Kijk wanneer de noemer 0 wordt:
+
 $$
 5x+10 = 0
 $$
@@ -185,6 +192,7 @@ x=-2
 $$
 
 Onderzoek het teken van de noemer:
+
 $$
 \text{Als } x \uparrow -2 \quad x \text{ komt van links van } -2
 $$
