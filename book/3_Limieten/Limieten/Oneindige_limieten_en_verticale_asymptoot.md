@@ -1,104 +1,739 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
 # 3.2 Oneindige limieten, $\lim_{x\to a }  f(x)= \pm \infty$ ,  verticale asymptoot
-
-```{code-cell} ipython3
-:tags: ["remove-output","remove-input"]
-
-import numpy as np 
-import matplotlib.pyplot as plt 
-from myst_nb import glue
-
-#plt.rcParams['text.usetex'] = True
-
-# Functie definitie
-def f(x):
-
-    return (4*x  - 3) / (5*x - 4)
-    return (4*x - 3) / (5*x - 4)
-
-
-# Domein splitsen rond de verticale asymptoot x = 4/5
-x1 = np.linspace(-2, 0.79, 400)  # Linker tak (voor x < 4/5)
-x2 = np.linspace(0.81, 3, 400)   # Rechter tak (voor x > 4/5)
-
-# Functiewaarden berekenen
-y1 = f(x1)
-y2 = f(x2)
-
-# Grafiek plotten
-fig, ax = plt.subplots()
-#plt.figure(figsize=(8, 6))
-ax.plot(x1, y1, 'b', label=r'$y = \frac{4x - 3}{5x - 4}$')  # Linker tak
-ax.plot(x2, y2, 'b')  # Rechter tak
-
-# Asymptoten
-ax.axvline(x=4/5, color='r', linestyle='--', label=r'Asymptoot $x=\frac{4}{5}$')  # Verticale asymptoot
-ax.axhline(y=4/5, color='g', linestyle='--', label=r'Asymptoot $y=\frac{4}{5}$')  # Horizontale asymptoot
-
-# Labels en titel
-ax.set_xlabel('x')
-ax.set_ylabel('f(x)')
-ax.set_xlim(-2,3)
-ax.set_ylim(-3,5)
-ax.set_title('Grafiek van $f(x) = \\frac{4x - 3}{5x - 4}$')
-ax.legend()
-ax.grid()
-
-# Weergeven
-#ax.show()
-
-#fig.savefig("test.png")
-glue("voorbeeld1", fig, display=False)
-
-```
-
 
 ````{admonition} Theorie
 :class: tip, dropdown open
 
-```{admonition} Horizontale en Verticale asymptoot
+Dat $f(x)=\dfrac{1}{x}$ onbeperkt groot wordt als $x$ steeds dichter bij $0$ komt van de **rechterkant**, noteren we als:
+$$
+\lim_{x \downarrow 0} \dfrac{1}{x} = +\infty
+$$
+
+Dit wordt uitgesproken als: $\quad$ *de limiet van $\dfrac{1}{x}$ voor $x$ naar nul van rechts is plus oneindig.*
+
+Dat $f(x)=\dfrac{1}{x}$ onbeperkt groot wordt als $x$ steeds dichter bij $0$ komt van de **linkerkant**, noteren we als:
+$$
+\lim_{x \uparrow 0} \dfrac{1}{x} = -\infty
+$$
+
+Dit wordt uitgesproken als: $\quad$ *de limiet van $\dfrac{1}{x}$ voor $x$ naar nul van links is min oneindig.*
+
+```{admonition} Oneindige limiet
 :class: warning
 
-De lijn $y = b$ is een **horizontale asymptoot** van de grafiek van de functie $f(x)$ als;
+$$
+\lim_{x \downarrow a}  f(x)=+\infty
+$$
+
+betekent:
+$f(x)$ wordt onbeperkt groot positief als $x$ $a$ nadert van rechts.
+
+$$
+\lim_{x \uparrow a}  f(x)=-\infty
+$$
+
+betekent:
+$f(x)$ wordt onbeperkt groot negatief als $x$ $a$ nadert van links.
+```
+
+
+Uit 
+$$
+\lim_{x \downarrow 0} \dfrac{1}{x} =+\infty 
+$$
+volgt bijvoorbeeld:
+
+$$
+\lim_{x \downarrow 2} \dfrac{1}{x-2} =+\infty
+$$
+en
+
+$$
+\lim_{x \uparrow 2} \dfrac{1}{x-2} =-\infty
+$$
+
+
+Algemener geldt:
+
+$$
+\lim_{x \downarrow a} \dfrac{1}{x-a} = +\infty
+\quad \text{en} \quad
+\lim_{x \uparrow a} \dfrac{1}{x-a} = -\infty
+$$
+
+<br>
+<br>
+
+Bij het berekenen van oneindige limieten bij rationale functies onderzoek je:
+
+- Waar wordt de **noemer nul**?
+- Wat is het **teken van de teller**?
+- Wat is het **teken van de noemer** links en rechts van dat punt?
+
+Afhankelijk van het teken ontstaan vier mogelijke situaties:
+
+1. $+\infty$ links en $-\infty$ rechts  
+2. $-\infty$ links en $+\infty$ rechts  
+3. $+\infty$ aan beide kanten  
+4. $-\infty$ aan beide kanten  
+
+```{admonition} Verticale asymptoot
+:class: warning
+
+De lijn $x = a$ is een **verticale asymptoot** van de grafiek van de functie $f(x)$ als;
 
 $$
 \begin{align*}
-\lim_{x\to\infty} f(x) = b \quad \text{of} \quad \lim_{x\to-\infty} f(x) = b
+\lim_{x \downarrow a} f(x) = \pm\infty 
+\quad \text{of} \quad
+\lim_{x \uparrow a} f(x) = \pm\infty
 \end{align*}
+$$
+```
+````
+
+## 3.2.1 Verschillende tekens links en rechts
+
+```{admonition} Voorbeeld 1a:
+:class: dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \uparrow 3} \dfrac{2}{x-3}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+x-3 = 0 
+$$
+
+dus 
+
+$$
+x=3
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \uparrow 3 \quad x \text{ komt van links van } 3
+$$
+
+Dan geldt:
+
+$$
+x-3 < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \uparrow 3 \quad x \text{ komt van links van } 3
+$$
+
+$$
+2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{negatief} = negatief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \uparrow 3} \dfrac{2}{x-3} = -\infty
+$$
+
+```
+
+```{admonition} Voorbeeld 1b:
+:class: dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow 3} \dfrac{2}{x-3}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+x-3 = 0
+$$
+
+dus 
+
+$$
+x=3
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow 3 \quad x \text{ komt van rechts van } 3
+$$
+
+Dan geldt:
+
+$$
+x-3 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow 3 \quad x \text{ komt van rechts van } 3
+$$
+
+$$
+2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{positief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \downarrow 3} \dfrac{2}{x-3} = \infty
+$$
+
+```
+
+````{admonition} Oefening 1a:
+:class:  important, dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \uparrow -2} \dfrac{4x}{5x+10}
+$$
+
+```{dropdown} Uitwerking
+
+Bereken de limiet
+
+$$
+\lim_{x \uparrow -2} \dfrac{4x}{5x+10}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+5x+10 = 0
+$$
+
+$$
+5(x+2) = 0
+$$
+
+dus 
+
+$$
+x=-2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \uparrow -2 \quad x \text{ komt van links van } -2
+$$
+
+Dan geldt:
+
+$$
+5x+10 < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \uparrow -2 \quad x \text{ komt van links van } -2
+$$
+
+Dan geldt:
+
+$$
+4x < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{negatief}{negatief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \uparrow -2} \dfrac{4x}{5x+10}= +\infty
+$$
+
+```
+````
+
+
+````{admonition} Oefening 1b:
+:class:  important, dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow -2} \dfrac{4x}{5x+10}
+$$
+
+```{dropdown} Uitwerking
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow -2} \dfrac{4x}{5x+10}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+5x+10 = 0
+$$
+
+$$
+5(x+2) = 0
+$$
+
+dus 
+
+$$
+x=-2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow -2 \quad x \text{ komt van rechts van } -2
+$$
+
+Dan geldt:
+
+$$
+5x+10 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow -2 \quad x \text{ komt van rechts van } -2
+$$
+
+Dan geldt:
+
+$$
+4x < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{negatief} = negatief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \uparrow -2} \dfrac{4x}{5x+10}= -\infty
+$$
+
+```
+````
+
+````{admonition} Oefening 2a:
+:class:  important, dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow -3} \dfrac{x^2-4}{x^2+5x+6}
+$$
+
+```{dropdown} Uitwerking
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow -3} \dfrac{x^2-4}{x^2+5x+6}
+$$
+
+Vereenvoudig de breuk:
+
+$$
+\lim_{x \downarrow -3} \dfrac{(x-2)(x+2)}{(x+2)(x+3)}
+$$
+
+Geeft:
+
+$$
+\lim_{x \downarrow -3} \dfrac{(x-2)}{(x+3)}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+x+3 = 0
+$$
+
+dus,
+
+$$
+x=-3
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow -3 \quad x \text{ komt van rechts van } -3
+$$
+
+Dan geldt:
+
+$$
+x+3 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow -3 \quad x \text{ komt van rechts van } -3
+$$
+
+Dan geldt:
+
+$$
+x-2 < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{negatief} = negatief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \downarrow -3} \dfrac{x^2-4}{x^2+5x+6}= -\infty
+$$
+
+```
+````
+
+
+````{admonition} Oefening 2b:
+:class:  important, dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \uparrow -3} \dfrac{x^2-4}{x^2+5x+6}
+$$
+
+```{dropdown} Uitwerking
+
+Bereken de limiet
+
+$$
+\lim_{x \uparrow -3} \dfrac{x^2-4}{x^2+5x+6}
+$$
+
+Vereenvoudig de breuk:
+
+$$
+\lim_{x \uparrow -3} \dfrac{(x-2)(x+2)}{(x+2)(x+3)}
+$$
+
+Geeft:
+
+$$
+\lim_{x \uparrow -3} \dfrac{(x-2)}{(x+3)}
+$$
+
+Kijk wanneer de noemer 0 wordt:
+
+$$
+x+3 = 0
+$$
+
+dus,
+
+$$
+x=-3
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \uparrow -3 \quad x \text{ komt van links van } -3
+$$
+
+Dan geldt:
+
+$$
+x+3 < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \uparrow -3 \quad x \text{ komt van links van } -3
+$$
+
+Dan geldt:
+
+$$
+x-2 < 0
+$$
+
+Dus,
+
+$$
+negatief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{negatief}{negatief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \downarrow -3} \dfrac{x^2-4}{x^2+5x+6}= \infty
+$$
+
+```
+````
+
+## 3.2.2 Zelfde tekens links en rechts
+
+```{admonition} Voorbeeld 2a:
+:class: dropdown
+
+Bereken de limiet
+
+$$
+\lim_{x \downarrow 2} \frac{x  + 1 }{ (x - 2)^2 }
 $$
 
 
+Kijk wanneer de noemer 0 wordt:
 
-````
+$$
+(x-2)^2 = 0
+$$
 
-```{admonition} Voorbeeld 1:
+$$
+(x-2)(x-2) = 0
+$$
+
+dus 
+
+$$
+x=2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \downarrow 2 \quad x \text{ komt van rechts van } 2
+$$
+
+Dan geldt:
+
+$$
+(x-2)^2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \downarrow 2 \quad x \text{ komt van rechts van } 2
+$$
+
+Dan geldt:
+
+$$
+x+1 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{positief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \downarrow 2} \frac{x  + 1 }{ (x - 2)^2 }= +\infty
+$$
+```
+
+
+```{admonition} Voorbeeld 2b:
 :class: dropdown
-```
 
-````{admonition} Oefening 1
-:class: important, dropdown
+Bereken de limiet
 
-
-
-```{admonition} Uitwerking
-:class: important, dropdown
-
-```
-````
-
-```{glue:} voorbeeld1
-```
+$$
+\lim_{x \uparrow 2} \frac{x  + 1 }{ (x - 2)^2 }
+$$
 
 
-```{glue:} voorbeeld1
+Kijk wanneer de noemer 0 wordt:
+
+$$
+(x-2)^2 = 0
+$$
+
+$$
+(x-2)(x-2) = 0
+$$
+
+dus 
+
+$$
+x=2
+$$
+
+Onderzoek het teken van de noemer:
+
+$$
+\text{Als } x \uparrow 2 \quad x \text{ komt van links van } 2
+$$
+
+Dan geldt:
+
+$$
+(x-2)^2 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Onderzoek het teken van de teller:
+
+$$
+\text{Als } x \uparrow 2 \quad x \text{ komt van links van } 2
+$$
+
+Dan geldt:
+
+$$
+x+1 > 0
+$$
+
+Dus,
+
+$$
+positief
+$$
+
+Bepaal de limiet:
+
+$$
+\dfrac{positief}{positief} = positief
+$$
+
+Hieruit volgt:
+
+$$
+\lim_{x \uparrow 2} \frac{x  + 1 }{ (x - 2)^2 }= +\infty
+$$
 ```

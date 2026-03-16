@@ -3,7 +3,7 @@
 
 <hr style="border:2px solid #9EA700">
 
-### Opgave 4.2.1a
+### Opgave 4.2a
 
 Bepaal de afgeleide van de volgende functie.
 \begin{align*}
@@ -12,7 +12,7 @@ Bepaal de afgeleide van de volgende functie.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1b
+### Opgave 4.2b
 
 Differentieer de volgende functie.
 \begin{align*}
@@ -21,23 +21,23 @@ Differentieer de volgende functie.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1c
+### Opgave 4.2c
 
-Toon aan dat de afgeleide van \( h(x) = x \ln x \) gelijk is aan:
+Bepaal de afgeleide van de volgende functie.
 \begin{align*}
- h'(x) = \ln x + 1
+ h(x) = x \ln(x)
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1d
+### Opgave 4.2d
 
 Differentieer de volgende functie.
 \begin{align*}
  p(x) = (e^x + x^2)(\cos x)
 \end{align*}
 
-### Opgave 4.2.1e
+### Opgave 4.2e
 
 <hr style="border:1px solid #9EA700">
 
@@ -48,7 +48,7 @@ Bepaal de afgeleide van de volgende functie.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1f
+### Opgave 4.2f
 
 Bereken de afgeleide van de volgende functie met de productregel.
 \begin{align*}
@@ -57,7 +57,7 @@ Bereken de afgeleide van de volgende functie met de productregel.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1g
+### Opgave 4.2g
 
 Differentieer de volgende functie en schrijf het resultaat zo eenvoudig mogelijk.
 \begin{align*}
@@ -66,7 +66,7 @@ Differentieer de volgende functie en schrijf het resultaat zo eenvoudig mogelijk
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1h
+### Opgave 4.2h
 
 Bereken de afgeleide van:
 \begin{align*}
@@ -75,11 +75,11 @@ Bereken de afgeleide van:
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1i
+### Opgave 4.2i
 
-Toon aan dat de afgeleide van de functie \( p(x) = x^n e^x \) wordt gegeven door:
+Bereken de afgeleide van de functie:
 \begin{align*}
- p'(x) = n x^{n-1} e^x + x^n e^x
+ p(x) = x^n e^x
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -102,7 +102,7 @@ Bereken de afgeleide van de volgende functie.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1l
+### Opgave 4.2l
 
 Differentieer de volgende functie, die relevant is voor trillingsanalyse.
 \begin{align*}
@@ -111,7 +111,7 @@ Differentieer de volgende functie, die relevant is voor trillingsanalyse.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1m
+### Opgave 4.2m
 
 Bereken de afgeleide van de volgende functie.
 \begin{align*}
@@ -120,7 +120,7 @@ Bereken de afgeleide van de volgende functie.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1n
+### Opgave 4.2n
 
 Differentieer de volgende functie.
 \begin{align*}
@@ -129,7 +129,7 @@ Differentieer de volgende functie.
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1o
+### Opgave 4.2o
 
 Differentieer:
 \begin{align*}
