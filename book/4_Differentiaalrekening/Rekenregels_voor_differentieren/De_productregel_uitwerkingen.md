@@ -12,28 +12,35 @@ $$
 
 :::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
+
 $$
   f(x) = x^2 e^x
 $$
 
 Kies de functies $u(x)$ en $v(x)$:
+
+$$
 \begin{align}
   u &= x^2 \\
   v &= e^x
 \end{align}
+$$
 
 Differentieer de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   \dfrac{du}{dx} &= 2x \\
   \dfrac{dv}{dx} &= e^x
 \end{align}
+$$
 
 Toepassen van de productregel:
+$$
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= 2x e^x + x^2 e^x
 \end{align}
-
+$$
 :::
 ::::
 
@@ -185,7 +192,9 @@ $$
 
 :::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
+$$
   f(x) = (2x^3 + 3x) e^{4x}
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -224,27 +233,34 @@ $$
 
 :::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
+$$
   g(x) = (x^2 + 1) \ln x
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   u &= x^2 + 1 \\
   v &= \ln x
 \end{align}
+$$
 
 Differentieer de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   \dfrac{du}{dx} &= 2x \\
   \dfrac{dv}{dx} &= \dfrac{1}{x}
 \end{align}
+$$
 
 Toepassen van de productregel:
+$$
 \begin{align}
   \dfrac{dg}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= 2x \ln x + (x^2 + 1) \cdot \dfrac{1}{x} \\
   &= 2x \ln x + \dfrac{x^2 + 1}{x}
 \end{align}
-
+$$
 :::
 ::::
 
