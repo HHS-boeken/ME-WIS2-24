@@ -81,9 +81,10 @@ parts:
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_uitwerkingen.md
 
-      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
-      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
-      #- file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel.md
+        sections:
+        - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
+        - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
 
     #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
     #  sections:
