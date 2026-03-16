@@ -7,7 +7,7 @@
 :class: important, dropdown
 
 $$
-  \dfrac{df}{dx} &= 2x e^x + x^2 e^x
+  \dfrac{df}{dx} = 2x e^x + x^2 e^x
 $$
 
 :::{dropdown} Uitwerking
@@ -52,7 +52,7 @@ $$
 :class: important, dropdown
 
 $$
-  \dfrac{dg}{dx}&= \cos x - (x+1) \sin x
+  \dfrac{dg}{dx} = \cos x - (x+1) \sin x
 $$
 
 :::{dropdown} Uitwerking
