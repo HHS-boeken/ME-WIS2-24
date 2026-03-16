@@ -1,7 +1,7 @@
 
 ## 4.2 Uitwerkingen
 
-### Opgave 4.2.1a
+### Opgave 4.2a
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -50,7 +50,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1b
+### Opgave 4.2b
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -99,7 +99,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1c
+### Opgave 4.2c
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -108,7 +108,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1d
+### Opgave 4.2d
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -157,7 +157,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1e
+### Opgave 4.2e
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -206,7 +206,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1f
+### Opgave 4.2f
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -257,7 +257,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1g
+### Opgave 4.2g
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -306,7 +306,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1h
+### Opgave 4.2h
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -356,7 +356,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1i
+### Opgave 4.2i
 
 ::::{admonition} Antwoord
 
@@ -365,7 +365,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1j
+### Opgave 4.2j
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -414,7 +414,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1k
+### Opgave 4.2k
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -463,7 +463,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1l
+### Opgave 4.2l
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -513,7 +513,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1m
+### Opgave 4.2m
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -562,7 +562,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1n
+### Opgave 4.2n
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -612,7 +612,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.2.1o
+### Opgave 4.2o
 
 ::::{admonition} Antwoord
 :class: important, dropdown
