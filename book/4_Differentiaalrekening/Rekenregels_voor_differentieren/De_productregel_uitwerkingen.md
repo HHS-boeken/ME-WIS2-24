@@ -3,22 +3,18 @@
 
 ### Opgave 4.2.1a
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{df}{dx} &= 2x e^x + x^2 e^x
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
+$$
   f(x) = x^2 e^x
-\end{align*}
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -37,81 +33,77 @@ Toepassen van de productregel:
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= 2x e^x + x^2 e^x
 \end{align}
-```
-````
+
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1b
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dg}{dx}&= \cos x - (x+1) \sin x
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
+$$
   g(x) = (x+1) \cos x
-\end{align*}
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   u &= (x+1) \\
   v &= \cos x
 \end{align}
+$$
 
 Differentieer de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   \dfrac{du}{dx} &= 1 \\
   \dfrac{dv}{dx} &= -\sin x
 \end{align}
+$$
 
 Toepassen van de productregel:
+$$
 \begin{align}
   \dfrac{dg}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= 1 \cdot \cos x + (x+1) \cdot (-\sin x) \\
   &= \cos x - (x+1) \sin x
 \end{align}
-
-```
-````
+$$
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1c
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 
 
-````
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1d
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dp}{dx} &= - (e^x + x^2) \sin x + (e^x + 2x) \cos x
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   p(x) = (e^x + x^2) \cos x
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -132,72 +124,68 @@ Toepassen van de productregel:
   &= - (e^x + x^2) \sin x + (e^x + 2x) \cos x
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1e
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dq}{dx} &= 4x^3 \ln x + x^3
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
+$$
   q(x) = x^4 \ln x
-\end{align*}
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   u &= x^4 \\
   v &= \ln x
 \end{align}
+$$
 
 Differentieer de functies $u(x)$ en $v(x)$:
+$$
 \begin{align}
   \dfrac{du}{dx} &= 4x^3 \\
   \dfrac{dv}{dx} &= \dfrac{1}{x}
 \end{align}
+$$
 
 Toepassen van de productregel:
+$$
 \begin{align}
   \dfrac{dq}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= 4x^3 \ln x + x^4 \cdot \dfrac{1}{x} \\
   &= 4x^3 \ln x + x^3
 \end{align}
+$$
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1f
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{df}{dx} &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   f(x) = (2x^3 + 3x) e^{4x}
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -220,29 +208,23 @@ Toepassen van de productregel:
   &= (8x^3 + 6x^2 + 12x + 3)e^{4x}
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1g
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dg}{dx} &= 2x \ln x + \dfrac{x^2 + 1}{x}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   g(x) = (x^2 + 1) \ln x
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -263,29 +245,23 @@ Toepassen van de productregel:
   &= 2x \ln x + \dfrac{x^2 + 1}{x}
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1h
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dh}{dx} &= (x^4 + 4x^3 - 2x^2 - 4x)e^x
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   h(x) = (x^4 - 2x^2) e^x
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -307,38 +283,32 @@ Toepassen van de productregel:
   &= (x^4 + 4x^3 - 2x^2 - 4x)e^x
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1i
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 
 
-````
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1j
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dq}{dx} &= e^x\left(\frac{1}{x} + \ln x + 2x + x^2\right)
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   q(x) = (\ln x + x^2)e^x
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -359,29 +329,23 @@ Toepassen van de productregel:
   &= e^x\left(\dfrac{1}{x} + 2x + \ln x + x^2\right)
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1k
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   f'(x) &= \left(3x^2 + e^x\right) \ln x + \frac{x^3 + e^x}{x}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   f(x) = (x^3 + e^x)(\ln x)
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -402,30 +366,24 @@ Toepassen van de productregel:
   &= (3x^2 + e^x) \ln x + \frac{x^3 + e^x}{x}
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 
 ### Opgave 4.2.1l
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dy}{dt} &= e^{-\alpha t} (-\alpha \cos(\omega t) - \omega \sin(\omega t))
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   y(t) = e^{-\alpha t} \cos(\omega t)
-\end{align*}
 
 Kies de functies $u(t)$ en $v(t)$:
 \begin{align}
@@ -447,31 +405,25 @@ Toepassen van de productregel:
   &= e^{-\alpha t} (-\alpha \cos(\omega t) - \omega \sin(\omega t))
 \end{align}
 
-```
+:::
 
 
-````
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1m
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{df}{dx} &= (\frac{1}{x} + e^x)(\cos x + x) + (\ln x + e^x)(1 - \sin x)
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   f(x) = (\ln x + e^x)(\cos x + x)
-\end{align*}
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
@@ -492,29 +444,23 @@ Toepassen van de productregel:
   &= (\frac{1}{x} + e^x)(\cos x + x) + (\ln x + e^x)(1 - \sin x)
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.2.1n
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dz}{dt} &= (2t - t^2 - 1)e^{-t}
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   z(t) = (t^2 + 1) e^{-t}
-\end{align*}
 
 Kies de functies $u(t)$ en $v(t)$:
 \begin{align}
@@ -536,30 +482,24 @@ Toepassen van de productregel:
   &= (2t - t^2 - 1)e^{-t}
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 
 ### Opgave 4.2.1o
 
-````{admonition} Antwoord
+::::{admonition} Antwoord
 :class:  dropdown
 
 $$
-\begin{align*}
   \dfrac{dv}{dt} &= \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
-\end{align*}
 $$
 
-```{admonition} Uitwerking
-:class:  dropdown
-
+:::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
   v(t) = (e^{-t} + \ln (t+1)) \cos (\omega t)
-\end{align*}
 
 Kies de functies $u(t)$ en $v(t)$:
 \begin{align}
@@ -580,7 +520,7 @@ Toepassen van de productregel:
   &= \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
 \end{align}
 
-```
-````
+:::
+::::
 
 <hr style="border:1px solid #9EA700">
