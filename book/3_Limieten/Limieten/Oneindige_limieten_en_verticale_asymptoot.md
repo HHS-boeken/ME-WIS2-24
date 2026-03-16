@@ -587,7 +587,7 @@ $$
 
 ## 3.2.2 Zelfde tekens links en rechts
 
-```{admonition} Voorbeeld 1a:
+```{admonition} Voorbeeld 2a:
 :class: dropdown
 
 Bereken de limiet
@@ -663,7 +663,7 @@ $$
 ```
 
 
-```{admonition} Voorbeeld 1b:
+```{admonition} Voorbeeld 2b:
 :class: dropdown
 
 Bereken de limiet
