@@ -4,7 +4,7 @@
 ### Opgave 4.2.1a
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{df}{dx} &= 2x e^x + x^2 e^x
@@ -49,7 +49,7 @@ $$
 ### Opgave 4.2.1b
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dg}{dx}&= \cos x - (x+1) \sin x
@@ -57,11 +57,13 @@ $$
 
 :::{dropdown} Uitwerking
 Bereken de afgeleide van de volgende functie:
+
 $$
   g(x) = (x+1) \cos x
 $$
 
 Kies de functies $u(x)$ en $v(x)$:
+
 $$
 \begin{align}
   u &= (x+1) \\
@@ -70,6 +72,7 @@ $$
 $$
 
 Differentieer de functies $u(x)$ en $v(x)$:
+
 $$
 \begin{align}
   \dfrac{du}{dx} &= 1 \\
@@ -93,7 +96,7 @@ $$
 ### Opgave 4.2.1c
 
 ::::{admonition} Antwoord
-
+:class: important, dropdown
 
 ::::
 
@@ -102,7 +105,7 @@ $$
 ### Opgave 4.2.1d
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dp}{dx} &= - (e^x + x^2) \sin x + (e^x + 2x) \cos x
@@ -139,7 +142,7 @@ Toepassen van de productregel:
 ### Opgave 4.2.1e
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dq}{dx} &= 4x^3 \ln x + x^3
