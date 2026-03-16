@@ -149,8 +149,8 @@ $$
   \dfrac{dp}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
   &= (e^x + 2x) \cos x + (e^x + x^2)(-\sin x) \\
   &= - (e^x + x^2) \sin x + (e^x + 2x) \cos x
-$$
 \end{align}
+$$
 
 :::
 ::::
@@ -209,7 +209,7 @@ $$
 ### Opgave 4.2.1f
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{df}{dx} = (8x^3 + 6x^2 + 12x + 3)e^{4x}
@@ -260,7 +260,7 @@ $$
 ### Opgave 4.2.1g
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dg}{dx} = 2x \ln x + \dfrac{x^2 + 1}{x}
@@ -309,7 +309,7 @@ $$
 ### Opgave 4.2.1h
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dh}{dx} = (x^4 + 4x^3 - 2x^2 - 4x)e^x
@@ -368,7 +368,7 @@ $$
 ### Opgave 4.2.1j
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dq}{dx} = e^x\left(\frac{1}{x} + \ln x + 2x + x^2\right)
@@ -417,10 +417,10 @@ $$
 ### Opgave 4.2.1k
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
-  f'(x) = \left(3x^2 + e^x\right) \ln x + \frac{x^3 + e^x}{x}
+  \dfrac{df}{dx} = \left(3x^2 + e^x\right) \ln x + \frac{x^3 + e^x}{x}
 $$
 
 :::{dropdown} Uitwerking
@@ -466,7 +466,7 @@ $$
 ### Opgave 4.2.1l
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dy}{dt} = e^{-\alpha t} (-\alpha \cos(\omega t) - \omega \sin(\omega t))
@@ -516,7 +516,7 @@ $$
 ### Opgave 4.2.1m
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{df}{dx} = (\frac{1}{x} + e^x)(\cos x + x) + (\ln x + e^x)(1 - \sin x)
@@ -565,7 +565,7 @@ $$
 ### Opgave 4.2.1n
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
   \dfrac{dz}{dt} = (2t - t^2 - 1)e^{-t}
@@ -615,10 +615,10 @@ $$
 ### Opgave 4.2.1o
 
 ::::{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 $$
-  \dfrac{dv}{dt} = \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
+  \dfrac{dw}{dt} = \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
 $$
 
 :::{dropdown} Uitwerking
@@ -650,7 +650,7 @@ Toepassen van de productregel:
 
 $$
 \begin{align}
-  \dfrac{dv}{dt} = \dfrac{d}{dt}(u \cdot v) &= \dfrac{du}{dt} \cdot v + u \cdot \dfrac{dv}{dt} \\
+  \dfrac{dw}{dt} = \dfrac{d}{dt}(u \cdot v) &= \dfrac{du}{dt} \cdot v + u \cdot \dfrac{dv}{dt} \\
   &= (-e^{-t} + \frac{1}{t+1}) \cos (\omega t) + (e^{-t} + \ln (t+1)) (-\omega \sin (\omega t)) \\
   &= \left( -e^{-t} + \frac{1}{t+1} \right) \cos (\omega t) - \omega (e^{-t} + \ln (t+1)) \sin (\omega t)
 \end{align}
