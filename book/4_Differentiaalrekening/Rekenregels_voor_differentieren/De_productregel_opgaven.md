@@ -23,9 +23,9 @@ Differentieer de volgende functie.
 
 ### Opgave 4.2c
 
-Toon aan dat de afgeleide van \( h(x) = x \ln x \) gelijk is aan:
+Bepaal de afgeleide van de volgende functie.
 \begin{align*}
- h'(x) = \ln x + 1
+ h(x) = x \ln(x)
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
@@ -77,9 +77,9 @@ Bereken de afgeleide van:
 
 ### Opgave 4.2i
 
-Toon aan dat de afgeleide van de functie \( p(x) = x^n e^x \) wordt gegeven door:
+Bereken de afgeleide van de functie:
 \begin{align*}
- p'(x) = n x^{n-1} e^x + x^n e^x
+ p(x) = x^n e^x
 \end{align*}
 
 <hr style="border:1px solid #9EA700">
