@@ -21,7 +21,7 @@ Dit betekent dat je eerst de **buitenste functie differentieert** en daarna verm
 
 ````
 
-# 4.1.1 De kettingregel
+## 4.1.1 De kettingregel
 
 ```{admonition} Voorbeeld 1: ketttingregel 
 :class: dropdown
