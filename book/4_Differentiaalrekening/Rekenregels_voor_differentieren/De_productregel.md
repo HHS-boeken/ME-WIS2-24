@@ -70,8 +70,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) = e^x(2x^3+x^2+3x)
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -109,8 +108,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) = \ln(x)\cos(x)
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}

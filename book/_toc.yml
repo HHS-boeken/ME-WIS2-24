@@ -73,7 +73,6 @@ parts:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections:
 
-
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
         sections:
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
