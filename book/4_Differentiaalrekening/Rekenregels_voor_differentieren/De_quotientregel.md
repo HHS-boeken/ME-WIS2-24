@@ -66,8 +66,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) =  \dfrac{e^x}{x^2+5}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -105,8 +104,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) =  \dfrac{  \ln(x) } {5 - \cos(x) }
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -146,8 +144,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) =  \dfrac{ \sin^2(x) }{ \ln(5x+1)}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -185,8 +182,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) =  \dfrac{e^{x^2}}{ \sqrt{x^2+5} }
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}

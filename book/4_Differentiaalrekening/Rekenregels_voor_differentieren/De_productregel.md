@@ -175,8 +175,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) = -5e^{-4x}4^{2x}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -214,8 +213,7 @@ Bereken de afgeleide van de volgende functie:
   f(x) =  \log(4x-3) \sqrt{x^2-6}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
