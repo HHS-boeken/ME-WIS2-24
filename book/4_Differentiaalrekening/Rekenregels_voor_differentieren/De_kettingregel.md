@@ -41,7 +41,7 @@ u(x) &= 3x+2
 \end{align*}
 $$
 
-Differentieer de functies f(u) en u(x):
+Differentieer de functies $f(u)$ en $u(x)$:
 
 $$
 \begin{align*}
@@ -95,7 +95,7 @@ u(x) &= 4x
 \end{align*}
 $$
 
-Differentieer de functies f(u) en u(x):
+Differentieer de functies $f(u)$ en $u(x)$:
 
 $$
 \begin{align*}
@@ -152,7 +152,7 @@ $$
 
 
 
-Differentieer de functies f(u) en u(x):
+Differentieer de functies $f(u)$ en $u(x)$:
 
 $$
 \begin{align*}
