@@ -77,8 +77,7 @@ $$
     f(x) = e^{4x}
 $$
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 
@@ -132,8 +131,7 @@ $$
     f(x) = \sin(5x)
 $$
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 

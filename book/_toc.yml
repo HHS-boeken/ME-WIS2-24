@@ -73,6 +73,11 @@ parts:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections:
 
+      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
+        sections:
+        - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
+        - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_uitwerkingen.md
+
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel.md
         sections:
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_productregel_opgaven.md
@@ -83,10 +88,7 @@ parts:
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_opgaven.md
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
 
-      - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
-        sections:
-        - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
-        - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_uitwerkingen.md
+
 
 
     #- file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
