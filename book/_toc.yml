@@ -72,6 +72,7 @@ parts:
     chapters:
     - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/Rekenregels_voor_differentieren.md
       sections:
+      
       - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel.md
         sections:
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_kettingregel_opgaven.md
