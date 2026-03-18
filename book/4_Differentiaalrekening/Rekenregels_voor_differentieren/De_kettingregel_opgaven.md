@@ -20,6 +20,7 @@ $$
 f(x) = e^{3x}
 $$
 
+
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.1c
