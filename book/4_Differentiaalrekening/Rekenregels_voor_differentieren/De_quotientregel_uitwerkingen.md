@@ -419,6 +419,7 @@ $$
 \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
 &= \frac{ x^3 \cdot \dfrac{2x}{x^2+1} - \ln(x^2+1) \cdot 3x^2 }{ (x^3)^2} \\
 &= \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
+&= \frac{  \dfrac{2x^2}{x^2+1} - 3\ln(x^2+1) }{ x^4 }
 \end{align}
 $$
 
@@ -426,6 +427,55 @@ $$
 ::::
 
 <hr style="border:1px solid #9EA700">
+
+### Opgave 4.3j
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  2e^x x\cos(x^2) - e^x\sin(x^2) }{ e^{2x} }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ \sin(x^2) }{ e^x }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= \sin(x^2) \\
+v &= e^x
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 2x\cos(x^2) \\
+\dfrac{dv}{dx} &= e^x
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ e^x \cdot 2x\cos(x^2) - \sin(x^2) \cdot e^x }{ (e^x)^2} \\
+&= \frac{  2e^x x\cos(x^2) - e^x\sin(x^2) }{ e^{2x} } \\
+&= \frac{  2 x\cos(x^2) - \sin(x^2) }{ e^{x} }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
 
 ## 4.3 Uitwerkingen
 
@@ -581,52 +631,6 @@ $$
 
 
 
-### Opgave 4.3j
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  2e^x x\cos(x^2) - e^x\sin(x^2) }{ e^{2x} }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ \sin(x^2) }{ e^x }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= \sin(x^2) \
-v &= e^x\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 2x\cos(x^2) \
-\dfrac{dv}{dx} &= e^x
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ e^x \cdot 2x\cos(x^2) - \sin(x^2) \cdot e^x }{ (e^x)^2} \
-&= \frac{  2e^x x\cos(x^2) - e^x\sin(x^2) }{ e^{2x} }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3k
 
