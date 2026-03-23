@@ -85,7 +85,8 @@ $$
 \begin{align}
   \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
   &= \frac{ x^2 \cdot \dfrac{1}{x}  - \ln(x)  \cdot  2x }{ (x^2)^2} \\
-  &= \frac{  x(1-2\ln(x)) }{ x ^4 }
+  &= \frac{  x(1-2\ln(x)) }{ x ^4 } \\
+    &= \frac{  (1-2\ln(x)) }{ x ^3 }
 \end{align}
 $$
 
@@ -101,7 +102,7 @@ $$
 :class: important, dropdown
 
 $$
-  \dfrac{df}{dx} = \frac{  (x+2) \cdot \sin(x)  - \cos(x) }{ (x+2)^2 }
+  \dfrac{df}{dx} = \frac{  (x+2) \cdot \cos(x)  - \sin(x) }{ (x+2)^2 }
 $$
 
 :::{dropdown} Uitwerking
@@ -132,8 +133,8 @@ Toepassen van de quotiëntregel:
 $$
 \begin{align}
   \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
-  &= \frac{ (x+2) \cdot \sin(x)  - \cos(x)  \cdot 1 }{ (x+2)^2} \\
-  &= \frac{  (x+2) \cdot \sin(x)  - \cos(x) }{ (x+2)^2 }
+  &= \frac{ (x+2) \cdot \cos(x)  - \sin(x)  \cdot 1 }{ (x+2)^2} \\
+  &= \frac{  (x+2) \cdot \cos(x)  - \sin(x) }{ (x+2)^2 }
 \end{align}
 $$
 
