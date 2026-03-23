@@ -386,7 +386,7 @@ $$
 :class: important, dropdown
 
 $$
-\dfrac{df}{dx} = \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
+\dfrac{df}{dx} = \frac{  \dfrac{2x^2}{x^2+1} - 3\ln(x^2+1) }{ x^4 }
 $$
 
 :::{dropdown} Uitwerking
@@ -434,7 +434,7 @@ $$
 :class: important, dropdown
 
 $$
-\dfrac{df}{dx} = \frac{  2e^x x\cos(x^2) - e^x\sin(x^2) }{ e^{2x} }
+\dfrac{df}{dx} = &= \frac{  2 x\cos(x^2) - \sin(x^2) }{ e^{x} }
 $$
 
 :::{dropdown} Uitwerking
@@ -476,6 +476,54 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+### Opgave 4.3k
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  2x\sqrt{x^2+1} - \dfrac{x(x^2+3)}{\sqrt{x^2+1}} }{ x^2+1 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ x^2 + 3 }{ \sqrt{x^2 + 1} }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= x^2 + 3 \\
+v &= \sqrt{x^2 + 1} \\
+    &= (x^2 + 1)^{\frac{1}{2}}
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 2x \\
+\dfrac{dv}{dx} &= \frac{1}{2} \cdot 2x \cdot (x^2 + 1)^{-\frac{1}{2}} \\
+ &= x \cdot (x^2 + 1)^{-\frac{1}{2}}
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
+&= \frac{ \sqrt{x^2+1} \cdot 2x - (x^2+3) \cdot \dfrac{x}{\sqrt{x^2+1}} }{ (\sqrt{x^2+1})^2} \
+&= \frac{  2x\sqrt{x^2+1} - \dfrac{x(x^2+3)}{\sqrt{x^2+1}} }{ x^2+1 }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
 
 ## 4.3 Uitwerkingen
 
@@ -632,52 +680,7 @@ $$
 
 
 
-### Opgave 4.3k
 
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  2x\sqrt{x^2+1} - \dfrac{x(x^2+3)}{\sqrt{x^2+1}} }{ x^2+1 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ x^2 + 3 }{ \sqrt{x^2 + 1} }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= x^2 + 3 \
-v &= \sqrt{x^2 + 1}\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 2x \
-\dfrac{dv}{dx} &= \dfrac{x}{\sqrt{x^2+1}}
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ \sqrt{x^2+1} \cdot 2x - (x^2+3) \cdot \dfrac{x}{\sqrt{x^2+1}} }{ (\sqrt{x^2+1})^2} \
-&= \frac{  2x\sqrt{x^2+1} - \dfrac{x(x^2+3)}{\sqrt{x^2+1}} }{ x^2+1 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3l
 
