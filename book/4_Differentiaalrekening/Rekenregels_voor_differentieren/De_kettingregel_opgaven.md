@@ -103,7 +103,6 @@ $$
 
 <hr style="border:2px solid #9EA700">
 
-### Moeilijk
 
 ### Opgave 4.4k
 

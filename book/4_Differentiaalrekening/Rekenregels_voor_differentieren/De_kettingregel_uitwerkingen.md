@@ -1,5 +1,7 @@
 ## 4.1 Uitwerkingen
 
+<hr style="border:2px solid #9EA700">
+
 ### Opgave 4.1a
 
 ````{admonition} Antwoord
@@ -41,7 +43,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= 4(u)^3 \cdot 2 \\
 &= 8(u)^3
 \end{align*}
@@ -97,7 +99,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= e^u \cdot 3 \\
 &= 3e^u
 \end{align*}
@@ -153,7 +155,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= -\sin(u) \cdot 4 \\
 &= -4\sin(u)
 \end{align*}
@@ -209,7 +211,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= \dfrac{1}{u} \cdot 4 \\
 &= \dfrac{4}{u}
 \end{align*}
@@ -265,7 +267,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= 5^u \ln(5) \cdot 3 \\
 &= 3 \cdot 5^u \ln(5)
 \end{align*}
@@ -321,7 +323,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= 5(u)^4 \cdot (2x+3) \\
 &= 5(2x+3)(u)^4
 \end{align*}
@@ -377,7 +379,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= e^u \cdot 3x^2 \\
 &= 3x^2e^u
 \end{align*}
@@ -433,7 +435,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= \cos(u) \cdot 2x \\
 &= 2x\cos(u)
 \end{align*}
@@ -489,7 +491,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= 3^u \ln(3) \cdot 2x \\
 &= 2x \cdot 3^u \ln(3)
 \end{align*}
@@ -545,7 +547,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= \dfrac{1}{u} \cdot 14x \\
 &= \dfrac{14x}{u}
 \end{align*}
@@ -568,7 +570,7 @@ $$
 Bepaal de afgeleide van de volgende functie.
 
 $$
- f(x) = \sin^2\left( x^3-3 \right)
+    f(x) = \sin^2\left( x^3-3 \right)
 $$
 
 ```{dropdown} Uitwerking
@@ -579,20 +581,22 @@ $$
     f(x) = \sin^2\left( x^3-3 \right)
 $$
 
-Kies de buitenste functie $f(u)$ en de binnenste functie $u(x)$ :
+Kies de buitenste functie $f(u)$ en de binnenste functies $u(v)$ en $v(x)$ :
 
 $$
 \begin{align*}
-f(u) &= \sin^2(u) \\
-u(x) &= x^3-3
+f(u) &= u^2 \\
+u(v) &= \sin(v) \\
+v(x) &= x^3-3 \\
 \end{align*}
 $$
 
-Differentieer de functies $f(u)$ en $u(x)$:
+Differentieer de functies $f(u)$ en $u(v)$ en $v(x)$::
 
 $$
 \begin{align*}
-\dfrac{df}{du} &= 2\sin(u)\cos(u) \\
+\dfrac{df}{du} &= 2u \\
+\dfrac{du}{dv} &= \cos(v) \\
 \dfrac{du}{dx} &= 3x^2
 \end{align*}
 $$
@@ -601,18 +605,23 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
-&= 2\sin(u)\cos(u) \cdot 3x^2 \\
-&= 6x^2\sin(u)\cos(u)
+\dfrac{df}{dx}  &= \dfrac{df}{du} \cdot \dfrac{du}{dv} \cdot \dfrac{dv}{dx} \\
+                &= 2u \cdot \cos(v) \cdot 3x^2 \\
 \end{align*}
 $$
 
 $u$ invullen geeft:
 
 $$
-    \dfrac{df}{dx} = 6x^2\sin\left( x^3-3 \right)\cos\left( x^3-3 \right)
+    \dfrac{df}{dx} = 2 \sin(v) \cdot \cos(v) \cdot 3x^2
 $$
 
+$v$ invullen geeft:
+
+$$
+    \dfrac{df}{dx} &=2 \sin( x^3-3 ) \cdot \cos(x^3-3) \cdot 3x^2 \\
+    \dfrac{df}{dx} &=6 \sin( x^3-3 ) \cdot \cos(x^3-3) \cdot x^2
+$$
 ```
 ````
 
@@ -635,21 +644,23 @@ $$
     f(x) = 4^{(x^2+3x)^2}
 $$
 
-Kies de buitenste functie $f(u)$ en de binnenste functie $u(x)$ :
+Kies de buitenste functie $f(u)$ en de binnenste functie $u(v)$ en $v(x)$ :
 
 $$
 \begin{align*}
 f(u) &= 4^u \\
-u(x) &= (x^2+3x)^2
+u(v) &= (v)^2 \\
+v(x) &= x^2+3x
 \end{align*}
 $$
 
-Differentieer de functies $f(u)$ en $u(x)$:
+Differentieer de functies $f(u)$ en $u(v)$ en $v(x)$:
 
 $$
 \begin{align*}
 \dfrac{df}{du} &= 4^u \ln(4) \\
-\dfrac{du}{dx} &= 2(x^2+3x)(2x+3)
+\dfrac{du}{dv} &= 2v \\
+\dfrac{dv}{dx} &= 2x+3
 \end{align*}
 $$
 
@@ -657,16 +668,21 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
-&= 4^u \ln(4) \cdot 2(x^2+3x)(2x+3) \\
-&= 2(x^2+3x)(2x+3) \cdot 4^u \ln(4)
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dv}  \cdot \dfrac{dv}{dx} \\
+&= 4^u \ln(4) \cdot 2v \cdot  (2x+3)\\
 \end{align*}
 $$
 
 $u$ invullen geeft:
 
 $$
-    \dfrac{df}{dx} = 2(x^2+3x)(2x+3) \cdot 4^{(x^2+3x)^2} \ln(4)
+    \dfrac{df}{dx} = 4^{v^2} \ln(4) \cdot 2v \cdot  (2x+3)\\
+$$
+
+$v$ invullen geeft:
+
+$$
+    \dfrac{df}{dx} = 2(x^2+3x) \cdot (2x+3) \cdot 4^{(x^2+3x)^2} \ln(4)
 $$
 
 ```
@@ -713,7 +729,7 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dx} \\
 &= \dfrac{1}{u \ln(10)} \cdot (12x^2+2) \\
 &= \dfrac{12x^2+2}{u \ln(10)}
 \end{align*}
@@ -747,21 +763,24 @@ $$
     f(x) = \cos^3 \left( x-2 \right)
 $$
 
-Kies de buitenste functie $f(u)$ en de binnenste functie $u(x)$ :
+Kies de buitenste functie $f(u)$ en de binnenste functies $u(v)$ en $v(x)$ :
+
 
 $$
 \begin{align*}
-f(u) &= \cos^3(u) \\
-u(x) &= x-2
+f(u) &= u^3 \\
+u(v) &= \cos(v) \\
+v(x) &= x-2
 \end{align*}
 $$
 
-Differentieer de functies $f(u)$ en $u(x)$:
+Differentieer de functies $f(u)$ en $u(v)$ en $v(x)$:
 
 $$
 \begin{align*}
-\dfrac{df}{du} &= -3\cos^2(u)\sin(u) \\
-\dfrac{du}{dx} &= 1
+\dfrac{df}{du} &= 3u^2 \\
+\dfrac{du}{dv} &= -\sin(v) \\
+\dfrac{dv}{dx} &= 1
 \end{align*}
 $$
 
@@ -769,13 +788,18 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
-&= -3\cos^2(u)\sin(u) \cdot 1 \\
-&= -3\cos^2(u)\sin(u)
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dv} \cdot \cdot \dfrac{dv}{dx}  \\
+&= -3u^2 \cdot -\sin(v) \cdot 1
 \end{align*}
 $$
 
 $u$ invullen geeft:
+
+$$
+    \dfrac{df}{dx} = -3 \cos^2(v) \cdot -\sin(v) \cdot 1
+$$
+
+$v$ invullen geeft:
 
 $$
     \dfrac{df}{dx} = -3\cos^2\left( x-2 \right)\sin\left( x-2 \right)
@@ -803,21 +827,23 @@ $$
     f(x) = \ln^3(2x^2+5)
 $$
 
-Kies de buitenste functie $f(u)$ en de binnenste functie $u(x)$ :
+Kies de buitenste functie $f(u)$ en de binnenste functie $u(v)$ en $v(x)$:
 
 $$
 \begin{align*}
-f(u) &= \ln^3(u) \\
-u(x) &= 2x^2+5
+f(u) &= u^3 \\
+u(v) &= \ln(v)\\
+v(x) &= 2x^2+5
 \end{align*}
 $$
 
-Differentieer de functies $f(u)$ en $u(x)$:
+Differentieer de functies $f(u)$, $u(v)$ en $v(x)$:
 
 $$
 \begin{align*}
-\dfrac{df}{du} &= 3\ln^2(u) \cdot \dfrac{1}{u} \\
-\dfrac{du}{dx} &= 4x
+\dfrac{df}{du} &= 3u^2 \\
+\dfrac{du}{dv} &= \dfrac{1}{v} \\
+\dfrac{dv}{dx} &= 4x
 \end{align*}
 $$
 
@@ -825,16 +851,23 @@ Toepassen van de kettingregel:
 
 $$
 \begin{align*}
-\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{dx}{du} \\
-&= 3\ln^2(u) \cdot \dfrac{1}{u} \cdot 4x \\
-&= \dfrac{12x\ln^2(u)}{u}
+\dfrac{df}{dx} &= \dfrac{df}{du} \cdot \dfrac{du}{dv} \cdot \dfrac{dv}{dx}  \\
+&= 3u^2 \cdot \dfrac{1}{v} \cdot 4x \\
 \end{align*}
 $$
 
 $u$ invullen geeft:
 
 $$
-    \dfrac{df}{dx} = \dfrac{12x\ln^2(2x^2+5)}{2x^2+5}
+    \dfrac{df}{dx} = 3\ln^2(v)\cdot \dfrac{1}{v} \cdot 4x \\
+$$
+
+$v$ invullen geeft:
+
+$$
+    \dfrac{df}{dx} &= 3\ln^2(2x^2+5)\cdot \dfrac{1}{2x^2+5} \cdot 4x \\
+    &= 12x\ln^2(2x^2+5)\cdot \dfrac{1}{2x^2+5} \\
+    &= \dfrac{12x\ln^2(2x^2+5)}{2x^2+5}
 $$
 
 ```
