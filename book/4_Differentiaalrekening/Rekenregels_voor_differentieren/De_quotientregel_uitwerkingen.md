@@ -333,6 +333,99 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+### Opgave 4.3h
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  2x e^{x^2}(x+1) - e^{x^2} }{ (x+1)^2 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ e^{x^2} }{ x+1 }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= e^{x^2} \\
+v &= x+1
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 2x e^{x^2} \\
+\dfrac{dv}{dx} &= 1
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ (x+1) \cdot 2x e^{x^2} - e^{x^2} \cdot 1 }{ (x+1)^2} \\
+&= \frac{  2x e^{x^2}(x+1) - e^{x^2} }{ (x+1)^2 }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 4.3i
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ \ln(x^2 + 1) }{ x^3 }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= \ln(x^2 + 1) \\
+v &= x^3
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= \dfrac{2x}{x^2+1} \\
+\dfrac{dv}{dx} &= 3x^2
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ x^3 \cdot \dfrac{2x}{x^2+1} - \ln(x^2+1) \cdot 3x^2 }{ (x^3)^2} \\
+&= \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
 
 ## 4.3 Uitwerkingen
 
@@ -485,99 +578,8 @@ $$
 
 
 
-### Opgave 4.3h
 
-::::{admonition} Antwoord
-:class: important, dropdown
 
-$$
-\dfrac{df}{dx} = \frac{  2x e^{x^2}(x+1) - e^{x^2} }{ (x+1)^2 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ e^{x^2} }{ x+1 }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= e^{x^2} \
-v &= x+1\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 2x e^{x^2} \
-\dfrac{dv}{dx} &= 1
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ (x+1) \cdot 2x e^{x^2} - e^{x^2} \cdot 1 }{ (x+1)^2} \
-&= \frac{  2x e^{x^2}(x+1) - e^{x^2} }{ (x+1)^2 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 4.3i
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ \ln(x^2 + 1) }{ x^3 }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= \ln(x^2 + 1) \
-v &= x^3\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= \dfrac{2x}{x^2+1} \
-\dfrac{dv}{dx} &= 3x^2
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ x^3 \cdot \dfrac{2x}{x^2+1} - \ln(x^2+1) \cdot 3x^2 }{ (x^3)^2} \
-&= \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3j
 
