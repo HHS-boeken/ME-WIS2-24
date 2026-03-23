@@ -143,6 +143,105 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+### Opgave 4.3d
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  2x - x^2 }{ e^x }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ x^2 }{ e^x }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= x^2 \\
+v &= e^x\
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 2x \\
+\dfrac{dv}{dx} &= e^x
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ e^x \cdot 2x - x^2 \cdot e^x }{ (e^x)^2} \\
+&= \frac{ e^x(2x-x^2) }{ e^{2x} } \\
+&= \frac{ 2x-x^2 }{ e^x }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 4.3e
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  -1-e^x+e^x(x-1) }{ (x-1)^2 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ x + e^x }{ x-1 }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= x + e^x \\
+v &= x-1
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 1 + e^x \\
+\dfrac{dv}{dx} &= 1
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ (x-1) \cdot (1+e^x) - (x+e^x) \cdot 1 }{ (x-1)^2} \\
+&= \frac{ x-1 + e^x(x-1) - x - e^x }{ (x-1)^2} \\
+&= \frac{ -1-e^x+e^x(x-1) }{ (x-1)^2 }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+
+
+
 ## 4.3 Uitwerkingen
 
 ### Opgave 4.3a
@@ -287,101 +386,10 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.3d
 
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  2x - x^2 }{ e^x }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ x^2 }{ e^x }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= x^2 \
-v &= e^x\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 2x \
-\dfrac{dv}{dx} &= e^x
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ e^x \cdot 2x - x^2 \cdot e^x }{ (e^x)^2} \
-&= \frac{ e^x(2x-x^2) }{ e^{2x} } \
-&= \frac{ 2x-x^2 }{ e^x }
-\end{align}
-$$
-
-:::
-::::
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4.3e
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  -1-e^x+e^x(x-1) }{ (x-1)^2 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ x + e^x }{ x-1 }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= x + e^x \
-v &= x-1\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 1 + e^x \
-\dfrac{dv}{dx} &= 1
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ (x-1) \cdot (1+e^x) - (x+e^x) \cdot 1 }{ (x-1)^2} \
-&= \frac{ x-1 + e^x(x-1) - x - e^x }{ (x-1)^2} \
-&= \frac{ -1-e^x+e^x(x-1) }{ (x-1)^2 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3f
 
