@@ -516,8 +516,8 @@ Toepassen van de quotiëntregel:
 
 $$
 \begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ \sqrt{x^2+1} \cdot 2x - (x^2+3) \cdot \dfrac{x}{\sqrt{x^2+1}} }{ (\sqrt{x^2+1})^2} \
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ \sqrt{x^2+1} \cdot 2x - (x^2+3) \cdot \dfrac{x}{\sqrt{x^2+1}} }{ (\sqrt{x^2+1})^2} \\
 &= \frac{  2x\sqrt{x^2+1} - \dfrac{x(x^2+3)}{\sqrt{x^2+1}} }{ x^2+1 }
 \end{align}
 $$
@@ -706,9 +706,10 @@ Toepassen van de quotiëntregel:
 
 $$
 \begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ x^4 \cdot \dfrac{3x^2}{2\sqrt{x^3+2}} - \sqrt{x^3+2} \cdot 4x^3 }{ (x^4)^2} \
-&= \frac{  x^4 \cdot \dfrac{3x^2}{2\sqrt{x^3+2}} - \sqrt{x^3+2} \cdot 4x^3 }{ x^8 }
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ x^4 \cdot \dfrac{3x^2}{2\sqrt{x^3+2}} - \sqrt{x^3+2} \cdot 4x^3 }{ (x^4)^2} \\
+&= \frac{  x^4 \cdot \dfrac{3x^2}{2\sqrt{x^3+2}} - \sqrt{x^3+2} \cdot 4x^3 }{ x^8 } \\
+&= \frac{  x \cdot \dfrac{3x^2}{2\sqrt{x^3+2}} - \sqrt{x^3+2} \cdot 4 }{ x^5 }
 \end{align}
 $$
 
