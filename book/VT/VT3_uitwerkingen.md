@@ -1,4 +1,4 @@
-## Voorbeeld Toets3: Uitwerkingen
+## Voorbeeldtoets 3: Uitwerkingen
 
 ### Opgave 1 (3 punten)
 

@@ -1,4 +1,4 @@
-## Voorbeeld Toets3: Opgaven
+## Voorbeeldtoets 3: Opgaven
 
 ### Opgave 1 (3 punten)
 
