@@ -1,4 +1,4 @@
-# 6.1 De substitutiemethode bij integreren
+# 6.1 Substitutiemethode
 
 ````{admonition} Theorie
 :class: tip, dropdown open

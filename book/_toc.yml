@@ -112,15 +112,19 @@ parts:
     - file: 5_Integraalrekening/Integratietechnieken/Integratietechnieken.md
       sections:
       - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode.md
-      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven.md
-      - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_uitwerkingen.md
+        sections:
+        - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven.md
+        - file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_uitwerkingen.md
 
       - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren.md
-      - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_opgaven.md
+        sections:
+        - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_opgaven.md
+        #- file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_uitwerkingen.md
 
       - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen.md
-      - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_opgaven.md
-      - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_uitwerkingen.md
+        sections:
+        - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_opgaven.md
+        - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen_uitwerkingen.md
 
   #- caption: Complexe getalllen
     #chapters:
