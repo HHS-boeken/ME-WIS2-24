@@ -572,6 +572,51 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+### Opgave 4.3m
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  (x^2-4)(1+e^{\sin(x)}\cos(x)) - (x+e^{\sin(x)})\cdot 2x }{ (x^2-4)^2 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ x + e^{\sin(x)} }{ x^2-4 }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= x + e^{\sin(x)} \\
+v &= x^2-4
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 1+e^{\sin(x)}\cos(x) \\
+\dfrac{dv}{dx} &= 2x
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ (x^2-4) \cdot (1+e^{\sin(x)}\cos(x)) - (x+e^{\sin(x)}) \cdot 2x }{ (x^2-4)^2} \\
+&= \frac{  (x^2-4)(1+e^{\sin(x)}\cos(x)) - (x+e^{\sin(x)})\cdot 2x }{ (x^2-4)^2 }
+\end{align}
+$$
+
+:::
+::::
+
 ## 4.3 Uitwerkingen
 
 ### Opgave 4.3a
@@ -731,50 +776,7 @@ $$
 
 
 
-### Opgave 4.3m
 
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  (x^2-4)(1+e^{\sin(x)}\cos(x)) - (x+e^{\sin(x)})\cdot 2x }{ (x^2-4)^2 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ x + e^{\sin(x)} }{ x^2-4 }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= x + e^{\sin(x)} \
-v &= x^2-4\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 1+e^{\sin(x)}\cos(x) \
-\dfrac{dv}{dx} &= 2x
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ (x^2-4) \cdot (1+e^{\sin(x)}\cos(x)) - (x+e^{\sin(x)}) \cdot 2x }{ (x^2-4)^2} \
-&= \frac{  (x^2-4)(1+e^{\sin(x)}\cos(x)) - (x+e^{\sin(x)})\cdot 2x }{ (x^2-4)^2 }
-\end{align}
-$$
-
-:::
-::::
 
 <hr style="border:1px solid #9EA700">
 
