@@ -825,7 +825,7 @@ $$
     f(x) = \ln^3(2x^2+5)
 $$
 
-Kies de buitenste functie $f(u)$ en de binnenste functie $u(x)$ :
+Kies de buitenste functie $f(u)$ en de binnenste functie $u(v)$ en $v(x)$:
 
 $$
 \begin{align*}
@@ -835,7 +835,7 @@ v(x) &= 2x^2+5
 \end{align*}
 $$
 
-Differentieer de functies $f(u)$, $u(v) en $v(x)$:
+Differentieer de functies $f(u)$, $u(v)$ en $v(x)$:
 
 $$
 \begin{align*}
@@ -863,7 +863,7 @@ $$
 $v$ invullen geeft:
 
 $$
-    dfrac{df}{dx} &= 3\ln^2(2x^2+5)\cdot \dfrac{1}{2x^2+5} \cdot 4x \\
+    \dfrac{df}{dx} &= 3\ln^2(2x^2+5)\cdot \dfrac{1}{2x^2+5} \cdot 4x \\
     &= 12x\ln^2(2x^2+5)\cdot \dfrac{1}{2x^2+5} \\
     &= \dfrac{12x\ln^2(2x^2+5)}{2x^2+5}
 $$
