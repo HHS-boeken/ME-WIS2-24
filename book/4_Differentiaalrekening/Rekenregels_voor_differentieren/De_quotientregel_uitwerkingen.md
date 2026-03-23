@@ -418,7 +418,7 @@ $$
 \begin{align}
 \dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
 &= \frac{ x^3 \cdot \dfrac{2x}{x^2+1} - \ln(x^2+1) \cdot 3x^2 }{ (x^3)^2} \\
-&= \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 }
+&= \frac{  \dfrac{2x^4}{x^2+1} - 3x^2\ln(x^2+1) }{ x^6 } \\
 &= \frac{  \dfrac{2x^2}{x^2+1} - 3\ln(x^2+1) }{ x^4 }
 \end{align}
 $$
@@ -434,7 +434,7 @@ $$
 :class: important, dropdown
 
 $$
-\dfrac{df}{dx} = &= \frac{  2 x\cos(x^2) - \sin(x^2) }{ e^{x} }
+\dfrac{df}{dx} = \frac{  2 x\cos(x^2) - \sin(x^2) }{ e^{x} }
 $$
 
 :::{dropdown} Uitwerking
@@ -617,167 +617,6 @@ $$
 :::
 ::::
 
-## 4.3 Uitwerkingen
-
-### Opgave 4.3a
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  xe^x }{ (x + 1)^2}
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{e^x}{x+1}
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= e^x \
-v &= x + 1\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= e^x \
-\dfrac{dv}{dx} &= 1
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ (x + 1) \cdot e^x - e^x \cdot  1 }{ (x + 1)^2} \
-&= \frac{  xe^x }{ (x + 1)^2}
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 4.3b
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  (1-2\ln(x)) }{ x ^3 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ \ln(x) }{ x^2 }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= \ln(x) \
-v &= x^2\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= \dfrac{1}{x} \
-\dfrac{dv}{dx} &= 2x
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ x^2 \cdot \dfrac{1}{x}  - \ln(x)  \cdot  2x }{ (x^2)^2} \
-&= \frac{  x(1-2\ln(x)) }{ x ^4 } \
-&= \frac{  (1-2\ln(x)) }{ x ^3 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 4.3c
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  (x+2) \cdot \cos(x)  - \sin(x) }{ (x+2)^2 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ \sin(x) }{ x+2 }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= \sin(x) \
-v &= x+2\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= \cos(x) \
-\dfrac{dv}{dx} &= 1
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ (x+2) \cdot \cos(x)  - \sin(x)  \cdot 1 }{ (x+2)^2} \
-&= \frac{  (x+2) \cdot \cos(x)  - \sin(x) }{ (x+2)^2 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
-
-
-
-<hr style="border:1px solid #9EA700">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3n
@@ -800,15 +639,15 @@ Kies de functies $u(x)$ en $v(x)$:
 
 $$
 \begin{align}
-u &= \ln(\cos(x)) \
-v &= e^x\
+u &= \ln(\cos(x)) \\
+v &= e^x
 \end{align}
 $$
 
 Differentieer de functies $u(x)$ en $v(x)$:
 
 $$
-\dfrac{du}{dx} &= -\tan(x) \
+\dfrac{du}{dx} &= -\tan(x) \\
 \dfrac{dv}{dx} &= e^x
 $$
 
@@ -816,8 +655,8 @@ Toepassen van de quotiëntregel:
 
 $$
 \begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ e^x \cdot (-\tan(x)) - \ln(\cos(x)) \cdot e^x }{ (e^x)^2} \
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ e^x \cdot (-\tan(x)) - \ln(\cos(x)) \cdot e^x }{ (e^x)^2} \\
 &= \frac{  -e^x\tan(x) - e^x\ln(\cos(x)) }{ e^{2x} }
 \end{align}
 $$
@@ -847,7 +686,8 @@ Kies de functies $u(x)$ en $v(x)$:
 
 $$
 \begin{align}
-u &= \sqrt{x^3+2} \
+u &= \sqrt{x^3+2} \\
+&= (x^3+2)^{\frac{1}{2}}
 v &= x^4\
 \end{align}
 $$
@@ -855,7 +695,8 @@ $$
 Differentieer de functies $u(x)$ en $v(x)$:
 
 $$
-\dfrac{du}{dx} &= \dfrac{3x^2}{2\sqrt{x^3+2}} \
+\dfrac{du}{dx} &= (x^3+2)^{-\frac{1}{2}} \cdot \dfrac{1}{2} \cdot 3x^2\\
+                &= (x^3+2)^{-\frac{1}{2}} \cdot \dfrac{3}{2}x^2\\
 \dfrac{dv}{dx} &= 4x^3
 $$
 
@@ -894,15 +735,15 @@ Kies de functies $u(x)$ en $v(x)$:
 
 $$
 \begin{align}
-u &= \sin^2(x) \
-v &= \ln(x+1)\
+u &= \sin^2(x) \\
+v &= \ln(x+1)
 \end{align}
 $$
 
 Differentieer de functies $u(x)$ en $v(x)$:
 
 $$
-\dfrac{du}{dx} &= 2\sin(x)\cos(x) \
+\dfrac{du}{dx} &= 2\sin(x)\cos(x) \\
 \dfrac{dv}{dx} &= \dfrac{1}{x+1}
 $$
 
@@ -910,11 +751,13 @@ Toepassen van de quotiëntregel:
 
 $$
 \begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ \ln(x+1) \cdot 2\sin(x)\cos(x) - \sin^2(x) \cdot \dfrac{1}{x+1} }{ (\ln(x+1))^2} \
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ \ln(x+1) \cdot 2\sin(x)\cos(x) - \sin^2(x) \cdot \dfrac{1}{x+1} }{ (\ln(x+1))^2} \\
 &= \frac{  \ln(x+1) \cdot 2\sin(x)\cos(x) - \sin^2(x) \cdot \dfrac{1}{x+1} }{ (\ln(x+1))^2 }
 \end{align}
 $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
