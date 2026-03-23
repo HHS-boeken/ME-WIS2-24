@@ -178,7 +178,7 @@ parts:
 
   - caption: Voorbeeldtoetsen
     chapters:
-    - file: VT/VT1.md
+    - file: VT/T1.md
       sections:
       - file: VT/VT1_opgaven.md
       - file: VT/VT1_uitwerkingen.md
