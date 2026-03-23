@@ -176,14 +176,14 @@ parts:
     #- file: 5_Integraalrekening/Integratietechnieken/De_substitutiemethode_opgaven_les.md
     #- file: VT/VT2_1_opgaven.md
 
-  #- caption: Voorbeeld Toets - T1
-    #chapters:
-    #- file: VT/VT1_opgaven.md
-    #- file: VT/VT1_uitwerkingen.md
-    #- file: VT/VT2_opgaven.md
-    #- file: VT/VT2_uitwerkingen.md
-    #- file: VT/VT3_opgaven.md
-    #- file: VT/VT3_uitwerkingen.md
+  - caption: Voorbeeld Toets - T1
+    chapters:
+    - file: VT/VT1_opgaven.md
+    - file: VT/VT1_uitwerkingen.md
+    - file: VT/VT2_opgaven.md
+    - file: VT/VT2_uitwerkingen.md
+    - file: VT/VT3_opgaven.md
+    - file: VT/VT3_uitwerkingen.md
 
   #- caption: Voorbeeld Toets - T2
     #chapters:
