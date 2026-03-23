@@ -611,7 +611,7 @@ $$
 $u$ invullen geeft:
 
 $$
-    \dfrac{df}{dx} &= 2 \sin(v) \cdot \cos(v) \cdot 3x^2
+    \dfrac{df}{dx} = 2 \sin(v) \cdot \cos(v) \cdot 3x^2
 $$
 
 $v$ invullen geeft:
@@ -794,7 +794,7 @@ $$
 $u$ invullen geeft:
 
 $$
-\   dfrac{df}{dx} = -3 \cos^2(v) \cdot -\sin(v) \cdot 1
+    \dfrac{df}{dx} = -3 \cos^2(v) \cdot -\sin(v) \cdot 1
 $$
 
 $v$ invullen geeft:
