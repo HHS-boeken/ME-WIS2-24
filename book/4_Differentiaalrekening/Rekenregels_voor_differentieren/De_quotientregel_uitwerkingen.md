@@ -239,7 +239,99 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+### Opgave 4.3f
 
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  -\ln(x)\sin(x) - \dfrac{\cos(x)}{x} }{ (\ln(x))^2 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ \cos(x) }{ \ln(x) }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= \cos(x) \\
+v &= \ln(x)
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= -\sin(x) \\
+\dfrac{dv}{dx} &= \dfrac{1}{x}
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ \ln(x) \cdot (-\sin(x)) - \cos(x) \cdot \dfrac{1}{x} }{ (\ln(x))^2} \\
+&= \frac{  -\ln(x)\sin(x) - \dfrac{\cos(x)}{x} }{ (\ln(x))^2 }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+### Opgave 4.3g
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  (e^x+x)(2x+4) - (x^2+4x+3)(e^x+1) }{ (e^x+x)^2 }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ x^2 + 4x + 3 }{ e^x + x }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= x^2 + 4x + 3 \\
+v &= e^x + x
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= 2x + 4 \\
+\dfrac{dv}{dx} &= e^x + 1
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ (e^x+x) \cdot (2x+4) - (x^2+4x+3) \cdot (e^x+1) }{ (e^x+x)^2} \\
+&= \frac{  (e^x+x)(2x+4) - (x^2+4x+3)(e^x+1) }{ (e^x+x)^2 }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
 
 
 ## 4.3 Uitwerkingen
@@ -391,99 +483,7 @@ $$
 <hr style="border:1px solid #9EA700">
 
 
-### Opgave 4.3f
 
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  -\ln(x)\sin(x) - \dfrac{\cos(x)}{x} }{ (\ln(x))^2 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ \cos(x) }{ \ln(x) }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= \cos(x) \
-v &= \ln(x)\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= -\sin(x) \
-\dfrac{dv}{dx} &= \dfrac{1}{x}
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ \ln(x) \cdot (-\sin(x)) - \cos(x) \cdot \dfrac{1}{x} }{ (\ln(x))^2} \
-&= \frac{  -\ln(x)\sin(x) - \dfrac{\cos(x)}{x} }{ (\ln(x))^2 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 4.3g
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  (e^x+x)(2x+4) - (x^2+4x+3)(e^x+1) }{ (e^x+x)^2 }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ x^2 + 4x + 3 }{ e^x + x }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= x^2 + 4x + 3 \
-v &= e^x + x\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= 2x + 4 \
-\dfrac{dv}{dx} &= e^x + 1
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ (e^x+x) \cdot (2x+4) - (x^2+4x+3) \cdot (e^x+1) }{ (e^x+x)^2} \
-&= \frac{  (e^x+x)(2x+4) - (x^2+4x+3)(e^x+1) }{ (e^x+x)^2 }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3h
 
