@@ -525,6 +525,53 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+### Opgave 4.3l
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\dfrac{df}{dx} = \frac{  \cos(x)(e^x+3x^2) + (e^x+x^3)\sin(x) }{ \cos^2(x) }
+$$
+
+:::{dropdown} Uitwerking
+Bereken de afgeleide van de volgende functie:
+
+$$
+f(x) =  \dfrac{ e^x + x^3 }{ \cos(x) }
+$$
+
+Kies de functies $u(x)$ en $v(x)$:
+
+$$
+\begin{align}
+u &= e^x + x^3 \\
+v &= \cos(x)
+\end{align}
+$$
+
+Differentieer de functies $u(x)$ en $v(x)$:
+
+$$
+\dfrac{du}{dx} &= e^x + 3x^2 \\
+\dfrac{dv}{dx} &= -\sin(x)
+$$
+
+Toepassen van de quotiëntregel:
+
+$$
+\begin{align}
+\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \\
+&= \frac{ \cos(x) \cdot (e^x+3x^2) - (e^x+x^3) \cdot (-\sin(x)) }{ \cos^2(x)} \\
+&= \frac{  \cos(x)(e^x+3x^2) + (e^x+x^3)\sin(x) }{ \cos^2(x) }
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
 ## 4.3 Uitwerkingen
 
 ### Opgave 4.3a
@@ -682,52 +729,7 @@ $$
 
 
 
-### Opgave 4.3l
 
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\dfrac{df}{dx} = \frac{  \cos(x)(e^x+3x^2) + (e^x+x^3)\sin(x) }{ \cos^2(x) }
-$$
-
-:::{dropdown} Uitwerking
-Bereken de afgeleide van de volgende functie:
-
-$$
-f(x) =  \dfrac{ e^x + x^3 }{ \cos(x) }
-$$
-
-Kies de functies $u(x)$ en $v(x)$:
-
-$$
-\begin{align}
-u &= e^x + x^3 \
-v &= \cos(x)\
-\end{align}
-$$
-
-Differentieer de functies $u(x)$ en $v(x)$:
-
-$$
-\dfrac{du}{dx} &= e^x + 3x^2 \
-\dfrac{dv}{dx} &= -\sin(x)
-$$
-
-Toepassen van de quotiëntregel:
-
-$$
-\begin{align}
-\dfrac{df(x)}{dx} &= \frac{ v\dfrac{du}{dx} - u \dfrac{dv}{dx} }{v^2} \
-&= \frac{ \cos(x) \cdot (e^x+3x^2) - (e^x+x^3) \cdot (-\sin(x)) }{ \cos^2(x)} \
-&= \frac{  \cos(x)(e^x+3x^2) + (e^x+x^3)\sin(x) }{ \cos^2(x) }
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
 
 ### Opgave 4.3m
 
