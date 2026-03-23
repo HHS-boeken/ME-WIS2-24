@@ -1,5 +1,7 @@
 ## 4.1 Uitwerkingen
 
+<hr style="border:2px solid #9EA700">
+
 ### Opgave 4.1a
 
 ````{admonition} Antwoord

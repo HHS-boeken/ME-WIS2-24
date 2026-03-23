@@ -1,5 +1,7 @@
 ## 4.3 Uitwerkingen
 
+<hr style="border:2px solid #9EA700">
+
 ### Opgave 4.3a
 
 ::::{admonition} Antwoord
