@@ -37,7 +37,7 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 
 ## 4.2.1 De productregel
 
-```{admonition} Voorbeeld 1: productregel
+:::{admonition} Voorbeeld 1: productregel
 :class: dropdown
 
 Bereken de afgeleide van de volgende functie:
@@ -54,55 +54,62 @@ $$
 $$
 
 Differentieer de functies $u(x)$ en $v(x)$:
-\begin{align}
- \dfrac{du}{dx} &=   {\color{blue}2x^2} \\
+
+$$
+  \dfrac{du}{dx} &=   {\color{blue}2x^2} \\
   \dfrac{dv}{dx} &= {\color{green}3x^2+7}
-\end{align}
+$$
 
 Toepassen van de productregel:
-\begin{align}
+
+$$
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
    &= {\color{blue} 2x^2} \cdot {\color{green}(x^3+7x-5)} + {\color{blue} (x^2-4)} \cdot {\color{green}(3x^2+7)}
-\end{align}
-```
+$$
+:::
 
-````{admonition} Oefening 1
+::::{admonition} Oefening 1
 :class: important, dropdown
 
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
-  f(x) = e^x(2x^3+x^2+3x)
-\end{align*}
 
-```{dropdown} Uitwerking
+$$
+  f(x) = e^x(2x^3+x^2+3x)
+$$
+
+:::{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
+
+$$
   f(x) = e^x(2x^3+x^2+3x)
-\end{align*}
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align}
-  u &= e^x \\
-  v &= (2x^3+x^2+3x)
-\end{align}
+
+$$
+  u &= {\color{blue}e^x} \\
+  v &= {\color{green}(2x^3+x^2+3x)}
+$$
 
 Differentieer de functies $u(x)$ en $v(x)$:
-\begin{align}
-  \dfrac{du}{dx} &= e^x \\
-  \dfrac{dv}{dx} &= 6x^2+2x+3
-\end{align}
+
+$$
+  \dfrac{du}{dx} &= {\color{blue}e^x }\\
+  \dfrac{dv}{dx} &= {\color{green}6x^2+2x+3 }
+$$
 
 Toepassen van de productregel:
-\begin{align}
-  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= e^x \cdot (2x^3+x^2+3x) + e^x \cdot (6x^2+2x+3) \\
-   &= e^x \left( (2x^3 + x^2 + 3x) + (6x^2 + 2x + 3) \right) \\
-   &= e^x (2x^3 + 7x^2 + 5x + 3 )
-\end{align}
 
-```
-````
+$$
+  \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
+  &= {\color{blue}e^x} \cdot (2x^3+x^2+3x) + {\color{blue}e^x} \cdot (6x^2+2x+3) \\
+  &= e^x \left( (2x^3 + x^2 + 3x) + (6x^2 + 2x + 3) \right) \\
+  &= e^x (2x^3 + 7x^2 + 5x + 3 )
+$$
+
+:::
+::::
 
 ````{admonition} Oefening 2
 :class: important, dropdown
