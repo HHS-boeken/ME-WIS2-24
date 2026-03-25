@@ -47,21 +47,22 @@ $$
 $$
 
 Kies de functies $u(x)$ en $v(x)$:
-\begin{align}
-  {\color{blue}u &=  (x^2-4)} \\
-  {\color{green}v &= (x^3+7x-5)}
-\end{align}
+
+$$
+  u &= {\color{blue} (x^2-4)} \\
+  v &= {\color{green}(x^3+7x-5)}
+$$
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
- {\color{blue} \dfrac{du}{dx} &=  2x^2} \\
- {\color{green} \dfrac{dv}{dx} &= 3x^2+7}
+ \dfrac{du}{dx} &=   {\color{blue}2x^2} \\
+  \dfrac{dv}{dx} &= {\color{green}3x^2+7}
 \end{align}
 
 Toepassen van de productregel:
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= {\color{blue} 2x^2} \cdot (x^3+7x-5) + {\color{blue} (x^2-4)} \cdot (3x^2+7)
+   &= {\color{blue} 2x^2} \cdot {\color{green}(x^3+7x-5)} + {\color{blue} (x^2-4)} \cdot {\color{green}(3x^2+7)}
 \end{align}
 ```
 
