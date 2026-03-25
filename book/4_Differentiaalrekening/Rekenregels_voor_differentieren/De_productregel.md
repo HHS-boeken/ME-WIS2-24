@@ -41,6 +41,7 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 :class: dropdown
 
 Bereken de afgeleide van de volgende functie:
+
 $$
   f(x) = {\color{blue} (x^2-4)} (x^3+7x-5)
 $$
@@ -60,7 +61,7 @@ Differentieer de functies $u(x)$ en $v(x)$:
 Toepassen van de productregel:
 \begin{align}
   \dfrac{df}{dx} = \dfrac{d}{dx}(u \cdot v) &= \dfrac{du}{dx} \cdot v + u \cdot \dfrac{dv}{dx} \\
-   &= 2x^2 \cdot (x^3+7x-5) + (x^2-4) \cdot (3x^2+7)
+   &= {\color{blue} 2x^2} \cdot (x^3+7x-5) + {\color{blue} (x^2-4)} \cdot (3x^2+7)
 \end{align}
 ```
 
