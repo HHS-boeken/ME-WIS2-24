@@ -33,25 +33,27 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 
 ````
 
+{\color{blue} \quad  \text{(1p)}}
+
 ## 4.2.1 De productregel
 
 ```{admonition} Voorbeeld 1: productregel
 :class: dropdown
 
 Bereken de afgeleide van de volgende functie:
-\begin{align*}
-  f(x) = (x^2-4)(x^3+7x-5)
-\end{align*}
+$$
+  f(x) = {\color{blue} (x^2-4)} (x^3+7x-5)
+$$
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
-  u &= (x^2-4) \\
+  u &= {\color{blue} (x^2-4)} \\
   v &= (x^3+7x-5)
 \end{align}
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
-  \dfrac{du}{dx} &= 2x^2 \\
+  \dfrac{du}{dx} &= {\color{blue} 2x^2} \\
   \dfrac{dv}{dx} &= 3x^2+7
 \end{align}
 
