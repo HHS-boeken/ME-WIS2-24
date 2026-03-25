@@ -43,19 +43,19 @@ Dit betekent dat je eerst de afgeleide van de eerste functie neemt en deze verme
 Bereken de afgeleide van de volgende functie:
 
 $$
-  f(x) = {\color{blue} (x^2-4)} (x^3+7x-5)
+  f(x) = {\color{blue} (x^2-4)} {\color{green}(x^3+7x-5)}
 $$
 
 Kies de functies $u(x)$ en $v(x)$:
 \begin{align}
-  u &= {\color{blue} (x^2-4)} \\
-  v &= (x^3+7x-5)
+  {\color{blue}u &=  (x^2-4)} \\
+  {\color{green}v &= (x^3+7x-5)}
 \end{align}
 
 Differentieer de functies $u(x)$ en $v(x)$:
 \begin{align}
-  \dfrac{du}{dx} &= {\color{blue} 2x^2} \\
-  \dfrac{dv}{dx} &= 3x^2+7
+ {\color{blue} \dfrac{du}{dx} &=  2x^2} \\
+ {\color{green} \dfrac{dv}{dx} &= 3x^2+7}
 \end{align}
 
 Toepassen van de productregel:
