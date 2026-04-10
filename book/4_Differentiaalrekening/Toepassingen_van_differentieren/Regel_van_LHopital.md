@@ -26,10 +26,12 @@ $$
 
 Dit betekent dat je eerst controleert of er sprake is van een onbepaalde vorm. Is dat het geval, dan differentieer je de teller en de noemer en bepaal je daarna opnieuw de limiet.
 
+:::{admonition} Standaard afgeleiden
 :class: warning
 
 - De vorm moet zijn $\frac{0}{0}$ of $\frac{\infty}{\infty}$  
 - De functies moeten differentieerbaar zijn  
 - Na differentiëren moet de limiet bestaan (of opnieuw met L’Hôpital bepaald kunnen worden)  
 
+::: 
 ::::
