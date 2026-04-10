@@ -8,9 +8,9 @@ De **stelling van L’Hôpital** wordt gebruikt bij het bepalen van limieten waa
 
 Als voor een limiet geldt dat zowel de teller als de noemer naar nul gaan, of beide naar oneindig gaan, dan spreken we van de vormen:
 
-\begin{align*}
+$$
     \frac{0}{0} \quad \text{of} \quad \frac{\infty}{\infty}
-\end{align*}
+$$
 
 Als een functie $f(x)$ geschreven kan worden als een breuk van twee differentieerbare functies $u(x)$ en $v(x)$, dan geldt:
 
