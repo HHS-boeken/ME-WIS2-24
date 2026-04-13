@@ -432,10 +432,9 @@ Invullen van de waardes in de Maclaurin-reeks geeft:
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Bepaal de 3e orde Taylor-reeks rond $x=1$ van
-\begin{align*}
-    f(x) = \ln(x)
-\end{align*}
+$$
+  f(x) &\approx (x-1) - \dfrac{1}{2}(x-1)^2 + \dfrac{1}{3}(x-1)^3
+$$
 
 :::{dropdown} Uitwerking
 
