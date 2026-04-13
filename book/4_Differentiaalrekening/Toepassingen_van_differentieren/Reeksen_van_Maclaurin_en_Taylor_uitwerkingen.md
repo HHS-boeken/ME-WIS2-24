@@ -427,13 +427,13 @@ Invullen van de waardes in de Maclaurin-reeks geeft:
 ::::
 
 
-### Opgave 5.3.2b
+### Opgave 5.3.2a
 
 ::::{admonition} Antwoord
 :class: important, dropdown
 
 $$
-  f(x) &\approx (x-1) - \dfrac{1}{2}(x-1)^2 + \dfrac{1}{3}(x-1)^3
+  f(x) \approx (x-1) - \dfrac{1}{2}(x-1)^2 + \dfrac{1}{3}(x-1)^3
 $$
 
 :::{dropdown} Uitwerking
@@ -472,3 +472,96 @@ Invullen van de waardes in de Taylor-reeks rond $x=1$ geeft:
 
 :::
 ::::
+
+### Opgave 5.3.2.b
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+f(x) \approx 1 + \dfrac{1}{2}(x-1) - \dfrac{1}{8}(x-1)^2 + \dfrac{1}{16}(x-1)^3
+$$
+
+:::{dropdown} Uitwerking
+
+Bepaal de 3e orde Taylor-reeks rond $x=1$ van
+\begin{align*}
+f(x) = \sqrt{x}
+\end{align*}
+
+Bereken de afgeleide van $f(x)$ tot de 3e orde:
+\begin{align*}
+f(x) &= \sqrt{x} = x^{\frac{1}{2}} \\
+f'(x) &= \dfrac{1}{2}x^{-\frac{1}{2}} = \dfrac{1}{2\sqrt{x}} \\
+f''(x) &= -\dfrac{1}{4}x^{-\frac{3}{2}} = -\dfrac{1}{4x^{\frac{3}{2}}} \\
+f'''(x) &= \dfrac{3}{8}x^{-\frac{5}{2}} = \dfrac{3}{8x^{\frac{5}{2}}}
+\end{align*}
+
+Evalueer de afgeleide bij $x=1$:
+\begin{align*}
+f(1) &= \sqrt{1} = 1 \\
+f'(1) &= \dfrac{1}{2} \\
+f''(1) &= -\dfrac{1}{4} \\
+f'''(1) &= \dfrac{3}{8}
+\end{align*}
+
+Invullen van de waardes in de Taylor-reeks rond $x=1$ geeft:
+
+\begin{align*}
+f(x) &\approx f(1) + f'(1)(x-1) + \dfrac{f''(1)}{2!}(x-1)^2 + \dfrac{f'''(1)}{3!}(x-1)^3
+\end{align*}
+
+\begin{align*}
+f(x) &\approx 1 + \dfrac{1}{2}(x-1) + \dfrac{-\frac{1}{4}}{2}(x-1)^2 + \dfrac{\frac{3}{8}}{6}(x-1)^3 \\
+f(x) &\approx 1 + \dfrac{1}{2}(x-1) - \dfrac{1}{8}(x-1)^2 + \dfrac{1}{16}(x-1)^3
+\end{align*}
+
+:::
+::::
+
+### Opgave 5.3.2c
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+f(x) \approx e^2 + 2e^2(x-1) + 2e^2(x-1)^2 + \dfrac{4}{3}e^2(x-1)^3
+$$
+
+:::{dropdown} Uitwerking
+
+Bepaal de 3e orde Taylor-reeks rond $x=1$ van
+\begin{align*}
+f(x) = e^{2x}
+\end{align*}
+
+Bereken de afgeleide van $f(x)$ tot de 3e orde:
+\begin{align*}
+f(x) &= e^{2x} \\
+f'(x) &= 2e^{2x} \\
+f''(x) &= 4e^{2x} \\
+f'''(x) &= 8e^{2x}
+\end{align*}
+
+Evalueer de afgeleide bij $x=1$:
+\begin{align*}
+f(1) &= e^2 \\
+f'(1) &= 2e^2 \\
+f''(1) &= 4e^2 \\
+f'''(1) &= 8e^2
+\end{align*}
+
+Invullen van de waardes in de Taylor-reeks rond $x=1$ geeft:
+
+\begin{align*}
+f(x) &\approx f(1) + f'(1)(x-1) + \dfrac{f''(1)}{2!}(x-1)^2 + \dfrac{f'''(1)}{3!}(x-1)^3 
+\end{align*}
+
+\begin{align*}
+f(x) &\approx e^2 + 2e^2(x-1) + \dfrac{4e^2}{2}(x-1)^2 + \dfrac{8e^2}{6}(x-1)^3 \\
+f(x) &\approx e^2 + 2e^2(x-1) + 2e^2(x-1)^2 + \dfrac{4}{3}e^2(x-1)^3
+\end{align*}
+
+:::
+::::
+
