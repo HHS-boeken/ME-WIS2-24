@@ -92,7 +92,7 @@ parts:
 
 
     - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
-     sections:
+      sections:
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_opgaven.md
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital_uitwerkingen.md
