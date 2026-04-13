@@ -426,6 +426,7 @@ Invullen van de waardes in de Maclaurin-reeks geeft:
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 5.3.2a
 
@@ -473,6 +474,8 @@ Invullen van de waardes in de Taylor-reeks rond $x=1$ geeft:
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 5.3.2.b
 
 ::::{admonition} Antwoord
@@ -518,6 +521,8 @@ f(x) &\approx 1 + \dfrac{1}{2}(x-1) - \dfrac{1}{8}(x-1)^2 + \dfrac{1}{16}(x-1)^3
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 5.3.2c
 
@@ -565,6 +570,8 @@ f(x) &\approx e^2 + 2e^2(x-1) + 2e^2(x-1)^2 + \dfrac{4}{3}e^2(x-1)^3
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 5.3.2d
 
 ::::{admonition} Antwoord
@@ -610,6 +617,8 @@ f(x) &\approx \dfrac{1}{2} - \dfrac{1}{2}(x-1) + \dfrac{1}{4}(x-1)^2
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 5.3.2e
 
@@ -657,6 +666,8 @@ Invullen van de waardes in de Taylor-reeks rond $x=2$ geeft:
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 5.3.2f
 
 ::::{admonition} Antwoord
@@ -702,6 +713,8 @@ f(x) &\approx \dfrac{\pi}{2} + \left(x-\dfrac{\pi}{2}\right) - \dfrac{\pi}{4}\le
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 5.3.2g
 
@@ -749,6 +762,8 @@ f(x) &\approx \dfrac{3}{4} + \dfrac{1}{16}(x-3) - \dfrac{1}{64}(x-3)^2 + \dfrac{
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 5.3.2h
 
 ::::{admonition} Antwoord
@@ -795,6 +810,8 @@ f(x) &\approx 2e^2 + 3e^2(x-2) + 2e^2(x-2)^2 + \dfrac{5}{6}e^2(x-2)^3
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ### Opgave 5.3.2i
 
 ::::{admonition} Antwoord
@@ -840,6 +857,8 @@ f(x) &\approx 4\ln(2) + \left(4\ln(2)+2\right)(x-2) + \left(\ln(2)+\dfrac{3}{2}\
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ### Opgave 5.3.2j
 
