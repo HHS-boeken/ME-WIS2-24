@@ -3,14 +3,13 @@
 ### Opgave 5.3.1a
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx x - \dfrac{1}{2}x^2 + \dfrac{1}{3}x^3 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -52,14 +51,13 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1b
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx 1 - x^2 + x^4 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -102,14 +100,13 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1c
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx 1 + \dfrac{1}{2}x - \dfrac{1}{8}x^2 + \dfrac{1}{16}x^3 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -151,14 +148,13 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1d
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx x - x^2 + x^3 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -199,14 +195,13 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1e
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx x + x^2 + \dfrac{1}{2}x^3 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -247,14 +242,13 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1f
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx x^3 - \dfrac{1}{2}x^4 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 2e orde Maclaurin-reeks van
 \begin{align*}
@@ -295,14 +289,13 @@ We nemen de termen tot en met \( x^4 \), want dat levert een Maclaurin-reeks **t
 ### Opgave 5.3.1g
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx 2x - 2x^2 + \dfrac{8}{3}x^3 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -343,14 +336,13 @@ Invullen van de waardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1h
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx 1 + x - x^2 + \dfrac{5}{4}x^3 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -392,14 +384,13 @@ Invullen van de waardes in de Maclaurin-reeks geeft:
 ### Opgave 5.3.1i
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
   f(x) &\approx x^2 + 2x^3 + \dfrac{3}{2}x^4 \\
 \end{align}
 
-```{admonition} Uitwerking
-:class:  dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
