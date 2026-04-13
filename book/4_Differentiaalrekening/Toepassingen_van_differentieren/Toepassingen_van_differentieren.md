@@ -1,2 +1,2 @@
-# 5 Toepasssingen van differentieren
+# 5. Toepasssingen van differentieren
 
