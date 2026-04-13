@@ -89,8 +89,6 @@ parts:
         - file: 4_Differentiaalrekening/Rekenregels_voor_differentieren/De_quotientregel_uitwerkingen.md
 
 
-
-
     - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren.md
       sections:
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Regel_van_LHopital.md
