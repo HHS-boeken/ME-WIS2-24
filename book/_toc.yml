@@ -171,7 +171,7 @@ parts:
         - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_opgaven_les.md
         - file: 1_Algebra/Breuken/Staartdelingen_met_variabelen_uitwerkingen_les.md
    
-    - file: _Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren_les.md
+    - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Toepassingen_van_differentieren_les.md
       sections:
       - file: 4_Differentiaalrekening/Toepassingen_van_differentieren/Reeksen_van_Maclaurin_en_Taylor_les.md
         sections:
