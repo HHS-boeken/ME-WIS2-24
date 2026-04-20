@@ -185,7 +185,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int 2xe^{x^2} \, dx = e^{x^2} + C
+     \int 2xe^{x^2} \, dx = e^{x^2} + C
 $$
 
 :::{dropdown} Uitwerking
@@ -220,11 +220,13 @@ $$
 $$
 
 Integreren geeft:
+
 $$
     = e^u + C
 $$
 
 Terug substitueren geeft:
+
 $$
     = e^{x^2} + C
 $$
