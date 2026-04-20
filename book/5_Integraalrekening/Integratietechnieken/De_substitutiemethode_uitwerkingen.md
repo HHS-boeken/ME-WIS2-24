@@ -8,7 +8,7 @@
 :class: important, dropdown
 
 $$
-    \int \sqrt{5 + x^2} \cdot 2x \, dx &= \dfrac{2}{3} \cdot \sqrt{5+x^2}(5+x^2) + C
+    \int \sqrt{5 + x^2} \cdot 2x \, dx = \dfrac{2}{3} \cdot \sqrt{5+x^2}(5+x^2) + C
 $$
 
 :::{dropdown} Uitwerking
@@ -72,7 +72,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int \ln(x^2 + 4) \cdot 2x \, dx &= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
+    \int \ln(x^2 + 4) \cdot 2x \, dx = (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
 $$
 
 :::{dropdown} Uitwerking
@@ -129,7 +129,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int \sin(x^2 + 2) \cdot 2x \, dx &= -\cos(x^2 + 2) + C
+    \int \sin(x^2 + 2) \cdot 2x \, dx = -\cos(x^2 + 2) + C
 $$
 
 :::{dropdown} Uitwerking
@@ -185,7 +185,7 @@ $$
 :class: important, dropdown
 
 $$
-     \int 2xe^{x^2} \, dx &= e^{x^2} + C
+     \int 2xe^{x^2} \, dx = e^{x^2} + C
 $$
 
 :::{dropdown} Uitwerking
@@ -240,7 +240,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int 9x^2\cos(x^3 + 9) \, dx &= 3 \sin(x^3 + 9) + C
+    \int 9x^2\cos(x^3 + 9) \, dx = 3 \sin(x^3 + 9) + C
 $$
 
 :::{dropdown} Uitwerking
@@ -298,7 +298,7 @@ $$
 :class: important, dropdown
 
 $$
-     \int 6(3x - 4)^3 \, dx &= \dfrac{(3x - 4)^4}{2} + C
+     \int 6(3x - 4)^3 \, dx = \dfrac{(3x - 4)^4}{2} + C
 $$
 
 :::{dropdown} Uitwerking
@@ -356,7 +356,7 @@ $$
 :class: important, dropdown
 
 \begin{align*}
-     \int \dfrac{3\ln(x)}{x} \, dx &= \dfrac{3}{2} \ln^2(x) + C
+     \int \dfrac{3\ln(x)}{x} \, dx = \dfrac{3}{2} \ln^2(x) + C
 \end{align*}
 
 :::{dropdown} Uitwerking
@@ -414,7 +414,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int 12x e^{2x^2} \, dx &= 3e^{2x^2} + C
+    \int 12x e^{2x^2} \, dx = 3e^{2x^2} + C
 $$
 
 :::{dropdown} Uitwerking
