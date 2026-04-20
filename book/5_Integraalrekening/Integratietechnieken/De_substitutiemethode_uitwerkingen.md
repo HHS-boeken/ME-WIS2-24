@@ -109,7 +109,7 @@ $$
 Integreren geeft:
 
 $$
-    &= u \ln(u) - u + C
+    = u \ln(u) - u + C
 $$
 
 Terug substitueren geeft:
@@ -185,7 +185,7 @@ $$
 :class: important, dropdown
 
 $$
-     \int 2xe^{x^2} \, dx = e^{x^2} + C
+    \int 2xe^{x^2} \, dx = e^{x^2} + C
 $$
 
 :::{dropdown} Uitwerking
@@ -298,7 +298,7 @@ $$
 :class: important, dropdown
 
 $$
-     \int 6(3x - 4)^3 \, dx = \dfrac{(3x - 4)^4}{2} + C
+    \int 6(3x - 4)^3 \, dx = \dfrac{(3x - 4)^4}{2} + C
 $$
 
 :::{dropdown} Uitwerking
