@@ -115,7 +115,7 @@ $$
 Terug substitueren geeft:
 
 $$
-    &= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
+    op4= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
 $$
 
 :::
@@ -166,13 +166,13 @@ $$
 Integreren geeft:
 
 $$
-    &= -\cos(u) + C
+    = -\cos(u) + C
 $$
 
 Terug substitueren geeft:
 
 $$
-    &= -\cos(x^2 + 2) + C
+    = -\cos(x^2 + 2) + C
 $$
 
 :::
@@ -221,12 +221,12 @@ $$
 
 Integreren geeft:
 $$
-    &= e^u + C
+    = e^u + C
 $$
 
 Terug substitueren geeft:
 $$
-    &= e^{x^2} + C
+    = e^{x^2} + C
 $$
 
 :::
@@ -278,13 +278,13 @@ $$
 Integreren geeft:
 
 $$
-    &= 3 \sin(u) + C
+    = 3 \sin(u) + C
 $$
 
 Terug substitueren geeft:
 
 $$
-    &= 3 \sin(x^3 + 9) + C
+    = 3 \sin(x^3 + 9) + C
 $$
 
 :::
@@ -336,13 +336,13 @@ $$
 Integreren geeft:
 
 $$
-    &= 2 \cdot \dfrac{u^4}{4} + C = \dfrac{u^4}{2} + C
+    = 2 \cdot \dfrac{u^4}{4} + C = \dfrac{u^4}{2} + C
 $$
 
 Terug substitueren geeft:
 
 $$
-    &= \dfrac{(3x - 4)^4}{2} + C
+    = \dfrac{(3x - 4)^4}{2} + C
 $$
 
 :::
@@ -394,13 +394,13 @@ $$
 Integreren geeft:
 
 $$
-    &= 3 \cdot \dfrac{1}{2}u^2 + C
+    = 3 \cdot \dfrac{1}{2}u^2 + C
 $$
 
 Terug substitueren geeft:
 
 $$
-   &=  \dfrac{3}{2} \ln^2(x) + C
+   =  \dfrac{3}{2} \ln^2(x) + C
 $$
 
 :::
@@ -452,13 +452,13 @@ $$
 Integreren geeft:
 
 $$
-    &= 3e^u + C
+    = 3e^u + C
 $$
 
 Terug substitueren geeft:
 
 $$
-    &= 3e^{2x^2} + C
+    = 3e^{2x^2} + C
 $$
 
 :::
