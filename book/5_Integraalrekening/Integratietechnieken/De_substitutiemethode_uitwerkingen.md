@@ -115,7 +115,7 @@ $$
 Terug substitueren geeft:
 
 $$
-    op4= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
+    = (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
 $$
 
 :::
