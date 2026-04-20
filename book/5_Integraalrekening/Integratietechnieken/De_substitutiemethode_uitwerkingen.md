@@ -4,17 +4,16 @@
 
 ### Opgave 6.1a
 
-::::{solution}
+::::{admonition} Antwoord
 :class: important, dropdown
 
 $$
     \int \sqrt{5 + x^2} \cdot 2x \, dx &= \dfrac{2}{3} \cdot \sqrt{5+x^2}(5+x^2) + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
+
 $$
     \int \sqrt{5 + x^2} \cdot 2x \, dx
 $$
@@ -45,6 +44,7 @@ $$
 $$
 
 Integreren geeft:
+
 $$
 \begin{align*}
     &= \dfrac{1}{\frac{3}{2}} \cdot u^{\frac{3}{2}} + C \\
@@ -75,9 +75,7 @@ $$
     \int \ln(x^2 + 4) \cdot 2x \, dx &= (x^2 + 4) \ln(x^2 + 4) - (x^2 + 4) + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
@@ -134,9 +132,7 @@ $$
     \int \sin(x^2 + 2) \cdot 2x \, dx &= -\cos(x^2 + 2) + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
@@ -192,9 +188,7 @@ $$
      \int 2xe^{x^2} \, dx &= e^{x^2} + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
@@ -249,9 +243,7 @@ $$
     \int 9x^2\cos(x^3 + 9) \, dx &= 3 \sin(x^3 + 9) + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
@@ -309,9 +301,7 @@ $$
      \int 6(3x - 4)^3 \, dx &= \dfrac{(3x - 4)^4}{2} + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
@@ -369,9 +359,7 @@ $$
      \int \dfrac{3\ln(x)}{x} \, dx &= \dfrac{3}{2} \ln^2(x) + C
 \end{align*}
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
@@ -429,9 +417,7 @@ $$
     \int 12x e^{2x^2} \, dx &= 3e^{2x^2} + C
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
-
+:::{dropdown} Uitwerking
 Bereken de onbepaalde integraal:
 
 $$
