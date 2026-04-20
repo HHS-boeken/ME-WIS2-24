@@ -2,7 +2,6 @@
 
 <hr style="border:2px solid #9EA700">
 
-
 ## Opgave 6.2.1a
 
 Bereken de onbepaalde integraal:
@@ -88,7 +87,7 @@ $$
 Primitiveer:
 
 $$
-    f(x) = x \arctan(x)
+    \int x\ln(x^2+1) \, dx
 $$
 
 <hr style="border:1px solid #9EA700">
@@ -199,49 +198,6 @@ Bereken de onbepaalde integraal:
 
 $$
     \int x^2 \sin(3x) \, dx
-$$
-
-<hr style="border:1px solid #9EA700">
-
-
-
-
-### Opgave 6.2.1a
-
-Bereken de onbepaalde integraal:
-
-$$
-    \int \ln(x) \, dx
-$$
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 6.2.1b
-
-Bereken de onbepaalde integraal:
-
-$$
-    \int x\cos(3x) \, dx
-$$
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 6.2.1c
-
-Bereken de onbepaalde integraal:
-
-$$
-    \int \ln(x)e^x \, dx
-$$
-
-<hr style="border:1px solid #9EA700">
-
-### Opgave 6.2.1d
-
-Bereken de onbepaalde integraal:
-
-$$
-    \int x\ln(x^2+1) \, dx
 $$
 
 <hr style="border:1px solid #9EA700">
