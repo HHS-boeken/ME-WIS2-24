@@ -377,7 +377,7 @@ Bepaal de functie $v$:
 \begin{align*}
     dv &= \sin(x) \, dx  \\
     \dfrac{dv}{dx} &= \sin(x) \\
-    v &= -\cos(x)
+    v &= -\cos(x)m
 \end{align*}
 
 Toepassen van de regel voor partieel integreren geeft:
