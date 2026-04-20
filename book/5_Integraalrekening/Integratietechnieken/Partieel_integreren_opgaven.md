@@ -1,226 +1,247 @@
 # 6.2 Opgaven
 
 <hr style="border:2px solid #9EA700">
-## 6.2 Opgaven
 
-<hr style="border:2px solid #9EA700">
 
-## 6.2.1 Partieel integreren
-
-### Opgave 1
+## Opgave 6.2.1a
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x\cos(x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 2
+## Opgave 6.2.1b
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x e^{3x} \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 3
+## Opgave 6.2.1c
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x^2 \ln(x)
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 4
+## Opgave 6.2.1d
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int (3x-2)\sin(x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 5
+## Opgave 6.2.1e
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x \ln(2x)
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6
+## Opgave 6.2.1f
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x\cos(2x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 7
+## Opgave 6.2.1g
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = (2x+1)e^{-x}
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 8
+## Opgave 6.2.1h
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^4 \ln(x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 9
+## Opgave 6.2.1i
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x \arctan(x)
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 10
+## Opgave 6.2.1j
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \ln(3x) \, dx
-\end{align*}
+$$
 
 <hr style="border:2px solid #9EA700">
 
-## 6.2.2 Herhaald partieel integreren
-
-### Opgave 11
+## Opgave 6.2.2a
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^2 e^{2x} \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 12
+## Opgave 6.2.2b
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^2 \sin(x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 13
+## Opgave 6.2.2c
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x^2 \ln(x)
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 14
+## Opgave 6.2.2d
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^2 \cos(2x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 15
+## Opgave 6.2.2e
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x^3 e^{-x}
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 16
+## Opgave 6.2.2f
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^2 \ln(2x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 17
+## Opgave 6.2.2g
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x^2 \arctan(x)
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 18
+## Opgave 6.2.2h
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^3 \cos(x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 19
+## Opgave 6.2.2i
 
 Primitiveer:
-\begin{align*}
+
+$$
     f(x) = x^3 \ln^2(x)
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 20
+## Opgave 6.2.2j
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x^2 \sin(3x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
+
+
+
 
 ### Opgave 6.2.1a
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \ln(x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 6.2.1b
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x\cos(3x) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 6.2.1c
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \ln(x)e^x \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 6.2.1d
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int x\ln(x^2+1) \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
