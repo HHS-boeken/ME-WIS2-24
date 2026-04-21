@@ -256,3 +256,75 @@ $$
 
 :::
 ::::
+
+## Opgave 6.2.1e
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+Primitiveer:
+
+$$
+f(x) = x \ln(2x)
+$$
+
+:::{dropdown} Uitwerking
+
+Primitiveer:
+
+$$
+f(x) = x \ln(2x)
+$$
+
+Dus,
+
+$$
+\begin{align*}
+F(x) &= \int x \ln(2x) , dx
+\end{align*}
+$$
+
+Voor het eerste gedeelte gebruik partieel integreren.
+Kies de functie $u$ en $dv$:
+
+$$
+\begin{align*}
+u &= \ln(2x) \\
+dv &= x , dx
+\end{align*}
+$$
+
+Bepaal $du$:
+
+$$
+\begin{align*}
+\dfrac{du}{dx} &= \dfrac{1}{x} \\
+du &= \dfrac{1}{x} , dx
+\end{align*}
+$$
+
+Bepaal de functie $v$:
+
+$$
+\begin{align*}
+dv &= x , dx  \\
+\dfrac{dv}{dx} &= x \\
+v &= \dfrac{1}{2}x^2
+\end{align*}
+$$
+
+Toepassen van de regel voor partieel integreren geeft:
+
+$$
+\begin{align*}
+\int u , dv &= uv - \int v , du \\
+&= \ln(2x) \cdot \dfrac{1}{2}x^2 - \int \dfrac{1}{2}x^2 \dfrac{1}{x} , dx \\
+&= \ln(2x) \cdot \dfrac{1}{2}x^2 - \int \dfrac{1}{2}x , dx \\
+&= \ln(2x) \cdot \dfrac{1}{2}x^2 - \dfrac{1}{2} \int x , dx \\
+&= \ln(2x) \cdot \dfrac{1}{2}x^2 - \dfrac{1}{2} \cdot \dfrac{1}{2} x^2 + C \\
+&= \dfrac{1}{2}x^2\ln(2x) - \dfrac{1}{4} x^2 + C
+\end{align*}
+$$
+
+:::
+::::
