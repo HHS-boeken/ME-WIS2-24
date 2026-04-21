@@ -81,7 +81,7 @@ Kies de functie $u$ en $dv$:
 
 $$
 \begin{align*}
-u &= x \
+u &= x \\
 dv &= e^{3x} \, dx
 \end{align*}
 $$
@@ -255,7 +255,7 @@ $$
 :class: important, dropdown
 
 $$
-F(x) &= \int x \ln(2x) \, dx = \dfrac{1}{2}x^2\ln(2x) - \dfrac{1}{4} x^2 + C
+F(x) = \int x \ln(2x) \, dx = \dfrac{1}{2}x^2\ln(2x) - \dfrac{1}{4} x^2 + C
 $$
 
 :::{dropdown} Uitwerking
@@ -269,9 +269,7 @@ $$
 Dus,
 
 $$
-\begin{align*}
-F(x) &= \int x \ln(2x) \, dx
-\end{align*}
+F(x) = \int x \ln(2x) \, dx
 $$
 
 Voor het eerste gedeelte gebruik partieel integreren.
@@ -340,7 +338,7 @@ Kies de functie $u$ en $dv$:
 
 $$
 \begin{align*}
-u &= x \
+u &= x \\
 dv &= \cos(2x) \, dx
 \end{align*}
 $$
@@ -385,7 +383,7 @@ $$
 :class: important, dropdown
 
 $$
-F(x) &= \int (2x+1)e^{-x} , dx = -(2x+3)e^{-x} + C
+F(x) = \int (2x+1)e^{-x} , dx = -(2x+3)e^{-x} + C
 $$
 
 :::{dropdown} Uitwerking
@@ -408,7 +406,7 @@ Kies de functie $u$ en $dv$:
 
 $$
 \begin{align*}
-u &= 2x+1 \
+u &= 2x+1 \\
 dv &= e^{-x} \, dx
 \end{align*}
 $$
