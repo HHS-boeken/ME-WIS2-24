@@ -119,7 +119,7 @@ parts:
       - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren.md
         sections:
         - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_opgaven.md
-        #- file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_uitwerkingen.md
+        - file: 5_Integraalrekening/Integratietechnieken/Partieel_integreren_uitwerkingen.md
 
       - file: 5_Integraalrekening/Integratietechnieken/Breukensplitsen.md
         sections:
