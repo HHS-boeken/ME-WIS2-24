@@ -1,6 +1,6 @@
-## 5.2 Uitwerkingen
+# 5.2 Uitwerkingen
 
-### Opgave 5.2a
+## Opgave 5.2a
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -51,7 +51,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2b
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2b
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -107,7 +109,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2c
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2c
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -208,8 +212,9 @@ Dus:
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
 
-### Opgave 5.2d
+## Opgave 5.2d
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -260,7 +265,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2e
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2e
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -316,7 +323,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2f
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2f
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -393,7 +402,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2g
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2g
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -470,7 +481,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2h
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2h
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -541,7 +554,9 @@ Dus:
 :::
 ::::
 
-### Opgave 5.2i
+<hr style="border:1px solid #9EA700">
+
+## Opgave 5.2i
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -617,5 +632,3 @@ Dus:
 
 :::
 ::::
-
-

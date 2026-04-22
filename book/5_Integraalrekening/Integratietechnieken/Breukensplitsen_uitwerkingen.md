@@ -200,8 +200,6 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Bepaal de onbepaalde integraal:
-
 $$
     \int \dfrac{8x + 11}{x^2 - 5x + 6} \, dx &= -27 \ln|x - 2 | + 35 \ln| x - 3| + C\\
 $$
