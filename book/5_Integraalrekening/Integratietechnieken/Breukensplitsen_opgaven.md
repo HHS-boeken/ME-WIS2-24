@@ -1,49 +1,54 @@
-## 6.3 Opgaven
+# 6.3 Opgaven
 
 <hr style="border:2px solid #9EA700">
 
-### Opgave 6.3.1a
+## Opgave 6.3.2a
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \dfrac{7x+1}{x^2-4} \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6.3.1b
+## Opgave 6.3.2b
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \dfrac{5x - 2}{x^2 + x - 12} \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6.3.1c
+## Opgave 6.3.2c
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \dfrac{8x + 11}{x^2 - 5x + 6} \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6.3.1d
+## Opgave 6.3.2d
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \dfrac{6x + 13}{x^2 + 2x - 15} \, dx
-\end{align*}
+$$
 
 <hr style="border:1px solid #9EA700">
 
-### Opgave 6.3.1e
+## Opgave 6.3.2e
 
 Bereken de onbepaalde integraal:
-\begin{align*}
+
+$$
     \int \dfrac{10x + 19}{x^2 + 3x - 10} \, dx
-\end{align*}
+$$
 
 
 <hr style="border:1px solid #9EA700">
