@@ -525,6 +525,8 @@ $$
 
 ## Opgave 6.2.1i
 
+<hr style="border:1px solid #9EA700">
+
 ## Opgave 6.2.1j
 
 ::::{admonition} Antwoord
@@ -583,6 +585,8 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6.2.2a
 
@@ -708,6 +712,8 @@ $$
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ## Opgave 6.2.2b
 
 ::::{admonition} Antwoord
@@ -830,6 +836,8 @@ $$
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ## Opgave 6.2.2c
 
 ::::{admonition} Antwoord
@@ -898,6 +906,8 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6.2.2d
 
@@ -1021,6 +1031,8 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6.2.2e
 
@@ -1191,6 +1203,8 @@ $$
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ## Opgave 6.2.2f
 
 ::::{admonition} Antwoord
@@ -1259,6 +1273,8 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6.2.2g
 
@@ -1360,6 +1376,8 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6.2.2h
 
@@ -1528,6 +1546,8 @@ $$
 :::
 ::::
 
+<hr style="border:1px solid #9EA700">
+
 ## Opgave 6.2.2i
 
 ::::{admonition} Antwoord
@@ -1650,6 +1670,8 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6.2.2j
 
