@@ -465,3 +465,118 @@ $$
 
 :::
 ::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.1.1i
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{\sin(\sqrt{x})}{\sqrt{x}} \, dx = -2\cos(\sqrt{x}) + C
+$$
+
+:::{dropdown} Uitwerking
+Bereken de onbepaalde integraal:
+
+$$
+\int \dfrac{\sin(\sqrt{x})}{\sqrt{x}} , dx
+$$
+
+Kies de functie $u$:
+
+$$
+u = \sqrt{x}
+$$
+
+Differentieer de functie $u$ en bepaal $du$:
+
+$$
+\begin{align*}
+\dfrac{du}{dx} &= \dfrac{1}{2\sqrt{x}} \\
+du &= \dfrac{1}{2\sqrt{x}} \, dx
+\end{align*}
+$$
+
+Herschrijf de integraal met substitutie:
+
+$$
+\begin{align*}
+\int \dfrac{\sin(\sqrt{x})}{\sqrt{x}} \, dx &= \int 2 \cdot \sin(\sqrt{x}) \cdot \dfrac{1}{2\sqrt{x}} \, dx \\
+&= 2 \int \sin(u) \, du
+\end{align*}
+$$
+
+Integreren geeft:
+
+$$
+= -2\cos(u) + C
+$$
+
+Terug substitueren geeft:
+
+$$
+=  -2\cos(\sqrt{x}) + C
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.1.1j
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{e^{1/x}}{x^2} \, dx = -e^{1/x} + C
+$$
+
+:::{dropdown} Uitwerking
+Bereken de onbepaalde integraal:
+
+$$
+\int \dfrac{e^{1/x}}{x^2} \, dx
+$$
+
+Kies de functie $u$:
+
+$$
+u = \dfrac{1}{x}
+$$
+
+Differentieer de functie $u$ en bepaal $du$:
+
+$$
+\begin{align*}
+\dfrac{du}{dx} &= -\dfrac{1}{x^2} \\
+du &= -\dfrac{1}{x^2} \, dx
+\end{align*}
+$$
+
+Herschrijf de integraal met substitutie:
+
+$$
+\begin{align*}
+\int \dfrac{e^{1/x}}{x^2} \, dx &= \int e^{1/x} \cdot \dfrac{1}{x^2} \, dx \\
+&= - \int e^u \, du
+\end{align*}
+$$
+
+Integreren geeft:
+
+$$
+= -e^u + C
+$$
+
+Terug substitueren geeft:
+
+$$
+=  -e^{1/x} + C
+$$
+
+:::
+::::
+

@@ -81,3 +81,27 @@ $$
 $$
 
 <hr style="border:1px solid #9EA700">
+
+## Opgave 6.1.1i
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{\sin(\sqrt{x})}{\sqrt{x}} \, dx
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.1.1j
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{e^{1/x}}{x^2} \, dx
+$$
+
+:::
+::::
