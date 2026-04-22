@@ -33,5 +33,47 @@ Dit betekent dat je eerst controleert of er sprake is van een onbepaalde vorm. I
 - De functies moeten differentieerbaar zijn  
 - Na differentiëren moet de limiet bestaan (of opnieuw met L’Hôpital bepaald kunnen worden)  
 
-::: 
+:::
 ::::
+
+::::{admonition} Voorbeeld: De stelling van L'Hopital
+:class: dropdown
+
+Bereken de limiet
+\begin{align*}
+\lim_{x \to 0} \frac{\ln(1+x)}{x}
+\end{align*}
+
+Vul eerst $x=0$ in in de teller en de noemer:
+\begin{align*}
+\ln(1+0) &= \ln(1) = 0 \\
+x &= 0
+\end{align*}
+
+Dus er ontstaat de onbepaalde vorm:
+\begin{align*}
+\frac{0}{0}
+\end{align*}
+
+We mogen daarom de regel van L'Hôpital toepassen. Differentieer de teller en de noemer:
+\begin{align*}
+\frac{d}{dx}(\ln(1+x)) &= \frac{1}{1+x} \\
+\frac{d}{dx}(x) &= 1
+\end{align*}
+
+Dan wordt de limiet:
+\begin{align*}
+\lim_{x \to 0} \frac{\ln(1+x)}{x} = \lim_{x \to 0} \frac{\frac{1}{1+x}}{1}
+\end{align*}
+
+Vul nu $x=0$ in:
+\begin{align*}
+\lim_{x \to 0} \frac{1}{1+x} = \frac{1}{1+0} = 1
+\end{align*}
+
+Dus:
+\begin{align*}
+\lim_{x \to 0} \frac{\ln(1+x)}{x} = 1
+\end{align*}
+
+:::
