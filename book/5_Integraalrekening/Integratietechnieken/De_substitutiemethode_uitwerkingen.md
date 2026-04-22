@@ -616,7 +616,7 @@ $$
 In de originele functie staat $(x)$ dus:
 
 $$
-\dfrac{1}{2}du &= x \, dx
+\dfrac{1}{2}du = x \, dx
 $$
 
 Herschrijf de integraal door substitutie van $u$ en $du$:
