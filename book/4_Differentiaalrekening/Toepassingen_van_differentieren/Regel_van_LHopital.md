@@ -85,6 +85,61 @@ Dus:
 
 Bereken de limiet
 \begin{align*}
+\lim_{x \to \infty} \frac{\ln(x)}{\sqrt{x}}
+\end{align*}
+
+:::{dropdown} Uitwerking
+
+Bereken de limiet
+\begin{align*}
+\lim_{x \to \infty} \frac{\ln(x)}{\sqrt{x}}
+\end{align*}
+
+Bekijk eerst het gedrag van de teller en noemer voor $x \to \infty$:
+\begin{align*}
+\ln(x) &\to \infty \\
+\sqrt{x} &\to \infty
+\end{align*}
+
+Dus er ontstaat de onbepaalde vorm:
+\begin{align*}
+\frac{\infty}{\infty}
+\end{align*}
+
+We mogen daarom de regel van L'Hôpital toepassen. Differentieer de teller en de noemer:
+\begin{align*}
+\frac{d}{dx}(\ln(x)) &= \frac{1}{x} \\
+\frac{d}{dx}(\sqrt{x}) &= \frac{1}{2\sqrt{x}}
+\end{align*}
+
+Dan wordt de limiet:
+\begin{align*}
+\lim_{x \to \infty} \frac{\ln(x)}{\sqrt{x}} = \lim_{x \to \infty} \frac{\frac{1}{x}}{\frac{1}{2\sqrt{x}}}
+\end{align*}
+
+Herschrijf de breuk:
+\begin{align*}
+\frac{\frac{1}{x}}{\frac{1}{2\sqrt{x}}} = \frac{2\sqrt{x}}{x} = \frac{2}{\sqrt{x}}
+\end{align*}
+
+Neem nu de limiet:
+\begin{align*}
+\lim_{x \to \infty} \frac{2}{\sqrt{x}} = 0
+\end{align*}
+
+Dus:
+\begin{align*}
+\lim_{x \to \infty} \frac{\ln(x)}{\sqrt{x}} = 0
+\end{align*}
+
+:::
+::::
+
+::::{admonition} Oefening 2
+:class: important, dropdown
+
+Bereken de limiet
+\begin{align*}
 \lim_{x \to 0} \frac{\tan(x)-x}{x^3}
 \end{align*}
 
