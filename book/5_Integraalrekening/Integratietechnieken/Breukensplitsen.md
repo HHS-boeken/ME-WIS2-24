@@ -30,60 +30,63 @@ Let daarbij op het volgende:
 
 ## Stappenplan bij breukensplitsen
 
-### Situatie 1: noemer heeft twee verschillende lineaire factoren
+```{admonition} Situatie 1: noemer heeft twee verschillende lineaire factoren
+:class: warning
 
 Bijvoorbeeld:
 
-\begin{align*}
+$$
     \dfrac{ax+b}{(x-p)(x-q)}
-\end{align*}
+$$
 
 Dan schrijf je:
 
-\begin{align*}
+$$
     \dfrac{ax+b}{(x-p)(x-q)} = \dfrac{A}{x-p} + \dfrac{B}{x-q}
-\end{align*}
+$$
 
 Daarna werk je de rechterkant uit tot één breuk en stel je de tellers aan elkaar gelijk. Zo kun je $A$ en $B$ berekenen.
 
 Als je $A$ en $B$ hebt gevonden, vul je deze weer in en primitiveer je beide losse breuken apart.
 
----
+```
 
-### Situatie 2: noemer heeft een dubbele factor
+```{admonition} Situatie 2: noemer heeft een dubbele factor
+:class: warning
 
 Bijvoorbeeld:
 
-\begin{align*}
+$$
     \dfrac{ax+b}{(x-p)^2}
-\end{align*}
+$$
 
 Dan schrijf je:
 
-\begin{align*}
+$$
     \dfrac{ax+b}{(x-p)^2} = \dfrac{A}{x-p} + \dfrac{B}{(x-p)^2}
-\end{align*}
+$$
 
 Ook hier werk je de rechterkant uit tot één breuk en stel je daarna de tellers aan elkaar gelijk. Zo bereken je $A$ en $B$.
 
 Daarna primitiveer je beide losse breuken apart.
 
----
+```
 
-### Situatie 3: teller groter dan noemer
+```{admonition} Situatie 3: teller groter dan noemer
+:class: warning
 
 Als de teller groter is dan de noemer, dan kun je niet direct breukensplitsen.
 
 Je begint dan met een **staartdeling**. Daarmee schrijf je de breuk als:
 
-\begin{align*}
+$$
     \dfrac{\text{teller}}{\text{noemer}} = \text{veelterm} + \dfrac{\text{rest}}{\text{noemer}}
-\end{align*}
+$$
 
 De veelterm primitiveer je direct.  
 De overgebleven breuk splits je daarna verder met breukensplitsen.
 
----
+```
 
 ## Waar moet je op letten?
 
