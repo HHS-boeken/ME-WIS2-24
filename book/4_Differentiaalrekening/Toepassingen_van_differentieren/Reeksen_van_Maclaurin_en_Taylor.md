@@ -1,6 +1,6 @@
 # 5.3 Reeksen van Maclaurin en Taylor
 
-```{admonition} Theorie
+````{admonition} Theorie
 :class: tip, dropdown open
 
 Bij sommige functies is het lastig om direct te rekenen met de formule van de functie. In dat geval kun je de functie benaderen met een **veelterm**. Dit heet een **reeksontwikkeling**.
@@ -11,7 +11,7 @@ Er zijn twee belangrijke vormen:
 
 ---
 
-##  Maclaurinreeks
+***Maclaurinreeks***
 
 De Maclaurinreeks is een benadering van een functie rond het punt **$x = 0$**.
 
@@ -26,7 +26,7 @@ Deze reeksen gebruik je vooral bij limieten voor $x \to 0$.
 
 ---
 
-## Taylorreeks
+***Taylorreeks***
 
 De Taylorreeks lijkt op de Maclaurinreeks, maar wordt gebruikt rond een **ander punt dan 0**, bijvoorbeeld $x = 2$ of $x = 1$.
 
@@ -37,8 +37,8 @@ Ook hier geldt:
 - Je gebruikt de reeks om functies eenvoudiger te maken
 
 ---
-
-## 🔢 Wanneer gebruik je dit?
+```{admonition} Wanneer gebruik je dit?
+:class: warning
 
 Je gebruikt Maclaurin- of Taylorreeksen als:
 - directe invullen niet lukt (bijvoorbeeld $\frac{0}{0}$)
@@ -47,13 +47,14 @@ Je gebruikt Maclaurin- of Taylorreeksen als:
 
 ---
 
-## ⚠️ Belangrijk
+***Belangrijk***
 
 - Vaak heb je maar een paar termen nodig om een limiet te bepalen
 - Let goed op tot welke macht je moet ontwikkelen
 - Termen die uiteindelijk wegvallen hoef je niet volledig uit te schrijven
 
 ```
+````
 
 ## 5.3.1 Reeksen van Maclaurin
 
