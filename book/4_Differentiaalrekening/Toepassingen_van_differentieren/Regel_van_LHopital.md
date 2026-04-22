@@ -80,8 +80,7 @@ Dus:
 
 ::::
 
-::::
-{admonition} Oefening 1
+::::{admonition} Oefening 1
 :class: important, dropdown
 
 Bereken de limiet
@@ -89,7 +88,7 @@ Bereken de limiet
 \lim_{x \to 0} \frac{\tan(x)-x}{x^3}
 \end{align*}
 
-:::{admonition} Uitwerking
+:::{dropdown} Uitwerking
 
 Bereken de limiet
 \begin{align*}
