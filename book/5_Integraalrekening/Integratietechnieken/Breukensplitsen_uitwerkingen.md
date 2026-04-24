@@ -1,4 +1,4 @@
-# 6.3 Uitwerkingen
+\\\\\\\\\\\\--------------------------------------------------------------------------------                       0# 6.3 Uitwerkingen
 
 <hr style="border:2px solid #9EA700">
 
@@ -8,7 +8,7 @@
 :class: important, dropdown
 
 $$
-    \int \dfrac{7x+1}{x^2-4} \, dx &= \dfrac{15}{4} \ln|x - 2 | + \dfrac{13}{4} \ln| x + 2| + C\\
+    \int \dfrac{7x+1}{x^2-4} \, dx = \dfrac{15}{4} \ln|x - 2 | + \dfrac{13}{4} \ln| x + 2| + C\\
 $$
 
 :::{admonition} Uitwerking
@@ -105,7 +105,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int \dfrac{5x - 2}{x^2 + x - 12} \, dx &= \dfrac{13}{7} \ln|x - 3 | + \dfrac{22}{7} \ln| x + 4| + C\\
+    \int \dfrac{5x - 2}{x^2 + x - 12} \, dx = \dfrac{13}{7} \ln|x - 3 | + \dfrac{22}{7} \ln| x + 4| + C\\
 $$
 
 :::{admonition} Uitwerking
@@ -201,7 +201,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int \dfrac{8x + 11}{x^2 - 5x + 6} \, dx &= -27 \ln|x - 2 | + 35 \ln| x - 3| + C\\
+    \int \dfrac{8x + 11}{x^2 - 5x + 6} \, dx = -27 \ln|x - 2 | + 35 \ln| x - 3| + C\\
 $$
 
 :::{admonition} Uitwerking
@@ -296,7 +296,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int \dfrac{6x + 13}{x^2 + 2x - 15} \, dx &= \dfrac{17}{8} \ln|x + 5 | + \dfrac{31}{8} \ln| x - 3| + C\\
+    \int \dfrac{6x + 13}{x^2 + 2x - 15} \, dx = \dfrac{17}{8} \ln|x + 5 | + \dfrac{31}{8} \ln| x - 3| + C\\
 $$
 
 :::{admonition} Uitwerking
@@ -393,7 +393,7 @@ $$
 :class: important, dropdown
 
 $$
-    \int \dfrac{10x + 19}{x^2 + 3x - 10} \, dx &= \dfrac{31}{7} \ln|x + 5 | + \dfrac{39}{7} \ln| x - 2| + C\\
+    \int \dfrac{10x + 19}{x^2 + 3x - 10} \, dx = \dfrac{31}{7} \ln|x + 5 | + \dfrac{39}{7} \ln| x - 2| + C\\
 $$
 
 :::{admonition} Uitwerking
@@ -476,6 +476,583 @@ $$
    &= \int \dfrac{ 31/7 }{ x + 5 } \, dx + \int \dfrac{ 39/7 }{ x - 2 } \, dx\\
    &= \dfrac{31}{7} \int \dfrac{ 1 }{ x + 5 } \, dx + \dfrac{39}{7} \int \dfrac{ 1 }{ x - 2 } \, dx\\
    &= \dfrac{31}{7} \ln|x + 5 | + \dfrac{39}{7} \ln| x - 2| + C\\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2f
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{4x + 9}{x^2 + 5x + 6} \, dx = \ln|x + 2 | + 3\ln| x + 3| + C\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+\int \dfrac{4x + 9}{x^2 + 5x + 6} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+\int \dfrac{4x + 9}{(x + 2)(x + 3)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 3 } \\
+&= \dfrac{ A(x + 3) }{ (x + 2 ) (x + 3) } + \dfrac{ B(x + 2) }{ (x + 2 ) (x + 3) } \\
+&= \dfrac{ A(x + 3) + B(x + 2) }{ (x + 2) (x + 3) } \\
+&= \dfrac{ Ax + 3A + Bx + 2B }{ (x + 2) (x + 3) } \\
+&= \dfrac{ (A + B)x + 3A + 2B }{ (x + 2) (x + 3) } \
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{4x + 9}{(x + 2)(x + 3)} = \dfrac{ (A + B)x + 3A + 2B }{ (x + 2) (x + 3) }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+4x + 9 = (A + B)x + 3A + 2B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A+B &= 4 \\
+3A + 2B &= 9
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= 4 - B \\
+3(4 - B) + 2B &= 9 \\
+12 - 3B + 2B &= 9 \\
+-B &= -3 \\
+B &= 3
+\end{align}
+$$
+
+B invullen geeft:
+
+$$
+\begin{align}
+A &= 4 - 3 \\
+A &= 1
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{4x + 9}{x^2 + 5x + 6} , dx & = \int \dfrac{4x + 9}{(x + 2)(x + 3)} , dx\\
+&= \int \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 3 } , dx\\
+&= \int \dfrac{ A }{ x + 2 } , dx + \int \dfrac{ B }{ x + 3 } , dx\\
+&= \int \dfrac{ 1 }{ x + 2 } , dx + \int \dfrac{ 3 }{ x + 3 } , dx\\
+&= \int \dfrac{ 1 }{ x + 2 } , dx + 3 \int \dfrac{ 1 }{ x + 3 } , dx\\
+&= \ln|x + 2 | + 3\ln| x + 3| + C\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2g
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{3x + 5}{x^2 + 7x + 10} \, dx = -2 \ln|x + 2 | + 5\ln| x + 5| + C
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+\int \dfrac{3x + 5}{x^2 + 7x + 10} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+\int \dfrac{3x + 5}{(x + 2)(x + 5)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 5 } \\
+&= \dfrac{ A(x + 5) }{ (x + 2 ) (x + 5) } + \dfrac{ B(x + 2) }{ (x + 2 ) (x + 5) } \\
+&= \dfrac{ A(x + 5) + B(x + 2) }{ (x + 2) (x + 5) } \\
+&= \dfrac{ Ax + 5A + Bx + 2B }{ (x + 2) (x + 5) } \\
+&= \dfrac{ (A + B)x + 5A + 2B }{ (x + 2) (x + 5) }
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{3x + 5}{(x + 2)(x + 5)} = \dfrac{ (A + B)x + 5A + 2B }{ (x + 2) (x + 5) }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+3x + 5 = (A + B)x + 5A + 2B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A+B &= 3 \\
+5A + 2B &= 5
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= 3 - B \\
+5(3 - B) + 2B &= 5 \\
+15 - 5B + 2B &= 5 \\
+-3B &= -10 \\
+B &= \dfrac{10}{3}
+\end{align}
+$$
+
+B invullen geeft:
+
+$$
+\begin{align}
+A &= 3 - \dfrac{10}{3} \\
+A &= \dfrac{9}{3} - \dfrac{10}{3} \\
+A &= -\dfrac{1}{3}
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{3x + 5}{x^2 + 7x + 10} \, dx & = \int \dfrac{3x + 5}{(x + 2)(x + 5)} \, dx\\
+&= \int \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 5 } \, dx\\
+&= \int \dfrac{ -1/3 }{ x + 2 } \, dx + \int \dfrac{ 10/3 }{ x + 5 } \, dx\\
+&= -\dfrac{1}{3} \int \dfrac{ 1 }{ x + 2 } \, dx + \dfrac{10}{3} \int \dfrac{ 1 }{ x + 5 } \, dx\\
+&= -\dfrac{1}{3} \ln|x + 2 | + \dfrac{10}{3} \ln| x + 5| + C
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2h
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{5x + 4}{x^2 + 6x + 8} \, dx = -3 \ln|x + 2 | + 8\ln| x + 4| + C\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+\int \dfrac{5x + 4}{x^2 + 6x + 8} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+\int \dfrac{5x + 4}{(x + 2)(x + 4)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 4 } \\
+&= \dfrac{ A(x + 4) }{ (x + 2 ) (x + 4) } + \dfrac{ B(x + 2) }{ (x + 2 ) (x + 4) } \\
+&= \dfrac{ A(x + 4) + B(x + 2) }{ (x + 2) (x + 4) } \\
+&= \dfrac{ Ax + 4A + Bx + 2B }{ (x + 2) (x + 4) } \\
+&= \dfrac{ (A + B)x + 4A + 2B }{ (x + 2) (x + 4) } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{5x + 4}{(x + 2)(x + 4)} = \dfrac{ (A + B)x + 4A + 2B }{ (x + 2) (x + 4) }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+5x + 4 = (A + B)x + 4A + 2B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A+B &= 5 \\
+4A + 2B &= 4
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= 5 - B \\
+4(5 - B) + 2B &= 4 \\
+20 - 4B + 2B &= 4 \\
+-2B &= -16 \\
+B &= 8
+\end{align}
+$$
+
+B invullen geeft:
+
+$$
+\begin{align}
+A &= 5 - 8 \\
+A &= -3
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{5x + 4}{x^2 + 6x + 8} \, dx & = \int \dfrac{5x + 4}{(x + 2)(x + 4)} \, dx\\
+&= \int \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 4 } \, dx\\
+&= \int \dfrac{ -3 }{ x + 2 } \, dx + \int \dfrac{ 8 }{ x + 4 } \, dx\\
+&= -3 \int \dfrac{ 1 }{ x + 2 } \, dx + 8 \int \dfrac{ 1 }{ x + 4 } \, dx\\
+&= -3 \ln|x + 2 | + 8\ln| x + 4| + C\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+
+## Opgave 6.3.2i
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{-5x + 6}{x^2 + 6x + 8} \, dx = 8 \ln|x + 2 | - 13\ln| x + 4| + C\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+\int \dfrac{-5x + 6}{x^2 + 6x + 8} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+\int \dfrac{-5x + 6}{(x + 2)(x + 4)} \ dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 4 } \\
+&= \dfrac{ A(x + 4) }{ (x + 2 ) (x + 4) } + \dfrac{ B(x + 2) }{ (x + 2 ) (x + 4) } \\
+&= \dfrac{ A(x + 4) + B(x + 2) }{ (x + 2) (x + 4) } \\
+&= \dfrac{ Ax + 4A + Bx + 2B }{ (x + 2) (x + 4) } \\
+&= \dfrac{ (A + B)x + 4A + 2B }{ (x + 2) (x + 4) } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{-5x + 6}{(x + 2)(x + 4)} = \dfrac{ (A + B)x + 4A + 2B }{ (x + 2) (x + 4) }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+-5x + 6 = (A + B)x + 4A + 2B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A+B &= -5 \\
+4A + 2B &= 6
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= -5 - B \\
+4(-5 - B) + 2B &= 6 \\
+-20 - 4B + 2B &= 6 \\
+-2B &= 26 \\
+B &= -13
+\end{align}
+$$
+
+B invullen geeft:
+
+$$
+\begin{align}
+A &= -5 - (-13) \\
+A &= -5 + 13 \\
+A &= 8
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{-5x + 6}{x^2 + 6x + 8} \, dx & = \int \dfrac{-5x + 6}{(x + 2)(x + 4)} \, dx\\
+&= \int \dfrac{ A }{ x + 2 } + \dfrac{ B }{ x + 4 } \, dx\\
+&= \int \dfrac{ A }{ x + 2 } \, dx + \int \dfrac{ B }{ x + 4 } \, dx\\
+&= \int \dfrac{ 8 }{ x + 2 } \, dx + \int \dfrac{ -13 }{ x + 4 } \, dx\\
+&= 8 \int \dfrac{ 1 }{ x + 2 } \, dx - 13 \int \dfrac{ 1 }{ x + 4 } \, dx\\
+&= 8 \ln|x + 2 | - 13\ln| x + 4| + C
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2j
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{7x - 1}{x^2 + 3x - 10} , dx &= 3 \ln|x - 2 | + 4\ln| x + 5| + C\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+\int \dfrac{7x - 1}{(x - 2)(x + 5)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 5 } \\
+&= \dfrac{ A(x + 5) }{ (x - 2 ) (x + 5) } + \dfrac{ B(x - 2) }{ (x - 2 ) (x + 5) } \\
+&= \dfrac{ A(x + 5) + B(x - 2) }{ (x - 2) (x + 5) } \\
+&= \dfrac{ Ax + 5A + Bx - 2B }{ (x - 2) (x + 5) } \\
+&= \dfrac{ (A + B)x + 5A - 2B }{ (x - 2) (x + 5) } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{7x - 1}{(x - 2)(x + 5)} = \dfrac{ (A + B)x + 5A - 2B }{ (x - 2) (x + 5) }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+7x - 1 = (A + B)x + 5A - 2B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A+B &= 7 \\
+5A - 2B &= -1
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= 7 - B \\
+5(7 - B) - 2B &= -1 \\
+35 - 5B - 2B &= -1 \\
+-7B &= -36 \\
+B &= \dfrac{36}{7}
+\end{align}
+$$
+
+B invullen geeft:
+
+$$
+\begin{align}
+A &= 7 - \dfrac{36}{7} \\
+A &= \dfrac{49}{7} - \dfrac{36}{7} \\
+A &= \dfrac{13}{7}
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx & = \int \dfrac{7x - 1}{(x - 2)(x + 5)} \, dx\\
+&= \int \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 5 } \, dx\\
+&= \int \dfrac{ 13/7 }{ x - 2 } \, dx + \int \dfrac{ 36/7 }{ x + 5 } \, dx\\
+&= \dfrac{13}{7} \int \dfrac{ 1 }{ x - 2 } \, dx + \dfrac{36}{7} \int \dfrac{ 1 }{ x + 5 } \, dx\\
+&= \dfrac{13}{7} \ln|x - 2 | + \dfrac{36}{7} \ln| x + 5| + C\\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2j
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx = 3 \ln|x - 2 | + 4\ln| x + 5| + C\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+\int \dfrac{7x - 1}{(x - 2)(x + 5)} , dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 5 } \\
+&= \dfrac{ A(x + 5) }{ (x - 2 ) (x + 5) } + \dfrac{ B(x - 2) }{ (x - 2 ) (x + 5) } \\
+&= \dfrac{ A(x + 5) + B(x - 2) }{ (x - 2) (x + 5) } \\
+&= \dfrac{ Ax + 5A + Bx - 2B }{ (x - 2) (x + 5) } \\
+&= \dfrac{ (A + B)x + 5A - 2B }{ (x - 2) (x + 5) } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{7x - 1}{(x - 2)(x + 5)} = \dfrac{ (A + B)x + 5A - 2B }{ (x - 2) (x + 5) }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+7x - 1 = (A + B)x + 5A - 2B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A+B &= 7 \\
+5A - 2B &= -1
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= 7 - B \\\
+5(7 - B) - 2B &= -1 \\
+35 - 5B - 2B &= -1 \\
+-7B &= -36 \\
+B &= \dfrac{36}{7}
+\end{align}
+$$
+
+B invullen geeft:
+
+$$
+\begin{align}
+A &= 7 - \dfrac{36}{7} \\
+A &= \dfrac{49}{7} - \dfrac{36}{7} \\
+A &= \dfrac{13}{7}
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{7x - 1}{x^2 + 3x - 10} , dx & = \int \dfrac{7x - 1}{(x - 2)(x + 5)} \, dx\\
+&= \int \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 5 } \, dx\\
+&= \int \dfrac{ 13/7 }{ x - 2 } , dx + \int \dfrac{ 36/7 }{ x + 5 } \, dx\\
+&= \dfrac{13}{7} \int \dfrac{ 1 }{ x - 2 } , dx + \dfrac{36}{7} \int \dfrac{ 1 }{ x + 5 } \, dx\\
+&= \dfrac{13}{7} \ln|x - 2 | + \dfrac{36}{7} \ln| x + 5| + C\
 \end{align}
 $$
 
