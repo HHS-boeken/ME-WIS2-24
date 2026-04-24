@@ -52,3 +52,53 @@ $$
 
 
 <hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2f
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{4x + 9}{x^2 + 5x + 6} \, dx
+$$
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2g
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{3x - 7}{x^2 - x - 6} \, dx
+$$
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2h
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{9x + 4}{x^2 - 7x + 10} \, dx
+$$
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2i
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{-5x + 6}{x^2 + 6x + 8} \, dx
+$$
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.2j
+
+Bereken de onbepaalde integraal:
+
+$$
+    \int \dfrac{11x - 3}{x^2 - 2x - 8} \, dx
+$$
+
+<hr style="border:1px solid #9EA700">
