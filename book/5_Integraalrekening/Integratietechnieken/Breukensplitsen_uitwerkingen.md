@@ -586,7 +586,7 @@ $$
 :class: important, dropdown
 
 $$
-\int \dfrac{3x + 5}{x^2 + 7x + 10} \, dx = -2 \ln|x + 2 | + 5\ln| x + 5| + C
+\int \dfrac{3x + 5}{x^2 + 7x + 10} \, dx = -\dfrac{1}{3} \ln|x + 2 | + \dfrac{10}{3} \ln| x + 5| + C
 $$
 
 :::{admonition} Uitwerking
@@ -875,7 +875,7 @@ $$
 :class: important, dropdown
 
 $$
-\int \dfrac{7x - 1}{x^2 + 3x - 10} , dx &= 3 \ln|x - 2 | + 4\ln| x + 5| + C\
+\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx = \dfrac{13}{7} \ln|x - 2 | + \dfrac{36}{7} \ln| x + 5| + C\\
 $$
 
 :::{admonition} Uitwerking
@@ -962,101 +962,3 @@ $$
 
 :::
 ::::
-
-<hr style="border:1px solid #9EA700">
-
-## Opgave 6.3.2j
-
-::::{admonition} Antwoord
-:class: important, dropdown
-
-$$
-\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx = 3 \ln|x - 2 | + 4\ln| x + 5| + C\
-$$
-
-:::{admonition} Uitwerking
-:class: important, dropdown
-
-Bepaal de onbepaalde integraal:
-
-$$
-\int \dfrac{7x - 1}{x^2 + 3x - 10} \, dx
-$$
-
-De teller ontbinden in factoren:
-
-$$
-\int \dfrac{7x - 1}{(x - 2)(x + 5)} , dx
-$$
-
-Toepassen van de regel voor breukensplitsen geeft:
-
-$$
-\begin{align}
-&= \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 5 } \\
-&= \dfrac{ A(x + 5) }{ (x - 2 ) (x + 5) } + \dfrac{ B(x - 2) }{ (x - 2 ) (x + 5) } \\
-&= \dfrac{ A(x + 5) + B(x - 2) }{ (x - 2) (x + 5) } \\
-&= \dfrac{ Ax + 5A + Bx - 2B }{ (x - 2) (x + 5) } \\
-&= \dfrac{ (A + B)x + 5A - 2B }{ (x - 2) (x + 5) } \\
-\end{align}
-$$
-
-Gelijk stellen aan elkaar geeft:
-
-$$
-\dfrac{7x - 1}{(x - 2)(x + 5)} = \dfrac{ (A + B)x + 5A - 2B }{ (x - 2) (x + 5) }
-$$
-
-Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
-
-$$
-7x - 1 = (A + B)x + 5A - 2B
-$$
-
-Hieruit volgt:
-
-$$
-\begin{align}
-A+B &= 7 \\
-5A - 2B &= -1
-\end{align}
-$$
-
-Oplossen en substitueren geeft:
-
-$$
-\begin{align}
-A &= 7 - B \\\
-5(7 - B) - 2B &= -1 \\
-35 - 5B - 2B &= -1 \\
--7B &= -36 \\
-B &= \dfrac{36}{7}
-\end{align}
-$$
-
-B invullen geeft:
-
-$$
-\begin{align}
-A &= 7 - \dfrac{36}{7} \\
-A &= \dfrac{49}{7} - \dfrac{36}{7} \\
-A &= \dfrac{13}{7}
-\end{align}
-$$
-
-A en B invullen in de integraal en oplossen geeft:
-
-$$
-\begin{align}
-\int \dfrac{7x - 1}{x^2 + 3x - 10} , dx & = \int \dfrac{7x - 1}{(x - 2)(x + 5)} \, dx\\
-&= \int \dfrac{ A }{ x - 2 } + \dfrac{ B }{ x + 5 } \, dx\\
-&= \int \dfrac{ 13/7 }{ x - 2 } , dx + \int \dfrac{ 36/7 }{ x + 5 } \, dx\\
-&= \dfrac{13}{7} \int \dfrac{ 1 }{ x - 2 } , dx + \dfrac{36}{7} \int \dfrac{ 1 }{ x + 5 } \, dx\\
-&= \dfrac{13}{7} \ln|x - 2 | + \dfrac{36}{7} \ln| x + 5| + C\
-\end{align}
-$$
-
-:::
-::::
-
-<hr style="border:1px solid #9EA700">
