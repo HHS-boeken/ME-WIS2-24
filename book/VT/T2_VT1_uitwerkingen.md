@@ -37,7 +37,8 @@ Vereenvoudig de breuk:
 \end{align}
 ```
 ````
----
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 2 (3 punten)
 
@@ -88,7 +89,7 @@ Dit geeft:
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 3 (3 punten)
 
@@ -116,7 +117,7 @@ Invullen van $x=0$ geeft:
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 4 (4 punten)
 
@@ -156,7 +157,7 @@ Toepassen van de quotiëntregel:
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 5 (10 punten)
 
@@ -243,7 +244,8 @@ Dus buigpunt is (4.48 ; 3.35).
 
 ```
 ````
----
+
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 6 ( 6 punten)
 
@@ -292,7 +294,7 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 7 (4 punten)
 
@@ -346,7 +348,7 @@ Terugsubstitueren geeft:
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 8 (8 punten)
 
@@ -439,7 +441,7 @@ Dus,
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 9 (7 punten)
 
@@ -514,7 +516,7 @@ A en B invullen in de integraal en oplossen geeft:
 ```
 ````
 
----
+<hr style="border:1px solid #9EA700">
 
 ## Opgave 10 (11 punten)
 
