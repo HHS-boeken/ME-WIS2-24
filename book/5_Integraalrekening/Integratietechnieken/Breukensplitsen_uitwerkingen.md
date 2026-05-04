@@ -1391,3 +1391,259 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
+## Opgave 6.3.3f
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+    \int \dfrac{7x + 3}{x^2 - 6x + 9} \, dx = 7\ln|x - 3 | - \dfrac{18}{x - 3} + C\\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+    \int \dfrac{7x + 3}{x^2 - 6x + 9} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+    \int \dfrac{7x + 3}{(x - 3)(x - 3)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+    &= \dfrac{ A }{ x - 3 } + \dfrac{ B }{ (x - 3)^2 } \\
+    &= \dfrac{ A(x - 3) }{ (x - 3) (x - 3) } + \dfrac{ B }{ (x - 3 )^2 } \\
+    &= \dfrac{ A(x - 3) + B }{ (x - 3)^2 } \\
+    &= \dfrac{ Ax - 3A + B  }{ (x - 3)^2 } \\
+    &= \dfrac{ Ax - 3A + B }{ (x - 3)^2 } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+    \dfrac{7x + 3}{(x - 3)^2} = \dfrac{ Ax - 3A + B }{ (x - 3)^2 } 
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+   7x+3 = Ax - 3A + B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+   A &= 7 \\
+   -3A + B &= 3
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+   A &= 7\\
+   -21 + B &= 3 \\
+   B &= 24
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+   \int \dfrac{7x + 3}{x^2 - 6x + 9} \, dx & = \int \dfrac{7x + 3}{(x - 3)(x - 3)} \, dx\\
+   &= \int \dfrac{ A }{ x - 3 } + \dfrac{ B }{ (x - 3)^2 } \, dx\\
+   &= \int \dfrac{ A }{ x - 3 } \, dx + \int \dfrac{ B }{ (x - 3)^2 } \, dx\\
+   &= \int \dfrac{ 7 }{ x - 3 } \, dx + \int \dfrac{ 24 }{ (x - 3)^2 } \, dx\\
+   &= 7 \int \dfrac{ 1 }{ x - 3 } \, dx + 24 \int \dfrac{ 1 }{ (x - 3)^2 } \, dx\\
+   &= 7\ln|x - 3 | - \dfrac{24}{x - 3} + C\\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.3g
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+    \int \dfrac{6x - 5}{x^2 + 10x + 25} \, dx = 6\ln|x + 5 | + \dfrac{35}{x + 5} + C\\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+    \int \dfrac{6x - 5}{x^2 + 10x + 25} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+    \int \dfrac{6x - 5}{(x + 5)(x + 5)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+    &= \dfrac{ A }{ x + 5 } + \dfrac{ B }{ (x + 5)^2 } \\
+    &= \dfrac{ A(x + 5) }{ (x + 5) (x + 5) } + \dfrac{ B }{ (x + 5 )^2 } \\
+    &= \dfrac{ A(x + 5) + B }{ (x + 5)^2 } \\
+    &= \dfrac{ Ax + 5A + B  }{ (x + 5)^2 } \\
+    &= \dfrac{ Ax + 5A + B }{ (x + 5)^2 } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+    \dfrac{6x - 5}{(x + 5)^2} = \dfrac{ Ax + 5A + B }{ (x + 5)^2 } 
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+   6x-5 = Ax + 5A + B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+   A &= 6 \\
+   5A + B &= -5
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+   A &= 6\\
+   30 + B &= -5 \\
+   B &= -35
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+   \int \dfrac{6x - 5}{x^2 + 10x + 25} \, dx & = \int \dfrac{6x - 5}{(x + 5)(x + 5)} \, dx\\
+   &= \int \dfrac{ A }{ x + 5 } + \dfrac{ B }{ (x + 5)^2 } \, dx\\
+   &= \int \dfrac{ A }{ x + 5 } \, dx + \int \dfrac{ B }{ (x + 5)^2 } \, dx\\
+   &= \int \dfrac{ 6 }{ x + 5 } \, dx + \int \dfrac{ -35 }{ (x + 5)^2 } \, dx\\
+   &= 6 \int \dfrac{ 1 }{ x + 5 } \, dx - 35 \int \dfrac{ 1 }{ (x + 5)^2 } \, dx\\
+   &= 6\ln|x + 5 | + \dfrac{35}{x + 5} + C\\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
+## Opgave 6.3.3h
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+    \int \dfrac{-4x + 1}{x^2 - 4x + 4} \, dx = -4\ln|x - 2 | - \dfrac{7}{x - 2} + C\\
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+    \int \dfrac{-4x + 1}{x^2 - 4x + 4} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+    \int \dfrac{-4x + 1}{(x - 2)(x - 2)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+    &= \dfrac{ A }{ x - 2 } + \dfrac{ B }{ (x - 2)^2 } \\
+    &= \dfrac{ A(x - 2) }{ (x - 2) (x - 2) } + \dfrac{ B }{ (x - 2 )^2 } \\
+    &= \dfrac{ A(x - 2) + B }{ (x - 2)^2 } \\
+    &= \dfrac{ Ax - 2A + B  }{ (x - 2)^2 } \\
+    &= \dfrac{ Ax - 2A + B }{ (x - 2)^2 } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+    \dfrac{-4x + 1}{(x - 2)^2} = \dfrac{ Ax - 2A + B }{ (x - 2)^2 } 
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+   -4x+1 = Ax - 2A + B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+   A &= -4 \\
+   -2A + B &= 1
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+   A &= -4\\
+   -2(-4) + B &= 1 \\
+   8 + B &= 1 \\
+   B &= -7
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+   \int \dfrac{-4x + 1}{x^2 - 4x + 4} \, dx & = \int \dfrac{-4x + 1}{(x - 2)(x - 2)} \, dx\\
+   &= \int \dfrac{ A }{ x - 2 } + \dfrac{ B }{ (x - 2)^2 } \, dx\\
+   &= \int \dfrac{ A }{ x - 2 } \, dx + \int \dfrac{ B }{ (x - 2)^2 } \, dx\\
+   &= \int \dfrac{ -4 }{ x - 2 } \, dx + \int \dfrac{ -7 }{ (x - 2)^2 } \, dx\\
+   &= -4 \int \dfrac{ 1 }{ x - 2 } \, dx - 7 \int \dfrac{ 1 }{ (x - 2)^2 } \, dx\\
+   &= -4\\ln|x - 2 | + \dfrac{7}{x - 2} + C\\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
+
