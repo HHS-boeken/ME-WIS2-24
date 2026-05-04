@@ -1,5 +1,7 @@
 # Voorbeeldtoets 1: Opgaven
 
+<hr style="border:2px solid #9EA700">
+
 ## Opgave 1
 
 Schrijf in de vorm $\dfrac{m}{x-p} + q$:
