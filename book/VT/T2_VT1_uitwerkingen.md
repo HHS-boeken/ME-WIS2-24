@@ -1,6 +1,6 @@
-## Voorbeeld Toets1 - T2: Uitwerkingen
+# Voorbeeldtoets 1: Uitwerkingen
 
-### Opgave 1 (3 punten)
+## Opgave 1 (3 punten)
 
 ````{admonition} Antwoord
 :class: dropdown
@@ -9,8 +9,7 @@
 \frac{7}{3} - \frac{17}{3(3x + 2)}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Schrijf in de vorm $\dfrac{m}{x - p} + q$:
 \begin{align*}
@@ -40,7 +39,7 @@ Vereenvoudig de breuk:
 ````
 ---
 
-### Opgave 2 (3 punten)
+## Opgave 2 (3 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -92,7 +91,7 @@ Dit geeft:
 
 ---
 
-### Opgave 3 (3 punten)
+## Opgave 3 (3 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -121,7 +120,7 @@ Invullen van $x=0$ geeft:
 
 ---
 
-### Opgave 4 (4 punten)
+## Opgave 4 (4 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -162,7 +161,7 @@ Toepassen van de quotiëntregel:
 
 ---
 
-### Opgave 5 (10 punten)
+## Opgave 5 (10 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -250,7 +249,7 @@ Dus buigpunt is (4.48 ; 3.35).
 ````
 ---
 
-### Opgave 6 ( 6 punten)
+## Opgave 6 ( 6 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown 
@@ -259,8 +258,7 @@ Dus buigpunt is (4.48 ; 3.35).
     f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bepaal de 3e orde Maclaurin-reeks van
 \begin{align*}
@@ -300,7 +298,7 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 
 ---
 
-### Opgave 7 (4 punten)
+## Opgave 7 (4 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown 
@@ -309,8 +307,7 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
     \int x^2 \cdot \sin(x^3) \, dx &= -\dfrac{1}{3} \cos(x^3) + C \\
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de onbepaalde integraal:
 \begin{align*}
@@ -355,7 +352,7 @@ Terugsubstitueren geeft:
 
 ---
 
-### Opgave 8 (8 punten)
+## Opgave 8 (8 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
@@ -364,8 +361,7 @@ Terugsubstitueren geeft:
     F(x) &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Primitiveer:
 \begin{align*}
@@ -449,7 +445,7 @@ Dus,
 
 ---
 
-### Opgave 9 (7 punten)
+## Opgave 9 (7 punten)
 
 
 ````{admonition} Antwoord
@@ -526,7 +522,7 @@ A en B invullen in de integraal en oplossen geeft:
 
 ---
 
-### Opgave 10 (11 punten)
+## Opgave 10 (11 punten)
 
 ````{admonition} Antwoord
 :class:  dropdown
