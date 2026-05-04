@@ -197,11 +197,10 @@ parts:
       - file: VT/VT2_uitwerkingen.md
       - file: VT/VT3_opgaven.md
       - file: VT/VT3_uitwerkingen.md
-
-  #- caption: Voorbeeld Toets - T2
-    #chapters:
-    #- file: VT/T2_VT1_opgaven.md
-    #- file: VT/T2_VT1_uitwerkingen.md
+    - file: VT/T2.md
+      sections:
+      - file: VT/T2_VT1_opgaven.md
+      - file: VT/T2_VT1_uitwerkingen.md
 
   #- caption: Voorbeeld Toets - T3
     #chapters:
