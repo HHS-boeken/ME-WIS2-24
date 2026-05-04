@@ -3,133 +3,136 @@
 ````{admonition} Theorie: Breukensplitsen
 :class: tip, dropdown open
 
-# 🧠 Wanneer gebruik je breuksplitsen?
+Breukensplitsen gebruik je bij het berekenen van primitieve van **gebroken functies**.
 
-Breuksplitsen gebruik je bij het berekenen van **integralen van rationale functies**: breuken waarin zowel de teller als de noemer **veeltermen** zijn. Het doel is om de breuk te herschrijven als een som van **eenvoudige standaardbreuken** die makkelijk te integreren zijn.
+Het gaat dan om integralen van de vorm:
+
+\begin{align*}
+    \int \dfrac{\text{veelterm}}{\text{veelterm}} \, dx
+\end{align*}
+
+Het idee is dat je de breuk herschrijft als een som van eenvoudigere breuken. Die losse breuken kun je daarna apart primitiveren.
+
+---
+
+## Wanneer gebruik je breukensplitsen?
+
+Je gebruikt breukensplitsen als:
+- de teller en noemer uit veeltermen bestaan
+- de noemer ontbonden kan worden in factoren
+- de losse breuken daarna eenvoudiger te primitiveren zijn
+
+Let daarbij op het volgende:
+- Is de **graad van de teller kleiner** dan de graad van de noemer, dan kun je direct beginnen met breukensplitsen
+- Is de **graad van de teller groter dan of gelijk aan** de graad van de noemer, dan moet je **eerst een staartdeling** uitvoeren
+
+---
+
+## Stappenplan bij breukensplitsen
+
+```{admonition} Situatie 1: noemer heeft twee verschillende lineaire factoren
+:class: warning
 
 Bijvoorbeeld:
 
+$$
+    \dfrac{ax+b}{(x-p)(x-q)}
+$$
 
-Breuksplitsen maakt zulke integralen overzichtelijk en oplosbaar.
+Dan schrijf je:
 
-Je gebruikt breuksplitsen als:
-- De **graad van de teller lager is dan die van de noemer** (anders eerst polynoomdeling).
-- De **noemer ontbindbaar is** in lineaire en/of kwadratische factoren.
+$$
+    \dfrac{ax+b}{(x-p)(x-q)} = \dfrac{A}{x-p} + \dfrac{B}{x-q}
+$$
 
----
+Daarna werk je de rechterkant uit tot één breuk en stel je de tellers aan elkaar gelijk. Zo kun je $A$ en $B$ berekenen.
 
-## 📐 De hoofdgedachte
+Als je $A$ en $B$ hebt gevonden, vul je deze weer in en primitiveer je beide losse breuken apart.
 
-Je schrijft:
-
-
-Zodat de rechterkant bestaat uit **losse, eenvoudige breuken** die makkelijk te integreren zijn.
-
-Voorbeeld:
-
-\[
-\frac{5x + 2}{(x + 1)(x - 3)} = \frac{A}{x + 1} + \frac{B}{x - 3}
-\]
-
----
-
-## 🔢 Stappenplan
-
-1. **Controleer de graad** van teller en noemer:
-   - Als \( \deg(\text{teller}) \geq \deg(\text{noemer}) \): eerst **polynoomdeling**.
-2. **Ontbind de noemer** in factoren (lineair en/of irreducibel kwadratisch).
-3. **Kies de juiste vorm** van de breuksplitsing (zie tabel hieronder).
-4. **Werk de breuksplitsing uit**:
-   - Vermenigvuldig met de noemer om de breuken weg te werken.
-   - Los de constanten op via:
-     - **Slimme waarden** van \( x \), of
-     - **Coëfficiënten vergelijken**
-5. **Integreer elke losse breuk** apart.
-
----
-
-## 🧭 Hulpmiddel: Tabel van breukvormen
-
-| Type factor in de noemer                    | Vorm van de breuk                         |
-|---------------------------------------------|--------------------------------------------|
-| \( (x - a) \)                                | \( \frac{A}{x - a} \)                      |
-| \( (x - a)^n \)                              | \( \frac{A_1}{x - a} + \cdots + \frac{A_n}{(x - a)^n} \) |
-| \( x^2 + bx + c \) (niet ontbindbaar)        | \( \frac{Ax + B}{x^2 + bx + c} \)          |
-| \( (x^2 + bx + c)^n \)                       | \( \frac{A_1x + B_1}{x^2 + bx + c} + \cdots + \frac{A_nx + B_n}{(x^2 + bx + c)^n} \) |
-
----
-
-## 💡 Tips & aandachtspunten
-
-- ❗ **Tellergraad checken** is cruciaal. Anders levert breuksplitsen geen vereenvoudiging op.
-- ✏️ Begin bij lineaire factoren met **slimme waarden voor \( x \)** (die factoren laten wegvallen).
-- 🤓 Bij kwadratische factoren heb je **altijd een teller van vorm \( Ax + B \)**.
-- 🔁 Herhaalde factoren krijgen meerdere breuken met oplopende machten.
-- ⛔ Niet alle noemers zijn te ontbinden met reële getallen — gebruik dan irreducibele vormen.
-
----
-
-## ✅ Voorbeeld
-
-Splits:
-\[
-\frac{5x + 2}{(x + 1)(x - 3)}
-\]
-
-Stel:
-\[
-\frac{5x + 2}{(x + 1)(x - 3)} = \frac{A}{x + 1} + \frac{B}{x - 3}
-\]
-
-Maal links en rechts met de noemer:
-\[
-5x + 2 = A(x - 3) + B(x + 1)
-\]
-
-Kies:
-- \( x = 3 \Rightarrow 5(3) + 2 = 0A + 4B \Rightarrow B = \frac{17}{4} \)
-- \( x = -1 \Rightarrow 5(-1) + 2 = -4A + 0 \Rightarrow A = -\frac{3}{4} \)
-
-Oplossing:
-\[
-\frac{5x + 2}{(x + 1)(x - 3)} = \frac{-\frac{3}{4}}{x + 1} + \frac{\frac{17}{4}}{x - 3}
-\]
 ```
 
-````{admonition} Voorbeeld 1: Partieel integreren
-:class: dropdown
+```{admonition} Situatie 2: noemer heeft een dubbele factor
+:class: warning
 
-Bereken de onbepaalde integraal:
+Bijvoorbeeld:
+
+$$
+    \dfrac{ax+b}{(x-p)^2}
+$$
+
+Dan schrijf je:
+
+$$
+    \dfrac{ax+b}{(x-p)^2} = \dfrac{A}{x-p} + \dfrac{B}{(x-p)^2}
+$$
+
+Ook hier werk je de rechterkant uit tot één breuk en stel je daarna de tellers aan elkaar gelijk. Zo bereken je $A$ en $B$.
+
+Daarna primitiveer je beide losse breuken apart.
+
+```
+
+```{admonition} Situatie 3: teller groter dan noemer
+:class: warning
+
+Als de teller groter is dan de noemer, dan kun je niet direct breukensplitsen.
+
+Je begint dan met een **staartdeling**. Daarmee schrijf je de breuk als:
+
+$$
+    \dfrac{\text{teller}}{\text{noemer}} = \text{veelterm} + \dfrac{\text{rest}}{\text{noemer}}
+$$
+
+De veelterm primitiveer je direct.  
+De overgebleven breuk splits je daarna verder met breukensplitsen.
+
+```
+
+## Waar moet je op letten?
+
+- Ontbind de noemer eerst volledig in factoren
+- Schrijf de juiste vorm van de breuksplitsing op
+- Werk de rechterkant netjes uit tot één breuk
+- Noemers zijn gelijk, dus daarna moeten de tellers ook gelijk zijn
+- Vergelijk de coëfficiënten bij de teller om de onbekenden te vinden
+- Primitiveer daarna elke losse term apart
+
+---
+
+## Handige standaardvormen
+
+Bij deze paragraaf gebruik je vooral:
+
 \begin{align*}
-    \int (2x+3)\cos(x) \, dx
+    \dfrac{ax+b}{(x-p)(x-q)} &= \dfrac{A}{x-p} + \dfrac{B}{x-q} \\
+    \dfrac{ax+b}{(x-p)^2} &= \dfrac{A}{x-p} + \dfrac{B}{(x-p)^2}
 \end{align*}
 
-Kies de functie $u$ en $dv$:
+En als de teller groter is dan de noemer:
+
 \begin{align*}
-    u &= 2x+3 \\
-    dv &= \cos(x) \, dx
+    \dfrac{\text{teller}}{\text{noemer}} = \text{staartdeling} + \text{breukensplitsing}
 \end{align*}
 
-Bepaal $du$:
+---
+
+## Primitiveer daarna de losse breuken
+
+Na het splitsen ontstaan breuken zoals:
+
 \begin{align*}
-    \dfrac{du}{dx} &= 2 \\
-    du &= 2 \, dx \\
+    \int \dfrac{1}{x-a} \, dx
 \end{align*}
 
-Bepaal de functie $v$:
+en
+
 \begin{align*}
-    dv &= \cos(x) \, dx  \\
-    \dfrac{dv}{dx} &= \cos(x) \\
-    v &= \sin(x)
+    \int \dfrac{1}{(x-a)^2} \, dx
 \end{align*}
 
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= (2x+3) \cdot \sin(x) - \int \sin(x) 2 \, dx\\
-    &= (2x+3) \cdot \sin(x) - 2 \int \sin(x) \, dx\\
-    &= (2x+3) \cdot \sin(x) + 2 \cos(x) + C
-\end{align*}
+Deze kun je primitiveren met de standaardregels.
+
+---
 ````
 
 

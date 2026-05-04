@@ -1,5 +1,61 @@
 # 5.3 Reeksen van Maclaurin en Taylor
 
+````{admonition} Theorie
+:class: tip, dropdown open
+
+Bij sommige functies is het lastig om direct te rekenen met de formule van de functie. In dat geval kun je de functie benaderen met een **veelterm**. Dit heet een **reeksontwikkeling**.
+
+Het idee is dat je een functie vervangt door een som van machten van $x$, waarmee je eenvoudiger kunt rekenen, bijvoorbeeld bij limieten.
+
+Er zijn twee belangrijke vormen:
+
+---
+
+***Maclaurinreeks***
+
+De Maclaurinreeks is een benadering van een functie rond het punt **$x = 0$**.
+
+Je schrijft de functie als een som van termen met steeds hogere machten van $x$. Hoe meer termen je gebruikt, hoe nauwkeuriger de benadering wordt.
+
+Bijvoorbeeld:
+- $e^x$ wordt benaderd door: $1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots$
+- $\sin(x)$ wordt benaderd door: $x - \frac{x^3}{3!} + \frac{x^5}{5!} + \dots$
+- $\cos(x)$ wordt benaderd door: $1 - \frac{x^2}{2!} + \frac{x^4}{4!} + \dots$
+
+Deze reeksen gebruik je vooral bij limieten voor $x \to 0$.
+
+---
+
+***Taylorreeks***
+
+De Taylorreeks lijkt op de Maclaurinreeks, maar wordt gebruikt rond een **ander punt dan 0**, bijvoorbeeld $x = 2$ of $x = 1$.
+
+In plaats van machten van $x$, werk je dan met machten van $(x - a)$, waarbij $a$ het punt is waar je rond ontwikkelt.
+
+Ook hier geldt:
+- Hoe meer termen je gebruikt, hoe nauwkeuriger de benadering
+- Je gebruikt de reeks om functies eenvoudiger te maken
+
+---
+```{admonition} Wanneer gebruik je dit?
+:class: warning
+
+Je gebruikt Maclaurin- of Taylorreeksen als:
+- directe invullen niet lukt (bijvoorbeeld $\frac{0}{0}$)
+- L’Hôpital te veel werk wordt
+- je een functie wilt vereenvoudigen naar een veelterm
+
+---
+
+***Belangrijk***
+
+- Vaak heb je maar een paar termen nodig om een limiet te bepalen
+- Let goed op tot welke macht je moet ontwikkelen
+- Termen die uiteindelijk wegvallen hoef je niet volledig uit te schrijven
+
+```
+````
+
 ## 5.3.1 Reeksen van Maclaurin
 
 ```{admonition} Voorbeeld 1: Maclaurin
