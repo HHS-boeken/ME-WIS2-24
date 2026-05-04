@@ -962,3 +962,89 @@ $$
 
 :::
 ::::
+
+## Opgave 6.3.3a
+
+::::{admonition} Antwoord
+:class: important, dropdown
+
+$$
+    \int \dfrac{4x + 7}{x^2 + 6x + 9} \, dx = 4\ln|x + 3 | + \dfrac{5}{x + 3} + C
+$$
+
+:::{admonition} Uitwerking
+:class: important, dropdown
+
+Bepaal de onbepaalde integraal:
+
+$$
+    \int \dfrac{4x + 7}{x^2 + 6x + 9} \, dx
+$$
+
+De teller ontbinden in factoren:
+
+$$
+    \int \dfrac{4x + 7}{(x + 3)(x + 3)} \, dx
+$$
+
+Toepassen van de regel voor breukensplitsen geeft:
+
+$$
+\begin{align}
+&= \dfrac{ A }{ x + 3 } + \dfrac{ B }{ (x + 3)^2 } \\
+&= \dfrac{ A(x + 3) }{ (x + 3) (x + 3) } + \dfrac{ B }{ (x + 3 )^2 } \\
+&= \dfrac{ A(x + 3) + B }{ (x + 3)^2 } \\
+&= \dfrac{ Ax + 3A + B  }{ (x + 3)^2 } \\
+&= \dfrac{ Ax + 3A + B }{ (x + 3)^2 } \\
+\end{align}
+$$
+
+Gelijk stellen aan elkaar geeft:
+
+$$
+\dfrac{4x + 7}{(x + 3)^2} = \dfrac{ Ax + 3A + B }{ (x + 3)^2 }
+$$
+
+Noemers zijn gelijk dus ook tellers moeten gelijk zijn aan elkaar.
+
+$$
+    4x  + 7 = Ax + 3A + B
+$$
+
+Hieruit volgt:
+
+$$
+\begin{align}
+A &= 4 \\
+3A + B &= 7
+\end{align}
+$$
+
+Oplossen en substitueren geeft:
+
+$$
+\begin{align}
+A &= 4\\
+3 \cdot 4 + B &= 7 \\
+12 + B &= 7 \\
+B &= -5
+\end{align}
+$$
+
+A en B invullen in de integraal en oplossen geeft:
+
+$$
+\begin{align}
+\int \dfrac{4x + 7}{x^2 + 6x + 9} \, dx & = \int \dfrac{4x + 7}{(x + 3)(x + 3)} \, dx\\
+&= \int \dfrac{ A }{ x + 3 } + \dfrac{ B }{ (x + 3)^2 } \, dx\\
+&= \int \dfrac{ A }{ x + 3 } \, dx + \int \dfrac{ B }{ (x + 3)^2 } \, dx\\
+&= \int \dfrac{ 4 }{ x + 3 } \, dx + \int \dfrac{ -5 }{ (x + 3)^2 } \, dx\\
+&= 4 \int \dfrac{ 1 }{ x + 3 } \, dx - 5 \int \dfrac{ 1 }{ (x + 3)^2 } \, dx\\
+&= 4\ln|x + 3 | + \dfrac{5}{x + 3} + C\
+\end{align}
+$$
+
+:::
+::::
+
+<hr style="border:1px solid #9EA700">
