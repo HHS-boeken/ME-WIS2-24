@@ -3,7 +3,7 @@
 ## Opgave 1 (3 punten)
 
 ````{admonition} Antwoord
-:class: dropdown
+:class: important, dropdown
 
 \begin{align*}
 \frac{7}{3} - \frac{17}{3(3x + 2)}
@@ -42,14 +42,13 @@ Vereenvoudig de breuk:
 ## Opgave 2 (3 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align}
     \lim_{x \uparrow 3} \frac{ x-9  }{ 12 - 4x } = - \infty
 \end{align}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de limiet:
 
@@ -94,14 +93,13 @@ Dit geeft:
 ## Opgave 3 (3 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align*}
     \lim_{x \to 0} \frac{\sin(x)-x}{x^3} = -\dfrac{1}{6}
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de limiet:
 \begin{align*}
@@ -123,14 +121,13 @@ Invullen van $x=0$ geeft:
 ## Opgave 4 (4 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align*}
   \dfrac{df}{dx} &= \frac{ 2 \sin(x)\cos(x)(\ln(3x+5)) - \dfrac{3\sin^2(x)}{3x+5} }{ \ln^2(3x+5)} 
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken de afgeleide van de volgende functie:
 \begin{align*}
@@ -164,12 +161,11 @@ Toepassen van de quotiëntregel:
 ## Opgave 5 (10 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 Het buigpunt is (4.48 ; 3.35).
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bereken het buigpunt van de grafiek van $f$.
 \begin{align*}
@@ -252,7 +248,7 @@ Dus buigpunt is (4.48 ; 3.35).
 ## Opgave 6 ( 6 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown 
+:class: important, dropdown
 
 \begin{align*}
     f(x) &\approx   2\ln(3) + \dfrac{10}{3}x - \dfrac{25}{9}x^2 + \dfrac{250}{81}x^3  \\
@@ -301,7 +297,7 @@ Invullen van de waaardes in de Maclaurin-reeks geeft:
 ## Opgave 7 (4 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown 
+:class: important, dropdown
 
 \begin{align*}
     \int x^2 \cdot \sin(x^3) \, dx &= -\dfrac{1}{3} \cos(x^3) + C \\
@@ -355,7 +351,7 @@ Terugsubstitueren geeft:
 ## Opgave 8 (8 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align*}
     F(x) &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
@@ -447,16 +443,14 @@ Dus,
 
 ## Opgave 9 (7 punten)
 
-
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align*}
     \int \dfrac{-6x+14}{x^2+2x-3}  \, dx &= -8 \ln|x + 3 | + 2 \ln| x - 1| + C\\
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
@@ -525,14 +519,13 @@ A en B invullen in de integraal en oplossen geeft:
 ## Opgave 10 (11 punten)
 
 ````{admonition} Antwoord
-:class:  dropdown
+:class: important, dropdown
 
 \begin{align*}
  \int \dfrac{x^4 + 1}{x^2 + 2x + 1}  \, dx &= \dfrac{1}{3}x^3 - x^2 + 3x - 4 \ln|x + 1 | - \frac{2}{ x + 1}  + C\\
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+```{dropdown} Uitwerking
 
 Bepaal de onbepaalde integraal:
 \begin{align*}
