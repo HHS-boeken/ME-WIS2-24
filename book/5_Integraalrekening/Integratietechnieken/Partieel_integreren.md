@@ -1,494 +1,242 @@
-# 6.2 Partieel integreren
+from manim import *
 
-````{admonition} Theorie: Partieel Integreren
-:class: tip, dropdown open
+class PartieelIntegrerenPremium(Scene):
+    def construct(self):
 
-## 🧠 Wanneer gebruik je partieel integreren?
+        # =========================
+        # KLEUREN
+        # =========================
 
-Partiële integratie gebruik je bij het berekenen van integralen van een **product** van twee functies, bijvoorbeeld:
+        BG = "#111111"
+        TEXT = "#F5F5F5"
+        BLUE_U = "#4FC3F7"
+        GREEN_DV = "#81C784"
+        YELLOW_ANSWER = "#FFD54F"
 
-```
-∫ x e^x dx,    ∫ x sin(x) dx,    ∫ ln(x) dx
-```
+        self.camera.background_color = BG
 
-De techniek is nuttig als:
-- De afgeleide van één van de factoren **eenvoudiger** is dan het origineel.
-- Of als één van de factoren **niet direct integreerbaar** is (zoals `ln(x)`).
+        # =========================
+        # TITEL
+        # =========================
 
----
+        title = Text(
+            "Voorbeeld 1 — Partieel integreren",
+            font_size=34,
+            color=TEXT
+        )
 
-## 📐 Formule van partiële integratie
+        title.to_corner(UL).shift(RIGHT * 0.4 + DOWN * 0.3)
 
-De formule is gebaseerd op de productregel uit de differentiaalrekening:
+        self.play(Write(title), run_time=2)
 
-```
-d/dx [u(x) · v(x)] = u'(x)v(x) + u(x)v'(x)
-```
+        # =========================
+        # OPGAVE
+        # =========================
 
-Daaruit volgt de formule voor integreren per partie:
+        opgave_text = Text(
+            "Bereken de onbepaalde integraal:",
+            font_size=28,
+            color=GRAY_B
+        )
 
-```
-∫ u dv = uv - ∫ v du
-```
+        opgave = MathTex(
+            r"\int (2x+3)\cos(x)\,dx",
+            font_size=42,
+            color=TEXT
+        )
 
-waarbij:
-- `u` = een functie die je **differentieert** (wordt eenvoudiger),
-- `dv` = de rest (de functie die je **integreert**).
+        opgave_group = VGroup(opgave_text, opgave)
+        opgave_group.arrange(DOWN, aligned_edge=LEFT, buff=0.35)
 
----
+        opgave_group.next_to(title, DOWN, aligned_edge=LEFT, buff=0.9)
 
-## 🔢 Stappenplan
+        self.play(Write(opgave_text), run_time=1.5)
+        self.play(Write(opgave), run_time=2)
 
-1. **Kies** `u` en `dv` in de integraal `∫ u dv`.
-   - Tip: gebruik de LIATE-regel als hulpmiddel (zie hieronder).
-2. **Bereken** `du` (de afgeleide van `u`) en `v` (de primitieve van `dv`).
-3. **Pas de formule toe**:
-   ```
-   ∫ u dv = uv - ∫ v du
-   ```
-4. **Herhaal indien nodig** (als de nieuwe integraal nog niet oplosbaar is).
-5. **Voeg de constante `C`** toe.
+        self.wait(1)
 
----
+        # =========================
+        # STAP 1
+        # =========================
 
-## 🧭 Hulpmiddel: LIATE-regel (keuzehulp voor `u`)
+        stap1 = Text(
+            "Stap 1 — Kies u en dv",
+            font_size=30,
+            color=GRAY_A
+        )
 
-Een veelgebruikte volgorde voor het kiezen van `u` (de functie die je differentieert) is:
+        stap1.next_to(opgave_group, DOWN, aligned_edge=LEFT, buff=1.0)
 
-**L I A T E**
-1. **L**ogarithmic: `ln(x), log(x), ...`
-2. **I**nverse trig: `arctan(x), arcsin(x), ...`
-3. **A**lgebraic: `x, x², ...`
-4. **T**rigonometric: `sin(x), cos(x), ...`
-5. **E**xponential: `e^x, a^x, ...`
+        keuze = MathTex(
+            r"u = 2x+3",
+            r"\qquad",
+            r"dv = \cos(x)\,dx",
+            font_size=40
+        )
 
-Je kiest bij voorkeur als `u` degene die het eerst in deze lijst voorkomt.
+        keuze[0].set_color(BLUE_U)
+        keuze[2].set_color(GREEN_DV)
 
----
+        keuze.next_to(stap1, DOWN, aligned_edge=LEFT, buff=0.45)
 
-## ⚠️ Belangrijke opmerkingen
-
-- Als de integraal na toepassen van de formule **lastiger** wordt, kies dan andere `u` en `dv`.
-- Soms moet je **herhaald** partieel integreren (bijv. bij `x² e^x`).
-- Bij producten zoals `x ln(x)` kun je géén substitutie gebruiken, dan is partieel integreren de manier.
-- In sommige gevallen kom je na twee stappen terug bij de oorspronkelijke integraal. Dan moet je **algebraïsch oplossen** (bijv. bij `∫ e^x cos(x) dx`).
+        self.play(Write(stap1), run_time=1.5)
+        self.play(Write(keuze), run_time=2.5)
 
-````
+        self.wait(2)
 
-## 6.2.1 Partieel integreren
+        self.play(
+            FadeOut(stap1),
+            FadeOut(keuze),
+            run_time=1
+        )
 
-````{admonition} Voorbeeld 1: Partieel integreren
-:class: dropdown
-
-Bereken de onbepaalde integraal:
-\begin{align*}
-    \int (2x+3)\cos(x) \, dx
-\end{align*}
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= 2x+3 \\
-    dv &= \cos(x) \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= 2 \\
-    du &= 2 \, dx \\
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= \cos(x) \, dx  \\
-    \dfrac{dv}{dx} &= \cos(x) \\
-    v &= \sin(x)
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= (2x+3) \cdot \sin(x) - \int \sin(x) 2 \, dx\\
-    &= (2x+3) \cdot \sin(x) - 2 \int \sin(x) \, dx\\
-    &= (2x+3) \cdot \sin(x) + 2 \cos(x) + C
-\end{align*}
-````
-
-````{admonition} Oefening 1
-:class: important, dropdown
-
-Bereken de onbepaalde integraal:
-\begin{align*}
-    \int x \cdot e^{2x} \, dx
-\end{align*}
-
-```{admonition} Uitwerking
-:class: important, dropdown
-
-Bereken de onbepaalde integraal:
-\begin{align*}
-    \int x \cdot e^{2x} \, dx
-\end{align*}
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= x \\
-    dv &= e^{2x} \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= 1 \\
-    du &=  \, dx \\
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= e^{2x} \, dx  \\
-    \dfrac{dv}{dx} &= e^{2x} \\
-    v &= \dfrac{1}{2}e^{2x}
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= x \cdot \dfrac{1}{2}e^{2x} - \int \dfrac{1}{2}e^{2x} \, dx\\
-    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \int e^{2x} \, dx\\
-    &= x \cdot \dfrac{1}{2}e^{2x} - \dfrac{1}{2} \cdot  \dfrac{1}{2}e^{2x} + C \\
-    &= \dfrac{1}{2}xe^{2x} - \dfrac{1}{4}e^{2x} + C \\
-\end{align*}
-
-```
-````
-
-````{admonition} Oefening 2
-:class: important, dropdown
-
-Primitiveer:
-\begin{align*}
-    f(x) =  x^3\ln(x) + 3
-\end{align*}
-
-```{admonition} Uitwerking
-:class: important, dropdown
-
-Primitiveer:
-\begin{align*}
-    f(x) =  x^3\ln(x) + 3
-\end{align*}
-
-Dus,
-\begin{align*}
-    F(x) &=  \int (x^3\ln(x) + 3) \, dx \\
-    F(x) &= \int (x^3\ln(x)) \, dx + \int  (3) \, dx \\
-    F(x) &= \int (x^3\ln(x)) \, dx + 3x + C
-\end{align*}
-
-Voor het eerste gedeelte gebruik partieel integreren.
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= \ln(x) \\
-    dv &= x^3 \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= \dfrac{1}{x} \\
-    du &=  \dfrac{1}{x} \, dx \\
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= x^3 \, dx  \\
-    \dfrac{dv}{dx} &= x^3 \\
-    v &= \dfrac{1}{4}x^4
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^4 \dfrac{1}{x} \, dx \\
-    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \int \dfrac{1}{4}x^3 \, dx \\
-    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \int x^3 \, dx \\
-    &= \ln(x) \cdot \dfrac{1}{4}x^4 - \dfrac{1}{4} \cdot \dfrac{1}{4} x^4 + C \\
-    &= \dfrac{1}{4}x^4\ln(x) - \dfrac{1}{16} x^4 + C \\
-\end{align*}
-
-
-
-```
-````
-
-## 6.2.2 Herhaald partieel integreren
-
-````{admonition} Voorbeeld 2: Herhaald partieel integreren
-:class: dropdown
-
-Bereken de primitieve van:
-\begin{align*}
-    f(x) = x^2e^x
-\end{align*}
-
-Dus, 
-\begin{align*}
-    F(x) &=  \int x^2e^x \, dx
-\end{align*}
-
-Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= x^2 \\
-    dv &= e^x \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= 2x \\
-    du &= 2x \, dx
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= e^x \, dx  \\
-    \dfrac{dv}{dx} &= e^x \\
-    v &= e^x
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= x^2 \cdot e^x - \int e^x 2x \, dx\\
-    &= x^2 \cdot e^x - \int 2xe^x \, dx
-\end{align*}
-
-De integraal $\int 2xe^x \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
-\begin{align*}
-   \int 2xe^x \, dx
-\end{align*}
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= 2x \\
-    dv &= e^x \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= 2 \\
-    du &= 2 \, dx
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= e^x \, dx  \\
-    \dfrac{dv}{dx} &= e^x \\
-    v &= e^x
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-   \int 2xe^x \, dx &= 2x \cdot e^x - \int e^x 2 \, dx\\
-    &= 2x \cdot e^x - 2 \int e^x  \, dx\\
-    &= 2x \cdot e^x - 2e^x + C
-\end{align*}
-
-Dus, 
-\begin{align*}
-    F(x) &=  \int x^2e^x \, dx \\
-    &= x^2 \cdot e^x - \int 2xe^x \, dx \\
-    &= x^2 \cdot e^x - (2x \cdot e^x - 2e^x + C) \\
-    &= x^2 \cdot e^x - 2x \cdot e^x + 2e^x + C \\
-    &= (x^2 - 2x + 2)e^x + C \\
-\end{align*}
-
-
-
-````
-
-````{admonition} Oefening 3
-:class: important, dropdown
-
-Primitiveer:
-\begin{align*}
-    f(x) = \dfrac{1}{4}x^2\cos(x)
-\end{align*}
-
-
-```{admonition} Uitwerking
-:class: important, dropdown
-
-Primitiveer:
-\begin{align*}
-    f(x) = \dfrac{1}{4}x^2\cos(x)
-\end{align*}
-
-Dus, 
-\begin{align*}
-    F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx
-\end{align*}
-
-Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= \dfrac{1}{4}x^2 \\
-    dv &= \cos(x) \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= \dfrac{1}{2}x \\
-    du &= \dfrac{1}{2}x \, dx
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= \cos(x) \, dx  \\
-    \dfrac{dv}{dx} &= \cos(x) \\
-    v &= \sin(x)
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int \sin(x) \dfrac{1}{2}x \, dx\\
-     &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
-\end{align*}
-
-De integraal $\int \dfrac{1}{2}x \sin(x) \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
-\begin{align*}
-   \int \dfrac{1}{2}x \sin(x) \, dx
-\end{align*}
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= \dfrac{1}{2}x \\
-    dv &= \sin(x) \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= \dfrac{1}{2} \\
-    du &= \dfrac{1}{2} \, dx
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= \sin(x) \, dx  \\
-    \dfrac{dv}{dx} &= \sin(x) \\
-    v &= -\cos(x)m
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= \dfrac{1}{2}x \cdot -\cos(x) - \int -\cos(x) \dfrac{1}{2} \, dx\\
-    &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \int \cos(x)  \, dx\\
-    &= -\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C
-\end{align*}
-
-Dus, 
-\begin{align*}
-    F(x) &=  \int \dfrac{1}{4}x^2\cos(x) \, dx \\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) - \int  \dfrac{1}{2}x \sin(x) \, dx\\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) - (-\dfrac{1}{2}x \cdot \cos(x) + \dfrac{1}{2} \sin(x) + C) \\
-    &= \dfrac{1}{4}x^2 \cdot \sin(x) + \dfrac{1}{2}x \cdot \cos(x) - \dfrac{1}{2} \sin(x) + C
-\end{align*}
-
-```
-````
-
-````{admonition} Oefening 4
-:class: important, dropdown
-
-Primitiveer:
-\begin{align*}
-    f(x) = x^2 \ln^2(x)
-\end{align*}
-
-```{admonition} Uitwerking
-:class: important, dropdown
-
-Primitiveer:
-\begin{align*}
-    f(x) = x^2 \ln^2(x)
-\end{align*}
-
-Dus, 
-\begin{align*}
-    F(x) &=  \int x^2 \ln^2(x) \, dx
-\end{align*}
-
-Gebruik partieel integreren om deze onbepaalde integraal te brekenen.
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= \ln^2(x) \\
-    dv &= x^2 \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= 2 \ln(x) \cdot \dfrac{1}{x} \\
-    du &= 2 \ln(x) \cdot \dfrac{1}{x} \, dx
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= x^2 \, dx  \\
-    \dfrac{dv}{dx} &= x^2 \\
-    v &= \dfrac{1}{3}x^3
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \int \dfrac{1}{3}x^3 2 \ln(x) \cdot \dfrac{1}{x} \, dx\\
-     &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} \int x^3  \ln(x) \cdot \dfrac{1}{x} \, dx\\
-     &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} \int x^2  \ln(x) \, dx\\
-\end{align*}
-
-De integraal $\int x^2  \ln(x) \, dx$ is nog niet in een vorm dat deze op te lossen is, dus doorgaan met partieel integreren.
-\begin{align*}
-   \int x^2  \ln(x) \, dx
-\end{align*}
-
-Kies de functie $u$ en $dv$:
-\begin{align*}
-    u &= \ln(x) \\
-    dv &= x^2 \, dx
-\end{align*}
-
-Bepaal $du$:
-\begin{align*}
-    \dfrac{du}{dx} &= \dfrac{1}{x} \\
-    du &= \dfrac{1}{x} \, dx
-\end{align*}
-
-Bepaal de functie $v$:
-\begin{align*}
-    dv &= x^2 \, dx  \\
-    \dfrac{dv}{dx} &= x^2 \\
-    v &= \dfrac{1}{3}x^3
-\end{align*}
-
-Toepassen van de regel voor partieel integreren geeft:
-\begin{align*}
-   \int u \, dv &= uv - \int v \, du \\
-    &= \ln(x) \cdot \dfrac{1}{3}x^3 - \int \dfrac{1}{3}x^3 \dfrac{1}{x} \, dx\\
-    &= \ln(x) \cdot \dfrac{1}{3}x^3 - \dfrac{1}{3} \int x^2 \, dx\\
-    &= \ln(x) \cdot \dfrac{1}{3}x^3 - \dfrac{1}{3} \cdot \dfrac{1}{3} x^3 + C \\
-    &= \ln(x) \cdot \dfrac{1}{3}x^3 -  \dfrac{1}{9} x^3 + C
-\end{align*}
-
-Dus, 
-\begin{align*}
-    F(x) &=  \int x^2 \ln^2(x) \, dx \\
-    &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} \int x^2  \ln(x) \, dx\\
-    &= \ln^2(x) \cdot \dfrac{1}{3}x^3 - \dfrac{2}{3} (\ln(x) \cdot \dfrac{1}{3}x^3 -  \dfrac{1}{9} x^3 + C) \\
-    &= \dfrac{1}{3}x^3\ln^2(x) - \dfrac{2}{9}x^3\ln(x)  +  \dfrac{2}{27} x^3 + C \\
-\end{align*}
-
-```
-````
+        # =========================
+        # STAP 2
+        # =========================
+
+        stap2 = Text(
+            "Stap 2 — Bepaal du",
+            font_size=30,
+            color=GRAY_A
+        )
+
+        stap2.next_to(opgave_group, DOWN, aligned_edge=LEFT, buff=1.0)
+
+        du = MathTex(
+            r"\frac{du}{dx} = 2",
+            r"\\",
+            r"du = 2\,dx",
+            font_size=40
+        )
+
+        du.set_color(BLUE_U)
+
+        du.next_to(stap2, DOWN, aligned_edge=LEFT, buff=0.45)
+
+        self.play(Write(stap2), run_time=1.5)
+        self.play(Write(du), run_time=2.5)
+
+        self.wait(2)
+
+        self.play(
+            FadeOut(stap2),
+            FadeOut(du),
+            run_time=1
+        )
+
+        # =========================
+        # STAP 3
+        # =========================
+
+        stap3 = Text(
+            "Stap 3 — Bepaal v",
+            font_size=30,
+            color=GRAY_A
+        )
+
+        stap3.next_to(opgave_group, DOWN, aligned_edge=LEFT, buff=1.0)
+
+        vgroep = MathTex(
+            r"dv = \cos(x)\,dx",
+            r"\\",
+            r"v = \sin(x)",
+            font_size=40
+        )
+
+        vgroep.set_color(GREEN_DV)
+
+        vgroep.next_to(stap3, DOWN, aligned_edge=LEFT, buff=0.45)
+
+        self.play(Write(stap3), run_time=1.5)
+        self.play(Write(vgroep), run_time=2.5)
+
+        self.wait(2)
+
+        self.play(
+            FadeOut(stap3),
+            FadeOut(vgroep),
+            run_time=1
+        )
+
+        # =========================
+        # STAP 4
+        # =========================
+
+        stap4 = Text(
+            "Stap 4 — Pas partieel integreren toe",
+            font_size=30,
+            color=GRAY_A
+        )
+
+        stap4.next_to(opgave_group, DOWN, aligned_edge=LEFT, buff=1.0)
+
+        uitwerking1 = MathTex(
+            r"\int u\,dv = uv - \int v\,du",
+            font_size=38
+        )
+
+        uitwerking2 = MathTex(
+            r"= (2x+3)\sin(x) - \int \sin(x)\cdot 2\,dx",
+            font_size=38
+        )
+
+        uitwerking3 = MathTex(
+            r"= (2x+3)\sin(x) - 2\int \sin(x)\,dx",
+            font_size=38
+        )
+
+        uitwerking4 = MathTex(
+            r"= (2x+3)\sin(x) + 2\cos(x) + C",
+            font_size=40
+        )
+
+        uitwerking4.set_color(YELLOW_ANSWER)
+
+        uitwerking_group = VGroup(
+            uitwerking1,
+            uitwerking2,
+            uitwerking3,
+            uitwerking4
+        )
+
+        uitwerking_group.arrange(
+            DOWN,
+            aligned_edge=LEFT,
+            buff=0.45
+        )
+
+        uitwerking_group.next_to(
+            stap4,
+            DOWN,
+            aligned_edge=LEFT,
+            buff=0.5
+        )
+
+        self.play(Write(stap4), run_time=1.5)
+
+        self.play(Write(uitwerking1), run_time=2)
+        self.wait(1)
+
+        self.play(Write(uitwerking2), run_time=2)
+        self.wait(1)
+
+        self.play(Write(uitwerking3), run_time=2)
+        self.wait(1)
+
+        self.play(Write(uitwerking4), run_time=2.5)
+
+        self.wait(2)
+
+        # =========================
+        # ANTWOORD BOX
+        # =========================
+
+        box = SurroundingRectangle(
+            uitwerking4,
+            color=YELLOW_ANSWER,
+            buff=0.25
+        )
+
+        self.play(Create(box), run_time=1.5)
+
+        self.wait(3)

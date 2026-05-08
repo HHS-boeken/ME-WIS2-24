@@ -282,13 +282,13 @@ Uitwerken geeft:
 (x - 1)(x - 1) &= (x + 2)( 2x + 3 ) {\color{blue} \quad  \text{(1p)}}\\
 x^2 -x -x + 1 &= 2x^2 + 3x + 4x + 6 \\
 x^2 -2x + 1 &= 2x^2 + 7x + 6 \\
-x^2 + 9x - 5 &= 0 {\color{blue}  \quad \text{(1p)}}
+x^2 + 9x + 5 &= 0 {\color{blue}  \quad \text{(1p)}}
 \end{align*}
 
 Bereken de discriminant:
 \begin{align*}
 D &= \sqrt{b^2 - 4 a c} \\
-D &= \sqrt{9^2 - 4 \cdot 1  \cdot + 5} \\
+D &= \sqrt{9^2 - 4 \cdot 1  \cdot  5} \\
 D &= \sqrt{ 81 - 20 } \\
 D &= \sqrt{ 61 }
 \end{align*}
