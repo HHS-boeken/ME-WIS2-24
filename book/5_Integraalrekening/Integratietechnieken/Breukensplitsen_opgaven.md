@@ -1,8 +1,8 @@
-# 6.3 Opgaven
+## 6.3 Opgaven
 
 <hr style="border:2px solid #9EA700">
 
-## Opgave 6.3.2a
+### Opgave 6.3.2a
 
 Bereken de onbepaalde integraal:
 
@@ -12,7 +12,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2b
+### Opgave 6.3.2b
 
 Bereken de onbepaalde integraal:
 
@@ -22,7 +22,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2c
+### Opgave 6.3.2c
 
 Bereken de onbepaalde integraal:
 
@@ -32,7 +32,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2d
+### Opgave 6.3.2d
 
 Bereken de onbepaalde integraal:
 
@@ -42,7 +42,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2e
+### Opgave 6.3.2e
 
 Bereken de onbepaalde integraal:
 
@@ -53,7 +53,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2f
+### Opgave 6.3.2f
 
 Bereken de onbepaalde integraal:
 
@@ -63,7 +63,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2g
+### Opgave 6.3.2g
 
 Bereken de onbepaalde integraal:
 
@@ -73,7 +73,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2h
+### Opgave 6.3.2h
 
 Bereken de onbepaalde integraal:
 
@@ -83,7 +83,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2i
+### Opgave 6.3.2i
 
 Bereken de onbepaalde integraal:
 
@@ -93,7 +93,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.2j
+### Opgave 6.3.2j
 
 Bereken de onbepaalde integraal:
 
@@ -103,7 +103,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3a
+### Opgave 6.3.3a
 
 Bereken de onbepaalde integraal:
 
@@ -113,7 +113,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3b
+### Opgave 6.3.3b
 
 Bereken de onbepaalde integraal:
 
@@ -123,7 +123,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3c
+### Opgave 6.3.3c
 
 Bereken de onbepaalde integraal:
 
@@ -133,7 +133,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3d
+### Opgave 6.3.3d
 
 Bereken de onbepaalde integraal:
 
@@ -143,7 +143,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3e
+### Opgave 6.3.3e
 
 Bereken de onbepaalde integraal:
 
@@ -153,7 +153,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3f
+### Opgave 6.3.3f
 
 Bereken de onbepaalde integraal:
 
@@ -163,7 +163,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3g
+### Opgave 6.3.3g
 
 Bereken de onbepaalde integraal:
 
@@ -173,7 +173,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3h
+### Opgave 6.3.3h
 
 Bereken de onbepaalde integraal:
 
@@ -183,7 +183,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3i
+### Opgave 6.3.3i
 
 Bereken de onbepaalde integraal:
 
@@ -193,7 +193,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.3.3j
+### Opgave 6.3.3j
 
 Bereken de onbepaalde integraal:
 

@@ -1,8 +1,8 @@
-# 6.2 Opgaven
+## 6.2 Opgaven
 
 <hr style="border:2px solid #9EA700">
 
-## Opgave 6.2.1a
+### Opgave 6.2.1a
 
 Bereken de onbepaalde integraal:
 
@@ -12,7 +12,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1b
+### Opgave 6.2.1b
 
 Bereken de onbepaalde integraal:
 
@@ -22,7 +22,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1c
+### Opgave 6.2.1c
 
 Primitiveer:
 
@@ -32,7 +32,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1d
+### Opgave 6.2.1d
 
 Bereken de onbepaalde integraal:
 
@@ -42,7 +42,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1e
+### Opgave 6.2.1e
 
 Primitiveer:
 
@@ -52,7 +52,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1f
+### Opgave 6.2.1f
 
 Bereken de onbepaalde integraal:
 
@@ -62,7 +62,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1g
+### Opgave 6.2.1g
 
 Primitiveer:
 
@@ -72,7 +72,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1h
+### Opgave 6.2.1h
 
 Bereken de onbepaalde integraal:
 
@@ -82,7 +82,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1i
+### Opgave 6.2.1i
 
 Primitiveer:
 
@@ -92,7 +92,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.1j
+### Opgave 6.2.1j
 
 Bereken de onbepaalde integraal:
 
@@ -102,7 +102,7 @@ $$
 
 <hr style="border:2px solid #9EA700">
 
-## Opgave 6.2.2a
+### Opgave 6.2.2a
 
 Bereken de onbepaalde integraal:
 
@@ -112,7 +112,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2b
+### Opgave 6.2.2b
 
 Bereken de onbepaalde integraal:
 
@@ -122,7 +122,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2c
+### Opgave 6.2.2c
 
 Primitiveer:
 
@@ -132,7 +132,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2d
+### Opgave 6.2.2d
 
 Bereken de onbepaalde integraal:
 
@@ -142,7 +142,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2e
+### Opgave 6.2.2e
 
 Primitiveer:
 
@@ -152,7 +152,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2f
+### Opgave 6.2.2f
 
 Bereken de onbepaalde integraal:
 
@@ -162,7 +162,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2g
+### Opgave 6.2.2g
 
 Primitiveer:
 
@@ -172,7 +172,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2h
+### Opgave 6.2.2h
 
 Bereken de onbepaalde integraal:
 
@@ -182,7 +182,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2i
+### Opgave 6.2.2i
 
 Primitiveer:
 
@@ -192,7 +192,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 6.2.2j
+### Opgave 6.2.2j
 
 Bereken de onbepaalde integraal:
 
