@@ -1,9 +1,9 @@
 # 7.3 Complexe getallen in goniometrische vorm (poolvorm)
 
-````{admonition} Theorie
+::::{admonition} Theorie
 :class: tip, dropdown open
 
-Een complex getal $z$ wordt meestal geschreven als:
+Een complex getal $z$ kan worden geschreven in **algebraïsche vorm / cartesische vorm**:
 
 \begin{align*}
     z = a + bi
@@ -62,126 +62,159 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 \begin{align*}
     \frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right]
 \end{align*}
-````
-
+::::
 
 ## 7.3.1 Complexe getallen in goniometrische vorm (poolvorm)
 
-````{admonition} Voorbeeld 1:
+::::{admonition} Voorbeeld 1:
 :class: dropdown
 
 Schrijf in goniometrische vorm
-\begin{align*}
+
+$$
     z = 1 + \sqrt{3}i
-\end{align*}
+$$
 
 De modulus is:
-\begin{align}
+
+$$
+\begin{align*}
     r = |z| &= \sqrt{ (1)^2 + (\sqrt{3})^2} \\
     &= \sqrt{4} \\
     &= 2
-\end{align}
+\end{align*}
+$$
 
 Het argument is:
-\begin{align}
+
+$$
+\begin{align*}
     \theta = arg(z) &= \tan^{-1} \left( \dfrac{ \sqrt{3} }{1} \right) \\
     &= \dfrac{\pi}{3}
-\end{align}
+\end{align*}
+$$
 
 Schrijf in goniometrische vorm:
-\begin{align}
+
+$$
+\begin{align*}
     z &= r(\cos \theta + i \sin \theta)\\
     z &= 2 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
-\end{align}
-````
-
-````{admonition} Oefening 1
-:class: important, dropdown
-
-Schrijf in goniometrische vorm
-\begin{align*}
-    z = -\sqrt{3} + i
 \end{align*}
+$$
+::::
 
-```{admonition} Uitwerking
+::::{admonition} Oefening 1
 :class: important, dropdown
 
 Schrijf in goniometrische vorm
-\begin{align}
+
+$$
     z = -\sqrt{3} + i
-\end{align}
+$$
+
+:::{dropdown} Uitwerking
+
+Schrijf in goniometrische vorm
+
+$$
+    z = -\sqrt{3} + i
+$$
 
 De modulus is:
-\begin{align}
+
+$$
+\begin{align*}
     r = |z| &= \sqrt{ (-\sqrt{3})^2 + (1)^2}  \\
     &= \sqrt{ 3 + 1  } \\
     &= \sqrt{4}  \\
     &= 2
-\end{align}
+\end{align*}
+$$
 
 Het argument is:
-\begin{align}
+
+$$
+\begin{align*}
     \theta = arg(z) &=  \tan^{-1} \left( \dfrac{1}{ -\sqrt{3} } \right) \\
     &= -\dfrac{ \pi}{6}
-\end{align}
+\end{align*}
+$$
 
 Omdat $z$ in het tweede kwadrant ligt:
-\begin{align}
+
+$$
+\begin{align*}
     \phi    &= \pi - \dfrac{\pi}{6} \\
             &= \dfrac{5\pi}{6}
-\end{align}
+\end{align*}
+$$
 
 Schrijf in goniometrische vorm:
-\begin{align}
+
+$$
+\begin{align*}
     z &= r(\cos \theta + i \sin \theta)\\
     z &= 2 \left( \cos \left( \dfrac{5\pi}{6} \right)  + i \sin \left( \dfrac{5\pi}{6} \right) \right)
-\end{align}
-```
-````
+\end{align*}
+$$
+:::
+::::
 
-
-
-````{admonition} Oefening 2
+::::{admonition} Oefening 2
 :class: important, dropdown
 
 Schrijf in goniometrische vorm
-\begin{align*}
-    z = -2 - 2i
-\end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+$$
+    z = -2 - 2i
+$$
+
+:::{dropdown} Uitwerking
 
 Schrijf in goniometrische vorm
-\begin{align*}
+
+$$
     z = -2 - 2i
-\end{align*}
+$$
 
 De modulus is:
-\begin{align}
+
+$$
+\begin{align*}
     r = |z| &= \sqrt{ (-2)^2 + (-2)^2}  \\
     &= \sqrt{ 4 + 4  } \\
     &= \sqrt{8}  \\
     &= 2\sqrt{2}
-\end{align}
+\end{align*}
+$$
 
 Het argument is:
-\begin{align}
+
+$$
+\begin{align*}
     \theta = arg(z) &=  \tan^{-1} \left( \dfrac{-2}{ -2 } \right) \\
     &=  \tan^{-1} (1)\\
     &= \dfrac{\pi}{4}
-\end{align}
+\end{align*}
+$$
 
 Omdat $z$ in het derde kwadrant ligt:
-\begin{align}
+
+$$
+\begin{align*}
     \phi    &= -\pi + \dfrac{\pi}{4} \\
             &= -\dfrac{3\pi}{4}
-\end{align}
+\end{align*}
+$$
 
 Schrijf in goniometrische vorm:
-\begin{align}
+
+$$
+\begin{align*}
     z &= r(\cos \theta + i \sin \theta)\\
     z &= 2\sqrt{2} \left( \cos \left( -\dfrac{3\pi}{4} \right)  + i \sin \left( -\dfrac{3\pi}{4} \right) \right)
-\end{align}
-```
-````
+\end{align*}
+$$
+:::
+::::
