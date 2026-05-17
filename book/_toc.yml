@@ -128,8 +128,8 @@ parts:
 
   - caption: Complexe getalllen
     chapters:
-      - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen.md
-  #     sections:
+    - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen.md
+      sections:
 
       - file: 6_Complexe_getallen/Complexe_getallen/Inleiding.md
         #sections:
