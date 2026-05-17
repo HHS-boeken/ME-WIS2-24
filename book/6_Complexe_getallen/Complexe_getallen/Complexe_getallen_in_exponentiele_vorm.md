@@ -15,9 +15,10 @@ In **goniometrische vorm of poolvorm** wordt hetzelfde getal geschreven als:
     z = r(\cos \theta + i \sin \theta)
 \end{align*}
 
+met:
 \begin{align*}
-    r = |z| = \sqrt{a^2 + b^2} \text{de modulus} \\
-    \theta = \arg(z) \text{het argument (de hoek met de positieve reële as, in radialen)} \\
+    r &= |z| = \sqrt{a^2 + b^2} \quad \text{ de modulus van  $z$ } \\
+    \theta &= \arg(z) \quad \text{het argument (de hoek die $z$ maakt met de positieve reële as, in radialen) }
 \end{align*}
 
 **Euler’s formule**
