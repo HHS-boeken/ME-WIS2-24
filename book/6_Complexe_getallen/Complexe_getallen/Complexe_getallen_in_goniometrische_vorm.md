@@ -3,7 +3,7 @@
 ::::{admonition} Theorie
 :class: tip, dropdown open
 
-Een complex getal $z$ wordt meestal geschreven als:
+Een complex getal $z$ kan worden geschreven in **algebraïsche vorm / cartesische vorm**:
 
 \begin{align*}
     z = a + bi

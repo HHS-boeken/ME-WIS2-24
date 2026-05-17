@@ -204,8 +204,7 @@ Schrijf in exponentiële vorm
     z = \sqrt{3}- i
 \end{align*}
 
-```{admonition} Uitwerking
-:class: important, dropdown
+:::{dropdown} Uitwerking
 
 Schrijf in exponentiële vorm
 \begin{align*}
@@ -237,5 +236,5 @@ Schrijf in exponentiële vorm:
     z &= 2 \cdot e^{\frac{-\pi}{6} i} \\
     z &= 2e^{\frac{-\pi}{6} i} 
 \end{align*}
-```
+:::
 ````
