@@ -162,7 +162,10 @@ parts:
         - file: 6_Complexe_getallen/Complexe_getallen/Rekenen_met_complexe_getallen_in_exponentiele_vorm_uitwerkingen.md
     
       - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen.md
-
+        sections:
+        - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen_opgaven.md
+        - file: 6_Complexe_getallen/Complexe_getallen/Complexe_getallen_en_vergelijkingen_uitwerkingen.md 
+        
   - caption: Opgaven en Uitwerkingen lessen
     chapters:
     - file: 1_Algebra/Breuken/Breuken_les.md
