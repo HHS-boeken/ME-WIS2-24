@@ -71,7 +71,7 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
     height="900"
     style="
       border:none;
-      transform:scale(0.9);
+      transform:scale(0.7);
       transform-origin: top left;
       width:1333px;
       height:1000px;
