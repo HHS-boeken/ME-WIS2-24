@@ -62,7 +62,6 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 \begin{align*}
     \frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right]
 \end{align*}
-::::
 
 <div style="width:100%; overflow:hidden;">
   <iframe
@@ -78,6 +77,10 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
     ">
   </iframe>
 </div>
+
+::::
+
+
 
 ## 7.3.1 Complexe getallen in goniometrische vorm (poolvorm)
 
