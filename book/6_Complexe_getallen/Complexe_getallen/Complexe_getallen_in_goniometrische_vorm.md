@@ -64,6 +64,13 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 \end{align*}
 ::::
 
+<iframe
+  src="complex_vlak1.html"
+  width="100%"
+  height="850px"
+  style="border:none;">
+</iframe>
+
 ## 7.3.1 Complexe getallen in goniometrische vorm (poolvorm)
 
 ::::{admonition} Voorbeeld 1:
