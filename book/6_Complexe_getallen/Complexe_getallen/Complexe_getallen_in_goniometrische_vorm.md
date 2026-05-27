@@ -64,12 +64,18 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 \end{align*}
 ::::
 
-<div style="width:100%; overflow-x:auto;">
+<div style="width:100%; overflow:hidden;">
   <iframe
     src="complex_vlak1.html"
     width="1200"
     height="900"
-    style="border:none; border-radius:12px;">
+    style="
+      border:none;
+      transform:scale(0.9);
+      transform-origin: top left;
+      width:1333px;
+      height:1000px;
+    ">
   </iframe>
 </div>
 
