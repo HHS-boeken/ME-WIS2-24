@@ -5,7 +5,7 @@
 ::::{admonition} Voorbeeld 1:
 :class: dropdown
 
-Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm $z = a + bi$:
 
 $$
     z = (1+i)^8
@@ -51,16 +51,16 @@ $$
 $$
 ::::
 
-````{admonition} Oefening 1
+::::{admonition} Oefening 1
 :class: important, dropdown
 
-Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi. Rond af op gehele getallen:
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm $z = a + bi$. Rond af op gehele getallen:
 
 $$
     z = (2+3i)^6
 $$
 
-```{admonition} Uitwerking
+:::{admonition} Uitwerking
 :class: important, dropdown
 
 Bereken de volgende uitdrukking en schrijf het antwoord in de vorm z = a + bi. Rond af op gehele getallen:
@@ -107,28 +107,65 @@ $$
 \end{align}
 $$
 
-```
-````
+:::
+::::
 
-````{admonition} Oefening 2
+::::{admonition} Oefening 2
 :class: important, dropdown
 
-Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm $z = a + bi$:
 
-\begin{align*}
+$$
     z = (1+\sqrt{3}i)^6
-\end{align*}
+$$
 
-```{admonition} Uitwerking
+:::{admonition} Uitwerking
 :class: important, dropdown
 
-Bereken de volgende uitdrukking exact en schrijf het antwoord in de vorm z = a + bi:
+Bereken de volgende uitdrukking en schrijf het antwoord in de vorm $z = a + bi$. Rond af op gehele getallen:
 
-\begin{align*}
+$$
     z = (1+\sqrt{3}i)^6
+$$
+
+Schrijf $1+\sqrt{3}i$ in poolvorm:
+
+De modulus is:
+
+$$
+\begin{align*}
+    r = |z| &= \sqrt{ (1)^2 + (\sqrt{3})^2 } \\
+    &= \sqrt{1 + 3}\\
+    &= \sqrt{4} \\
+    &= 2
 \end{align*}
+$$
 
-```
-````
+Het argument is:
 
+$$
+\begin{align*}
+    \theta = arg( z ) &= \tan^{-1} \left( \dfrac{\sqrt{3}}{1} \right) \\
+     &= \dfrac{\pi}{3}
+\end{align*}
+$$
 
+Dus:
+
+$$
+    z = \left( 2 \left( \cos\left( \dfrac{\pi}{3} \right) + i\sin\left( \dfrac{\pi}{3}\right) \right) \right)^6
+$$
+
+Gebruik de formule van De Moivre:
+
+$$
+\begin{align*}
+    z &= (2)^6 \left( \cos\left( 6 \cdot \dfrac{\pi}{3} \right) + i\sin\left( 6 \cdot \dfrac{\pi}{3} \right) \right)  \\
+    z &= 64 \left( \cos\left( 2\pi \right) + i\sin\left( 2 \pi \right) \right)  \\
+    z &= 64 \left( 1 + 0i \right)  \\
+    z &= 64
+\end{align*}
+$$
+
+:::
+::::
