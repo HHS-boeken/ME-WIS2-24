@@ -51,8 +51,7 @@ $$
 $$
 ::::
 
-::::{admonition} Oefening 1
-:class: important, dropdown
+:::{Uitwerking}
 
 Bereken de volgende uitdrukking en schrijf het antwoord in de vorm $z = a + bi$. Rond af op gehele getallen:
 
@@ -119,8 +118,7 @@ $$
     z = (1+\sqrt{3}i)^6
 $$
 
-:::{admonition} Uitwerking
-:class: important, dropdown
+:::{Uitwerking}
 
 Bereken de volgende uitdrukking en schrijf het antwoord in de vorm $z = a + bi$. Rond af op gehele getallen:
 
