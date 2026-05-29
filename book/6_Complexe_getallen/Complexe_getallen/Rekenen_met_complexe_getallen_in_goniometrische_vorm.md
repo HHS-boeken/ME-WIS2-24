@@ -181,10 +181,10 @@ Dus:
 Gebruik de formule van De Moivre:
 \begin{align}
     z = (\sqrt{2})^8 \left( \cos\left( 8 \cdot \dfrac{\pi}{4} \right) + i\sin\left( 8 \cdot \dfrac{\pi}{4} \right) \right)  \\
-    z =  2^4 \left( \cos\left( 2\pi \right) + i\sin\left( \2pi \right) \right)  \\
-    z =  16 \left( \cos\left( 2\pi \right) + i\sin\left( \2pi \right) \right)  \\
+    z =  2^4 \left( \cos\left( 2\pi \right) + i\sin\left( 2\pi \right) \right)  \\
+    z =  16 \left( \cos\left( 2\pi \right) + i\sin\left( 2\pi \right) \right)  \\
     z =  16 \left( \cos\left( 0 \right) + i\sin\left( 0 \right) \right)  \\
-    z = 16(1_0i)
+    z = 16(1_0i) \\
     z= 16
 \end{align}
 ````
@@ -229,8 +229,8 @@ Gebruik de formule van De Moivre:
 \begin{align}
     z = (\sqrt{13})^6 \left( \cos\left( 6 \cdot 0.983 \right) + i\sin\left( 6 \cdot 0.983 \right) \right)  \\
     z =  13^3 \left( \cos\left( 5.898 \right) + i\sin\left( 5.898 \right) \right)  \\
-    z =  2197 \left( \cos\left( 5.898 \right) + i\sin\left( \5.898 \right) \right)  \\
-    z \approx 12948 + 12948i
+    z =  2197 \left( \cos\left( 5.898 \right) + i\sin\left( 5.898 \right) \right)  \\
+    z \approx 2025 - 828i
 \end{align}
 ```
 ````
