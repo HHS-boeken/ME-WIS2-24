@@ -163,7 +163,7 @@ Omdat $z$ in het tweede kwadrant ligt:
 
 $$
 \begin{align*}
-    \phi    &= \pi - \dfrac{\pi}{6} \\
+    \phi    &= - \dfrac{\pi}{6} + \pi \\
             &= \dfrac{5\pi}{6}
 \end{align*}
 $$
@@ -221,7 +221,7 @@ Omdat $z$ in het derde kwadrant ligt:
 
 $$
 \begin{align*}
-    \phi    &= -\pi + \dfrac{\pi}{4} \\
+    \phi    &= \dfrac{\pi}{4} - \pi \\
             &= -\dfrac{3\pi}{4}
 \end{align*}
 $$
