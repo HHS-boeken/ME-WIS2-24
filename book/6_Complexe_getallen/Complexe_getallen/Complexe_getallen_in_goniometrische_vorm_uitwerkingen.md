@@ -1,6 +1,6 @@
-# 7.3 Uitwerkingen
+# 7.3.1 Uitwerkingen
 
-## Opgave 7.3a
+## Opgave 7.3.1a
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -50,7 +50,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3b
+## Opgave 7.3.1b
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -101,7 +101,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3c
+## Opgave 7.3.1c
  
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -160,13 +160,13 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3d
+## Opgave 7.3.1d
 
 ::::{admonition} Antwoord
 :class: important, dropdown
 
 $$
-z &= 4 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
+z = 4 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -211,7 +211,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3e
+## Opgave 7.3.1e
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -271,7 +271,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3f
+## Opgave 7.3.1f
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -279,13 +279,13 @@ $$
 Schrijf in goniometrische vorm(poolvorm) :
 
 $$
-z = -4\sqrt{3} - 4i
+z = 8 \left( \cos \left( -\dfrac{5\pi}{6} \right)  + i \sin \left( -\dfrac{5\pi}{6} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
 
 $$
-z = 8 \left( \cos \left( -\dfrac{5\pi}{6} \right)  + i \sin \left( -\dfrac{5\pi}{6} \right) \right)
+z = -4\sqrt{3} - 4i
 $$
 
 De modulus is:
@@ -331,7 +331,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3g
+## Opgave 7.3.1g
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -380,7 +380,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3h
+## Opgave 7.3.1h
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -442,7 +442,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3i
+## Opgave 7.3.1i
 
 ::::{admonition} Antwoord
 :class: important, dropdown
@@ -493,7 +493,7 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-## Opgave 7.3j
+## Opgave 7.3.1j
 
 ::::{admonition} Antwoord
 :class: important, dropdown
