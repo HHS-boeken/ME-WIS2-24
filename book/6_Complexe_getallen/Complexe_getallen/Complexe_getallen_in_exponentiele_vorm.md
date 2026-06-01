@@ -77,20 +77,32 @@ Schrijf in exponentiële vorm
 \end{align*}
 
 De modulus is:
+
+$$
 \begin{align*}
-    r = |z| = \sqrt{1^2 + 1^2} = \sqrt{2}
+    r = |z| &= \sqrt{1^2 + 1^2} \\
+    &= \sqrt{2}
 \end{align*}
+$$
 
 Het argument is:
+
+$$
 \begin{align*}
-    \phi = arg(z) = \tan^{-1} (\dfrac{1}{1}) = \dfrac{\pi}{4}
+    \theta = arg(z) &= \tan^{-1} (\dfrac{1}{1}) \\
+    &= \dfrac{\pi}{4}
 \end{align*}
+$$
 
 Schrijf $z=1+i$ in exponentiële vorm:
+
+$$
 \begin{align*}
-    z &= r \cdot e^{\phi i} \\
+    z &= r \cdot e^{\theta i} \\
     z &= \sqrt{2} e^{\frac{\pi}{4} i}
 \end{align*}
+$$
+
 ````
 
 ::::{admonition} Oefening 1
@@ -117,7 +129,7 @@ De modulus is:
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) &= \tan^{-1} (\dfrac{\sqrt{3}}{-1}) \\
+    \theta = arg(z) &= \tan^{-1} (\dfrac{\sqrt{3}}{-1}) \\
     &= \tan^{-1} (-\sqrt{3}) \\
     &= -\dfrac{\pi}{3}
 \end{align*}
@@ -126,7 +138,7 @@ Omdat $z$ in het tweede kwadrant ligt:
 
 $$
 \begin{align*}
-    \phi    &= \pi -\dfrac{\pi}{3} \\
+    \theta    &= \pi -\dfrac{\pi}{3} \\
             &= \dfrac{2\pi}{3}
 \end{align*}
 $$
@@ -135,7 +147,7 @@ Schrijf $z=1+i$ in exponentiële vorm:
 
 $$
 \begin{align*}
-    z &= r \cdot e^{\phi i} \\
+    z &= r \cdot e^{\theta i} \\
     z &= 2 e^{\frac{2\pi}{3} i}
 \end{align*}
 $$
@@ -175,7 +187,7 @@ Het argument is:
 
 $$
 \begin{align}
-    \phi = arg(z) &= \tan^{-1} (\dfrac{ -\frac{1}{2} }{ \frac{ -\sqrt{3}}{2} }) \\
+    \theta = arg(z) &= \tan^{-1} (\dfrac{ -\frac{1}{2} }{ \frac{ -\sqrt{3}}{2} }) \\
     &= \tan^{-1} ( \dfrac{1}{ \sqrt{3} } ) \\
     &= \dfrac{ \pi}{6}
 \end{align}
@@ -183,13 +195,13 @@ $$
 
 Omdat $z$ in het derde kwadrant ligt:
 \begin{align}
-    \phi    &= -\pi + \dfrac{\pi}{6} \\
+    \theta    &= -\pi + \dfrac{\pi}{6} \\
             &= - \dfrac{5\pi}{6}
 \end{align}
 
 Schrijf in exponentiële vorm:
 \begin{align}
-    z &= r \cdot e^{\phi i} \\
+    z &= r \cdot e^{\theta i} \\
     z &= 1 \cdot e^{\frac{-5\pi}{6} i} \\
     z &= e^{\frac{-5\pi}{6} i} 
 \end{align}
@@ -221,18 +233,18 @@ De modulus is:
 
 Het argument is:
 \begin{align*}
-    \phi = arg(z) &= \tan^{-1} (\dfrac{ -1 }{ \sqrt{3} }) \\
+    \theta = arg(z) &= \tan^{-1} (\dfrac{ -1 }{ \sqrt{3} }) \\
     &= -\dfrac{ \pi}{6}
 \end{align*}
 
 Omdat $z$ in het vierde kwadrant ligt:
 \begin{align*}
-    \phi    &= - \dfrac{\pi}{6} \\
+    \theta    &= - \dfrac{\pi}{6} \\
 \end{align*}
 
 Schrijf in exponentiële vorm:
 \begin{align*}
-    z &= r \cdot e^{\phi i} \\
+    z &= r \cdot e^{\theta i} \\
     z &= 2 \cdot e^{\frac{-\pi}{6} i} \\
     z &= 2e^{\frac{-\pi}{6} i} 
 \end{align*}
