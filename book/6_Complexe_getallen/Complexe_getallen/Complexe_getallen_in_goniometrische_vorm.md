@@ -62,7 +62,25 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 \begin{align*}
     \frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right]
 \end{align*}
+
+<div style="width:100%; overflow:hidden;">
+  <iframe
+    src="complex_vlak1.html"
+    width="1200"
+    height="900"
+    style="
+      border:none;
+      transform:scale(0.8);
+      transform-origin: top left;
+      width:1333px;
+      height:1000px;
+    ">
+  </iframe>
+</div>
+
 ::::
+
+
 
 ## 7.3.1 Complexe getallen in goniometrische vorm (poolvorm)
 
@@ -145,7 +163,7 @@ Omdat $z$ in het tweede kwadrant ligt:
 
 $$
 \begin{align*}
-    \phi    &= \pi - \dfrac{\pi}{6} \\
+    \phi    &= - \dfrac{\pi}{6} + \pi \\
             &= \dfrac{5\pi}{6}
 \end{align*}
 $$
@@ -203,7 +221,7 @@ Omdat $z$ in het derde kwadrant ligt:
 
 $$
 \begin{align*}
-    \phi    &= -\pi + \dfrac{\pi}{4} \\
+    \phi    &= \dfrac{\pi}{4} - \pi \\
             &= -\dfrac{3\pi}{4}
 \end{align*}
 $$

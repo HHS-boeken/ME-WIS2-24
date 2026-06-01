@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Complex getal in het complexe vlak</title>
+  <style>
+    :root {
+      --bg: #f7f7fb;
+      --panel: #ffffff;
+      --ink: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-dark: #1d4ed8;
+      --grid: #e5e7eb;
+      --axis: #111827;
+      --vector: #dc2626;
+      --point: #b91c1c;
+      --polar: #93c5fd;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #eef2ff, var(--bg));
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .app {
+      width: min(1380px, 100%);
+      display: grid;
+      grid-template-columns: 255px minmax(560px, 1fr) 335px;
+      gap: 20px;
+    }
+
+    .panel, .canvas-card, .calculation-card {
+      background: var(--panel);
+      border-radius: 22px;
+      box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+    }
+
+    .panel {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.22rem;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    label {
+      display: block;
+      font-weight: 650;
+      margin-bottom: 7px;
+    }
+
+    input {
+      width: 100%;
+      padding: 11px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 12px;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    button {
+      border: 0;
+      background: var(--accent);
+      color: white;
+      padding: 11px 13px;
+      border-radius: 12px;
+      font-weight: 750;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: transform 0.12s ease, background 0.12s ease;
+    }
+
+    button:hover { background: var(--accent-dark); transform: translateY(-1px); }
+    button.secondary { background: #111827; }
+    button.secondary:hover { background: #374151; }
+
+    .yellow-btn {
+      background: #facc15 !important;
+      color: #111827 !important;
+    }
+
+    .yellow-btn:hover {
+      background: #eab308 !important;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+
+    .calculation-card {
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .calculation-card h2 {
+      margin: 0;
+      font-size: 1.18rem;
+    }
+
+    .readout {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 16px;
+      padding: 16px;
+      min-height: 220px;
+      font-size: 1rem;
+      line-height: 1.45;
+    }
+
+    .calc-line {
+      margin: 7px 0;
+    }
+
+    .readout hr {
+      border: 0;
+      border-top: 1px solid #e2e8f0;
+      margin: 16px 0;
+    }
+
+    .formula {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: #0f172a;
+      font-weight: 700;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.45;
+    }
+
+    .canvas-card {
+      padding: 14px;
+      overflow: hidden;
+    }
+
+    svg {
+      width: 100%;
+      height: min(72vh, 720px);
+      min-height: 520px;
+      display: block;
+      border-radius: 18px;
+      background: #ffffff;
+      touch-action: none;
+      user-select: none;
+    }
+
+    .grid-line { stroke: var(--grid); stroke-width: 1; }
+    .axis { stroke: var(--axis); stroke-width: 2.2; }
+    .tick-text { fill: #475569; font-size: 12px; }
+    .axis-label { fill: #111827; font-weight: 800; font-size: 15px; }
+    .vector-line { stroke: var(--vector); stroke-width: 4; stroke-linecap: round; }
+    .helper-line { stroke: #64748b; stroke-width: 1.5; stroke-dasharray: 5 5; }
+    .point { fill: var(--point); stroke: #ffffff; stroke-width: 4; cursor: grab; }
+    .point:active { cursor: grabbing; }
+    .point-label { fill: #991b1b; font-weight: 800; font-size: 15px; }
+    .polar-circle { fill: none; stroke: var(--polar); stroke-width: 1; }
+    .polar-ray { stroke: var(--polar); stroke-width: 1; }
+    .angle-arc { fill: none; stroke: #16a34a; stroke-width: 3; }
+    .angle-label { fill: #15803d; font-weight: 800; font-size: 14px; }
+
+    @media (max-width: 1100px) {
+      .app { grid-template-columns: 1fr; }
+      svg { min-height: 420px; height: 58vh; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="panel">
+      <div>
+        <h1>Complex getal visualiseren</h1>
+        <p class="subtitle">Voer z = a + bi in of versleep het punt in het complexe vlak.</p>
+      </div>
+
+      <div>
+        <label for="realInput">Reëel deel a</label>
+        <input id="realInput" type="number" step="0.1" value="3" />
+      </div>
+
+      <div>
+        <label for="imagInput">Imaginair deel b</label>
+        <input id="imagInput" type="number" step="0.1" value="2" />
+      </div>
+
+      <div class="button-grid">
+        <button id="modulusBtn" class="yellow-btn">Laat modulus |z| zien</button>
+        <button id="argumentBtn" class="yellow-btn">Laat argument arg(z) zien</button>
+        <button id="toggleGridBtn" class="secondary">Schakel naar poolcoördinaten</button>
+      </div>
+
+      <p class="hint">
+        Tip: pak het rode punt vast en sleep het rond. In de grafiek springt het punt naar roosterpunten. Via de invoervelden kun je ook kommagetallen invullen.
+      </p>
+    </section>
+
+    <section class="canvas-card">
+      <svg id="plane" viewBox="0 0 700 700" aria-label="Complexe vlak">
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#dc2626" />
+          </marker>
+        </defs>
+        <g id="gridLayer"></g>
+        <g id="drawingLayer"></g>
+      </svg>
+    </section>
+
+    <section class="calculation-card">
+      <h2>Berekening</h2>
+      <div class="readout" id="readout">
+        <div>z = 3 + 2i</div>
+        <div>Klik op een knop om de berekening te tonen.</div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const svg = document.getElementById("plane");
+    const gridLayer = document.getElementById("gridLayer");
+    const drawingLayer = document.getElementById("drawingLayer");
+    const realInput = document.getElementById("realInput");
+    const imagInput = document.getElementById("imagInput");
+    const readout = document.getElementById("readout");
+    const modulusBtn = document.getElementById("modulusBtn");
+    const argumentBtn = document.getElementById("argumentBtn");
+    const toggleGridBtn = document.getElementById("toggleGridBtn");
+
+    const W = 700;
+    const H = 700;
+    const origin = { x: W / 2, y: H / 2 };
+    const scale = 45;
+    const minCoord = -7;
+    const maxCoord = 7;
+
+    let z = { re: 3, im: 2 };
+    let gridMode = "rect";
+    let showModulus = false;
+    let showArgument = false;
+    let dragging = false;
+
+    function fmt(n) {
+      if (Math.abs(n) < 0.0005) n = 0;
+      return Number(n.toFixed(2)).toString();
+    }
+
+    function complexText() {
+      const re = fmt(z.re);
+      const imAbs = fmt(Math.abs(z.im));
+      const sign = z.im >= 0 ? "+" : "−";
+      return `z = ${re} ${sign} ${imAbs}i`;
+    }
+
+    function toScreen(re, im) {
+      return { x: origin.x + re * scale, y: origin.y - im * scale };
+    }
+
+    function toComplex(x, y) {
+      return {
+        re: (x - origin.x) / scale,
+        im: (origin.y - y) / scale
+      };
+    }
+
+    function svgEl(name, attrs = {}) {
+      const el = document.createElementNS("http://www.w3.org/2000/svg", name);
+      Object.entries(attrs).forEach(([k, v]) => el.setAttribute(k, v));
+      return el;
+    }
+
+    function drawGrid() {
+      gridLayer.innerHTML = "";
+
+      if (gridMode === "rect") {
+        for (let i = minCoord; i <= maxCoord; i++) {
+          const x = origin.x + i * scale;
+          const y = origin.y - i * scale;
+          gridLayer.appendChild(svgEl("line", { x1: x, y1: 40, x2: x, y2: 660, class: "grid-line" }));
+          gridLayer.appendChild(svgEl("line", { x1: 40, y1: y, x2: 660, y2: y, class: "grid-line" }));
+        }
+      } else {
+        for (let r = scale; r <= 7 * scale; r += scale) {
+          gridLayer.appendChild(svgEl("circle", { cx: origin.x, cy: origin.y, r, class: "polar-circle" }));
+        }
+        for (let deg = 0; deg < 360; deg += 15) {
+          const rad = deg * Math.PI / 180;
+          const x = origin.x + Math.cos(rad) * 7 * scale;
+          const y = origin.y - Math.sin(rad) * 7 * scale;
+          gridLayer.appendChild(svgEl("line", { x1: origin.x, y1: origin.y, x2: x, y2: y, class: "polar-ray" }));
+        }
+      }
+
+      gridLayer.appendChild(svgEl("line", { x1: 40, y1: origin.y, x2: 660, y2: origin.y, class: "axis" }));
+      gridLayer.appendChild(svgEl("line", { x1: origin.x, y1: 660, x2: origin.x, y2: 40, class: "axis" }));
+
+      for (let i = minCoord; i <= maxCoord; i++) {
+        if (i === 0) continue;
+        const sx = origin.x + i * scale;
+        const sy = origin.y - i * scale;
+        const xt = svgEl("text", { x: sx - 4, y: origin.y + 20, class: "tick-text" });
+        xt.textContent = i;
+        gridLayer.appendChild(xt);
+        const yt = svgEl("text", { x: origin.x + 8, y: sy + 4, class: "tick-text" });
+        yt.textContent = i;
+        gridLayer.appendChild(yt);
+      }
+
+      const realLabel = svgEl("text", { x: 610, y: origin.y - 12, class: "axis-label" });
+      realLabel.textContent = "Re";
+      gridLayer.appendChild(realLabel);
+
+      const imagLabel = svgEl("text", { x: origin.x + 12, y: 58, class: "axis-label" });
+      imagLabel.textContent = "Im";
+      gridLayer.appendChild(imagLabel);
+    }
+
+    function drawModulusLabel(p) {
+      const mod = Math.hypot(z.re, z.im);
+      if (mod < 0.05) return;
+
+      const angle = Math.atan2(z.im, z.re);
+      const midX = (origin.x + p.x) / 2;
+      const midY = (origin.y + p.y) / 2;
+
+      const offset = 18;
+      const nx = -Math.sin(angle) * offset;
+      const ny = -Math.cos(angle) * offset;
+
+      const label = svgEl("text", {
+        x: midX + nx,
+        y: midY + ny,
+        fill: "#7c2d12",
+        "font-size": "16",
+        "font-weight": "800",
+        transform: `rotate(${-angle * 180 / Math.PI}, ${midX + nx}, ${midY + ny})`
+      });
+
+      label.textContent = `|z| = ${fmt(mod)}`;
+      drawingLayer.appendChild(label);
+    }
+
+    function drawAngleArc() {
+      const r = 58;
+      const angle = Math.atan2(z.im, z.re);
+      if (Math.hypot(z.re, z.im) < 0.15) return;
+
+      const start = { x: origin.x + r, y: origin.y };
+      const end = { x: origin.x + Math.cos(angle) * r, y: origin.y - Math.sin(angle) * r };
+      const sweep = angle >= 0 ? 0 : 1;
+      const largeArc = Math.abs(angle) > Math.PI ? 1 : 0;
+      const path = `M ${start.x} ${start.y} A ${r} ${r} 0 ${largeArc} ${sweep} ${end.x} ${end.y}`;
+      drawingLayer.appendChild(svgEl("path", { d: path, class: "angle-arc" }));
+
+      const labelAngle = angle / 2;
+      const label = svgEl("text", {
+        x: origin.x + Math.cos(labelAngle) * 82,
+        y: origin.y - Math.sin(labelAngle) * 82,
+        class: "angle-label"
+      });
+      label.textContent = `arg(z) = ${fmt(angle)} rad`;
+      drawingLayer.appendChild(label);
+    }
+
+    function render() {
+      drawGrid();
+      drawingLayer.innerHTML = "";
+
+      const p = toScreen(z.re, z.im);
+
+      drawingLayer.appendChild(svgEl("line", { x1: p.x, y1: p.y, x2: p.x, y2: origin.y, class: "helper-line" }));
+      drawingLayer.appendChild(svgEl("line", { x1: p.x, y1: p.y, x2: origin.x, y2: p.y, class: "helper-line" }));
+      drawingLayer.appendChild(svgEl("line", {
+        x1: origin.x, y1: origin.y, x2: p.x, y2: p.y,
+        class: "vector-line"
+      }));
+
+      if (showModulus) drawModulusLabel(p);
+
+      if (showArgument) drawAngleArc();
+
+      const point = svgEl("circle", { cx: p.x, cy: p.y, r: 11, class: "point", id: "point" });
+      drawingLayer.appendChild(point);
+
+      const label = svgEl("text", { x: p.x + 14, y: p.y - 14, class: "point-label" });
+      label.textContent = complexText();
+      drawingLayer.appendChild(label);
+
+      point.addEventListener("pointerdown", startDrag);
+      updateReadout();
+    }
+
+    function updateReadout() {
+      const mod = Math.hypot(z.re, z.im);
+      const argRad = Math.atan2(z.im, z.re);
+      const argDeg = argRad * 180 / Math.PI;
+
+      let messages = [];
+
+      if (showModulus) {
+        messages.push(`
+          <div class="calc-line"><strong>Modulus berekenen</strong></div>
+          <div class="calc-line">|z| = √(a² + b²)</div>
+          <div class="calc-line">|z| = √(${fmt(z.re)}² + ${fmt(z.im)}²)</div>
+          <div class="calc-line">|z| = √(${fmt(z.re * z.re)} + ${fmt(z.im * z.im)})</div>
+          <div class="calc-line">|z| = ${fmt(mod)}</div>
+        `);
+      }
+
+      if (showArgument) {
+        if (mod < 0.0001) {
+          messages.push(`
+            <div class="calc-line"><strong>Argument berekenen</strong></div>
+            <div class="calc-line">z = 0</div>
+            <div class="calc-line">Het argument is dan niet gedefinieerd.</div>
+          `);
+        } else {
+          messages.push(`
+            <div class="calc-line"><strong>Argument berekenen</strong></div>
+            <div class="calc-line">arg(z) = arctan(b / a)</div>
+            <div class="calc-line">arg(z) = arctan(${fmt(z.im)} / ${fmt(z.re)})</div>
+            <div class="calc-line">arg(z) = arctan(${fmt(z.im / z.re)})</div>
+            ${z.re < 0 && z.im >= 0 ? `<div class="calc-line">Re(z) &lt; 0 en Im(z) &gt; 0 → het punt ligt in het 2e kwadrant, dus we tellen π erbij op.</div>
+            <div class="calc-line">arg(z) = ${fmt(Math.atan(z.im / z.re))} + π</div>` : ""}
+            ${z.re < 0 && z.im < 0 ? `<div class="calc-line">Re(z) &lt; 0 en Im(z) &lt; 0 → het punt ligt in het 3e kwadrant, dus we trekken π ervan af.</div>
+            <div class="calc-line">arg(z) = ${fmt(Math.atan(z.im / z.re))} - π</div>` : ""}
+            <div class="calc-line">arg(z) = ${fmt(argRad)} rad</div>
+            <div class="calc-line">arg(z) ≈ ${fmt(argDeg)}°</div>
+          `);
+        }
+      }
+
+      let extra = messages.length > 0
+        ? messages.join("<hr>")
+        : "<div>Klik op een knop om de berekening te tonen.</div>";
+
+      readout.innerHTML = `
+        <div class="calc-line"><strong>${complexText()}</strong></div>
+        ${extra}
+      `;
+    }
+
+    function syncInputs() {
+      realInput.value = fmt(z.re);
+      imagInput.value = fmt(z.im);
+    }
+
+    function clamp(value, min, max) {
+      return Math.min(max, Math.max(min, value));
+    }
+
+    function setZ(re, im, updateInputs = true) {
+      z.re = clamp(re, minCoord, maxCoord);
+      z.im = clamp(im, minCoord, maxCoord);
+      if (updateInputs) syncInputs();
+      render();
+    }
+
+    function getPointerPosition(evt) {
+      const pt = svg.createSVGPoint();
+      pt.x = evt.clientX;
+      pt.y = evt.clientY;
+      return pt.matrixTransform(svg.getScreenCTM().inverse());
+    }
+
+    function startDrag(evt) {
+      dragging = true;
+      svg.setPointerCapture(evt.pointerId);
+    }
+
+    svg.addEventListener("pointermove", (evt) => {
+      if (!dragging) return;
+      const pos = getPointerPosition(evt);
+      const c = toComplex(pos.x, pos.y);
+      setZ(Math.round(c.re), Math.round(c.im), true);
+    });
+
+    svg.addEventListener("pointerup", () => dragging = false);
+    svg.addEventListener("pointerleave", () => dragging = false);
+
+    realInput.addEventListener("input", () => setZ(parseFloat(realInput.value || 0), z.im, false));
+    imagInput.addEventListener("input", () => setZ(z.re, parseFloat(imagInput.value || 0), false));
+
+    modulusBtn.addEventListener("click", () => {
+      showModulus = !showModulus;
+      render();
+    });
+
+    argumentBtn.addEventListener("click", () => {
+      showArgument = !showArgument;
+      render();
+    });
+
+    toggleGridBtn.addEventListener("click", () => {
+      gridMode = gridMode === "rect" ? "polar" : "rect";
+      toggleGridBtn.textContent = gridMode === "rect" ? "Schakel naar poolcoördinaten" : "Schakel naar rechthoekig assenstelsel";
+      render();
+    });
+
+    render();
+  </script>
+</body>
+</html>
