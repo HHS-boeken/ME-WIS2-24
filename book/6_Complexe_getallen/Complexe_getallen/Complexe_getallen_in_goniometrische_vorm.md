@@ -41,7 +41,8 @@ Voor een complex getal $z = a + bi$ geldt:
 
 Let op: de uitkomst van de tangens is afhankelijk van het kwadrant waarin  $z$ ligt. Gebruik daarom een schets voor de juiste hoek.
 
-**Overgang naar poolvorm**
+:::{admonition} Stappenplan Overgang naar poolvorm
+:class: warning
 
 Om $z = a + bi$ om te zetten naar de poolvorm:
 
@@ -51,7 +52,9 @@ Om $z = a + bi$ om te zetten naar de poolvorm:
 
 Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i \sin \theta_2)$, dan geldt:
 
-**Vermenigvuldigen**
+:::
+
+<!-- **Vermenigvuldigen**
 
 \begin{align*}
     z_1 \cdot z_2 = r_1 r_2 \left[ \cos(\theta_1 + \theta_2) + i \sin(\theta_1 + \theta_2) \right]
@@ -62,6 +65,7 @@ Als $z_1 = r_1(\cos \theta_1 + i \sin \theta_1)$ en $z_2 = r_2(\cos \theta_2 + i
 \begin{align*}
     \frac{z_1}{z_2} = \frac{r_1}{r_2} \left[ \cos(\theta_1 - \theta_2) + i \sin(\theta_1 - \theta_2) \right]
 \end{align*}
+--> 
 
 <div style="width:100%; overflow:hidden;">
   <iframe
