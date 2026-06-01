@@ -1,4 +1,6 @@
-# 7.3.1 Uitwerkingen
+# 7.3 Uitwerkingen
+
+<hr style="border:2px solid #9EA700">
 
 ## Opgave 7.3.1a
 
