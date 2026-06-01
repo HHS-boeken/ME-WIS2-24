@@ -88,6 +88,14 @@ $$
 \end{align*}
 $$
 
+Omdat $z$ in het vierde kwadrant ligt:
+
+$$
+\begin{align*}
+\theta  &= -\dfrac{ \pi}{6}
+\end{align*}
+$$
+
 Schrijf in goniometrische vorm:
 
 $$
@@ -142,7 +150,7 @@ Omdat $z$ in het tweede kwadrant ligt:
 
 $$
 \begin{align*}
-\phi    &= - \dfrac{\pi}{3} + \pi \\
+\theta   &= - \dfrac{\pi}{3} + \pi \\
 &= \dfrac{2\pi}{3}
 \end{align*}
 $$
@@ -253,7 +261,7 @@ Omdat $z$ in het tweede kwadrant ligt:
 
 $$
 \begin{align*}
-\phi    &= - \dfrac{\pi}{4} + \pi \\
+\theta   &= - \dfrac{\pi}{4} + \pi \\
 &= \dfrac{3\pi}{4}
 \end{align*}
 $$
@@ -313,7 +321,7 @@ Omdat $z$ in het derde kwadrant ligt:
 
 $$
 \begin{align*}
-\phi    &= \dfrac{\pi}{6} - \pi \\
+\theta   &= \dfrac{\pi}{6} - \pi \\
 &= -\dfrac{5\pi}{6}
 \end{align*}
 $$
@@ -424,7 +432,7 @@ Omdat $z$ in het derde kwadrant ligt:
 
 $$
 \begin{align*}
-\phi    &= \dfrac{\pi}{3} - \pi \\
+\theta   &= \dfrac{\pi}{3} - \pi \\
 &= -\dfrac{2\pi}{3}
 \end{align*}
 $$
