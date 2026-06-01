@@ -7,8 +7,6 @@
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in exponentiële vorm
-
 $$
 z = \sqrt{2}e^{\frac{-\pi}{4} i}
 $$
