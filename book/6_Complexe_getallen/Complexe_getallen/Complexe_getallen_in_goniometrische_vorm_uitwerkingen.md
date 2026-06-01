@@ -5,10 +5,8 @@
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = 1 + i
+z = \sqrt{2} \left( \cos \left( \dfrac{\pi}{4} \right)  + i \sin \left( \dfrac{\pi}{4} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -57,10 +55,9 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
 
 $$
-z = \sqrt{3} - i
+z = 2 \left( \cos \left( -\dfrac{\pi}{6} \right)  + i \sin \left( -\dfrac{\pi}{6} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -109,10 +106,8 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = -1 + \sqrt{3}i
+z = 2 \left( \cos \left( \dfrac{2\pi}{3} \right)  + i \sin \left( \dfrac{2\pi}{3} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -170,10 +165,8 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = 2 + 2\sqrt{3}i
+z &= 4 \left( \cos \left( \dfrac{\pi}{3} \right)  + i \sin \left( \dfrac{\pi}{3} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -223,10 +216,8 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = -3 + 3i
+z = 3\sqrt{2} \left( \cos \left( \dfrac{3\pi}{4} \right)  + i \sin \left( \dfrac{3\pi}{4} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -293,10 +284,8 @@ $$
 
 :::{dropdown} Uitwerking
 
-Schrijf in goniometrische vorm
-
 $$
-z = -4\sqrt{3} - 4i
+z = 8 \left( \cos \left( -\dfrac{5\pi}{6} \right)  + i \sin \left( -\dfrac{5\pi}{6} \right) \right)
 $$
 
 De modulus is:
@@ -347,10 +336,8 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = 5i
+z = 5 \left( \cos \left( \dfrac{\pi}{2} \right)  + i \sin \left( \dfrac{\pi}{2} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -401,7 +388,7 @@ $$
 Schrijf in goniometrische vorm(poolvorm) :
 
 $$
-z = -6 - 6\sqrt{3}i
+z = 12 \left( \cos \left( -\dfrac{2\pi}{3} \right)  + i \sin \left( -\dfrac{2\pi}{3} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -460,10 +447,8 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = 2\sqrt{3} - 2i
+z = 4 \left( \cos \left( -\dfrac{\pi}{6} \right)  + i \sin \left( -\dfrac{\pi}{6} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
@@ -513,10 +498,8 @@ $$
 ::::{admonition} Antwoord
 :class: important, dropdown
 
-Schrijf in goniometrische vorm(poolvorm) :
-
 $$
-z = -8i
+z = 8 \left( \cos \left( -\dfrac{\pi}{2} \right)  + i \sin \left( -\dfrac{\pi}{2} \right) \right)
 $$
 
 :::{dropdown} Uitwerking
