@@ -1,8 +1,8 @@
 # 7.3 Uitwerkingen
 
-## 7.3 Uitwerkingen
+## Opgave 7.3a
 
-::::{admonition} Opgave 7.3a
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -52,7 +52,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3b
+## Opgave 7.3b
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -102,7 +104,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3c
+## Opgave 7.3c
+ 
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -161,7 +165,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3d
+## Opgave 7.3d
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -212,7 +218,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3e
+## Opgave 7.3e
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -272,7 +280,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3f
+## Opgave 7.3f
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -332,7 +342,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3g
+## Opgave 7.3g
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -381,7 +393,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3h
+## Opgave 7.3h
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -441,7 +455,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3i
+## Opgave 7.3i
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
@@ -492,7 +508,9 @@ $$
 
 <hr style="border:1px solid #9EA700">
 
-::::{admonition} Opgave 7.3j
+## Opgave 7.3j
+
+::::{admonition} Antwoord
 :class: important, dropdown
 
 Schrijf in goniometrische vorm(poolvorm) :
