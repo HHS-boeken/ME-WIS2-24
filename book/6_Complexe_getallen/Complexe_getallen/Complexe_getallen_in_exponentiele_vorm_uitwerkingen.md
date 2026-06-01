@@ -1,15 +1,16 @@
 # 7.5 Uitwerkingen
 
-## 7.5 Uitwerkingen
-
 <hr style="border:2px solid #9EA700">
 
 ### Opgave 7.5a
 
+::::{admonition} Antwoord
+:class: important, dropdown
+
 Schrijf in exponentiële vorm
 
 $$
-z = 1 - i
+z = \sqrt{2}e^{\frac{-\pi}{4} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -60,15 +61,18 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5b
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
+
 
 $$
-z = -1 - i
+ z = \sqrt{2}e^{\frac{-3\pi}{4} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -120,15 +124,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5c
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = \sqrt{3} + i
+z = 2e^{\frac{\pi}{6} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -171,15 +177,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5d
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = -\sqrt{3} + i
+z = 2e^{\frac{5\pi}{6} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -231,15 +239,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5e
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = 2 - 2i
+z = 2\sqrt{2}e^{\frac{-\pi}{4} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -291,15 +301,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5f
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = -2\sqrt{3} - 2i
+z = 4e^{\frac{-5\pi}{6} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -352,15 +364,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5g
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = -3 + 3\sqrt{3}i
+z = 6e^{\frac{2\pi}{3} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -413,15 +427,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5h
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = -4i
+z = 4e^{\frac{-\pi}{2} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -471,15 +487,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5i
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = 4\sqrt{3} - 4i
+z = 8e^{\frac{-\pi}{6} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -531,15 +549,17 @@ $$
 $$
 
 :::
+::::
 
 <hr style="border:1px solid #9EA700">
 
 ### Opgave 7.5j
 
-Schrijf in exponentiële vorm
+::::{admonition} Antwoord
+:class: important, dropdown
 
 $$
-z = -5 - 5i
+z = 5\sqrt{2}e^{\frac{-3\pi}{4} i}
 $$
 
 :::{dropdown} Uitwerking
@@ -592,3 +612,4 @@ $$
 $$
 
 :::
+::::
