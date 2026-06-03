@@ -735,7 +735,7 @@ $$
 
 $$
 \begin{align*}
-z_4 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{2}\right)+i\sin\left(\dfrac{3\pi}{2}\right)\right) \
+z_4 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{2}\right)+i\sin\left(\dfrac{3\pi}{2}\right)\right) \\
 &\approx 1.741(0 - 1i) \\
 &\approx -0.73 - 1.42i
 \end{align*}
@@ -774,70 +774,79 @@ $$
 Neem:
 
 $$
-u = z-1
+w = z - 1
 $$
 
 Dan wordt de vergelijking:
 
 $$
-u^3 = 8
+w^3 = 8
 $$
 
-Schrijf $8+0i$ in poolvorm:
+Deze vergelijking is gelijk aan opgave 7.7.2f.
 
-De modulus is:
-
-$$
-r = 8
-$$
-
-Het argument is:
+Uit opgave 7.7.2f volgt:
 
 $$
-\theta = 0+k\cdot2\pi
-$$
-
-We zoeken de derde-machtswortels:
-
-$$
-u_k = 2\left(\cos\left(\dfrac{k\cdot2\pi}{3}\right)+i\sin\left(\dfrac{k\cdot2\pi}{3}\right)\right)
-$$
-
-voor $k=0,1,2$.
-
-Schrijf de oplossingen voor $u$ uit:
-
-$$
-u_0 = 2
+w_0 = 2
 $$
 
 $$
-u_1 = -1+\sqrt{3}i
+w_1 = -1 + \sqrt{3}i
 $$
 
 $$
-u_2 = -1-\sqrt{3}i
+w_2 = -1 - \sqrt{3}i
 $$
 
-Omdat $u=z-1$, geldt:
+Omdat:
 
 $$
-z = u+1
+w = z - 1
+$$
+
+geldt:
+
+$$
+z - 1 = w
 $$
 
 Dus:
 
 $$
-z_0 = 2+1 = 3
+z = w + 1
 $$
 
-$$
-z_1 = -1+\sqrt{3}i+1 = \sqrt{3}i
-$$
+Voor $w_0 = 2$:
 
 $$
-z_2 = -1-\sqrt{3}i+1 = -\sqrt{3}i
+\begin{align*}
+z_0 &= w_0 + 1 \
+&= 2 + 1 \
+&= 3
+\end{align*}
 $$
+
+Voor $w_1 = -1 + \sqrt{3}i$:
+
+$$
+\begin{align*}
+z_1 &= w_1 + 1 \
+&= -1 + \sqrt{3}i + 1 \
+&= \sqrt{3}i
+\end{align*}
+$$
+
+Voor $w_2 = -1 - \sqrt{3}i$:
+
+$$
+\begin{align*}
+z_2 &= w_2 + 1 \
+&= -1 - \sqrt{3}i + 1 \
+&= -\sqrt{3}i
+\end{align*}
+$$
+
 
 ::: 
 ::::
