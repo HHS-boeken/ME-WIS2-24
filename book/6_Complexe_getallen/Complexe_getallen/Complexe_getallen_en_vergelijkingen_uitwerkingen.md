@@ -656,15 +656,15 @@ Voor $k=0$:
 
 $$
 \begin{align*}
-\theta &= \dfrac{-\frac{\pi}{2}+0\cdot2\pi}{5} \
+\theta &= \dfrac{-\frac{\pi}{2}+0\cdot2\pi}{5} \\
 &= -\dfrac{\pi}{10}
 \end{align*}
 $$
 
 $$
 \begin{align*}
-z_0 &= 2^{\frac{4}{5}}\left(\cos\left(-\dfrac{\pi}{10}\right)+i\sin\left(-\dfrac{\pi}{10}\right)\right) \
-&\approx 1.741\left(0.951 - 0.309i\right) \
+z_0 &= 2^{\frac{4}{5}}\left(\cos\left(-\dfrac{\pi}{10}\right)+i\sin\left(-\dfrac{\pi}{10}\right)\right) \\
+&\approx 1.741\left(0.951 - 0.309i\right) \\
 &\approx 1.52 - 0.49i
 \end{align*}
 $$
@@ -673,16 +673,16 @@ Voor $k=1$:
 
 $$
 \begin{align*}
-\theta &= \dfrac{-\frac{\pi}{2}+1\cdot2\pi}{5} \
-&= \dfrac{\frac{3\pi}{2}}{5} \
+\theta &= \dfrac{-\frac{\pi}{2}+1\cdot2\pi}{5} \\
+&= \dfrac{\frac{3\pi}{2}}{5} \\
 &= \dfrac{3\pi}{10}
 \end{align*}
 $$
 
 $$
 \begin{align*}
-z_1 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{10}\right)+i\sin\left(\dfrac{3\pi}{10}\right)\right) \
-&\approx 1.741\left(0.588 + 0.809i\right) \
+z_1 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{10}\right)+i\sin\left(\dfrac{3\pi}{10}\right)\right) \\
+&\approx 1.741\left(0.588 + 0.809i\right) \\
 &\approx 1.29 + 0.94i
 \end{align*}
 $$
@@ -691,16 +691,16 @@ Voor $k=2$:
 
 $$
 \begin{align*}
-\theta &= \dfrac{-\frac{\pi}{2}+2\cdot2\pi}{5} \
-&= \dfrac{\frac{7\pi}{2}}{5} \
+\theta &= \dfrac{-\frac{\pi}{2}+2\cdot2\pi}{5} \\
+&= \dfrac{\frac{7\pi}{2}}{5} \\
 &= \dfrac{7\pi}{10}
 \end{align*}
 $$
 
 $$
 \begin{align*}
-z_2 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{7\pi}{10}\right)+i\sin\left(\dfrac{7\pi}{10}\right)\right) \
-&\approx 1.741\left(-0.588 + 0.809i\right) \
+z_2 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{7\pi}{10}\right)+i\sin\left(\dfrac{7\pi}{10}\right)\right) \\
+&\approx 1.741\left(-0.588 + 0.809i\right) \\
 &\approx -0.73 + 1.42i
 \end{align*}
 $$
@@ -709,16 +709,16 @@ Voor $k=3$:
 
 $$
 \begin{align*}
-\theta &= \dfrac{-\frac{\pi}{2}+3\cdot2\pi}{5} \
-&= \dfrac{\frac{11\pi}{2}}{5} \
+\theta &= \dfrac{-\frac{\pi}{2}+3\cdot2\pi}{5} \\
+&= \dfrac{\frac{11\pi}{2}}{5} \\
 &= \dfrac{11\pi}{10}
 \end{align*}
 $$
 
 $$
 \begin{align*}
-z_3 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{11\pi}{10}\right)+i\sin\left(\dfrac{11\pi}{10}\right)\right) \
-&\approx 1.741\left(-0.951 - 0.309i\right) \
+z_3 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{11\pi}{10}\right)+i\sin\left(\dfrac{11\pi}{10}\right)\right) \\
+&\approx 1.741\left(-0.951 - 0.309i\right) \\
 &\approx -1.73 - 0.00i
 \end{align*}
 $$
@@ -727,8 +727,8 @@ Voor $k=4$:
 
 $$
 \begin{align*}
-\theta &= \dfrac{-\frac{\pi}{2}+4\cdot2\pi}{5} \
-&= \dfrac{\frac{15\pi}{2}}{5} \
+\theta &= \dfrac{-\frac{\pi}{2}+4\cdot2\pi}{5} \\
+&= \dfrac{\frac{15\pi}{2}}{5} \\
 &= \dfrac{3\pi}{2}
 \end{align*}
 $$
@@ -736,7 +736,7 @@ $$
 $$
 \begin{align*}
 z_4 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{2}\right)+i\sin\left(\dfrac{3\pi}{2}\right)\right) \
-&\approx 1.741(0 - 1i) \
+&\approx 1.741(0 - 1i) \\
 &\approx -0.73 - 1.42i
 \end{align*}
 $$
