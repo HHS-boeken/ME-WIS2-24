@@ -821,8 +821,8 @@ Voor $w_0 = 2$:
 
 $$
 \begin{align*}
-z_0 &= w_0 + 1 \
-&= 2 + 1 \
+z_0 &= w_0 + 1 \\
+&= 2 + 1 \\
 &= 3
 \end{align*}
 $$
@@ -831,8 +831,8 @@ Voor $w_1 = -1 + \sqrt{3}i$:
 
 $$
 \begin{align*}
-z_1 &= w_1 + 1 \
-&= -1 + \sqrt{3}i + 1 \
+z_1 &= w_1 + 1 \\
+&= -1 + \sqrt{3}i + 1 \\
 &= \sqrt{3}i
 \end{align*}
 $$
@@ -841,8 +841,8 @@ Voor $w_2 = -1 - \sqrt{3}i$:
 
 $$
 \begin{align*}
-z_2 &= w_2 + 1 \
-&= -1 - \sqrt{3}i + 1 \
+z_2 &= w_2 + 1 \\
+&= -1 - \sqrt{3}i + 1 \\
 &= -\sqrt{3}i
 \end{align*}
 $$
