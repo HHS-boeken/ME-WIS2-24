@@ -859,19 +859,19 @@ $$
 :class: important, dropdown
 
 $$
-z_0 \approx -0.72 + 0.86i
+z_0 \approx -0.63 + 0.86i
 $$
 
 $$
-z_1 \approx -2.86 + 1.28i
+z_1 \approx -2.37 + 0.86i
 $$
 
 $$
-z_2 \approx -3.28 - 0.86i
+z_2 \approx -2.37 - 0.86i
 $$
 
 $$
-z_3 \approx -1.14 - 1.28i
+z_3 \approx -0.63 - 0.86i
 $$
 
 :::{dropdown} Uitwerking
@@ -879,19 +879,19 @@ $$
 Los op in $\mathbb{C}$:
 
 $$
-(z+2)^4 = -4+4i
+(z+2)^4 = -4 + 4i
 $$
 
 Neem:
 
 $$
-u = z+2
+w = z + 2
 $$
 
 Dan wordt de vergelijking:
 
 $$
-u^4 = -4+4i
+w^4 = -4 + 4i
 $$
 
 Schrijf $-4+4i$ in poolvorm:
@@ -900,8 +900,8 @@ De modulus is:
 
 $$
 \begin{align*}
-r = |-4+4i| &= \sqrt{(-4)^2+4^2} \\
-&= \sqrt{16+16} \\
+r = |-4+4i| &= \sqrt{(-4)^2 + (4)^2} \\
+&= \sqrt{16 + 16} \\
 &= \sqrt{32} \\
 &= 4\sqrt{2}
 \end{align*}
@@ -912,6 +912,7 @@ Het argument is:
 $$
 \begin{align*}
 \theta = arg(-4+4i) &= \tan^{-1}\left(\dfrac{4}{-4}\right) \\
+&= \tan^{-1}(-1) \\
 &= -\dfrac{\pi}{4}
 \end{align*}
 $$
@@ -920,7 +921,7 @@ Omdat $-4+4i$ in het tweede kwadrant ligt:
 
 $$
 \begin{align*}
-\theta &= -\dfrac{\pi}{4}+\pi \\
+\theta &= -\dfrac{\pi}{4} + \pi \\
 &= \dfrac{3\pi}{4}
 \end{align*}
 $$
@@ -928,44 +929,49 @@ $$
 Dus:
 
 $$
-u^4 = 4\sqrt{2}\left(\cos\left(\dfrac{3\pi}{4}\right)+i\sin\left(\dfrac{3\pi}{4}\right)\right)
+w^4 = 4\sqrt{2}\left(\cos\left(\dfrac{3\pi}{4}\right)+i\sin\left(\dfrac{3\pi}{4}\right)\right)
 $$
 
-We zoeken de vierde-machtswortels:
+We zoeken de vierde-machtswortels, dat zijn:
 
 $$
-u_k = \sqrt[4]{4\sqrt{2}}\left(\cos\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)+i\sin\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)\right)
+w_k = \sqrt[4]{4\sqrt{2}}
+\left(
+\cos\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)
++i\sin\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)
+\right)
 $$
 
-voor $k=0,1,2,3$.
+voor $k = 0,1,2,3$.
 
 Omdat:
 
 $$
-\sqrt[4]{4\sqrt{2}} = 2^{5/8}
+\sqrt[4]{4\sqrt{2}} = 2^{\frac{5}{8}}
 $$
 
 wordt dit:
 
 $$
-u_k = 2^{5/8}\left(\cos\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)+i\sin\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)\right)
+w_k = 2^{\frac{5}{8}}
+\left(
+\cos\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)
++i\sin\left(\dfrac{\frac{3\pi}{4}+k\cdot2\pi}{4}\right)
+\right)
 $$
 
-Omdat $u=z+2$, geldt:
-
-$$
-z = u-2
-$$
-
-Schrijf de oplossingen uit:
+Schrijf de oplossingen voor $w$ uit:
 
 Voor $k=0$:
 
 $$
 \begin{align*}
-u_0 &\approx 1.28 + 0.86i \\
-z_0 &= u_0 - 2 \\
-z_0 &\approx -0.72 + 0.86i
+&= 2^{\frac{5}{8}}
+\left(
+\cos\left(\dfrac{3\pi}{16}\right)
++i\sin\left(\dfrac{3\pi}{16}\right)
+\right) \\
+&\approx 1.37 + 0.86i
 \end{align*}
 $$
 
@@ -973,9 +979,12 @@ Voor $k=1$:
 
 $$
 \begin{align*}
-u_1 &\approx -0.86 + 1.28i \\
-z_1 &= u_1 - 2 \\
-z_1 &\approx -2.86 + 1.28i
+&= 2^{\frac{5}{8}}
+\left(
+\cos\left(\dfrac{11\pi}{16}\right)
++i\sin\left(\dfrac{11\pi}{16}\right)
+\right) \\
+&\approx -0.37 + 0.86i
 \end{align*}
 $$
 
@@ -983,9 +992,12 @@ Voor $k=2$:
 
 $$
 \begin{align*}
-u_2 &\approx -1.28 - 0.86i \\
-z_2 &= u_2 - 2 \\
-z_2 &\approx -3.28 - 0.86i
+&= 2^{\frac{5}{8}}
+\left(
+\cos\left(\dfrac{19\pi}{16}\right)
++i\sin\left(\dfrac{19\pi}{16}\right)
+\right) \\
+&\approx -0.37 - 0.86i
 \end{align*}
 $$
 
@@ -993,9 +1005,71 @@ Voor $k=3$:
 
 $$
 \begin{align*}
-u_3 &\approx 0.86 - 1.28i \\
-z_3 &= u_3 - 2 \\
-z_3 &\approx -1.14 - 1.28i
+
+&= 2^{\frac{5}{8}}
+\left(
+\cos\left(\dfrac{27\pi}{16}\right)
++i\sin\left(\dfrac{27\pi}{16}\right)
+\right) \\
+&\approx 1.37 - 0.86i
+\end{align*}
+$$
+
+Omdat:
+
+$$
+w = z + 2
+$$
+
+geldt:
+
+$$
+z + 2 = w
+$$
+
+Dus:
+
+$$
+z = w - 2
+$$
+
+Voor $w_0 \approx 1.37 + 0.86i$:
+
+$$
+\begin{align*}
+z_0 &= w_0 - 2 \\
+&\approx 1.37 + 0.86i - 2 \\
+&\approx -0.63 + 0.86i
+\end{align*}
+$$
+
+Voor $w_1 \approx -0.37 + 0.86i$:
+
+$$
+\begin{align*}
+z_1 &= w_1 - 2 \\
+&\approx -0.37 + 0.86i - 2 \\
+&\approx -2.37 + 0.86i
+\end{align*}
+$$
+
+Voor $w_2 \approx -0.37 - 0.86i$:
+
+$$
+\begin{align*}
+z_2 &= w_2 - 2 \\
+&\approx -0.37 - 0.86i - 2 \\
+&\approx -2.37 - 0.86i
+\end{align*}
+$$
+
+Voor $w_3 \approx 1.37 - 0.86i$:
+
+$$
+\begin{align*}
+z_3 &= w_3 - 2 \\
+&\approx 1.37 - 0.86i - 2 \\
+&\approx -0.63 - 0.86i
 \end{align*}
 $$
 
@@ -1010,15 +1084,15 @@ $$
 :class: important, dropdown
 
 $$
-z_0 = \sqrt{3} - i
+z_0 = 1
 $$
 
 $$
-z_1 = 2i
+z_1 = -2 + \sqrt{3}i
 $$
 
 $$
-z_2 = -\sqrt{3} - i
+z_2 = -2 - \sqrt{3}i
 $$
 
 :::{dropdown} Uitwerking
@@ -1026,19 +1100,19 @@ $$
 Los op in $\mathbb{C}$:
 
 $$
-(zi)^3 = -8
+(z+i)^3 = -8
 $$
 
 Neem:
 
 $$
-u = zi
+w = z + i
 $$
 
 Dan wordt de vergelijking:
 
 $$
-u^3 = -8
+w^3 = -8
 $$
 
 Schrijf $-8+0i$ in poolvorm:
@@ -1047,7 +1121,9 @@ De modulus is:
 
 $$
 \begin{align*}
-r = |-8| &= \sqrt{(-8)^2+0^2} \\
+r = |-8|
+&= \sqrt{(-8)^2+0^2} \\
+&= \sqrt{64} \\
 &= 8
 \end{align*}
 $$
@@ -1055,26 +1131,83 @@ $$
 Het argument is:
 
 $$
-\theta = \pi+k\cdot2\pi
+\begin{align*}
+\theta = arg(-8+0i)
+&= \pi + k\cdot2\pi
+\end{align*}
+$$
+
+Dus:
+
+$$
+w^3 = 8 \left( \cos(\pi+k\cdot2\pi) +i\sin(\pi+k\cdot2\pi) \right)
 $$
 
 We zoeken de derde-machtswortels:
 
 $$
-u_k = 2\left(\cos\left(\dfrac{\pi+k\cdot2\pi}{3}\right)+i\sin\left(\dfrac{\pi+k\cdot2\pi}{3}\right)\right)
+w_k
+=
+\sqrt[3]{8}
+\left(
+\cos\left(
+\dfrac{\pi+k\cdot2\pi}{3}
+\right)
++i
+\sin\left(
+\dfrac{\pi+k\cdot2\pi}{3}
+\right)
+\right)
 $$
 
 voor $k=0,1,2$.
 
-Schrijf de oplossingen voor $u$ uit:
+Omdat:
+
+$$
+\sqrt[3]{8}=2
+$$
+
+wordt dit:
+
+$$
+w_k
+===
+
+2
+\left(
+\cos\left(
+\dfrac{\pi+k\cdot2\pi}{3}
+\right)
++i
+\sin\left(
+\dfrac{\pi+k\cdot2\pi}{3}
+\right)
+\right)
+$$
+
+Schrijf de oplossingen voor $w$ uit:
 
 Voor $k=0$:
 
 $$
 \begin{align*}
-u_0 &= 2\left(\cos\left(\dfrac{\pi}{3}\right)+i\sin\left(\dfrac{\pi}{3}\right)\right) \\
-&= 2\left(\dfrac{1}{2}+\dfrac{\sqrt{3}}{2}i\right) \\
-&= 1+\sqrt{3}i
+w_0
+&=
+2
+\left(
+\cos\left(\dfrac{\pi}{3}\right)
++i\sin\left(\dfrac{\pi}{3}\right)
+\right)
+\\
+&=
+2
+\left(
+\dfrac12+\dfrac{\sqrt3}{2}i
+\right)
+\\
+&=
+1+\sqrt3i
 \end{align*}
 $$
 
@@ -1082,7 +1215,8 @@ Voor $k=1$:
 
 $$
 \begin{align*}
-u_1 &= 2(\cos(\pi)+i\sin(\pi)) \\
+w_1 &= 2(\cos(\pi)+i\sin(\pi)) \\
+&= 2(-1+0i) \\
 &= -2
 \end{align*}
 $$
@@ -1091,52 +1225,50 @@ Voor $k=2$:
 
 $$
 \begin{align*}
-u_2 &= 2\left(\cos\left(\dfrac{5\pi}{3}\right)+i\sin\left(\dfrac{5\pi}{3}\right)\right) \\
-&= 1-\sqrt{3}i
+w_2 &= 2 \left( \cos\left(\dfrac{5\pi}{3}\right) +i\sin\left(\dfrac{5\pi}{3}\right) \right) \\
+&= 2 \left( \dfrac12-\dfrac{\sqrt3}{2}i \right) \\
+&= 1-\sqrt3i
 \end{align*}
 $$
 
-Omdat $u=zi$, geldt:
+Omdat:
 
 $$
-z = \dfrac{u}{i}
+w = z + i
 $$
 
-Gebruik hierbij:
+geldt:
 
 $$
-\dfrac{1}{i}=-i
+z = w - i
 $$
 
-Dus:
-
-Voor $u_0=1+\sqrt{3}i$:
+Voor $w_0 = 1+\sqrt3i$:
 
 $$
 \begin{align*}
-z_0 &= \dfrac{1+\sqrt{3}i}{i} \\
-&= (1+\sqrt{3}i)(-i) \\
-&= \sqrt{3}-i
+z_0 &= w_0-i \\
+&= 1+\sqrt3i-i \\
+&= 1+(\sqrt3-1)i
 \end{align*}
 $$
 
-Voor $u_1=-2$:
+Voor $w_1 = -2$:
 
 $$
 \begin{align*}
-z_1 &= \dfrac{-2}{i} \\
-&= -2(-i) \\
-&= 2i
+z_1 &= w_1-i \\
+&= -2-i
 \end{align*}
 $$
 
-Voor $u_2=1-\sqrt{3}i$:
+Voor $w_2 = 1-\sqrt3i$:
 
 $$
 \begin{align*}
-z_2 &= \dfrac{1-\sqrt{3}i}{i} \\
-&= (1-\sqrt{3}i)(-i) \\
-&= -\sqrt{3}-i
+z_2 &= w_2-i \\
+&= 1-\sqrt3i-i \\
+&= 1-(\sqrt3+1)i
 \end{align*}
 $$
 
