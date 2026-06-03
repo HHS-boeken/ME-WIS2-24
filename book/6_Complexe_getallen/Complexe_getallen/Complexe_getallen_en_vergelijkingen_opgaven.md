@@ -65,7 +65,7 @@ $$
 Los op in $\mathbb{C}$:
 
 $$
-(z-1)^3 = 8
+(z-1)^3 = 9
 $$
 
 <hr style="border:1px solid #9EA700">

@@ -751,15 +751,15 @@ $$
 :class: important, dropdown
 
 $$
-z_0 = 3
+z_0 \approx 3.08
 $$
 
 $$
-z_1 = \sqrt{3}i
+z_1 \approx -0.04 + 1.80i
 $$
 
 $$
-z_2 = -\sqrt{3}i
+z_2 \approx -0.04 - 1.80i
 $$
 
 :::{dropdown} Uitwerking
@@ -767,7 +767,7 @@ $$
 Los op in $\mathbb{C}$:
 
 $$
-(z-1)^3 = 8
+(z-1)^3 = 9
 $$
 
 Neem:
@@ -779,23 +779,127 @@ $$
 Dan wordt de vergelijking:
 
 $$
-w^3 = 8
+w^3 = 9
 $$
 
-Deze vergelijking is gelijk aan opgave 7.7.2f.
+Schrijf $9+0i$ in poolvorm:
 
-Uit opgave 7.7.2f volgt:
-
-$$
-w_0 = 2
-$$
+De modulus is:
 
 $$
-w_1 = -1 + \sqrt{3}i
+\begin{align*}
+r = |9| &= \sqrt{9^2+0^2} \\
+&= \sqrt{81} \\
+&= 9
+\end{align*}
 $$
 
+Het argument is:
+
 $$
-w_2 = -1 - \sqrt{3}i
+\begin{align*}
+\theta = arg(9+0i) &= 0 + k\cdot2\pi
+\end{align*}
+$$
+
+Dus:
+
+$$
+w^3 =
+9\left(
+\cos(k\cdot2\pi)
++i\sin(k\cdot2\pi)
+\right)
+$$
+
+We zoeken de derde-machtswortels:
+
+$$
+w_k =
+\sqrt[3]{9}
+\left(
+\cos\left(
+\dfrac{k\cdot2\pi}{3}
+\right)
++i
+\sin\left(
+\dfrac{k\cdot2\pi}{3}
+\right)
+\right)
+$$
+
+voor $k=0,1,2$.
+
+Omdat:
+
+$$
+\sqrt[3]{9} \approx 2.08
+$$
+
+wordt dit:
+
+$$
+w_k =
+2.08
+\left(
+\cos\left(
+\dfrac{k\cdot2\pi}{3}
+\right)
++i
+\sin\left(
+\dfrac{k\cdot2\pi}{3}
+\right)
+\right)
+$$
+
+Schrijf de oplossingen voor $w$ uit:
+
+Voor $k=0$:
+
+$$
+\begin{align*}
+\theta = 0 \Rightarrow w_0 &= 2.08(\cos(0)+i\sin(0)) \\
+&= 2.08(1+0i) \\
+&= 2.08
+\end{align*}
+$$
+
+Voor $k=1$:
+
+$$
+\begin{align*}
+\theta = \dfrac{2\pi}{3} \Rightarrow w_1
+&=
+2.08\left(
+\cos\left(\dfrac{2\pi}{3}\right)
++i\sin\left(\dfrac{2\pi}{3}\right)
+\right) \\
+&=
+2.08\left(
+-\dfrac12+\dfrac{\sqrt3}{2}i
+\right) \\
+&\approx
+-1.04 + 1.80i
+\end{align*}
+$$
+
+Voor $k=2$:
+
+$$
+\begin{align*}
+\theta = \dfrac{4\pi}{3} \Rightarrow w_2
+&=
+2.08\left(
+\cos\left(\dfrac{4\pi}{3}\right)
++i\sin\left(\dfrac{4\pi}{3}\right)
+\right) \\
+&=
+2.08\left(
+-\dfrac12-\dfrac{\sqrt3}{2}i
+\right) \\
+&\approx
+-1.04 - 1.80i
+\end{align*}
 $$
 
 Omdat:
@@ -807,42 +911,36 @@ $$
 geldt:
 
 $$
-z - 1 = w
-$$
-
-Dus:
-
-$$
 z = w + 1
 $$
 
-Voor $w_0 = 2$:
+Voor $w_0 = 2.08$:
 
 $$
 \begin{align*}
 z_0 &= w_0 + 1 \\
-&= 2 + 1 \\
-&= 3
+&= 2.08 + 1 \\
+&= 3.08
 \end{align*}
 $$
 
-Voor $w_1 = -1 + \sqrt{3}i$:
+Voor $w_1 \approx -1.04 + 1.80i$:
 
 $$
 \begin{align*}
 z_1 &= w_1 + 1 \\
-&= -1 + \sqrt{3}i + 1 \\
-&= \sqrt{3}i
+&\approx -1.04 + 1.80i + 1 \\
+&\approx -0.04 + 1.80i
 \end{align*}
 $$
 
-Voor $w_2 = -1 - \sqrt{3}i$:
+Voor $w_2 \approx -1.04 - 1.80i$:
 
 $$
 \begin{align*}
 z_2 &= w_2 + 1 \\
-&= -1 - \sqrt{3}i + 1 \\
-&= -\sqrt{3}i
+&\approx -1.04 - 1.80i + 1 \\
+&\approx -0.04 - 1.80i
 \end{align*}
 $$
 
