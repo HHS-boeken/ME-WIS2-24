@@ -1,5 +1,4 @@
 # 7.7 Uitwerkingen
-# 7.7.2 Uitwerkingen
 
 <hr style="border:2px solid #9EA700">
 
