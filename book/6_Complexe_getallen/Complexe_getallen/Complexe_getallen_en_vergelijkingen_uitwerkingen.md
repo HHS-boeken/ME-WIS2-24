@@ -1279,23 +1279,25 @@ $$
 
 ## Opgave 7.7.2j
 
+## Opgave 7.7.2j
+
 ::::{admonition} Antwoord
 :class: important, dropdown
 
 $$
-z_0 = -2i
+z_0 = 2 + 2i
 $$
 
 $$
-z_1 = 2
+z_1 = 4i
 $$
 
 $$
-z_2 = 2i
+z_2 = -2 + 2i
 $$
 
 $$
-z_3 = -2
+z_3 = 0
 $$
 
 :::{dropdown} Uitwerking
@@ -1303,19 +1305,19 @@ $$
 Los op in $\mathbb{C}$:
 
 $$
-(zi)^4 = 16
+(z-2i)^4 = 16
 $$
 
 Neem:
 
 $$
-u = zi
+w = z - 2i
 $$
 
 Dan wordt de vergelijking:
 
 $$
-u^4 = 16
+w^4 = 16
 $$
 
 Schrijf $16+0i$ in poolvorm:
@@ -1323,78 +1325,162 @@ Schrijf $16+0i$ in poolvorm:
 De modulus is:
 
 $$
-r = 16
+\begin{align*}
+r = |16| &= \sqrt{16^2+0^2} \\
+&= \sqrt{256} \\
+&= 16
+\end{align*}
 $$
 
 Het argument is:
 
 $$
-\theta = 0+k\cdot2\pi
-$$
-
-We zoeken de vierde-machtswortels:
-
-$$
-u_k = 2\left(\cos\left(\dfrac{k\cdot2\pi}{4}\right)+i\sin\left(\dfrac{k\cdot2\pi}{4}\right)\right)
-$$
-
-voor $k=0,1,2,3$.
-
-Schrijf de oplossingen voor $u$ uit:
-
-Voor $k=0$:
-
-$$
-u_0 = 2
-$$
-
-Voor $k=1$:
-
-$$
-u_1 = 2i
-$$
-
-Voor $k=2$:
-
-$$
-u_2 = -2
-$$
-
-Voor $k=3$:
-
-$$
-u_3 = -2i
-$$
-
-Omdat $u=zi$, geldt:
-
-$$
-z = \dfrac{u}{i}
-$$
-
-Gebruik hierbij:
-
-$$
-\dfrac{1}{i}=-i
+\begin{align*}
+\theta = arg(16+0i) &= 0 + k\cdot2\pi
+\end{align*}
 $$
 
 Dus:
 
 $$
-z_0 = \dfrac{2}{i} = -2i
+w^4 =
+16\left(
+\cos(k\cdot2\pi)
++i\sin(k\cdot2\pi)
+\right)
 $$
 
-$$
-z_1 = \dfrac{2i}{i} = 2
-$$
+We zoeken de vierde-machtswortels:
 
 $$
-z_2 = \dfrac{-2}{i} = 2i
+w_k =
+\sqrt[4]{16}
+\left(
+\cos\left(
+\dfrac{k\cdot2\pi}{4}
+\right)
++i
+\sin\left(
+\dfrac{k\cdot2\pi}{4}
+\right)
+\right)
 $$
 
+voor $k=0,1,2,3$.
+
+Omdat:
+
 $$
-z_3 = \dfrac{-2i}{i} = -2
+\sqrt[4]{16}=2
 $$
 
-::: 
+wordt dit:
+
+$$
+w_k =
+2
+\left(
+\cos\left(
+\dfrac{k\cdot2\pi}{4}
+\right)
++i
+\sin\left(
+\dfrac{k\cdot2\pi}{4}
+\right)
+\right)
+$$
+
+Schrijf de oplossingen voor $w$ uit:
+
+Voor $k=0$:
+
+$$
+\begin{align*}
+w_0 &= 2(\cos(0)+i\sin(0)) \\
+&= 2(1+0i) \\
+&= 2
+\end{align*}
+$$
+
+Voor $k=1$:
+
+$$
+\begin{align*}
+w_1 &= 2\left( \cos\left(\dfrac{\pi}{2}\right) +i\sin\left(\dfrac{\pi}{2}\right)\right) \\
+&= 2(0+1i) \\
+&= 2i
+\end{align*}
+$$
+
+Voor $k=2$:
+
+$$
+\begin{align*}
+w_2 &= 2(\cos(\pi)+i\sin(\pi)) \\
+&= 2(-1+0i) \\
+&= -2
+\end{align*}
+$$
+
+Voor $k=3$:
+
+$$
+\begin{align*}
+w_3 &= 2\left( \cos\left(\dfrac{3\pi}{2}\right) +i\sin\left(\dfrac{3\pi}{2}\right) \right) \\
+&= 2(0-1i) \\
+&= -2i
+\end{align*}
+$$
+
+Omdat:
+
+$$
+w = z - 2i
+$$
+
+geldt:
+
+$$
+z = w + 2i
+$$
+
+Voor $w_0 = 2$:
+
+$$
+\begin{align*}
+z_0 &= w_0 + 2i \\
+&= 2 + 2i
+\end{align*}
+$$
+
+Voor $w_1 = 2i$:
+
+$$
+\begin{align*}
+z_1 &= w_1 + 2i \\
+&= 2i + 2i \\
+&= 4i
+\end{align*}
+$$
+
+Voor $w_2 = -2$:
+
+$$
+\begin{align*}
+z_2 &= w_2 + 2i \\
+&= -2 + 2i
+\end{align*}
+$$
+
+Voor $w_3 = -2i$:
+
+$$
+\begin{align*}
+z_3 &= w_3 + 2i \\
+&= -2i + 2i \\
+&= 0
+\end{align*}
+$$
+
+:::
 ::::
