@@ -1084,15 +1084,15 @@ $$
 :class: important, dropdown
 
 $$
-z_0 = 1
+z_0 = 1+(\sqrt3-1)i
 $$
 
 $$
-z_1 = -2 + \sqrt{3}i
+z_1 = -2-i
 $$
 
 $$
-z_2 = -2 - \sqrt{3}i
+z_2 = 1-(\sqrt3+1)i
 $$
 
 :::{dropdown} Uitwerking
@@ -1171,9 +1171,7 @@ $$
 wordt dit:
 
 $$
-w_k
-===
-
+w_k =
 2
 \left(
 \cos\left(
@@ -1276,8 +1274,6 @@ $$
 ::::
 
 <hr style="border:1px solid #9EA700">
-
-## Opgave 7.7.2j
 
 ## Opgave 7.7.2j
 
