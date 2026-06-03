@@ -578,23 +578,23 @@ $$
 :class: important, dropdown
 
 $$
-z_0 \approx 1.66 - 0.54i
+z_0 \approx 1.52 - 0.49i
 $$
 
 $$
-z_1 \approx 1.02 + 1.41i
+z_1 \approx 1.29 + 0.94i
 $$
 
 $$
-z_2 \approx -1.02 + 1.41i
+z_2 \approx -0.73 + 1.42i
 $$
 
 $$
-z_3 \approx -1.66 - 0.54i
+z_3 \approx -1.73 - 0.00i
 $$
 
 $$
-z_4 \approx 0.00 - 1.74i
+z_4 \approx -0.73 - 1.42i
 $$
 
 :::{dropdown} Uitwerking
@@ -611,8 +611,8 @@ De modulus is:
 
 $$
 \begin{align*}
-r = |-16i| &= \sqrt{0^2+(-16)^2} \\
-&= \sqrt{256} \\
+r = |-16i| &= \sqrt{(0)^2 + (-16)^2} \
+&= \sqrt{256} \
 &= 16
 \end{align*}
 $$
@@ -631,24 +631,23 @@ $$
 z^5 = 16\left(\cos\left(-\dfrac{\pi}{2}\right)+i\sin\left(-\dfrac{\pi}{2}\right)\right)
 $$
 
-We zoeken de vijfde-machtswortels:
+We zoeken de vijfde-machtswortels, dat zijn:
 
 $$
 z_k = \sqrt[5]{16}\left(\cos\left(\dfrac{-\frac{\pi}{2}+k\cdot2\pi}{5}\right)+i\sin\left(\dfrac{-\frac{\pi}{2}+k\cdot2\pi}{5}\right)\right)
+\quad \text{voor } k=0,1,2,3,4
 $$
-
-voor $k=0,1,2,3,4$.
 
 Omdat:
 
 $$
-\sqrt[5]{16} = 2^{4/5}
+\sqrt[5]{16} = 2^{\frac{4}{5}}
 $$
 
 wordt dit:
 
 $$
-z_k = 2^{4/5}\left(\cos\left(\dfrac{-\frac{\pi}{2}+k\cdot2\pi}{5}\right)+i\sin\left(\dfrac{-\frac{\pi}{2}+k\cdot2\pi}{5}\right)\right)
+z_k = 2^{\frac{4}{5}}\left(\cos\left(\dfrac{-\frac{\pi}{2}+k\cdot2\pi}{5}\right)+i\sin\left(\dfrac{-\frac{\pi}{2}+k\cdot2\pi}{5}\right)\right)
 $$
 
 Schrijf de oplossingen uit:
@@ -657,7 +656,16 @@ Voor $k=0$:
 
 $$
 \begin{align*}
-\theta = -\dfrac{\pi}{10} \Rightarrow z_0 &\approx 1.66 - 0.54i
+\theta &= \dfrac{-\frac{\pi}{2}+0\cdot2\pi}{5} \
+&= -\dfrac{\pi}{10}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+z_0 &= 2^{\frac{4}{5}}\left(\cos\left(-\dfrac{\pi}{10}\right)+i\sin\left(-\dfrac{\pi}{10}\right)\right) \
+&\approx 1.741\left(0.951 - 0.309i\right) \
+&\approx 1.52 - 0.49i
 \end{align*}
 $$
 
@@ -665,7 +673,17 @@ Voor $k=1$:
 
 $$
 \begin{align*}
-\theta = \dfrac{3\pi}{10} \Rightarrow z_1 &\approx 1.02 + 1.41i
+\theta &= \dfrac{-\frac{\pi}{2}+1\cdot2\pi}{5} \
+&= \dfrac{\frac{3\pi}{2}}{5} \
+&= \dfrac{3\pi}{10}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+z_1 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{10}\right)+i\sin\left(\dfrac{3\pi}{10}\right)\right) \
+&\approx 1.741\left(0.588 + 0.809i\right) \
+&\approx 1.29 + 0.94i
 \end{align*}
 $$
 
@@ -673,7 +691,17 @@ Voor $k=2$:
 
 $$
 \begin{align*}
-\theta = \dfrac{7\pi}{10} \Rightarrow z_2 &\approx -1.02 + 1.41i
+\theta &= \dfrac{-\frac{\pi}{2}+2\cdot2\pi}{5} \
+&= \dfrac{\frac{7\pi}{2}}{5} \
+&= \dfrac{7\pi}{10}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+z_2 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{7\pi}{10}\right)+i\sin\left(\dfrac{7\pi}{10}\right)\right) \
+&\approx 1.741\left(-0.588 + 0.809i\right) \
+&\approx -0.73 + 1.42i
 \end{align*}
 $$
 
@@ -681,7 +709,17 @@ Voor $k=3$:
 
 $$
 \begin{align*}
-\theta = \dfrac{11\pi}{10} \Rightarrow z_3 &\approx -1.66 - 0.54i
+\theta &= \dfrac{-\frac{\pi}{2}+3\cdot2\pi}{5} \
+&= \dfrac{\frac{11\pi}{2}}{5} \
+&= \dfrac{11\pi}{10}
+\end{align*}
+$$
+
+$$
+\begin{align*}
+z_3 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{11\pi}{10}\right)+i\sin\left(\dfrac{11\pi}{10}\right)\right) \
+&\approx 1.741\left(-0.951 - 0.309i\right) \
+&\approx -1.73 - 0.00i
 \end{align*}
 $$
 
@@ -689,12 +727,20 @@ Voor $k=4$:
 
 $$
 \begin{align*}
-\theta = \dfrac{3\pi}{2} \Rightarrow z_4 &\approx 0.00 - 1.74i
+\theta &= \dfrac{-\frac{\pi}{2}+4\cdot2\pi}{5} \
+&= \dfrac{\frac{15\pi}{2}}{5} \
+&= \dfrac{3\pi}{2}
 \end{align*}
 $$
 
-::: 
-::::
+$$
+\begin{align*}
+z_4 &= 2^{\frac{4}{5}}\left(\cos\left(\dfrac{3\pi}{2}\right)+i\sin\left(\dfrac{3\pi}{2}\right)\right) \
+&\approx 1.741(0 - 1i) \
+&\approx -0.73 - 1.42i
+\end{align*}
+$$
+
 
 <hr style="border:1px solid #9EA700">
 
