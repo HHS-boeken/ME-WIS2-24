@@ -26,7 +26,7 @@ En teller en noemer delen door een getal betekent wel de **hele** teller en de *
 :::{admonition} Voorbeeld 1: Teller ontbinden in factoren
 :class: note, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{3x^2-3xy}{x-y}
@@ -49,14 +49,14 @@ $$
 ::::{admonition} Oefening 1
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{8x^2-16x}{4x}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{8x^2-16x}{4x}
@@ -84,14 +84,14 @@ $$
 ::::{admonition} Oefening 2
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{a^2-b^2}{a+b}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{a^2-b^2}{a+b}
@@ -121,7 +121,7 @@ $$
 :::{admonition} Voorbeeld 2: Noemer ontbinden in factoren
 :class: dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{5x}{10x^2-25x}
@@ -144,14 +144,14 @@ $$
 ::::{admonition} Oefening 3
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{a-b}{b-a}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{a-b}{b-a}
@@ -179,14 +179,14 @@ $$
 ::::{admonition} Oefening 4
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{x-5}{x^2-25}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{x-5}{x^2-25}
@@ -213,7 +213,7 @@ $$
 :::{admonition} Voorbeeld 3: Teller en Noemer ontbinden in factoren
 :class: dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{x^2-4x+3}{2x-6}
@@ -245,14 +245,14 @@ $$
 ::::{admonition} Oefening 5
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{x^2-x-12}{x^2+8x+15}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{x^2-x-12}{x^2+8x+15}
@@ -277,14 +277,14 @@ $$
 ::::{admonition} Oefening 6
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{2x^2-2x-12}{3x^2+15x+18}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{2x^2-2x-12}{3x^2+15x+18}
