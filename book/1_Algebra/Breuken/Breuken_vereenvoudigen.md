@@ -26,7 +26,7 @@ En teller en noemer delen door een getal betekent wel de **hele** teller en de *
 :::{admonition} Voorbeeld 1: Teller ontbinden in factoren
 :class: note, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{3x^2-3xy}{x-y}
@@ -49,14 +49,14 @@ $$
 ::::{admonition} Oefening 1
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{8x^2-16x}{4x}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{8x^2-16x}{4x}
@@ -84,14 +84,14 @@ $$
 ::::{admonition} Oefening 2
 :class: important, dropdown
 
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{a^2-b^2}{a+b}
 $$
 
 :::{dropdown} Uitwerking
-Vereenvoudig de volgende breuk zzo ver mogeljik en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
+Vereenvoudig de volgende breuk zo ver mogelijk en vermeld de eventuele voorwaarde(n) waaronder ze bestaan:
 
 $$
 \dfrac{a^2-b^2}{a+b}
